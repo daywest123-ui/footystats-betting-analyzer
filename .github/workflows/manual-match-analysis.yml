@@ -1,0 +1,61 @@
+name: Manual Match Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      home:
+        description: 'Ev sahibi takım'
+        required: true
+        type: string
+      away:
+        description: 'Deplasman takımı'
+        required: true
+        type: string
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Analyze public web intelligence
+        env:
+          HOME_TEAM: ${{ inputs.home }}
+          AWAY_TEAM: ${{ inputs.away }}
+        run: |
+          python - <<'PY' > analysis.txt
+          import json, os
+          from app.open_web_intelligence import analyze_match
+          from app.signal_fusion import fuse
+
+          home = os.environ['HOME_TEAM'].strip()
+          away = os.environ['AWAY_TEAM'].strip()
+          web = analyze_match(home, away)
+          # No bookmaker/API probability is assumed. This is public-web intelligence only.
+          fusion = fuse(0.50, web['web_score'], web['confidence'])
+          report = {
+              'match': f'{home} - {away}',
+              'web_intelligence': web,
+              'assessment': fusion,
+              'disclaimer': 'Bu çıktı kamuya açık web verilerinin analizidir; garanti veya kesin bahis tavsiyesi değildir.'
+          }
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+          cat analysis.txt
+
+      - name: Upload analysis report
+        uses: actions/upload-artifact@v4
+        with:
+          name: match-analysis
+          path: analysis.txt
+          retention-days: 7
