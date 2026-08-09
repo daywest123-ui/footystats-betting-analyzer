@@ -25,8 +25,9 @@ jobs:
         run: python -m unittest discover -p 'test_*.py'
 
       - name: Public web smoke test
-        run: python - <<'PY'
-from app.open_web_intelligence import google_news_rss
-items = google_news_rss('football match prediction', 'en', 'US', 3)
-print(f'Public RSS collection successful: {len(items)} items')
-PY
+        run: |
+          python - <<'PY'
+          from app.open_web_intelligence import google_news_rss
+          items = google_news_rss('football match prediction', 'en', 'US', 3)
+          print(f'Public RSS collection successful: {len(items)} items')
+          PY
