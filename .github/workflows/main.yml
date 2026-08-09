@@ -1,12 +1,14 @@
-name: Football Analyzer Tests
+name: Football Analyzer
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 */6 * * *'
 
 jobs:
-  test:
+  analyze:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,3 +33,12 @@ jobs:
           items = google_news_rss('football match prediction', 'en', 'US', 3)
           print(f'Public RSS collection successful: {len(items)} items')
           PY
+
+      - name: Automatic match discovery and analysis
+        run: python app/auto_match_selector.py
+
+      - name: Save latest analysis report
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-auto-analysis
+          path: reports/latest_auto_analysis.json
