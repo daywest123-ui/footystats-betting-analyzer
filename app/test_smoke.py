@@ -8,8 +8,8 @@ class PublicWebSmokeTest(unittest.TestCase):
         items = google_news_rss("football match prediction", "en", "US", 3)
         self.assertIsInstance(items, list)
         for item in items:
-            self.assertIn("title", item)
-            self.assertIn("url", item)
+            self.assertTrue(item.title)
+            self.assertTrue(item.url)
 
 
 if __name__ == "__main__":
