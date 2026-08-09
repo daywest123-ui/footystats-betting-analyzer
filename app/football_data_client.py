@@ -20,10 +20,20 @@ def get_matches(status: str = "SCHEDULED", limit: int = 20) -> dict[str, Any]:
         params={"status": status, "limit": limit},
         timeout=20,
     )
-    response.raise_for_status()
+    if not response.ok:
+        # Never print the API token. The response body normally contains
+        # the provider's useful error message (for example 401/403/quota).
+        raise RuntimeError(
+            f"Football Data API error: HTTP {response.status_code}: {response.text[:500]}"
+        )
     return response.json()
 
 
 if __name__ == "__main__":
     data = get_matches()
-    print(f"Fetched {len(data.get('matches', []))} matches")
+    matches = data.get("matches", [])
+    print(f"API connection successful. Fetched {len(matches)} matches")
+    for match in matches[:5]:
+        home = match.get("homeTeam", {}).get("name", "?")
+        away = match.get("awayTeam", {}).get("name", "?")
+        print(f"- {home} vs {away}")
