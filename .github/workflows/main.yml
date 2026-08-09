@@ -31,13 +31,3 @@ jobs:
           items = google_news_rss('football match prediction', 'en', 'US', 3)
           print(f'Public RSS collection successful: {len(items)} items')
           PY
-
-      - name: Send email connection test
-        if: ${{ secrets.SMTP_USERNAME != '' && secrets.SMTP_PASSWORD != '' }}
-        env:
-          SMTP_HOST: smtp-mail.outlook.com
-          SMTP_PORT: '587'
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          REPORT_TO: day_west_123@hotmail.com
-        run: python app/email_report.py
