@@ -1,4 +1,4 @@
-name: Test Football Data API
+name: Football Analyzer Tests
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  test-api:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,7 +20,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Test API connection
+      - name: Unit tests
+        run: python -m unittest discover -s app -p 'test_*.py'
+
+      - name: Public web smoke test
+        run: python - <<'PY'
+from open_web_intelligence import google_news_rss
+items = google_news_rss('football match prediction', 'en', 'US', 3)
+print(f'Public RSS collection successful: {len(items)} items')
+PY
+
+      - name: Optional Football Data API test
+        if: ${{ secrets.FOOTBALL_DATA_API_KEY != '' }}
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: python app/football_data_client.py
