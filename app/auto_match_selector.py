@@ -1,8 +1,8 @@
 """Automatically discover public football fixtures, score public-web evidence, and select candidates.
 
-No paid API is used and no bet is placed. Fixture discovery uses ESPN's public scoreboard
-API first and falls back to the public scoreboard page; match intelligence uses public
-Google News RSS feeds in Turkish and English.
+No paid API is used and no bet is placed. Fixture discovery uses Sofascore public
+scheduled-events data first, then ESPN JSON/HTML fallbacks; match intelligence uses
+public Google News RSS feeds in Turkish and English.
 """
 from __future__ import annotations
 
@@ -18,7 +18,36 @@ from signal_fusion import fuse
 
 TIMEOUT = 20
 UA = "Mozilla/5.0 (compatible; FootballAnalyzer/1.0)"
+SOFASCORE_API = "https://www.sofascore.com/api/v1/sport/football/scheduled-events"
 ESPN_API = "https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard"
+
+
+def _sofascore_fixtures(date: datetime) -> list[dict]:
+    """Read scheduled football fixtures from Sofascore's public web JSON endpoint."""
+    url = f"{SOFASCORE_API}/{date:%Y-%m-%d}"
+    r = requests.get(
+        url,
+        headers={"User-Agent": UA, "Accept": "application/json", "Referer": "https://www.sofascore.com/"},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    data = r.json()
+    fixtures: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+
+    for event in data.get("events", []):
+        status = (event.get("status") or {}).get("type", "")
+        if status not in {"notstarted", "postponed", "canceled"}:
+            continue
+        home = (event.get("homeTeam") or {}).get("name")
+        away = (event.get("awayTeam") or {}).get("name")
+        if not home or not away or home.strip().lower() == away.strip().lower():
+            continue
+        key = (home.strip(), away.strip())
+        if key not in seen:
+            seen.add(key)
+            fixtures.append({"home": key[0], "away": key[1]})
+    return fixtures
 
 
 def _api_fixtures(date: datetime) -> list[dict]:
@@ -35,8 +64,7 @@ def _api_fixtures(date: datetime) -> list[dict]:
     seen: set[tuple[str, str]] = set()
 
     for event in data.get("events", []):
-        competitions = event.get("competitions") or []
-        for competition in competitions:
+        for competition in event.get("competitions") or []:
             competitors = competition.get("competitors") or []
             home = next((c.get("team", {}).get("displayName") for c in competitors if c.get("homeAway") == "home"), None)
             away = next((c.get("team", {}).get("displayName") for c in competitors if c.get("homeAway") == "away"), None)
@@ -55,7 +83,6 @@ def _html_fixtures(date: datetime) -> list[dict]:
     r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
     r.raise_for_status()
     text = r.text
-
     patterns = [
         r'"(?:displayName|shortDisplayName|name)"\s*:\s*"([^"]+)"',
         r'"team"\s*:\s*\{[^{}]*"(?:displayName|shortDisplayName|name)"\s*:\s*"([^"]+)"',
@@ -63,17 +90,14 @@ def _html_fixtures(date: datetime) -> list[dict]:
     names: list[str] = []
     for pattern in patterns:
         names.extend(re.findall(pattern, text))
-
     teams: list[str] = []
     seen: set[str] = set()
     for name in names:
-        name = name.replace("\\u0026", "&")
-        name = name.replace("\\u0027", "'")
+        name = name.replace("\\u0026", "&").replace("\\u0027", "'")
         name = re.sub(r"\\+", " ", name).strip()
         if name and name not in seen and len(name) < 80:
             seen.add(name)
             teams.append(name)
-
     return [
         {"home": teams[i], "away": teams[i + 1]}
         for i in range(0, len(teams) - 1, 2)
@@ -82,7 +106,15 @@ def _html_fixtures(date: datetime) -> list[dict]:
 
 
 def discover_fixtures(date: datetime) -> list[dict]:
-    """Discover today's fixtures, preferring structured JSON over fragile HTML scraping."""
+    """Discover today's fixtures using three public sources."""
+    try:
+        fixtures = _sofascore_fixtures(date)
+        print(f"Sofascore fixture discovery: {len(fixtures)} fixtures")
+        if fixtures:
+            return fixtures[:30]
+    except (requests.RequestException, ValueError, KeyError) as exc:
+        print(f"Sofascore discovery failed: {type(exc).__name__}: {exc}")
+
     try:
         fixtures = _api_fixtures(date)
         print(f"ESPN API fixture discovery: {len(fixtures)} fixtures")
@@ -123,16 +155,10 @@ def main() -> None:
     }
     out = Path("reports")
     out.mkdir(exist_ok=True)
-    (out / "latest_auto_analysis.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    (out / "latest_auto_analysis.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     for n, item in enumerate(results[:5], 1):
         s = item["signal"]
-        print(
-            f"#{n} {item['home']} - {item['away']} | {s['category']} | "
-            f"probability={s['final_probability']:.1%} | "
-            f"web={item['intelligence']['mentions']} mentions"
-        )
+        print(f"#{n} {item['home']} - {item['away']} | {s['category']} | probability={s['final_probability']:.1%} | web={item['intelligence']['mentions']} mentions")
 
 
 if __name__ == "__main__":
