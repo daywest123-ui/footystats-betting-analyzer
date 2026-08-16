@@ -1,7 +1,7 @@
 """Automatically discover public football fixtures, score public-web evidence, and select candidates.
 
-No paid API is used and no bet is placed. Fixture discovery uses Sofascore public
-scheduled-events data first, then ESPN JSON/HTML fallbacks; match intelligence uses
+No paid API is used and no bet is placed. Fixture discovery uses TheSportsDB's
+free day schedule first, then Sofascore/ESPN fallbacks; match intelligence uses
 public Google News RSS feeds in Turkish and English.
 """
 from __future__ import annotations
@@ -18,8 +18,34 @@ from signal_fusion import fuse
 
 TIMEOUT = 20
 UA = "Mozilla/5.0 (compatible; FootballAnalyzer/1.0)"
+SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php"
 SOFASCORE_API = "https://www.sofascore.com/api/v1/sport/football/scheduled-events"
 ESPN_API = "https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard"
+
+
+def _sportsdb_fixtures(date: datetime) -> list[dict]:
+    """Read soccer fixtures from TheSportsDB's free V1 day-schedule endpoint."""
+    r = requests.get(
+        SPORTSDB_API,
+        params={"d": date.strftime("%Y-%m-%d"), "s": "Soccer"},
+        headers={"User-Agent": UA, "Accept": "application/json"},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    data = r.json()
+    fixtures: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+
+    for event in data.get("events") or []:
+        home = event.get("strHomeTeam")
+        away = event.get("strAwayTeam")
+        if not home or not away or home.strip().lower() == away.strip().lower():
+            continue
+        key = (home.strip(), away.strip())
+        if key not in seen:
+            seen.add(key)
+            fixtures.append({"home": key[0], "away": key[1]})
+    return fixtures
 
 
 def _sofascore_fixtures(date: datetime) -> list[dict]:
@@ -106,22 +132,20 @@ def _html_fixtures(date: datetime) -> list[dict]:
 
 
 def discover_fixtures(date: datetime) -> list[dict]:
-    """Discover today's fixtures using three public sources."""
-    try:
-        fixtures = _sofascore_fixtures(date)
-        print(f"Sofascore fixture discovery: {len(fixtures)} fixtures")
-        if fixtures:
-            return fixtures[:30]
-    except (requests.RequestException, ValueError, KeyError) as exc:
-        print(f"Sofascore discovery failed: {type(exc).__name__}: {exc}")
-
-    try:
-        fixtures = _api_fixtures(date)
-        print(f"ESPN API fixture discovery: {len(fixtures)} fixtures")
-        if fixtures:
-            return fixtures[:30]
-    except (requests.RequestException, ValueError, KeyError) as exc:
-        print(f"ESPN API discovery failed: {type(exc).__name__}: {exc}")
+    """Discover today's fixtures using multiple public sources."""
+    sources = [
+        ("TheSportsDB", _sportsdb_fixtures),
+        ("Sofascore", _sofascore_fixtures),
+        ("ESPN API", _api_fixtures),
+    ]
+    for label, loader in sources:
+        try:
+            fixtures = loader(date)
+            print(f"{label} fixture discovery: {len(fixtures)} fixtures")
+            if fixtures:
+                return fixtures[:30]
+        except (requests.RequestException, ValueError, KeyError) as exc:
+            print(f"{label} discovery failed: {type(exc).__name__}: {exc}")
 
     try:
         fixtures = _html_fixtures(date)
