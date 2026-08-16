@@ -45,7 +45,71 @@ jobs:
           fi
 
       - name: Automatic match discovery and analysis
-        run: python app/auto_match_selector.py
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timedelta, timezone
+          import runpy
+          from app import auto_match_selector as m
+
+          def free_plan_recent_form(team_id, limit=8):
+              if not m.API_FOOTBALL_KEY or not team_id:
+                  return None
+              # The free plan rejects the `last` parameter. The documented
+              # `from`/`to` range is supported, so fetch a recent window and
+              # select the newest completed matches locally.
+              today = datetime.now(timezone.utc).date()
+              start = today - timedelta(days=90)
+              data = m._api_football_get(
+                  'fixtures',
+                  {
+                      'team': team_id,
+                      'from': start.isoformat(),
+                      'to': (today - timedelta(days=1)).isoformat(),
+                      'status': 'FT-AET-PEN',
+                  },
+              )
+              completed = []
+              for item in data.get('response') or []:
+                  fixture = item.get('fixture') or {}
+                  teams = item.get('teams') or {}
+                  goals = item.get('goals') or {}
+                  hs, aw = goals.get('home'), goals.get('away')
+                  status = (fixture.get('status') or {}).get('short')
+                  if status not in {'FT', 'AET', 'PEN'} or hs is None or aw is None:
+                      continue
+                  try:
+                      hs, aw = int(hs), int(aw)
+                  except (TypeError, ValueError):
+                      continue
+                  home = teams.get('home') or {}
+                  away = teams.get('away') or {}
+                  is_home = str(home.get('id')) == str(team_id)
+                  gf, ga = (hs, aw) if is_home else (aw, hs)
+                  completed.append((str(fixture.get('date') or ''), gf, ga, hs, aw))
+              completed.sort(key=lambda x: x[0], reverse=True)
+              completed = completed[:limit]
+              if not completed:
+                  return None
+              pts = gd = over25 = btts = 0.0
+              for _, gf, ga, hs, aw in completed:
+                  pts += 3 if gf > ga else 1 if gf == ga else 0
+                  gd += gf - ga
+                  over25 += int(hs + aw >= 3)
+                  btts += int(hs > 0 and aw > 0)
+              n = len(completed)
+              print(f'API-Football free-plan form: team={team_id} sample={n}')
+              return {
+                  'matches': n,
+                  'points_per_game': pts / n,
+                  'goal_diff_per_game': gd / n,
+                  'over25_rate': over25 / n,
+                  'btts_rate': btts / n,
+                  'source': 'API-Football',
+              }
+
+          m._api_football_recent_form = free_plan_recent_form
+          runpy.run_path('app/auto_match_selector.py', run_name='__main__')
+          PY
 
       - name: Save latest analysis report
         uses: actions/upload-artifact@v4
