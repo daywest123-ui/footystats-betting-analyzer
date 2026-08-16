@@ -27,8 +27,7 @@ ESPN_API = "https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard"
 def _clean_html_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
-    value = re.sub(r"\s+", " ", value).strip()
-    return value
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def _bbc_fixtures(date: datetime) -> list[dict]:
@@ -38,8 +37,8 @@ def _bbc_fixtures(date: datetime) -> list[dict]:
     teams: list[str] = []
     seen: set[str] = set()
     patterns = [
-        r'<span[^>]*class="[^"]*qa-full-team-name[^\"]*"[^>]*>(.*?)</span>',
-        r'<span[^>]*class="[^"]*sp-c-fixture__team-name-trunc[^\"]*"[^>]*>(.*?)</span>',
+        r'<span[^>]*class="[^\"]*qa-full-team-name[^\"]*"[^>]*>(.*?)</span>',
+        r'<span[^>]*class="[^\"]*sp-c-fixture__team-name-trunc[^\"]*"[^>]*>(.*?)</span>',
         r'<span[^>]*data-testid="[^\"]*team[^\"]*"[^>]*>(.*?)</span>',
     ]
     for pattern in patterns:
@@ -48,14 +47,13 @@ def _bbc_fixtures(date: datetime) -> list[dict]:
             if name and len(name) < 80 and name.lower() not in seen:
                 seen.add(name.lower())
                 teams.append(name)
-    return [{"home": teams[i].strip(), "away": teams[i + 1].strip()} for i in range(0, len(teams) - 1, 2)]
+    return [{"home": teams[i], "away": teams[i + 1]} for i in range(0, len(teams) - 1, 2)]
 
 
 def _sportsdb_fixtures(date: datetime) -> list[dict]:
     r = requests.get(SPORTSDB_API, params={"d": date.strftime("%Y-%m-%d"), "s": "Soccer"}, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=TIMEOUT)
     r.raise_for_status()
-    fixtures = []
-    seen = set()
+    fixtures, seen = [], set()
     for event in r.json().get("events") or []:
         home, away = event.get("strHomeTeam"), event.get("strAwayTeam")
         if not home or not away or home.strip().lower() == away.strip().lower():
@@ -120,16 +118,20 @@ def discover_fixtures(date: datetime) -> list[dict]:
     return []
 
 
+def _empty_form() -> dict:
+    return {"matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0, "over25_rate": 0.5, "btts_rate": 0.5}
+
+
 def _recent_form(team_id: str | None) -> dict:
-    """Return compact last-results features from TheSportsDB, when team ID is available."""
+    """Return up to eight recent completed results from TheSportsDB."""
     if not team_id:
-        return {"matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0, "over25_rate": 0.5, "btts_rate": 0.5}
+        return _empty_form()
     try:
         r = requests.get(SPORTSDB_LAST, params={"id": team_id}, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=TIMEOUT)
         r.raise_for_status()
         events = [e for e in (r.json().get("results") or []) if e.get("intHomeScore") is not None and e.get("intAwayScore") is not None][:8]
         if not events:
-            return {"matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0, "over25_rate": 0.5, "btts_rate": 0.5}
+            return _empty_form()
         pts = gd = over25 = btts = 0.0
         for e in events:
             hs, aw = int(e["intHomeScore"]), int(e["intAwayScore"])
@@ -142,29 +144,46 @@ def _recent_form(team_id: str | None) -> dict:
         n = len(events)
         return {"matches": n, "points_per_game": pts / n, "goal_diff_per_game": gd / n, "over25_rate": over25 / n, "btts_rate": btts / n}
     except (requests.RequestException, ValueError, KeyError, TypeError):
-        return {"matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0, "over25_rate": 0.5, "btts_rate": 0.5}
+        return _empty_form()
 
 
 def _stat_probability(home_form: dict, away_form: dict) -> float:
-    """Calibrated heuristic from recent form; deliberately capped to avoid fake certainty."""
-    h_ppg = home_form["points_per_game"]
-    a_ppg = away_form["points_per_game"]
+    """Blend form signals, then cap based on sample size to avoid false certainty."""
+    h_ppg, a_ppg = home_form["points_per_game"], away_form["points_per_game"]
     form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
     gd_edge = max(-1.0, min(1.0, (home_form["goal_diff_per_game"] - away_form["goal_diff_per_game"]) / 3.0))
-    home_advantage = 0.04
-    raw = 0.50 + 0.18 * form_edge + 0.12 * gd_edge + home_advantage
-    return max(0.38, min(0.68, raw))
+    totals_edge = ((home_form["over25_rate"] + away_form["over25_rate"]) / 2.0) - 0.5
+    btts_edge = ((home_form["btts_rate"] + away_form["btts_rate"]) / 2.0) - 0.5
+    raw = 0.50 + 0.16 * form_edge + 0.10 * gd_edge + 0.03 * totals_edge + 0.03 * btts_edge + 0.04
+    n = min(home_form["matches"], away_form["matches"])
+    cap = 0.50 if n < 3 else 0.55 if n < 5 else 0.62 if n < 8 else 0.68
+    floor = 1.0 - cap
+    return max(floor, min(cap, raw))
 
 
 def score_fixture(fixture: dict) -> dict:
     home_form = _recent_form(fixture.get("home_id"))
     away_form = _recent_form(fixture.get("away_id"))
+    min_matches = min(home_form["matches"], away_form["matches"])
     stat_probability = _stat_probability(home_form, away_form)
     intel = analyze_match(fixture["home"], fixture["away"])
     web_score = float(intel.get("web_score", 0.0))
     confidence = float(intel.get("confidence", 0.0))
     fused = fuse(stat_probability, web_score, confidence)
-    return {**fixture, "form": {"home": home_form, "away": away_form}, "intelligence": intel, "signal": fused}
+    if min_matches < 3:
+        status = "INSUFFICIENT_DATA"
+        fused["final_probability"] = 0.5
+        fused["category"] = "AVOID"
+    elif min_matches < 5:
+        status = "LOW_SAMPLE"
+        fused["final_probability"] = min(0.55, max(0.45, float(fused.get("final_probability", 0.5))))
+    elif min_matches < 8:
+        status = "MEDIUM_SAMPLE"
+        fused["final_probability"] = min(0.62, max(0.38, float(fused.get("final_probability", 0.5))))
+    else:
+        status = "FULL_SAMPLE"
+        fused["final_probability"] = min(0.68, max(0.32, float(fused.get("final_probability", 0.5))))
+    return {**fixture, "data_quality": {"min_recent_matches": min_matches, "status": status}, "form": {"home": home_form, "away": away_form}, "intelligence": intel, "signal": fused}
 
 
 def main() -> None:
@@ -172,20 +191,27 @@ def main() -> None:
     fixtures = discover_fixtures(now)
     print(f"Total fixtures selected for analysis: {len(fixtures)}")
     results = [score_fixture(f) for f in fixtures]
+    eligible = [r for r in results if r["data_quality"]["min_recent_matches"] >= 5]
+    eligible.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
     results.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
+    print(f"Eligible matches (>=5 recent matches per team): {len(eligible)}")
     report = {
         "generated_at": now.isoformat(),
-        "mode": "automatic_selection_form_web_no_bet",
+        "mode": "automatic_selection_form_web_calibrated_no_bet",
         "fixtures_scanned": len(results),
-        "model_notes": "Recent form + goal-difference heuristic fused with capped public-web evidence; probability is a ranking signal, not a guarantee.",
-        "top_matches": results[:5],
+        "eligible_matches": len(eligible),
+        "model_notes": "Form + goal difference + Over2.5/BTTS heuristics fused with public-web evidence. Minimum 5 recent matches required for an eligible signal; probabilities are capped by sample size and are not guarantees.",
+        "top_matches": eligible[:5],
+        "all_scanned": results[:30],
     }
     out = Path("reports")
     out.mkdir(exist_ok=True)
     (out / "latest_auto_analysis.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    for n, item in enumerate(results[:5], 1):
+    for n, item in enumerate(eligible[:5], 1):
         s = item["signal"]
-        print(f"#{n} {item['home']} - {item['away']} | {s['category']} | probability={s['final_probability']:.1%} | form={item['form']['home']['points_per_game']:.2f}/{item['form']['away']['points_per_game']:.2f} | web={item['intelligence']['mentions']} mentions")
+        print(f"#{n} {item['home']} - {item['away']} | {s['category']} | probability={s['final_probability']:.1%} | sample={item['data_quality']['min_recent_matches']} | form={item['form']['home']['points_per_game']:.2f}/{item['form']['away']['points_per_game']:.2f} | web={item['intelligence']['mentions']} mentions")
+    if not eligible:
+        print("NO BET: no match has at least 5 recent completed matches for both teams.")
 
 
 if __name__ == "__main__":
