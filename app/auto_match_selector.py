@@ -20,6 +20,7 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/151 Safari/537.3
 BBC_URL = "https://www.bbc.co.uk/sport/football/scores-fixtures"
 SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php"
 SPORTSDB_LAST = "https://www.thesportsdb.com/api/v1/json/123/eventslast.php"
+SPORTSDB_SEASON = "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php"
 SOFASCORE_API = "https://www.sofascore.com/api/v1/sport/football/scheduled-events"
 ESPN_API = "https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard"
 
@@ -122,27 +123,76 @@ def _empty_form() -> dict:
     return {"matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0, "over25_rate": 0.5, "btts_rate": 0.5}
 
 
+def _score_events(team_id: str, events: list[dict], limit: int = 8) -> dict:
+    completed = []
+    for e in events:
+        hs_raw, aw_raw = e.get("intHomeScore"), e.get("intAwayScore")
+        if hs_raw is None or aw_raw is None:
+            continue
+        try:
+            hs, aw = int(hs_raw), int(aw_raw)
+        except (TypeError, ValueError):
+            continue
+        date_raw = e.get("dateEvent") or e.get("strTimestamp") or ""
+        try:
+            event_date = str(date_raw)[:10]
+            if event_date and event_date > datetime.now(timezone.utc).date().isoformat():
+                continue
+        except Exception:
+            pass
+        completed.append((e, hs, aw))
+    completed.sort(key=lambda x: str(x[0].get("dateEvent") or x[0].get("strTimestamp") or ""), reverse=True)
+    completed = completed[:limit]
+    if not completed:
+        return _empty_form()
+    pts = gd = over25 = btts = 0.0
+    for e, hs, aw in completed:
+        is_home = str(e.get("idHomeTeam")) == str(team_id)
+        gf, ga = (hs, aw) if is_home else (aw, hs)
+        pts += 3 if gf > ga else 1 if gf == ga else 0
+        gd += gf - ga
+        over25 += int(hs + aw >= 3)
+        btts += int(hs > 0 and aw > 0)
+    n = len(completed)
+    return {"matches": n, "points_per_game": pts / n, "goal_diff_per_game": gd / n, "over25_rate": over25 / n, "btts_rate": btts / n}
+
+
 def _recent_form(team_id: str | None) -> dict:
-    """Return up to eight recent completed results from TheSportsDB."""
+    """Return up to eight recent completed results.
+
+    TheSportsDB's eventslast endpoint is useful but can be sparse for some teams.
+    When it returns fewer than five usable matches, fall back to the current and
+    previous season event lists for the same team and merge/deduplicate them.
+    """
     if not team_id:
         return _empty_form()
     try:
         r = requests.get(SPORTSDB_LAST, params={"id": team_id}, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=TIMEOUT)
         r.raise_for_status()
-        events = [e for e in (r.json().get("results") or []) if e.get("intHomeScore") is not None and e.get("intAwayScore") is not None][:8]
-        if not events:
-            return _empty_form()
-        pts = gd = over25 = btts = 0.0
-        for e in events:
-            hs, aw = int(e["intHomeScore"]), int(e["intAwayScore"])
-            is_home = str(e.get("idHomeTeam")) == str(team_id)
-            gf, ga = (hs, aw) if is_home else (aw, hs)
-            pts += 3 if gf > ga else 1 if gf == ga else 0
-            gd += gf - ga
-            over25 += int(hs + aw >= 3)
-            btts += int(hs > 0 and aw > 0)
-        n = len(events)
-        return {"matches": n, "points_per_game": pts / n, "goal_diff_per_game": gd / n, "over25_rate": over25 / n, "btts_rate": btts / n}
+        last_events = r.json().get("results") or []
+        quick = _score_events(str(team_id), last_events, 8)
+        if quick["matches"] >= 5:
+            return quick
+
+        now = datetime.now(timezone.utc)
+        season_candidates = [f"{now.year}-{now.year + 1}", f"{now.year - 1}-{now.year}", f"{now.year - 2}-{now.year - 1}"]
+        merged: dict[str, dict] = {}
+        for season in season_candidates:
+            try:
+                sr = requests.get(SPORTSDB_SEASON, params={"id": team_id, "s": season}, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=TIMEOUT)
+                sr.raise_for_status()
+                for event in sr.json().get("events") or []:
+                    event_id = str(event.get("idEvent") or f"{event.get('dateEvent')}|{event.get('strHomeTeam')}|{event.get('strAwayTeam')}")
+                    merged[event_id] = event
+            except (requests.RequestException, ValueError, KeyError, TypeError):
+                continue
+            if len(merged) >= 12:
+                break
+        # Include the fast endpoint too; season feeds occasionally omit a match.
+        for event in last_events:
+            event_id = str(event.get("idEvent") or f"{event.get('dateEvent')}|{event.get('strHomeTeam')}|{event.get('strAwayTeam')}")
+            merged[event_id] = event
+        return _score_events(str(team_id), list(merged.values()), 8)
     except (requests.RequestException, ValueError, KeyError, TypeError):
         return _empty_form()
 
