@@ -10,6 +10,8 @@ on:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,6 +35,14 @@ jobs:
           items = google_news_rss('football match prediction', 'en', 'US', 3)
           print(f'Public RSS collection successful: {len(items)} items')
           PY
+
+      - name: API-Football configuration check
+        run: |
+          if [ -n "$API_FOOTBALL_KEY" ]; then
+            echo "API-Football key configured: yes"
+          else
+            echo "API-Football key configured: no (fallback sources will be used)"
+          fi
 
       - name: Automatic match discovery and analysis
         run: python app/auto_match_selector.py
