@@ -55,14 +55,17 @@ jobs:
               if not m.API_FOOTBALL_KEY or not team_id:
                   return None
               today = datetime.now(timezone.utc).date()
-              start = today - timedelta(days=90)
+              start = today - timedelta(days=365)
+              # API-Football free plans reject `last`; use team + season + date range
+              # and select the latest completed fixtures locally.
+              season = today.year
               data = m._api_football_get(
                   'fixtures',
                   {
                       'team': team_id,
+                      'season': season,
                       'from': start.isoformat(),
                       'to': (today - timedelta(days=1)).isoformat(),
-                      'status': 'FT-AET-PEN',
                   },
               )
               completed = []
@@ -86,7 +89,7 @@ jobs:
               completed.sort(key=lambda x: x[0], reverse=True)
               completed = completed[:limit]
               if not completed:
-                  print(f'API-Football free-plan form: team={team_id} sample=0')
+                  print(f'API-Football free-plan form: team={team_id} season={season} sample=0')
                   return None
               pts = gd = over25 = btts = 0.0
               for _, gf, ga, hs, aw in completed:
@@ -95,7 +98,7 @@ jobs:
                   over25 += int(hs + aw >= 3)
                   btts += int(hs > 0 and aw > 0)
               n = len(completed)
-              print(f'API-Football free-plan form: team={team_id} sample={n}')
+              print(f'API-Football free-plan form: team={team_id} season={season} sample={n}')
               return {
                   'matches': n,
                   'points_per_game': pts / n,
