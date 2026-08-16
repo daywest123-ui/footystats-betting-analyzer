@@ -48,15 +48,11 @@ jobs:
         run: |
           python - <<'PY'
           from datetime import datetime, timedelta, timezone
-          import runpy
           from app import auto_match_selector as m
 
           def free_plan_recent_form(team_id, limit=8):
               if not m.API_FOOTBALL_KEY or not team_id:
                   return None
-              # The free plan rejects the `last` parameter. The documented
-              # `from`/`to` range is supported, so fetch a recent window and
-              # select the newest completed matches locally.
               today = datetime.now(timezone.utc).date()
               start = today - timedelta(days=90)
               data = m._api_football_get(
@@ -108,7 +104,7 @@ jobs:
               }
 
           m._api_football_recent_form = free_plan_recent_form
-          runpy.run_path('app/auto_match_selector.py', run_name='__main__')
+          m.main()
           PY
 
       - name: Save latest analysis report
