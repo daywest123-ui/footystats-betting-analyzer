@@ -1,4 +1,4 @@
-name: Football Analyzer
+name: Multi-Sport Analyzer
 
 on:
   workflow_dispatch:
@@ -29,91 +29,31 @@ jobs:
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
 
-      - name: Public web smoke test
-        run: |
-          python - <<'PY'
-          from app.open_web_intelligence import google_news_rss
-          items = google_news_rss('football match prediction', 'en', 'US', 3)
-          print(f'Public RSS collection successful: {len(items)} items')
-          PY
-
-      - name: API-Football configuration check
+      - name: API-Sports configuration check
         run: |
           if [ -n "$API_FOOTBALL_KEY" ]; then
-            echo "API-Football key configured: yes"
+            echo "API-Sports key configured: yes"
           else
-            echo "API-Football key configured: no (fallback sources will be used)"
+            echo "API-Sports key configured: no"
+            exit 1
           fi
 
-      - name: Automatic match discovery and analysis
-        run: |
-          python - <<'PY'
-          from datetime import datetime, timedelta, timezone
-          from app import auto_match_selector as m
+      - name: Run multi-sport scanner and build coupons
+        run: python -m app.multi_sport_coupon
 
-          def free_plan_recent_form(team_id, limit=8):
-              if not m.API_FOOTBALL_KEY or not team_id:
-                  return None
-              today = datetime.now(timezone.utc).date()
-              start = today - timedelta(days=365)
-              # API-Football free plans reject `last`; use team + season + date range
-              # and select the latest completed fixtures locally.
-              season = today.year
-              data = m._api_football_get(
-                  'fixtures',
-                  {
-                      'team': team_id,
-                      'season': season,
-                      'from': start.isoformat(),
-                      'to': (today - timedelta(days=1)).isoformat(),
-                  },
-              )
-              completed = []
-              for item in data.get('response') or []:
-                  fixture = item.get('fixture') or {}
-                  teams = item.get('teams') or {}
-                  goals = item.get('goals') or {}
-                  hs, aw = goals.get('home'), goals.get('away')
-                  status = (fixture.get('status') or {}).get('short')
-                  if status not in {'FT', 'AET', 'PEN'} or hs is None or aw is None:
-                      continue
-                  try:
-                      hs, aw = int(hs), int(aw)
-                  except (TypeError, ValueError):
-                      continue
-                  home = teams.get('home') or {}
-                  away = teams.get('away') or {}
-                  is_home = str(home.get('id')) == str(team_id)
-                  gf, ga = (hs, aw) if is_home else (aw, hs)
-                  completed.append((str(fixture.get('date') or ''), gf, ga, hs, aw))
-              completed.sort(key=lambda x: x[0], reverse=True)
-              completed = completed[:limit]
-              if not completed:
-                  print(f'API-Football free-plan form: team={team_id} season={season} sample=0')
-                  return None
-              pts = gd = over25 = btts = 0.0
-              for _, gf, ga, hs, aw in completed:
-                  pts += 3 if gf > ga else 1 if gf == ga else 0
-                  gd += gf - ga
-                  over25 += int(hs + aw >= 3)
-                  btts += int(hs > 0 and aw > 0)
-              n = len(completed)
-              print(f'API-Football free-plan form: team={team_id} season={season} sample={n}')
-              return {
-                  'matches': n,
-                  'points_per_game': pts / n,
-                  'goal_diff_per_game': gd / n,
-                  'over25_rate': over25 / n,
-                  'btts_rate': btts / n,
-                  'source': 'API-Football',
-              }
+      - name: Run legacy football analyzer
+        continue-on-error: true
+        run: python -m app.auto_match_selector
 
-          m._api_football_recent_form = free_plan_recent_form
-          m.main()
-          PY
+      - name: Save multi-sport coupon
+        uses: actions/upload-artifact@v4
+        with:
+          name: multi-sport-coupon
+          path: reports/multi_sport_coupon.json
 
-      - name: Save latest analysis report
+      - name: Save legacy analysis if present
         uses: actions/upload-artifact@v4
         with:
           name: latest-auto-analysis
           path: reports/latest_auto_analysis.json
+          if-no-files-found: ignore
