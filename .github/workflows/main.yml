@@ -45,6 +45,20 @@ jobs:
         continue-on-error: true
         run: python -m app.auto_match_selector
 
+      - name: Show result in GitHub Actions
+        if: always()
+        run: |
+          echo "## 📊 Çoklu Spor Analiz Sonucu" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f reports/multi_sport_coupon.json ]; then
+            cat reports/multi_sport_coupon.json >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo '---' >> "$GITHUB_STEP_SUMMARY"
+            echo "### Ham çıktı" >> "$GITHUB_STEP_SUMMARY"
+            cat reports/multi_sport_coupon.json
+          else
+            echo "Rapor oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Save multi-sport coupon
         uses: actions/upload-artifact@v4
         with:
