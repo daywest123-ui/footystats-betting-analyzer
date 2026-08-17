@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
       PYTHONPATH: ${{ github.workspace }}/app
     steps:
       - name: Checkout
@@ -29,14 +30,10 @@ jobs:
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
 
-      - name: API-Sports configuration check
+      - name: API configuration check
         run: |
-          if [ -n "$API_FOOTBALL_KEY" ]; then
-            echo "API-Sports key configured: yes"
-          else
-            echo "API-Sports key configured: no"
-            exit 1
-          fi
+          test -n "$API_FOOTBALL_KEY" && echo "API-Sports key configured: yes" || { echo "API-Sports key configured: no"; exit 1; }
+          test -n "$THE_ODDS_API_KEY" && echo "The Odds API key configured: yes" || { echo "The Odds API key configured: no"; exit 1; }
 
       - name: Run multi-sport scanner and build coupons
         run: python -m app.multi_sport_coupon
