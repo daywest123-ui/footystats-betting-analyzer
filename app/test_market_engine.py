@@ -1,4 +1,4 @@
-from app.market_engine import analyze_candidate
+from market_engine import analyze_candidate
 
 def test_low_odds_rejected():
     r = analyze_candidate("A vs B", "MS1", 1.30, .80, .76, .72)
