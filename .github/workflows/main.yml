@@ -33,7 +33,7 @@ jobs:
       - name: API configuration check
         run: |
           test -n "$API_FOOTBALL_KEY" && echo "API-Sports key configured: yes" || { echo "API-Sports key configured: no"; exit 1; }
-          test -n "$THE_ODDS_API_KEY" && echo "The Odds API key configured: yes" || { echo "The Odds API key configured: no"; exit 1; }
+          if [ -n "$THE_ODDS_API_KEY" ]; then echo "The Odds API key configured: yes"; else echo "The Odds API key configured: no (optional; continuing with API-Football)"; fi
 
       - name: Run multi-sport scanner and build coupons
         run: python -m app.multi_sport_coupon
