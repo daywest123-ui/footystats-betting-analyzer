@@ -1,0 +1,50 @@
+name: Daily Football Value Scanner
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours; GitHub cron uses UTC.
+    - cron: '15 */6 * * *'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      PYTHONPATH: ${{ github.workspace }}/app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Run tests
+        working-directory: app
+        run: python -m unittest discover -p 'test_*.py'
+      - name: Run automatic fixture scan
+        run: python -m app.auto_match_selector
+      - name: Publish analysis summary
+        if: always()
+        run: |
+          echo "## ⚽ Ultimate Betting Analyzer" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f reports/latest_auto_analysis.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          p=json.load(open("reports/latest_auto_analysis.json", encoding="utf-8"))
+          print(f"Fixtures scanned: {p.get('fixtures_scanned',0)}")
+          print(f"Eligible matches: {p.get('eligible_matches',0)}")
+          print("")
+          for i,x in enumerate(p.get("top_matches",[])[:5],1):
+              s=x.get("signal",{})
+              print(f"{i}. {x.get('home')} vs {x.get('away')} — {s.get('category')} — model {s.get('final_probability',0):.1%}")
+          if not p.get("top_matches"):
+              print("**NO BET: yeterli veriyle uygun aday bulunamadı.**")
+          PY
+          fi
+      - name: Save daily report
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-football-analysis
+          path: reports/latest_auto_analysis.json
+          if-no-files-found: ignore
