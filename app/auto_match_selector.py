@@ -302,6 +302,30 @@ def _recent_form(team_id: str | int | None) -> dict:
         return _empty_form()
 
 
+def _market_probabilities(home_form: dict, away_form: dict, intelligence: dict | None = None) -> dict:
+    """Generate conservative probabilities for supported markets from form evidence."""
+    h_o, a_o = home_form.get("over25_rate", .5), away_form.get("over25_rate", .5)
+    h_b, a_b = home_form.get("btts_rate", .5), away_form.get("btts_rate", .5)
+    h_ppg, a_ppg = home_form.get("points_per_game", 1.0), away_form.get("points_per_game", 1.0)
+    goal_signal = (h_o + a_o) / 2
+    btts_signal = (h_b + a_b) / 2
+    home_signal = 0.50 + max(-.18, min(.18, (h_ppg - a_ppg) / 6))
+    intel_shift = 0.0
+    if intelligence:
+        intel_shift = max(-.05, min(.05, float(intelligence.get("web_score", 0)) * .05))
+
+    def engines(base):
+        base = max(.35, min(.80, base))
+        return (base, max(.35, min(.80, base + intel_shift)), max(.35, min(.80, base + intel_shift / 2)))
+
+    return {
+        "btts_yes": engines(.42 + btts_signal * .30),
+        "over_2_5": engines(.42 + goal_signal * .30),
+        "over_1_5": engines(.58 + goal_signal * .22),
+        "home_win": engines(home_signal),
+    }
+
+
 def _stat_probability(home_form: dict, away_form: dict) -> float:
     h_ppg, a_ppg = home_form["points_per_game"], away_form["points_per_game"]
     form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
