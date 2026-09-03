@@ -1,0 +1,2 @@
+# Local-only dependencies. Not required by GitHub Actions.
+selenium>=4.20,<5
