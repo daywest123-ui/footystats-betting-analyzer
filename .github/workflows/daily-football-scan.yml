@@ -53,6 +53,21 @@ jobs:
           else
             echo "### Rapor üretilemedi" >> "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Publish latest report to repository
+        if: success() && github.event_name != 'pull_request'
+        run: |
+          if [ -f reports/latest_auto_analysis.json ]; then
+            mkdir -p reports
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/latest_auto_analysis.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Update latest automated analysis [skip ci]"
+              git push
+            else
+              echo "Report unchanged; nothing to commit."
+            fi
+          fi
       - name: Save daily report
         uses: actions/upload-artifact@v4
         with:
