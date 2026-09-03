@@ -389,18 +389,26 @@ def main() -> None:
         "data_sources": ["API-Football" if API_FOOTBALL_KEY else "API-Football (not configured)", "TheSportsDB", "public web"],
         "fixtures_scanned": len(results),
         "eligible_matches": len(eligible),
-        "model_notes": "API-Football is the primary structured fixture/form source when configured. TheSportsDB remains fallback. Minimum 5 recent matches required; probabilities are capped by sample size and are not guarantees.",
+        "model_notes": "Live odds are filtered through three-engine consensus, minimum 1.55 odds, positive value edge and NO BET discipline. Probabilities are estimates, not guarantees.",
         "top_matches": eligible[:5],
         "all_scanned": results[:30],
     }
     out = Path("reports")
     out.mkdir(exist_ok=True)
     (out / "latest_auto_analysis.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    for n, item in enumerate(eligible[:5], 1):
-        s = item["signal"]
-        print(f"#{n} {item['home']} - {item['away']} | {s['category']} | probability={s['final_probability']:.1%} | sample={item['data_quality']['min_recent_matches']} | form={item['form']['home']['points_per_game']:.2f}/{item['form']['away']['points_per_game']:.2f} | sources={item['form']['home'].get('source')}/{item['form']['away'].get('source')}")
-    if not eligible:
-        print("NO BET: no match has at least 5 recent completed matches for both teams.")
+    print("\n===== ULTIMATE BETTING ANALYZER RESULT =====")
+    print(f"Fixtures scanned: {len(results)} | Eligible: {len(eligible)}")
+    if eligible:
+        for n, item in enumerate(eligible[:5], 1):
+            best = next(m for m in item["market_analysis"] if m.get("decision") == "ANALYZE")
+            print(
+                f"#{n} | {item['home']} vs {item['away']} | {best['market']} | "
+                f"odds={best['odds']:.2f} | model={best['model_probability_pct']}% | "
+                f"value={best['value_edge_pct']:+.2f}% | consensus={best['consensus']} | "
+                f"confidence={best['confidence_10']}/10"
+            )
+    else:
+        print("NO BET: kriterleri geçen market bulunamadı.")
 
 
 if __name__ == "__main__":
