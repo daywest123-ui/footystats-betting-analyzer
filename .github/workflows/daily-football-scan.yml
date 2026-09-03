@@ -27,20 +27,31 @@ jobs:
       - name: Publish analysis summary
         if: always()
         run: |
-          echo "## ⚽ Ultimate Betting Analyzer" >> "$GITHUB_STEP_SUMMARY"
+          echo "## ⚽ Ultimate Betting Analyzer — Son Tarama" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
           if [ -f reports/latest_auto_analysis.json ]; then
             python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
           p=json.load(open("reports/latest_auto_analysis.json", encoding="utf-8"))
-          print(f"Fixtures scanned: {p.get('fixtures_scanned',0)}")
-          print(f"Eligible matches: {p.get('eligible_matches',0)}")
+          rows=[]
+          for item in p.get("top_matches",[])[:5]:
+              eligible=[m for m in item.get("market_analysis",[]) if m.get("decision")=="ANALYZE"]
+              if eligible:
+                  m=eligible[0]
+                  rows.append((item.get("home"),item.get("away"),m))
+          print(f"**Taranan maç:** {p.get('fixtures_scanned',0)} | **Uygun aday:** {len(rows)}")
           print("")
-          for i,x in enumerate(p.get("top_matches",[])[:5],1):
-              s=x.get("signal",{})
-              print(f"{i}. {x.get('home')} vs {x.get('away')} — {s.get('category')} — model {s.get('final_probability',0):.1%}")
-          if not p.get("top_matches"):
-              print("**NO BET: yeterli veriyle uygun aday bulunamadı.**")
+          if rows:
+              print("| # | Maç | Market | Oran | Model | Value | Güven |")
+              print("|---|---|---|---:|---:|---:|---:|")
+              for i,(h,a,m) in enumerate(rows,1):
+                  print(f"| {i} | {h} vs {a} | {m['market']} | {m['odds']:.2f} | %{m['model_probability_pct']} | %{m['value_edge_pct']:+.2f} | {m['confidence_10']}/10 |")
+          else:
+              print("### NO BET")
+              print("Kriterleri geçen market bulunamadı.")
           PY
+          else
+            echo "### Rapor üretilemedi" >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Save daily report
         uses: actions/upload-artifact@v4
