@@ -17,6 +17,7 @@ import requests
 
 from open_web_intelligence import analyze_match
 from signal_fusion import fuse
+from odds_pipeline import analyze_fixture_markets
 
 TIMEOUT = 20
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/151 Safari/537.36"
@@ -367,13 +368,24 @@ def main() -> None:
     fixtures = discover_fixtures(now)
     print(f"Total fixtures selected for analysis: {len(fixtures)}")
     results = [score_fixture(f) for f in fixtures]
-    eligible = [r for r in results if r["data_quality"]["min_recent_matches"] >= 5]
-    eligible.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
+    for item in results:
+        item["market_analysis"] = []
+        if item["data_quality"]["min_recent_matches"] < 5 or not item.get("fixture_id"):
+            continue
+        try:
+            probs = _market_probabilities(item["form"]["home"], item["form"]["away"], item.get("intelligence"))
+            item["market_analysis"] = analyze_fixture_markets(
+                item, probs, min(1.0, item["data_quality"]["min_recent_matches"] / 8)
+            )
+        except (requests.RequestException, ValueError, RuntimeError, KeyError) as exc:
+            item["odds_error"] = f"{type(exc).__name__}: {exc}"
+    eligible = [r for r in results if any(m.get("decision") == "ANALYZE" for m in r.get("market_analysis", []))]
+    eligible.sort(key=lambda x: max([m.get("confidence_10", 0) for m in x.get("market_analysis", [])] or [0]), reverse=True)
     results.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
     print(f"Eligible matches (>=5 recent matches per team): {len(eligible)}")
     report = {
         "generated_at": now.isoformat(),
-        "mode": "automatic_selection_api_football_form_web_calibrated_no_bet",
+        "mode": "automatic_selection_live_odds_three_engine_value_filter_no_bet",
         "data_sources": ["API-Football" if API_FOOTBALL_KEY else "API-Football (not configured)", "TheSportsDB", "public web"],
         "fixtures_scanned": len(results),
         "eligible_matches": len(eligible),
