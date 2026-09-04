@@ -1,1 +1,4 @@
-from draw_engine import run\nif __name__=='__main__': run()\n
+from draw_engine import run
+
+if __name__ == '__main__':
+    run()
