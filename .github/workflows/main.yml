@@ -28,11 +28,6 @@ jobs:
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
 
-      - name: API configuration check
-        run: |
-          test -n "$API_FOOTBALL_KEY" && echo "API-Sports key configured: yes" || { echo "API-Sports key configured: no"; exit 1; }
-          if [ -n "$THE_ODDS_API_KEY" ]; then echo "The Odds API key configured: yes"; else echo "The Odds API key configured: no (optional; continuing with API-Football)"; fi
-
       - name: Run keyless open-data football analyzer
         run: python -m app.auto_match_selector
 
