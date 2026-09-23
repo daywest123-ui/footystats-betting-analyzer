@@ -6,6 +6,11 @@ on:
     # Every 6 hours; GitHub cron uses UTC.
     - cron: '15 */6 * * *'
 
+# The workflow commits the generated report back to this repository.
+# Keep the token scoped to repository contents only.
+permissions:
+  contents: write
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -69,6 +74,7 @@ jobs:
             fi
           fi
       - name: Save daily report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: daily-football-analysis
