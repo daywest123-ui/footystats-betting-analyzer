@@ -29,6 +29,7 @@ SOFASCORE_API = "https://www.sofascore.com/api/v1/sport/football/scheduled-event
 ESPN_API = "https://site.api.espn.com/apis/site/v2/sports/soccer/scoreboard"
 API_FOOTBALL_BASE = "https://v3.football.api-sports.io"
 API_FOOTBALL_KEY = os.getenv("API_FOOTBALL_KEY", "").strip()
+API_FOOTBALL_HEALTH = {"configured": bool(API_FOOTBALL_KEY), "status": "unknown" if API_FOOTBALL_KEY else "not_configured", "error": None}
 MAX_API_FIXTURES = 8  # keeps the free 100/day quota comfortable with the 6-hour schedule
 
 
@@ -50,7 +51,13 @@ def _api_football_get(endpoint: str, params: dict) -> dict:
     r.raise_for_status()
     data = r.json()
     if data.get("errors"):
-        raise RuntimeError(str(data["errors"]))
+        errors = data["errors"]
+        if isinstance(errors, dict) and "token" in errors:
+            API_FOOTBALL_HEALTH["status"] = "auth_error"
+            API_FOOTBALL_HEALTH["error"] = str(errors)
+        raise RuntimeError(str(errors))
+    API_FOOTBALL_HEALTH["status"] = "ok"
+    API_FOOTBALL_HEALTH["error"] = None
     return data
 
 
@@ -383,8 +390,15 @@ def main() -> None:
     eligible.sort(key=lambda x: max([m.get("confidence_10", 0) for m in x.get("market_analysis", [])] or [0]), reverse=True)
     results.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
     print(f"Eligible matches (>=5 recent matches per team): {len(eligible)}")
+    source_degraded = API_FOOTBALL_HEALTH["status"] == "auth_error"
     report = {
         "generated_at": now.isoformat(),
+        "run_status": "DEGRADED_DATA_SOURCE" if source_degraded else "OK",
+        "decision_status": "NO_BET_DATA_UNAVAILABLE" if source_degraded else ("NO_BET" if not eligible else "BET_CANDIDATES"),
+        "source_health": {
+            "api_football": API_FOOTBALL_HEALTH,
+            "fallback_sources_used": sorted({str(r.get("source")) for r in results if r.get("source")}),
+        },
         "mode": "automatic_selection_live_odds_three_engine_value_filter_no_bet",
         "data_sources": ["API-Football" if API_FOOTBALL_KEY else "API-Football (not configured)", "TheSportsDB", "public web"],
         "fixtures_scanned": len(results),
@@ -408,7 +422,11 @@ def main() -> None:
                 f"confidence={best['confidence_10']}/10"
             )
     else:
-        print("NO BET: kriterleri geçen market bulunamadı.")
+        if source_degraded:
+            print("DATA SOURCE ERROR: API-Football anahtarı geçersiz/eksik; fallback verisi karar üretmek için yeterli değil.")
+            print("NO BET kararı üretilmedi; veri kalitesi nedeniyle seçim bloke edildi.")
+        else:
+            print("NO BET: kriterleri geçen market bulunamadı.")
 
 
 if __name__ == "__main__":
