@@ -46,7 +46,7 @@ jobs:
               if eligible:
                   m=eligible[0]
                   rows.append((item.get("home"),item.get("away"),m))
-          print(f"**Taranan maç:** {p.get('fixtures_scanned',0)} | **Uygun aday:** {len(rows)}")
+          print(f"**Durum:** {p.get('run_status','UNKNOWN')} | **Taranan maç:** {p.get('fixtures_scanned',0)} | **Uygun aday:** {len(rows)}")
           print("")
           if rows:
               print("| # | Maç | Market | Oran | Model | Value | Güven |")
@@ -54,8 +54,12 @@ jobs:
               for i,(h,a,m) in enumerate(rows,1):
                   print(f"| {i} | {h} vs {a} | {m['market']} | {m['odds']:.2f} | %{m['model_probability_pct']} | %{m['value_edge_pct']:+.2f} | {m['confidence_10']}/10 |")
           else:
-              print("### NO BET")
-              print("Kriterleri geçen market bulunamadı.")
+              if p.get("run_status") == "DEGRADED_DATA_SOURCE":
+                  print("### VERİ KAYNAĞI HATASI")
+                  print("Ana veri kaynağı doğrulanamadı; fallback verisi karar üretmek için yeterli değil.")
+              else:
+                  print("### NO BET")
+                  print("Kriterleri geçen market bulunamadı.")
           PY
           else
             echo "### Rapor üretilemedi" >> "$GITHUB_STEP_SUMMARY"
