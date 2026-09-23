@@ -17,7 +17,6 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     env:
-      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       PYTHONPATH: ${{ github.workspace }}/app
     steps:
       - uses: actions/checkout@v4
