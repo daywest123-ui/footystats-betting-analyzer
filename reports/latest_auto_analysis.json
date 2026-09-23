@@ -1,5 +1,17 @@
 {
-  "generated_at": "2026-09-23T11:42:10.106474+00:00",
+  "generated_at": "2026-09-23T11:43:57.813683+00:00",
+  "run_status": "DEGRADED_DATA_SOURCE",
+  "decision_status": "NO_BET_DATA_UNAVAILABLE",
+  "source_health": {
+    "api_football": {
+      "configured": true,
+      "status": "auth_error",
+      "error": "{'token': 'Error/Missing application key. Go to https://www.api-football.com/documentation-v3 to learn how to get your API application key.'}"
+    },
+    "fallback_sources_used": [
+      "TheSportsDB"
+    ]
+  },
   "mode": "automatic_selection_live_odds_three_engine_value_filter_no_bet",
   "data_sources": [
     "API-Football",
@@ -61,10 +73,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Birmingham Legion vs Brooklyn FC | Wednesday 12:00 PM - brooklynfootballclub.com",
+            "title": "Match Preview: Birmingham Legion vs Brooklyn FC | Wednesday 12:00 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTDhYTWZnaVRSTXhRSzY2bU5QWHBZN2ZlbGFwVnBfZ3ZTZDFNT2x0WTBKVmhUenRkWXdZTXZrWnBiNGlCdFBwRkMzTTRLQ2otVTJCYzE0WjY1Yy1hMUlmaGw0VFJMcGphYTBCR3d0WU1sNGNhbEloLXQzVElMWWlocHdnS3haWWJUaTBUdG84eEJZR0tuWGVjaUo0Umk2Q0VGQVJlZzhvb3l4SXBZ?oc=5",
             "published": "Tue, 22 Sep 2026 14:46:44 GMT",
-            "text": "Match Preview: Birmingham Legion vs Brooklyn FC | Wednesday 12:00 PM brooklynfootballclub.com",
+            "text": "Match Preview: Birmingham Legion vs Brooklyn FC | Wednesday 12:00 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -115,10 +127,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Brooklyn FC hosts first-ever Beach Night this Saturday - brooklynfootballclub.com",
+            "title": "Brooklyn FC hosts first-ever Beach Night this Saturday - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0lVRWZ4V2p2WWpzUVdmXzFjaXR1NWRTRzhsYzc4cmRUc24tZHFKQXdYMlR5VkhZOHBOMHFKMU5NWDI4VEwxMG1UWGMwd0psTDQwcUsybVlQbkZBNjdTb1EzTGQtVUo3dFUyQXNJcmQwUWNMSjhRUk5rUFppaFd1ZmQ2UjNtV1E2QW9nNFJmQjJiamR4UlU1emxvQy1vMFJSTkc5Rm1tV0RNRm9UMDRTYWtjNkxWdGg3RXl6QVpsRHI1YnNpNG1UTFhHWV9ra0dL?oc=5",
             "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "text": "Brooklyn FC hosts first-ever Beach Night this Saturday brooklynfootballclub.com",
+            "text": "Brooklyn FC hosts first-ever Beach Night this Saturday Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -178,37 +190,37 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Brooklyn FC to co-host FREE soccer-basketball crossover clinic this Saturday - brooklynfootballclub.com",
+            "title": "Brooklyn FC to co-host FREE soccer-basketball crossover clinic this Saturday - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWFlcm9qNkx0OHpyNE1UbnhJbG9McW5OT29QV0doVXFlVzN3Qm56NFkxdk1HSEpoUmNIYlFkNmhfSEVZZENGcXpZSWJjNHQ2ZGNYZ1pOTzRUdHRPSDg4d1JyWFpHbDl2cmpiUE5Cbm02Tmd2dlBkZmJjQldvWUhrSWF5NXRKOGIxQmoxY1hfbE5XX1JZOTJPLXFhTk9VRHMxd3RLdnFDUF90dUxGWDV1NURWZXhydWVMUjNlaDRsV0tUVXlqR2xKbHZR?oc=5",
             "published": "Mon, 03 Aug 2026 07:00:00 GMT",
-            "text": "Brooklyn FC to co-host FREE soccer-basketball crossover clinic this Saturday brooklynfootballclub.com",
+            "text": "Brooklyn FC to co-host FREE soccer-basketball crossover clinic this Saturday Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Brooklyn FC vs FC Tulsa | Saturday 7:00 PM - brooklynfootballclub.com",
+            "title": "Match Preview: Brooklyn FC vs FC Tulsa | Saturday 7:00 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOW12eTZzMmw1MTllVGtYeW5wYXM3VGllZU5vbWlMU20zYUZhNmNiVkc1OG52NndIaG9ILS1JMUZNR3ZmdVBiMWw0V3RSX3RpMW5hVU1VY2U4OUlpN1FxeU05T0VYZUFqTHN4MEIxYlRQemRNR2hFaGRqUVpwWF9rMTNVRlJwcW5uc0VlQ3ExMi1rVkpXcnFjWkY5ZXFvZWVrUGppTWM4NlF5MW1wY3VxQ0gxTTFvRFpqdWRrcDJKQzNjNFk?oc=5",
             "published": "Thu, 17 Sep 2026 22:36:04 GMT",
-            "text": "Match Preview: Brooklyn FC vs FC Tulsa | Saturday 7:00 PM brooklynfootballclub.com",
+            "text": "Match Preview: Brooklyn FC vs FC Tulsa | Saturday 7:00 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "U.S. Open Cup Preview: 2026 First Round Defined by High-Stakes, Regional Rivalries - US Soccer",
+            "title": "U.S. Open Cup Preview: 2026 First Round Defined by High-Stakes, Regional Rivalries - U.S. Soccer",
             "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa1J3bThBWExoQ3lqcHVvWFNtc3hSV2tOX1dIUUlrekpxZzBXS04zT2IwZDgtQmZyR3F5OVVuSHgtNV84OXIzYTJMTjBYVFpSQXZtdDI5T2JfcHhZNHk2RlJrT0JscGtKMXZ1Q0pMT3dOZVNQTF8yXzN6S2pDRU9ITkVVNTI0a2lFeVhtcTEzaERTYUxsT29jX2EwOUdXd3hnOHl3aW1JTzFFX0U2T3c5S21OUnVVUXYwUEhFTQ?oc=5",
             "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-            "text": "U.S. Open Cup Preview: 2026 First Round Defined by High-Stakes, Regional Rivalries US Soccer",
+            "text": "U.S. Open Cup Preview: 2026 First Round Defined by High-Stakes, Regional Rivalries U.S. Soccer",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Brooklyn FC vs Miami FC | Saturday 7:00 PM - brooklynfootballclub.com",
+            "title": "Match Preview: Brooklyn FC vs Miami FC | Saturday 7:00 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1YNTRlUGhBUFRCMU1YX0pwNjU1Q1hKZlFPQ1dZazdVeEZKbWlhbFdZNUZUZmZRQXV3Qm1MMGs2bjRSeXZTbXNXRlI3d0trUXdzX1dRWXg1X2Q1bVg4b0V6aEh4bHIzampjdkpGS3o3dnE2dUpYWW84NmJsbm0yVUN0MzlRekV1bGVycGNsZnRzZ3BGaEo1Z0NnOENjY2xSZHpOSEtfd3U5ZUdn?oc=5",
             "published": "Fri, 11 Sep 2026 01:43:46 GMT",
-            "text": "Match Preview: Brooklyn FC vs Miami FC | Saturday 7:00 PM brooklynfootballclub.com",
+            "text": "Match Preview: Brooklyn FC vs Miami FC | Saturday 7:00 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -223,10 +235,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Indy Eleven vs Brooklyn FC | Tuesday 7:00 PM - brooklynfootballclub.com",
+            "title": "Match Preview: Indy Eleven vs Brooklyn FC | Tuesday 7:00 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3FQdDA1dzF5ZGc3Wm5Kc3J5QVpJMUJDdV9QTVAxa1dvN3lnVVRFYVJRRVpsVXp1WTl2UU5fVDU3WmRjSFdFMzJSRXVkcGlVdVJwTHBxVXFrTFNtUDFyX0tTMXpNaWJMb0g1TGpoZTMzZlgzZnVqZWlTQVJNM3pUaGZZWDFicWdsVF9YNWdaOWxnYzU1?oc=5",
             "published": "Mon, 14 Sep 2026 00:10:15 GMT",
-            "text": "Match Preview: Indy Eleven vs Brooklyn FC | Tuesday 7:00 PM brooklynfootballclub.com",
+            "text": "Match Preview: Indy Eleven vs Brooklyn FC | Tuesday 7:00 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -250,10 +262,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Brooklyn FC vs Charleston Battery - brooklynfootballclub.com",
+            "title": "Match Preview: Brooklyn FC vs Charleston Battery - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZkpPMFRUMGRCbkpyWGdvaWdVbzRGRXllUWZuZWtLRXViX3ZmTlZMQVRhbGl3OE5lelNha1V5NVc3NVgyWjJESXZ0d2hrZVE1MzZWb0tyMU9xamgwTmRtUWFhYk1xZF9DWG82ZHZRbkt5anYxc2JEbi1IX2psYVJqY0lGQTZUY04xbXlqNk9NaFFwX0owa3hjblJB?oc=5",
             "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-            "text": "Match Preview: Brooklyn FC vs Charleston Battery brooklynfootballclub.com",
+            "text": "Match Preview: Brooklyn FC vs Charleston Battery Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -286,10 +298,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Kickoff Times - brooklynfootballclub.com",
+            "title": "Kickoff Times - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT1lVNG0zMHkyYnpEd2lNa3p2d2Nxd1c3OU5GN08xeTh3dGdyU1ZkU1pHeFJNS252NEpYb1NCN2p0M0JTc3FqYUZncGdkTkMwdWRFS05idU0tN0ZNeHhRalVmQTNlZVI4ancwZ0NXOWpGUXRZMzZLVXNTb2ZuSEx3b1g5UHNlUQ?oc=5",
             "published": "Thu, 15 Jan 2026 08:00:00 GMT",
-            "text": "Kickoff Times brooklynfootballclub.com",
+            "text": "Kickoff Times Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -367,10 +379,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Charleston Battery vs Brooklyn FC | Saturday, 7:30 PM - brooklynfootballclub.com",
+            "title": "GAME PREVIEW: Rhode Island FC at Birmingham Legion FC | August 1, 2026 - Rhode Island FC",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmdMUU5FdWc5V3ZjcHN2WFlUQnd0Y0VZRGxIYXZaZ3doMUt4S3paemU5VkdwT2JIRTFuMUdIX0RjTGs5Ui1nem9KUDYzZWE3bmNDME1vZ040NkpCdnNDMEc0WWlHWjYzV25mMHNyMlQtVGRFcVhxbEJmMEgtR1hCUkxhLUVwdmNHSFBzMnhyX1d1bThZbDlwMi0tcnFtY1g1RjBFbg?oc=5",
+            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+            "text": "GAME PREVIEW: Rhode Island FC at Birmingham Legion FC | August 1, 2026 Rhode Island FC",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Match Preview: Charleston Battery vs Brooklyn FC | Saturday, 7:30 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdUFia1R2NzhJVTZqbmlBeFUyM1UwczZTSG9jYUN6Wl9kcjMxQ0Nvb0cyQTRLRFFfWWthNFNqY05tdHp5RVdZRjc1S0VSb1p2dnFKX2l1M1VWVlhRQkw2SG1QeHQ1eDZhdEg3Yk92WE9lNEVHTE9LMVIwWHdnc05nQjlsRVlLbF9LTE1DQXktd0NrMmVJR1B4bTUyblpyRGt6dFVTajQwZW1xQ0tydmZuNEVn?oc=5",
             "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-            "text": "Match Preview: Charleston Battery vs Brooklyn FC | Saturday, 7:30 PM brooklynfootballclub.com",
+            "text": "Match Preview: Charleston Battery vs Brooklyn FC | Saturday, 7:30 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -385,19 +406,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match Preview: Brooklyn FC vs San Antonio FC | Saturday, 7 PM - brooklynfootballclub.com",
+            "title": "Match Preview: Brooklyn FC vs San Antonio FC | Saturday, 7 PM - Brooklyn FC",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTDJoUWhFME1MbXNfTWljYkQtNW5zNXgzdVpocklDQUxTU0JtcTRpeWktY0hxVVBBVWtSU050NU05UUE5M2hEYUllSm9CSDF6NGxWTWZrMUZsR0llU0VseHUza293Ql9DdEF0ZGswZHczRXZmQXdnd1g4eDMzdDR5SlN5R1JZTGcweWRDNV9PblZqVTJ6dDY5R243ZGFBSmY4TFJPOXBQNzY3V2s?oc=5",
             "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-            "text": "Match Preview: Brooklyn FC vs San Antonio FC | Saturday, 7 PM brooklynfootballclub.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Birmingham Legion vs Brooklyn FC: predictions, odds, head to head, where to watch, and more! - APWin",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMGNJVW4wS3lsMWFYZjZMbUJHU0lIM3d3TDFScllNdDNtNXJWRHVVZENhMVlYekxSUm16SmpxVUtSdHFfc3A5QjJPdkpUcnVRUjdMUzBWemVZaWp6eldKX3E0bk5tbC03N2VjaktiMjItVGxILUZxVEljRWtIY2YtMWhBRU1aNU9IcEJOeXNMWW96NDkybnJyLTlwSEVCWW4zOHRYQy1SekJKdw?oc=5",
-            "published": "Mon, 21 Sep 2026 00:59:16 GMT",
-            "text": "Birmingham Legion vs Brooklyn FC: predictions, odds, head to head, where to watch, and more! APWin",
+            "text": "Match Preview: Brooklyn FC vs San Antonio FC | Saturday, 7 PM Brooklyn FC",
             "language": "en",
             "sentiment": 0.0
           }
@@ -446,7 +458,7 @@
         }
       },
       "intelligence": {
-        "mentions": 47,
+        "mentions": 50,
         "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
@@ -456,10 +468,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Independiente Santa Fe vs Deportivo Cali: Primera A stats & head-to-head - bbc.com",
+            "title": "Independiente Santa Fe vs Deportivo Cali: Primera A stats & head-to-head - BBC",
             "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PQWxsNXV4bEd3cHpvclFZUkUwb0ZJYW5wYll3STAtUXVpUHlQZXdzbEtSRVZEdEx4Y3FNVmNKNnY3SVJxeU5BREljQ1FZVkRFM1V2VFR5NWpfS1EzN21nanJfTQ?oc=5",
             "published": "Mon, 21 Sep 2026 06:31:09 GMT",
-            "text": "Independiente Santa Fe vs Deportivo Cali: Primera A stats & head-to-head bbc.com",
+            "text": "Independiente Santa Fe vs Deportivo Cali: Primera A stats & head-to-head BBC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -474,10 +486,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ivan Scarpeta stats and ratings - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vR3pUbU5lUFp5QS16bFJ3WGYwSUhhYmxPNFpXNml1cmNxSUhZWVJTY2N3dGtQa19PZFlMM25lOWl3aXM5dGlmS0FyaG1sYlc0a081aU82R3B6bkFkbHN4aHFfSE1ud2ZxWThIMEUyZmY?oc=5",
-            "published": "Tue, 28 Apr 2026 08:39:17 GMT",
-            "text": "Ivan Scarpeta stats and ratings Sofascore",
+            "title": "Ewil Murillo Renteria stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DckVGdTRkcjZFMi1sRTkwQWRMdERfNnh5YTJiT3pfRlJ0VHJPOElfcHk2aW5HYlZpVHU5anVGV0U1dUJpWTEtS1I5REZEeElJYUFXWDRxTXZ3UDl0NVV1NHJlM3RVbm5LbGZid290WVdNbGhMSGUtbE12WQ?oc=5",
+            "published": "Mon, 27 Apr 2026 20:30:07 GMT",
+            "text": "Ewil Murillo Renteria stats and ratings Sofascore",
             "language": "en",
             "sentiment": 0.0
           },
@@ -496,6 +508,15 @@
             "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWZiSFNtbDhTX251RHBwTHFiN25DdklrbEtfdTRnVGVWdk5oaHlsenI4dE5TQmItZlZtYXpoRE5UYWJPSm5iQXFtTXpHUmpyRmZzeGhjcXpfNWExNXg4MUE4TklBVENGOEFZa20xalZHamFWY1FKR3VDbTZwcE1EZ19GRWdEanJiMEhOVExsUzkxcElGNDUzUWVpM180bjF4b1E?oc=5",
             "published": "Wed, 07 Jan 2026 13:47:24 GMT",
             "text": "Fortaleza FC VS Deportivo Cali: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ivan Scarpeta stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vR3pUbU5lUFp5QS16bFJ3WGYwSUhhYmxPNFpXNml1cmNxSUhZWVJTY2N3dGtQa19PZFlMM25lOWl3aXM5dGlmS0FyaG1sYlc0a081aU82R3B6bkFkbHN4aHFfSE1ud2ZxWThIMEUyZmY?oc=5",
+            "published": "Tue, 28 Apr 2026 08:39:17 GMT",
+            "text": "Ivan Scarpeta stats and ratings Sofascore",
             "language": "en",
             "sentiment": 0.0
           },
@@ -537,24 +558,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ind Santa Fe W Standings, Matches and Scores - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZOEJvWXlVeHNLbXpGdDNkRUZ2VTNNcVhIb3pDSG82clcybUZvVHpjYkUzeVQxU2dKXzFlU1l6U1pZcHQ5THA2N24tRFRWaFpMU3MzUEx5OWNQc0JRb0xpd0lNYw?oc=5",
-            "published": "Sun, 26 Apr 2026 23:39:50 GMT",
-            "text": "Ind Santa Fe W Standings, Matches and Scores Futbol24",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Internacional de Bogota VS Independiente Santa Fe: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2NIYS1TSjJINkZxN1I2S0RYOUhyZ3hGeHJoLTkzR05WRC13bTJzNWMxQzcxU2ItRHdQUjBEQWpKX2RMWkNUa0VIY2I2OXdIdThGbV9XdGNqTFFXMk9lMHlVZjJPWmJBVEJnMW9XOGJQWUdsaW9HOW5JYjA4MDFJTDd5ZGUwUjdfNjQxbG5hTUpjSXJYd2pIOWduRUZ1UmNiTzdvV0Z3NVRvSUhOLTdJcmpPS3FtUQ?oc=5",
-            "published": "Sun, 14 Dec 2025 05:58:19 GMT",
-            "text": "Internacional de Bogota VS Independiente Santa Fe: Live Scores, Lineups, H2H & Odds 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Santa Fe vs. Cali (23 Sep, 2026) Live Score - ESPN",
             "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RcGRJLWF2SDE5bnhZOE9vQUhrbnYyMzlhLTA4UGdMQWt6R1kweWZIbmxwLXpLeThqSi1UQnpDNl9zVElPM2hfNzA4R3RMNUtXemNrM3FnTFNlU1pJZ0tyaC1DM1dMQjJO?oc=5",
             "published": "Wed, 23 Sep 2026 01:17:53 GMT",
@@ -564,10 +567,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Gustavo Cuéllar stats and ratings - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wczRaVnBQUjAtbTMtUkpsR2FqaGN0QVJ0R2JhZ1Rja2dYNFVYOEVkTmpIQzFZMDNDUlg1MjFacDc3bERwclNNcnVHeG40SjQ4MUFQZHdWczRhWnFxSzU3NXZ2ZmFNLTlGM21BbFF0V2JzQQ?oc=5",
-            "published": "Tue, 17 Jun 2025 09:35:56 GMT",
-            "text": "Gustavo Cuéllar stats and ratings Sofascore",
+            "title": "Andrea Gómez (Deportivo Cali (W)) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FeXFweFhiU1VhVXhYOWN1MFJBSFN4YlIzcFotMHgyU1ZTYy1oRlI4R1duNmpYcTJYSkJkbmZNVDZVSTNiZW5Oa1c4bmtZZEFpNmRxRnZEcC1tTXlDRkVNVkVOVDRyU2ZCcDRaeHFR?oc=5",
+            "published": "Sat, 21 Oct 2023 11:30:10 GMT",
+            "text": "Andrea Gómez (Deportivo Cali (W)) - Bio, stats and news 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -582,10 +585,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Valeria Cardenas (Deportivo Cali (W)) - Bio, stats and news - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BcHo0RHE1dDdvNmZvZ2JFSUx4NUV1cG1JTkV3bk9aZDQ2X2IwRnNMRlpUY21PMnJIOUNkeHJ0NzhxdzdEVVFvWTktTEY4UHdVR3ZlQ0Jhak04enk1TS1OYXctWlNzQ1Uxd3FrZ3BNbTljR3YxVjMxZ2ZuNA?oc=5",
-            "published": "Wed, 21 Feb 2024 07:44:46 GMT",
-            "text": "Valeria Cardenas (Deportivo Cali (W)) - Bio, stats and news 365Scores",
+            "title": "Gustavo Cuéllar stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wczRaVnBQUjAtbTMtUkpsR2FqaGN0QVJ0R2JhZ1Rja2dYNFVYOEVkTmpIQzFZMDNDUlg1MjFacDc3bERwclNNcnVHeG40SjQ4MUFQZHdWczRhWnFxSzU3NXZ2ZmFNLTlGM21BbFF0V2JzQQ?oc=5",
+            "published": "Tue, 17 Jun 2025 09:35:56 GMT",
+            "text": "Gustavo Cuéllar stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pasto 1-2 Santa Fe (Apr 23, 2026) Final Score - ESPN",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQelRvTDZQcGRobDRQZTE0WGRBcThSWmpYX3ZUM3A5cmFxTUlpUEhvdW5mbHowaE5BUXdmZ1BVSW54RjZrSm5lU0tKZldUemhZRXdiU2hxSG1HLUpwQnFQT3IwU1M4c1FNUGpmQUdjZTVuaG01M2ZZYnRUWVBnaE90TFhXZGNRek5FQ1RvbVFYeDZNVXNXYXc?oc=5",
+            "published": "Thu, 15 Jan 2026 18:29:05 GMT",
+            "text": "Pasto 1-2 Santa Fe (Apr 23, 2026) Final Score ESPN",
             "language": "en",
             "sentiment": 0.0
           },
@@ -636,10 +648,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Santa Fe vs Deportivo Cali prediction: team news, lineups, expert analysis - RatingBet",
+            "title": "Santa Fe vs Deportivo Cali prediction: team news, lineups, expert analysis - ratingbet.com",
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWDRWRkpIUTB6R2JNNVV1dTE0RFJ5S2VIVGEtWUJua3hsWmhzRWxwckQ5OWRqX05hRUtjeXU4TVJPYU8yZ1ZFTGxYcXphSjFreFZnMUZnRm9JekhFQVRZaXY3Ml9veWM4LVp0elBQdU5rclJGaGx3S1dCVU0xaDV0U0VLdTdYbFhWRG1qRV8yM2c1X3ZoYnpjUzNHUHRPa0h4a3QzNUFTRUpLdw?oc=5",
             "published": "Mon, 21 Sep 2026 15:31:10 GMT",
-            "text": "Santa Fe vs Deportivo Cali prediction: team news, lineups, expert analysis RatingBet",
+            "text": "Santa Fe vs Deportivo Cali prediction: team news, lineups, expert analysis ratingbet.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -735,6 +747,24 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Nicolás Benedetti stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Mc1FtaUd5N2tPU19KUWVEdU9zeDhQaWZWcVlhSDJvOEYxQ1NiSUlUMWloQVNXc1JCTURyV2J5ZzJaNVNZSlZ2RFIyTlk0MU9tSFJETTNGVWtVQmZxZjhlV2hhRUpNVDhKX0ZDMEs0LWlySkFk?oc=5",
+            "published": "Mon, 30 Jun 2025 07:07:04 GMT",
+            "text": "Nicolás Benedetti stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Deportivo Cali VS Boyaca Chico: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSDVaWXRuYlZKUEdiOUtJaFEtZ0laZF9mRkdWQUNOQnpkblpNWnVzVmRBcHBTOFNrcFY4bDAxdE9PT3ZRUUR5c0ZxNHJiSVJfWWR0OGVZcUFvOVdvZHVvNjFOcU1IUmVaSTNSOVZFQUxJRGFySFhWcjg5ZEtkUGd6SXR3alpVb1BIc2hiajQyUmd3aThJZzVPTjhqaWdsejZf?oc=5",
+            "published": "Mon, 12 Feb 2024 04:36:27 GMT",
+            "text": "Deportivo Cali VS Boyaca Chico: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Santa Fe vs Corinthians Prediction, Betting Tips, Lineups & Odds | 06 May 2026 - Sportsgambler",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVnQ5dFgxcXAxaGRhYk1IOUhlOXZrUnBxWUotaUU4d25DS2hDOTIydmdhLWZuZG1paXZObzlrRDRwdnpHNlZjZjU3VTRqVXVMUVI1bGF0UHNYejJWMDZrYTlMTXZsU2hxemtFTXdOaVo3SElZVHloS2dnbmNRUUdya2JvSnoyTHpOdW1VUkFmVnBzeWdFeWNMNU9XV1RCOV93aVNPVEFvOGV2OUU0RDFSNw?oc=5",
             "published": "Wed, 06 May 2026 07:00:00 GMT",
@@ -780,10 +810,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Fortaleza CEIF - Deportivo Cali, 25 Eki 2026 - Liga Dimayor Finalización - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83cENtdzhhbUZlWjU1cWxaR2pjOGxPbnVrNGNqRGcyRmRGd3ZvdDdZNThtWVV4VUR0MVZCU0NjZU1OQ1J1Ym93ZzgycDNvVFVTeE9vRmN5WUMxeEU4MFRxM1U4bkFxNUJlNnpxS1B0UnhoUFpFR1IxWmZscTQ?oc=5",
-            "published": "Tue, 22 Sep 2026 14:46:22 GMT",
-            "text": "Fortaleza CEIF - Deportivo Cali, 25 Eki 2026 - Liga Dimayor Finalización - Maç raporu Transfermarkt",
+            "title": "Deportivo Pereira - Deportivo Cali, 25 Tem 2022 - Liga Dimayor Finalización - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUVBBb2tZMW5LNDZkcnpNR3BtMkowekF5MHBBdkJOdVVLNkxhTThuSmdSMmZsaTdUSUtlekdjQWFyZ2lnd2VYTVhLWTd4bkhUdjFPYUktSnFtRWs4akJWQ2xucXRLbzR6eDd1Yjd0Tk9NaFFxX3l3QWplOFJJa2NFUmh3dDlNb2hxRnQ1RUl1UnlISHgtMHkxWFgwbm5MQQ?oc=5",
+            "published": "Tue, 22 Sep 2026 17:34:22 GMT",
+            "text": "Deportivo Pereira - Deportivo Cali, 25 Tem 2022 - Liga Dimayor Finalización - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Independiente Santa Fe - Deportes Tolima, 12 Eyl 2026 - Liga Dimayor Finalización - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxTldVckNUbDNVc3laYUZuaHkwS09DX3N1bU5OYWZWQW1fSGw3SW5jaGRSWldCdXdBU0FEMzRUV3R6eEVVRGZybXdEbG5EaklZMW40bl9SSktvUmlUeF9hQjRhMm4wdmF3RmNnT0E3dWlCbjhJOWN0U3ZQN2M?oc=5",
+            "published": "Fri, 11 Sep 2026 22:28:33 GMT",
+            "text": "Independiente Santa Fe - Deportes Tolima, 12 Eyl 2026 - Liga Dimayor Finalización - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Deportivo Cali - Cúcuta Deportivo Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkF4ems4Vm0xRF9YdDlTTXlkRldmaVBBSFhZTGY2YUE5U29JdW90clc1d2JrSGl3UnZFazFxQkVMc0RZY0l5Rmo0RjdoTW9meW1CcGVtMmkyRk1QVXZXb1d1MFdGWEZqTkQ3VGw0Z0VXeU56WXdGNS1VOWlhMW9iT29uSUNMSG5nSDJ0Nnc3UDJHY1ZCbzRFU0lFTS1fcTlVQUk3RG01dndjODhvR2dEY0lKeFRPODhndGJZSHZB?oc=5",
+            "published": "Mon, 21 Sep 2026 04:46:07 GMT",
+            "text": "Deportivo Cali - Cúcuta Deportivo Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -798,10 +846,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Deportivo Cali - Cúcuta Deportivo Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkF4ems4Vm0xRF9YdDlTTXlkRldmaVBBSFhZTGY2YUE5U29JdW90clc1d2JrSGl3UnZFazFxQkVMc0RZY0l5Rmo0RjdoTW9meW1CcGVtMmkyRk1QVXZXb1d1MFdGWEZqTkQ3VGw0Z0VXeU56WXdGNS1VOWlhMW9iT29uSUNMSG5nSDJ0Nnc3UDJHY1ZCbzRFU0lFTS1fcTlVQUk3RG01dndjODhvR2dEY0lKeFRPODhndGJZSHZB?oc=5",
-            "published": "Mon, 21 Sep 2026 04:46:07 GMT",
-            "text": "Deportivo Cali - Cúcuta Deportivo Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
+            "title": "Deportivo Pasto Vs Fortaleza FC: canlı skorlar, kadrolar ve H2H - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXhKTGduemxzLW1SWGozUTcySmpRRUY5YVpFdm42Z2p6S0JKYlJMbndPRlFqWkdRSE5RdG5fTWJZOEhFcEJ4cU5IOElCWVFBNzhrOGd0SXBmaXZoZE1nTEFPUlZrSm0wakxTS2pROU9xdUpnWlpTZEZLOUVxdHlqazNNN3FQdUtDV2oxQlItMHktRUhWWGdEeDQ3TWE2RUtPNXNBOElvSQ?oc=5",
+            "published": "Tue, 06 Jan 2026 22:59:13 GMT",
+            "text": "Deportivo Pasto Vs Fortaleza FC: canlı skorlar, kadrolar ve H2H 365Scores",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -825,28 +873,19 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Fortaleza CEIF - Deportivo Cali, 25 Eki 2026 - Liga Dimayor Finalización - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83cENtdzhhbUZlWjU1cWxaR2pjOGxPbnVrNGNqRGcyRmRGd3ZvdDdZNThtWVV4VUR0MVZCU0NjZU1OQ1J1Ym93ZzgycDNvVFVTeE9vRmN5WUMxeEU4MFRxM1U4bkFxNUJlNnpxS1B0UnhoUFpFR1IxWmZscTQ?oc=5",
+            "published": "Tue, 22 Sep 2026 14:46:22 GMT",
+            "text": "Fortaleza CEIF - Deportivo Cali, 25 Eki 2026 - Liga Dimayor Finalización - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Antony Otero - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM0wyMU5WX1VMSUtaeDhYQjd2ejJ6RmxEeXVjTWVQZFh1UzJqdVphbmRoWE1TbHduZjh3anI1Q0ZNZHIxMnpRLUJoNDZUQm1GNzR3aU85V3dqZWdpT0ZVeUhNcXVSMXF2SGhIMVQ2UHh6SkpXSjBWSkMyNWx3Ui13dzR6eUdrWk9SYmNJY1R4MzhWSmpUQ0FMLV9BM3hLZDJXXzJfeGFER1ZwRFJWRmJTUkpfdGwzb05ndGRLTXkwOGtOWC15aFFQZ3JR?oc=5",
             "published": "Thu, 17 Sep 2026 11:47:17 GMT",
             "text": "Antony Otero Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Independiente Santa Fe - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbjE3U0ZBOE5qX3RoQ3J2Q1dfYmZMcmV6Qks4cTJtSEgxOFluM3lzalNUVjRGX0tJbXd0QWVRVnpQMWdTeEdkTlIwck9sbHpwZ01fTEVBaGpSVWpheGJuOGdOeXZEXzk2Z0hlSE9YR3ZDRThFSG1PaHpqR3lzRWJXa2NVQmUtMXg3a3hNcG4xd011aWIzcDNCTFpB?oc=5",
-            "published": "Sun, 20 Jul 2025 05:49:25 GMT",
-            "text": "Independiente Santa Fe Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Cúcuta Deportivo - Millonarios FC, 14 Eyl 2026 - Liga Dimayor Finalización - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82enpNTk9KeWFnN3oxcDZKTFRoQUhETWs0U3d6bDBQeVZ6cjBxZHFELVpMTFVZanBKZDJyRzRmS1RPVmJGXzdUeVg0cks5R1VMYXVLTGoxNTVtQkUzXzNES0wxTTUwbUZCcURvQUlvMWZLM2FWYnFtR0FEWUo?oc=5",
-            "published": "Mon, 14 Sep 2026 11:54:06 GMT",
-            "text": "Cúcuta Deportivo - Millonarios FC, 14 Eyl 2026 - Liga Dimayor Finalización - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -922,7 +961,7 @@
         }
       },
       "intelligence": {
-        "mentions": 25,
+        "mentions": 26,
         "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
@@ -933,18 +972,9 @@
           {
             "source": "Google News RSS",
             "title": "ADT 1-1 Cienciano (5 Mar, 2025) Final Score - ESPN",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5nOTZ4bVd4R1Y1YUk1Y1hyeXNVNXVIaFJlZHVLVUFCQU9Oa2R5cHhmajA2bEJJSEUyNlc2bmQ0ME50MHhJb1MweWpaUURMRFBmMjIxQzlyRm95ekRGTEc0SzRlWEl0SXdsQV9ncDYtZHBYb2s5aThGMg?oc=5",
-            "published": "Tue, 22 Sep 2026 18:51:17 GMT",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GRmxNclRSdDlZR1V5T2p4c3B1VVBaT3ZacWdPWDBTOFNLRzRDYTlGcXNHWm9pOTJ4bU9INjBWeXI0VXBpQVRUenhwYVVmV3NqSU5BdlVHdEo0b1k4N3FKS05xSW9aNWExUDZRVTAwNi1Ec1lCbWc?oc=5",
+            "published": "Tue, 22 Sep 2026 22:24:15 GMT",
             "text": "ADT 1-1 Cienciano (5 Mar, 2025) Final Score ESPN",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "ADT - Cienciano, Result, Match Info - Forza Football",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zYUd3NHZ4c1hfSlAyUW1PTllHQ1dTWU9vUzlKZlVOX0RBMVg5em01bm4yQzg5Q29ZOGRaMFdVcWw5dTB6dmdzREVydVc0QU1ybDY0azktUHJkVGJRVGQza2VnbWhRdTg?oc=5",
-            "published": "Sun, 20 Sep 2026 23:05:16 GMT",
-            "text": "ADT - Cienciano, Result, Match Info Forza Football",
             "language": "en",
             "sentiment": 0.0
           },
@@ -954,6 +984,15 @@
             "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MTDhRRjRyMDBHRkJDRGFJSFpCYjI5aHc2UnY2VVV2ckJ3M2x1V2g3U1BqaV9zR2FCa2tJRmtxcVNBcEwwVUVJeXR4MjR0bGtZSjZFTjBzWGdScFRpS1Zlb2prd05sZw?oc=5",
             "published": "Tue, 22 Sep 2026 15:23:48 GMT",
             "text": "ADT vs. Cienciano (23 Sep, 2026) Live Score ESPN",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "ADT - Cienciano, Result, Match Info - Forza Football",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zYUd3NHZ4c1hfSlAyUW1PTllHQ1dTWU9vUzlKZlVOX0RBMVg5em01bm4yQzg5Q29ZOGRaMFdVcWw5dTB6dmdzREVydVc0QU1ybDY0azktUHJkVGJRVGQza2VnbWhRdTg?oc=5",
+            "published": "Sun, 20 Sep 2026 23:05:16 GMT",
+            "text": "ADT - Cienciano, Result, Match Info Forza Football",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1148,10 +1187,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "AD Tarma vs Cienciano prediction: expert analysis, possible lineups, September 23, 2026 - RatingBet",
+            "title": "AD Tarma vs Cienciano prediction: expert analysis, possible lineups, September 23, 2026 - ratingbet.com",
             "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1YwNEtQRzBjWUtWMUNCVGlidWZnWUtWZkdEX291NFY0RzFUU0JrZDQ5aFg0bjV2bjNETmM1c01UdnY1Z25tV04teDh0OGZyb3h0OVVXSmVBdF9ld1QzOVllcTB5WGhvTVBVb1VrelFhdDNRcE5kWUZoZnF1SXhxMk9NcFFKalpvWEpIZU9zU29lVUJrQ0NGYW1BMHdnOVlUTXR0OUo2cXp4NEJYVS1PRjB5LVVHT0ZGOUE?oc=5",
             "published": "Mon, 21 Sep 2026 15:22:57 GMT",
-            "text": "AD Tarma vs Cienciano prediction: expert analysis, possible lineups, September 23, 2026 RatingBet",
+            "text": "AD Tarma vs Cienciano prediction: expert analysis, possible lineups, September 23, 2026 ratingbet.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Juan Pablo II College vs Cienciano - Watch Online for Free - APWin",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ0ZPb0laUm55YmNaWE4yTkVmelN1TklkN3F2cUVaYVRvOGlGWEpxOFJBWGkzNWFnbTQxcEpia01DRWhSVUpVNTR4YVluMDVYcnpUVWpjSG16a25HZ3M0Rk5EdVNELUQxX1NxTlhBMWVubEQyY3FYTWZQVktuUlpaNWJB?oc=5",
+            "published": "Fri, 24 Jul 2026 07:00:00 GMT",
+            "text": "Juan Pablo II College vs Cienciano - Watch Online for Free APWin",
             "language": "en",
             "sentiment": 0.0
           }
