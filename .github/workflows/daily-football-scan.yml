@@ -2,6 +2,8 @@ name: Daily Football Value Scanner
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   schedule:
     # Every 6 hours; GitHub cron uses UTC.
     - cron: '15 */6 * * *'
