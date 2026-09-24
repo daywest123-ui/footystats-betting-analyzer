@@ -1,7 +1,7 @@
 """Join live odds with three-engine probability estimates."""
 from __future__ import annotations
-from market_engine import analyze_candidate
-from odds_client import get_fixture_odds, extract_markets
+from app.market_engine import analyze_candidate
+from app.odds_client import get_fixture_odds, extract_markets
 
 def analyze_fixture_markets(fixture: dict, probabilities: dict[str, tuple[float,float,float]],
                             data_quality: float = 0.8) -> list[dict]:
