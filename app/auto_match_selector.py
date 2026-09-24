@@ -8,6 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from app.football_data_client import load_openfootball, recent_form, fixture_odds
+from app.odds_harvester_client import current_fixtures as current_odds_fixtures
 from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
 
@@ -38,7 +39,16 @@ def discover_fixtures(date: datetime) -> list[dict]:
             "source": m.get("source", "openfootball/football.json"),
         })
     fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
-    return fixtures[:100]
+    if fixtures:
+        return fixtures[:100]
+
+    # If openfootball has no same-day schedule, use the current odds feed as
+    # a fixture-discovery fallback. This prevents a silent zero-fixture scan.
+    try:
+        fallback = current_odds_fixtures(day)
+    except Exception:
+        fallback = []
+    return fallback[:100]
 
 
 def _recent_form(team: str | None, before: str) -> dict:
@@ -73,8 +83,8 @@ def _poisson_home_probability(home_form: dict, away_form: dict) -> float:
     a_defense = 1.25 * (1 - a_w) + a_defense * a_w
 
     # Home advantage is intentionally modest.
-    home_lambda = max(0.20, min(3.50, 1.15 * (h_attack / 1.25) * (a_defense / 1.25)))
-    away_lambda = max(0.20, min(3.00, 0.95 * (a_attack / 1.25) * (h_defense / 1.25)))
+    home_lambda = max(0.35, min(3.20, 0.55 * h_attack + 0.45 * a_defense + 0.10))
+    away_lambda = max(0.30, min(2.80, 0.55 * a_attack + 0.45 * h_defense - 0.05))
 
     home_win = 0.0
     for hg in range(0, 8):
