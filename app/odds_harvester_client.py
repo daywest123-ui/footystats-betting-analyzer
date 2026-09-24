@@ -13,6 +13,7 @@ import sys
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
+from statistics import median
 from typing import Any
 
 _CACHE: dict[str, list[dict[str, Any]]] = {}
@@ -228,7 +229,7 @@ def fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
         parsed = _extract_odds(record)
         for key, value in parsed.items():
             found[key].append(value)
-    return {key: max(values) for key, values in found.items() if values}
+    # Use a robust bookmaker median rather than mixing best prices from different books.\n    # This keeps de-vig comparisons internally coherent.\n    return {key: round(median(values), 4) for key, values in found.items() if values}
 
 
 def status() -> dict[str, Any]:
