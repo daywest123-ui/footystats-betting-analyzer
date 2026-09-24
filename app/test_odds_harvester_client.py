@@ -1,17 +1,17 @@
 from app import odds_harvester_client as oh
 
 
-def test_extract_odds_1x2_btts_and_totals():
+def test_extract_odds_oddsharvester_schema():
     record = {
-        "odds": [
-            {"outcome": "1", "odds": 2.10},
-            {"outcome": "X", "odds": 3.40},
-            {"outcome": "2", "odds": 3.70},
-            {"outcome": "Yes", "odds": 1.72},
-            {"outcome": "No", "odds": 2.05},
-            {"outcome": "Over 2.5", "odds": 1.91},
-            {"outcome": "Under 2.5", "odds": 1.89},
-        ]
+        "1x2_market": [
+            {"1": "2.10", "X": "3.40", "2": "3.70", "bookmaker_name": "Test"}
+        ],
+        "btts_market": [
+            {"btts_yes": "1.72", "btts_no": "2.05", "bookmaker_name": "Test"}
+        ],
+        "over_under_2_5_market": [
+            {"odds_over": "1.91", "odds_under": "1.89", "bookmaker_name": "Test"}
+        ],
     }
     got = oh._extract_odds(record)
     assert got["home_win"] == 2.10
@@ -28,10 +28,8 @@ def test_fixture_matching_uses_normalized_team_names(monkeypatch):
     oh._CACHE["2026-09-24"] = [{
         "home_team": "Liverpool FC",
         "away_team": "Chelsea",
-        "odds": [
-            {"outcome": "1", "odds": 2.25},
-            {"outcome": "X", "odds": 3.40},
-            {"outcome": "2", "odds": 3.10},
+        "1x2_market": [
+            {"1": "2.25", "X": "3.40", "2": "3.10"}
         ],
     }]
     got = oh.fixture_odds("Liverpool", "Chelsea", "2026-09-24")
