@@ -25,6 +25,8 @@ jobs:
         run: python -m playwright install chromium
       - name: Compile check
         run: python -m compileall -q app
+      - name: Engine preflight diagnostics
+        run: python -m app.diagnose_20min
       - name: Unit smoke tests
         run: python -m unittest discover -s app -p 'test_*.py'
       - name: OddsHarvester CLI smoke test
