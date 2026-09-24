@@ -4,7 +4,7 @@ Reads the downloadable football-data.co.uk CSV files through the open-data
 layer. No API key, API endpoint, or bookmaker login is required.
 """
 from __future__ import annotations
-from football_data_client import fixture_odds
+from app.football_data_client import fixture_odds
 
 MARKET_MAP={
  "home_win":"home_win","draw":"draw","away_win":"away_win",
