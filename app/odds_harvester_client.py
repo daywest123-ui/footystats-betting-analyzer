@@ -64,24 +64,58 @@ def _outcome_name(value: Any) -> str | None:
 
 
 def _extract_odds(record: dict[str, Any]) -> dict[str, float]:
+    """Normalize OddsHarvester's market-specific schema to engine market keys."""
     result: dict[str, float] = {}
+
+    def put(key: str, value: Any) -> None:
+        price = _parse_float(value)
+        if price:
+            result[key] = max(result.get(key, 0.0), price)
+
+    # Current OddsHarvester output uses fields such as 1x2_market,
+    # btts_market and over_under_2_5_market.
+    for field, rows in record.items():
+        if not isinstance(field, str) or not field.endswith("_market"):
+            continue
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            for key, value in row.items():
+                k = str(key).strip().lower()
+                if field.startswith("1x2_"):
+                    if k == "1":
+                        put("home_win", value)
+                    elif k == "x":
+                        put("draw", value)
+                    elif k == "2":
+                        put("away_win", value)
+                elif field.startswith("btts_"):
+                    if k in {"btts_yes", "yes"}:
+                        put("btts_yes", value)
+                    elif k in {"btts_no", "no"}:
+                        put("btts_no", value)
+                elif field.startswith("over_under_2_5_"):
+                    if k == "odds_over":
+                        put("over_2_5", value)
+                    elif k == "odds_under":
+                        put("under_2_5", value)
+
+    # Also support generic/community records.
     odds = record.get("odds")
     if isinstance(odds, dict):
         for key, value in odds.items():
             outcome = _outcome_name(key)
-            price = _parse_float(value if not isinstance(value, dict) else value.get("odds"))
-            if outcome and price:
-                result[outcome] = max(result.get(outcome, 0.0), price)
+            put(outcome, value) if outcome else None
     elif isinstance(odds, list):
         for item in odds:
             if not isinstance(item, dict):
                 continue
             outcome = _outcome_name(item.get("outcome") or item.get("name") or item.get("label"))
-            price = _parse_float(item.get("odds") or item.get("price") or item.get("value"))
-            if outcome and price:
-                result[outcome] = max(result.get(outcome, 0.0), price)
+            if outcome:
+                put(outcome, item.get("odds") or item.get("price") or item.get("value"))
     return result
-
 
 def _records(payload: Any) -> list[dict[str, Any]]:
     if isinstance(payload, list):
