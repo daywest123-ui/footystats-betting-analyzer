@@ -6,7 +6,7 @@ import io
 import json
 import math
 from collections import defaultdict, deque
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from statistics import mean
 
@@ -90,8 +90,10 @@ def _probabilities(h, a):
     h_defense = 1.25*(1-hw) + _rate(h["ga"],1.25)*hw
     a_attack = 1.25*(1-aw) + _rate(a["gf"],1.25)*aw
     a_defense = 1.25*(1-aw) + _rate(a["ga"],1.25)*aw
-    hl = max(.20,min(3.50,1.15*(h_attack/1.25)*(a_defense/1.25)))
-    al = max(.20,min(3.00,.95*(a_attack/1.25)*(h_defense/1.25)))
+    # Additive expected-goals blend is more stable than multiplying attack
+    # and defence ratios, which can collapse O/U probabilities for weak teams.
+    hl = max(.35, min(3.20, 0.55 * h_attack + 0.45 * a_defense + 0.10))
+    al = max(.30, min(2.80, 0.55 * a_attack + 0.45 * h_defense - 0.05))
 
     matrix={(hg,ag):_poisson_pmf(hg,hl)*_poisson_pmf(ag,al) for hg in range(9) for ag in range(9)}
     home_p=sum(p for (hg,ag),p in matrix.items() if hg>ag)
@@ -170,7 +172,7 @@ def run():
         total=row["hg"]+row["ag"]; over=int(total>=3); btts=int(row["hg"]>0 and row["ag"]>0)
         h["over"].append(over); a["over"].append(over); h["btts"].append(btts); a["btts"].append(btts)
 
-    result={"generated_at":datetime.utcnow().isoformat()+"Z","seasons":list(SEASONS),
+    result={"generated_at":datetime.now(timezone.utc).isoformat().replace("+00:00","Z"),"seasons":list(SEASONS),
             "leagues":list(LEAGUES.values()),"tested_fixtures":tested,"odds_coverage":odds_coverage,
             "leakage_control":"walk-forward; current result enters state only after prediction",
             "markets":{m:{v:summarize(rows) for v,rows in variants.items()} for m,variants in points.items()}}
