@@ -37,7 +37,10 @@ if errorlevel 1 (
 )
 
 REM Playwright Chromium is required by OddsHarvester.
-if not exist "%LOCALAPPDATA%\ms-playwright" (
+REM The cache directory alone is not a reliable browser check, so verify
+REM that Chromium can be resolved and install it only when needed.
+python -c "from playwright.sync_api import sync_playwright; p=sync_playwright().start(); b=p.chromium.executable_path; p.stop(); import os; raise SystemExit(0 if os.path.exists(b) else 1)" >nul 2>&1
+if errorlevel 1 (
     echo [SETUP] Installing Chromium for OddsHarvester...
     python -m playwright install chromium
     if errorlevel 1 (
