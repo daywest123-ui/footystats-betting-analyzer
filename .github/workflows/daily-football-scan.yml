@@ -24,7 +24,13 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          # The live fixture/odds adapter requires the OddsHarvester CLI.
+          python -m pip install "git+https://github.com/jordantete/OddsHarvester.git@master"
+          python -m playwright install --with-deps chromium
+          oddsharvester --help
       - name: Run tests
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
