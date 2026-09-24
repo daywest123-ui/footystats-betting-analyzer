@@ -77,7 +77,7 @@ def _poisson_pmf(k, lam):
 
 
 def _devig(odds: list[float], index: int) -> float | None:
-    if len(odds) < 2 or any(x <= 1 for x in odds):
+    if len(odds) < 2 or any(x is None or x <= 1 for x in odds):
         return None
     raw = [1 / x for x in odds]
     total = sum(raw)
