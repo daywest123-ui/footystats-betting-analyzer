@@ -34,6 +34,17 @@ def run():
     print(f"Target date: {day}")
 
     matches = load_openfootball()
+    # If the free fixture feeds do not expose today's matches, use the same
+    # current OddsHarvester scrape that supplies live odds.
+    if not any(m.get("date") == day and not m.get("finished") for m in matches):
+        try:
+            from app.odds_harvester_client import current_fixtures
+            fallback_fixtures = current_fixtures(day)
+            if fallback_fixtures:
+                matches.extend(fallback_fixtures)
+                print(f"OddsHarvester current fixtures: {len(fallback_fixtures)}")
+        except Exception as exc:
+            print(f"OddsHarvester fixture fallback unavailable: {type(exc).__name__}")
     fixtures = []
     for m in matches:
         if m.get("date") != day or m.get("finished"):
