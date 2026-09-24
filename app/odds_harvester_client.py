@@ -17,7 +17,7 @@ from statistics import median
 from typing import Any
 
 _CACHE: dict[str, list[dict[str, Any]]] = {}
-TIMEOUT_SECONDS = 6 * 60
+TIMEOUT_SECONDS = int(os.environ.get("ODDSHARVESTER_TIMEOUT_SECONDS", "120"))
 
 
 def _norm(value: str) -> str:
