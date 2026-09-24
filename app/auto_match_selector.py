@@ -25,44 +25,48 @@ def _empty_form() -> dict:
 
 
 def discover_fixtures(date: datetime) -> list[dict]:
-    """Find the next usable fixture day instead of treating a quiet day as failure."""
+    """Find the next usable fixture day without scraping every blank calendar day."""
     global _OPEN_MATCHES
     _OPEN_MATCHES = load_openfootball()
     base_day = date.astimezone(LOCAL_TZ).date()
 
-    # A football calendar can contain international breaks / blank days.
-    # Scan a bounded forward window and use the earliest genuinely scheduled
-    # slate. This avoids declaring a data outage just because the next 1-2
-    # calendar days are empty.
+    # First use the complete open-data window. International breaks can leave
+    # several consecutive blank days, so live scraping is deliberately delayed
+    # until we know the public fixture feed has no scheduled slate.
     for offset in range(0, 15):
         target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
-        fixtures = []
-        for m in _OPEN_MATCHES:
-            if m["date"] != target or m.get("finished"):
-                continue
-            fixtures.append({
-                "home": m["home"], "away": m["away"], "league": m["league"],
+        fixtures = [
+            {
+                "home": m["home"],
+                "away": m["away"],
+                "league": m["league"],
                 "fixture_date": m["date"],
                 "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
                 "source": m.get("source", "openfootball/football.json"),
-            })
-        fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
+            }
+            for m in _OPEN_MATCHES
+            if m["date"] == target and not m.get("finished")
+        ]
         if fixtures:
-            print(f"[FixtureDiscovery] Using {len(fixtures)} fixtures for {target}")
+            fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
+            print(f"[FixtureDiscovery] Using {len(fixtures)} open-data fixtures for {target}")
             return fixtures[:100]
 
-        # OddsHarvester remains a secondary discovery source for the same date.
-        try:
-            fallback = current_odds_fixtures(target)
-        except Exception as exc:
-            print(
-                f"[FixtureDiscovery] OddsHarvester unavailable for {target}: "
-                f"{type(exc).__name__}"
-            )
-            fallback = []
-        if fallback:
-            print(f"[FixtureDiscovery] Using {len(fallback)} OddsHarvester fixtures for {target}")
-            return fallback[:100]
+    # Only after the whole open-data window is empty do one live fallback.
+    # This prevents a broken OddsPortal scrape from adding ~6 minutes per
+    # blank day during an international break.
+    target = base_day.isoformat()
+    try:
+        fallback = current_odds_fixtures(target)
+    except Exception as exc:
+        print(
+            f"[FixtureDiscovery] OddsHarvester fallback unavailable for {target}: "
+            f"{type(exc).__name__}"
+        )
+        fallback = []
+    if fallback:
+        print(f"[FixtureDiscovery] Using {len(fallback)} OddsHarvester fixtures for {target}")
+        return fallback[:100]
 
     return []
 
