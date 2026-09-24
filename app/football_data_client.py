@@ -43,6 +43,28 @@ def _parse_date(v:str)->str|None:
         except (ValueError,AttributeError):pass
     return None
 
+def _football_data_matches()->list[dict[str,Any]]:
+    """Fallback/current-season fixtures and results from football-data.co.uk."""
+    out=[]
+    for league, code in FOOTBALL_DATA.items():
+        for row in _csv_rows(league):
+            d=_parse_date(row.get("Date",""))
+            h=(row.get("HomeTeam") or "").strip()
+            a=(row.get("AwayTeam") or "").strip()
+            if not d or not h or not a:
+                continue
+            hg=_float(row.get("FTHG")); ag=_float(row.get("FTAG"))
+            done=hg is not None and ag is not None
+            out.append({
+                "home":h, "away":a, "league":league, "date":d,
+                "time":row.get("Time"), "finished":done,
+                "home_goals":int(hg) if done else None,
+                "away_goals":int(ag) if done else None,
+                "source":"football-data.co.uk"
+            })
+    return out
+
+
 def load_openfootball()->list[dict[str,Any]]:
     out=[]
     for league,file in OPENFOOTBALL.items():
@@ -61,6 +83,13 @@ def load_openfootball()->list[dict[str,Any]]:
                             "source":"openfootball/football.json"})
         except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
             print(f"openfootball failed {league}: {type(exc).__name__}: {exc}")
+    fallback = _football_data_matches()
+    seen={(_norm(x["home"]), _norm(x["away"]), x["date"]) for x in out}
+    for m in fallback:
+        key=(_norm(m["home"]), _norm(m["away"]), m["date"])
+        if key not in seen:
+            out.append(m)
+            seen.add(key)
     return out
 
 def today_fixtures(day:str|None=None)->list[dict[str,Any]]:
