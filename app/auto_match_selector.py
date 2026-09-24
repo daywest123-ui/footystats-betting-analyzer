@@ -30,10 +30,11 @@ def discover_fixtures(date: datetime) -> list[dict]:
     _OPEN_MATCHES = load_openfootball()
     base_day = date.astimezone(LOCAL_TZ).date()
 
-    # Late in the day, "today" may legitimately have no upcoming fixtures.
-    # Scan today plus the next two local calendar days and use the earliest
-    # date that has a usable fixture slate.
-    for offset in range(0, 3):
+    # A football calendar can contain international breaks / blank days.
+    # Scan a bounded forward window and use the earliest genuinely scheduled
+    # slate. This avoids declaring a data outage just because the next 1-2
+    # calendar days are empty.
+    for offset in range(0, 15):
         target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
         fixtures = []
         for m in _OPEN_MATCHES:
