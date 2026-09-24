@@ -55,7 +55,12 @@ def load_history():
                 if date is None or hg is None or ag is None or not home or not away:
                     continue
                 rows.append({"date":date,"home":home,"away":away,"hg":int(hg),"ag":int(ag),
-                             "league":name,"odds":_float(row.get("B365H"))})
+                             "league":name,"odds":_float(row.get("B365H")),
+                             "odds_draw":_float(row.get("B365D")),
+                             "odds_away":_float(row.get("B365A")),
+                             "over_odds":_float(row.get("B365>2.5")),
+                             "under_odds":_float(row.get("B365<2.5")),
+                             "btts_yes_odds":_float(row.get("B365>2.5"))})
     return sorted(rows, key=lambda x:(x["date"],x["league"],x["home"],x["away"]))
 
 
@@ -81,44 +86,60 @@ def _probabilities(h, a):
     hl = max(.20,min(3.50,1.15*(h_attack/1.25)*(a_defense/1.25)))
     al = max(.20,min(3.00,.95*(a_attack/1.25)*(h_defense/1.25)))
 
-    poisson_home = sum(
+    matrix = {(hg,ag):_poisson_pmf(hg,hl)*_poisson_pmf(ag,al)
+              for hg in range(9) for ag in range(9)}
+    home_p = max(.05,min(.95,sum(p for (hg,ag),p in matrix.items() if hg>ag)))
+    draw_p = max(.02,min(.80,sum(p for (hg,ag),p in matrix.items() if hg==ag)))
+    away_p = max(.02,min(.95,sum(p for (hg,ag),p in matrix.items() if hg<ag)))
+
+    btts_p = max(.05,min(.95,1-math.exp(-hl)-math.exp(-al)+math.exp(-(hl+al))))
+    over_p = max(.05,min(.95,1-sum(
         _poisson_pmf(hg,hl)*_poisson_pmf(ag,al)
-        for hg in range(8) for ag in range(8) if hg > ag
-    )
-    poisson_home = max(.05,min(.95,poisson_home))
+        for hg in range(9) for ag in range(9) if hg+ag <= 2
+    )))
+
     form_edge = max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
     form_home = max(.05,min(.95,.50+.13*form_edge+.03))
-    stat_home = max(.05,min(.95,.65*poisson_home+.35*form_home))
-    pred_home = max(.05,min(.95,.75*poisson_home+.25*form_home))
-
-    btts_signal=(_rate(h["btts"])+_rate(a["btts"]))/2
-    over_signal=(_rate(h["over"])+_rate(a["over"]))/2
-    stat_b=max(.05,min(.95,.35+.40*btts_signal)); pred_b=max(.05,min(.95,.40+.32*btts_signal))
-    stat_o=max(.05,min(.95,.35+.40*over_signal)); pred_o=max(.05,min(.95,.40+.32*over_signal))
+    home_stat = max(.05,min(.95,.65*home_p+.35*form_home))
+    home_pred = max(.05,min(.95,.75*home_p+.25*form_home))
     return {
-        "home_win":(stat_home,.45*stat_home+.35*pred_home+.20*.50),
-        "btts_yes":(stat_b,.45*stat_b+.35*pred_b+.20*.50),
-        "over_2_5":(stat_o,.45*stat_o+.35*pred_o+.20*.50),
+        "home_win":(home_stat,.45*home_stat+.35*home_pred+.20*.50),
+        "draw":(draw_p,draw_p),
+        "away_win":(away_p,away_p),
+        "btts_yes":(btts_p,btts_p),
+        "over_2_5":(over_p,over_p),
     }
 
 
 def run():
     history=load_history()
     states=defaultdict(_team_state)
-    points={m:{"statistical_baseline":[],"production_like":[]} for m in ("home_win","btts_yes","over_2_5")}
+    markets=("home_win","draw","away_win","btts_yes","over_2_5")
+    points={m:{"model":[],"market_baseline":[]} for m in markets}
     tested=0
+    odds_coverage={m:0 for m in markets}
+
     for row in history:
         h,a=states[row["home"]],states[row["away"]]
         if len(h["points"])>=3 and len(a["points"])>=3:
             probs=_probabilities(h,a)
             actuals={"home_win":int(row["hg"]>row["ag"]),
+                     "draw":int(row["hg"]==row["ag"]),
+                     "away_win":int(row["hg"]<row["ag"]),
                      "btts_yes":int(row["hg"]>0 and row["ag"]>0),
                      "over_2_5":int(row["hg"]+row["ag"]>=3)}
+            odds={"home_win":row["odds"],"draw":row["odds_draw"],"away_win":row["odds_away"],
+                  "over_2_5":row["over_odds"],"btts_yes":row["btts_yes_odds"]}
             for market,actual in actuals.items():
-                stat_p,prod_p=probs[market]
-                odds=row["odds"] if market=="home_win" else None
-                points[market]["statistical_baseline"].append(CalibrationPoint(stat_p,actual,odds))
-                points[market]["production_like"].append(CalibrationPoint(prod_p,actual,odds))
+                model_p,prod_p=probs[market]
+                points[market]["model"].append(CalibrationPoint(prod_p,actual,odds.get(market)))
+                raw=odds.get(market)
+                if raw and raw>1:
+                    # This is a simple bookmaker-implied baseline. It is not treated as a model vote.
+                    points[market]["market_baseline"].append(
+                        CalibrationPoint(1.0/raw,actual,raw)
+                    )
+                    odds_coverage[market]+=1
             tested+=1
 
         h["points"].append(3 if row["hg"]>row["ag"] else 1 if row["hg"]==row["ag"] else 0)
@@ -130,6 +151,7 @@ def run():
 
     result={"generated_at":datetime.utcnow().isoformat()+"Z","seasons":list(SEASONS),
             "leagues":list(LEAGUES.values()),"tested_fixtures":tested,
+            "odds_coverage":odds_coverage,
             "leakage_control":"walk-forward; current result enters state only after prediction",
             "markets":{m:{v:summarize(rows) for v,rows in variants.items()} for m,variants in points.items()}}
     out=Path("reports"); out.mkdir(exist_ok=True)
