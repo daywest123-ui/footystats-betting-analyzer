@@ -1,6 +1,13 @@
 import unittest
 
-from app.calibration_backtest import CalibrationPoint, brier_score, log_loss, calibration_table, value_backtest
+from app.calibration_backtest import (
+    CalibrationPoint,
+    brier_score,
+    calibration_table,
+    expected_calibration_error,
+    log_loss,
+    value_backtest,
+)
 
 
 class CalibrationBacktestTests(unittest.TestCase):
@@ -16,6 +23,16 @@ class CalibrationBacktestTests(unittest.TestCase):
         points = [CalibrationPoint(0.8, 1), CalibrationPoint(0.8, 0)]
         table = calibration_table(points)
         self.assertAlmostEqual(table[8]["observed_rate"], 0.5)
+        self.assertAlmostEqual(table[8]["absolute_gap"], 0.3)
+
+    def test_expected_calibration_error(self):
+        points = [CalibrationPoint(0.8, 1), CalibrationPoint(0.8, 0)]
+        self.assertAlmostEqual(expected_calibration_error(points), 0.3)
+
+    def test_empty_value_backtest_is_explicit(self):
+        result = value_backtest([CalibrationPoint(0.40, 0, 1.20)])
+        self.assertEqual(result["opportunities"], 0)
+        self.assertIsNone(result["roi"])
 
     def test_value_backtest(self):
         points = [
