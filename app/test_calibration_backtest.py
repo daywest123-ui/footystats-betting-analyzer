@@ -56,6 +56,14 @@ class CalibrationBacktestTests(unittest.TestCase):
         result = value_backtest(points, 0.03, 0.03)
         self.assertEqual(result["opportunities"], 0)
 
+    def test_value_backtest_mirrors_production_minimum_probability(self):
+        points = [
+            CalibrationPoint(0.54, 1, 2.0, 0.40),
+            CalibrationPoint(0.55, 1, 2.0, 0.40),
+        ]
+        result = value_backtest(points, 0.03, 0.03)
+        self.assertEqual(result["opportunities"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()
