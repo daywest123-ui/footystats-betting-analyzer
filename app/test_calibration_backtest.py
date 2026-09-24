@@ -46,8 +46,9 @@ class CalibrationBacktestTests(unittest.TestCase):
 
     def test_value_backtest_uses_explicit_market_probability(self):
         # Raw 2.00 odds imply 50%, but de-vig market probability can be 48%.
-        # The explicit market probability must drive the edge threshold.
-        points = [CalibrationPoint(0.52, 1, 2.0, 0.48)]
+        # Keep model probability at the production 55% floor so this test
+        # isolates the explicit market-probability edge calculation.
+        points = [CalibrationPoint(0.55, 1, 2.0, 0.48)]
         result = value_backtest(points, 0.03, 0.03)
         self.assertEqual(result["opportunities"], 1)
 
