@@ -33,7 +33,7 @@ def discover_fixtures(date: datetime) -> list[dict]:
     # First use the complete open-data window. International breaks can leave
     # several consecutive blank days, so live scraping is deliberately delayed
     # until we know the public fixture feed has no scheduled slate.
-    for offset in range(0, 15):
+    for offset in range(0, 16):
         target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
         fixtures = [
             {
