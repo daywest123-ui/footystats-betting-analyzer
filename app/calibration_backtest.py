@@ -1,8 +1,8 @@
-"""Historical calibration and backtest utilities.
+"""Leakage-safe calibration and value-backtest utilities.
 
-This module deliberately uses only pre-match information available before each
-historical fixture. It reports Brier score, log loss, calibration buckets and
-a simple value-bet backtest. It never places bets.
+These functions are intentionally model-agnostic. They compare predicted
+probabilities with realized binary outcomes and, when odds are available,
+evaluate the exact value thresholds used by the production signal gate.
 """
 from __future__ import annotations
 
@@ -21,15 +21,19 @@ class CalibrationPoint:
     odds: float | None = None
 
 
+def _rows(points: Iterable[CalibrationPoint]) -> list[CalibrationPoint]:
+    return list(points)
+
+
 def brier_score(points: Iterable[CalibrationPoint]) -> float:
-    rows = list(points)
+    rows = _rows(points)
     if not rows:
         return float("nan")
     return sum((p.predicted - p.actual) ** 2 for p in rows) / len(rows)
 
 
 def log_loss(points: Iterable[CalibrationPoint], eps: float = 1e-6) -> float:
-    rows = list(points)
+    rows = _rows(points)
     if not rows:
         return float("nan")
     total = 0.0
@@ -40,31 +44,44 @@ def log_loss(points: Iterable[CalibrationPoint], eps: float = 1e-6) -> float:
 
 
 def calibration_table(points: Iterable[CalibrationPoint], buckets: int = 10) -> list[dict]:
+    if buckets < 2:
+        raise ValueError("buckets must be >= 2")
     groups = defaultdict(list)
     for p in points:
         idx = min(buckets - 1, int(max(0.0, min(0.999999, p.predicted)) * buckets))
         groups[idx].append(p)
+
     out = []
     for idx in range(buckets):
         rows = groups.get(idx, [])
         if not rows:
             continue
+        predicted = sum(x.predicted for x in rows) / len(rows)
+        observed = sum(x.actual for x in rows) / len(rows)
         out.append({
             "bucket": f"{idx / buckets:.0%}-{(idx + 1) / buckets:.0%}",
             "count": len(rows),
-            "mean_predicted": round(sum(x.predicted for x in rows) / len(rows), 4),
-            "observed_rate": round(sum(x.actual for x in rows) / len(rows), 4),
-            "absolute_gap": round(abs(
-                sum(x.predicted for x in rows) / len(rows)
-                - sum(x.actual for x in rows) / len(rows)
-            ), 4),
+            "mean_predicted": round(predicted, 4),
+            "observed_rate": round(observed, 4),
+            "absolute_gap": round(abs(predicted - observed), 4),
         })
     return out
 
 
-def value_backtest(points: Iterable[CalibrationPoint],
-                   min_probability_edge: float = 0.025,
-                   min_ev: float = 0.03) -> dict:
+def expected_calibration_error(points: Iterable[CalibrationPoint]) -> float:
+    """Sample-weighted absolute calibration gap across occupied buckets."""
+    rows = _rows(points)
+    if not rows:
+        return float("nan")
+    table = calibration_table(rows)
+    return sum(row["count"] * row["absolute_gap"] for row in table) / len(rows)
+
+
+def value_backtest(
+    points: Iterable[CalibrationPoint],
+    min_probability_edge: float = 0.025,
+    min_ev: float = 0.03,
+) -> dict:
     rows = [p for p in points if p.odds and p.odds > 1]
     selected = [
         p for p in rows
@@ -73,9 +90,17 @@ def value_backtest(points: Iterable[CalibrationPoint],
     ]
     if not selected:
         return {
-            "opportunities": 0, "hit_rate": None, "roi": None,
-            "profit_units": 0.0, "max_drawdown_units": 0.0
+            "opportunities": 0,
+            "hit_rate": None,
+            "roi": None,
+            "profit_units": 0.0,
+            "max_drawdown_units": 0.0,
+            "thresholds": {
+                "probability_edge": min_probability_edge,
+                "ev": min_ev,
+            },
         }
+
     balance = peak = drawdown = 0.0
     hits = 0
     for p in selected:
@@ -84,6 +109,7 @@ def value_backtest(points: Iterable[CalibrationPoint],
         peak = max(peak, balance)
         drawdown = max(drawdown, peak - balance)
         hits += int(p.actual)
+
     return {
         "opportunities": len(selected),
         "hit_rate": round(hits / len(selected), 4),
@@ -98,11 +124,14 @@ def value_backtest(points: Iterable[CalibrationPoint],
 
 
 def summarize(points: Iterable[CalibrationPoint]) -> dict:
-    rows = list(points)
+    rows = _rows(points)
     return {
         "samples": len(rows),
         "brier_score": None if not rows else round(brier_score(rows), 6),
         "log_loss": None if not rows else round(log_loss(rows), 6),
+        "expected_calibration_error": (
+            None if not rows else round(expected_calibration_error(rows), 6)
+        ),
         "calibration": calibration_table(rows),
         "value_backtest": value_backtest(rows),
     }
