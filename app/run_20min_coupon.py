@@ -1,10 +1,11 @@
 """20-minute football coupon pipeline.
 
 Analysis/paper-selection only. It never places bets.
-Uses only same-date retrieved odds; if current odds are unavailable,
-it returns NO BET instead of fabricating or reusing stale prices.
+Uses same-day retrieved odds and refuses stale prices when current odds
+cannot be obtained.
 """
 from __future__ import annotations
+
 import json
 import time
 from datetime import datetime, timezone
@@ -13,7 +14,7 @@ from pathlib import Path
 
 from app.football_data_client import load_openfootball, recent_form, fixture_odds
 from app.open_web_intelligence import analyze_match
-from app.odds_pipeline import analyze_fixture_markets
+from app.odds_pipeline import analyze_fixture_markets, _devig_probability
 from app.auto_match_selector import _market_probabilities
 
 MAX_WEB_FIXTURES = 6
@@ -23,92 +24,128 @@ MIN_VALUE_EDGE = 0.025
 MAX_RUNTIME_SECONDS = 17 * 60
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 
+
+def _remaining(started: float) -> float:
+    return MAX_RUNTIME_SECONDS - (time.monotonic() - started)
+
+
 def run():
     started = time.monotonic()
     now = datetime.now(timezone.utc)
-    local_now = now.astimezone(LOCAL_TZ)
-    day = local_now.date().isoformat()
+    day = now.astimezone(LOCAL_TZ).date().isoformat()
     report = {
-        "generated_at": now.isoformat(), "target_date": day,
+        "generated_at": now.isoformat(),
+        "target_date": day,
         "local_timezone": "Europe/Istanbul",
-        "pipeline": "20MIN_V2", "run_status": "STARTED",
-        "decision_status": "NO_BET", "stages": {}, "coupon": [], "rejected": []
+        "pipeline": "20MIN_V3",
+        "run_status": "STARTED",
+        "decision_status": "NO_BET",
+        "stages": {},
+        "coupon": [],
+        "rejected": [],
     }
+
     print("=== 20-MIN FOOTBALL COUPON ENGINE ===")
     print(f"Target date: {day}")
 
     matches = load_openfootball()
-    # If the free fixture feeds do not expose today's matches, use the same
-    # current OddsHarvester scrape that supplies live odds.
     if not any(m.get("date") == day and not m.get("finished") for m in matches):
         try:
             from app.odds_harvester_client import current_fixtures
-            fallback_fixtures = current_fixtures(day)
-            if fallback_fixtures:
-                matches.extend(fallback_fixtures)
-                print(f"OddsHarvester current fixtures: {len(fallback_fixtures)}")
+            fallback = current_fixtures(day)
+            if fallback:
+                matches.extend(fallback)
+                print(f"OddsHarvester current fixtures: {len(fallback)}")
         except Exception as exc:
             print(f"OddsHarvester fixture fallback unavailable: {type(exc).__name__}")
+
     fixtures = []
     for m in matches:
+        if _remaining(started) <= 0:
+            report["stages"]["deadline"] = "reached_during_fixture_scan"
+            break
         if m.get("date") != day or m.get("finished"):
             continue
-        h = recent_form(matches, m["home"], day, 8)
-        a = recent_form(matches, m["away"], day, 8)
-        if min(h["matches"], a["matches"]) < MIN_RECENT_MATCHES:
+
+        home_form = recent_form(matches, m["home"], day, 8)
+        away_form = recent_form(matches, m["away"], day, 8)
+        sample = min(home_form["matches"], away_form["matches"])
+        if sample < MIN_RECENT_MATCHES:
             continue
+
         odds = fixture_odds(m["home"], m["away"], day)
         if not odds:
             continue
+
         fixtures.append({
-            "home": m["home"], "away": m["away"], "league": m["league"],
-            "fixture_date": day, "home_form": h, "away_form": a, "odds": odds
+            "home": m["home"],
+            "away": m["away"],
+            "league": m.get("league", "Unknown"),
+            "fixture_date": day,
+            "fixture_id": f'{m["home"]}||{m["away"]}||{day}',
+            "home_form": home_form,
+            "away_form": away_form,
+            "odds": odds,
         })
+
     report["stages"]["fixture_and_odds"] = {
         "fixtures_with_min_form_and_current_odds": len(fixtures),
-        "odds_rule": "same fixture + same calendar date only"
+        "odds_rule": "same fixture + same local calendar date",
     }
     print(f"[1/4] Current-odds fixtures: {len(fixtures)}")
+
     if not fixtures:
         report["run_status"] = "NO_CURRENT_ODDS"
         report["decision_status"] = "NO_BET_CURRENT_ODDS_UNAVAILABLE"
         report["reason"] = "Bugünün maçları için doğrulanabilir güncel oran bulunamadı; eski oran kullanılmadı."
-        return _write(report)
+        return _write(report, started)
 
+    # Cheap prefilter uses de-vig market probability, not raw 1/odds.
     scored = []
     for f in fixtures:
         probs = _market_probabilities(f["home_form"], f["away_form"], None)
-        quick = []
+        candidates = []
         for market, engines in probs.items():
             odds = f["odds"].get(market)
-            if odds:
-                p = sum(engines) / len(engines)
-                quick.append((p - 1.0 / odds, market))
-        if quick:
-            best_edge, best_market = max(quick)
-            scored.append((best_edge, best_market, f))
-    scored.sort(key=lambda x: x[0], reverse=True)
-    shortlist = [x[2] for x in scored[:MAX_WEB_FIXTURES]]
+            if not odds:
+                continue
+            market_p = _devig_probability(f["odds"], market)
+            reference_p = market_p if market_p is not None else 1.0 / odds
+            stat_p = engines[0]
+            edge = stat_p - reference_p
+            ev = stat_p * odds - 1.0
+            candidates.append((edge, ev, market))
+        if candidates:
+            scored.append((max(candidates), f))
+    scored.sort(key=lambda x: (x[0][0], x[0][1]), reverse=True)
+    shortlist = [x[1] for x in scored[:MAX_WEB_FIXTURES]]
+
     report["stages"]["prefilter"] = {
-        "shortlist": len(shortlist), "max_web_fixtures": MAX_WEB_FIXTURES
+        "shortlist": len(shortlist),
+        "max_web_fixtures": MAX_WEB_FIXTURES,
+        "ranking": "stat_probability minus de-vigged market probability, then EV",
     }
     print(f"[2/4] Web-intelligence shortlist: {len(shortlist)}")
 
     finalists = []
     for idx, f in enumerate(shortlist, 1):
-        if time.monotonic() - started >= MAX_RUNTIME_SECONDS:
-            report["stages"]["deadline"] = "reached_before_completion"
+        if _remaining(started) <= 0:
+            report["stages"]["deadline"] = "reached_before_web_completion"
             break
         try:
             intel = analyze_match(f["home"], f["away"], limit_per_query=5)
             probs = _market_probabilities(f["home_form"], f["away_form"], intel)
             fixture = {
-                "fixture_id": f'{f["home"]}||{f["away"]}||{day}',
-                "home": f["home"], "away": f["away"], "fixture_date": day
+                "fixture_id": f["fixture_id"],
+                "home": f["home"],
+                "away": f["away"],
+                "fixture_date": day,
             }
             analyses = analyze_fixture_markets(
-                fixture, probs,
-                min(1.0, min(f["home_form"]["matches"], f["away_form"]["matches"]) / 8)
+                fixture,
+                probs,
+                min(1.0, min(f["home_form"]["matches"], f["away_form"]["matches"]) / 8),
+                odds_override=f["odds"],
             )
             good = [
                 m for m in analyses
@@ -116,51 +153,83 @@ def run():
                 and m.get("value_edge_pct", 0) >= MIN_VALUE_EDGE * 100
             ]
             if good:
-                best = max(good, key=lambda x: (x.get("confidence_10", 0), x.get("value_edge_pct", 0)))
+                best = max(good, key=lambda x: (x.get("ev_pct", -999), x.get("confidence_10", 0)))
                 finalists.append({
-                    "home": f["home"], "away": f["away"], "league": f["league"],
-                    "market": best["market"], "odds": best["odds"],
+                    "home": f["home"],
+                    "away": f["away"],
+                    "league": f["league"],
+                    "market": best["market"],
+                    "odds": best["odds"],
                     "model_probability_pct": best["model_probability_pct"],
+                    "market_probability_pct": best["market_probability_pct"],
                     "value_edge_pct": best["value_edge_pct"],
+                    "ev_pct": best["ev_pct"],
                     "confidence_10": best["confidence_10"],
                     "form_sample": min(f["home_form"]["matches"], f["away_form"]["matches"]),
                     "web_confidence": intel.get("confidence", 0.0),
-                    "risk_flags": intel.get("risk_flags", [])
+                    "risk_flags": intel.get("risk_flags", []),
+                    "consensus": best.get("consensus"),
+                    "odds_source": "OddsHarvester_current_or_csv_fallback",
                 })
             else:
-                report["rejected"].append({"home": f["home"], "away": f["away"], "reason": "final_gate"})
+                report["rejected"].append({
+                    "home": f["home"], "away": f["away"], "reason": "final_gate"
+                })
         except Exception as exc:
             report["rejected"].append({
                 "home": f["home"], "away": f["away"],
-                "reason": f"analysis_error:{type(exc).__name__}"
+                "reason": f"analysis_error:{type(exc).__name__}",
             })
         print(f"    verified {idx}/{len(shortlist)}")
 
-    finalists.sort(key=lambda x: (x["confidence_10"], x["value_edge_pct"]), reverse=True)
+    finalists.sort(
+        key=lambda x: (x["ev_pct"], x["value_edge_pct"], x["confidence_10"]),
+        reverse=True,
+    )
+
+    # Coupon construction: one leg per fixture. Do not manufacture a coupon
+    # merely to reach MAX_COUPON_LEGS; fewer legs or NO BET is valid.
     coupon = []
-    seen = set()
-    for x in finalists:
-        key = (x["home"], x["away"])
-        if key in seen or x["confidence_10"] < 6.0 or x["value_edge_pct"] < 2.5:
+    seen_fixtures = set()
+    seen_markets = set()
+    for candidate in finalists:
+        fixture_key = (candidate["home"], candidate["away"])
+        market_key = candidate["market"]
+        if fixture_key in seen_fixtures:
             continue
-        coupon.append(x); seen.add(key)
+        # Avoid stacking four identical market types; this limits common-mode
+        # exposure without rejecting otherwise independent fixtures.
+        if market_key in seen_markets and len(seen_markets) >= 2:
+            continue
+        coupon.append(candidate)
+        seen_fixtures.add(fixture_key)
+        seen_markets.add(market_key)
         if len(coupon) >= MAX_COUPON_LEGS:
             break
 
     report["stages"]["final_gate"] = {
-        "finalists": len(finalists), "coupon_legs": len(coupon),
-        "minimum_confidence": 6.0, "minimum_value_edge_pct": 2.5
+        "finalists": len(finalists),
+        "coupon_legs": len(coupon),
+        "minimum_confidence": 0,
+        "minimum_probability_edge_pct": MIN_VALUE_EDGE * 100,
+        "minimum_ev_pct": 3.0,
     }
     report["coupon"] = coupon
-    report["run_status"] = "OK"
+    report["run_status"] = "OK" if _remaining(started) >= 0 else "DEADLINE_EXCEEDED"
     report["decision_status"] = "COUPON_CANDIDATES" if coupon else "NO_BET"
     report["elapsed_seconds"] = round(time.monotonic() - started, 2)
-    report["model_notes"] = "Probabilities are estimates, not guarantees. No leg is forced; only same-date odds are eligible."
-    return _write(report)
+    report["model_notes"] = (
+        "No leg is forced. value_edge_pct = model probability minus de-vigged "
+        "market probability; ev_pct = model probability × decimal odds − 1. "
+        "Probabilities are estimates, not guarantees."
+    )
+    return _write(report, started)
 
-def _write(report):
-    report["elapsed_seconds"] = round(report.get("elapsed_seconds", 0.0), 2)
-    out = Path("reports"); out.mkdir(exist_ok=True)
+
+def _write(report, started):
+    report["elapsed_seconds"] = round(time.monotonic() - started, 2)
+    out = Path("reports")
+    out.mkdir(exist_ok=True)
     (out / "latest_20min_coupon.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -168,24 +237,29 @@ def _write(report):
         "# 20-Minute Football Coupon",
         f"- Tarih: {report.get('target_date', '')}",
         f"- Durum: {report.get('decision_status', '')}",
-        f"- Süre: {report.get('elapsed_seconds', 0)} sn", ""
+        f"- Süre: {report.get('elapsed_seconds', 0)} sn",
+        "",
     ]
     if report.get("coupon"):
         lines += [
-            "| # | Maç | Market | Oran | Model | Value | Güven |",
-            "|---:|---|---|---:|---:|---:|---:|"
+            "| # | Maç | Market | Oran | Model | Market | Edge | EV | Consensus |",
+            "|---:|---|---|---:|---:|---:|---:|---:|---|",
         ]
         for i, x in enumerate(report["coupon"], 1):
             lines.append(
                 f"| {i} | {x['home']} - {x['away']} | {x['market']} | "
                 f"{x['odds']:.2f} | %{x['model_probability_pct']} | "
-                f"%{x['value_edge_pct']:+.2f} | {x['confidence_10']}/10 |"
+                f"%{x['market_probability_pct']} | %{x['value_edge_pct']:+.2f} | "
+                f"%{x['ev_pct']:+.2f} | {x.get('consensus', '')} |"
             )
     else:
         lines.append("**NO BET:** Güncel ve yeterli doğrulama sağlayan aday oluşmadı.")
-    (out / "latest_20min_coupon.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (out / "latest_20min_coupon.md").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
     print(f"RESULT: {report.get('decision_status')} | legs={len(report.get('coupon', []))}")
     return report
+
 
 if __name__ == "__main__":
     run()
