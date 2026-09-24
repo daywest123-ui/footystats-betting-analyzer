@@ -20,6 +20,8 @@ OPENFOOTBALL={
  "Spain La Liga":"es.1.json","Italy Serie A":"it.1.json","France Ligue 1":"fr.1.json",
  "Netherlands Eredivisie":"nl.1.json","Portugal Primeira Liga":"pt.1.json",
  "Greece Super League":"gr.1.json","Turkey Super Lig":"tr.1.json"}
+# OpenFootball is optional; season folders can lag behind the real calendar.
+# Failures are non-fatal and football-data.co.uk is the fallback.
 OPENFOOTBALL_BASE="https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/"
 FOOTBALL_DATA={
  "England Premier League":"E0","England Championship":"E1","England League One":"E2",
@@ -81,8 +83,8 @@ def load_openfootball()->list[dict[str,Any]]:
                             "home_goals":int(ft[0]) if done else None,
                             "away_goals":int(ft[1]) if done else None,
                             "source":"openfootball/football.json"})
-        except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
-            print(f"openfootball failed {league}: {type(exc).__name__}: {exc}")
+        except (requests.RequestException,ValueError,KeyError,TypeError):
+            continue
     fallback = _football_data_matches()
     seen={(_norm(x["home"]), _norm(x["away"]), x["date"]) for x in out}
     for m in fallback:
