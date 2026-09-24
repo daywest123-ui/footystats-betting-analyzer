@@ -8,3 +8,5 @@ def test_value_signal():
     s = value_signal("1X2", "HOME", 2.20, 0.50)
     assert s.decision == "VALUE"
     assert s.ev > 0
+
+# E2E validation marker
