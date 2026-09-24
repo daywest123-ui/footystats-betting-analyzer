@@ -135,7 +135,17 @@ def run():
                 model_p,prod_p=probs[market]
                 # BTTS has no proxy odds: do not attach O/U odds to it.
                 model_odds=odds.get(market) if market != "btts_yes" else None
-                points[market]["model"].append(CalibrationPoint(prod_p,actual,model_odds))
+                market_probability = None
+                if market in ("home_win","draw","away_win"):
+                    market_probability = _devig(
+                        [row["odds"], row["odds_draw"], row["odds_away"]],
+                        {"home_win": 0, "draw": 1, "away_win": 2}[market],
+                    )
+                elif market == "over_2_5":
+                    market_probability = _devig([row["over_odds"], row["under_odds"]], 0)
+                points[market]["model"].append(
+                    CalibrationPoint(prod_p, actual, model_odds, market_probability)
+                )
 
                 if market in ("home_win","draw","away_win"):
                     trio=[row["odds"],row["odds_draw"],row["odds_away"]]
@@ -148,9 +158,9 @@ def run():
 
                 if baseline is not None:
                     points[market]["market_baseline"].append(
-                        CalibrationPoint(baseline,actual,model_odds)
+                        CalibrationPoint(baseline, actual, None, baseline)
                     )
-                    odds_coverage[market]+=1
+                    odds_coverage[market] += 1
             tested+=1
 
         h["points"].append(3 if row["hg"]>row["ag"] else 1 if row["hg"]==row["ag"] else 0)
