@@ -143,6 +143,16 @@ def fixture_odds(home:str,away:str,day:str)->dict[str,float]:
                     v=_float(row.get(col))
                     if v and v>1: vals[k].append(v)
             return {k:median(v) for k,v in vals.items() if v}
+    # Current-odds fallback: OddsHarvester scrapes OddsPortal via Playwright.
+    # It is optional and failure-safe; the main engine can still use the free
+    # CSV source when it contains a matching fixture.
+    try:
+        from app.odds_harvester_client import fixture_odds as harvester_fixture_odds
+        live = harvester_fixture_odds(home, away, day)
+        if live:
+            return live
+    except Exception as exc:
+        print(f"OddsHarvester fallback unavailable: {type(exc).__name__}")
     return {}
 
 # Backward-compatible alias used by older modules.
