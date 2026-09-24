@@ -25,30 +25,45 @@ def _empty_form() -> dict:
 
 
 def discover_fixtures(date: datetime) -> list[dict]:
+    """Find the next usable fixture day instead of treating a quiet day as failure."""
     global _OPEN_MATCHES
     _OPEN_MATCHES = load_openfootball()
-    day = date.astimezone(LOCAL_TZ).date().isoformat()
-    fixtures = []
-    for m in _OPEN_MATCHES:
-        if m["date"] != day or m.get("finished"):
-            continue
-        fixtures.append({
-            "home": m["home"], "away": m["away"], "league": m["league"],
-            "fixture_date": m["date"],
-            "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
-            "source": m.get("source", "openfootball/football.json"),
-        })
-    fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
-    if fixtures:
-        return fixtures[:100]
+    base_day = date.astimezone(LOCAL_TZ).date()
 
-    # If openfootball has no same-day schedule, use the current odds feed as
-    # a fixture-discovery fallback. This prevents a silent zero-fixture scan.
-    try:
-        fallback = current_odds_fixtures(day)
-    except Exception:
-        fallback = []
-    return fallback[:100]
+    # Late in the day, "today" may legitimately have no upcoming fixtures.
+    # Scan today plus the next two local calendar days and use the earliest
+    # date that has a usable fixture slate.
+    for offset in range(0, 3):
+        target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
+        fixtures = []
+        for m in _OPEN_MATCHES:
+            if m["date"] != target or m.get("finished"):
+                continue
+            fixtures.append({
+                "home": m["home"], "away": m["away"], "league": m["league"],
+                "fixture_date": m["date"],
+                "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
+                "source": m.get("source", "openfootball/football.json"),
+            })
+        fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
+        if fixtures:
+            print(f"[FixtureDiscovery] Using {len(fixtures)} fixtures for {target}")
+            return fixtures[:100]
+
+        # OddsHarvester remains a secondary discovery source for the same date.
+        try:
+            fallback = current_odds_fixtures(target)
+        except Exception as exc:
+            print(
+                f"[FixtureDiscovery] OddsHarvester unavailable for {target}: "
+                f"{type(exc).__name__}"
+            )
+            fallback = []
+        if fallback:
+            print(f"[FixtureDiscovery] Using {len(fallback)} OddsHarvester fixtures for {target}")
+            return fallback[:100]
+
+    return []
 
 
 def _recent_form(team: str | None, before: str) -> dict:
