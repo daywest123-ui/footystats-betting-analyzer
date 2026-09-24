@@ -129,6 +129,28 @@ def collect_day(day: str) -> list[dict[str, Any]]:
     return _CACHE[day]
 
 
+def current_fixtures(day: str) -> list[dict[str, Any]]:
+    """Return today's upcoming fixture metadata from the cached scrape."""
+    out = []
+    for record in collect_day(day):
+        home = str(record.get("home_team") or "").strip()
+        away = str(record.get("away_team") or "").strip()
+        if not home or not away:
+            continue
+        kickoff = str(record.get("kickoff") or record.get("kickoff_text") or "")
+        league = str(record.get("league") or "OddsPortal")
+        out.append({
+            "home": home,
+            "away": away,
+            "league": league,
+            "date": day,
+            "time": kickoff,
+            "finished": False,
+            "source": "OddsHarvester/OddsPortal"
+        })
+    return out
+
+
 def fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
     hk, ak = _norm(home), _norm(away)
     found: dict[str, list[float]] = {
