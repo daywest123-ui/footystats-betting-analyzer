@@ -138,9 +138,11 @@ def _run_cli(day: str) -> list[dict[str, Any]]:
     output = Path(tempfile.gettempdir()) / f"footy_oddsharvester_{day}.json"
     if output.exists():
         output.unlink()
+    # OddsHarvester expects YYYYMMDD; the engine uses ISO YYYY-MM-DD.
+    cli_day = day.replace("-", "")
     cmd = [
         sys.executable, "-m", "oddsharvester",
-        "upcoming", "-s", "football", "-d", day,
+        "upcoming", "-s", "football", "-d", cli_day,
         "-m", "1x2,btts,over_under",
         "--headless", "-f", "json", "-o", str(output),
     ]
@@ -172,7 +174,7 @@ def current_fixtures(day: str) -> list[dict[str, Any]]:
         if not home or not away:
             continue
         kickoff = str(record.get("kickoff") or record.get("kickoff_text") or "")
-        league = str(record.get("league") or "OddsPortal")
+        league = str(record.get("league") or record.get("league_name") or "OddsPortal")
         out.append({
             "home": home,
             "away": away,
