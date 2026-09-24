@@ -11,10 +11,10 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from football_data_client import load_openfootball, recent_form, fixture_odds
-from open_web_intelligence import analyze_match
-from signal_fusion import fuse
-from odds_pipeline import analyze_fixture_markets
+from app.football_data_client import load_openfootball, recent_form, fixture_odds
+from app.open_web_intelligence import analyze_match
+from app.signal_fusion import fuse
+from app.odds_pipeline import analyze_fixture_markets
 
 _OPEN_MATCHES = []
 
