@@ -31,6 +31,8 @@ FOOTBALL_DATA={
  "Turkey Super Lig":"T1"}
 FOOTBALL_DATA_BASE="https://www.football-data.co.uk/mmz4281/2627/"
 
+_CSV_CACHE: dict[str, list[dict[str, Any]]] = {}
+
 def _norm(v:str)->str:
     v=re.sub(r"\b(fc|afc|cf|sc|calcio|club)\b","",str(v),flags=re.I)
     return re.sub(r"[^a-z0-9]+","",v.lower())
@@ -121,12 +123,18 @@ def _float(v):
     except (ValueError,TypeError):return None
 
 def _csv_rows(league):
+    if league in _CSV_CACHE:
+        return _CSV_CACHE[league]
     code=FOOTBALL_DATA.get(league)
-    if not code:return []
+    if not code:
+        return []
     try:
         raw=_get(FOOTBALL_DATA_BASE+code+".csv").content.decode("cp1252",errors="replace")
-        return list(csv.DictReader(io.StringIO(raw)))
-    except (requests.RequestException,UnicodeError,csv.Error):return []
+        rows=list(csv.DictReader(io.StringIO(raw)))
+    except (requests.RequestException,UnicodeError,csv.Error):
+        rows=[]
+    _CSV_CACHE[league]=rows
+    return rows
 
 def fixture_odds(home:str,away:str,day:str)->dict[str,float]:
     hk,ak=_norm(home),_norm(away)
