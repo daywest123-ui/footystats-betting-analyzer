@@ -10,10 +10,10 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from football_data_client import load_openfootball, recent_form, fixture_odds
-from open_web_intelligence import analyze_match
-from odds_pipeline import analyze_fixture_markets
-from auto_match_selector import _market_probabilities
+from app.football_data_client import load_openfootball, recent_form, fixture_odds
+from app.open_web_intelligence import analyze_match
+from app.odds_pipeline import analyze_fixture_markets
+from app.auto_match_selector import _market_probabilities
 
 MAX_WEB_FIXTURES = 12
 MAX_COUPON_LEGS = 4
