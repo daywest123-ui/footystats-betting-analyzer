@@ -2,11 +2,6 @@ name: 20-Minute Coupon Scan
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "app/**"
-      - "requirements*.txt"
-      - ".github/workflows/20min-coupon.yml"
 
 permissions:
   contents: write
