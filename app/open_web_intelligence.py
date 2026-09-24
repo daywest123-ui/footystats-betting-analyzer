@@ -97,8 +97,8 @@ def aggregate(mentions: Iterable[WebMention]) -> dict:
     }
 
 
-def analyze_match(home: str, away: str) -> dict:
-    mentions = collect_match_mentions(home, away)
+def analyze_match(home: str, away: str, limit_per_query: int = 15) -> dict:
+    mentions = collect_match_mentions(home, away, limit_per_query=limit_per_query)
     result = aggregate(mentions)
     result.update({"home": home, "away": away})
     return result
