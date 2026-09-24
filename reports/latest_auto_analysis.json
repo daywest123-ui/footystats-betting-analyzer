@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-24T19:14:02.382652+00:00",
+  "generated_at": "2026-09-24T23:09:24.630029+03:00",
   "run_status": "DEGRADED_DATA_SOURCE",
   "decision_status": "NO_BET_DATA_UNAVAILABLE",
   "data_sources": [
-    "openfootball/football.json (public domain/CC0)",
-    "football-data.co.uk downloadable CSV odds",
+    "openfootball/football.json",
+    "football-data.co.uk downloadable odds",
+    "OddsHarvester current odds when available",
     "public web intelligence"
   ],
   "fixtures_scanned": 0,
-  "matches_with_published_odds": 0,
+  "matches_with_odds": 0,
   "eligible_matches": 0,
-  "model_notes": "No API keys are used. Published odds are only used when present in the downloadable CSV source. Probabilities are estimates, not guarantees.",
+  "model_notes": "Home-win probability now uses a bounded expected-goals/Poisson component plus recent-form component. Market odds are used only for de-vig value comparison, not as a model vote. Web intelligence is bounded to a small adjustment. Probabilities are estimates, not guarantees.",
   "top_matches": [],
   "all_scanned": []
 }
