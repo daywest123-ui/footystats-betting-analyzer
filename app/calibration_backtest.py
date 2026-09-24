@@ -19,6 +19,7 @@ class CalibrationPoint:
     predicted: float
     actual: int
     odds: float | None = None
+    market_probability: float | None = None
 
 
 def _rows(points: Iterable[CalibrationPoint]) -> list[CalibrationPoint]:
@@ -83,11 +84,13 @@ def value_backtest(
     min_ev: float = 0.03,
 ) -> dict:
     rows = [p for p in points if p.odds and p.odds > 1]
-    selected = [
-        p for p in rows
-        if p.predicted - (1.0 / p.odds) >= min_probability_edge
-        and p.predicted * p.odds - 1.0 >= min_ev
-    ]
+    selected = []
+    for p in rows:
+        market_p = p.market_probability if p.market_probability is not None else (1.0 / p.odds)
+        if not 0.0 < market_p < 1.0:
+            continue
+        if p.predicted - market_p >= min_probability_edge and p.predicted * p.odds - 1.0 >= min_ev:
+            selected.append(p)
     if not selected:
         return {
             "opportunities": 0,
