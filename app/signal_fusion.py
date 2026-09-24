@@ -38,7 +38,7 @@ def fuse(stat_probability: float, web_score: float, web_confidence: float,
 
 def evaluate_market(match: str, market: str, odds: float, probability: float,
                     engine_votes: int, engine_count: int = 3,
-                    data_quality: float = 1.0) -> dict:
+                    data_quality: float = 1.0, odds_market_probability: float | None = None) -> dict:
     """Final gate: low odds and weak evidence are rejected as NO BET."""
     probability = max(0.0, min(1.0, probability))
     if odds <= 1.0:
@@ -47,6 +47,7 @@ def evaluate_market(match: str, market: str, odds: float, probability: float,
 
     implied = 1 / odds
     value_edge = probability * odds - 1
+    calibration_gap = probability - odds_market_probability if odds_market_probability is not None else None
     fair_odds = 1 / probability if probability else None
     consensus = engine_votes / max(engine_count, 1)
 
@@ -83,6 +84,8 @@ def evaluate_market(match: str, market: str, odds: float, probability: float,
         "implied_probability_pct": round(implied * 100, 1),
         "fair_odds": round(fair_odds, 2) if fair_odds else None,
         "value_edge_pct": round(value_edge * 100, 2),
+        "market_probability_pct": round(odds_market_probability * 100, 1) if odds_market_probability is not None else None,
+        "calibration_gap_pct": round(calibration_gap * 100, 2) if calibration_gap is not None else None,
         "consensus": f"{engine_votes}/{engine_count}",
         "confidence_10": round(confidence, 2),
         "decision": decision,
