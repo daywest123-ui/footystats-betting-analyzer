@@ -1,6 +1,6 @@
 """Three-engine consensus layer for football market candidates."""
 from __future__ import annotations
-from signal_fusion import evaluate_market
+from app.signal_fusion import evaluate_market
 
 def consensus_probability(stat_probability: float, prediction_probability: float,
                           intelligence_probability: float) -> tuple[float, int]:
