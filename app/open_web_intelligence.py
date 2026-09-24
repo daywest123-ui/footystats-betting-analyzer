@@ -16,7 +16,7 @@ from typing import Iterable
 import requests
 
 USER_AGENT = "Mozilla/5.0 (compatible; FootballWebIntel/1.0; +https://github.com/daywest123-ui/footystats-betting-analyzer)"
-TIMEOUT = 15
+TIMEOUT = 10
 
 @dataclass
 class WebMention:
@@ -60,18 +60,15 @@ def google_news_rss(query: str, language: str = "en", country: str = "US", limit
 
 def collect_match_mentions(home: str, away: str, limit_per_query: int = 15) -> list[WebMention]:
     queries = [
-        f'"{home}" "{away}" football',
-        f'"{home}" "{away}" prediction',
-        f'"{home}" "{away}" injuries lineup',
+        (f'"{home}" "{away}" football', "en", "US"),
+        (f'"{home}" "{away}" prediction', "en", "US"),
+        (f'"{home}" "{away}" injuries lineup', "en", "GB"),
+        (f'"{home}" "{away}" maç tahmin', "tr", "TR"),
     ]
-    # Turkish and international searches are intentionally separate.
-    for lang, country in (("tr", "TR"), ("en", "US"), ("en", "GB")):
-        queries.append(f'"{home}" "{away}" maç tahmin' if lang == "tr" else f'"{home}" "{away}" match prediction')
 
     mentions: list[WebMention] = []
     seen: set[str] = set()
-    for i, query in enumerate(queries):
-        lang, country = (("tr", "TR") if i == 3 else ("en", "US"))
+    for query, lang, country in queries:
         try:
             for m in google_news_rss(query, lang, country, limit_per_query):
                 key = m.url or m.title
@@ -80,7 +77,7 @@ def collect_match_mentions(home: str, away: str, limit_per_query: int = 15) -> l
                     mentions.append(m)
         except (requests.RequestException, ET.ParseError):
             continue
-        time.sleep(0.25)
+        time.sleep(0.15)
     return mentions
 
 
