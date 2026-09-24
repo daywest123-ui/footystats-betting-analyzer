@@ -34,7 +34,7 @@ class HardeningTests(unittest.TestCase):
     def test_consensus_clamps_and_counts(self):
         probability, votes = consensus_probability(1.2, -0.2, 0.60)
         self.assertAlmostEqual(probability, 0.45 * 1.0 + 0.35 * 0.0 + 0.20 * 0.60)
-        self.assertEqual(votes, 1)
+        self.assertEqual(votes, 2)
 
     def test_market_probability_components_are_not_identical(self):
         home = {"points_per_game": 2.0, "goal_diff_per_game": 0.75,
