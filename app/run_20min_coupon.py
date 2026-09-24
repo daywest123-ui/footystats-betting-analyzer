@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 from app.football_data_client import load_openfootball, recent_form, fixture_odds
@@ -19,15 +20,18 @@ MAX_WEB_FIXTURES = 6
 MAX_COUPON_LEGS = 4
 MIN_RECENT_MATCHES = 5
 MIN_VALUE_EDGE = 0.025
-MAX_RUNTIME_SECONDS = 20 * 60
+MAX_RUNTIME_SECONDS = 17 * 60
+LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 
 def run():
     started = time.monotonic()
     now = datetime.now(timezone.utc)
-    day = now.date().isoformat()
+    local_now = now.astimezone(LOCAL_TZ)
+    day = local_now.date().isoformat()
     report = {
         "generated_at": now.isoformat(), "target_date": day,
-        "pipeline": "20MIN_V1", "run_status": "STARTED",
+        "local_timezone": "Europe/Istanbul",
+        "pipeline": "20MIN_V2", "run_status": "STARTED",
         "decision_status": "NO_BET", "stages": {}, "coupon": [], "rejected": []
     }
     print("=== 20-MIN FOOTBALL COUPON ENGINE ===")
