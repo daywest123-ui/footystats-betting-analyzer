@@ -144,7 +144,8 @@ def _run_cli(day: str) -> list[dict[str, Any]]:
         "oddsharvester",
         "upcoming", "-s", "football", "-d", cli_day,
         "-m", "1x2,btts,over_under",
-        "--headless",
+        "--headless", "--timezone", "Europe/Istanbul",
+        "--concurrency", "2", "--request-delay", "0.5",
         "-f", "json", "-o", str(output),
     ]
     env = os.environ.copy()
