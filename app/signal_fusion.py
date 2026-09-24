@@ -1,7 +1,4 @@
-"""Signal fusion and disciplined market selection.
-
-Analysis only: probabilities are estimates, not guarantees.
-"""
+"""Signal fusion and disciplined market selection."""
 from __future__ import annotations
 
 MIN_ODDS = 1.55
@@ -9,6 +6,8 @@ IDEAL_ODDS_MIN = 1.60
 IDEAL_ODDS_MAX = 2.20
 MIN_CONFIDENCE = 0.55
 MIN_CONSENSUS = 2 / 3
+MIN_PROBABILITY_EDGE = 0.025
+MIN_EV = 0.03
 
 
 def fuse(stat_probability: float, web_score: float, web_confidence: float,
@@ -17,11 +16,9 @@ def fuse(stat_probability: float, web_score: float, web_confidence: float,
     web_component = 0.5 + 0.25 * max(-1.0, min(1.0, web_score))
     web_weight = 0.25 * max(0.0, min(1.0, web_confidence))
     final_probability = stat_probability * (1 - web_weight) + web_component * web_weight
-
     value = None
     if market_probability is not None and market_probability > 0:
         value = final_probability - market_probability
-
     return {
         "stat_probability": round(stat_probability, 4),
         "web_score": round(web_score, 4),
@@ -38,16 +35,17 @@ def fuse(stat_probability: float, web_score: float, web_confidence: float,
 
 def evaluate_market(match: str, market: str, odds: float, probability: float,
                     engine_votes: int, engine_count: int = 3,
-                    data_quality: float = 1.0, odds_market_probability: float | None = None) -> dict:
-    """Final gate: low odds and weak evidence are rejected as NO BET."""
+                    data_quality: float = 1.0,
+                    odds_market_probability: float | None = None) -> dict:
     probability = max(0.0, min(1.0, probability))
     if odds <= 1.0:
         return {"match": match, "market": market, "decision": "NO BET",
                 "reason": "Geçersiz oran"}
 
     implied = 1 / odds
-    value_edge = probability * odds - 1
-    calibration_gap = probability - odds_market_probability if odds_market_probability is not None else None
+    market_probability = odds_market_probability if odds_market_probability is not None else implied
+    probability_edge = probability - market_probability
+    ev = probability * odds - 1.0
     fair_odds = 1 / probability if probability else None
     consensus = engine_votes / max(engine_count, 1)
 
@@ -56,8 +54,10 @@ def evaluate_market(match: str, market: str, odds: float, probability: float,
         reasons.append(f"Çok düşük oran (< {MIN_ODDS})")
     if probability < MIN_CONFIDENCE:
         reasons.append("Model olasılığı %55 altında")
-    if value_edge <= 0:
-        reasons.append("Pozitif value edge yok")
+    if probability_edge < MIN_PROBABILITY_EDGE:
+        reasons.append("Model-market olasılık farkı %2.5 altında")
+    if ev < MIN_EV:
+        reasons.append("Beklenen değer (EV) %3 altında")
     if consensus < MIN_CONSENSUS:
         reasons.append("En az 2/3 motor consensus sağlamadı")
     if data_quality < 0.60:
@@ -67,10 +67,9 @@ def evaluate_market(match: str, market: str, odds: float, probability: float,
         "HIGH_ODDS" if odds > 2.50 else "ACCEPTABLE"
     )
     decision = "ANALYZE" if not reasons else "NO BET"
-
     confidence = min(10.0, (
         probability * 5.5 +
-        max(0.0, min(value_edge, 0.30)) * 8 +
+        max(0.0, min(ev, 0.30)) * 8 +
         consensus * 1.2 +
         data_quality * 0.8
     ))
@@ -82,10 +81,11 @@ def evaluate_market(match: str, market: str, odds: float, probability: float,
         "odds_zone": zone,
         "model_probability_pct": round(probability * 100, 1),
         "implied_probability_pct": round(implied * 100, 1),
+        "market_probability_pct": round(market_probability * 100, 1),
         "fair_odds": round(fair_odds, 2) if fair_odds else None,
-        "value_edge_pct": round(value_edge * 100, 2),
-        "market_probability_pct": round(odds_market_probability * 100, 1) if odds_market_probability is not None else None,
-        "calibration_gap_pct": round(calibration_gap * 100, 2) if calibration_gap is not None else None,
+        "value_edge_pct": round(probability_edge * 100, 2),
+        "ev_pct": round(ev * 100, 2),
+        "calibration_gap_pct": round((probability - market_probability) * 100, 2),
         "consensus": f"{engine_votes}/{engine_count}",
         "confidence_10": round(confidence, 2),
         "decision": decision,
