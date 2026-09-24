@@ -15,7 +15,7 @@ from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
 from app.auto_match_selector import _market_probabilities
 
-MAX_WEB_FIXTURES = 12
+MAX_WEB_FIXTURES = 6
 MAX_COUPON_LEGS = 4
 MIN_RECENT_MATCHES = 5
 MIN_VALUE_EDGE = 0.025
@@ -96,7 +96,7 @@ def run():
             report["stages"]["deadline"] = "reached_before_completion"
             break
         try:
-            intel = analyze_match(f["home"], f["away"])
+            intel = analyze_match(f["home"], f["away"], limit_per_query=5)
             probs = _market_probabilities(f["home_form"], f["away_form"], intel)
             fixture = {
                 "fixture_id": f'{f["home"]}||{f["away"]}||{day}',
