@@ -54,11 +54,12 @@ def load_history():
                 home, away = row.get("HomeTeam", "").strip(), row.get("AwayTeam", "").strip()
                 if date is None or hg is None or ag is None or not home or not away:
                     continue
-                rows.append({"date":date,"home":home,"away":away,"hg":int(hg),"ag":int(ag),
-                             "league":name,"odds":_float(row.get("B365H")),
-                             "odds_draw":_float(row.get("B365D")),"odds_away":_float(row.get("B365A")),
-                             "over_odds":_float(row.get("B365>2.5")),"under_odds":_float(row.get("B365<2.5")),
-                             "btts_yes_odds":_float(row.get("B365>2.5"))})
+                rows.append({
+                    "date":date,"home":home,"away":away,"hg":int(hg),"ag":int(ag),"league":name,
+                    "odds":_float(row.get("B365H")),"odds_draw":_float(row.get("B365D")),
+                    "odds_away":_float(row.get("B365A")),"over_odds":_float(row.get("B365>2.5")),
+                    "under_odds":_float(row.get("B365<2.5")),
+                })
     return sorted(rows, key=lambda x:(x["date"],x["league"],x["home"],x["away"]))
 
 
@@ -100,8 +101,7 @@ def _probabilities(h, a):
     home_p,draw_p,away_p=[x/total for x in (home_p,draw_p,away_p)]
 
     btts_p=1-math.exp(-hl)-math.exp(-al)+math.exp(-(hl+al))
-    under_p=sum(p for (hg,ag),p in matrix.items() if hg+ag<=2)
-    over_p=1-under_p
+    over_p=1-sum(p for (hg,ag),p in matrix.items() if hg+ag<=2)
 
     form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
     form_home=max(.05,min(.95,.50+.13*form_edge+.03))
@@ -133,25 +133,30 @@ def run():
                   "over_2_5":row["over_odds"]}
             for market,actual in actuals.items():
                 model_p,prod_p=probs[market]
-                points[market]["model"].append(CalibrationPoint(prod_p,actual,odds.get(market)))
+                # BTTS has no proxy odds: do not attach O/U odds to it.
+                model_odds=odds.get(market) if market != "btts_yes" else None
+                points[market]["model"].append(CalibrationPoint(prod_p,actual,model_odds))
+
                 if market in ("home_win","draw","away_win"):
                     trio=[row["odds"],row["odds_draw"],row["odds_away"]]
-                    raw=odds.get(market)
                     idx={"home_win":0,"draw":1,"away_win":2}[market]
-                    baseline=_devig(trio,idx) if raw and raw>1 else None
+                    baseline=_devig(trio,idx)
                 elif market=="over_2_5":
-                    pair=[row["over_odds"],row["under_odds"]]
-                    baseline=_devig(pair,0) if all(x and x>1 for x in pair) else None
+                    baseline=_devig([row["over_odds"],row["under_odds"]],0)
                 else:
                     baseline=None
+
                 if baseline is not None:
-                    points[market]["market_baseline"].append(CalibrationPoint(baseline,actual,odds.get(market)))
+                    points[market]["market_baseline"].append(
+                        CalibrationPoint(baseline,actual,model_odds)
+                    )
                     odds_coverage[market]+=1
             tested+=1
 
         h["points"].append(3 if row["hg"]>row["ag"] else 1 if row["hg"]==row["ag"] else 0)
         a["points"].append(3 if row["ag"]>row["hg"] else 1 if row["hg"]==row["ag"] else 0)
-        h["gf"].append(row["hg"]); h["ga"].append(row["ag"]); a["gf"].append(row["ag"]); a["ga"].append(row["hg"])
+        h["gf"].append(row["hg"]); h["ga"].append(row["ag"])
+        a["gf"].append(row["ag"]); a["ga"].append(row["hg"])
         total=row["hg"]+row["ag"]; over=int(total>=3); btts=int(row["hg"]>0 and row["ag"]>0)
         h["over"].append(over); a["over"].append(over); h["btts"].append(btts); a["btts"].append(btts)
 
