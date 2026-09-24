@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 _CACHE: dict[str, list[dict[str, Any]]] = {}
-TIMEOUT_SECONDS = 8 * 60
+TIMEOUT_SECONDS = 6 * 60
 
 
 def _norm(value: str) -> str:
@@ -144,7 +144,9 @@ def _run_cli(day: str) -> list[dict[str, Any]]:
         sys.executable, "-m", "oddsharvester",
         "upcoming", "-s", "football", "-d", cli_day,
         "-m", "1x2,btts,over_under",
-        "--headless", "-f", "json", "-o", str(output),
+        "--headless", "--timezone", "Europe/Istanbul",
+        "--concurrency", "2", "--request-delay", "0.5",
+        "-f", "json", "-o", str(output),
     ]
     env = os.environ.copy()
     env.setdefault("PYTHONUNBUFFERED", "1")
@@ -152,10 +154,28 @@ def _run_cli(day: str) -> list[dict[str, Any]]:
         completed = subprocess.run(
             cmd, capture_output=True, text=True, timeout=TIMEOUT_SECONDS, env=env
         )
-        if completed.returncode != 0 or not output.exists():
+        if completed.returncode != 0:
+            detail = (completed.stderr or completed.stdout or "").strip()
+            if detail:
+                print("[OddsHarvester] CLI failed: " + detail[-2500:])
+            else:
+                print(f"[OddsHarvester] CLI failed with exit code {completed.returncode}")
             return []
-        return _load_output(output)
-    except (subprocess.SubprocessError, OSError, json.JSONDecodeError):
+        if not output.exists():
+            print("[OddsHarvester] CLI exited successfully but produced no JSON output")
+            return []
+        try:
+            records = _load_output(output)
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"[OddsHarvester] Invalid JSON output: {type(exc).__name__}")
+            return []
+        print(f"[OddsHarvester] Retrieved {len(records)} records for {day}")
+        return records
+    except subprocess.TimeoutExpired:
+        print(f"[OddsHarvester] Timeout after {TIMEOUT_SECONDS}s for {day}")
+        return []
+    except OSError as exc:
+        print(f"[OddsHarvester] Process error: {exc}")
         return []
 
 
