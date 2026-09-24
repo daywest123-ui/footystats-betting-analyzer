@@ -7,6 +7,9 @@ import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+
+LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 
 
 def check(label, fn):
@@ -21,7 +24,9 @@ def check(label, fn):
 
 def main():
     print("=== 20-MIN ENGINE PREFLIGHT ===")
-    print(f"UTC: {datetime.now(timezone.utc).isoformat()}")
+    now = datetime.now(timezone.utc)
+    print(f"UTC: {now.isoformat()}")
+    print(f"Local: {now.astimezone(LOCAL_TZ).isoformat()}")
     ok = True
     ok &= check("Python >= 3.12", lambda: sys.version.split()[0] if sys.version_info >= (3, 12) else (_ for _ in ()).throw(RuntimeError(sys.version)))
     ok &= check("OddsHarvester import", lambda: importlib.import_module("oddsharvester").__name__)
@@ -66,9 +71,9 @@ def _engine_imports():
 def _fixture_probe():
     from app.football_data_client import load_openfootball
     rows = load_openfootball()
-    today = datetime.now(timezone.utc).date().isoformat()
-    today_rows = [r for r in rows if r.get("date") == today and not r.get("finished")]
-    return f"total={len(rows)}, today_unfinished={len(today_rows)}"
+    local_day = datetime.now(timezone.utc).astimezone(LOCAL_TZ).date().isoformat()
+    today_rows = [r for r in rows if r.get("date") == local_day and not r.get("finished")]
+    return f"total={len(rows)}, local_day={local_day}, today_unfinished={len(today_rows)}"
 
 
 if __name__ == "__main__":
