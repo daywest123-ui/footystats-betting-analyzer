@@ -120,7 +120,6 @@ def load_openfootball() -> list[dict[str, Any]]:
 
 
 def today_fixtures(day: str | None = None) -> list[dict[str, Any]]:
-    """Return scheduled fixtures for the Europe/Istanbul calendar day by default."""
     day = day or datetime.now(LOCAL_TZ).date().isoformat()
     return [m for m in load_openfootball() if m["date"] == day and not m["finished"]]
 
@@ -136,21 +135,32 @@ def recent_form(matches: list[dict[str, Any]], team: str, before: str, limit: in
     if not rows:
         return {
             "matches": 0, "points_per_game": 0.5, "goal_diff_per_game": 0.0,
+            "goals_for_per_game": 1.25, "goals_against_per_game": 1.25,
             "over25_rate": 0.5, "btts_rate": 0.5, "source": "openfootball"
         }
-    pts = gd = over = btts = 0.0
+
+    pts = gd = gf_total = ga_total = over = btts = 0.0
     for m in rows:
         hg, ag = m["home_goals"], m["away_goals"]
         home = _norm(m["home"]) == key
         gf, ga = (hg, ag) if home else (ag, hg)
         pts += 3 if gf > ga else 1 if gf == ga else 0
         gd += gf - ga
+        gf_total += gf
+        ga_total += ga
         over += int(hg + ag >= 3)
         btts += int(hg > 0 and ag > 0)
+
     n = len(rows)
     return {
-        "matches": n, "points_per_game": pts / n, "goal_diff_per_game": gd / n,
-        "over25_rate": over / n, "btts_rate": btts / n, "source": "openfootball"
+        "matches": n,
+        "points_per_game": pts / n,
+        "goal_diff_per_game": gd / n,
+        "goals_for_per_game": gf_total / n,
+        "goals_against_per_game": ga_total / n,
+        "over25_rate": over / n,
+        "btts_rate": btts / n,
+        "source": "openfootball",
     }
 
 
