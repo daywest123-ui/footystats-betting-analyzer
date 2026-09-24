@@ -15,45 +15,36 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Unit tests
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
-
       - name: Run keyless open-data football analyzer
         run: python -m app.auto_match_selector
-
-      - name: Show result in GitHub Actions
+      - name: Run leakage-safe historical calibration
+        run: python -m app.run_historical_calibration
+      - name: Show analysis summary
         if: always()
         run: |
-          echo "## 📊 Çoklu Spor Analiz Sonucu" >> "$GITHUB_STEP_SUMMARY"
-          if [ -f reports/multi_sport_coupon.json ]; then
-            cat reports/multi_sport_coupon.json >> "$GITHUB_STEP_SUMMARY"
-            echo "" >> "$GITHUB_STEP_SUMMARY"
-            echo '---' >> "$GITHUB_STEP_SUMMARY"
-            echo "### Ham çıktı" >> "$GITHUB_STEP_SUMMARY"
-            cat reports/multi_sport_coupon.json
-          else
-            echo "Rapor oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"
-          fi
-
-      - name: Save multi-sport coupon
-        uses: actions/upload-artifact@v4
-        with:
-          name: multi-sport-coupon
-          path: reports/multi_sport_coupon.json
-
-      - name: Save legacy analysis if present
+          echo "## Football Analysis" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f reports/latest_auto_analysis.json ]; then cat reports/latest_auto_analysis.json >> "$GITHUB_STEP_SUMMARY"; else echo "latest_auto_analysis.json oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"; fi
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Historical Calibration / Backtest" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f reports/historical_calibration_backtest.json ]; then cat reports/historical_calibration_backtest.json >> "$GITHUB_STEP_SUMMARY"; else echo "historical_calibration_backtest.json oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: Save analysis report
         uses: actions/upload-artifact@v4
         with:
           name: latest-auto-analysis
           path: reports/latest_auto_analysis.json
+          if-no-files-found: ignore
+      - name: Save calibration report
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-calibration-backtest
+          path: reports/historical_calibration_backtest.json
           if-no-files-found: ignore
