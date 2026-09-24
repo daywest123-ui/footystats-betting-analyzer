@@ -9,14 +9,16 @@ from __future__ import annotations
 import csv
 import io
 import re
-from datetime import datetime, timezone
+from datetime import datetime
 from statistics import median
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import requests
 
 TIMEOUT = 20
 UA = "Mozilla/5.0 (compatible; OpenFootballAnalyzer/1.0)"
+LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 OPENFOOTBALL = {
     "England Premier League": "en.1.json", "England Championship": "en.2.json",
     "England League One": "en.3.json", "England League Two": "en.4.json",
@@ -46,7 +48,11 @@ def _norm(v: str) -> str:
 
 
 def _get(url: str) -> requests.Response:
-    r = requests.get(url, headers={"User-Agent": UA, "Accept": "application/json,text/plain,*/*"}, timeout=TIMEOUT)
+    r = requests.get(
+        url,
+        headers={"User-Agent": UA, "Accept": "application/json,text/plain,*/*"},
+        timeout=TIMEOUT,
+    )
     r.raise_for_status()
     return r
 
@@ -114,7 +120,8 @@ def load_openfootball() -> list[dict[str, Any]]:
 
 
 def today_fixtures(day: str | None = None) -> list[dict[str, Any]]:
-    day = day or datetime.now(timezone.utc).date().isoformat()
+    """Return scheduled fixtures for the Europe/Istanbul calendar day by default."""
+    day = day or datetime.now(LOCAL_TZ).date().isoformat()
     return [m for m in load_openfootball() if m["date"] == day and not m["finished"]]
 
 
