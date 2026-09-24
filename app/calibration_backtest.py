@@ -82,14 +82,23 @@ def value_backtest(
     points: Iterable[CalibrationPoint],
     min_probability_edge: float = 0.025,
     min_ev: float = 0.03,
+    min_probability: float = 0.55,
+    min_odds: float = 1.55,
 ) -> dict:
-    rows = [p for p in points if p.odds and p.odds > 1]
+    # Mirror the production signal gate before testing value. Without these
+    # gates, the historical test evaluates longshots that production would
+    # never admit, creating a false picture of strategy performance.
+    rows = [p for p in points if p.odds and p.odds >= min_odds]
     selected = []
     for p in rows:
         market_p = p.market_probability if p.market_probability is not None else (1.0 / p.odds)
         if not 0.0 < market_p < 1.0:
             continue
-        if p.predicted - market_p >= min_probability_edge and p.predicted * p.odds - 1.0 >= min_ev:
+        if (
+            p.predicted >= min_probability
+            and p.predicted - market_p >= min_probability_edge
+            and p.predicted * p.odds - 1.0 >= min_ev
+        ):
             selected.append(p)
     if not selected:
         return {
@@ -101,6 +110,8 @@ def value_backtest(
             "thresholds": {
                 "probability_edge": min_probability_edge,
                 "ev": min_ev,
+                "minimum_probability": min_probability,
+                "minimum_odds": min_odds,
             },
         }
 
