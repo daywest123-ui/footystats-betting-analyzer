@@ -17,7 +17,8 @@ def analyze_candidate(match: str, market: str, odds: float,
         stat_probability, prediction_probability, intelligence_probability
     )
     result = evaluate_market(
-        match, market, odds, probability, votes, 3, data_quality
+        match, market, odds, probability, votes, 3, data_quality,
+        odds_market_probability=1 / odds if odds > 1 else None,
     )
     result["engines"] = {
         "statistical_pct": round(stat_probability * 100, 1),
