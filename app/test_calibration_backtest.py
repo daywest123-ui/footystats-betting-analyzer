@@ -22,8 +22,9 @@ class CalibrationBacktestTests(unittest.TestCase):
     def test_calibration_table_observed_rate(self):
         points = [CalibrationPoint(0.8, 1), CalibrationPoint(0.8, 0)]
         table = calibration_table(points)
-        self.assertAlmostEqual(table[8]["observed_rate"], 0.5)
-        self.assertAlmostEqual(table[8]["absolute_gap"], 0.3)
+        row = next(item for item in table if item["bucket"] == "80%-90%")
+        self.assertAlmostEqual(row["observed_rate"], 0.5)
+        self.assertAlmostEqual(row["absolute_gap"], 0.3)
 
     def test_expected_calibration_error(self):
         points = [CalibrationPoint(0.8, 1), CalibrationPoint(0.8, 0)]
