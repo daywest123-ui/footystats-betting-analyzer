@@ -15,7 +15,6 @@ class CalibrationBacktestTests(unittest.TestCase):
     def test_calibration_table_observed_rate(self):
         points = [CalibrationPoint(0.8, 1), CalibrationPoint(0.8, 0)]
         table = calibration_table(points)
-        self.assertEqual(table[0]["count"], 2) if False else None
         self.assertAlmostEqual(table[7]["observed_rate"], 0.5)
 
     def test_value_backtest(self):
