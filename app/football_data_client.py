@@ -1,8 +1,9 @@
 """Keyless open-data football source.
 
 Uses openfootball/football.json for fixtures/results and football-data.co.uk
-as a historical/current-season fallback. Same-day odds prefer current
-OddsHarvester prices; CSV odds are a fallback only.
+for historical/current-season fallback. Current bookmaker scraping is not a
+runtime dependency: if reliable odds are unavailable, the analyzer returns
+NO BET instead of inventing or approximating a price.
 """
 from __future__ import annotations
 
@@ -64,6 +65,28 @@ def _parse_date(v: str) -> str | None:
         except (ValueError, AttributeError):
             pass
     return None
+
+
+def _float(v: Any) -> float | None:
+    try:
+        return float(str(v).replace(",", ".")) if v not in (None, "") else None
+    except (ValueError, TypeError):
+        return None
+
+
+def _csv_rows(league: str) -> list[dict[str, Any]]:
+    if league in _CSV_CACHE:
+        return _CSV_CACHE[league]
+    code = FOOTBALL_DATA.get(league)
+    if not code:
+        return []
+    try:
+        raw = _get(FOOTBALL_DATA_BASE + code + ".csv").content.decode("cp1252", errors="replace")
+        rows = list(csv.DictReader(io.StringIO(raw)))
+    except (requests.RequestException, UnicodeError, csv.Error):
+        rows = []
+    _CSV_CACHE[league] = rows
+    return rows
 
 
 def _football_data_matches() -> list[dict[str, Any]]:
@@ -164,28 +187,6 @@ def recent_form(matches: list[dict[str, Any]], team: str, before: str, limit: in
     }
 
 
-def _float(v: Any) -> float | None:
-    try:
-        return float(str(v).replace(",", ".")) if v not in (None, "") else None
-    except (ValueError, TypeError):
-        return None
-
-
-def _csv_rows(league: str) -> list[dict[str, Any]]:
-    if league in _CSV_CACHE:
-        return _CSV_CACHE[league]
-    code = FOOTBALL_DATA.get(league)
-    if not code:
-        return []
-    try:
-        raw = _get(FOOTBALL_DATA_BASE + code + ".csv").content.decode("cp1252", errors="replace")
-        rows = list(csv.DictReader(io.StringIO(raw)))
-    except (requests.RequestException, UnicodeError, csv.Error):
-        rows = []
-    _CSV_CACHE[league] = rows
-    return rows
-
-
 def _csv_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
     hk, ak = _norm(home), _norm(away)
     vals = {"home_win": [], "draw": [], "away_win": [], "over_2_5": [], "under_2_5": []}
@@ -212,13 +213,8 @@ def _csv_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
 
 
 def fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
-    try:
-        from app.odds_harvester_client import fixture_odds as current_fixture_odds
-        live = current_fixture_odds(home, away, day)
-        if live:
-            return live
-    except Exception as exc:
-        print(f"OddsHarvester current odds unavailable: {type(exc).__name__}")
+    # No live scraper is used here. Only a concrete CSV bookmaker price is
+    # accepted; otherwise the caller must treat the market as NO BET.
     return _csv_fixture_odds(home, away, day)
 
 
