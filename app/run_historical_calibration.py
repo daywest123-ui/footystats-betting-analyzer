@@ -13,6 +13,7 @@ from statistics import mean
 import requests
 
 from app.calibration_backtest import CalibrationPoint, summarize
+from app.dixon_coles_model import predict as dixon_coles_predict
 
 UA = "Mozilla/5.0 (compatible; FootballAnalyzerCalibration/1.0)"
 TIMEOUT = 20
@@ -120,14 +121,38 @@ def run():
     history=load_history()
     states=defaultdict(_team_state)
     markets=("home_win","draw","away_win","btts_yes","over_2_5")
-    points={m:{"model":[],"market_baseline":[]} for m in markets}
+    points={m:{"model":[],"legacy_model":[],"market_baseline":[]} for m in markets}
     tested=0
     odds_coverage={m:0 for m in markets}
+    # Current production model is the Dixon-Coles + form family. Keep the
+    # legacy probability stream as a benchmark so improvements are measurable.
+    dc_matches = [{
+        "date": r["date"].isoformat(),
+        "home": r["home"],
+        "away": r["away"],
+        "home_goals": r["hg"],
+        "away_goals": r["ag"],
+        "finished": True,
+    } for r in history]
 
     for row in history:
         h,a=states[row["home"]],states[row["away"]]
         if len(h["points"])>=3 and len(a["points"])>=3:
             probs=_probabilities(h,a)
+            dc = dixon_coles_predict(
+                dc_matches, row["home"], row["away"], row["date"].isoformat()
+            )
+            # Match the production probability family: DC is the statistical
+            # anchor; recent-form signal is blended only for the home-win leg.
+            form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
+            form_home=max(.05,min(.95,.50+.13*form_edge+.03))
+            current_probs={
+                "home_win": .60*dc["home_win"] + .40*form_home,
+                "draw": dc["draw"],
+                "away_win": dc["away_win"],
+                "btts_yes": dc["btts_yes"],
+                "over_2_5": dc["over_2_5"],
+            }
             actuals={"home_win":int(row["hg"]>row["ag"]),"draw":int(row["hg"]==row["ag"]),
                      "away_win":int(row["hg"]<row["ag"]),"btts_yes":int(row["hg"]>0 and row["ag"]>0),
                      "over_2_5":int(row["hg"]+row["ag"]>=3)}
@@ -135,6 +160,7 @@ def run():
                   "over_2_5":row["over_odds"]}
             for market,actual in actuals.items():
                 model_p,prod_p=probs[market]
+                current_p=current_probs[market]
                 # BTTS has no proxy odds: do not attach O/U odds to it.
                 model_odds=odds.get(market) if market != "btts_yes" else None
                 market_probability = None
@@ -146,6 +172,9 @@ def run():
                 elif market == "over_2_5":
                     market_probability = _devig([row["over_odds"], row["under_odds"]], 0)
                 points[market]["model"].append(
+                    CalibrationPoint(current_p, actual, model_odds, market_probability)
+                )
+                points[market]["legacy_model"].append(
                     CalibrationPoint(prod_p, actual, model_odds, market_probability)
                 )
 
