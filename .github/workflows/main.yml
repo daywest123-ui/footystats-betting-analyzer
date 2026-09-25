@@ -28,6 +28,22 @@ jobs:
         run: python -m app.auto_match_selector
       - name: Run leakage-safe historical calibration
         run: python -m app.run_historical_calibration
+      - name: Validate calibration report
+        run: |
+          python - <<'PY'
+          import json, math
+          p="reports/historical_calibration_backtest.json"
+          d=json.load(open(p, encoding="utf-8"))
+          assert d["tested_fixtures"] > 0
+          for market, variants in d["markets"].items():
+              for name, report in variants.items():
+                  if report["samples"] == 0:
+                      continue
+                  for key in ("brier_score", "log_loss", "expected_calibration_error"):
+                      value=report.get(key)
+                      assert value is not None and math.isfinite(value), (market, name, key, value)
+          print("CALIBRATION_REPORT=PASS")
+          PY
       - name: Show analysis summary
         if: always()
         run: |
