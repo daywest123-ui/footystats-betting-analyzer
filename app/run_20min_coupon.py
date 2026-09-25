@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
@@ -33,10 +33,12 @@ def _remaining(started: float) -> float:
 def run():
     started = time.monotonic()
     now = datetime.now(timezone.utc)
-    day = now.astimezone(LOCAL_TZ).date().isoformat()
+    local_today = now.astimezone(LOCAL_TZ).date()
+    day = local_today.isoformat()
     report = {
         "generated_at": now.isoformat(),
         "target_date": day,
+        "requested_date": day,
         "local_timezone": "Europe/Istanbul",
         "pipeline": "20MIN_V4",
         "run_status": "STARTED",
@@ -50,47 +52,89 @@ def run():
     print(f"Target date: {day}")
 
     matches = load_openfootball()
+
+    # Do not stop at an international-break day. Search a bounded forward
+    # window and select the first date with concrete bookmaker prices.
+    search_days = [
+        (local_today + timedelta(days=offset)).isoformat()
+        for offset in range(0, 16)
+    ]
     fixtures = []
-    for m in matches:
+    selected_day = None
+    days_checked = []
+
+    for candidate_day in search_days:
         if _remaining(started) <= 0:
             report["stages"]["deadline"] = "reached_during_fixture_scan"
             break
-        if m.get("date") != day or m.get("finished"):
+
+        day_fixtures = [
+            m for m in matches
+            if m.get("date") == candidate_day and not m.get("finished")
+        ]
+        if not day_fixtures:
+            days_checked.append({"date": candidate_day, "scheduled": 0, "priced": 0})
             continue
 
-        home_form = recent_form(matches, m["home"], day, 8)
-        away_form = recent_form(matches, m["away"], day, 8)
-        sample = min(home_form["matches"], away_form["matches"])
-        if sample < MIN_RECENT_MATCHES:
-            continue
+        priced_for_day = []
+        for m in day_fixtures:
+            if _remaining(started) <= 0:
+                report["stages"]["deadline"] = "reached_during_fixture_scan"
+                break
 
-        odds = fixture_odds(m["home"], m["away"], day)
-        if not odds:
-            continue
+            home_form = recent_form(matches, m["home"], candidate_day, 8)
+            away_form = recent_form(matches, m["away"], candidate_day, 8)
+            sample = min(home_form["matches"], away_form["matches"])
+            if sample < MIN_RECENT_MATCHES:
+                continue
 
-        fixtures.append({
-            "home": m["home"],
-            "away": m["away"],
-            "league": m.get("league", "Unknown"),
-            "fixture_date": day,
-            "fixture_id": f'{m["home"]}||{m["away"]}||{day}',
-            "home_form": home_form,
-            "away_form": away_form,
-            "odds": odds,
-            "dixon_coles": dixon_coles_predict(matches, m["home"], m["away"], day),
+            odds = fixture_odds(m["home"], m["away"], candidate_day)
+            if not odds:
+                continue
+
+            priced_for_day.append({
+                "home": m["home"],
+                "away": m["away"],
+                "league": m.get("league", "Unknown"),
+                "fixture_date": candidate_day,
+                "fixture_id": f'{m["home"]}||{m["away"]}||{candidate_day}',
+                "home_form": home_form,
+                "away_form": away_form,
+                "odds": odds,
+                "dixon_coles": dixon_coles_predict(
+                    matches, m["home"], m["away"], candidate_day
+                ),
+            })
+
+        days_checked.append({
+            "date": candidate_day,
+            "scheduled": len(day_fixtures),
+            "priced": len(priced_for_day),
         })
+        if priced_for_day:
+            selected_day = candidate_day
+            fixtures = priced_for_day
+            break
+
+    if selected_day:
+        day = selected_day
+        report["target_date"] = day
 
     report["stages"]["fixture_and_odds"] = {
         "fixtures_with_min_form_and_current_odds": len(fixtures),
+        "requested_date": report["requested_date"],
+        "selected_date": selected_day,
+        "days_checked": days_checked,
+        "lookahead_days": 15,
         "odds_rule": "same fixture + same local calendar date",
         "odds_source": "football-data.co.uk CSV only",
     }
-    print(f"[1/4] Current-odds fixtures: {len(fixtures)}")
+    print(f"[1/4] Current-odds fixtures: {len(fixtures)} | selected_date={selected_day or 'NONE'}")
 
     if not fixtures:
         report["run_status"] = "NO_CURRENT_ODDS"
         report["decision_status"] = "NO_BET_CURRENT_ODDS_UNAVAILABLE"
-        report["reason"] = "Bugünün maçları için doğrulanabilir güncel oran bulunamadı; eski oran veya scraper verisi kullanılmadı."
+        report["reason"] = "Bugün ve sınırlı ileri pencerede doğrulanabilir oran bulunamadı; eski oran veya tahmini fiyat kullanılmadı."
         return _write(report, started)
 
     scored = []
