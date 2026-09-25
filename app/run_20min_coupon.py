@@ -16,6 +16,7 @@ from app.football_data_client import load_openfootball, recent_form, fixture_odd
 from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets, _devig_probability
 from app.auto_match_selector import _market_probabilities
+from app.dixon_coles_model import predict as dixon_coles_predict
 
 MAX_WEB_FIXTURES = 6
 MAX_COUPON_LEGS = 4
@@ -76,6 +77,7 @@ def run():
             "home_form": home_form,
             "away_form": away_form,
             "odds": odds,
+            "dixon_coles": dixon_coles_predict(matches, m["home"], m["away"], day),
         })
 
     report["stages"]["fixture_and_odds"] = {
@@ -93,7 +95,7 @@ def run():
 
     scored = []
     for f in fixtures:
-        probs = _market_probabilities(f["home_form"], f["away_form"], None)
+        probs = _market_probabilities(f["home_form"], f["away_form"], None, f["dixon_coles"])
         candidates = []
         for market, engines in probs.items():
             odds = f["odds"].get(market)
@@ -124,7 +126,7 @@ def run():
             break
         try:
             intel = analyze_match(f["home"], f["away"], limit_per_query=5)
-            probs = _market_probabilities(f["home_form"], f["away_form"], intel)
+            probs = _market_probabilities(f["home_form"], f["away_form"], intel, f["dixon_coles"])
             fixture = {
                 "fixture_id": f["fixture_id"],
                 "home": f["home"],
