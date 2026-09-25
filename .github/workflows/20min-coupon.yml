@@ -19,18 +19,12 @@ jobs:
           python-version: '3.12'
       - name: Install core dependencies
         run: pip install -r requirements.txt
-      - name: Install OddsHarvester
-        run: pip install -r requirements-local.txt
-      - name: Install Chromium
-        run: python -m playwright install chromium
       - name: Compile check
         run: python -m compileall -q app
       - name: Engine preflight diagnostics
         run: python -m app.diagnose_20min
       - name: Unit smoke tests
         run: python -m unittest discover -s app -p 'test_*.py'
-      - name: OddsHarvester CLI smoke test
-        run: oddsharvester --help
       - name: Run 20-minute engine
         run: python -m app.run_20min_coupon
       - name: Summary
