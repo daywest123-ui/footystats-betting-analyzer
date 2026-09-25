@@ -153,7 +153,8 @@ def run():
                     dc_matches, row["home"], row["away"], row["date"].isoformat()
                 )
                 form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
-                form_home=max(.05,min(.95,.50+.13*form_edge+.03))
+                gd_edge=max(-1,min(1,((_rate(h["gf"],1.25)-_rate(h["ga"],1.25))-(_rate(a["gf"],1.25)-_rate(a["ga"],1.25)))/3))
+                form_home=max(.05,min(.95,.50+.13*form_edge+.09*gd_edge+.03))
                 # Mirror the production _market_probabilities() ensemble exactly.
                 # Historical validation must score the probabilities actually used
                 # by analyze_fixture_markets(), not a separate backtest-only formula.
