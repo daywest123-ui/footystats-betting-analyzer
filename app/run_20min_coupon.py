@@ -1,8 +1,8 @@
 """20-minute football coupon pipeline.
 
 Analysis/paper-selection only. It never places bets.
-Uses same-day retrieved odds and refuses stale prices when current odds
-cannot be obtained.
+Uses same-day verified odds from football-data.co.uk and refuses stale or
+missing prices when current odds cannot be obtained.
 """
 from __future__ import annotations
 
@@ -37,7 +37,7 @@ def run():
         "generated_at": now.isoformat(),
         "target_date": day,
         "local_timezone": "Europe/Istanbul",
-        "pipeline": "20MIN_V3",
+        "pipeline": "20MIN_V4",
         "run_status": "STARTED",
         "decision_status": "NO_BET",
         "stages": {},
@@ -49,16 +49,6 @@ def run():
     print(f"Target date: {day}")
 
     matches = load_openfootball()
-    if not any(m.get("date") == day and not m.get("finished") for m in matches):
-        try:
-            from app.odds_harvester_client import current_fixtures
-            fallback = current_fixtures(day)
-            if fallback:
-                matches.extend(fallback)
-                print(f"OddsHarvester current fixtures: {len(fallback)}")
-        except Exception as exc:
-            print(f"OddsHarvester fixture fallback unavailable: {type(exc).__name__}")
-
     fixtures = []
     for m in matches:
         if _remaining(started) <= 0:
@@ -91,16 +81,16 @@ def run():
     report["stages"]["fixture_and_odds"] = {
         "fixtures_with_min_form_and_current_odds": len(fixtures),
         "odds_rule": "same fixture + same local calendar date",
+        "odds_source": "football-data.co.uk CSV only",
     }
     print(f"[1/4] Current-odds fixtures: {len(fixtures)}")
 
     if not fixtures:
         report["run_status"] = "NO_CURRENT_ODDS"
         report["decision_status"] = "NO_BET_CURRENT_ODDS_UNAVAILABLE"
-        report["reason"] = "Bugünün maçları için doğrulanabilir güncel oran bulunamadı; eski oran kullanılmadı."
+        report["reason"] = "Bugünün maçları için doğrulanabilir güncel oran bulunamadı; eski oran veya scraper verisi kullanılmadı."
         return _write(report, started)
 
-    # Cheap prefilter uses de-vig market probability, not raw 1/odds.
     scored = []
     for f in fixtures:
         probs = _market_probabilities(f["home_form"], f["away_form"], None)
@@ -169,7 +159,7 @@ def run():
                     "web_confidence": intel.get("confidence", 0.0),
                     "risk_flags": intel.get("risk_flags", []),
                     "consensus": best.get("consensus"),
-                    "odds_source": "OddsHarvester_current_or_csv_fallback",
+                    "odds_source": "football-data.co.uk",
                 })
             else:
                 report["rejected"].append({
@@ -187,8 +177,6 @@ def run():
         reverse=True,
     )
 
-    # Coupon construction: one leg per fixture. Do not manufacture a coupon
-    # merely to reach MAX_COUPON_LEGS; fewer legs or NO BET is valid.
     coupon = []
     seen_fixtures = set()
     seen_markets = set()
@@ -197,8 +185,6 @@ def run():
         market_key = candidate["market"]
         if fixture_key in seen_fixtures:
             continue
-        # Avoid stacking four identical market types; this limits common-mode
-        # exposure without rejecting otherwise independent fixtures.
         if market_key in seen_markets and len(seen_markets) >= 2:
             continue
         coupon.append(candidate)
@@ -210,7 +196,6 @@ def run():
     report["stages"]["final_gate"] = {
         "finalists": len(finalists),
         "coupon_legs": len(coupon),
-        "minimum_confidence": 0,
         "minimum_probability_edge_pct": MIN_VALUE_EDGE * 100,
         "minimum_ev_pct": 3.0,
     }
