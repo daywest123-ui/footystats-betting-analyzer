@@ -154,12 +154,38 @@ def run():
                 )
                 form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
                 form_home=max(.05,min(.95,.50+.13*form_edge+.03))
+                # Mirror the production _market_probabilities() ensemble exactly.
+                # Historical validation must score the probabilities actually used
+                # by analyze_fixture_markets(), not a separate backtest-only formula.
+                h_o = _rate(h["over"], 0.5)
+                a_o = _rate(a["over"], 0.5)
+                h_b = _rate(h["btts"], 0.5)
+                a_b = _rate(a["btts"], 0.5)
+                h_ppg = _rate(h["points"], 1.0)
+                a_ppg = _rate(a["points"], 1.0)
+                h_gd = _rate(h["gf"], 1.25) - _rate(h["ga"], 1.25)
+                a_gd = _rate(a["gf"], 1.25) - _rate(a["ga"], 1.25)
+                goal_signal = (h_o + a_o) / 2.0
+                btts_signal = (h_b + a_b) / 2.0
+                gd_edge = max(-1.0, min(1.0, (h_gd - a_gd) / 3.0))
+                form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
+                poisson_home = probs["home_win"][0]
+                legacy_home = max(.05, min(.95, .65 * poisson_home + .35 * form_home))
+                dc_home = dc["home_win"]
+                dc_btts = dc["btts_yes"]
+                dc_over = dc["over_2_5"]
+                home_stat = max(.05, min(.95, .55 * legacy_home + .45 * dc_home))
+                home_pred = max(.05, min(.95, .60 * dc_home + .40 * form_home))
+                btts_stat = max(.05, min(.95, .55 * (.35 + .40 * btts_signal) + .45 * dc_btts))
+                btts_pred = max(.05, min(.95, .60 * dc_btts + .40 * (.40 + .32 * btts_signal)))
+                over_stat = max(.05, min(.95, .55 * (.35 + .40 * goal_signal) + .45 * dc_over))
+                over_pred = max(.05, min(.95, .60 * dc_over + .40 * (.40 + .32 * goal_signal)))
                 current_probs={
-                    "home_win": .60*dc["home_win"] + .40*form_home,
+                    "home_win": .45 * home_stat + .35 * home_pred + .20 * .50,
                     "draw": dc["draw"],
                     "away_win": dc["away_win"],
-                    "btts_yes": dc["btts_yes"],
-                    "over_2_5": dc["over_2_5"],
+                    "btts_yes": .45 * btts_stat + .35 * btts_pred + .20 * .50,
+                    "over_2_5": .45 * over_stat + .35 * over_pred + .20 * .50,
                 }
                 actuals={"home_win":int(row["hg"]>row["ag"]),"draw":int(row["hg"]==row["ag"]),
                          "away_win":int(row["hg"]<row["ag"]),"btts_yes":int(row["hg"]>0 and row["ag"]>0),
