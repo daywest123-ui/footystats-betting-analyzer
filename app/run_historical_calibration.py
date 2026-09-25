@@ -135,71 +135,83 @@ def run():
         "finished": True,
     } for r in history]
 
+    # Strict walk-forward: every fixture on a calendar date is predicted
+    # from state accumulated strictly before that date. No result from an
+    # earlier fixture on the same day can leak into a later fixture's forecast.
+    by_date = defaultdict(list)
     for row in history:
-        h,a=states[row["home"]],states[row["away"]]
-        if len(h["points"])>=3 and len(a["points"])>=3:
-            probs=_probabilities(h,a)
-            dc = dixon_coles_predict(
-                dc_matches, row["home"], row["away"], row["date"].isoformat()
-            )
-            # Match the production probability family: DC is the statistical
-            # anchor; recent-form signal is blended only for the home-win leg.
-            form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
-            form_home=max(.05,min(.95,.50+.13*form_edge+.03))
-            current_probs={
-                "home_win": .60*dc["home_win"] + .40*form_home,
-                "draw": dc["draw"],
-                "away_win": dc["away_win"],
-                "btts_yes": dc["btts_yes"],
-                "over_2_5": dc["over_2_5"],
-            }
-            actuals={"home_win":int(row["hg"]>row["ag"]),"draw":int(row["hg"]==row["ag"]),
-                     "away_win":int(row["hg"]<row["ag"]),"btts_yes":int(row["hg"]>0 and row["ag"]>0),
-                     "over_2_5":int(row["hg"]+row["ag"]>=3)}
-            odds={"home_win":row["odds"],"draw":row["odds_draw"],"away_win":row["odds_away"],
-                  "over_2_5":row["over_odds"]}
-            for market,actual in actuals.items():
-                model_p,prod_p=probs[market]
-                current_p=current_probs[market]
-                # BTTS has no proxy odds: do not attach O/U odds to it.
-                model_odds=odds.get(market) if market != "btts_yes" else None
-                market_probability = None
-                if market in ("home_win","draw","away_win"):
-                    market_probability = _devig(
-                        [row["odds"], row["odds_draw"], row["odds_away"]],
-                        {"home_win": 0, "draw": 1, "away_win": 2}[market],
-                    )
-                elif market == "over_2_5":
-                    market_probability = _devig([row["over_odds"], row["under_odds"]], 0)
-                points[market]["model"].append(
-                    CalibrationPoint(current_p, actual, model_odds, market_probability)
+        by_date[row["date"]].append(row)
+
+    for match_date in sorted(by_date):
+        day_rows = by_date[match_date]
+
+        for row in day_rows:
+            h,a=states[row["home"]],states[row["away"]]
+            if len(h["points"])>=3 and len(a["points"])>=3:
+                probs=_probabilities(h,a)
+                dc = dixon_coles_predict(
+                    dc_matches, row["home"], row["away"], row["date"].isoformat()
                 )
-                points[market]["legacy_model"].append(
-                    CalibrationPoint(prod_p, actual, model_odds, market_probability)
-                )
+                form_edge=max(-1,min(1,(_rate(h["points"],1)-_rate(a["points"],1))/3))
+                form_home=max(.05,min(.95,.50+.13*form_edge+.03))
+                current_probs={
+                    "home_win": .60*dc["home_win"] + .40*form_home,
+                    "draw": dc["draw"],
+                    "away_win": dc["away_win"],
+                    "btts_yes": dc["btts_yes"],
+                    "over_2_5": dc["over_2_5"],
+                }
+                actuals={"home_win":int(row["hg"]>row["ag"]),"draw":int(row["hg"]==row["ag"]),
+                         "away_win":int(row["hg"]<row["ag"]),"btts_yes":int(row["hg"]>0 and row["ag"]>0),
+                         "over_2_5":int(row["hg"]+row["ag"]>=3)}
+                odds={"home_win":row["odds"],"draw":row["odds_draw"],"away_win":row["odds_away"],
+                      "over_2_5":row["over_odds"]}
+                for market,actual in actuals.items():
+                    model_p,prod_p=probs[market]
+                    current_p=current_probs[market]
+                    model_odds=odds.get(market) if market != "btts_yes" else None
+                    market_probability = None
+                    if market in ("home_win","draw","away_win"):
+                        market_probability = _devig(
+                            [row["odds"], row["odds_draw"], row["odds_away"]],
+                            {"home_win": 0, "draw": 1, "away_win": 2}[market],
+                        )
+                    elif market == "over_2_5":
+                        market_probability = _devig([row["over_odds"],row["under_odds"]],0)
 
-                if market in ("home_win","draw","away_win"):
-                    trio=[row["odds"],row["odds_draw"],row["odds_away"]]
-                    idx={"home_win":0,"draw":1,"away_win":2}[market]
-                    baseline=_devig(trio,idx)
-                elif market=="over_2_5":
-                    baseline=_devig([row["over_odds"],row["under_odds"]],0)
-                else:
-                    baseline=None
-
-                if baseline is not None:
-                    points[market]["market_baseline"].append(
-                        CalibrationPoint(baseline, actual, None, baseline)
+                    points[market]["model"].append(
+                        CalibrationPoint(current_p, actual, model_odds, market_probability)
                     )
-                    odds_coverage[market] += 1
-            tested+=1
+                    points[market]["legacy_model"].append(
+                        CalibrationPoint(prod_p, actual, model_odds, market_probability)
+                    )
 
-        h["points"].append(3 if row["hg"]>row["ag"] else 1 if row["hg"]==row["ag"] else 0)
-        a["points"].append(3 if row["ag"]>row["hg"] else 1 if row["hg"]==row["ag"] else 0)
-        h["gf"].append(row["hg"]); h["ga"].append(row["ag"])
-        a["gf"].append(row["ag"]); a["ga"].append(row["hg"])
-        total=row["hg"]+row["ag"]; over=int(total>=3); btts=int(row["hg"]>0 and row["ag"]>0)
-        h["over"].append(over); a["over"].append(over); h["btts"].append(btts); a["btts"].append(btts)
+                    if market in ("home_win","draw","away_win"):
+                        trio=[row["odds"],row["odds_draw"],row["odds_away"]]
+                        idx={"home_win":0,"draw":1,"away_win":2}[market]
+                        baseline=_devig(trio,idx)
+                    elif market=="over_2_5":
+                        baseline=_devig([row["over_odds"],row["under_odds"]],0)
+                    else:
+                        baseline=None
+
+                    if baseline is not None:
+                        points[market]["market_baseline"].append(
+                            CalibrationPoint(baseline, actual, None, baseline)
+                        )
+                        odds_coverage[market] += 1
+                tested+=1
+
+        # Only after ALL predictions for this date have been generated do
+        # we reveal that date's results to the model state.
+        for row in day_rows:
+            h,a=states[row["home"]],states[row["away"]]
+            h["points"].append(3 if row["hg"]>row["ag"] else 1 if row["hg"]==row["ag"] else 0)
+            a["points"].append(3 if row["ag"]>row["hg"] else 1 if row["ag"]==row["hg"] else 0)
+            h["gf"].append(row["hg"]); h["ga"].append(row["ag"])
+            a["gf"].append(row["ag"]); a["ga"].append(row["hg"])
+            total=row["hg"]+row["ag"]; over=int(total>=3); btts=int(row["hg"]>0 and row["ag"]>0)
+            h["over"].append(over); a["over"].append(over); h["btts"].append(btts); a["btts"].append(btts)
 
     result={"generated_at":datetime.now(timezone.utc).isoformat().replace("+00:00","Z"),"seasons":list(SEASONS),
             "leagues":list(LEAGUES.values()),"tested_fixtures":tested,"odds_coverage":odds_coverage,
