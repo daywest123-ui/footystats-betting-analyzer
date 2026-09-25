@@ -85,6 +85,23 @@ def _devig(odds: list[float], index: int) -> float | None:
     return raw[index] / total if total else None
 
 
+def _production_poisson_home(h, a):
+    hw, aw = min(8, len(h["gf"])) / 8.0, min(8, len(a["gf"])) / 8.0
+    h_attack = 1.25 * (1 - hw) + _rate(h["gf"], 1.25) * hw
+    h_defense = 1.25 * (1 - hw) + _rate(h["ga"], 1.25) * hw
+    a_attack = 1.25 * (1 - aw) + _rate(a["gf"], 1.25) * aw
+    a_defense = 1.25 * (1 - aw) + _rate(a["ga"], 1.25) * aw
+    hl = max(0.35, min(3.20, 0.55 * h_attack + 0.45 * a_defense + 0.10))
+    al = max(0.30, min(2.80, 0.55 * a_attack + 0.45 * h_defense - 0.05))
+    home = 0.0
+    for hg in range(8):
+        ph = _poisson_pmf(hg, hl)
+        for ag in range(8):
+            if hg > ag:
+                home += ph * _poisson_pmf(ag, al)
+    return max(0.05, min(0.95, home))
+
+
 def _probabilities(h, a):
     hw, aw = min(8,len(h["gf"]))/8, min(8,len(a["gf"]))/8
     h_attack = 1.25*(1-hw) + _rate(h["gf"],1.25)*hw
@@ -170,7 +187,7 @@ def run():
                 btts_signal = (h_b + a_b) / 2.0
                 gd_edge = max(-1.0, min(1.0, (h_gd - a_gd) / 3.0))
                 form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
-                poisson_home = probs["home_win"][0]
+                poisson_home = _production_poisson_home(h, a)
                 legacy_home = max(.05, min(.95, .65 * poisson_home + .35 * form_home))
                 dc_home = dc["home_win"]
                 dc_btts = dc["btts_yes"]
