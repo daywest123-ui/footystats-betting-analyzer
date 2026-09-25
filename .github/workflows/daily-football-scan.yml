@@ -8,8 +8,6 @@ on:
     # Every 6 hours; GitHub cron uses UTC.
     - cron: '15 */6 * * *'
 
-# The workflow commits the generated report back to this repository.
-# Keep the token scoped to repository contents only.
 permissions:
   contents: write
 
@@ -27,10 +25,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          # The live fixture/odds adapter requires the OddsHarvester CLI.
-          python -m pip install "git+https://github.com/jordantete/OddsHarvester.git@master"
-          python -m playwright install --with-deps chromium
-          oddsharvester --help
       - name: Run tests
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
