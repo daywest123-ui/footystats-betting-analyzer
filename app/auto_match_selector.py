@@ -8,9 +8,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from app.football_data_client import load_openfootball, recent_form, fixture_odds
-from app.odds_harvester_client import current_fixtures as current_odds_fixtures
 from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
+from app.dixon_coles_model import predict as dixon_coles_predict
 
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 _OPEN_MATCHES = []
@@ -25,21 +25,14 @@ def _empty_form() -> dict:
 
 
 def discover_fixtures(date: datetime) -> list[dict]:
-    """Find the next usable fixture day without scraping every blank calendar day."""
     global _OPEN_MATCHES
     _OPEN_MATCHES = load_openfootball()
     base_day = date.astimezone(LOCAL_TZ).date()
-
-    # First use the complete open-data window. International breaks can leave
-    # several consecutive blank days, so live scraping is deliberately delayed
-    # until we know the public fixture feed has no scheduled slate.
     for offset in range(0, 16):
         target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
         fixtures = [
             {
-                "home": m["home"],
-                "away": m["away"],
-                "league": m["league"],
+                "home": m["home"], "away": m["away"], "league": m["league"],
                 "fixture_date": m["date"],
                 "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
                 "source": m.get("source", "openfootball/football.json"),
@@ -51,23 +44,6 @@ def discover_fixtures(date: datetime) -> list[dict]:
             fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
             print(f"[FixtureDiscovery] Using {len(fixtures)} open-data fixtures for {target}")
             return fixtures[:100]
-
-    # Only after the whole open-data window is empty do one live fallback.
-    # This prevents a broken OddsPortal scrape from adding ~6 minutes per
-    # blank day during an international break.
-    target = base_day.isoformat()
-    try:
-        fallback = current_odds_fixtures(target)
-    except Exception as exc:
-        print(
-            f"[FixtureDiscovery] OddsHarvester fallback unavailable for {target}: "
-            f"{type(exc).__name__}"
-        )
-        fallback = []
-    if fallback:
-        print(f"[FixtureDiscovery] Using {len(fallback)} OddsHarvester fixtures for {target}")
-        return fallback[:100]
-
     return []
 
 
@@ -86,43 +62,33 @@ def _poisson_pmf(k: int, lam: float) -> float:
 
 
 def _poisson_home_probability(home_form: dict, away_form: dict) -> float:
-    """Bounded expected-goals model; no future information is used."""
     h_attack = float(home_form.get("goals_for_per_game", 1.25))
     h_defense = float(home_form.get("goals_against_per_game", 1.25))
     a_attack = float(away_form.get("goals_for_per_game", 1.25))
     a_defense = float(away_form.get("goals_against_per_game", 1.25))
-
-    # Shrink sparse samples toward league-average scoring.
-    h_n = min(8, int(home_form.get("matches", 0)))
-    a_n = min(8, int(away_form.get("matches", 0)))
-    h_w = h_n / 8.0
-    a_w = a_n / 8.0
+    h_w = min(8, int(home_form.get("matches", 0))) / 8.0
+    a_w = min(8, int(away_form.get("matches", 0))) / 8.0
     h_attack = 1.25 * (1 - h_w) + h_attack * h_w
     h_defense = 1.25 * (1 - h_w) + h_defense * h_w
     a_attack = 1.25 * (1 - a_w) + a_attack * a_w
     a_defense = 1.25 * (1 - a_w) + a_defense * a_w
-
-    # Home advantage is intentionally modest.
     home_lambda = max(0.35, min(3.20, 0.55 * h_attack + 0.45 * a_defense + 0.10))
     away_lambda = max(0.30, min(2.80, 0.55 * a_attack + 0.45 * h_defense - 0.05))
-
     home_win = 0.0
-    for hg in range(0, 8):
+    for hg in range(8):
         ph = _poisson_pmf(hg, home_lambda)
-        for ag in range(0, 8):
+        for ag in range(8):
             if hg > ag:
                 home_win += ph * _poisson_pmf(ag, away_lambda)
     return _clamp_probability(home_win)
 
 
-def _market_probabilities(
-    home_form: dict, away_form: dict, intelligence: dict | None = None
-) -> dict[str, tuple[float, float, float]]:
+def _market_probabilities(home_form: dict, away_form: dict, intelligence: dict | None = None,
+                          dixon: dict | None = None) -> dict[str, tuple[float, float, float]]:
     h_o, a_o = home_form.get("over25_rate", .5), away_form.get("over25_rate", .5)
     h_b, a_b = home_form.get("btts_rate", .5), away_form.get("btts_rate", .5)
     h_ppg, a_ppg = home_form.get("points_per_game", 1.0), away_form.get("points_per_game", 1.0)
     h_gd, a_gd = home_form.get("goal_diff_per_game", 0.0), away_form.get("goal_diff_per_game", 0.0)
-
     goal_signal = (h_o + a_o) / 2
     btts_signal = (h_b + a_b) / 2
     form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
@@ -130,15 +96,20 @@ def _market_probabilities(
 
     poisson_home = _poisson_home_probability(home_form, away_form)
     form_home = _clamp_probability(0.50 + 0.13 * form_edge + 0.09 * gd_edge + 0.03)
+    legacy_home = _clamp_probability(0.65 * poisson_home + 0.35 * form_home)
 
-    # Independent model components; web evidence is a small bounded adjustment
-    # and cannot manufacture a large probability from article volume alone.
-    home_stat = _clamp_probability(0.65 * poisson_home + 0.35 * form_home)
-    home_pred = _clamp_probability(0.75 * poisson_home + 0.25 * form_home)
-    btts_stat = _clamp_probability(0.35 + 0.40 * btts_signal)
-    btts_pred = _clamp_probability(0.40 + 0.32 * btts_signal)
-    over_stat = _clamp_probability(0.35 + 0.40 * goal_signal)
-    over_pred = _clamp_probability(0.40 + 0.32 * goal_signal)
+    dc_home = float((dixon or {}).get("home_win", legacy_home))
+    dc_btts = float((dixon or {}).get("btts_yes", 0.50))
+    dc_over = float((dixon or {}).get("over_2_5", 0.50))
+
+    # Three independent probability views: existing Poisson/form, Dixon-Coles,
+    # and bounded public-web intelligence. No bookmaker price is a model vote.
+    home_stat = _clamp_probability(0.55 * legacy_home + 0.45 * dc_home)
+    home_pred = _clamp_probability(0.60 * dc_home + 0.40 * form_home)
+    btts_stat = _clamp_probability(0.55 * (0.35 + 0.40 * btts_signal) + 0.45 * dc_btts)
+    btts_pred = _clamp_probability(0.60 * dc_btts + 0.40 * (0.40 + 0.32 * btts_signal))
+    over_stat = _clamp_probability(0.55 * (0.35 + 0.40 * goal_signal) + 0.45 * dc_over)
+    over_pred = _clamp_probability(0.60 * dc_over + 0.40 * (0.40 + 0.32 * goal_signal))
 
     web_score = float((intelligence or {}).get("web_score", 0.0))
     web_conf = max(0.0, min(1.0, float((intelligence or {}).get("confidence", 0.0))))
@@ -157,44 +128,31 @@ def score_fixture(fixture: dict) -> dict:
     home_form = _recent_form(fixture.get("home"), day)
     away_form = _recent_form(fixture.get("away"), day)
     min_matches = min(home_form["matches"], away_form["matches"])
-
     intel = analyze_match(fixture["home"], fixture["away"])
-    web_score = float(intel.get("web_score", 0.0))
-    web_conf = float(intel.get("confidence", 0.0))
+    dc = dixon_coles_predict(_OPEN_MATCHES, fixture["home"], fixture["away"], day)
     poisson_probability = _poisson_home_probability(home_form, away_form)
-    form_edge = max(-1.0, min(1.0, (
-        home_form["points_per_game"] - away_form["points_per_game"]
-    ) / 3.0))
+    form_edge = max(-1.0, min(1.0, (home_form["points_per_game"] - away_form["points_per_game"]) / 3.0))
     form_probability = _clamp_probability(0.50 + 0.13 * form_edge + 0.03)
     fused_probability = _clamp_probability(
-        (0.70 * poisson_probability + 0.30 * form_probability)
-        * (1 - 0.08 * max(0.0, min(1.0, web_conf)))
-        + (0.50 + max(-0.04, min(0.04, web_score * 0.08 * web_conf)))
-        * (0.08 * max(0.0, min(1.0, web_conf)))
+        0.45 * poisson_probability + 0.45 * dc["home_win"] + 0.10 * form_probability
     )
-
     if min_matches < 3:
-        status = "INSUFFICIENT_DATA"
-        fused_probability = 0.5
+        status, fused_probability = "INSUFFICIENT_DATA", 0.5
     elif min_matches < 5:
-        status = "LOW_SAMPLE"
-        fused_probability = min(0.55, max(0.45, fused_probability))
+        status, fused_probability = "LOW_SAMPLE", min(0.55, max(0.45, fused_probability))
     elif min_matches < 8:
-        status = "MEDIUM_SAMPLE"
-        fused_probability = min(0.62, max(0.38, fused_probability))
+        status, fused_probability = "MEDIUM_SAMPLE", min(0.62, max(0.38, fused_probability))
     else:
-        status = "FULL_SAMPLE"
-        fused_probability = min(0.68, max(0.32, fused_probability))
-
+        status, fused_probability = "FULL_SAMPLE", min(0.68, max(0.32, fused_probability))
     return {
         **fixture,
         "data_quality": {"min_recent_matches": min_matches, "status": status},
         "form": {"home": home_form, "away": away_form},
         "intelligence": intel,
+        "dixon_coles": {k: v for k, v in dc.items() if k != "score_matrix"},
         "signal": {
             "stat_probability": round(poisson_probability, 4),
-            "web_score": round(web_score, 4),
-            "web_confidence": round(web_conf, 4),
+            "dixon_coles_probability": round(dc["home_win"], 4),
             "final_probability": round(fused_probability, 4),
             "category": "VALUE" if fused_probability >= 0.58 else "WATCH",
         },
@@ -205,8 +163,7 @@ def main() -> None:
     now = datetime.now(LOCAL_TZ)
     fixtures = discover_fixtures(now)
     results = [score_fixture(f) for f in fixtures]
-    eligible = []
-    odds_matches = 0
+    eligible, odds_matches = [], 0
 
     for item in results:
         item["market_analysis"] = []
@@ -218,79 +175,41 @@ def main() -> None:
             if odds:
                 odds_matches += 1
             probs = _market_probabilities(
-                item["form"]["home"], item["form"]["away"], item["intelligence"]
+                item["form"]["home"], item["form"]["away"], item["intelligence"],
+                item.get("dixon_coles"),
             )
             item["market_analysis"] = analyze_fixture_markets(
-                item, probs,
-                min(1.0, item["data_quality"]["min_recent_matches"] / 8),
+                item, probs, min(1.0, item["data_quality"]["min_recent_matches"] / 8),
                 odds_override=odds,
             )
         except (ValueError, RuntimeError, KeyError, TypeError) as exc:
             item["odds_error"] = f"{type(exc).__name__}: {exc}"
-
         if any(m.get("decision") == "ANALYZE" for m in item["market_analysis"]):
             eligible.append(item)
 
-    eligible.sort(
-        key=lambda x: max(
-            (m.get("ev_pct", -999) for m in x.get("market_analysis", [])),
-            default=-999,
-        ),
-        reverse=True,
-    )
+    eligible.sort(key=lambda x: max((m.get("ev_pct", -999) for m in x.get("market_analysis", [])), default=-999), reverse=True)
     results.sort(key=lambda x: x["signal"]["final_probability"], reverse=True)
-
-    insufficient = bool(results) and not any(
-        r["data_quality"]["min_recent_matches"] >= 5 for r in results
-    )
-    run_status = "DEGRADED_DATA_SOURCE" if not results else (
-        "INSUFFICIENT_OPEN_DATA" if insufficient else "OK"
-    )
-    decision_status = (
-        "NO_BET_DATA_UNAVAILABLE" if run_status != "OK" else
-        ("NO_BET" if not eligible else "BET_CANDIDATES")
-    )
+    insufficient = bool(results) and not any(r["data_quality"]["min_recent_matches"] >= 5 for r in results)
+    run_status = "DEGRADED_DATA_SOURCE" if not results else ("INSUFFICIENT_OPEN_DATA" if insufficient else "OK")
+    decision_status = "NO_BET_DATA_UNAVAILABLE" if run_status != "OK" else ("NO_BET" if not eligible else "BET_CANDIDATES")
 
     report = {
-        "generated_at": now.isoformat(),
-        "run_status": run_status,
+        "generated_at": now.isoformat(), "run_status": run_status,
         "decision_status": decision_status,
-        "data_sources": [
-            "openfootball/football.json",
-            "football-data.co.uk downloadable odds",
-            "OddsHarvester current odds when available",
-            "public web intelligence",
-        ],
-        "fixtures_scanned": len(results),
-        "matches_with_odds": odds_matches,
+        "data_sources": ["openfootball/football.json", "football-data.co.uk downloadable odds", "public web intelligence"],
+        "models": ["existing Poisson/form", "Elo + Dixon-Coles", "bounded web intelligence"],
+        "fixtures_scanned": len(results), "matches_with_odds": odds_matches,
         "eligible_matches": len(eligible),
-        "model_notes": (
-            "Home-win probability now uses a bounded expected-goals/Poisson "
-            "component plus recent-form component. Market odds are used only "
-            "for de-vig value comparison, not as a model vote. Web intelligence "
-            "is bounded to a small adjustment. Probabilities are estimates, "
-            "not guarantees."
-        ),
-        "top_matches": eligible[:5],
-        "all_scanned": results[:50],
+        "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. It is an independent probability component; probabilities are estimates, not guarantees.",
+        "top_matches": eligible[:5], "all_scanned": results[:50],
     }
-
-    out = Path("reports")
-    out.mkdir(exist_ok=True)
-    (out / "latest_auto_analysis.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-
+    out = Path("reports"); out.mkdir(exist_ok=True)
+    (out / "latest_auto_analysis.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print("\n===== OPEN DATA FOOTBALL ANALYZER =====")
     print(f"Fixtures scanned: {len(results)} | Odds found: {odds_matches} | Eligible: {len(eligible)}")
     for n, item in enumerate(eligible[:5], 1):
         best = next(m for m in item["market_analysis"] if m.get("decision") == "ANALYZE")
-        print(
-            f"#{n} | {item['home']} vs {item['away']} | {best['market']} | "
-            f"odds={best['odds']:.2f} | model={best['model_probability_pct']}% | "
-            f"edge={best['value_edge_pct']:+.2f}% | EV={best['ev_pct']:+.2f}% | "
-            f"confidence={best['confidence_10']}/10"
-        )
+        print(f"#{n} | {item['home']} vs {item['away']} | {best['market']} | odds={best['odds']:.2f} | model={best['model_probability_pct']}% | edge={best['value_edge_pct']:+.2f}% | EV={best['ev_pct']:+.2f}% | confidence={best['confidence_10']}/10")
     if not eligible:
         print("NO BET: kriterleri geçen market bulunamadı.")
 
