@@ -1,44 +1,26 @@
-"""Four-engine FootyStats coupon runner.
-
-Uses the existing repository data loaders plus:
-- FootyStats snapshot features
-- ensemble/form scoring
-- Dixon-Coles probability model
-- football-stat feature engineering
-- value/EV and consensus gates
-- coupon construction
-
-Analysis only: never places bets.
-"""
+"""Four-engine FootyStats coupon runner. Analysis only; never places bets."""
 from __future__ import annotations
-
-import argparse
-import json
+import argparse, json
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-
-from app.auto_match_selector import discover_fixtures, _recent_form
+import app.auto_match_selector as selector
 from app.football_data_client import fixture_odds
-from app.dixon_coles_model import predict as dixon_coles_predict
 from app.footystats_parser import parse_snapshot
 from app.four_engine_fusion import fuse_market
 from app.coupon_engine_v5 import build_candidates, build_coupon
 
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 
-
 def norm(s: str) -> str:
     import re
     return re.sub(r"[^a-z0-9]+", "", str(s).lower())
-
 
 def load_footystats_snapshot(path: str) -> list[dict]:
     try:
         return parse_snapshot(path)
     except Exception:
         return []
-
 
 def find_fs_row(rows: list[dict], home: str, away: str) -> dict:
     h, a = norm(home), norm(away)
@@ -48,48 +30,38 @@ def find_fs_row(rows: list[dict], home: str, away: str) -> dict:
             return row
     return {}
 
-
 def run(snapshot_path: str = "data/footystats_snapshot.json") -> dict:
     now = datetime.now(LOCAL_TZ)
-    fixtures = discover_fixtures(now)
+    fixtures = selector.discover_fixtures(now)
     fs_rows = load_footystats_snapshot(snapshot_path)
-
+    matches = selector._OPEN_MATCHES
     enriched = []
+
     for fixture in fixtures:
         day = fixture["fixture_date"][:10]
-        hf = _recent_form(fixture["home"], day)
-        af = _recent_form(fixture["away"], day)
+        hf = selector._recent_form(fixture["home"], day)
+        af = selector._recent_form(fixture["away"], day)
         if min(hf.get("matches", 0), af.get("matches", 0)) < 5:
             continue
         odds = fixture_odds(fixture["home"], fixture["away"], day)
         if not odds:
             continue
-        dc = dixon_coles_predict(
-            # discover_fixtures stores the loaded openfootball set globally;
-            # the DC model is invoked by the existing scoring layer in normal runs.
-            [],
-            fixture["home"], fixture["away"], day
-        )
+        from app.dixon_coles_model import predict as dixon_coles_predict
+        dc = dixon_coles_predict(matches, fixture["home"], fixture["away"], day)
         fs = find_fs_row(fs_rows, fixture["home"], fixture["away"])
-        fusion = {}
-        for market in ("home_win", "btts_yes", "over_2_5"):
-            fusion[market] = fuse_market(
-                market,
-                footystats=fs,
-                home_form=hf,
-                away_form=af,
-                dixon_coles=dc,
+        fusion = {
+            market: fuse_market(
+                market, footystats=fs, home_form=hf, away_form=af,
+                dixon_coles=dc
             )
+            for market in ("home_win", "btts_yes", "over_2_5")
+        }
         enriched.append({
-            **fixture,
-            "odds": odds,
-            "footystats": fs,
-            "fusion": fusion,
+            **fixture, "odds": odds, "footystats": fs, "fusion": fusion
         })
 
     candidates = build_candidates(enriched)
     coupon = build_coupon(candidates)
-
     report = {
         "generated_at": now.isoformat(),
         "engine": "FOUR_ENGINE_COUPON_V1",
@@ -101,7 +73,7 @@ def run(snapshot_path: str = "data/footystats_snapshot.json") -> dict:
         "notes": [
             "No leg is forced when value/quality gates fail.",
             "Probabilities are model estimates, not guarantees.",
-            "Dixon-Coles is an independent probability component.",
+            "Dixon-Coles uses the same historical match set as the existing analyzer.",
             "FootyStats snapshot data is optional; missing rows reduce engine count.",
         ],
     }
@@ -115,7 +87,6 @@ def run(snapshot_path: str = "data/footystats_snapshot.json") -> dict:
     )
     return report
 
-
 def render_markdown(report: dict) -> str:
     c = report["coupon"]
     lines = [
@@ -124,8 +95,7 @@ def render_markdown(report: dict) -> str:
         f"- Fixtures scanned: {report['fixtures_scanned']}",
         f"- Enriched: {report['fixtures_enriched']}",
         f"- Candidates: {report['candidate_count']}",
-        f"- Status: {c['status']}",
-        "",
+        f"- Status: {c['status']}", "",
     ]
     if c["legs"]:
         lines += [
@@ -139,16 +109,13 @@ def render_markdown(report: dict) -> str:
                 f"{x['value_edge_pct']:+.2f}% | {x['ev_pct']:+.2f}% | "
                 f"{x['engine_consensus']} |"
             )
-        lines.append("")
-        lines.append(f"**Combined decimal odds:** {c['combined_decimal_odds']}")
+        lines += ["", f"**Combined decimal odds:** {c['combined_decimal_odds']}"]
     else:
         lines.append("**NO BET:** Quality/value gates produced no qualifying leg.")
     return "\n".join(lines) + "\n"
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--snapshot", default="data/footystats_snapshot.json")
     args = parser.parse_args()
-    result = run(args.snapshot)
-    print(json.dumps(result["coupon"], ensure_ascii=False, indent=2))
+    print(json.dumps(run(args.snapshot)["coupon"], ensure_ascii=False, indent=2))
