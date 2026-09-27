@@ -8,8 +8,7 @@ import app.auto_match_selector as selector
 from app.football_data_client import fixture_odds
 from app.footystats_parser import parse_snapshot
 from app.four_engine_fusion import fuse_market
-from app.coupon_engine_v5 import build_candidates,build_coupon
-from app.coupon_engine_v5 import MARKETS
+from app.coupon_engine_v5 import build_candidates,build_coupon,MARKETS
 
 LOCAL_TZ=ZoneInfo("Europe/Istanbul")
 
@@ -30,56 +29,37 @@ def find_fs_row(rows,home,away):
 
 def merge_odds(base,fs):
     odds=dict(base or {})
-    # FootyStats snapshot prices are accepted only when explicitly present.
-    # They supplement, never replace, concrete football-data prices.
     for key,val in (fs.get("odds") or {}).items():
         if val is not None and float(val)>1: odds[key]=float(val)
-    if "over_85_corners" in odds: odds["over85_corners"]=odds.pop("over_85_corners")
-    if "over_95_corners" in odds: odds["over95_corners"]=odds.pop("over_95_corners")
-    if "over_105_corners" in odds: odds["over105_corners"]=odds.pop("over_105_corners")
     return odds
 
 def run(snapshot_path="data/footystats_snapshot.json"):
-    now=datetime.now(LOCAL_TZ)
-    fixtures=selector.discover_fixtures(now)
-    fs_rows=load_footystats_snapshot(snapshot_path)
-    matches=selector._OPEN_MATCHES
+    now=datetime.now(LOCAL_TZ); fixtures=selector.discover_fixtures(now)
+    fs_rows=load_footystats_snapshot(snapshot_path); matches=selector._OPEN_MATCHES
     enriched=[]
     from app.dixon_coles_model import predict as dixon_coles_predict
-
     for fixture in fixtures:
         day=fixture["fixture_date"][:10]
-        hf=selector._recent_form(fixture["home"],day)
-        af=selector._recent_form(fixture["away"],day)
+        hf=selector._recent_form(fixture["home"],day); af=selector._recent_form(fixture["away"],day)
         if min(hf.get("matches",0),af.get("matches",0))<5: continue
         fs=find_fs_row(fs_rows,fixture["home"],fixture["away"])
         odds=merge_odds(fixture_odds(fixture["home"],fixture["away"],day),fs)
         if not odds: continue
         dc=dixon_coles_predict(matches,fixture["home"],fixture["away"],day)
-        fusion={}
-        for market in MARKETS:
-            if market not in odds: continue
-            fusion[market]=fuse_market(
-                market,footystats=fs,home_form=hf,away_form=af,dixon_coles=dc
-            )
+        fusion={m:fuse_market(m,footystats=fs,home_form=hf,away_form=af,dixon_coles=dc)
+                for m in MARKETS if m in odds}
         enriched.append({**fixture,"odds":odds,"footystats":fs,"fusion":fusion})
-
-    candidates=build_candidates(enriched)
-    coupon=build_coupon(candidates)
-    report={
-        "generated_at":now.isoformat(),"engine":"FOUR_ENGINE_COUPON_V2",
-        "snapshot":snapshot_path,"fixtures_scanned":len(fixtures),
-        "fixtures_enriched":len(enriched),"candidate_count":len(candidates),
-        "candidate_markets":sorted({x["market"] for x in candidates}),
-        "coupon":coupon,
-        "notes":[
-            "FootyStats prices supplement concrete football-data prices.",
-            "No probability is fabricated when the required feature is unavailable.",
-            "One selection per fixture; market-family diversification is applied.",
-            "No leg is forced when value, quality or consensus gates fail.",
-            "Probabilities are estimates, not guarantees."
-        ]
-    }
+    candidates=build_candidates(enriched); coupon=build_coupon(candidates)
+    report={"generated_at":now.isoformat(),"engine":"FOUR_ENGINE_COUPON_V2",
+            "snapshot":snapshot_path,"fixtures_scanned":len(fixtures),
+            "fixtures_enriched":len(enriched),"candidate_count":len(candidates),
+            "candidate_markets":sorted({x["market"] for x in candidates}),
+            "coupon":coupon,
+            "notes":["FootyStats prices supplement concrete football-data prices.",
+                     "No probability is fabricated when required data is unavailable.",
+                     "One selection per fixture with market-family diversification.",
+                     "No leg is forced when value, quality or consensus gates fail.",
+                     "Probabilities are estimates, not guarantees."]}
     out=Path("reports");out.mkdir(exist_ok=True)
     (out/"latest_four_engine_coupon.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     (out/"latest_four_engine_coupon.md").write_text(render_markdown(report),encoding="utf-8")
@@ -87,19 +67,16 @@ def run(snapshot_path="data/footystats_snapshot.json"):
 
 def render_markdown(report):
     c=report["coupon"]
-    lines=["# FOUR-ENGINE FOOTYSTATS COUPON V2",
-           f"- Generated: {report['generated_at']}",
-           f"- Fixtures scanned: {report['fixtures_scanned']}",
-           f"- Enriched: {report['fixtures_enriched']}",
-           f"- Candidates: {report['candidate_count']}",
-           f"- Markets found: {', '.join(report['candidate_markets']) or 'none'}",
+    lines=["# FOUR-ENGINE FOOTYSTATS COUPON V2",f"- Generated: {report['generated_at']}",
+           f"- Fixtures scanned: {report['fixtures_scanned']}",f"- Enriched: {report['fixtures_enriched']}",
+           f"- Candidates: {report['candidate_count']}",f"- Markets found: {', '.join(report['candidate_markets']) or 'none'}",
            f"- Status: {c['status']}",""]
     if c["legs"]:
         lines+=["| # | Match | Market | Odds | Model | Edge | EV | Consensus |",
                  "|---:|---|---|---:|---:|---:|---:|---|"]
         for i,x in enumerate(c["legs"],1):
             lines.append(f"| {i} | {x['home']} - {x['away']} | {x['market']} | {x['odds']:.2f} | {x['model_probability_pct']:.2f}% | {x['value_edge_pct']:+.2f}% | {x['ev_pct']:+.2f}% | {x['engine_consensus']} |")
-        lines+=["",f"**Combined decimal odds:** {c['combined_decimal_odds']}"]
+        lines += ["",f"**Combined decimal odds:** {c['combined_decimal_odds']}"]
     else: lines.append("**NO BET:** Quality/value gates produced no qualifying leg.")
     return "\n".join(lines)+"\n"
 
