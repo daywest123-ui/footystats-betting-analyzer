@@ -26,6 +26,45 @@ def _dc_key(market):
     return {"home_win":"home_win","draw":"draw","away_win":"away_win","btts_yes":"btts_yes",
             "btts_no":"btts_no","over_2_5":"over_2_5","under_2_5":"under_2_5"}.get(market)
 
+
+def _poisson_pmf(lam: float, k: int) -> float:
+    return math.exp(-lam) * (lam ** k) / math.factorial(k)
+
+
+def _xg_probability(market: str, fs: dict[str, Any]) -> EngineVote:
+    """Match-specific xG engine; only active when both xG inputs exist."""
+    try:
+        lh = float(fs.get("home_xg"))
+        la = float(fs.get("away_xg"))
+    except (TypeError, ValueError):
+        return EngineVote("XG_CONSENSUS", .5, 0, False, "match xG unavailable")
+    if lh <= 0 or la <= 0:
+        return EngineVote("XG_CONSENSUS", .5, 0, False, "invalid xG")
+    max_goals = 10
+    matrix = {(h, a): _poisson_pmf(lh, h) * _poisson_pmf(la, a)
+              for h in range(max_goals + 1) for a in range(max_goals + 1)}
+    total = sum(matrix.values())
+    if total:
+        matrix = {k: v / total for k, v in matrix.items()}
+    if market == "home_win":
+        p = sum(v for (h, a), v in matrix.items() if h > a)
+    elif market == "draw":
+        p = sum(v for (h, a), v in matrix.items() if h == a)
+    elif market == "away_win":
+        p = sum(v for (h, a), v in matrix.items() if h < a)
+    elif market == "btts_yes":
+        p = (1 - math.exp(-lh)) * (1 - math.exp(-la))
+    elif market == "btts_no":
+        p = 1 - (1 - math.exp(-lh)) * (1 - math.exp(-la))
+    elif market.startswith(("over_", "under_")) and not market.endswith("_corners"):
+        line = float(market.split("_")[1]) / 10
+        over = 1 - sum(math.exp(-(lh + la)) * ((lh + la) ** k) / math.factorial(k)
+                       for k in range(math.floor(line) + 1))
+        p = over if market.startswith("over_") else 1 - over
+    else:
+        return EngineVote("XG_CONSENSUS", .5, 0, False, "xG engine does not support market")
+    return EngineVote("XG_CONSENSUS", _clamp(p), .18, True, f"match xG {lh:.2f}-{la:.2f}")
+
 def _footystats_probability(market,fs,hf,af):
     fs,hf,af=fs or {},hf or {},af or {}
     exact={"btts_yes":fs.get("btts_rate"),"over_0_5":fs.get("over_05_rate"),
@@ -93,11 +132,26 @@ def _football_stats_probability(market,hf,af,fs):
     return EngineVote("FOOTY_STATS",_clamp(p),.15,True,"feature-engineered football statistics")
 
 def fuse_market(market,*,footystats,home_form,away_form,dixon_coles,web_probability=None,web_confidence=0):
-    votes=[_footystats_probability(market,footystats,home_form,away_form),_ensemble_probability(market,home_form,away_form,dixon_coles,footystats),_bayesian_probability(market,dixon_coles),_football_stats_probability(market,home_form,away_form,footystats)]
+    votes=[_footystats_probability(market,footystats,home_form,away_form),
+           _ensemble_probability(market,home_form,away_form,dixon_coles,footystats),
+           _bayesian_probability(market,dixon_coles),
+           _football_stats_probability(market,home_form,away_form,footystats),
+           _xg_probability(market,footystats)]
     if web_probability is not None and web_confidence>0:votes.append(EngineVote("WEB_INTELLIGENCE",_clamp(web_probability),min(.10,.10*web_confidence),True,"bounded web intelligence"))
     active=[v for v in votes if v.available and v.weight>0];total=sum(v.weight for v in active)
     p=sum(v.probability*v.weight for v in active)/total if total else .5
     dispersion=math.sqrt(_mean([(v.probability-p)**2 for v in active],0));agreement=sum(abs(v.probability-p)<=.08 for v in active)
     samples=min(int((home_form or {}).get("matches",0)),int((away_form or {}).get("matches",0)),8)
     quality=_clamp(.45+.10*len(active)+.05*samples-min(.25,dispersion),0,1)
-    return {"market":market,"probability":round(_clamp(p),6),"probability_pct":round(_clamp(p)*100,2),"engine_count":len(active),"agreement":agreement,"dispersion":round(dispersion,5),"data_quality":round(quality,4),"votes":[{"engine":v.name,"probability_pct":round(v.probability*100,2),"weight":v.weight,"reason":v.reason} for v in votes if v.available]}
+    xg_h = footystats.get("home_xg") if footystats else None
+    xg_a = footystats.get("away_xg") if footystats else None
+    xg_diff = None
+    try:
+        if xg_h is not None and xg_a is not None:
+            xg_diff = round(float(xg_h) - float(xg_a), 4)
+    except (TypeError, ValueError):
+        xg_diff = None
+    return {"market":market,"probability":round(_clamp(p),6),"probability_pct":round(_clamp(p)*100,2),
+            "engine_count":len(active),"agreement":agreement,"dispersion":round(dispersion,5),
+            "data_quality":round(quality,4),"xg_home":xg_h,"xg_away":xg_a,"xg_diff":xg_diff,
+            "votes":[{"engine":v.name,"probability_pct":round(v.probability*100,2),"weight":v.weight,"reason":v.reason} for v in votes if v.available]}

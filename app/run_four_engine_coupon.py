@@ -10,6 +10,9 @@ from app.footystats_parser import parse_snapshot
 from app.four_engine_fusion import fuse_market
 from app.coupon_engine_v5 import build_candidates,build_coupon,MARKETS
 from app.open_source_intel import analyze_match as analyze_open_source_match
+from app.advanced_market_engine import (
+    htft_probabilities, second_half_result_probabilities, score_special_opportunity
+)
 
 LOCAL_TZ=ZoneInfo("Europe/Istanbul")
 
@@ -60,12 +63,70 @@ def run(snapshot_path="data/footystats_snapshot.json"):
             item["open_source_intel"] = {"status": "ERROR", "error": f"{type(exc).__name__}: {exc}", "opportunities": []}
     special = []
     for item in enriched:
-        for opp in item.get("open_source_intel", {}).get("opportunities", []):
+        intel = item.get("open_source_intel", {})
+        for opp in intel.get("opportunities", []):
             special.append({
                 "home": item["home"], "away": item["away"],
                 "fixture_date": item["fixture_date"], **opp
             })
-    special.sort(key=lambda x: x.get("model_probability", 0), reverse=True)
+
+        # Venue-aware HT/FT engine. It uses historical evidence only and never
+        # fabricates a bookmaker price.
+        htf = htft_probabilities(
+            intel.get("home_venue"), intel.get("away_venue"), intel.get("h2h")
+        )
+        for market, probability in htf["probabilities"].items():
+            odds_key = {
+                "X/X":"htft_x_x","X/1":"htft_x_1","X/2":"htft_x_2",
+                "1/X":"htft_1_x","2/X":"htft_2_x","1/1":"htft_1_1",
+                "1/2":"htft_1_2","2/1":"htft_2_1","2/2":"htft_2_2",
+            }.get(market)
+            odds = item.get("odds", {}).get(odds_key) if odds_key else None
+            scoring = score_special_opportunity(
+                probability,
+                sample=min(htf["samples"]["home_venue"], htf["samples"]["away_venue"]),
+                sources=2 if htf["samples"]["h2h"] else 1,
+                odds=odds,
+            )
+            special.append({
+                "home": item["home"], "away": item["away"],
+                "fixture_date": item["fixture_date"],
+                "market": f"HT/FT {market}",
+                "model_probability": round(probability, 4),
+                "model_probability_pct": round(probability * 100, 2),
+                "fair_odds": round(1 / probability, 2) if probability else None,
+                "odds": odds,
+                "status": scoring.get("value", {}).get("status", "NO_PRICE"),
+                "advanced_score": scoring,
+                "samples": htf["samples"],
+            })
+
+        sh = second_half_result_probabilities(
+            intel.get("home_venue"), intel.get("away_venue"), intel.get("h2h")
+        )
+        for market, probability in sh["probabilities"].items():
+            market_name = {"1":"2H MS 1", "X":"2H MS X", "2":"2H MS 2"}[market]
+            odds_key = {"1":"second_half_home_win", "X":"second_half_draw", "2":"second_half_away_win"}[market]
+            odds = item.get("odds", {}).get(odds_key)
+            scoring = score_special_opportunity(
+                probability,
+                sample=min(sh["samples"]["home_venue"], sh["samples"]["away_venue"]),
+                sources=2 if sh["samples"]["h2h"] else 1,
+                odds=odds,
+            )
+            special.append({
+                "home": item["home"], "away": item["away"],
+                "fixture_date": item["fixture_date"],
+                "market": market_name,
+                "model_probability": round(probability, 4),
+                "model_probability_pct": round(probability * 100, 2),
+                "fair_odds": round(1 / probability, 2) if probability else None,
+                "odds": odds,
+                "status": scoring.get("value", {}).get("status", "NO_PRICE"),
+                "advanced_score": scoring,
+                "samples": sh["samples"],
+            })
+    special.sort(key=lambda x: (x.get("status") == "VALUE_CANDIDATE", x.get("advanced_score", {}).get("confidence", 0), x.get("model_probability", 0)), reverse=True)
     report={"generated_at":now.isoformat(),"engine":"FOUR_ENGINE_COUPON_V2",
             "snapshot":snapshot_path,"fixtures_scanned":len(fixtures),
             "fixtures_enriched":len(enriched),"candidate_count":len(candidates),

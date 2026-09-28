@@ -80,6 +80,10 @@ def _extract_match(row: dict[str, Any], team_name: str) -> dict[str, Any] | None
         "h1": int(h1), "a1": int(a1), "team_home": is_home,
         "ht": _result(int(h1), int(a1)), "ft": _result(int(hg), int(ag)),
         "second_half_goals": int(hg + ag - h1 - a1),
+        "second_half_result": _result(
+            int(hg - h1) if is_home else int(ag - a1),
+            int(ag - a1) if is_home else int(hg - h1),
+        ),
     }
 
 
@@ -99,6 +103,7 @@ def _rates(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "second_half_2plus_rate": round(sum(r["second_half_goals"] >= 2 for r in matches) / n, 4),
         "htft": {k: round(v / n, 4) for k, v in htft.items()},
         "ft": {k: round(v / n, 4) for k, v in ft.items()},
+        "second_half_result": {k: round(v / n, 4) for k, v in second_half_result.items() if k},
     }
 
 
@@ -135,6 +140,10 @@ def analyze_match(home: str, away: str, recent_limit: int = 30) -> dict[str, Any
     # Recent team evidence: use the requested outcome only when both teams have
     # enough observations. H2H is a secondary component, never the sole signal.
     hr, ar, h2hr = _rates(hrows), _rates(arows), _rates(h2h_rows)
+    home_venue_rows = [r for r in hrows if r.get("team_home") is True]
+    away_venue_rows = [r for r in arows if r.get("team_home") is False]
+    home_venue = _rates(home_venue_rows)
+    away_venue = _rates(away_venue_rows)
     opportunities = []
     if min(hr.get("sample", 0), ar.get("sample", 0)) >= 12:
         for outcome in SPECIAL_OUTCOMES:
@@ -164,6 +173,7 @@ def analyze_match(home: str, away: str, recent_limit: int = 30) -> dict[str, Any
         "status": "OK",
         "home_team_id": hid, "away_team_id": aid,
         "home_recent": hr, "away_recent": ar,
+        "home_venue": home_venue, "away_venue": away_venue,
         "h2h": h2hr,
         "opportunities": opportunities[:10],
         "notes": [
