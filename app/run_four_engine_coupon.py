@@ -9,6 +9,7 @@ from app.football_data_client import fixture_odds
 from app.footystats_parser import parse_snapshot
 from app.four_engine_fusion import fuse_market
 from app.coupon_engine_v5 import build_candidates,build_coupon,MARKETS
+from app.open_source_intel import analyze_match as analyze_open_source_match
 
 LOCAL_TZ=ZoneInfo("Europe/Istanbul")
 
@@ -50,15 +51,32 @@ def run(snapshot_path="data/footystats_snapshot.json"):
                 for m in MARKETS if m in odds}
         enriched.append({**fixture,"odds":odds,"footystats":fs,"fusion":fusion})
     candidates=build_candidates(enriched); coupon=build_coupon(candidates)
+    # Separate high-odds opportunity layer: HT/FT and first/second-half patterns.
+    # It never forces a coupon leg and never invents bookmaker prices.
+    for item in enriched:
+        try:
+            item["open_source_intel"] = analyze_open_source_match(item["home"], item["away"])
+        except Exception as exc:
+            item["open_source_intel"] = {"status": "ERROR", "error": f"{type(exc).__name__}: {exc}", "opportunities": []}
+    special = []
+    for item in enriched:
+        for opp in item.get("open_source_intel", {}).get("opportunities", []):
+            special.append({
+                "home": item["home"], "away": item["away"],
+                "fixture_date": item["fixture_date"], **opp
+            })
+    special.sort(key=lambda x: x.get("model_probability", 0), reverse=True)
     report={"generated_at":now.isoformat(),"engine":"FOUR_ENGINE_COUPON_V2",
             "snapshot":snapshot_path,"fixtures_scanned":len(fixtures),
             "fixtures_enriched":len(enriched),"candidate_count":len(candidates),
             "candidate_markets":sorted({x["market"] for x in candidates}),
             "coupon":coupon,
+            "open_source_special_opportunities": special[:20],
             "notes":["FootyStats prices supplement concrete football-data prices.",
                      "No probability is fabricated when required data is unavailable.",
                      "One selection per fixture with market-family diversification.",
                      "No leg is forced when value, quality or consensus gates fail.",
+                     "DataFC/Sofascore supplies a separate historical HT/FT opportunity layer; H2H is secondary evidence.",
                      "Probabilities are estimates, not guarantees."]}
     out=Path("reports");out.mkdir(exist_ok=True)
     (out/"latest_four_engine_coupon.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
