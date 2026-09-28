@@ -37,3 +37,22 @@ FootyStats will be the primary statistical source. API credentials, if required 
 - SURPRISE: lower-confidence, higher-variance opportunity
 
 No signal is guaranteed to win. Historical backtesting and calibration are required before relying on any model output.
+
+
+## Open-source intelligence layer
+
+The project now includes an optional **DataFC (Sofascore-backed)** intelligence layer. DataFC exposes structured match histories, pre-game form, H2H, pre-match odds, lineups, shots/xG, incidents and other football data as pandas DataFrames. citeturn1search0
+
+The new `app/open_source_intel.py` is deliberately separated from the core FootyStats fusion:
+
+- historical HT/FT frequencies
+- first-half draw / scoreless-half rates
+- second-half 1+ and 2+ goal rates
+- recent home/away HT/FT patterns
+- H2H as a secondary, down-weighted signal
+- fair-odds calculation from the historical model probability
+- **no bookmaker price is invented**
+
+The four-engine runner now writes these special opportunities to `reports/latest_four_engine_coupon.json` under `open_source_special_opportunities`. A high-odds scenario is only a **value candidate if the actual market odds exceed the calculated fair odds**.
+
+This layer is intended to find the unusual markets we care about (especially HT/FT), rather than relabeling ordinary 1X2/BTTS/2.5 markets as opportunities.
