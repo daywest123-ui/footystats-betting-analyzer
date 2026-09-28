@@ -4,8 +4,13 @@ on:
   workflow_dispatch:
   push:
     branches: [main, "feature/**"]
+    paths-ignore:
+      - "data/learning/**"
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: "7 * * * *"
+
+permissions:
+  contents: write
 
 jobs:
   analyze:
@@ -15,21 +20,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Unit tests
         working-directory: app
-        run: python -m unittest discover -p 'test_*.py'
+        run: python -m unittest discover -p "test_*.py"
       - name: Run keyless open-data football analyzer
         run: python -m app.auto_match_selector
       - name: Run four-engine coupon analyzer
         run: python -m app.run_four_engine_coupon
       - name: Run leakage-safe historical calibration
         run: python -m app.run_historical_calibration
+      - name: Run persistent learning cycle
+        run: python -m app.run_learning_cycle
       - name: Validate calibration report
         run: |
           python - <<'PY'
@@ -46,6 +55,17 @@ jobs:
                       assert value is not None and math.isfinite(value), (market, name, key, value)
           print("CALIBRATION_REPORT=PASS")
           PY
+      - name: Commit learning memory
+        run: |
+          git config user.name "football-analyzer[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/learning/prediction_memory.jsonl reports/learning_summary.json
+          if git diff --cached --quiet; then
+            echo "No learning-memory changes."
+          else
+            git commit -m "chore: update football learning memory"
+            git push
+          fi
       - name: Show analysis summary
         if: always()
         run: |
@@ -54,6 +74,9 @@ jobs:
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "## Four-Engine Coupon" >> "$GITHUB_STEP_SUMMARY"
           if [ -f reports/latest_four_engine_coupon.md ]; then cat reports/latest_four_engine_coupon.md >> "$GITHUB_STEP_SUMMARY"; else echo "latest_four_engine_coupon.md oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"; fi
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Learning Memory" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f reports/learning_summary.json ]; then cat reports/learning_summary.json >> "$GITHUB_STEP_SUMMARY"; else echo "learning_summary.json oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"; fi
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "## Historical Calibration / Backtest" >> "$GITHUB_STEP_SUMMARY"
           if [ -f reports/historical_calibration_backtest.json ]; then cat reports/historical_calibration_backtest.json >> "$GITHUB_STEP_SUMMARY"; else echo "historical-calibration-backtest oluşturulamadı." >> "$GITHUB_STEP_SUMMARY"; fi
@@ -76,4 +99,10 @@ jobs:
         with:
           name: historical-calibration-backtest
           path: reports/historical_calibration_backtest.json
+          if-no-files-found: ignore
+      - name: Save learning summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: football-learning-summary
+          path: reports/learning_summary.json
           if-no-files-found: ignore
