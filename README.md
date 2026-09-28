@@ -41,7 +41,7 @@ No signal is guaranteed to win. Historical backtesting and calibration are requi
 
 ## Open-source intelligence layer
 
-The project now includes an optional **DataFC (Sofascore-backed)** intelligence layer. DataFC exposes structured match histories, pre-game form, H2H, pre-match odds, lineups, shots/xG, incidents and other football data as pandas DataFrames. citeturn1search0
+The project now includes an optional **DataFC (Sofascore-backed)** intelligence layer. DataFC exposes structured match histories, pre-game form, H2H, pre-match odds, lineups, shots/xG, incidents and other football data as pandas DataFrames.
 
 The new `app/open_source_intel.py` is deliberately separated from the core FootyStats fusion:
 
