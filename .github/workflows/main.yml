@@ -37,6 +37,56 @@ jobs:
         run: python -m app.run_four_engine_coupon
       - name: Run leakage-safe historical calibration
         run: python -m app.run_historical_calibration
+
+      - name: Run unified HT/FT + exact-score report
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from app.unified_betting_engine import analyze_match_bundle
+
+          source = Path("reports/latest_auto_analysis.json")
+          data = json.loads(source.read_text(encoding="utf-8")) if source.exists() else {"all_scanned": []}
+          analyses = []
+          for fixture in data.get("all_scanned", []):
+              odds = {}
+              for market in fixture.get("market_analysis", []):
+                  name = market.get("market")
+                  price = market.get("odds")
+                  if name and isinstance(price, (int, float)) and price > 1:
+                      odds[name] = price
+              analyses.append(
+                  analyze_match_bundle(
+                      fixture.get("home", ""),
+                      fixture.get("away", ""),
+                      odds=odds or None,
+                      recent_limit=30,
+                  )
+              )
+
+          out = Path("reports/latest_unified_betting.json")
+          out.write_text(
+              json.dumps({"matches": analyses}, ensure_ascii=False, indent=2),
+              encoding="utf-8",
+          )
+          print(f"UNIFIED_MATCHES={len(analyses)}")
+          PY
+      - name: Validate unified report
+        run: |
+          python - <<'PY'
+          import json, math
+          p = "reports/latest_unified_betting.json"
+          d = json.load(open(p, encoding="utf-8"))
+          assert isinstance(d.get("matches"), list)
+          for item in d["matches"]:
+              htft = item.get("components", {}).get("htft", {})
+              probs = htft.get("probabilities", {})
+              if probs:
+                  assert set(probs) == {"1/1","1/X","1/2","X/1","X/X","X/2","2/1","2/X","2/2"}
+                  assert math.isclose(sum(probs.values()), 1.0, rel_tol=0, abs_tol=1e-5)
+          print("UNIFIED_REPORT=PASS")
+          PY
+
       - name: Run persistent learning cycle
         run: python -m app.run_learning_cycle
       - name: Validate calibration report
