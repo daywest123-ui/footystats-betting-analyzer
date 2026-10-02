@@ -1,0 +1,72 @@
+name: Unified Betting Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  unified:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: \$\{\{ github.workspace \}\}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Existing tests
+        run: python -m unittest discover -s app -p "test_*.py"
+      - name: Unified engine tests
+        run: python -m unittest app/test_unified_betting_engine.py
+      - name: Run unified match analysis
+        run: python -m app.auto_match_selector
+      - name: Run FOUR-ENGINE coupon
+        run: python -m app.run_four_engine_coupon
+      - name: Run HTFT unified report
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from app.unified_betting_engine import analyze_match_bundle
+          report=Path("reports/latest_auto_analysis.json")
+          data=json.loads(report.read_text(encoding="utf-8")) if report.exists() else {"all_scanned":[]}
+          analyses=[]
+          for f in data.get("all_scanned", []):
+              analyses.append(analyze_match_bundle(f.get("home",""), f.get("away",""),
+                                                   odds=None, recent_limit=30))
+          out=Path("reports/latest_unified_betting.json")
+          out.write_text(json.dumps({"matches":analyses},ensure_ascii=False,indent=2),encoding="utf-8")
+          print("UNIFIED_MATCHES",len(analyses))
+          PY
+      - name: Learning cycle
+        run: python -m app.run_learning_cycle
+      - name: Save reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified-betting-reports
+          path: |
+            reports/latest_auto_analysis.json
+            reports/latest_four_engine_coupon.json
+            reports/latest_four_engine_coupon.md
+            reports/latest_unified_betting.json
+            reports/learning_summary.json
+          if-no-files-found: ignore
+      - name: Commit generated learning/report state
+        run: |
+          git config user.name "football-analyzer[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/latest_unified_betting.json data/learning/prediction_memory.jsonl reports/learning_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated state changes."
+          else
+            git commit -m "chore: update unified betting analysis"
+            git push
+          fi
