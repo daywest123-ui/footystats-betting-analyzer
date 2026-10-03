@@ -75,7 +75,13 @@ def _extract_odds(record: dict[str, Any]) -> dict[str, float]:
 
 
 def _normalize(value: str) -> str:
-    return " ".join(str(value or "").casefold().replace("-", " ").split())
+    """Normalize common football team-name suffixes for fixture matching."""
+    text = str(value or "").casefold().replace("-", " ")
+    tokens = text.split()
+    # Treat common club suffixes as aliases: "Liverpool FC" == "Liverpool".
+    removable = {"fc", "f.c.", "cf", "c.f.", "sc", "s.c."}
+    tokens = [token for token in tokens if token not in removable]
+    return " ".join(tokens)
 
 
 def _load_json_file(path: Path) -> list[dict[str, Any]]:
