@@ -11,6 +11,7 @@ from app.four_engine_fusion import fuse_market
 from app.coupon_engine_v5 import build_candidates,build_coupon,build_model_candidates,build_model_coupon,MARKETS
 from app.open_source_intel import analyze_match as analyze_open_source_match
 from app.external_prediction_sources import analyze_match as analyze_external_sources
+from app.coupon_success_memory import market_stats as winning_coupon_memory_stats
 
 LOCAL_TZ=ZoneInfo("Europe/Istanbul")
 
@@ -84,6 +85,7 @@ def run(snapshot_path="data/footystats_snapshot.json"):
             "candidate_count":len(candidates),
             "model_only_candidate_count":len(model_candidates),
             "candidate_markets":sorted({x["market"] for x in candidates}),
+            "winning_coupon_memory":winning_coupon_memory_stats(),
             "model_only_markets":sorted({x["market"] for x in model_candidates}),
             "coupon":coupon,"model_only_coupon":model_coupon,
             "open_source_special_opportunities":special[:20],
