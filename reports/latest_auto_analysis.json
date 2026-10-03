@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:16:09.831706+03:00",
+  "generated_at": "2026-10-03T13:18:55.595775+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -1949,10 +1949,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Liga Portugal 26/27 - transfermarkt.us",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UUpYRnZVNjBlUmJFWkk1emZyV0RXd2pGMWpad0FXN2pwSEhpSktDUGRZeUpCa2l4RzF1LXZaUzRySVIzNWJqdWtiSzRhNm1jYVZsZTBXRkRRNFdFdmpqdGRzUS1UaE1uR2t3cGVJXzRucGpIRXFZ?oc=5",
-            "published": "Sun, 20 Feb 2022 17:14:19 GMT",
-            "text": "Liga Portugal 26/27 transfermarkt.us",
+            "title": "FC Famalicão - Club profile 25/26 - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDdPZWpWM3p5LXU1eE0yczEwazZfOUVGem5Na2VrMlFwWXFKdFVYd3N6QjhUVkptZDFRcWthdndhcUxfaWEyOGFwVGtDeTRwcjNla0E0OHJmWnp5ZUVmUmZySWlvc3NHQmNQTVA3Z0xBczFNTWluX1ZYTk4tV2xmZ2tldzN6Zw?oc=5",
+            "published": "Mon, 23 Jun 2025 22:59:02 GMT",
+            "text": "FC Famalicão - Club profile 25/26 transfermarkt.us",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1962,6 +1962,15 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMXJ1NjB6a19CUW42NVRmbjhnNGZydzBFcVIwQjE2UkhxVGhqZ0pRVzAzVmtXaEVGM3NadV9rVFVCaWN2dHRINWJSWlNfMVhzUUI3YmJOWVpZU3ppSXVKNW0tS0l2dHh4ZHB6R3VLc2hWMWtfODRqZWo2OUdXRHVTb2h2NzJnX2NCeWc?oc=5",
             "published": "Thu, 16 May 2024 14:14:13 GMT",
             "text": "Gil Vicente FC - Club profile 24/25 transfermarkt.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal 26/27 - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UUpYRnZVNjBlUmJFWkk1emZyV0RXd2pGMWpad0FXN2pwSEhpSktDUGRZeUpCa2l4RzF1LXZaUzRySVIzNWJqdWtiSzRhNm1jYVZsZTBXRkRRNFdFdmpqdGRzUS1UaE1uR2t3cGVJXzRucGpIRXFZ?oc=5",
+            "published": "Sun, 20 Feb 2022 17:14:19 GMT",
+            "text": "Liga Portugal 26/27 transfermarkt.us",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2007,15 +2016,6 @@
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wd0FMUDY3dHdNbjJfXzU1bTdRdVVtQ3NBV25EU29DdTlNbW9hVGphS2JhNGtIQVN1UFRIeWxzY1Z0eC1qd1ZIenJRdS0taF90MEtsbjV6M2JHOGIxVUQ5MGtLNWIyOWkxTzBZOFlOa2JfT092aWJLRlRKQkVGNzQ?oc=5",
             "published": "Fri, 04 Jul 2025 10:54:31 GMT",
             "text": "FC Porto - Schedule 25/26 transfermarkt.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "César Peixoto - Manager profile - transfermarkt.com",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wU3lra3lsOURjX3FHV3F2d2RFdk9kVVlmS3VnVkI5UE9uUGhtR2dUUnEyV2t1NFREYzJ5T1QzZVg5R2xUWWVDTVVJcG9Pb25pMjJJRzJSSnB4dmFqODRhaHM2UnlYeVBwVWFYTVRfRjhYQQ?oc=5",
-            "published": "Thu, 20 Sep 2018 18:28:51 GMT",
-            "text": "César Peixoto - Manager profile transfermarkt.com",
             "language": "en",
             "sentiment": 0.0
           },
