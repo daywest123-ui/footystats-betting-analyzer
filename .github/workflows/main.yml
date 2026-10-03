@@ -122,6 +122,7 @@ jobs:
             echo "No learning-memory changes."
           else
             git commit -m "chore: update football learning memory"
+            git stash push --include-untracked -m "analysis-generated-files" || true
             for attempt in 1 2 3; do
               if git push origin HEAD:main; then
                 break
@@ -129,6 +130,7 @@ jobs:
               git fetch origin main
               git rebase origin/main
             done
+            git stash pop || true
           fi
       - name: Show analysis summary
         if: always()
