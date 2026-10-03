@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:35:32.946183+03:00",
+  "generated_at": "2026-10-03T15:24:16.638046+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -280,10 +280,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "PSV suffer first loss of Eredivisie season against Heerenveen - India.com",
+            "title": "PSV suffer first loss of Eredivisie season against Heerenveen - india.com",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDBMWjRpTEJLbnJxN3k1QnVFd3hVa0ExR3lJblR5a0UxRVI0ZXFGNEdlSmwwSjRIcy1wOWstNGFwQTZBRFU4MkpHTHQzQVlpYnJDQTd1aTZrUml2eGRtRmNZaEFlcWV1XzZzbUZ6TXlLalUtdkdrLWdjVERscV93MVZQTmdlQlpDM3hqMFdfNTJwUzBGMUp3dXc2YWxZd9IBowFBVV95cUxOaDJaeThsa0R2WXdJb2lkVWlJb1NQWVpkNEI1R05heGFzempMOWNaVjgzeXhhazljRGNzYWlqUVdfbENIOWVHdnljQS1vemNVbGpscF9YOVZPRHNKY19qRVNxRGJmWTNWVkU5bE5INGFNQ1R1LXZfRmE3UkFlNmdxZV9RWUNTX2xiSTI1VkpRYTY3YUlFUzdIZjIzLXA5RnNHWkxj?oc=5",
             "published": "Sun, 10 Sep 2017 07:00:00 GMT",
-            "text": "PSV suffer first loss of Eredivisie season against Heerenveen India.com",
+            "text": "PSV suffer first loss of Eredivisie season against Heerenveen india.com",
             "language": "en",
             "sentiment": -1.0
           },
@@ -352,6 +352,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Heerenveen Team Roster - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRFNPQU93ZWZyM3lsekxjR3l6QUtSNVF3d1A5d0dLRDBNNjE1bkUzTEFjMExUSnpFcTFhNTU1c0NFVkdIU3MwRVhiX0xSd0Vac0NhUkwzNTc1YnNtM0pkZEJja2lSaFRHLXc?oc=5",
+            "published": "Fri, 18 Sep 2026 06:31:39 GMT",
+            "text": "Heerenveen Team Roster Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV Eindhoven vs Hamburger SV - live score, predicted lineups and H2H stats - FotMob",
             "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GdnlLbjBSMmp4dnR3M1dSSTk3NlpQZ1RpTGxza3BoZzhKVlAzRERibk9TN3R3ZnBrNGdIYS1McGZTN1NFbHdxaEpISE16MWgyamozaVl1a2RBanVDaFh1RmFDcGVXMDBYb1dJMXZXWlh4SWtOUmxlaTJQUVotdw?oc=5",
             "published": "Sun, 07 Jan 2024 08:00:00 GMT",
@@ -412,15 +421,6 @@
             "text": "Netherlands Eredivisie Injuries & Suspensions | Injury News Sportsgambler",
             "language": "en",
             "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kMVhYM3pYWG1qNnpJd2RFZGVSaG1BUGxaWXFtdzdFQ3IxQ1ZpZFE5YWM5dS1JSU9aVVJ4U0ZxcnZGVzd0MFNHbVV4M3JId2RobnJENjBsbHd5b25TSkZycWZBbTdvdHJmY3FVRlhuVGV6MUpyaW10WklLaw?oc=5",
-            "published": "Sat, 04 Nov 2023 19:04:33 GMT",
-            "text": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -532,15 +532,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Albert van der Sleen - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YREUxVlJEbFdaUi1WRHo0VFJOQW0zUTdaYzNOV2p0ZzI5bmVEaV8ySW5ZZXlQSEpUUWlDc2ZsdF9HQXY3VTFNV2RkMXNPSEQ2TFRCSlhjTlFpUnNyS3M4WURjdVRUMUV5bEJ2U2V1RjNVc2JkbFROLTBLNHlOQQ?oc=5",
-            "published": "Fri, 26 Apr 2019 19:18:52 GMT",
-            "text": "Albert van der Sleen Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Ruud van Nistelrooy - Tüm goller - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4eVk2TEw1dE5uT1lNNzUydnNBOGdoNlE1SzUwLXpxNTVZdEVTSVpsMjNQSGlJZzdwRy0wS0FGVzhHSmZTZkhVMFp2Qjl6U0lHZzVMSmVTb2NYQlN1SWFBdmFQaEd2akVoVU5vZW95elp0V2dGdHlnSzNFSWU3OXc?oc=5",
             "published": "Tue, 07 May 2019 03:59:31 GMT",
@@ -563,6 +554,15 @@
             "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EWkpPVThkRjhIOC1OMTBXRzFXalQ2TGRYcWFmM2Jkc3BqUGREM3BURkNBYkw5OU1Hcnp3TkdHeTMzamJBeGRZdXJ2cUdOMUxnTUtGeEVZb3VCZnVsb2l2LTlid1VDWHptQkFWOFhpa1BQZEJYNGNF?oc=5",
             "published": "Fri, 05 May 2017 16:59:04 GMT",
             "text": "PSV Eindhoven Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peter Bosz, PSV - Ajax maçı öncesinde birkaç gün içinde çok olumlu bir haber aldı - goal.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRE8xVWRycUxrUVFNcy1xX2dZYURRZDFfaklscl9Gc0YzTm9BbWl6dVFYSDZYYXZrMXdRMFg5aWRBeHVBMlZRZEZSMWdDYmJNMUNwZTJ6aFlJMnJya2tuelNUdUNhRU9TMXh1LThrVTc2N0U1NS15ME5uSnE1QU5EYnlKV3BfaUhJYmxBYnpPQ0JwUVgzUEIwM2RXTWhNY0RBMWdQeUVTeUV3ejZ4RDA1SmhsY19EZVdiLUNNRmtsRUplUmRNUGs0?oc=5",
+            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+            "text": "Peter Bosz, PSV - Ajax maçı öncesinde birkaç gün içinde çok olumlu bir haber aldı goal.com",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -627,7 +627,7 @@
       },
       "intelligence": {
         "mentions": 36,
-        "web_score": 0.0833,
+        "web_score": 0.1111,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -663,10 +663,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "West Ham star stretchered off with head injury in worrying scenes during QPR FA Cup tie - The Mirror",
+            "title": "West Ham star stretchered off with head injury in worrying scenes during QPR FA Cup tie - Daily Mirror",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa2xnUV81bi0wWWhncUNaaVdBRm9vb0JOTWZicU9Va2ZaWGRDdzRvVWpyZTk3Y2V5VUg4di0wenBxSm9LTGUyMzNELS1zcVM5UWEyTE93TWRtZThhb3BGajY1eHZoR1o5SG0yNnBnbU9ncHZMalRXSU0wdjBJck1GNEpqZTNZU01GNGlZUVoyMGdMQjRoMnJjUzJmNETSAaIBQVVfeXFMUHNNckh3WnJVaDFYSjNKTVo5R3U0TlVLZGpiQjlnem1VWEpUd0dOVVRTOXlQTkplaFM2cWNsUU53bFpEYnE0MWJDaFVQcmx6aUpEUV9RYWRUZ3ctQzhYN2Nvc3lyN1BNS2JYaEVISTFiaENjYXVRelBWT1pzcWJRUV9qQlc5UDhqZkxycGwwYWZHYXM1YjVGa1hPQTFINmUyQWNn?oc=5",
             "published": "Sun, 11 Jan 2026 08:00:00 GMT",
-            "text": "West Ham star stretchered off with head injury in worrying scenes during QPR FA Cup tie The Mirror",
+            "text": "West Ham star stretchered off with head injury in worrying scenes during QPR FA Cup tie Daily Mirror",
             "language": "en",
             "sentiment": -1.0
           },
@@ -717,10 +717,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Fans of Chelsea and Millwall rated worst in London - YouGov",
+            "title": "Fans of Chelsea and Millwall rated worst in London - yougov.com",
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkNSV3dSSUNEak1oallFTEhrVkJZWlZ2UGdiQlo0V1BtQjFuY2tOMkRkc05fSUZ6cHRyRG1jb1JVTDFNekp0djRqbFBvNnJqQmR1eDI4TzY5OS1FUkJ4ejltNE9EQWZZcjJlalhSdTR4b0VIY05QZzJsTVIyLWliajZobVdPR1V3d0I1VA?oc=5",
             "published": "Wed, 04 Mar 2015 08:00:00 GMT",
-            "text": "Fans of Chelsea and Millwall rated worst in London YouGov",
+            "text": "Fans of Chelsea and Millwall rated worst in London yougov.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -735,10 +735,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature - The Mirror",
+            "title": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature - Daily Mirror",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFM3QmtyMnV4dE5pNEdWcjZYRXREcGhHT1hITUIxRGxMalFlZTVEYkpPdFp4VUFubFVhT1VVMk9ZdTZpdmpRcGNxRVB4MHp2SnU0Y0xYNDAzQWlobnh6QnFjek5EdWE5ZTR3NUZZVEk5alpPUEhoVElJbVdmR1dPR2YxdnllX0hMQmRBTlBhZ0w3S1hoZS13bFBB0gGfAUFVX3lxTE9QVkg5djBKcFVsUHRQZ252UU9hTjEyU1pTNTBKU3l6TlNxRFpfdmVkTmFHNml2Z282WFE4T2I4ekt6UGloVTY3VXZMTE1ZU3FlMmN0NUYzYk5VUlNUSVZUNkxQNmZsY0lMSmVYN3RsZGE0bjUyZzc4WjV3REFwN0tlN3ZydmtTa25FSURjeVZXX0RXV01mSWZ5Q2t1QWhmQQ?oc=5",
             "published": "Sat, 20 Jun 2015 07:00:00 GMT",
-            "text": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature The Mirror",
+            "text": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature Daily Mirror",
             "language": "en",
             "sentiment": 1.0
           },
@@ -789,10 +789,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
-            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
-            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
+            "title": "Watford vs West Ham United predictions and betting tips: Hammers fancied on the road - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUNUSE1ISEFYWlJKLUVGV2ZoLXdYVU5xdExzandIMEtOM0FuUzVYZm1oeG5ISTVvaDBOWUt3Qkpoajd4WkpuZVNpeG8yYzhuSGJFNzlvZDJRSi1Oc1Q0S1BHdlhYZllBNXBkT0hzVTdfbFV2YkJuYjdIZTBXT3ZVOV8yQm0yckljUnZDcGo1SQ?oc=5",
+            "published": "Wed, 26 Aug 2026 14:38:27 GMT",
+            "text": "Watford vs West Ham United predictions and betting tips: Hammers fancied on the road Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -816,12 +816,30 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
+            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
+            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
             "published": "Tue, 01 Sep 2026 07:00:00 GMT",
             "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "QPR vs Preston predictions and betting tips: in-form Rangers fancied - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc2IyODljRzM1a3B3SlZsSEF2QzJwb2xTdmc1YTdsSm56WEdVdXJyRmVxWU9zRnVydkJFSk5GUVQwSG03X25sb2hBVTJTTk1MM3I1VGV4TTdaOFFmYW42OUV3eU5nR1E1TjR3SjdyNzlvUTFIU1N6ZXpCdjc1MkI0Y09Da0lMR3k5?oc=5",
+            "published": "Wed, 16 Sep 2026 15:54:31 GMT",
+            "text": "QPR vs Preston predictions and betting tips: in-form Rangers fancied Squawka",
+            "language": "en",
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -843,15 +861,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season - the72.co.uk",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiemlXMDMzRDlmVUt0RjJwQ21CVzF3MTFsZDRZb1pzbXZiWVBFUkpIM1VvczBzeFl5Q25mY1FCaEF4ak93cVc5M0g1WFFFeUt3TmJ0OGtudFFFdVJQTUo3ZnUxSGYtWjUyWUlvVGVKRWYyVDRkbnlkRElmTXAyUWc?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season the72.co.uk",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "“A far better side”: QPR vs Swansea City predictions - the72.co.uk",
             "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YLUNwZjF4c21IX01fM3BhQW5lWkc1eURDNWFzQTRzRWwyMF9NMDM1dTVwTElqVTVFVFN0UXluOEZBcC1CQ2x6TUtSQjJXOHVHM3dydWFrSFA1NG80bjRQdlJOMXB2U091Ym96Vw?oc=5",
             "published": "Mon, 20 Apr 2026 07:00:00 GMT",
@@ -861,19 +870,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“Missed opportunities”: QPR vs Middlesbrough predictions - the72.co.uk",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jd2FFZ3E5cVBySmZsV2hUOXVtUFAwZ2hVZkM5ZEljMWxCTnplR0lJWk0zeGtLa1hwTkZFSHZMN1BHWjZTUlpMcUhPMTNTaGdwdkd5dVNid1B4UGwtSWRoTHF1MUJncnJiZmM3WTZn?oc=5",
-            "published": "Fri, 06 Mar 2026 08:00:00 GMT",
-            "text": "“Missed opportunities”: QPR vs Middlesbrough predictions the72.co.uk",
+            "title": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiemlXMDMzRDlmVUt0RjJwQ21CVzF3MTFsZDRZb1pzbXZiWVBFUkpIM1VvczBzeFl5Q25mY1FCaEF4ak93cVc5M0g1WFFFeUt3TmJ0OGtudFFFdVJQTUo3ZnUxSGYtWjUyWUlvVGVKRWYyVDRkbnlkRElmTXAyUWc?oc=5",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "text": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "“A big test”: Charlton Athletic vs QPR predictions - the72.co.uk",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCYXowUEx2czBUTnc2a1Q2WC10MUtackloejh5TUlvTjV5VlJmQXFxVUJSclpmRFdlSDktNzBxYmpldl9XSkp0X1pWUU1KMktoMm1QUkFielpzdGxXb1NYWkhFSkVuTEdvWmk2cDNubUZxdHM?oc=5",
-            "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-            "text": "“A big test”: Charlton Athletic vs QPR predictions the72.co.uk",
+            "title": "“Moving in the right direction:” Oxford United vs QPR predictions - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MX1dkRUVqWUJHUldlY2RFTXh0M0Q0SzAyRXJHdTlQdURrQ1YzdmlrME84Z2Q3V19aeEozVnprVXhjRUI5WVRhQlp1QVJ1VE43cU5jRVpqcUVEWW04WkVtUjJNOUZxN0hLb0d4SXJR?oc=5",
+            "published": "Mon, 19 Jan 2026 08:00:00 GMT",
+            "text": "“Moving in the right direction:” Oxford United vs QPR predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
@@ -883,15 +892,6 @@
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96elpsS2F2UXJlUVVFelotUlhyQU5VVHNNQndTbUdpVm5YQTEzcUl3XzhVckp4S3RibS04RmowcXFLelN0c1hiZUc2YTN3TjZ6MG9tcFJVempDUk5vMi1peER3bk55U1BHdWdjNkdxQ0lMVm5DOWVmdA?oc=5",
             "published": "Fri, 20 Mar 2026 07:00:00 GMT",
             "text": "Varane on the bench again: QPR team news and predicted XI to face Portsmouth the72.co.uk",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“They’ve been electric”: QPR vs Bristol City predictions - the72.co.uk",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TVTgzM1pseC14YlJQU05JY0gzVkw3dUVZaS1YSHJGQTZFVkVIT2JIUVdNc0tvZVc2eWZwWVBZQzFsQ0NxV1R4TWV3STNTLVhLSXhpTHNEaFRDbUVWbGh3bUdMcFMxQUdsV3RRandhdGh4NmJB?oc=5",
-            "published": "Thu, 09 Apr 2026 07:00:00 GMT",
-            "text": "“They’ve been electric”: QPR vs Bristol City predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1174,10 +1174,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Hamburger SV vs Werder Bremen: Predictions, Betting odds, Lineups, Preview - bwin.com",
+            "title": "Hamburger SV vs Werder Bremen: Predictions, Betting odds, Lineups, Preview - Bwin",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMGlPekZCX3N1eHBGQ3hsSmZtRHVzMW5lOGFha2pCOU5nVHdJX09WZWNDVzNsVEU4dDZQTUtxMmh0blpCbzhKcWU3ZHpfSDNGQmI2dUk3OE1KbEVhSzJWVGdaR2ViX2RpR1B1RVhaWkpucmZmbkxhUUlTc2g3dFBoQUlGVk1nWXNCMGdicnJrZWQtdlM1TkY0TA?oc=5",
             "published": "Wed, 03 Dec 2025 08:00:00 GMT",
-            "text": "Hamburger SV vs Werder Bremen: Predictions, Betting odds, Lineups, Preview bwin.com",
+            "text": "Hamburger SV vs Werder Bremen: Predictions, Betting odds, Lineups, Preview Bwin",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1876,8 +1876,8 @@
         }
       },
       "intelligence": {
-        "mentions": 42,
-        "web_score": -0.0238,
+        "mentions": 41,
+        "web_score": -0.0244,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -1886,10 +1886,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup - thescore.com",
+            "title": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup - theScore",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2dkVhN1RyQlU1R0NhUWpqWC11SVI1Ti1iamJkeVRTVXA4U1o3cEFfeXh2TjRIMGswMDJicUR5WkhYZ3ZzVHNhbTM3Rng1Q3lRaXVVempSMVNsRkM1cVNKbnd3?oc=5",
             "published": "Mon, 28 Sep 2026 18:32:00 GMT",
-            "text": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup thescore.com",
+            "text": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup theScore",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2079,15 +2079,6 @@
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tRFRCeU92R0ppTDVHYVZOQ0NURU1pVmNQQ0RlWGxIVjJvVTBXcFdiUC1ocGtOaDR1dnkxcFhfOGRoSVV5T3VuUHhhb2JBTU9MY0JjZ0Zsa3JzUWJLUEFNdzdJYXlGWTdzSFVjZkhxTVNQX1hlNHNHeg?oc=5",
             "published": "Sun, 20 Feb 2022 15:01:41 GMT",
             "text": "Liga Portugal 26/27 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal - Bleacher Report",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmFyN084UU9aa1dLaHlYY2Rtdm1Ra3pfUTUtSmkxQ2h4NWRZTDg2MHZua1hTdE5JTE8xS1JVNGs3bGhwWFNsbkpKMTFzb040eUVMMzV1TnkxQmxJd1Z3X1JlQy1DN0IxUUk3bkpURXpTWExaVWFSeUUtWFk0T1oxSVppZTRFTXRmRFc4TzRIdzJjTk5PUzczZElRdmFEMUsyRWR4c3Zha2ZVMkU?oc=5",
-            "published": "Wed, 06 May 2026 07:00:00 GMT",
-            "text": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2386,10 +2377,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Futebol Clube do Porto - Futebol, S.A.D. (FCP.LS) Stock Price, News, Quote & History - ca.finance.yahoo.com",
+            "title": "Futebol Clube do Porto - Futebol, S.A.D. (FCP.LS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
             "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGVjI2UkFzZzNoQWFOWVlfRjctc1NLbVJITDdGMnd0MnFMRk5Fb0t5SG5fb2xwcE14R2dTZmE0eUFxb3ZOdzdCWEhWbUVsUXl2RVFQNg?oc=5",
             "published": "Thu, 07 Sep 2017 21:43:47 GMT",
-            "text": "Futebol Clube do Porto - Futebol, S.A.D. (FCP.LS) Stock Price, News, Quote & History ca.finance.yahoo.com",
+            "text": "Futebol Clube do Porto - Futebol, S.A.D. (FCP.LS) Stock Price, News, Quote & History Yahoo! Finance Canada",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2607,10 +2598,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "New and historic rivals in LaLiga SmartBank - malagacf.com",
+            "title": "New and historic rivals in LaLiga SmartBank - Málaga CF",
             "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQlhMMzhkUlpNOFl5TkNFbVJnejFFZWg4M0FtU05wYVFSUTh3QTNTRGZaVFBQaEgyVDRPTVl1TTItQWE0Y2FNXzR4NlBQYnZ6VGlCVnRiTWVzMDlmcGIwYVdnSDMzTFdONWJ0cWdtWHVJcHdZU0VUV21xbHRvZXVscU93?oc=5",
             "published": "Mon, 27 Jul 2020 07:00:00 GMT",
-            "text": "New and historic rivals in LaLiga SmartBank malagacf.com",
+            "text": "New and historic rivals in LaLiga SmartBank Málaga CF",
             "language": "en",
             "sentiment": 0.0
           },
