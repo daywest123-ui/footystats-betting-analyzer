@@ -86,7 +86,7 @@ def run(snapshot_path="data/footystats_snapshot.json"):
             "coupon":coupon,
             "open_source_special_opportunities": special[:20],
             "external_prediction_sources": {
-                f"{item["home"]} - {item["away"]}": item.get("external_prediction_sources", {})
+                f"{item['home']} - {item['away']}": item.get("external_prediction_sources", {})
                 for item in enriched
             },
             "notes":["FootyStats prices supplement concrete football-data prices.",
