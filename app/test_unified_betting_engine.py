@@ -1,6 +1,7 @@
 import unittest
 
 from app.unified_betting_engine import HTFT, _normalize, _no_vig_1x2, select_htft_candidates
+from app.open_source_intel import _extract_match
 
 
 class UnifiedBettingEngineTests(unittest.TestCase):
@@ -18,6 +19,26 @@ class UnifiedBettingEngineTests(unittest.TestCase):
 
     def test_no_vig_empty_without_odds(self):
         self.assertEqual(_no_vig_1x2(None), {})
+
+    def test_extract_match_resolves_common_fc_alias_without_flipping_side(self):
+        row = {
+            "home_team": "Liverpool FC", "away_team": "Chelsea",
+            "home_score_normaltime": 2, "away_score_normaltime": 1,
+            "home_score_period1": 1, "away_score_period1": 0,
+        }
+        parsed = _extract_match(row, "Liverpool")
+        self.assertIsNotNone(parsed)
+        self.assertTrue(parsed["team_home"])
+        self.assertEqual(parsed["ht"], "1")
+        self.assertEqual(parsed["ft"], "1")
+
+    def test_extract_match_rejects_ambiguous_team_alias(self):
+        row = {
+            "home_team": "Alpha United", "away_team": "Beta City",
+            "home_score_normaltime": 1, "away_score_normaltime": 1,
+            "home_score_period1": 0, "away_score_period1": 0,
+        }
+        self.assertIsNone(_extract_match(row, "Gamma"))
 
     def test_candidate_selection_preserves_probability_and_fair_odds(self):
         analysis = [{
