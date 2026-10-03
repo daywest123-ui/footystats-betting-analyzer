@@ -3,6 +3,7 @@ from __future__ import annotations
 from math import prod
 from typing import Any
 from app.value_engine import implied_probability
+from app.coupon_success_memory import success_bonus
 
 MIN_PROBABILITY=.55
 MIN_EDGE=.025
@@ -59,7 +60,8 @@ def build_candidates(fixtures:list[dict[str,Any]],*,max_candidates=20)->list[dic
                 "implied_probability_pct":round(implied*100,2),
                 "value_edge_pct":round(edge*100,2),"ev_pct":round(ev*100,2),
                 "data_quality":round(quality,3),"engine_consensus":f"{agreement}/{engines}",
-                "score":round(ev*100+edge*60+p*10+quality*5,3),
+                "score":round(ev*100+edge*60+p*10+quality*5+success_bonus(market,odds),3),
+                "historical_coupon_bonus":success_bonus(market,odds),
                 "votes":fused.get("votes",[])
             })
     return sorted(candidates,key=lambda x:x["score"],reverse=True)[:max_candidates]
@@ -84,7 +86,8 @@ def build_model_candidates(fixtures:list[dict[str,Any]],*,max_candidates=30)->li
                 "fair_odds":round(1/p,2) if p>0 else None,
                 "data_quality":round(quality,3),
                 "engine_consensus":f"{agreement}/{engines}",
-                "score":round(score,3),"votes":fused.get("votes",[])
+                "score":round(score+success_bonus(market),3),
+                "historical_coupon_bonus":success_bonus(market),"votes":fused.get("votes",[])
             })
     return sorted(candidates,key=lambda x:x["score"],reverse=True)[:max_candidates]
 
