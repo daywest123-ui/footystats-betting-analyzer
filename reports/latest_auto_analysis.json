@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:04:24.920132+03:00",
+  "generated_at": "2026-10-03T14:35:32.946183+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -442,19 +442,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - Goal.com",
+            "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - goal.com",
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRRbmtvTmdfazJ0aHA4V1doeUpCb0tDVzN3ZEhXTU9vMDVMNzN5cERfbEpSNXBncldmd0I1RHZkUThNWnhQeHJJN3MzZVhhM09rMC1PN1d2U3NoLXhob3BVVHNuVXIyMWx6cTZEaHY5R2ZyQTViUmt4UmwtMTlYUHpnb0hTR1c0YjYtZ0FxX3YwOVIwY3lFZ3MxcVZjVG1OTEdheVA2UGp1QVBCR1Rpaml5Y3pSNk1WejRIWHVNWUxZYTVmaVVOUWJrQXQtR2dsdUR5RDBn?oc=5",
             "published": "Sun, 03 May 2026 07:00:00 GMT",
-            "text": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor Goal.com",
+            "text": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir - Goal.com",
+            "title": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir - goal.com",
             "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVi1Fel9fNjl4YWhKNW44X29mRVJmMVRRZ3lRMkhrX2dCRzdQLWI5QV9mODhQNGhTNlo5ZDFBOUhBckV0aXV5SGxVR2pMdE44TjU4ek5HTWc1blBUVnR4X1J2Z3FWOGNTNkp2cDFUVk1KRkRtWXpPMWh4WGR4aExnakpDMXJiZ0tBT1lBNElkVHZMQlNxdnJ2YWdMc183akdfY3N2bWZZMENtMVRMaTRKQ2czTnlOVmtYTDJWWVVlZjZXeGtCTmxhbC1VbHlJOXhZSkYxSw?oc=5",
             "published": "Mon, 11 May 2026 07:00:00 GMT",
-            "text": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir Goal.com",
+            "text": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -469,10 +469,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı - Goal.com",
+            "title": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı - goal.com",
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXFFeGkwc2JhU1VFMkN0WkFiRHRpVmtTY2w0SFdyU1NFNmZMWXk1VFdNVnBNb2F3NzVsRkJIaHFqblZmMmtCbE9tUTFyakFDYXNub2dtUk8yZzhSeEFUQ3RXTUl4ZGdLNHc0bGFhR3FJV2t3U19zRWVHVDVDX2JFUUI3enVxM0owUjNJcUNCX3FlZU5HaFRCRml5eXZ3elJMVV9oQWlmbzZCYjBZVGR4T3dEWHlWaVNPM29BV29fbGVndw?oc=5",
             "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-            "text": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı Goal.com",
+            "text": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -505,10 +505,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik - Goal.com",
+            "title": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik - goal.com",
             "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMW9Cdkc2UHJXcHczaTJ2SXdfMTVqXzM1SUdXV3JKUlpOSUZkMjE1VWpxUVNCa1BkbEhnTzZTMUNyLUgzZ0c2d2xkRzA4YWVGZnNzNm1GU0xvTTAxMmU3cHdRVWFiMHNEdWZfa195d1ZGbmtDc0FxOGx3U0dOQlFNdGNjcVEyaXRTcWNOMmFyNl82X3F1Yi14cWVLX3o2emRnLWNqa1NacE5tTHpFVVloQkJ5U2FkMWJYNVpyc2dTWXBHVjJGeWVFcUs5MXNvX0k?oc=5",
             "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-            "text": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik Goal.com",
+            "text": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -550,10 +550,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Heyecan verici bir rekabet yaklaşıyor: PSV, FC Twente'nin iki oyuncusunu kadrosuna katmak istiyor - Goal.com",
+            "title": "Heyecan verici bir rekabet yaklaşıyor: PSV, FC Twente'nin iki oyuncusunu kadrosuna katmak istiyor - goal.com",
             "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZmNCSm82X3Zqa0puZk5HU0FTWU43NWptRE1aSkNXOTRWR0NpQ3VLcTlCSTRGR0IyX0R6SkRFa2NaYkRvM1JNeW41VUZGVDlxVTJNZ1N4ZUZQcHFyb05remhaNmZ6SURJVkJZNlk3U3h0M0E3TTB3Mzl2M0VDMkdOMUx2Rk9Way1KVWZBNEVudVpzaXF6QjAyemgwMW82SkVndkhzenFuRzJXVnNUbTltUmx0VUhFMlVwQ05XelVYSXE2ckF0QlkxRnlpXzJ4blhFV3dIUzc1dmh4VmMwTlE?oc=5",
             "published": "Sat, 16 May 2026 07:00:00 GMT",
-            "text": "Heyecan verici bir rekabet yaklaşıyor: PSV, FC Twente'nin iki oyuncusunu kadrosuna katmak istiyor Goal.com",
+            "text": "Heyecan verici bir rekabet yaklaşıyor: PSV, FC Twente'nin iki oyuncusunu kadrosuna katmak istiyor goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -726,12 +726,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Champions League group stage sides' transfers - UEFA.com",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUEJkYmVGaGpkV2wxTnp6ZGRtbklreTVkam5WSXp6QWFzeDFwM19OMUE3R0x4eEpNUU1RV2N5MUk2WWhnbHFteDg5clFnMWVpX1VIVkpEUlhkTzFWX2tTV2ZKbWhQOEVXVW1OSEtYWGw2VDd5MkN3UkFmNWZoVnFWY21NLVl4MExtb05MVXVseklETmwxX1o5Qm9PWjdxeDVNOVpjUC1XZ3d3LTRHVWhWM2RYdzlhSnNVSFl4TUpjUWJBNnB4Q1Fn?oc=5",
-            "published": "Tue, 01 Sep 2015 07:00:00 GMT",
-            "text": "Champions League group stage sides' transfers UEFA.com",
+            "title": "Eberechi Eze Can He Replicate Championsh­ip Form on the Big Stage? - PressReader",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfWUU5RExkTHFROVN6STBhVm9GZGU3QlNOeW14Z2Q5a3ZaN2R0UmpvdzZPZkkxeWtDLUx4UjRHdHlvWlF2VDBkaGpKc1BSSnJ3MnRrWHA2YUxJTnNOdmdEYlEyal9FUFFadjVyUDFONEJ5eWo2UWtZ?oc=5",
+            "published": "Sat, 29 Aug 2020 07:00:00 GMT",
+            "text": "Eberechi Eze Can He Replicate Championsh­ip Form on the Big Stage? PressReader",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -789,10 +789,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Watford vs West Ham United predictions and betting tips: Hammers fancied on the road - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUNUSE1ISEFYWlJKLUVGV2ZoLXdYVU5xdExzandIMEtOM0FuUzVYZm1oeG5ISTVvaDBOWUt3Qkpoajd4WkpuZVNpeG8yYzhuSGJFNzlvZDJRSi1Oc1Q0S1BHdlhYZllBNXBkT0hzVTdfbFV2YkJuYjdIZTBXT3ZVOV8yQm0yckljUnZDcGo1SQ?oc=5",
-            "published": "Wed, 26 Aug 2026 14:38:27 GMT",
-            "text": "Watford vs West Ham United predictions and betting tips: Hammers fancied on the road Squawka",
+            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
+            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
+            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -816,15 +816,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
-            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
-            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
             "published": "Tue, 01 Sep 2026 07:00:00 GMT",
@@ -834,19 +825,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "QPR vs Preston predictions and betting tips: in-form Rangers fancied - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc2IyODljRzM1a3B3SlZsSEF2QzJwb2xTdmc1YTdsSm56WEdVdXJyRmVxWU9zRnVydkJFSk5GUVQwSG03X25sb2hBVTJTTk1MM3I1VGV4TTdaOFFmYW42OUV3eU5nR1E1TjR3SjdyNzlvUTFIU1N6ZXpCdjc1MkI0Y09Da0lMR3k5?oc=5",
-            "published": "Wed, 16 Sep 2026 15:54:31 GMT",
-            "text": "QPR vs Preston predictions and betting tips: in-form Rangers fancied Squawka",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“A decisive year”: Portsmouth vs QPR predictions - The72",
+            "title": "“A decisive year”: Portsmouth vs QPR predictions - the72.co.uk",
             "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IeVl6Qm94dk9ZbFpvMFpCTDlQaGNEWldTTUpOdzRXSlFxMXpzSjFJak96MVZaQ2lObGRSaWUxOEpxb0FLblVZQzlWNFNkNUlLNXdqanJhNzRra3U2cE5FOVpSNXg3a05TMXJGLVZR?oc=5",
             "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“A decisive year”: Portsmouth vs QPR predictions The72",
+            "text": "“A decisive year”: Portsmouth vs QPR predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
@@ -861,37 +843,55 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“A far better side”: QPR vs Swansea City predictions - The72",
+            "title": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiemlXMDMzRDlmVUt0RjJwQ21CVzF3MTFsZDRZb1pzbXZiWVBFUkpIM1VvczBzeFl5Q25mY1FCaEF4ak93cVc5M0g1WFFFeUt3TmJ0OGtudFFFdVJQTUo3ZnUxSGYtWjUyWUlvVGVKRWYyVDRkbnlkRElmTXAyUWc?oc=5",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "text": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season the72.co.uk",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "“A far better side”: QPR vs Swansea City predictions - the72.co.uk",
             "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YLUNwZjF4c21IX01fM3BhQW5lWkc1eURDNWFzQTRzRWwyMF9NMDM1dTVwTElqVTVFVFN0UXluOEZBcC1CQ2x6TUtSQjJXOHVHM3dydWFrSFA1NG80bjRQdlJOMXB2U091Ym96Vw?oc=5",
             "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-            "text": "“A far better side”: QPR vs Swansea City predictions The72",
+            "text": "“A far better side”: QPR vs Swansea City predictions the72.co.uk",
             "language": "en",
             "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
-            "title": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season - The72",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiemlXMDMzRDlmVUt0RjJwQ21CVzF3MTFsZDRZb1pzbXZiWVBFUkpIM1VvczBzeFl5Q25mY1FCaEF4ak93cVc5M0g1WFFFeUt3TmJ0OGtudFFFdVJQTUo3ZnUxSGYtWjUyWUlvVGVKRWYyVDRkbnlkRElmTXAyUWc?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season The72",
+            "title": "“Missed opportunities”: QPR vs Middlesbrough predictions - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jd2FFZ3E5cVBySmZsV2hUOXVtUFAwZ2hVZkM5ZEljMWxCTnplR0lJWk0zeGtLa1hwTkZFSHZMN1BHWjZTUlpMcUhPMTNTaGdwdkd5dVNid1B4UGwtSWRoTHF1MUJncnJiZmM3WTZn?oc=5",
+            "published": "Fri, 06 Mar 2026 08:00:00 GMT",
+            "text": "“Missed opportunities”: QPR vs Middlesbrough predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "“Moving in the right direction:” Oxford United vs QPR predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MX1dkRUVqWUJHUldlY2RFTXh0M0Q0SzAyRXJHdTlQdURrQ1YzdmlrME84Z2Q3V19aeEozVnprVXhjRUI5WVRhQlp1QVJ1VE43cU5jRVpqcUVEWW04WkVtUjJNOUZxN0hLb0d4SXJR?oc=5",
-            "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-            "text": "“Moving in the right direction:” Oxford United vs QPR predictions The72",
+            "title": "“A big test”: Charlton Athletic vs QPR predictions - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCYXowUEx2czBUTnc2a1Q2WC10MUtackloejh5TUlvTjV5VlJmQXFxVUJSclpmRFdlSDktNzBxYmpldl9XSkp0X1pWUU1KMktoMm1QUkFielpzdGxXb1NYWkhFSkVuTEdvWmk2cDNubUZxdHM?oc=5",
+            "published": "Wed, 04 Feb 2026 08:00:00 GMT",
+            "text": "“A big test”: Charlton Athletic vs QPR predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Varane on the bench again: QPR team news and predicted XI to face Portsmouth - The72",
+            "title": "Varane on the bench again: QPR team news and predicted XI to face Portsmouth - the72.co.uk",
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96elpsS2F2UXJlUVVFelotUlhyQU5VVHNNQndTbUdpVm5YQTEzcUl3XzhVckp4S3RibS04RmowcXFLelN0c1hiZUc2YTN3TjZ6MG9tcFJVempDUk5vMi1peER3bk55U1BHdWdjNkdxQ0lMVm5DOWVmdA?oc=5",
             "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-            "text": "Varane on the bench again: QPR team news and predicted XI to face Portsmouth The72",
+            "text": "Varane on the bench again: QPR team news and predicted XI to face Portsmouth the72.co.uk",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "“They’ve been electric”: QPR vs Bristol City predictions - the72.co.uk",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TVTgzM1pseC14YlJQU05JY0gzVkw3dUVZaS1YSHJGQTZFVkVIT2JIUVdNc0tvZVc2eWZwWVBZQzFsQ0NxV1R4TWV3STNTLVhLSXhpTHNEaFRDbUVWbGh3bUdMcFMxQUdsV3RRandhdGh4NmJB?oc=5",
+            "published": "Thu, 09 Apr 2026 07:00:00 GMT",
+            "text": "“They’ve been electric”: QPR vs Bristol City predictions the72.co.uk",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1048,10 +1048,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund vs Werder Bremen: Bundesliga stats & head-to-head - bbc.com",
+            "title": "Borussia Dortmund vs Werder Bremen: Bundesliga stats & head-to-head - BBC",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jTG5xR0R1SS1ZNlA2NE1BRWNCZEg2cUFHR0RkelNrT0ZoS2R4UUdJSXYwcHViV2lOdHRqTThvZ044clJ1M1ZON0dvNTV1OFprNUFZM2owODgxN3pHUWlxdlNB?oc=5",
             "published": "Tue, 13 Jan 2026 08:00:00 GMT",
-            "text": "Borussia Dortmund vs Werder Bremen: Bundesliga stats & head-to-head bbc.com",
+            "text": "Borussia Dortmund vs Werder Bremen: Bundesliga stats & head-to-head BBC",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1084,10 +1084,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund rejected swap deal for Felix Nmecha and Newcastle United star - Get German Football News",
+            "title": "Borussia Dortmund rejected swap deal for Felix Nmecha and Newcastle United star - getfootballnewsgermany.com",
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVDI4ZEVaR01nRVR5ZGpId1FlNHFlQkY0Q0RfUjMtWUpfNG5wOF93NDBkckN5MF92ellwR3R6S1l4NEctaEFSamtNY2NfNE9sT3BwbERMaWNzVFZNUkFxa0tZZ25TQUY4TGhfb3IwZE8ycmVBdWJjTUU2S3dQVkxwemprWFJNTmFIZDVvY3RTRW9pN3BqbVFMWk80aGNiOWRjN3JQQmZkcFp5NVIzeVlJVnNDQ3NPY183TEZvdktzRUFCQQ?oc=5",
             "published": "Wed, 02 Sep 2026 07:00:00 GMT",
-            "text": "Borussia Dortmund rejected swap deal for Felix Nmecha and Newcastle United star Get German Football News",
+            "text": "Borussia Dortmund rejected swap deal for Felix Nmecha and Newcastle United star getfootballnewsgermany.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1111,10 +1111,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund’s Felix Nmecha set for Germany World Cup call-up - Get German Football News",
+            "title": "Borussia Dortmund’s Felix Nmecha set for Germany World Cup call-up - getfootballnewsgermany.com",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYVhVampocklfV3V6LUJrdmxDelhkN3QzVjhoa3pndkg2bE02Z3VjTzhFNGpFeVd1NGI0SVBHTVduMmtWNHNkTXFJejRpWGJsQnpQWjcyRTZEeG81cldCUGJkTHd5VVlKSkMzV09YMmRXc1lFdjhHVjZnVWFzbjd0TEdWU3M2NC1INXNKbUpkUjhFVWIwUm9iMQ?oc=5",
             "published": "Tue, 19 May 2026 07:00:00 GMT",
-            "text": "Borussia Dortmund’s Felix Nmecha set for Germany World Cup call-up Get German Football News",
+            "text": "Borussia Dortmund’s Felix Nmecha set for Germany World Cup call-up getfootballnewsgermany.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1138,10 +1138,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund’s Yan Couto now set for Como loan - Get German Football News",
+            "title": "Borussia Dortmund’s Yan Couto now set for Como loan - getfootballnewsgermany.com",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MTGREckFPdUVMUHhBVW1wdEVobkZiZ3BqM1o4eG9ucFFMTzFnUk1JSFlpcXkyNi1Nb2dzb1N3dnh0SHpucGN4YlA1ZWdDUmY4bmJTTGxTcnN0MElYa2tLSGxMNUtRR1VlUV9VYWRxb3AtQQ?oc=5",
             "published": "Sun, 02 Aug 2026 07:00:00 GMT",
-            "text": "Borussia Dortmund’s Yan Couto now set for Como loan Get German Football News",
+            "text": "Borussia Dortmund’s Yan Couto now set for Como loan getfootballnewsgermany.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1156,10 +1156,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Real Madrid monitor Borussia Dortmund’s Felix Nmecha - Get German Football News",
+            "title": "Real Madrid monitor Borussia Dortmund’s Felix Nmecha - getfootballnewsgermany.com",
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdVNmX1BLTHNiRE9JV09WMXR4eGViTGdmcTVhY3F5SE5zM2JxZ1FOeHhhNzg5MHNZbEExcHJkMHJHRFF4amJYRmRiYXJKVHlVbnloLXdFLUo3dS16TnNmcDdmUVdnczFyMkh4SG9UMHFyTXpLVEczTU5jWEluMHZOdUhwN0V6blk?oc=5",
             "published": "Mon, 15 Jun 2026 07:00:00 GMT",
-            "text": "Real Madrid monitor Borussia Dortmund’s Felix Nmecha Get German Football News",
+            "text": "Real Madrid monitor Borussia Dortmund’s Felix Nmecha getfootballnewsgermany.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1201,10 +1201,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Bundesliga Predictions | Round 25 - Get German Football News",
+            "title": "Bundesliga Predictions | Round 25 - getfootballnewsgermany.com",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVl5NG9LM0FQNVJ4MlVVdTRkZzJ2UEtSVVBDRUdGWS1LR2pWX3ZMeFctZGJpMmJSWlZXSTNnRDh0YS1oV3pBSnNEZ00wMHJsdTduU0x1LXhrcjFhZmhGUDMyeXVpMTF6cmFhbGxRa1h2ZlU5U2E3X1p3c1h6Qld2NXJTSWM?oc=5",
             "published": "Fri, 08 Mar 2024 08:00:00 GMT",
-            "text": "Bundesliga Predictions | Round 25 Get German Football News",
+            "text": "Bundesliga Predictions | Round 25 getfootballnewsgermany.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1417,10 +1417,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Bundesliga 2026/27 biletleri nasıl alınır: Maç günü fikstürü, takım güncellemeleri, ortalama bilet fiyatları ve daha fazlası - Goal.com",
+            "title": "Bundesliga 2026/27 biletleri nasıl alınır: Maç günü fikstürü, takım güncellemeleri, ortalama bilet fiyatları ve daha fazlası - goal.com",
             "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOMWNlZTNMNlJOMHdWOXFQbGJRWWxLWHE1dXEwbTE3WFdWbDd4OGRIeURYSkhlbW1zellfRTZxR21hTmNNYUFSMlU5LUcwaXlraFZKLUFFZGFVc0piU0dhTl9oWjJnWm52d3Zwazd3M0lKQ1Q2TlVzdmVUNFRWVGtqanN5TXRpQlZLRmo4NjNLaUVEc2dqN3Q2VkdBTzVwRlYzVVctcDhWQlY4UGV0ZWRodmVNbmlVU0dsVTNuN0NtOE1xTkpoaXhMeXNuaF9zaXJKd19HM0ZtSnZ3OVNGVzdDRmprYTFERmVYRFZZWGxVVG0xN0YtMno2Xy1KMDBfNjY1ZE04ZlljamhJanNET2pqMmVwN1RsZw?oc=5",
             "published": "Tue, 22 Sep 2026 07:00:00 GMT",
-            "text": "Bundesliga 2026/27 biletleri nasıl alınır: Maç günü fikstürü, takım güncellemeleri, ortalama bilet fiyatları ve daha fazlası Goal.com",
+            "text": "Bundesliga 2026/27 biletleri nasıl alınır: Maç günü fikstürü, takım güncellemeleri, ortalama bilet fiyatları ve daha fazlası goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1435,10 +1435,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund 2026/27 biletleri nasıl alınır: Yaklaşan maçlar, Bundesliga fiyatları, kuralar ve daha fazlası - Goal.com",
+            "title": "Borussia Dortmund 2026/27 biletleri nasıl alınır: Yaklaşan maçlar, Bundesliga fiyatları, kuralar ve daha fazlası - goal.com",
             "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOUXBydW92SFpDeE9UTHMtRFNCcE9xckpWaUFxN2NpV294eV8zWWNIdm1yZlpHN005RHlWSWhJQ0hzNW1ZRlp0ZUNvaEhPdWJrVUQwbEI2ZDdzc2dJY3dZUHQ2SEVBSVI4V01PQWNYWWpFZTJRRkNmVUVnWmp6R080LTNNb1AwM2lURlR6ZUNQUkxNdXpCOHh1Tm10R1pWLWRFdkx4aTdiS21hTDRvVXNQbU5pVVhxN0VqTVU0UzJDWXhkczdqUUw2TDBVUVppaTN2MVJqekwyTUk4RWtwVXdSX3BId0lWRFlpQXUxbDd0WTJSMk1BaHFNckM1OUJReEFreGd6MDlkQjc4cXRGYzl6bUZPcVU?oc=5",
             "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-            "text": "Borussia Dortmund 2026/27 biletleri nasıl alınır: Yaklaşan maçlar, Bundesliga fiyatları, kuralar ve daha fazlası Goal.com",
+            "text": "Borussia Dortmund 2026/27 biletleri nasıl alınır: Yaklaşan maçlar, Bundesliga fiyatları, kuralar ve daha fazlası goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1800,10 +1800,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Lens, Liverpool ile oynayacağı Şampiyonlar Ligi maçı hazırlıklarını güçlendirmek amacıyla Ligue 1'in zirve mücadelesini ertelemek için PSG'nin teklifini reddetti - Goal.com",
+            "title": "Lens, Liverpool ile oynayacağı Şampiyonlar Ligi maçı hazırlıklarını güçlendirmek amacıyla Ligue 1'in zirve mücadelesini ertelemek için PSG'nin teklifini reddetti - goal.com",
             "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPZ3lSekFienFFZjJxQWxKVVJPOEdJaVpUdjFBWnBfdVpfcnBuemNsN1ZONW82UFd0QUsySWwzSDQ2Znl2MkJLcWVodTlCci1lSzRXYnhNaGtrVmFNX1ZMMklOWW5wRko5ZE1oQU1abGY5NG1CUUU0RkVucmJSeFhxd1FsSDNMc01sVlVuci1rMVcwUTJFWW9ZbVE5a3hCanEtckNyZWF3VEpDb1lfRGVPU1ZBV3NMN1JCOHZEVXkzWnBIYnFLQThWOEdYYlhOV1pDLVlvZU5GVnBuLWEwcFN5QXRGSms5aDNNdU1NdHFuS0JLQTN4d3hZbDIwek9vUVlCQ1ZHVko0YVdqcDVuYlNzRkM1cG5kV1k4Q2g0ZjVxVEJSU1FNbTFRRVpSOFdzbHFfRllyck1kQlhPbXozZ2pYQQ?oc=5",
             "published": "Wed, 25 Mar 2026 07:00:00 GMT",
-            "text": "Lens, Liverpool ile oynayacağı Şampiyonlar Ligi maçı hazırlıklarını güçlendirmek amacıyla Ligue 1'in zirve mücadelesini ertelemek için PSG'nin teklifini reddetti Goal.com",
+            "text": "Lens, Liverpool ile oynayacağı Şampiyonlar Ligi maçı hazırlıklarını güçlendirmek amacıyla Ligue 1'in zirve mücadelesini ertelemek için PSG'nin teklifini reddetti goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1886,10 +1886,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup - theScore",
+            "title": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup - thescore.com",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2dkVhN1RyQlU1R0NhUWpqWC11SVI1Ti1iamJkeVRTVXA4U1o3cEFfeXh2TjRIMGswMDJicUR5WkhYZ3ZzVHNhbTM3Rng1Q3lRaXVVempSMVNsRkM1cVNKbnd3?oc=5",
             "published": "Mon, 28 Sep 2026 18:32:00 GMT",
-            "text": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup theScore",
+            "text": "Gil Vicente FC vs Moreirense FC | October 9, 2026 | PPL Matchup thescore.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1949,10 +1949,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Liga Portugal 26/27 - transfermarkt.us",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UUpYRnZVNjBlUmJFWkk1emZyV0RXd2pGMWpad0FXN2pwSEhpSktDUGRZeUpCa2l4RzF1LXZaUzRySVIzNWJqdWtiSzRhNm1jYVZsZTBXRkRRNFdFdmpqdGRzUS1UaE1uR2t3cGVJXzRucGpIRXFZ?oc=5",
-            "published": "Sun, 20 Feb 2022 17:14:19 GMT",
-            "text": "Liga Portugal 26/27 transfermarkt.us",
+            "title": "FC Famalicão - Club profile 25/26 - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDdPZWpWM3p5LXU1eE0yczEwazZfOUVGem5Na2VrMlFwWXFKdFVYd3N6QjhUVkptZDFRcWthdndhcUxfaWEyOGFwVGtDeTRwcjNla0E0OHJmWnp5ZUVmUmZySWlvc3NHQmNQTVA3Z0xBczFNTWluX1ZYTk4tV2xmZ2tldzN6Zw?oc=5",
+            "published": "Mon, 23 Jun 2025 22:59:02 GMT",
+            "text": "FC Famalicão - Club profile 25/26 transfermarkt.us",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1962,6 +1962,15 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMXJ1NjB6a19CUW42NVRmbjhnNGZydzBFcVIwQjE2UkhxVGhqZ0pRVzAzVmtXaEVGM3NadV9rVFVCaWN2dHRINWJSWlNfMVhzUUI3YmJOWVpZU3ppSXVKNW0tS0l2dHh4ZHB6R3VLc2hWMWtfODRqZWo2OUdXRHVTb2h2NzJnX2NCeWc?oc=5",
             "published": "Thu, 16 May 2024 14:14:13 GMT",
             "text": "Gil Vicente FC - Club profile 24/25 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal 26/27 - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UUpYRnZVNjBlUmJFWkk1emZyV0RXd2pGMWpad0FXN2pwSEhpSktDUGRZeUpCa2l4RzF1LXZaUzRySVIzNWJqdWtiSzRhNm1jYVZsZTBXRkRRNFdFdmpqdGRzUS1UaE1uR2t3cGVJXzRucGpIRXFZ?oc=5",
+            "published": "Sun, 20 Feb 2022 17:14:19 GMT",
+            "text": "Liga Portugal 26/27 transfermarkt.us",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1980,15 +1989,6 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZVJScnFoemVVRG1pR1hqVXZKQm9RQVlvSC0xSVg1d0kyTXlpRkhoV1AyY3VQNTBjNmZlRjZ1QUZvNW1CYXU1T1ZQa3JhYXRxX0pwNDRoRVBHNi1UdFkxSmxKQ2pYajBOcmMzX2syM3J0STh2QW9obW5yMFhHT2tEQXA4d3J6aGpfTmFBSFU5amtaYkNtUVNRU0VodDhRV2NjWjY5MlQ1czlneXpoZUlnOUo5NjhuV1BXZTZrajBVeUQ?oc=5",
             "published": "Mon, 31 Mar 2025 07:00:00 GMT",
             "text": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Liga Portugal - Overview: Matchday 34 25/26 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaWpfdHB3aG50ZElqWjZlWkVMcGJHeDBMZVdmMUZXLThEbURkTHJ4RHVwaUg3YkEwUGxGa2xoSGZCNWw1X01zZmRTbUh2ZXdhVl9DS19faG52azJtNnZ1eXFIWXN1dkpMdC1PLXZ2bzctdHNYVm92VUozNHhnRnpFdExCQQ?oc=5",
-            "published": "Thu, 03 Jul 2025 00:24:16 GMT",
-            "text": "Liga Portugal - Overview: Matchday 34 25/26 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2377,10 +2377,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "The Resurrection of Bruma - breakingthelines.com",
+            "title": "The Resurrection of Bruma - Breaking The Lines",
             "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nNGNIcnFoWU1PY1R3UkhHSDhadFh6NVljdHpITUltcy12Zk00R1dGb0ZtZlduTnpDaEF0NGlnSkFwT0N1UE5STzQ4czJwRUZTOHNrcHctWU5rYnFQTTZTMWgzUmRvX0ZRd25R?oc=5",
             "published": "Mon, 09 Dec 2024 08:00:00 GMT",
-            "text": "The Resurrection of Bruma breakingthelines.com",
+            "text": "The Resurrection of Bruma Breaking The Lines",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2724,10 +2724,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "LaLiga özeti: Real Madrid, Barça üzerinde baskı kurmak için Malaga'yı ezip geçti - Goal.com",
+            "title": "LaLiga özeti: Real Madrid, Barça üzerinde baskı kurmak için Malaga'yı ezip geçti - goal.com",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0k4Y3lqUnAtblFmUXJpSEJ3NEtRWHFlZmp5czRERXVUeHJSaDYyQ1A5Q2pwZDZjZl9ONzNNRWdUUkZicFRHV3ZCYVIyX2M2alNUMGhRQ3RBS3lrU25wNkhzNkJpSjBQN1JYQlB2Z0dybXZLQ1U2UHY1d1JjdGpNMmhWWURhblVBSFNFb19ZMy1JU19Tc2hiaWFhWWx4QzV6RDlURnpkN2luZk1HQWxneF90aDJnMjdDMXdRcU5OMUlKMXlIUnFuVjBvLUNoc3Mw?oc=5",
             "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-            "text": "LaLiga özeti: Real Madrid, Barça üzerinde baskı kurmak için Malaga'yı ezip geçti Goal.com",
+            "text": "LaLiga özeti: Real Madrid, Barça üzerinde baskı kurmak için Malaga'yı ezip geçti goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
