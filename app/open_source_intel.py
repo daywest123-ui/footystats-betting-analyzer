@@ -71,10 +71,21 @@ def _extract_match(row: dict[str, Any], team_name: str) -> dict[str, Any] | None
         return None
     home = str(row.get("home_team", ""))
     away = str(row.get("away_team", ""))
-    is_home = home.lower() == team_name.lower()
-    if not is_home and away.lower() != team_name.lower():
-        # Team-name aliases are common; the caller already selected this team's history.
+    def _key(value: str) -> str:
+        import re
+        value = value.lower().replace("&", "and")
+        value = re.sub(r"\\b(fc|f\\.c\\.|cf|c\\.f\\.|sc|s\\.c\\.)\\b", "", value)
+        return re.sub(r"[^a-z0-9]+", "", value)
+    target = _key(team_name)
+    home_key, away_key = _key(home), _key(away)
+    if target == home_key:
         is_home = True
+    elif target == away_key:
+        is_home = False
+    else:
+        # Never guess the venue side. An ambiguous alias is excluded because
+        # silently flipping home/away contaminates HT/FT and exact-score rates.
+        return None
     return {
         "home": home, "away": away, "hg": int(hg), "ag": int(ag),
         "h1": int(h1), "a1": int(a1), "team_home": is_home,
@@ -135,6 +146,12 @@ def analyze_match(home: str, away: str, recent_limit: int = 30) -> dict[str, Any
     # Recent team evidence: use the requested outcome only when both teams have
     # enough observations. H2H is a secondary component, never the sole signal.
     hr, ar, h2hr = _rates(hrows), _rates(arows), _rates(h2h_rows)
+    # Venue splits are diagnostics for later weighting; they are not mixed into
+    # the core probability a second time.
+    home_venue = [r for r in hrows if r.get("team_home")]
+    away_venue = [r for r in arows if not r.get("team_home")]
+    venue_rates = {"home_team_home_venue": _rates(home_venue),
+                   "away_team_away_venue": _rates(away_venue)}
     opportunities = []
     if min(hr.get("sample", 0), ar.get("sample", 0)) >= 12:
         for outcome in SPECIAL_OUTCOMES:
@@ -165,10 +182,13 @@ def analyze_match(home: str, away: str, recent_limit: int = 30) -> dict[str, Any
         "home_team_id": hid, "away_team_id": aid,
         "home_recent": hr, "away_recent": ar,
         "h2h": h2hr,
+        "venue_splits": venue_rates,
         "opportunities": opportunities[:10],
         "notes": [
             "Historical HT/FT rates come from DataFC/Sofascore match histories.",
             "H2H is secondary evidence and is down-weighted to 15%.",
+            "Venue splits are reported separately and are not double-counted in the core probability.",
+            "Ambiguous team aliases are excluded rather than assigned a guessed home/away side.",
             "No bookmaker price is fabricated; fair_odds = 1/model_probability.",
         ],
     }
