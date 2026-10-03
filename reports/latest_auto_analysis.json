@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:18:55.595775+03:00",
+  "generated_at": "2026-10-03T13:34:15.185841+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -442,10 +442,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRRbmtvTmdfazJ0aHA4V1doeUpCb0tDVzN3ZEhXTU9vMDVMNzN5cERfbEpSNXBncldmd0I1RHZkUThNWnhQeHJJN3MzZVhhM09rMC1PN1d2U3NoLXhob3BVVHNuVXIyMWx6cTZEaHY5R2ZyQTViUmt4UmwtMTlYUHpnb0hTR1c0YjYtZ0FxX3YwOVIwY3lFZ3MxcVZjVG1OTEdheVA2UGp1QVBCR1Rpaml5Y3pSNk1WejRIWHVNWUxZYTVmaVVOUWJrQXQtR2dsdUR5RDBn?oc=5",
-            "published": "Sun, 03 May 2026 07:00:00 GMT",
-            "text": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor Goal.com",
+            "title": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXFFeGkwc2JhU1VFMkN0WkFiRHRpVmtTY2w0SFdyU1NFNmZMWXk1VFdNVnBNb2F3NzVsRkJIaHFqblZmMmtCbE9tUTFyakFDYXNub2dtUk8yZzhSeEFUQ3RXTUl4ZGdLNHc0bGFhR3FJV2t3U19zRWVHVDVDX2JFUUI3enVxM0owUjNJcUNCX3FlZU5HaFRCRml5eXZ3elJMVV9oQWlmbzZCYjBZVGR4T3dEWHlWaVNPM29BV29fbGVndw?oc=5",
+            "published": "Sun, 23 Aug 2026 07:00:00 GMT",
+            "text": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı Goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -469,10 +469,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXFFeGkwc2JhU1VFMkN0WkFiRHRpVmtTY2w0SFdyU1NFNmZMWXk1VFdNVnBNb2F3NzVsRkJIaHFqblZmMmtCbE9tUTFyakFDYXNub2dtUk8yZzhSeEFUQ3RXTUl4ZGdLNHc0bGFhR3FJV2t3U19zRWVHVDVDX2JFUUI3enVxM0owUjNJcUNCX3FlZU5HaFRCRml5eXZ3elJMVV9oQWlmbzZCYjBZVGR4T3dEWHlWaVNPM29BV29fbGVndw?oc=5",
-            "published": "Sun, 23 Aug 2026 07:00:00 GMT",
-            "text": "PSV, Driouech’in 8 milyon avroluk transferi konusunda anlaşmaya vardı Goal.com",
+            "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRRbmtvTmdfazJ0aHA4V1doeUpCb0tDVzN3ZEhXTU9vMDVMNzN5cERfbEpSNXBncldmd0I1RHZkUThNWnhQeHJJN3MzZVhhM09rMC1PN1d2U3NoLXhob3BVVHNuVXIyMWx6cTZEaHY5R2ZyQTViUmt4UmwtMTlYUHpnb0hTR1c0YjYtZ0FxX3YwOVIwY3lFZ3MxcVZjVG1OTEdheVA2UGp1QVBCR1Rpaml5Y3pSNk1WejRIWHVNWUxZYTVmaVVOUWJrQXQtR2dsdUR5RDBn?oc=5",
+            "published": "Sun, 03 May 2026 07:00:00 GMT",
+            "text": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor Goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1683,10 +1683,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Rayan Cherki Price Tag Revealed! - BVB Buzz",
+            "title": "Rayan Cherki Price Tag Revealed! - bvbbuzz.com",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54bXMwYkdMQVFWRldjM1FLZWVmMnpma0FXWmp6ckR4eXY0dHJ3bG9TejdiTGFqcU0zMVdPNlNDYk9GLUlsdDQtWlRWal84eXMySU5vSDNPSW4td0FfUGUxS2VuVHJ3ZXMwY2x1cERlQjZ5Zw?oc=5",
             "published": "Wed, 21 May 2025 07:00:00 GMT",
-            "text": "Rayan Cherki Price Tag Revealed! BVB Buzz",
+            "text": "Rayan Cherki Price Tag Revealed! bvbbuzz.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2192,6 +2192,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "FC Pedras Rubras - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWko2SVNMbzFka0p2dmpCd2dpckhTX1RiTWxENVlvcl9iVlE4OXVoZ3ZGT3ZCbXpaUnl2MEpWSV95el9EaE1OSzNULTVyeVBBb0JBZ0s2Sk5UaGhHa1pMRnFOcm1vZGE3VDVEOGN0OVlWbk4wenRfRVNHZzRKVWxGNU1oeDRXSFVGTFE?oc=5",
+            "published": "Fri, 02 Oct 2026 11:31:16 GMT",
+            "text": "FC Pedras Rubras Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Moreirense FC - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZGllWEJpTGJhNGhncm0xSTFlRXI5NTUxWFU1aUJnYUFvS1RwZHNKUV9rb1RXTVZPOXV4TllfR1E3emdGZTVIb0lHdThmalY4S1lOUHE5UXE4WW5YeEgzR0d0Z19JUHJta0o2YkxNR3l2WUdpQ19kOXplMzREOWhBRFF0b1c?oc=5",
             "published": "Fri, 22 Nov 2024 23:20:59 GMT",
@@ -2219,10 +2228,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "SC Braga - Fikstür 25/26 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5sRVRCOTRyQmRzRXBZXzVhZnBXblNKd0R6ME55NVVSSlJaSkVxcDI0M0xxMUZMaU5PY3cxNnZYeU55UzU0LVdwRFBaSUtZSXBGUUQzckIySHZiSDhhbGN6NGpVYTByRzNKRnVobGswY1IzWEUyN24xNVl3OVYycEhyUGk?oc=5",
-            "published": "Fri, 04 Jul 2025 16:07:33 GMT",
-            "text": "SC Braga - Fikstür 25/26 Transfermarkt",
+            "title": "FC Arouca - Académico Viseu FC, 25 Nis 2027 - Liga Portugal - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OQVVtTTR4a19Fak9pUmRrZlg2aHZlaU1hd1BQaVAyZU5DajU2LUhEUm5oaGp5UFREUm1kcng3eVE2VkNYODRDQ0swU3ZhTzNFU0gwc3E5RENFRTZRWVVYWmR3dmU5Tm9scHYwY3VSQkUzaDZvVmpNNUVn?oc=5",
+            "published": "Mon, 07 Sep 2026 14:28:27 GMT",
+            "text": "FC Arouca - Académico Viseu FC, 25 Nis 2027 - Liga Portugal - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -2237,10 +2246,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "FC Arouca - Académico Viseu FC, 25 Nis 2027 - Liga Portugal - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OQVVtTTR4a19Fak9pUmRrZlg2aHZlaU1hd1BQaVAyZU5DajU2LUhEUm5oaGp5UFREUm1kcng3eVE2VkNYODRDQ0swU3ZhTzNFU0gwc3E5RENFRTZRWVVYWmR3dmU5Tm9scHYwY3VSQkUzaDZvVmpNNUVn?oc=5",
-            "published": "Mon, 07 Sep 2026 14:28:27 GMT",
-            "text": "FC Arouca - Académico Viseu FC, 25 Nis 2027 - Liga Portugal - Maç raporu Transfermarkt",
+            "title": "SC Braga - Fikstür 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5sRVRCOTRyQmRzRXBZXzVhZnBXblNKd0R6ME55NVVSSlJaSkVxcDI0M0xxMUZMaU5PY3cxNnZYeU55UzU0LVdwRFBaSUtZSXBGUUQzckIySHZiSDhhbGN6NGpVYTByRzNKRnVobGswY1IzWEUyN24xNVl3OVYycEhyUGk?oc=5",
+            "published": "Fri, 04 Jul 2025 16:07:33 GMT",
+            "text": "SC Braga - Fikstür 25/26 Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -2250,15 +2259,6 @@
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jUjUwMUhOMnZnTkVPVm9hMm5pV21UcllmY0ZPN0Y2MVRmRzVpV2RwbEdtM1VLQ0hBSjdKM3FFZnVNbERzXzUzYWlyNkI3VG1BSF9Rbkh1S2d1OHZVeFBUOFNnZHZ5S0JTR0lUd3VocngwNHRGZ2hYOS1nSF8?oc=5",
             "published": "Sat, 05 Sep 2026 19:32:04 GMT",
             "text": "CF Estrela Amadora - Rio Ave FC, 21 Şub 2027 - Liga Portugal - Maç raporu Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Porto - Fikstür 25/26 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHgxbGNmWWRtTTFoVVpINGlPV01RNmRwaERxMWJ0Z1cyMVFKQVZPaFVzemtIdEdwRVBVUE55WnBVcVBqRURKbjQ5anhhTTNVTGdiRDMxaFpWcXlHenFQNXc0MlRrNWEyTzFMVjU0TzFYemgtd1N4TUlwWFF5QUVkX0FRVQ?oc=5",
-            "published": "Fri, 04 Jul 2025 17:01:06 GMT",
-            "text": "FC Porto - Fikstür 25/26 Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -2589,10 +2589,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Levante UD vs. Espanyol Barcelona - August 16, 2026 - Bleacher Report",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tQWFGcXhoT1JRaDgyU0g4MENXQ3VUWWRSa3VLOEtGTHRZclNhZUhvM1JCWF9LNGl3UXE1eFp1M202aW5taVhXdDliS3drdVlDRm42OUMxZW9sWHhBejFxajVKejNGRzRDRm1tTEw3ZldEbjdRd2NVbUJzcw?oc=5",
-            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
-            "text": "Levante UD vs. Espanyol Barcelona - August 16, 2026 Bleacher Report",
+            "title": "Elche CF vs. Espanyol Barcelona - September 20, 2026 - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pY0YyQUkxSHl4b1NFWUVSTXUydFFrOU9CVWRDbmtBVFNLUDR6d1o4NlVsQ0FMWExvQVpDaWNwdXNMMjM0VUF6OEJkUjBMQUx3UHVEV29mc0lXZG4zQ3VvanpIS1VEOEJYQllKVkZXWjZ2d0daVDJHXy1hd3g?oc=5",
+            "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+            "text": "Elche CF vs. Espanyol Barcelona - September 20, 2026 Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
