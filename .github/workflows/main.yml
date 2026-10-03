@@ -1,4 +1,5 @@
 name: Open Data Football Analyzer
+# CI trigger: validate external-source integration after dependency/test fixes.
 
 on:
   workflow_dispatch:

@@ -10,6 +10,7 @@ from app.footystats_parser import parse_snapshot
 from app.four_engine_fusion import fuse_market
 from app.coupon_engine_v5 import build_candidates,build_coupon,MARKETS
 from app.open_source_intel import analyze_match as analyze_open_source_match
+from app.external_prediction_sources import analyze_match as analyze_external_sources
 
 LOCAL_TZ=ZoneInfo("Europe/Istanbul")
 
@@ -50,6 +51,18 @@ def run(snapshot_path="data/footystats_snapshot.json"):
         fusion={m:fuse_market(m,footystats=fs,home_form=hf,away_form=af,dixon_coles=dc)
                 for m in MARKETS if m in odds}
         enriched.append({**fixture,"odds":odds,"footystats":fs,"fusion":fusion})
+    # Free external prediction layer. Evidence-only: explicit source picks are
+    # recorded for cross-checking and learning; no probabilities are fabricated.
+    for item in enriched:
+        try:
+            item["external_prediction_sources"] = analyze_external_sources(
+                item["home"], item["away"]
+            )
+        except Exception as exc:
+            item["external_prediction_sources"] = {
+                "status": "ERROR", "sources": [], "consensus": [],
+                "error": f"{type(exc).__name__}: {exc}",
+            }
     candidates=build_candidates(enriched); coupon=build_coupon(candidates)
     # Separate high-odds opportunity layer: HT/FT and first/second-half patterns.
     # It never forces a coupon leg and never invents bookmaker prices.
@@ -72,11 +85,17 @@ def run(snapshot_path="data/footystats_snapshot.json"):
             "candidate_markets":sorted({x["market"] for x in candidates}),
             "coupon":coupon,
             "open_source_special_opportunities": special[:20],
+            "external_prediction_sources": {
+                f"{item['home']} - {item['away']}": item.get("external_prediction_sources", {})
+                for item in enriched
+            },
             "notes":["FootyStats prices supplement concrete football-data prices.",
                      "No probability is fabricated when required data is unavailable.",
                      "One selection per fixture with market-family diversification.",
                      "No leg is forced when value, quality or consensus gates fail.",
                      "DataFC/Sofascore supplies a separate historical HT/FT opportunity layer; H2H is secondary evidence.",
+                     "StatsBet, PitchDeep, xGaura, Predictions Footy and Kings Odds are queried as external evidence sources; only explicit match-level tips are recorded.",
+                     "External source failures are neutral and never count as negative evidence or force a selection.",
                      "Probabilities are estimates, not guarantees."]}
     out=Path("reports");out.mkdir(exist_ok=True)
     (out/"latest_four_engine_coupon.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
