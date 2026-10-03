@@ -41,7 +41,6 @@ def _strip_html(html: str) -> str:
 def _team_tokens(name: str) -> list[str]:
     n = _norm(name)
     return [n, n.replace("fc", ""), n.replace("women", ""), n.replace("united", "")]
-    
 def _contains_match(text: str, home: str, away: str) -> bool:
     n = _norm(text)
     h = [x for x in _team_tokens(home) if len(x) >= 5]
