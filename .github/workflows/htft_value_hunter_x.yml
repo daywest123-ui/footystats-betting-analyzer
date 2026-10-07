@@ -1,0 +1,26 @@
+name: HTFT Value Hunter data update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 5 * * *"
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Football-Data 2026/27
+        run: |
+          mkdir -p htft_value_hunter_x/data/raw
+          curl -L --fail -o htft_value_hunter_x/data/raw/E0_2627.csv https://www.football-data.co.uk/mmz4281/2627/E0.csv
+      - name: Fetch OpenFootball 2026/27
+        run: |
+          curl -L --fail -o htft_value_hunter_x/data/raw/openfootball_en1_2627.json https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/en.1.json
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add htft_value_hunter_x/data/raw
+          git diff --cached --quiet || git commit -m "chore: update HT/FT data"
+          git push
