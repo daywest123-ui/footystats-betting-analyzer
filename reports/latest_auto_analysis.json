@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T10:52:14.311728+03:00",
+  "generated_at": "2026-10-08T10:55:04.848299+03:00",
   "run_status": "OK",
-  "decision_status": "NO_BET",
+  "decision_status": "BET_CANDIDATES",
   "data_sources": [
     "openfootball/football.json",
     "football-data.co.uk downloadable odds",
@@ -13,10 +13,2189 @@
     "bounded web intelligence"
   ],
   "fixtures_scanned": 7,
-  "matches_with_odds": 0,
-  "eligible_matches": 0,
+  "matches_with_odds": 4,
+  "eligible_matches": 2,
   "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. Full market layer covers MS 1/X/2, İY 1/X/2, KG VAR/YOK, ÜST/ALT 2.5, KG VAR+ÜST 2.5, Korner ÜST/ALT 8.5 and Kart ÜST/ALT 4.5. Probabilities are estimates, fair odds are 1/p, and value decisions require concrete bookmaker odds.",
-  "top_matches": [],
+  "top_matches": [
+    {
+      "home": "PSV",
+      "away": "SC Heerenveen",
+      "league": "Netherlands Eredivisie",
+      "fixture_date": "2026-10-09",
+      "fixture_id": "PSV||SC Heerenveen||2026-10-09",
+      "source": "openfootball/football.json",
+      "data_quality": {
+        "min_recent_matches": 7,
+        "status": "MEDIUM_SAMPLE"
+      },
+      "form": {
+        "home": {
+          "matches": 7,
+          "points_per_game": 2.2857142857142856,
+          "goal_diff_per_game": 2.0,
+          "goals_for_per_game": 3.4285714285714284,
+          "goals_against_per_game": 1.4285714285714286,
+          "over25_rate": 1.0,
+          "btts_rate": 1.0,
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
+        },
+        "away": {
+          "matches": 8,
+          "points_per_game": 0.75,
+          "goal_diff_per_game": -0.25,
+          "goals_for_per_game": 1.5,
+          "goals_against_per_game": 1.75,
+          "over25_rate": 0.625,
+          "btts_rate": 0.5,
+          "ht_home_rate": 0.4,
+          "ht_draw_rate": 0.6,
+          "ht_away_rate": 0.0,
+          "corners_over8_5_rate": 0.6,
+          "cards_over4_5_rate": 0.0,
+          "corner_samples": 5,
+          "card_samples": 5,
+          "source": "openfootball+football-data.co.uk"
+        }
+      },
+      "intelligence": {
+        "mentions": 54,
+        "web_score": -0.0556,
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
+        ],
+        "risk_flags": [
+          "multiple_injury_or_suspension_mentions"
+        ],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs. SC Heerenveen - Live Score - October 09, 2026 - FOX Sports",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcmVrX0VmbnR0V1Jkb3M0Vi1OaTFTSVhoNEwzOHhDdEhWY2RjQjlEbHExblpicUk0X2FkaDJqcjlfUVFCU3ZkTXlkREhTc1E3RFdFSkZ6SXRPSEVOWGIwS0E3TGpZMVpza2FCSTdTRUJHX2xrRlgxOExJYnFHQmZZaVQ5TWhDLXVkVWVIWUJyM0NhcE9TSkEycU1SVm8tdzBjdndlUC1RejIwNjA?oc=5",
+            "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+            "text": "PSV Eindhoven vs. SC Heerenveen - Live Score - October 09, 2026 FOX Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Heerenveen vs. PSV: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkpMa3ZrY2doQWQzM1VPLU10RVd1OGl3VjJsUHFqWHo4RUgtdnBlQlFvSE1LdXRJRENFV2IzWVduMXNmcTRaLVY3MjRFckZCSktfSnMtNUJzWFJyU01MUERIN1NuOV9NU3Z0ZVg5dTJxUW01cjQ0bTVEdUxYZ2x5d0NWREg?oc=5",
+            "published": "Wed, 30 Sep 2026 04:28:46 GMT",
+            "text": "Heerenveen vs. PSV: Live game updates, stats, play-by-play Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How to watch today's PSV Eindhoven vs SC Heerenveen Eredivisie game: Live stream, TV channel, and start time - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkVRWW5INWNIRC1JdlkyQlI2WHg1Z1F5dVlLM0hKenVuZ0VhR2VyOGhVSHFBckNkUFpkZEhOaHQ2alZuWkFMM0h2T015cUxBVkFVY0hDZzlvS3NhakhtVTRhWTFkaGIxWmotUGF5UmZDYjFOUXFveVpKak9hOVc5ckFMOFVIbk1NWTBZZF9YR2RMdnZ0VkhHXzE0UmVMM0E?oc=5",
+            "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+            "text": "How to watch today's PSV Eindhoven vs SC Heerenveen Eredivisie game: Live stream, TV channel, and start time Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Featured | From 2018 to now: PSV - sc Heerenveen - PSV",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTEpNNmROdWFKa3BHVW1SblhVSVRCbGllVE9CT0l3R0hfSVJCZ2hDVnFsR2dYa24wWFhTWVdQVENTWXVvR2Z3VVJrWnhZb01JLWROM080SlNuX2gwSHhmUFlHaFl0OEVNSzdCQy1Vc0JvNzlRa2lEWG1jLU5aM2l2UFQ4Q3kzdw?oc=5",
+            "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+            "text": "Featured | From 2018 to now: PSV - sc Heerenveen PSV",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven 4 - 1 Heerenveen (02/04) - Match Report - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeVdzOFRodkVBeklvUTUtaTdBaWJEdURmWndiZ2Fad1lRWmVaZDI0TFJ3Q25UV0ZyeDFlNGUzbTNrejhqclkzdXlSSTJEYmo3X2NIb1FNck5OdzNRZExHdWV4SF9ha3FhOUlfbUVXSENkYkRRV242TWlXaUwtaFQzam11V2psYlpVSTN4VzdHUEJSQQ?oc=5",
+            "published": "Fri, 16 Jan 2026 20:42:24 GMT",
+            "text": "PSV Eindhoven 4 - 1 Heerenveen (02/04) - Match Report 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Dutch KNVB Beker roundup: PSV through to semis, holders Go Ahead Eagles knocked out - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQUxPcGViQkF2WmpBUzhnS3Z1S2ZFSkJ2TU45b2IzM2QwNGE4NFZyRVBUTUNwaEZ6SU95czhSMkJGREk1QS1iZHJ1VW8wY0ZSRWFSZEZlaFdFQ09HNl9nb3FVRGZKc1k4X2xNRERaU19tc0JfZ2VKRkk4Zm5BTzdhS3BxMzdrX3E5d1pCUkhMRjRLaXVhdTZGUmZMOGJaYW1ld2lwRWUwZjY5NVNpQlR4eG1sMVZyQ0dPbjI2eTkza3NDdjBXMHozRXhkM0pBUDZVOGJCa3dLTHM?oc=5",
+            "published": "Thu, 05 Feb 2026 08:00:00 GMT",
+            "text": "Dutch KNVB Beker roundup: PSV through to semis, holders Go Ahead Eagles knocked out Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV vs. Heerenveen: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObE9xeWRoektWaFFsYTYtTV9vVlZPTmpjVmhWcjhYbkFmXy1VSUpab2xEUW9WNTNjVjgwQjZBUGR1ZUtwMlFCd1JSaUFrdFphYmsxbkZtb0VSZ1RjMllURWQwbmlwN29PX01QOUpDVS1EM0JsZkM2bm5yNHl2S2VuaG10RU0?oc=5",
+            "published": "Fri, 18 Sep 2026 06:30:45 GMT",
+            "text": "PSV vs. Heerenveen: Live game updates, stats, play-by-play Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Press conference | Pepi, Saibari and Kovar possibly deployable against sc Heerenveen - PSV",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU3U3TVVsTVhNYzBxRFA2NFI4MW9QZjRKSndWR09KUVVEWTAtWmZETEZwRXpLVEhFeEtQdGNGM0toV3JWbi0wR2pQU0MyLUs4c01JcTBnc3I0ZGlhUUZyeGZVM1UwZXdDYnRQNGo1SXBTVVk1TExWd0VyTnJ0ZmNxelFSRHZ1VjVTVTVnUkk5Z3NCS1BTaHpLWVpKbXQ4SlR5S0ZtbVFEazB6NnNuUWhBN3lVMW4tRFI3OEE?oc=5",
+            "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+            "text": "Press conference | Pepi, Saibari and Kovar possibly deployable against sc Heerenveen PSV",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "KNVB Beker draw: Ajax and PSV to play amateurs, Feyenoord host Heerenveen - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcm5tZHFhejI2c3dYeExPaS1vRDNuM3NfWFNNUG5xczFLQVUzdjlueTZzMjVCeXdwRW5sUkZYTzdPR2lMdGJuSTBvSmFZcm9CUnJpSnplRkZ0aDVnckdnakxtb2pxVGhWYWNFUTQxenBjNUc5aHplLUhEYUhWZVhsLTNnUEd1X2h0Z1lRS2d5NFJkc2g2SFFrWmUwSVhsYUljazMyM3h5dk5sdkU2Q2NPX19WUFp5WGpfUjB2RXdhSHFCV2lGUFZKeVRqaw?oc=5",
+            "published": "Sat, 01 Nov 2025 07:00:00 GMT",
+            "text": "KNVB Beker draw: Ajax and PSV to play amateurs, Feyenoord host Heerenveen Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs SC Heerenveen - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4NjV3TnZGbUJhdGxsYnFyZUdBTEhnZkxqMEs5R19hb0Yzc1B0MW5SR3U5WDJGa25YUTNGR3F3YkttTVM0bHZmaFVyNGZrUE85VHRVZ3hkZk1FdkJIamRNa0NCb0p1SFBsYXJZZnl0aTNOS0FsTEJkUHVlWEpRR0U?oc=5",
+            "published": "Sat, 04 Nov 2023 19:04:43 GMT",
+            "text": "PSV Eindhoven vs SC Heerenveen - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZHJjWGdmalhJWi00SzhWdFF0M3pMNW1mUlVjRUwwM0cydjlmRVdIRGlpbmRNbnlIVjZpV0RmbVRvQ2ZLN2JXX1ZHdlJ6SGxvMk96b3RYcS1WNzZGY0d3Y01iTHJYczE5VnB0V2FzcG5UZVV1c1NIV0wwU2lPZW16ZVJpNE1YNzhUak9ha3NBVFpZQUF4UEN1akdhaDM?oc=5",
+            "published": "Wed, 06 Mar 2024 09:37:15 GMT",
+            "text": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV are handed their second 1-0 loss in a week by Heerenveen - NL Times",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLdWhjek8yYklTY0ZtWm4xamlrWl9Fd2tTSEtkYnNXV1owTmRiS1BmQXBJY0hIbU5jeDBqakN3Q2c1QWdVT2xCX0d2OEw0WVVaUjBTbGhFdXNjTjhBR2JYNXRYTDdicUZhTjFRdFpjdWRvZmQzTEU3d21oYTk?oc=5",
+            "published": "Sat, 14 Dec 2024 08:00:00 GMT",
+            "text": "PSV are handed their second 1-0 loss in a week by Heerenveen NL Times",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "USMNT’s Ricardo Pepi scores stunning stoppage-time goal in injury return for PSV - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSDE1bGtBYThtbDZ4Z1RoOWdpZHhLTmJGRVdDREVram91d3RxVnB6QUFZLS1pd014Rm5PWTVQaTE5OURqNGo4dnhsa0ZuWE1mQXVQck16aUJxaUlUZWFRUHpUbkpiQ2VLOE54Wm9sazhWRGVuS1VWcnp6LWFYczVIdHNGR1I0UkVMMHpwOFdORFFqd25lRGxZa1pYZGRtMEVucWV2MUdzbmFxVW5lRnk0aWNaU2dUb0s5azBBZmxMVkNEUWZVUThkSU1DZWMtZTF3bUN1dzVFaDBWbDlnZVE?oc=5",
+            "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+            "text": "USMNT’s Ricardo Pepi scores stunning stoppage-time goal in injury return for PSV Goal.com",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven - Sc Heerenveen prediction & tips 09.10.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMF9pWWcySGh0Zjd5M1lEWl9Dak1GamNuU0hMb1JzWlduWTlmdGRlRjVoMEdxWVE3TU9XQk1sb3R5Y0hCYmExd3pXazdkQUdEZXhFVWdEclNmbElQZkxhekFLNEJrcW51b2lGY2pZVXpITXFyTGxzN25WOGw0elVwZFJzNlBJTm05NGpKRVB0ZVkyb1VJbFgxZzJmcVE?oc=5",
+            "published": "Wed, 07 Oct 2026 17:00:57 GMT",
+            "text": "PSV Eindhoven - Sc Heerenveen prediction & tips 09.10.2026 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LcXBlZ1ZzOWtvaWpudkhlaE1RZUhsaThSZFdTR2dZbElIOVIxZUJlNzM4enFqQlctdlFpcmRzLUJCbzgza0swZEpLM0pDczNNVlBJOTB3VkZ6OFI1TGp3YU5qbGU1M0wxTkwybg?oc=5",
+            "published": "Sat, 04 Nov 2023 10:52:06 GMT",
+            "text": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Legend Makes Ruben van Bommel Prediction as Premier League Transfer Interest Looms - roundtable.io",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcTdHTzZHQ21oQjNBbGM0ZEVPVDE3Z0FKM3VBNXFUeXZUc1dHZC1KRGJWZDh5UmlYeHFIOWtJNF9sbmRJd3pncHltT0ZwN2dIcG4yNm1QZHdMbzJyRlRoZGhhS01jUmJhMWZwajhZTWd0Z2c4UDdNdXVqRmtOQ0UyRkJaaHhLbHNTUHlXNHg1NHpqWTh3WjZLamRGVkNTUmU1dUpWa1Fibmo3RGJmWlk3Z0RCR2tQN1JOOFlEdEw4dzdjdzRldlpJUWpBOElVU0RYSDlDYWRUUU9KZWVGYmc?oc=5",
+            "published": "Thu, 08 Oct 2026 07:24:48 GMT",
+            "text": "PSV Legend Makes Ruben van Bommel Prediction as Premier League Transfer Interest Looms roundtable.io",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Season preview PSV 2026/27: Bosz chases title number four, but has another mission too - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUU83NWF0UVZNa0U5V0g5SzRkZmNLNzRsTDlLQ3pvc29veE5sbEg1VnlQZUV4WGVEYlp0c0RKTGdTQ3VmWWw1Y25vaGdGRl8tUEhCSm9mai1jeC1uRm94WnA0cVJYXzY4MDQ5VDc4cjRhMlZqRUw2eldGcWJLX2ZxaFVodVVPSTlRQjZkczhNRW5IUENUYUtZaWYyR2FRbDNwLVp3WVYzd28yN0F5X1lodEdmYUhEMzRFMnBjbWVYSF8zT2pxTXlfSzBiTVExX1RQSnc?oc=5",
+            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+            "text": "Season preview PSV 2026/27: Bosz chases title number four, but has another mission too Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs Royal Antwerp - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zZmFDOTZLdkpwMDhIV3hCblNVLWpsaGJFbjdWeG1OajBxRlNsS0RqMkpOWHhZSGV2eXE0VlVmRGQ3clpHSFFwMWwxREZGY0JaRVF2Smpyb19SWTVPaGtDUVluY3k3eFBXemhtTDVNWVROVHlCT3Nv?oc=5",
+            "published": "Sat, 04 Jul 2026 07:00:00 GMT",
+            "text": "PSV Eindhoven vs Royal Antwerp - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "This will be the full Eredivisie table according to the Voetbalzone editorial team - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPME1kdG10ZXdWbE9YeS1kY2NyN1E0YnhYc19XeURDSndXVlAxbjNhd2pDM0NXT3ZUMUpyWG9uanZCaUUxeHVtbzM1d1h2QS0zd0pNUmpUeG90UFExcDMtaFNDQW1DOVZnZ3BIcHhzQkNOQk1FM3hYa3dkMndwRy11ekhOeUZRdURKWEQzS0FSNF9OSE5pVG5mMGxIdkdPYVgwV0d3cm9VN1VvemRuQXlzNklEQ09zaElHcGRreW1MYWhvWHAtRHRselF6Nkgydkd6?oc=5",
+            "published": "Sat, 08 Aug 2026 07:00:00 GMT",
+            "text": "This will be the full Eredivisie table according to the Voetbalzone editorial team Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Heerenveen vs Ajax: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSzZmR3N0TzZPUV9RMmlUNkhkWFVNNFFVd1BxdU5DTFpJTEFqWE5DeWhOWGNlSVk2Zk45MmQ0ejcyR1E2anIta2RUMWdhUERsYnJNYUViVlY3emV5TUFBMlNpREVDT2V2eFhNU0xWcXVKZWN5MUhkRGJ5ZC1XREREWllGSkNIa1FzYWdld200VFo?oc=5",
+            "published": "Tue, 05 Mar 2024 04:01:41 GMT",
+            "text": "Heerenveen vs Ajax: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DMXRmcy1Ock53NGRoUkR2WlNrdjR2LVdabHhkS1pCLTdHYkxFOUJtY04zNFNkUElqRGFxbWJWU21fSWdWR0I2T3psWVlLNElnOEhZR0FEdE5YUU5oeWxUdGhBUnlKdEI1UE0ycS04VEplUQ?oc=5",
+            "published": "Fri, 20 Oct 2023 08:02:41 GMT",
+            "text": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs SC Heerenveen prediction and betting tips 09 Оctober 2026 - Dailysports",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanpQVTBiVEd6TVg3bjROX1c4ZnBsc1dtUEdRZGY0eGtPNWZZVW5Xc2RCN1RtWDhWNUpZNnBBYmJQZUVZRmtFRUNtYXUtMmctQ2ppdG1UUl9TcUtNNjZOeFZKZUZDMVNtMHc1M0E0UUFmczA4bHZSLUdJUGNaRkR0bWdOR21FTVl3UXhOUDlXeWh6WXpVdVFxMlU2dnlVbG8tSHpCSWhuRm55T0NaTDV6cmhEV19ZdlZBV3czQWpjaw?oc=5",
+            "published": "Thu, 08 Oct 2026 05:00:41 GMT",
+            "text": "PSV Eindhoven vs SC Heerenveen prediction and betting tips 09 Оctober 2026 Dailysports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Heerenveen VS Excelsior: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVhMaWNjVGFXQVRialhGai1oTjBUM2tvdGFZY0pHWG9ZUzg5RGM0eVRrNGM3OVRndl9zSTdKVzlCaU5XMVBqNGR4T00tbFI1Nm5UNUFrWFpPVUtERnEtUDQ1bG9UODV2UXJQSW5xVmtjWTRiNkVFUFQtUS1sM0x3VWxROXNKLV9wZk1HMVJUQQ?oc=5",
+            "published": "Sat, 09 Mar 2024 02:00:10 GMT",
+            "text": "Heerenveen VS Excelsior: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV suffer first loss of Eredivisie season against Heerenveen - India.com",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDBMWjRpTEJLbnJxN3k1QnVFd3hVa0ExR3lJblR5a0UxRVI0ZXFGNEdlSmwwSjRIcy1wOWstNGFwQTZBRFU4MkpHTHQzQVlpYnJDQTd1aTZrUml2eGRtRmNZaEFlcWV1XzZzbUZ6TXlLalUtdkdrLWdjVERscV93MVZQTmdlQlpDM3hqMFdfNTJwUzBGMUp3dXc2YWxZd9IBowFBVV95cUxOaDJaeThsa0R2WXdJb2lkVWlJb1NQWVpkNEI1R05heGFzempMOWNaVjgzeXhhazljRGNzYWlqUVdfbENIOWVHdnljQS1vemNVbGpscF9YOVZPRHNKY19qRVNxRGJmWTNWVkU5bE5INGFNQ1R1LXZfRmE3UkFlNmdxZV9RWUNTX2xiSTI1VkpRYTY3YUlFUzdIZjIzLXA5RnNHWkxj?oc=5",
+            "published": "Sun, 10 Sep 2017 07:00:00 GMT",
+            "text": "PSV suffer first loss of Eredivisie season against Heerenveen India.com",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV vs Heerenveen prediction: team news, lineups, expert analysis - RatingBet",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjl6MEZYeElYbEJVMDdnUDI0ZFRwRlJxbjVIcnU1UnJncGg4b0ZDZFdJSnA5Q2RObFhWNUxZRFhBNXBVMDJWZXBPOFkzYjhrR3JfdzRPdkZlYnJkOGVyckFHQllEVE5pX2k2SFp2Znp3YloyWWNNS2twTFhHOGJTeUJxMXVORzQ2OXFIQVJpQUlJbWp3RmZ5eWd1NG1CUQ?oc=5",
+            "published": "Wed, 07 Oct 2026 19:47:33 GMT",
+            "text": "PSV vs Heerenveen prediction: team news, lineups, expert analysis RatingBet",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Twente VS Heerenveen: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM3RjWnBkdVZlM1ppejRZbU9jS0N6NVoxcHR3TkQwOG9OYTEta3VUWk9VdGhRWk53a3JTQzRWTl9ucmNlMnVyczlUQ0dBQ055S1dkdmpfS0JkOGo1OWlhdU1rU3Zzc1NOMkx4alZmOWczVnJZUml6akFTdWFPNzlXNHRVVTFYWUhuN0Vr?oc=5",
+            "published": "Wed, 06 Mar 2024 00:03:51 GMT",
+            "text": "Twente VS Heerenveen: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkZ1Wk9HM0RpZUw3UE1pbHhJY3ZiNlB4dEYteHJUUGx4c25oS1RlLXBjWlQ1Nm9TTExySVNxTkZ5V25tZktCdmFUajlqb1RZazdwUTNEUTFVSzBBcFFGQkdqeUFBWHdPZ2pwUm5qS2hMX2dyQkFMaHZWMW9NQ3FwQXNPX0NQTWhYOHl6U0d0MnJtVXl2MjJUSWJzSTlFa3pBWW9Yd0xKd3VxX2EwV1VmQndmM3ZDNkJxVkN5WndtaVZSRjBWVDhONg?oc=5",
+            "published": "Mon, 02 Feb 2026 08:00:00 GMT",
+            "text": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips - BetMines",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVF8tbTJoX2dWYU1EbGo5emI0SkZBNEdNVDd6bzlLeHNyVFo2bG5lZWNVU1NwSGFlUzM2MFJEUERJeHRkaXZrTjB0YUpBa3dNUlpxOGZkZWZfaWZiZEtteEh6a1dGdXhzS2pwMURsLTNjRHFfenk0MHp0emZWRkZzNm1zUkxwOGFWb05jSmtGU2VDZ3Ntc1NQMkNvejlwRzA2eUM3aE1Rd2FYSTgtc2lXbmJkVXlUdw?oc=5",
+            "published": "Sat, 21 Feb 2026 08:00:00 GMT",
+            "text": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips BetMines",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Maxence Rivera stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WTVhGa2VIV3NyNkUySS1NS005emVFb0hFUHRyVW5uN0l3TUdDVGFxdVg4Qkl0dXRWVjFwVzU3QXhBcnVCVm12cFE2NzFScUVLdURDSXZhWTlEMGZWRFNmeldSWGRfbk1WRExpTTF2VXhlZw?oc=5",
+            "published": "Mon, 27 Apr 2026 12:57:57 GMT",
+            "text": "Maxence Rivera stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Heerenveen Team Roster - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRFNPQU93ZWZyM3lsekxjR3l6QUtSNVF3d1A5d0dLRDBNNjE1bkUzTEFjMExUSnpFcTFhNTU1c0NFVkdIU3MwRVhiX0xSd0Vac0NhUkwzNTc1YnNtM0pkZEJja2lSaFRHLXc?oc=5",
+            "published": "Fri, 18 Sep 2026 06:31:39 GMT",
+            "text": "Heerenveen Team Roster Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HcldITk9neGQ2QV9RMjk1OF8tZjRoY2NudktXOFRLTVNhZkJWRTM2dkNZMU1OdlJWdlRyb213NGx0WjBOTzIzYmdNNUw4NE5SM0s2UXF5cHdzZjF2T004UEYwdV9GeDVtMU9IaF9hTm1Sc1k?oc=5",
+            "published": "Sun, 29 Oct 2023 07:18:40 GMT",
+            "text": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "'It's not a good situation' - Alexi Lalas raises concerns about Ricardo Pepi's World Cup future for USMNT amid another injury setback - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQV9DRjF6Vkk0bmgzcERtVTBydzBpMFVPQ2h3Wm5UeV9lSW43WmlGM0FWdlhJb1FPekdWR3FKRV9SYlBLMVBWWFRhaWFuNm9yRlFOb1NkUENkYmpVeEZQSDBSRHRGZzhSOThBc1ZlTVRnY2J2Vk5LUWJDYXpZWmVQOHdHcjRvc3BqYlhDbWVTb0RpY1lRTjJpaXltNGFnT2QtUkdjd3lXSlRBaEhKQnp6WUpoX19haWswZ2lpZVo4LTdOTWhnamxURGdrTXU2UUdmUTJCVk5IVWVsdFFSSFQ1WHpCa0hEd1VrbnRxVEVTUnpkWGlyR3hPWG1BeExydVc0ZWV2T3FYTmZKRVROYUtIcjFvRml4VHE1NzhPcQ?oc=5",
+            "published": "Fri, 03 Oct 2025 07:00:00 GMT",
+            "text": "'It's not a good situation' - Alexi Lalas raises concerns about Ricardo Pepi's World Cup future for USMNT amid another injury setback Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs Fortuna Sittard - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSFVYNDA1cGVxVnNORU5QNGhwX0RkamlWRnVjajdCN3oweDJ5UHBFZGJSS2xiMUt0aWRZSlhmanhzUFVwTmhrQTBVRVh6dXF6cnktck5BaW5UTDZoZjVvdlphNEEzQ2NJaG1KSXFfMUVhdjhnM0VGQW1NYXI1Z21Wcml3?oc=5",
+            "published": "Sat, 21 Oct 2023 17:35:03 GMT",
+            "text": "PSV Eindhoven vs Fortuna Sittard - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bosz announces his choice between Til and Pepi for a potential title decider against PSV - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRHdibGhaNzdsMFZQOGY3aWktdjhpVU5HaGlBcWhpX1VwbERuQXRyaWJDZXl0UjNXUXA0VkFJVjlNc2h4ZTF5SUFVM3VpeklUS21iM0d2dUhMQ3lSWkdvRFk2ZUR1cGw5Z2xBV0t1MFgxZTNva2w1X1VvV3JwbjE5eGs0dEI2ejJyUS1jWTE5VGlGZzFHOUYwWUpBRnQ3MFBJOHluT2NRakgwcjZNS0hYcHJCV2pNWHlqSVBvSGF2ejVybHdzUVJtbDBjVDhFMFNNdVFPSHoyUQ?oc=5",
+            "published": "Sun, 05 Apr 2026 07:00:00 GMT",
+            "text": "Bosz announces his choice between Til and Pepi for a potential title decider against PSV Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kMVhYM3pYWG1qNnpJd2RFZGVSaG1BUGxaWXFtdzdFQ3IxQ1ZpZFE5YWM5dS1JSU9aVVJ4U0ZxcnZGVzd0MFNHbVV4M3JId2RobnJENjBsbHd5b25TSkZycWZBbTdvdHJmY3FVRlhuVGV6MUpyaW10WklLaw?oc=5",
+            "published": "Sat, 04 Nov 2023 19:04:33 GMT",
+            "text": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Leverkusen vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EQlo5R3ZJMGxSeEs1Y2xobXEzWGlDd2pVQ3owdl9zdDRmVjFpZUxrMC15Q3JQb01nMkczVDNuWGY3UExzQWR4WElGcGJ3TlhnbVFleUJvdURDMGtseU1PVFBwOTlodGZDQURTN1ZvZTAtaXBhQ1JnaVJrMA?oc=5",
+            "published": "Wed, 01 Oct 2025 07:00:00 GMT",
+            "text": "Leverkusen vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven vs QPR - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcl9tZWZvd2diM1VpNU1rMmkzWGxOTldMUTV1QVNpTDJuQzJqV2FaNUNEa2wtSzlrODlSbGUzM24xMDQ3bjB6RjhrZVlERXh2dmhzLW1tbHFFZGtDeThzdlFscUJ3OW5Vc08tSVMxenljM1EwWUFSZ2VHbUdPZmR1NllyQTh0RWc?oc=5",
+            "published": "Wed, 08 Nov 2023 16:17:43 GMT",
+            "text": "PSV Eindhoven vs QPR - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iRTExQ292cDdVUm5uanN6WXQwQ3gyRjlpYzRLN01nNkV2LWE1WUFCcDJrTW1FNVItdjJNRTQ1c0t5WEF4TnFuLXRwZ1VtUWRnb2hmS3ViS28zRm1NeXJma2Y3M2M1S1FPc0l2ejJTOTdMLXpqUWRB?oc=5",
+            "published": "Mon, 30 Oct 2023 12:54:50 GMT",
+            "text": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSG vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LSHEzMWpRM3hVX19JcE85SV9iVmJwUUphSDFzUnVYOWxDVFlrNF8tVk5WQU9adWswOTlsWUE0Y0ZGc1VPU2JwSjBxV0MtNmlNLXN1R2d1eGE2ZnZPR0JPa1ROZHdvUWowbHJ5ZDBVcnhfbE10MDc1bFdBanhnamc?oc=5",
+            "published": "Tue, 22 Oct 2024 07:00:00 GMT",
+            "text": "PSG vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRRbmtvTmdfazJ0aHA4V1doeUpCb0tDVzN3ZEhXTU9vMDVMNzN5cERfbEpSNXBncldmd0I1RHZkUThNWnhQeHJJN3MzZVhhM09rMC1PN1d2U3NoLXhob3BVVHNuVXIyMWx6cTZEaHY5R2ZyQTViUmt4UmwtMTlYUHpnb0hTR1c0YjYtZ0FxX3YwOVIwY3lFZ3MxcVZjVG1OTEdheVA2UGp1QVBCR1Rpaml5Y3pSNk1WejRIWHVNWUxZYTVmaVVOUWJrQXQtR2dsdUR5RDBn?oc=5",
+            "published": "Sun, 03 May 2026 07:00:00 GMT",
+            "text": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVi1Fel9fNjl4YWhKNW44X29mRVJmMVRRZ3lRMkhrX2dCRzdQLWI5QV9mODhQNGhTNlo5ZDFBOUhBckV0aXV5SGxVR2pMdE44TjU4ek5HTWc1blBUVnR4X1J2Z3FWOGNTNkp2cDFUVk1KRkRtWXpPMWh4WGR4aExnakpDMXJiZ0tBT1lBNElkVHZMQlNxdnJ2YWdMc183akdfY3N2bWZZMENtMVRMaTRKQ2czTnlOVmtYTDJWWVVlZjZXeGtCTmxhbC1VbHlJOXhZSkYxSw?oc=5",
+            "published": "Mon, 11 May 2026 07:00:00 GMT",
+            "text": "PSV, son maç gününde Ajax'a Şampiyonlar Ligi ön eleme turuna katılma hakkı kazandırabilir Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven - SC Heerenveen canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRF84em85Zk9LbFRDMzA0Sjc3QVpFWmpYcHpQYjctcTZnUV8xLUFzUFhHMnpIVkV6N2toV1ozaGRab0hOWHQybE1IaDNobUlISDVYTjVCMDhfbmxTcENkT1JPNXB0YzZEckFiY2tGbU51SnNvY0JZWGg4Z0VvUVhOU3pRcGdjUQ?oc=5",
+            "published": "Tue, 16 Jul 2024 17:47:43 GMT",
+            "text": "PSV Eindhoven - SC Heerenveen canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven - SC Heerenveen, 7 Ara 2023 - Eredivisie - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN1dMV3BsVWVZanluTGZxSEI1SHJsaUJETUZlN3diMTgxdUZLalctV2xfRW5yY1MtX2JrMTJlbDh2dkhiN3h0ckRjTUFiZGVtVTBKWHgyd1VLaHBrNklsdEVZelN6WnBKTUlQX285cDFiS0dSbXRSZjN1aVJyRVBlaWpZV0ZMUlRnY08zYUJwaTU?oc=5",
+            "published": "Thu, 07 Dec 2023 08:00:00 GMT",
+            "text": "PSV Eindhoven - SC Heerenveen, 7 Ara 2023 - Eredivisie - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMW9Cdkc2UHJXcHczaTJ2SXdfMTVqXzM1SUdXV3JKUlpOSUZkMjE1VWpxUVNCa1BkbEhnTzZTMUNyLUgzZ0c2d2xkRzA4YWVGZnNzNm1GU0xvTTAxMmU3cHdRVWFiMHNEdWZfa195d1ZGbmtDc0FxOGx3U0dOQlFNdGNjcVEyaXRTcWNOMmFyNl82X3F1Yi14cWVLX3o2emRnLWNqa1NacE5tTHpFVVloQkJ5U2FkMWJYNVpyc2dTWXBHVjJGeWVFcUs5MXNvX0k?oc=5",
+            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+            "text": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y2gtX1FJNWRlelJlTVFMWWo0U1RvWXRzTzlyNzlBcEhSQ1UxMGljRG1oMW5YdXRueDl4YVcyTWJoYzNxWl92dWlic0hxeDRfTnRUVVNVYVdPbkU1cHdVZi10QmVLOXVySFFjbDJLUWU5UWZVMnc?oc=5",
+            "published": "Thu, 29 Aug 2024 19:32:55 GMT",
+            "text": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri FotMob",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Jerdy Schouten istatistikleri ve reytingleri - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DVUtUWWRZSU1HdEZSdjRiQjR0NVFtckFIY0dya0tKLW5PVzByMHpXcGFfYmZUWHlraW1WTEZxSWpQNF95S2NLcUlLeEdPMzZhNXEzNjJiakY4Sjk0V3VMbHFXdHBRc0s4cGNMeXhQYW5yY2Ni?oc=5",
+            "published": "Wed, 18 Jun 2025 06:20:31 GMT",
+            "text": "Jerdy Schouten istatistikleri ve reytingleri Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Arsenal - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45LWF5VUJnRTlWanJCNVd5RDc0d2llbUx2NGJUWk04amdsNGRXajZGVUNzcHc4MjRqdG10WmdXWDZ4dDRYYTN6ekpQQi1zQnU4QmlqX0FmUmFGV2s1UmN2bXduOTBvQ3llbndUaE9LTmVhQkU?oc=5",
+            "published": "Sat, 04 Nov 2023 16:38:55 GMT",
+            "text": "Arsenal - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri FotMob",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Albert van der Sleen - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YREUxVlJEbFdaUi1WRHo0VFJOQW0zUTdaYzNOV2p0ZzI5bmVEaV8ySW5ZZXlQSEpUUWlDc2ZsdF9HQXY3VTFNV2RkMXNPSEQ2TFRCSlhjTlFpUnNyS3M4WURjdVRUMUV5bEJ2U2V1RjNVc2JkbFROLTBLNHlOQQ?oc=5",
+            "published": "Fri, 26 Apr 2019 19:18:52 GMT",
+            "text": "Albert van der Sleen Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven liderliği bırakmadı! - Bursada Bugün",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWVJvVXlOLXROQm43RkxPSWU5bVlNM0pDWjZIQTVxSE1CeEZDU1VhZUNRblBYemJqbHBoUHpvNEc3QkJaNWJCQ0U1c3d0NEpnRl80RHRfejh5Xy1tYllzSUF2d2R3UjkydUtpY2xhRGY2ZC1NYTFiNXhxY2VJcnlVRUZPUWdtVDg?oc=5",
+            "published": "Mon, 19 Aug 2013 07:00:00 GMT",
+            "text": "PSV Eindhoven liderliği bırakmadı! Bursada Bugün",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Eredivisie 2025/2026 için PSV Eindhoven istatistikleri: Maç başına gol - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3AyUG1mUnptMUJCaElETDdpU2syejh4QkY0em5ab0hnd2xYMWNnR284X2NWYXN3UzdwUmY4bTF2TndDYTVkbWhTMUxPb0lhUjhWamhsdUphM2kzTjlxODl3QnVmLXZYenJTQk5DcXV5bUVpLTFsTTRjVFhjYzBkRWxIRDVBOFdBX2t3SUxRbWlSdDlTb2Qxc3FQdFMtRmRzVFpxOWpkZ2UtcmQ3NExrZ0JvQQ?oc=5",
+            "published": "Sun, 04 Oct 2026 06:19:36 GMT",
+            "text": "Eredivisie 2025/2026 için PSV Eindhoven istatistikleri: Maç başına gol FotMob",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ruud van Nistelrooy - Tüm goller - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4eVk2TEw1dE5uT1lNNzUydnNBOGdoNlE1SzUwLXpxNTVZdEVTSVpsMjNQSGlJZzdwRy0wS0FGVzhHSmZTZkhVMFp2Qjl6U0lHZzVMSmVTb2NYQlN1SWFBdmFQaEd2akVoVU5vZW95elp0V2dGdHlnSzNFSWU3OXc?oc=5",
+            "published": "Tue, 07 May 2019 03:59:31 GMT",
+            "text": "Ruud van Nistelrooy - Tüm goller Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peter Bosz, PSV - Ajax maçı öncesinde birkaç gün içinde çok olumlu bir haber aldı - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRE8xVWRycUxrUVFNcy1xX2dZYURRZDFfaklscl9Gc0YzTm9BbWl6dVFYSDZYYXZrMXdRMFg5aWRBeHVBMlZRZEZSMWdDYmJNMUNwZTJ6aFlJMnJya2tuelNUdUNhRU9TMXh1LThrVTc2N0U1NS15ME5uSnE1QU5EYnlKV3BfaUhJYmxBYnpPQ0JwUVgzUEIwM2RXTWhNY0RBMWdQeUVTeUV3ejZ4RDA1SmhsY19EZVdiLUNNRmtsRUplUmRNUGs0?oc=5",
+            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+            "text": "Peter Bosz, PSV - Ajax maçı öncesinde birkaç gün içinde çok olumlu bir haber aldı Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FRFBVZktoWGFBd3g2dW5RcmhDQm1tcnI3M0M1Z056YktqYXQ5WjlyU0g1eDRsSm9McXdLcGhnZVpsSkh5QktiTjdPTUY0cFVHYk9idTl0NDM1LWZ1RGJiczBqdXliTG1uaXhJ?oc=5",
+            "published": "Tue, 26 Sep 2023 21:04:43 GMT",
+            "text": "PSV Eindhoven FotMob",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV Eindhoven - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EWkpPVThkRjhIOC1OMTBXRzFXalQ2TGRYcWFmM2Jkc3BqUGREM3BURkNBYkw5OU1Hcnp3TkdHeTMzamJBeGRZdXJ2cUdOMUxnTUtGeEVZb3VCZnVsb2l2LTlid1VDWHptQkFWOFhpa1BQZEJYNGNF?oc=5",
+            "published": "Fri, 05 May 2017 16:59:04 GMT",
+            "text": "PSV Eindhoven Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "PSV",
+        "away": "SC Heerenveen"
+      },
+      "dixon_coles": {
+        "home_win": 0.5555322456541826,
+        "draw": 0.22169969590780936,
+        "away_win": 0.2227680584380081,
+        "btts_yes": 0.683832241917187,
+        "btts_no": 0.31616775808281306,
+        "over_2_5": 0.7047285529500142,
+        "under_2_5": 0.29527144704998576,
+        "lambda_home": 2.2455990126240897,
+        "lambda_away": 1.3979740193100543,
+        "elo_home": 1571.4722671003206,
+        "elo_away": 1505.327501586918,
+        "rho": -0.13
+      },
+      "signal": {
+        "stat_probability": 0.6297,
+        "dixon_coles_probability": 0.5555,
+        "final_probability": 0.593,
+        "category": "VALUE"
+      },
+      "model_markets": [
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.666667,
+          "model_probability_pct": 66.67,
+          "fair_odds": 1.5,
+          "odds_required_for_value": 1.54
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.640078,
+          "model_probability_pct": 64.01,
+          "fair_odds": 1.56,
+          "odds_required_for_value": 1.61
+        },
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.62476,
+          "model_probability_pct": 62.48,
+          "fair_odds": 1.6,
+          "odds_required_for_value": 1.65
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.564897,
+          "model_probability_pct": 56.49,
+          "fair_odds": 1.77,
+          "odds_required_for_value": 1.82
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.539087,
+          "model_probability_pct": 53.91,
+          "fair_odds": 1.85,
+          "odds_required_for_value": 1.91
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.533333,
+          "model_probability_pct": 53.33,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.93
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.466667,
+          "model_probability_pct": 46.67,
+          "fair_odds": 2.14,
+          "odds_required_for_value": 2.21
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.406407,
+          "model_probability_pct": 40.64,
+          "fair_odds": 2.46,
+          "odds_required_for_value": 2.53
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.37524,
+          "model_probability_pct": 37.52,
+          "fair_odds": 2.66,
+          "odds_required_for_value": 2.74
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.367308,
+          "model_probability_pct": 36.73,
+          "fair_odds": 2.72,
+          "odds_required_for_value": 2.8
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.359922,
+          "model_probability_pct": 35.99,
+          "fair_odds": 2.78,
+          "odds_required_for_value": 2.86
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.344464,
+          "model_probability_pct": 34.45,
+          "fair_odds": 2.9,
+          "odds_required_for_value": 2.99
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.333333,
+          "model_probability_pct": 33.33,
+          "fair_odds": 3.0,
+          "odds_required_for_value": 3.09
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.316381,
+          "model_probability_pct": 31.64,
+          "fair_odds": 3.16,
+          "odds_required_for_value": 3.26
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.226285,
+          "model_probability_pct": 22.63,
+          "fair_odds": 4.42,
+          "odds_required_for_value": 4.55
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.5608456128120655,
+          0.5564166945203409,
+          0.5
+        ],
+        "draw": [
+          0.22744474152163796,
+          0.22169969590780936,
+          0.5
+        ],
+        "away_win": [
+          0.2767189009713632,
+          0.25667427824373545,
+          0.5
+        ],
+        "btts_yes": [
+          0.683832241917187,
+          0.6904490177254683,
+          0.5
+        ],
+        "btts_no": [
+          0.31616775808281306,
+          0.3095509822745317,
+          0.5
+        ],
+        "over_2_5": [
+          0.7047285529500142,
+          0.7155056976550129,
+          0.5
+        ],
+        "under_2_5": [
+          0.29527144704998576,
+          0.28449430234498707,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.5909850497528691,
+          0.6037062457726396,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.55,
+          0.55,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.44999999999999996,
+          0.44999999999999996,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.25,
+          0.25,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.75,
+          0.75,
+          0.5
+        ],
+        "first_half_home": [
+          0.365,
+          0.3656626077049064,
+          0.37126132627696257
+        ],
+        "first_half_draw": [
+          0.47,
+          0.4296802677490565,
+          0.31954133589928635
+        ],
+        "first_half_away": [
+          0.165,
+          0.2046571245460372,
+          0.3091973378237511
+        ]
+      },
+      "htft_matrix": [],
+      "market_analysis": [
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "cards_under_4_5",
+          "odds": 1.71,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 70.0,
+          "implied_probability_pct": 58.5,
+          "market_probability_pct": 49.7,
+          "fair_odds": 1.43,
+          "value_edge_pct": 20.29,
+          "ev_pct": 19.7,
+          "calibration_gap_pct": 20.29,
+          "consensus": "2/3",
+          "confidence_10": 6.93,
+          "decision": "ANALYZE",
+          "reasons": [],
+          "engines": {
+            "statistical_pct": 75.0,
+            "prediction_pct": 75.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.7
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "away_win",
+          "odds": 8.09,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 31.4,
+          "implied_probability_pct": 12.4,
+          "market_probability_pct": 10.5,
+          "fair_odds": 3.18,
+          "value_edge_pct": 20.98,
+          "ev_pct": 154.32,
+          "calibration_gap_pct": 20.98,
+          "consensus": "0/3",
+          "confidence_10": 4.83,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 27.7,
+            "prediction_pct": 25.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 10.5
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "draw",
+          "odds": 6.69,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 28.0,
+          "implied_probability_pct": 14.9,
+          "market_probability_pct": 12.6,
+          "fair_odds": 3.57,
+          "value_edge_pct": 15.35,
+          "ev_pct": 87.28,
+          "calibration_gap_pct": 15.35,
+          "consensus": "0/3",
+          "confidence_10": 4.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 22.7,
+            "prediction_pct": 22.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 12.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "corners_under_8_5",
+          "odds": 3.13,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 46.0,
+          "implied_probability_pct": 31.9,
+          "market_probability_pct": 26.4,
+          "fair_odds": 2.17,
+          "value_edge_pct": 19.65,
+          "ev_pct": 43.98,
+          "calibration_gap_pct": 19.65,
+          "consensus": "0/3",
+          "confidence_10": 5.63,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 45.0,
+            "prediction_pct": 45.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 26.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_draw",
+          "odds": 3.34,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 42.6,
+          "implied_probability_pct": 29.9,
+          "market_probability_pct": 25.4,
+          "fair_odds": 2.35,
+          "value_edge_pct": 17.13,
+          "ev_pct": 42.22,
+          "calibration_gap_pct": 17.13,
+          "consensus": "0/3",
+          "confidence_10": 5.44,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 47.0,
+            "prediction_pct": 43.0,
+            "intelligence_pct": 32.0,
+            "market_benchmark_pct": 25.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_away",
+          "odds": 6.34,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 20.8,
+          "implied_probability_pct": 15.8,
+          "market_probability_pct": 13.4,
+          "fair_odds": 4.81,
+          "value_edge_pct": 7.37,
+          "ev_pct": 31.69,
+          "calibration_gap_pct": 7.37,
+          "consensus": "0/3",
+          "confidence_10": 4.24,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 16.5,
+            "prediction_pct": 20.5,
+            "intelligence_pct": 30.9,
+            "market_benchmark_pct": 13.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_no",
+          "odds": 2.68,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 35.1,
+          "implied_probability_pct": 37.3,
+          "market_probability_pct": 31.6,
+          "fair_odds": 2.85,
+          "value_edge_pct": 3.43,
+          "ev_pct": -6.03,
+          "calibration_gap_pct": 3.43,
+          "consensus": "0/3",
+          "confidence_10": 2.63,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 31.6,
+            "prediction_pct": 31.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 31.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_yes",
+          "odds": 1.24,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 64.9,
+          "implied_probability_pct": 80.6,
+          "market_probability_pct": 68.4,
+          "fair_odds": 1.54,
+          "value_edge_pct": -3.43,
+          "ev_pct": -19.48,
+          "calibration_gap_pct": -3.43,
+          "consensus": "2/3",
+          "confidence_10": 5.07,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 68.4,
+            "prediction_pct": 69.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 68.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_over_2_5",
+          "odds": 1.3,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 57.7,
+          "implied_probability_pct": 76.9,
+          "market_probability_pct": 76.9,
+          "fair_odds": 1.73,
+          "value_edge_pct": -19.2,
+          "ev_pct": -24.96,
+          "calibration_gap_pct": -19.2,
+          "consensus": "2/3",
+          "confidence_10": 4.67,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 59.1,
+            "prediction_pct": 60.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "corners_over_8_5",
+          "odds": 1.12,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 54.0,
+          "implied_probability_pct": 89.3,
+          "market_probability_pct": 73.6,
+          "fair_odds": 1.85,
+          "value_edge_pct": -19.65,
+          "ev_pct": -39.52,
+          "calibration_gap_pct": -19.65,
+          "consensus": "2/3",
+          "confidence_10": 4.47,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 55.0,
+            "prediction_pct": 55.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 73.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "home_win",
+          "odds": 1.1,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 54.7,
+          "implied_probability_pct": 90.9,
+          "market_probability_pct": 76.9,
+          "fair_odds": 1.83,
+          "value_edge_pct": -22.19,
+          "ev_pct": -39.82,
+          "calibration_gap_pct": -22.19,
+          "consensus": "2/3",
+          "confidence_10": 4.51,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 56.1,
+            "prediction_pct": 55.6,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 76.9
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_home",
+          "odds": 1.39,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 36.6,
+          "implied_probability_pct": 71.9,
+          "market_probability_pct": 61.1,
+          "fair_odds": 2.73,
+          "value_edge_pct": -24.5,
+          "ev_pct": -49.06,
+          "calibration_gap_pct": -24.5,
+          "consensus": "0/3",
+          "confidence_10": 2.72,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 36.5,
+            "prediction_pct": 36.6,
+            "intelligence_pct": 37.1,
+            "market_benchmark_pct": 61.1
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "cards_over_4_5",
+          "odds": 1.69,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 30.0,
+          "implied_probability_pct": 59.2,
+          "market_probability_pct": 50.3,
+          "fair_odds": 3.33,
+          "value_edge_pct": -20.29,
+          "ev_pct": -49.3,
+          "calibration_gap_pct": -20.29,
+          "consensus": "0/3",
+          "confidence_10": 2.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 25.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.3
+          }
+        }
+      ]
+    },
+    {
+      "home": "Moreirense FC",
+      "away": "Gil Vicente FC",
+      "league": "Portugal Primeira Liga",
+      "fixture_date": "2026-10-09",
+      "fixture_id": "Moreirense FC||Gil Vicente FC||2026-10-09",
+      "source": "openfootball/football.json",
+      "data_quality": {
+        "min_recent_matches": 8,
+        "status": "FULL_SAMPLE"
+      },
+      "form": {
+        "home": {
+          "matches": 8,
+          "points_per_game": 1.375,
+          "goal_diff_per_game": -0.5,
+          "goals_for_per_game": 1.25,
+          "goals_against_per_game": 1.75,
+          "over25_rate": 0.625,
+          "btts_rate": 0.625,
+          "ht_home_rate": 0.25,
+          "ht_draw_rate": 0.5,
+          "ht_away_rate": 0.25,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.25,
+          "corner_samples": 4,
+          "card_samples": 4,
+          "source": "openfootball+football-data.co.uk"
+        },
+        "away": {
+          "matches": 8,
+          "points_per_game": 0.75,
+          "goal_diff_per_game": -0.5,
+          "goals_for_per_game": 0.75,
+          "goals_against_per_game": 1.25,
+          "over25_rate": 0.25,
+          "btts_rate": 0.5,
+          "ht_home_rate": 0.25,
+          "ht_draw_rate": 0.5,
+          "ht_away_rate": 0.25,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 4,
+          "card_samples": 4,
+          "source": "openfootball+football-data.co.uk"
+        }
+      },
+      "intelligence": {
+        "mentions": 41,
+        "web_score": 0.0,
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
+        ],
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Gil Vicente FC - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBURXZpMm52VlU5c3pZcWVkWE9Sd3pTeDd1TXhBT3Utd00wajhXaEJua2VUcnB2aU1Tc3ZSXzdyMkJkTkQySzk0MFVyeEFfUFk5Z3RudlZOYUF3eVlqRFB5Q3RzREZZTC16OGZQTGZCQ1dNVEw4?oc=5",
+            "published": "Mon, 18 Sep 2017 10:32:08 GMT",
+            "text": "Gil Vicente FC transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal - DAZN",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeFQxdmZKN2RJRTlreHBzRnE4b2dxUXZLaEZtUHdJY1dBcGptcTVoWHVic3JQVzRDUmtNNXFFOEJjTEpSVk1pRzJsS3BuMFZKNkpGVUZadEFlTk9CRmhRSGV1TlpQbXVtTmdGVUMzcmNoTTNHNnJHMnJGenJTM29LNTAzTXdaTjVIYzRraA?oc=5",
+            "published": "Wed, 15 Jan 2025 20:48:55 GMT",
+            "text": "Liga Portugal DAZN",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Table - U23 Liga Next Gen - Forza Football",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QcGczTmZZNjRoZ2dWb2l3VnFyRDV3OTg0eWkwanl0VnFtZWFiWGtaaWtpYzFfVV9iSTZpYXhOWUFpY0Y4TkJLS2ZWazNUbnlsYXVwdGc4RUtaVnhEUjBTMzN6QXI5eHZ5cUdqSFQtTVYxZG8?oc=5",
+            "published": "Fri, 14 Aug 2026 19:06:35 GMT",
+            "text": "Table - U23 Liga Next Gen Forza Football",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense FC - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44MXlTeUljanFFVGdnZkJwTjIyb0M4MkJDSUluYUZ4TDlIV0didzRNb1gwYzZCRUszMl90SkNyTkdqQ2xWcWVQOGdPSEg3QWI1S3ctX1d2R3hCU3EtenIwTVN1cS1fd18yZ044M3FteHBvdw?oc=5",
+            "published": "Wed, 13 Nov 2024 04:03:11 GMT",
+            "text": "Moreirense FC - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal 26/27 - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6UUpYRnZVNjBlUmJFWkk1emZyV0RXd2pGMWpad0FXN2pwSEhpSktDUGRZeUpCa2l4RzF1LXZaUzRySVIzNWJqdWtiSzRhNm1jYVZsZTBXRkRRNFdFdmpqdGRzUS1UaE1uR2t3cGVJXzRucGpIRXFZ?oc=5",
+            "published": "Sun, 20 Feb 2022 17:14:19 GMT",
+            "text": "Liga Portugal 26/27 transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "SL Benfica - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUFZseGI3VnNrWGIxclpJSnQwRnNpZ3FzUTZHVVlOU1VSVm5vNFF2c2N6VjBMZ2pReGNHTUx5aUUyVTZ6VFQ0MUx6SzJjT3J2aWJHU3pFU01NSUZxaUhwNHRUek11cW5Ibm14ellBOHc4V1JnNzFsX0hTc2RpOGdEc3ZR?oc=5",
+            "published": "Tue, 01 Jul 2025 04:22:45 GMT",
+            "text": "SL Benfica transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Gil Vicente FC - Transfers 17/18 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDdqcnRYNkVEWFZHNGpOT01DMHNOSjI3ZVFYNmxQc190QUF4ZFoxdnVLR0xuR2RzeHc4YldPX1NRbkVkWkFRY0NJal93elZobnRzMU5IeHNIOEVsZDF1c1V4ZjRGX1VuTk1SYmlMN0xtZm5xTDFyMmhXRW5HOEdwanR0WkV2Ui1JR1pDWDRqaWswWDc5Y2k2ZENVZkxIM2FfZktSMFBB?oc=5",
+            "published": "Tue, 07 Nov 2017 17:27:22 GMT",
+            "text": "Gil Vicente FC - Transfers 17/18 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZVJScnFoemVVRG1pR1hqVXZKQm9RQVlvSC0xSVg1d0kyTXlpRkhoV1AyY3VQNTBjNmZlRjZ1QUZvNW1CYXU1T1ZQa3JhYXRxX0pwNDRoRVBHNi1UdFkxSmxKQ2pYajBOcmMzX2syM3J0STh2QW9obW5yMFhHT2tEQXA4d3J6aGpfTmFBSFU5amtaYkNtUVNRU0VodDhRV2NjWjY5MlQ1czlneXpoZUlnOUo5NjhuV1BXZTZrajBVeUQ?oc=5",
+            "published": "Mon, 31 Mar 2025 07:00:00 GMT",
+            "text": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Vitória Guimarães SC - Schedule 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTHRaM3lTOTQzNTFYUzR4bFhwTVh5cjE3clhJUHQxRVYweTUwWjlFNmNsT0V4ZmhiU0xoN2tmTHRnYURCc2tZdWdYbFpPMGV3NlBha1lmMElscllpdUVHa3V6SGtjSGI5SHBvQTBvQWFldnlGUkg1WGVXeFRaZzFYeGktY3psQkNMLURNUV9WZWs?oc=5",
+            "published": "Wed, 18 Jun 2025 10:04:50 GMT",
+            "text": "Vitória Guimarães SC - Schedule 25/26 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM29Ec05uWGZxbTdkVlBHWEVlQzNuUlpMN0NBWEwybk1JdmlJRXd1bGF6dmVDYUZfZ3VIcWJDUXBmZGVZLUUzaHFQNUdINHZiM2lWSlJqT0VzeU5QMmdtMXY2Y0cwSlNDSnNDc0JlcjdpU2F3Y1JaWEtmUF9KYmx3ajFBZ05MZV9HVmM0aTNibXo3Zw?oc=5",
+            "published": "Fri, 25 Jul 2025 15:35:36 GMT",
+            "text": "Liga Portugal Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Porto - Schedule 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wd0FMUDY3dHdNbjJfXzU1bTdRdVVtQ3NBV25EU29DdTlNbW9hVGphS2JhNGtIQVN1UFRIeWxzY1Z0eC1qd1ZIenJRdS0taF90MEtsbjV6M2JHOGIxVUQ5MGtLNWIyOWkxTzBZOFlOa2JfT092aWJLRlRKQkVGNzQ?oc=5",
+            "published": "Fri, 04 Jul 2025 10:54:31 GMT",
+            "text": "FC Porto - Schedule 25/26 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "César Peixoto - Manager profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wU3lra3lsOURjX3FHV3F2d2RFdk9kVVlmS3VnVkI5UE9uUGhtR2dUUnEyV2t1NFREYzJ5T1QzZVg5R2xUWWVDTVVJcG9Pb25pMjJJRzJSSnB4dmFqODRhaHM2UnlYeVBwVWFYTVRfRjhYQQ?oc=5",
+            "published": "Thu, 20 Sep 2018 18:28:51 GMT",
+            "text": "César Peixoto - Manager profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ruben Amorim - Record against … - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Hc2JQdjNpNFA2U3V0N0VJSDNPX1JWSDJnMHE0ak9TSkoyWGdKZ2hzU0pqdk5OOEZXcVYzNVZCU3BCTXpFb3dSOGg3dzdVSW1NR0V2NjlhMGNFV2ZsMTRGZ0VfMi1KWTlaa2tGMTBiVE0?oc=5",
+            "published": "Sat, 24 Feb 2024 19:57:09 GMT",
+            "text": "Ruben Amorim - Record against … Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Paulo Alves - Manager profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDY01ic19TYmNKdjBmM2dWeDFndEhkem5hZXY1V0NwRVlGNlVZRmRzck1MTE1MNFdsQ3d5RGJ1NXNXV1J0WEMzQ19XTmpyTUVNYzFTVWhNdkVmc1paWUhsYzJtZFJyOVdwQy11TTZn?oc=5",
+            "published": "Sat, 06 May 2017 22:25:46 GMT",
+            "text": "Paulo Alves - Manager profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense vs Gil Vicente Prediction, Betting Tips, Lineups & Odds | 07 Feb 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYXpSRTlrbUVZMnZaSGoyWF9aSWRncG9ORXpUQ3FNM2tBdk5fbzVlOHNna3JTSVotcTJ4TlM2NllkbEw2eS1ZbGtmWGpEWDk4eWc4b3pCaVBXV2xMNGhCUW0wWmxpNTZfRkRiYzlrMGh6ZnpxekZIX2ROWkZMVmdic2U0NFVQY2x0eDRBbTlOZy1YeXFabFVIYWhBbmVLbm1fcVdQXzB3R2lGM2FxaWYxa01qWQ?oc=5",
+            "published": "Sat, 07 Feb 2026 08:00:00 GMT",
+            "text": "Moreirense vs Gil Vicente Prediction, Betting Tips, Lineups & Odds | 07 Feb 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMXM5Vzd1Z1pMQXVFbml4ZUNxR2hEa1NzNGgxSHRWRGowMjhRUDFfN1EwLW9aNjFZNmpsOFhaSWhHUnljdk1SM255REhDNk44NWc4MWstNk5XanpZWGR2Y0FUSm5uVHdLaWdFcV9qYnB2czNhV18wNERTbEJDN19GaHlkaDhnaFdzcWJIV01ELUVRdjRoZkE?oc=5",
+            "published": "Wed, 07 Oct 2026 01:49:17 GMT",
+            "text": "Liga Portugal Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "World Cup 2026 Odds, Updated Predictions for Sunday Round of 16 Matches - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVmR6dTFNSlA1ck9Kbm1RcDZSTjVKZmFPX2xpeExkNGpkUG1LeEVWQWJoTk5FaUpSb3R2RHBHUVZQWnNYNXFlNE8wLTc0VEUyenRQMHFzWDY3Qmd3UmNnZk9FTENxZGUwV0p1ZWYxRmdBLWNTOFN6ZFgyVDdDdmVRYW1CZWFnTXhDaVYyWHdreXdaZHNiUndGblY2Ym9xRzZKNEh4Nm5MRnZua1J0?oc=5",
+            "published": "Sun, 05 Jul 2026 07:00:00 GMT",
+            "text": "World Cup 2026 Odds, Updated Predictions for Sunday Round of 16 Matches Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "B/R Football Staff Predictions for the 2026 FIFA World Cup Quarterfinals - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNekl1dmtqTEZ4eUVmdHZxM2hJRDItQnBYVXh6R2lwZUpZOUNfNTR1NjhMbW8tSFh1V2oyaHhXOHlpSjk1eXdMUjVDSGh6VVhvRFMtQnFCcThmM2dQbklrUC1XNlpick9tTkNQWGc4U1pCV2gtY3oxLWh5Z0pObzJ5LTZxeURRVk9OUGhBeVpxVENHN2VtSFFQU1dFcUhFYTFkT3JNREVLU0lPaDI4?oc=5",
+            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+            "text": "B/R Football Staff Predictions for the 2026 FIFA World Cup Quarterfinals Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "B/R Staff Predictions for the 2026 FIFA World Cup Semifinals - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUnc4SldCczR2alZwelpVNkNHYU01TVE2SldBNFJQaFpiMjVVdVFXRGpjU1RPMzVMMUR0WUFiTktGa05hYTVnWjJrbml2ejFBYWdvTlZ2SUc0MVVKVV85RTV2UFhySmxFVW5zLWx1VlY4UDk3Ql9wTkFjRXB1Q3BvWGkteXZiOVRvSTd6bm5HbTVTZ1hFVFlaa1VrYTk?oc=5",
+            "published": "Mon, 13 Jul 2026 07:00:00 GMT",
+            "text": "B/R Staff Predictions for the 2026 FIFA World Cup Semifinals Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "World Cup 2026 Odds, Updated Predictions for Saturday Round of 16 Matches - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXlKYTROQ2NHVGRKbEVsTjNPOTRVMHBaOWtRbzlNa09wdVJQQzJGZjJkUWRseHBrSHVaam5ibU9xaDVLYlNsUU1sN2NMTk9CYk5adWRBeGViWHhUVFgyMmg1YjJuOGJLWW9sTUlPRHdWR0pGQWlKR0FUMFFpLVR3OWRIcHVrUlJEOXd3cGVzeVBTY2lOX2lNU2xMSzI3VHh2TU5XaTNwM0FkUERBQTRB?oc=5",
+            "published": "Sat, 04 Jul 2026 07:00:00 GMT",
+            "text": "World Cup 2026 Odds, Updated Predictions for Saturday Round of 16 Matches Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUFNTWlh0dERjcE5FUDRZRFdkSi1QVmZWN3JIMXMtVzJaNDk3TW5CX1ZQVkJ0NzMtTTR3S21neU93SnFKUndDcWNZZG9kaTNmYzl1X2M2OTdkZV9LbVk2RUg5QjVkZG9OV2NYTWtUdUJzc2h3dGQxQ0wtUzZXMVZyQWljRlE3b1owTkw4ZEhSekRMNEJPUVlxLURJajU1UWxYSGxOVlJBUWE5WHdETlVDU0l6OFdnMXczX1VCVXBLRWlIZw?oc=5",
+            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+            "text": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tRFRCeU92R0ppTDVHYVZOQ0NURU1pVmNQQ0RlWGxIVjJvVTBXcFdiUC1ocGtOaDR1dnkxcFhfOGRoSVV5T3VuUHhhb2JBTU9MY0JjZ0Zsa3JzUWJLUEFNdzdJYXlGWTdzSFVjZkhxTVNQX1hlNHNHeg?oc=5",
+            "published": "Sun, 20 Feb 2022 15:01:41 GMT",
+            "text": "Liga Portugal 26/27 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UEFA Champions League: It's Real Madrid's to Win in 2012 - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWFlaOGtxNkhKcHp4QTdwZUJjcGFqdmd3Vm9PN0lxdzFTdzMwRU9STVd5OHdyNW43SS1KNHFRZ0JRSHMwTjQ4T1ZUS1Q5R3dUVkt6OWYwRjdOcm1raktVc084Z0JXd3NhYzRiaXVraDRCOXNoSHB3SjY5bGxZRXJIb1IxajRCeU1hb3N2TU9sZ1BNRkdTS2ZtWHVTMnBLZjdxNzdNd2xGXzZWNld4X2ZCLURibEpHNU5u?oc=5",
+            "published": "Sun, 29 May 2011 07:00:00 GMT",
+            "text": "UEFA Champions League: It's Real Madrid's to Win in 2012 Bleacher Report",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal - Matches, Stats & Standings - APWin",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXc2NDbl8yT1ZzcFlFclVRT2JsZXduSUo2OVlsTHVFZkZlanJnOGRBdkViSTdUVVk1R1dtaUNqeEx1UHpMYThvNm9Kb09KM09MVnhBWjh1bmhZZ2dUbUxBSnZn?oc=5",
+            "published": "Fri, 15 Aug 2025 11:43:59 GMT",
+            "text": "Liga Portugal - Matches, Stats & Standings APWin",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Gil Vicente Standings, Matches, Stats and Results - APWin",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2Q0N2MUlTcFlQZUdBbUpYRHh3OFVBdWhLR2JleGhMMjRmdnhKMnBQWmRfcXVCckdFdDE1SkRpckJ5V0szRHlVRW5QS2Y4TldLTEpxbQ?oc=5",
+            "published": "Wed, 10 Feb 2021 05:09:39 GMT",
+            "text": "Gil Vicente Standings, Matches, Stats and Results APWin",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "World Cup 2026 Starting Lineups, Notable Injury News and Potential Replacements - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUxNb2pJcE9iNURhNmdCQjZvTUlYLUdwT0JtX1FPemd5UW5JakJnd3F4QlE4XzYyb0VWQUN5RHRsX28wV1J2Y3JrbEJwUnlJT2JtY3RqR05Dd29lSk5vSmRmVXc2QzBCX0d5aC1Da1RDNHVnM3dlTGw0Um9Ta0Fwejdaa0wtQU1yUTUyLWxBdE1WRjIzNTQtdHNtNk9Id2hzWE1ZNlBoVzZYU3JTVHVna2FOM1V0Q0QxUlBmT2hwUHI?oc=5",
+            "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+            "text": "World Cup 2026 Starting Lineups, Notable Injury News and Potential Replacements Bleacher Report",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTEsxRGZoMFkxdzVaaWV0eWsxZWJmZFJaSjViWXZrZ2t4UFZnYW5LUHdtcEVTWkVmS3B0QUViNG1YWVlKaTk3RUQxU1ZOVElvM2s1akF3emN5YUlDSF9xQWRiY2JQR3JCRDhFLVRITjN3R0w2djJ5aWZTUTZvMlA5aWw3aV9RcE0yVHVWYw?oc=5",
+            "published": "Mon, 05 Oct 2026 16:45:42 GMT",
+            "text": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Santa Clara - Gil Vicente FC, 8 Kas 2026 - Liga Portugal - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbkR2Z2ZKWXpnUjFKbk1MTzVUUlFRVFcxekFWeEh0d1V4Tm1sRlprOHpvcHV3VEIxSlgtRTZJTFdhYXJtcC1wdnhJR1ZCaWE5eEo1QjNFc2w1akhyUGlRVlhLdU9tX1l5Y3UwazhndjJTVVVfYUMwRk54dTR3TFZfQThGS2RfVC0zdEdwVWoxZmVwRkk?oc=5",
+            "published": "Sun, 06 Sep 2026 13:43:17 GMT",
+            "text": "CD Santa Clara - Gil Vicente FC, 8 Kas 2026 - Liga Portugal - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Sérgio Teixeira - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DbzQ3cW1qYjBvc19KYl9OTjBFcTFkRWk0QTZkZTZFdmxHcUxsNHV3bWxHNnFMMWtaNjZqZ25vX2x2NHpKYzhrbWIxUW9oQlpvYVZRUWFSZXhSZzhBVDBKREhDVHlVVXJ6Wi03V1BBTFQtbnZKVDRkNzJfTkFaZw?oc=5",
+            "published": "Wed, 21 Jan 2026 04:40:36 GMT",
+            "text": "Sérgio Teixeira Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Gil Vicente FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUnNrd1NkMjlnZ0NrcTFUREhDU1QzRGNPRGpDTWdVQ2ptR3RSc0UyeFZfRmhyb0dhaGJEZTdzZlJPeW5CU2V0c01xZ3Y1NGhwbDJMcV9kNGNpM3NkUkhiT3dXYnh3SUNSQ1FTdy0wYXAyOXpZbjBmQmQxTFZTRDRUVG81Ry1TUlIzVk5xLXRJRlhncGlrTFVF?oc=5",
+            "published": "Mon, 10 Jun 2024 14:09:09 GMT",
+            "text": "Gil Vicente FC Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Gil Vicente FC U23 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVDJtQlJIZXVoT1BpLXB4aU12QUNYMVFEZW1LaDVBX0VJMDVrVlB5N0R2b0Z1ZmM2UkpZeGRXZFpRNmtnNzliQUZGeWV2Umo2VW5zUU8yQ0FJQTNCdGZRWUR0d1NMWGJ5VG5HSXcyTUpkWG9MNE5kRkVfT2ZoYUJxQnRvcW5mbUt2TlhkNEtKSVFOY3ZK?oc=5",
+            "published": "Fri, 24 Jul 2026 04:56:15 GMT",
+            "text": "Gil Vicente FC U23 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Pedras Rubras - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWko2SVNMbzFka0p2dmpCd2dpckhTX1RiTWxENVlvcl9iVlE4OXVoZ3ZGT3ZCbXpaUnl2MEpWSV95el9EaE1OSzNULTVyeVBBb0JBZ0s2Sk5UaGhHa1pMRnFOcm1vZGE3VDVEOGN0OVlWbk4wenRfRVNHZzRKVWxGNU1oeDRXSFVGTFE?oc=5",
+            "published": "Fri, 02 Oct 2026 11:31:16 GMT",
+            "text": "FC Pedras Rubras Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Liga Portugal - Çapraz Tablo 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQU1EYTY2amZoYkJ1bnRNUXBjeU9TRERRclkxemRpR1BRUVRrSUkxMks4eENiU0lSMnJCd3FKOVJ5ZmtXSUZlTUk1V0hxNTM3SndUMmE4bGdDN3l0OHA5ZXI4QVYydHh6SGhWcUM3Njh2RkQ5YVFPR1FXUHp6YWJpRUU3aE5RbHU2NURhdnlGMjI1dUE?oc=5",
+            "published": "Mon, 07 Sep 2026 02:39:51 GMT",
+            "text": "Liga Portugal - Çapraz Tablo 26/27 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XT1B3WV9WQVRJbDhjWWY5eXczc0lKODgtTUo4OTYwaUc0eFl6bWZNM3NjWlVzR3dSMmowMGJ5VlhzUkRaREFpMjBFUVYwNXhFczNZSEhvaFhGUjZUUkNCakRKZ0lYSmZzdmlPa3BMeEpTR2RBaGc?oc=5",
+            "published": "Sun, 10 Nov 2024 03:01:31 GMT",
+            "text": "Moreirense FC Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Marco Alves - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ia3NKbEVZU3NVSVdsVkFfcTVLVzMwcDVTWlNuN0RJYkR3elNuaXNTRFNrTzhZN2ZvdUxYbkMybXFnekh4WTNyaDJqNmszcGxCTHNXMS0yYTZmUk5sUWR2Ym8tRk1fam0wTHo2VUs5Wk5VUjMz?oc=5",
+            "published": "Fri, 14 Apr 2023 23:56:15 GMT",
+            "text": "Marco Alves Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Vítor Oliveira - Teknik Direktör profili - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53S0NvSF9ZempCa2N1clJOX0huRHlwOGxkSDBzc2tqX2ZoTTRMcnpqZWNhblRlc0g0QW9CRHBmTU9lU28yM3dlZDMxYzBUdUdGRXZkeXh5ZjlRR2xBLXlLRTJMU2x1RFhWZ0tFS0E3TlRXbnctRGc?oc=5",
+            "published": "Sat, 28 Nov 2020 08:00:00 GMT",
+            "text": "Vítor Oliveira - Teknik Direktör profili Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense FC - Fikstür 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFeTRpNE5wRUtadzNaR3VvUHBKVmE2dkREMS1RdnVPUmNaemtXdEhFM3dZR2FwamRtWkEzbkdCN1RxUWdhTjgxbWpLRm5ycDdGSXNQX1U3QVpSQVJCaUl1T2dYRXpNSVRweEQtdm1oQzVvcWVhUFE?oc=5",
+            "published": "Sun, 04 Jun 2017 15:29:31 GMT",
+            "text": "Moreirense FC - Fikstür 26/27 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Moreirense FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lZm9JRXBmc2NYbjZDSmVQU0l3MFN1SlhmUkdQUXlxLXl2NlVwZDB0TWZWUVZKWGhhWjFIVVhIN2ZISUVvaWYtcG9HRVpvcXpuV2RvZGc3WGFkcGt6a0tlNDR5VWlueDhoMVNZd3U3T0h1OFU?oc=5",
+            "published": "Sat, 08 Jun 2019 12:49:52 GMT",
+            "text": "Moreirense FC Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "SC Braga - Fikstür 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5sRVRCOTRyQmRzRXBZXzVhZnBXblNKd0R6ME55NVVSSlJaSkVxcDI0M0xxMUZMaU5PY3cxNnZYeU55UzU0LVdwRFBaSUtZSXBGUUQzckIySHZiSDhhbGN6NGpVYTByRzNKRnVobGswY1IzWEUyN24xNVl3OVYycEhyUGk?oc=5",
+            "published": "Fri, 04 Jul 2025 16:07:33 GMT",
+            "text": "SC Braga - Fikstür 25/26 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Petit - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkdlB6ckJCUDNCOUpfNXB5Zy1RZ25KV1FVZkpveGdyQWlMQUtKdS1WNVVlN0YxazlZRXVCWVEydDFONDZTWGtlMVRhS1NVV1ZCcEluVGsxdEo1Q1luNVhHU2JaVDJVQTVfajV0eUh3?oc=5",
+            "published": "Thu, 07 May 2020 14:32:28 GMT",
+            "text": "Petit Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Porto - Fikstür 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHgxbGNmWWRtTTFoVVpINGlPV01RNmRwaERxMWJ0Z1cyMVFKQVZPaFVzemtIdEdwRVBVUE55WnBVcVBqRURKbjQ5anhhTTNVTGdiRDMxaFpWcXlHenFQNXc0MlRrNWEyTzFMVjU0TzFYemgtd1N4TUlwWFF5QUVkX0FRVQ?oc=5",
+            "published": "Fri, 04 Jul 2025 17:01:06 GMT",
+            "text": "FC Porto - Fikstür 25/26 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Moreirense FC",
+        "away": "Gil Vicente FC"
+      },
+      "dixon_coles": {
+        "home_win": 0.3453019318279144,
+        "draw": 0.29547301102174006,
+        "away_win": 0.35922505715034553,
+        "btts_yes": 0.5485043045380815,
+        "btts_no": 0.4514956954619185,
+        "over_2_5": 0.4854903680316917,
+        "under_2_5": 0.5145096319683082,
+        "lambda_home": 1.2929428657799038,
+        "lambda_away": 1.3227395855058444,
+        "elo_home": 1480.580042601803,
+        "elo_away": 1493.5297087964163,
+        "rho": -0.13
+      },
+      "signal": {
+        "stat_probability": 0.4133,
+        "dixon_coles_probability": 0.3453,
+        "final_probability": 0.3971,
+        "category": "WATCH"
+      },
+      "model_markets": [
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.583333,
+          "model_probability_pct": 58.33,
+          "fair_odds": 1.71,
+          "odds_required_for_value": 1.77
+        },
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.532803,
+          "model_probability_pct": 53.28,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.93
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.511273,
+          "model_probability_pct": 51.13,
+          "fair_odds": 1.96,
+          "odds_required_for_value": 2.01
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.488727,
+          "model_probability_pct": 48.87,
+          "fair_odds": 2.05,
+          "odds_required_for_value": 2.11
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.467197,
+          "model_probability_pct": 46.72,
+          "fair_odds": 2.14,
+          "odds_required_for_value": 2.2
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.43894,
+          "model_probability_pct": 43.89,
+          "fair_odds": 2.28,
+          "odds_required_for_value": 2.35
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.426397,
+          "model_probability_pct": 42.64,
+          "fair_odds": 2.35,
+          "odds_required_for_value": 2.42
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.421795,
+          "model_probability_pct": 42.18,
+          "fair_odds": 2.37,
+          "odds_required_for_value": 2.44
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.421349,
+          "model_probability_pct": 42.13,
+          "fair_odds": 2.37,
+          "odds_required_for_value": 2.44
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.416667,
+          "model_probability_pct": 41.67,
+          "fair_odds": 2.4,
+          "odds_required_for_value": 2.47
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.361875,
+          "model_probability_pct": 36.19,
+          "fair_odds": 2.76,
+          "odds_required_for_value": 2.85
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.292442,
+          "model_probability_pct": 29.24,
+          "fair_odds": 3.42,
+          "odds_required_for_value": 3.52
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.281161,
+          "model_probability_pct": 28.12,
+          "fair_odds": 3.56,
+          "odds_required_for_value": 3.66
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.3917889488709358,
+          0.3722566420537272,
+          0.5
+        ],
+        "draw": [
+          0.29015205936847904,
+          0.29547301102174006,
+          0.5
+        ],
+        "away_win": [
+          0.3881687928627592,
+          0.3772162985777937,
+          0.5
+        ],
+        "btts_yes": [
+          0.5485043045380815,
+          0.5499038740842733,
+          0.5
+        ],
+        "btts_no": [
+          0.4514956954619185,
+          0.4500961259157267,
+          0.5
+        ],
+        "over_2_5": [
+          0.4854903680316917,
+          0.48069133122852253,
+          0.5
+        ],
+        "under_2_5": [
+          0.5145096319683082,
+          0.5193086687714774,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.4071971923619171,
+          0.4096214169729637,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.375,
+          0.375,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.625,
+          0.625,
+          0.5
+        ],
+        "first_half_home": [
+          0.25,
+          0.2786516853932584,
+          0.3486750348675035
+        ],
+        "first_half_draw": [
+          0.5,
+          0.4514357053682896,
+          0.3277545327754533
+        ],
+        "first_half_away": [
+          0.25,
+          0.26991260923845195,
+          0.32357043235704325
+        ]
+      },
+      "htft_matrix": [],
+      "market_analysis": [
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "cards_under_4_5",
+          "odds": 1.78,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 60.0,
+          "implied_probability_pct": 56.2,
+          "market_probability_pct": 47.8,
+          "fair_odds": 1.67,
+          "value_edge_pct": 12.2,
+          "ev_pct": 6.8,
+          "calibration_gap_pct": 12.2,
+          "consensus": "2/3",
+          "confidence_10": 5.44,
+          "decision": "ANALYZE",
+          "reasons": [],
+          "engines": {
+            "statistical_pct": 62.5,
+            "prediction_pct": 62.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 47.8
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "home_win",
+          "odds": 3.03,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 40.7,
+          "implied_probability_pct": 33.0,
+          "market_probability_pct": 28.1,
+          "fair_odds": 2.46,
+          "value_edge_pct": 12.6,
+          "ev_pct": 23.2,
+          "calibration_gap_pct": 12.6,
+          "consensus": "0/3",
+          "confidence_10": 4.89,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.2,
+            "prediction_pct": 37.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 28.1
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_home",
+          "odds": 3.76,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 28.0,
+          "implied_probability_pct": 26.6,
+          "market_probability_pct": 22.6,
+          "fair_odds": 3.57,
+          "value_edge_pct": 5.38,
+          "ev_pct": 5.19,
+          "calibration_gap_pct": 5.38,
+          "consensus": "0/3",
+          "confidence_10": 2.75,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 27.9,
+            "intelligence_pct": 34.9,
+            "market_benchmark_pct": 22.6
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_over_2_5",
+          "odds": 2.44,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 42.7,
+          "implied_probability_pct": 41.0,
+          "market_probability_pct": 41.0,
+          "fair_odds": 2.34,
+          "value_edge_pct": 1.68,
+          "ev_pct": 4.09,
+          "calibration_gap_pct": 1.68,
+          "consensus": "0/3",
+          "confidence_10": 3.47,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 40.7,
+            "prediction_pct": 41.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "over_2_5",
+          "odds": 2.05,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 48.7,
+          "implied_probability_pct": 48.8,
+          "market_probability_pct": 41.4,
+          "fair_odds": 2.05,
+          "value_edge_pct": 7.24,
+          "ev_pct": -0.22,
+          "calibration_gap_pct": 7.24,
+          "consensus": "0/3",
+          "confidence_10": 3.48,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 48.5,
+            "prediction_pct": 48.1,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 41.4
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_yes",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 53.9,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
+          "fair_odds": 1.85,
+          "value_edge_pct": 5.84,
+          "ev_pct": -4.55,
+          "calibration_gap_pct": 5.84,
+          "consensus": "0/3",
+          "confidence_10": 3.77,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 54.9,
+            "prediction_pct": 55.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.1
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "draw",
+          "odds": 2.83,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.4,
+          "implied_probability_pct": 35.3,
+          "market_probability_pct": 30.0,
+          "fair_odds": 2.99,
+          "value_edge_pct": 3.35,
+          "ev_pct": -5.48,
+          "calibration_gap_pct": 3.35,
+          "consensus": "0/3",
+          "confidence_10": 2.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 29.0,
+            "prediction_pct": 29.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 30.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_draw",
+          "odds": 1.85,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.9,
+          "implied_probability_pct": 54.1,
+          "market_probability_pct": 45.9,
+          "fair_odds": 2.23,
+          "value_edge_pct": -1.08,
+          "ev_pct": -17.02,
+          "calibration_gap_pct": -1.08,
+          "consensus": "0/3",
+          "confidence_10": 3.27,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 45.1,
+            "intelligence_pct": 32.8,
+            "market_benchmark_pct": 45.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "away_win",
+          "odds": 2.03,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.7,
+          "implied_probability_pct": 49.3,
+          "market_probability_pct": 41.9,
+          "fair_odds": 2.46,
+          "value_edge_pct": -1.22,
+          "ev_pct": -17.44,
+          "calibration_gap_pct": -1.22,
+          "consensus": "0/3",
+          "confidence_10": 3.04,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 38.8,
+            "prediction_pct": 37.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 41.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "corners_over_8_5",
+          "odds": 1.65,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.6,
+          "market_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "value_edge_pct": 0.0,
+          "ev_pct": -17.5,
+          "calibration_gap_pct": 0.0,
+          "consensus": "0/3",
+          "confidence_10": 3.55,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "corners_under_8_5",
+          "odds": 1.65,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.6,
+          "market_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "value_edge_pct": 0.0,
+          "ev_pct": -17.5,
+          "calibration_gap_pct": 0.0,
+          "consensus": "0/3",
+          "confidence_10": 3.55,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_no",
+          "odds": 1.64,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 46.1,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
+          "fair_odds": 2.17,
+          "value_edge_pct": -5.84,
+          "ev_pct": -24.44,
+          "calibration_gap_pct": -5.84,
+          "consensus": "0/3",
+          "confidence_10": 3.33,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 45.1,
+            "prediction_pct": 45.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "under_2_5",
+          "odds": 1.45,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 51.3,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.6,
+          "fair_odds": 1.95,
+          "value_edge_pct": -7.24,
+          "ev_pct": -25.57,
+          "calibration_gap_pct": -7.24,
+          "consensus": "0/3",
+          "confidence_10": 3.62,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 51.5,
+            "prediction_pct": 51.9,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 58.6
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_away",
+          "odds": 2.7,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 27.2,
+          "implied_probability_pct": 37.0,
+          "market_probability_pct": 31.5,
+          "fair_odds": 3.68,
+          "value_edge_pct": -4.3,
+          "ev_pct": -26.65,
+          "calibration_gap_pct": -4.3,
+          "consensus": "0/3",
+          "confidence_10": 2.29,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 27.0,
+            "intelligence_pct": 32.4,
+            "market_benchmark_pct": 31.5
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "cards_over_4_5",
+          "odds": 1.63,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.0,
+          "implied_probability_pct": 61.3,
+          "market_probability_pct": 52.2,
+          "fair_odds": 2.5,
+          "value_edge_pct": -12.2,
+          "ev_pct": -34.8,
+          "calibration_gap_pct": -12.2,
+          "consensus": "0/3",
+          "confidence_10": 3.0,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 37.5,
+            "prediction_pct": 37.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 52.2
+          }
+        }
+      ]
+    }
+  ],
   "all_scanned": [
     {
       "home": "PSV",
@@ -786,7 +2965,355 @@
         ]
       },
       "htft_matrix": [],
-      "market_analysis": []
+      "market_analysis": [
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "cards_under_4_5",
+          "odds": 1.71,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 70.0,
+          "implied_probability_pct": 58.5,
+          "market_probability_pct": 49.7,
+          "fair_odds": 1.43,
+          "value_edge_pct": 20.29,
+          "ev_pct": 19.7,
+          "calibration_gap_pct": 20.29,
+          "consensus": "2/3",
+          "confidence_10": 6.93,
+          "decision": "ANALYZE",
+          "reasons": [],
+          "engines": {
+            "statistical_pct": 75.0,
+            "prediction_pct": 75.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.7
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "away_win",
+          "odds": 8.09,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 31.4,
+          "implied_probability_pct": 12.4,
+          "market_probability_pct": 10.5,
+          "fair_odds": 3.18,
+          "value_edge_pct": 20.98,
+          "ev_pct": 154.32,
+          "calibration_gap_pct": 20.98,
+          "consensus": "0/3",
+          "confidence_10": 4.83,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 27.7,
+            "prediction_pct": 25.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 10.5
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "draw",
+          "odds": 6.69,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 28.0,
+          "implied_probability_pct": 14.9,
+          "market_probability_pct": 12.6,
+          "fair_odds": 3.57,
+          "value_edge_pct": 15.35,
+          "ev_pct": 87.28,
+          "calibration_gap_pct": 15.35,
+          "consensus": "0/3",
+          "confidence_10": 4.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 22.7,
+            "prediction_pct": 22.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 12.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "corners_under_8_5",
+          "odds": 3.13,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 46.0,
+          "implied_probability_pct": 31.9,
+          "market_probability_pct": 26.4,
+          "fair_odds": 2.17,
+          "value_edge_pct": 19.65,
+          "ev_pct": 43.98,
+          "calibration_gap_pct": 19.65,
+          "consensus": "0/3",
+          "confidence_10": 5.63,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 45.0,
+            "prediction_pct": 45.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 26.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_draw",
+          "odds": 3.34,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 42.6,
+          "implied_probability_pct": 29.9,
+          "market_probability_pct": 25.4,
+          "fair_odds": 2.35,
+          "value_edge_pct": 17.13,
+          "ev_pct": 42.22,
+          "calibration_gap_pct": 17.13,
+          "consensus": "0/3",
+          "confidence_10": 5.44,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 47.0,
+            "prediction_pct": 43.0,
+            "intelligence_pct": 32.0,
+            "market_benchmark_pct": 25.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_away",
+          "odds": 6.34,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 20.8,
+          "implied_probability_pct": 15.8,
+          "market_probability_pct": 13.4,
+          "fair_odds": 4.81,
+          "value_edge_pct": 7.37,
+          "ev_pct": 31.69,
+          "calibration_gap_pct": 7.37,
+          "consensus": "0/3",
+          "confidence_10": 4.24,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 16.5,
+            "prediction_pct": 20.5,
+            "intelligence_pct": 30.9,
+            "market_benchmark_pct": 13.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_no",
+          "odds": 2.68,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 35.1,
+          "implied_probability_pct": 37.3,
+          "market_probability_pct": 31.6,
+          "fair_odds": 2.85,
+          "value_edge_pct": 3.43,
+          "ev_pct": -6.03,
+          "calibration_gap_pct": 3.43,
+          "consensus": "0/3",
+          "confidence_10": 2.63,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 31.6,
+            "prediction_pct": 31.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 31.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_yes",
+          "odds": 1.24,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 64.9,
+          "implied_probability_pct": 80.6,
+          "market_probability_pct": 68.4,
+          "fair_odds": 1.54,
+          "value_edge_pct": -3.43,
+          "ev_pct": -19.48,
+          "calibration_gap_pct": -3.43,
+          "consensus": "2/3",
+          "confidence_10": 5.07,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 68.4,
+            "prediction_pct": 69.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 68.4
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "btts_over_2_5",
+          "odds": 1.3,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 57.7,
+          "implied_probability_pct": 76.9,
+          "market_probability_pct": 76.9,
+          "fair_odds": 1.73,
+          "value_edge_pct": -19.2,
+          "ev_pct": -24.96,
+          "calibration_gap_pct": -19.2,
+          "consensus": "2/3",
+          "confidence_10": 4.67,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 59.1,
+            "prediction_pct": 60.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "corners_over_8_5",
+          "odds": 1.12,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 54.0,
+          "implied_probability_pct": 89.3,
+          "market_probability_pct": 73.6,
+          "fair_odds": 1.85,
+          "value_edge_pct": -19.65,
+          "ev_pct": -39.52,
+          "calibration_gap_pct": -19.65,
+          "consensus": "2/3",
+          "confidence_10": 4.47,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 55.0,
+            "prediction_pct": 55.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 73.6
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "home_win",
+          "odds": 1.1,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 54.7,
+          "implied_probability_pct": 90.9,
+          "market_probability_pct": 76.9,
+          "fair_odds": 1.83,
+          "value_edge_pct": -22.19,
+          "ev_pct": -39.82,
+          "calibration_gap_pct": -22.19,
+          "consensus": "2/3",
+          "confidence_10": 4.51,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 56.1,
+            "prediction_pct": 55.6,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 76.9
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "first_half_home",
+          "odds": 1.39,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 36.6,
+          "implied_probability_pct": 71.9,
+          "market_probability_pct": 61.1,
+          "fair_odds": 2.73,
+          "value_edge_pct": -24.5,
+          "ev_pct": -49.06,
+          "calibration_gap_pct": -24.5,
+          "consensus": "0/3",
+          "confidence_10": 2.72,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 36.5,
+            "prediction_pct": 36.6,
+            "intelligence_pct": 37.1,
+            "market_benchmark_pct": 61.1
+          }
+        },
+        {
+          "match": "PSV vs SC Heerenveen",
+          "market": "cards_over_4_5",
+          "odds": 1.69,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 30.0,
+          "implied_probability_pct": 59.2,
+          "market_probability_pct": 50.3,
+          "fair_odds": 3.33,
+          "value_edge_pct": -20.29,
+          "ev_pct": -49.3,
+          "calibration_gap_pct": -20.29,
+          "consensus": "0/3",
+          "confidence_10": 2.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 25.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.3
+          }
+        }
+      ]
     },
     {
       "home": "West Ham United FC",
@@ -1374,7 +3901,419 @@
         ]
       },
       "htft_matrix": [],
-      "market_analysis": []
+      "market_analysis": [
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "away_win",
+          "odds": 5.15,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.5,
+          "implied_probability_pct": 19.4,
+          "market_probability_pct": 16.5,
+          "fair_odds": 2.98,
+          "value_edge_pct": 17.0,
+          "ev_pct": 72.66,
+          "calibration_gap_pct": 17.0,
+          "consensus": "0/3",
+          "confidence_10": 4.84,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 30.5,
+            "prediction_pct": 28.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 16.5
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "first_half_away",
+          "odds": 5.15,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.0,
+          "implied_probability_pct": 19.4,
+          "market_probability_pct": 16.5,
+          "fair_odds": 3.03,
+          "value_edge_pct": 16.53,
+          "ev_pct": 70.18,
+          "calibration_gap_pct": 16.53,
+          "consensus": "0/3",
+          "confidence_10": 4.82,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 33.0,
+            "prediction_pct": 33.0,
+            "intelligence_pct": 33.3,
+            "market_benchmark_pct": 16.5
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "corners_under_8_5",
+          "odds": 2.54,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 39.4,
+          "market_probability_pct": 32.6,
+          "fair_odds": 2.0,
+          "value_edge_pct": 17.37,
+          "ev_pct": 27.0,
+          "calibration_gap_pct": 17.37,
+          "consensus": "0/3",
+          "confidence_10": 5.51,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 32.6
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "draw",
+          "odds": 4.17,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 29.5,
+          "implied_probability_pct": 24.0,
+          "market_probability_pct": 20.4,
+          "fair_odds": 3.39,
+          "value_edge_pct": 9.05,
+          "ev_pct": 22.86,
+          "calibration_gap_pct": 9.05,
+          "consensus": "0/3",
+          "confidence_10": 4.05,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 24.4,
+            "prediction_pct": 24.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 20.4
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "btts_over_2_5",
+          "odds": 1.76,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 53.8,
+          "implied_probability_pct": 56.8,
+          "market_probability_pct": 56.8,
+          "fair_odds": 1.86,
+          "value_edge_pct": -3.05,
+          "ev_pct": -5.37,
+          "calibration_gap_pct": -3.05,
+          "consensus": "1/3",
+          "confidence_10": 3.96,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 53.9,
+            "prediction_pct": 55.8,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "btts_yes",
+          "odds": 1.51,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 62.3,
+          "implied_probability_pct": 66.2,
+          "market_probability_pct": 56.5,
+          "fair_odds": 1.61,
+          "value_edge_pct": 5.78,
+          "ev_pct": -5.98,
+          "calibration_gap_pct": 5.78,
+          "consensus": "2/3",
+          "confidence_10": 4.82,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 64.7,
+            "prediction_pct": 66.1,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 56.5
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "cards_under_4_5",
+          "odds": 1.72,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.4,
+          "fair_odds": 2.0,
+          "value_edge_pct": 0.59,
+          "ev_pct": -14.0,
+          "calibration_gap_pct": 0.59,
+          "consensus": "0/3",
+          "confidence_10": 3.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.4
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "over_2_5",
+          "odds": 1.38,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 62.0,
+          "implied_probability_pct": 72.5,
+          "market_probability_pct": 61.6,
+          "fair_odds": 1.61,
+          "value_edge_pct": 0.46,
+          "ev_pct": -14.42,
+          "calibration_gap_pct": 0.46,
+          "consensus": "2/3",
+          "confidence_10": 4.81,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 64.5,
+            "prediction_pct": 65.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 61.6
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "cards_over_4_5",
+          "odds": 1.68,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 59.5,
+          "market_probability_pct": 50.6,
+          "fair_odds": 2.0,
+          "value_edge_pct": -0.59,
+          "ev_pct": -16.0,
+          "calibration_gap_pct": -0.59,
+          "consensus": "0/3",
+          "confidence_10": 3.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.6
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "under_2_5",
+          "odds": 2.21,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 38.0,
+          "implied_probability_pct": 45.2,
+          "market_probability_pct": 38.4,
+          "fair_odds": 2.63,
+          "value_edge_pct": -0.46,
+          "ev_pct": -16.05,
+          "calibration_gap_pct": -0.46,
+          "consensus": "0/3",
+          "confidence_10": 2.69,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 35.5,
+            "prediction_pct": 34.3,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 38.4
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "first_half_draw",
+          "odds": 2.4,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 33.9,
+          "implied_probability_pct": 41.7,
+          "market_probability_pct": 35.4,
+          "fair_odds": 2.95,
+          "value_edge_pct": -1.58,
+          "ev_pct": -18.74,
+          "calibration_gap_pct": -1.58,
+          "consensus": "0/3",
+          "confidence_10": 2.46,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 34.0,
+            "prediction_pct": 34.0,
+            "intelligence_pct": 33.3,
+            "market_benchmark_pct": 35.4
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "btts_no",
+          "odds": 1.96,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 37.7,
+          "implied_probability_pct": 51.0,
+          "market_probability_pct": 43.5,
+          "fair_odds": 2.65,
+          "value_edge_pct": -5.78,
+          "ev_pct": -26.04,
+          "calibration_gap_pct": -5.78,
+          "consensus": "0/3",
+          "confidence_10": 2.68,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 35.3,
+            "prediction_pct": 33.9,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 43.5
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "home_win",
+          "odds": 1.35,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 51.1,
+          "implied_probability_pct": 74.1,
+          "market_probability_pct": 63.1,
+          "fair_odds": 1.96,
+          "value_edge_pct": -11.93,
+          "ev_pct": -30.98,
+          "calibration_gap_pct": -11.93,
+          "consensus": "0/3",
+          "confidence_10": 3.41,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 51.3,
+            "prediction_pct": 51.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 63.1
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "corners_over_8_5",
+          "odds": 1.23,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 81.3,
+          "market_probability_pct": 67.4,
+          "fair_odds": 2.0,
+          "value_edge_pct": -17.37,
+          "ev_pct": -38.5,
+          "calibration_gap_pct": -17.37,
+          "consensus": "0/3",
+          "confidence_10": 3.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 67.4
+          }
+        },
+        {
+          "match": "West Ham United FC vs Queens Park Rangers FC",
+          "market": "first_half_home",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 33.1,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.0,
+          "fair_odds": 3.02,
+          "value_edge_pct": -14.95,
+          "ev_pct": -41.42,
+          "calibration_gap_pct": -14.95,
+          "consensus": "0/3",
+          "confidence_10": 2.42,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 33.0,
+            "prediction_pct": 33.0,
+            "intelligence_pct": 33.4,
+            "market_benchmark_pct": 48.0
+          }
+        }
+      ]
     },
     {
       "home": "Borussia Dortmund",
@@ -1859,19 +4798,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stuttgart Vs Werder Bremen: canlı skorlar, kadrolar ve H2H - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUxmWkdrcU9tYW92VGUwMXJmTUluNjFyTVBWQV9NdmVOY2FmLVlFU1VYLTlJSXBaWDFiYTd6YVZEUkV2MTVHY19OODhCS3MzNGhHWnZ0bGhHSEpTSHoxN1RScTNwZWY2ZUJ3bkZIcEVNSnUtUmFTQnlvQkFET0FKdkVuU1NuLTcwUTd2ejA3RElhVGJXb0tV?oc=5",
-            "published": "Wed, 06 Mar 2024 14:36:21 GMT",
-            "text": "Stuttgart Vs Werder Bremen: canlı skorlar, kadrolar ve H2H 365Scores",
+            "title": "Almanya, Türkiye maçı kadrosunu açıkladı - Sporx.com",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2k0RHU2N1pqQVVmRTNxVjRwV290Rk5NTnNucHVab041Y1YyX0lOWUVxeUtYVkstQ2pCNWUtaTBUQnMwVkdLU2QxU1FWdmR3OHRsZDMwRmV4bVlhbWw1Z0hRbnExMjVzaUtDTVVnNTVyMWFEYjlHS2tFMzBlOXdZeVc3QdIBhgFBVV95cUxPN2NuUDdfNGVCZVJqYmt5T0ZxQmZ4aXItbURrNjQ0WTM1LU1oWFRWeVpVSGExZlFyNFN1REw0cG5BTzB6NVZGMTZEekpMM19xbi1fSUxFNkF3WEFIbERFdWZpZnRaMEFYTXpDNEVpRTV6UzJUMEdESC1kMVRsVnNyWGpDcTkzUQ?oc=5",
+            "published": "Fri, 10 Nov 2023 08:00:00 GMT",
+            "text": "Almanya, Türkiye maçı kadrosunu açıkladı Sporx.com",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Almanya, Türkiye maçı kadrosunu açıkladı - Sporx.com",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2k0RHU2N1pqQVVmRTNxVjRwV290Rk5NTnNucHVab041Y1YyX0lOWUVxeUtYVkstQ2pCNWUtaTBUQnMwVkdLU2QxU1FWdmR3OHRsZDMwRmV4bVlhbWw1Z0hRbnExMjVzaUtDTVVnNTVyMWFEYjlHS2tFMzBlOXdZeVc3QdIBhgFBVV95cUxPN2NuUDdfNGVCZVJqYmt5T0ZxQmZ4aXItbURrNjQ0WTM1LU1oWFRWeVpVSGExZlFyNFN1REw0cG5BTzB6NVZGMTZEekpMM19xbi1fSUxFNkF3WEFIbERFdWZpZnRaMEFYTXpDNEVpRTV6UzJUMEdESC1kMVRsVnNyWGpDcTkzUQ?oc=5",
-            "published": "Fri, 10 Nov 2023 08:00:00 GMT",
-            "text": "Almanya, Türkiye maçı kadrosunu açıkladı Sporx.com",
+            "title": "Stuttgart Vs Werder Bremen: canlı skorlar, kadrolar ve H2H - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUxmWkdrcU9tYW92VGUwMXJmTUluNjFyTVBWQV9NdmVOY2FmLVlFU1VYLTlJSXBaWDFiYTd6YVZEUkV2MTVHY19OODhCS3MzNGhHWnZ0bGhHSEpTSHoxN1RScTNwZWY2ZUJ3bkZIcEVNSnUtUmFTQnlvQkFET0FKdkVuU1NuLTcwUTd2ejA3RElhVGJXb0tV?oc=5",
+            "published": "Wed, 06 Mar 2024 14:36:21 GMT",
+            "text": "Stuttgart Vs Werder Bremen: canlı skorlar, kadrolar ve H2H 365Scores",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3284,7 +6223,416 @@
         ]
       },
       "htft_matrix": [],
-      "market_analysis": []
+      "market_analysis": [
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "cards_under_4_5",
+          "odds": 1.78,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 60.0,
+          "implied_probability_pct": 56.2,
+          "market_probability_pct": 47.8,
+          "fair_odds": 1.67,
+          "value_edge_pct": 12.2,
+          "ev_pct": 6.8,
+          "calibration_gap_pct": 12.2,
+          "consensus": "2/3",
+          "confidence_10": 5.44,
+          "decision": "ANALYZE",
+          "reasons": [],
+          "engines": {
+            "statistical_pct": 62.5,
+            "prediction_pct": 62.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 47.8
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "home_win",
+          "odds": 3.03,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 40.7,
+          "implied_probability_pct": 33.0,
+          "market_probability_pct": 28.1,
+          "fair_odds": 2.46,
+          "value_edge_pct": 12.6,
+          "ev_pct": 23.2,
+          "calibration_gap_pct": 12.6,
+          "consensus": "0/3",
+          "confidence_10": 4.89,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.2,
+            "prediction_pct": 37.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 28.1
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_home",
+          "odds": 3.76,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 28.0,
+          "implied_probability_pct": 26.6,
+          "market_probability_pct": 22.6,
+          "fair_odds": 3.57,
+          "value_edge_pct": 5.38,
+          "ev_pct": 5.19,
+          "calibration_gap_pct": 5.38,
+          "consensus": "0/3",
+          "confidence_10": 2.75,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 27.9,
+            "intelligence_pct": 34.9,
+            "market_benchmark_pct": 22.6
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_over_2_5",
+          "odds": 2.44,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 42.7,
+          "implied_probability_pct": 41.0,
+          "market_probability_pct": 41.0,
+          "fair_odds": 2.34,
+          "value_edge_pct": 1.68,
+          "ev_pct": 4.09,
+          "calibration_gap_pct": 1.68,
+          "consensus": "0/3",
+          "confidence_10": 3.47,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 40.7,
+            "prediction_pct": 41.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "over_2_5",
+          "odds": 2.05,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 48.7,
+          "implied_probability_pct": 48.8,
+          "market_probability_pct": 41.4,
+          "fair_odds": 2.05,
+          "value_edge_pct": 7.24,
+          "ev_pct": -0.22,
+          "calibration_gap_pct": 7.24,
+          "consensus": "0/3",
+          "confidence_10": 3.48,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 48.5,
+            "prediction_pct": 48.1,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 41.4
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_yes",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 53.9,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
+          "fair_odds": 1.85,
+          "value_edge_pct": 5.84,
+          "ev_pct": -4.55,
+          "calibration_gap_pct": 5.84,
+          "consensus": "0/3",
+          "confidence_10": 3.77,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 54.9,
+            "prediction_pct": 55.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.1
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "draw",
+          "odds": 2.83,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.4,
+          "implied_probability_pct": 35.3,
+          "market_probability_pct": 30.0,
+          "fair_odds": 2.99,
+          "value_edge_pct": 3.35,
+          "ev_pct": -5.48,
+          "calibration_gap_pct": 3.35,
+          "consensus": "0/3",
+          "confidence_10": 2.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 29.0,
+            "prediction_pct": 29.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 30.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_draw",
+          "odds": 1.85,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.9,
+          "implied_probability_pct": 54.1,
+          "market_probability_pct": 45.9,
+          "fair_odds": 2.23,
+          "value_edge_pct": -1.08,
+          "ev_pct": -17.02,
+          "calibration_gap_pct": -1.08,
+          "consensus": "0/3",
+          "confidence_10": 3.27,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 45.1,
+            "intelligence_pct": 32.8,
+            "market_benchmark_pct": 45.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "away_win",
+          "odds": 2.03,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.7,
+          "implied_probability_pct": 49.3,
+          "market_probability_pct": 41.9,
+          "fair_odds": 2.46,
+          "value_edge_pct": -1.22,
+          "ev_pct": -17.44,
+          "calibration_gap_pct": -1.22,
+          "consensus": "0/3",
+          "confidence_10": 3.04,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 38.8,
+            "prediction_pct": 37.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 41.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "corners_over_8_5",
+          "odds": 1.65,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.6,
+          "market_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "value_edge_pct": 0.0,
+          "ev_pct": -17.5,
+          "calibration_gap_pct": 0.0,
+          "consensus": "0/3",
+          "confidence_10": 3.55,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "corners_under_8_5",
+          "odds": 1.65,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.6,
+          "market_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "value_edge_pct": 0.0,
+          "ev_pct": -17.5,
+          "calibration_gap_pct": 0.0,
+          "consensus": "0/3",
+          "confidence_10": 3.55,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.0
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "btts_no",
+          "odds": 1.64,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 46.1,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
+          "fair_odds": 2.17,
+          "value_edge_pct": -5.84,
+          "ev_pct": -24.44,
+          "calibration_gap_pct": -5.84,
+          "consensus": "0/3",
+          "confidence_10": 3.33,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 45.1,
+            "prediction_pct": 45.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.9
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "under_2_5",
+          "odds": 1.45,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 51.3,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.6,
+          "fair_odds": 1.95,
+          "value_edge_pct": -7.24,
+          "ev_pct": -25.57,
+          "calibration_gap_pct": -7.24,
+          "consensus": "0/3",
+          "confidence_10": 3.62,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 51.5,
+            "prediction_pct": 51.9,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 58.6
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "first_half_away",
+          "odds": 2.7,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 27.2,
+          "implied_probability_pct": 37.0,
+          "market_probability_pct": 31.5,
+          "fair_odds": 3.68,
+          "value_edge_pct": -4.3,
+          "ev_pct": -26.65,
+          "calibration_gap_pct": -4.3,
+          "consensus": "0/3",
+          "confidence_10": 2.29,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.0,
+            "prediction_pct": 27.0,
+            "intelligence_pct": 32.4,
+            "market_benchmark_pct": 31.5
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "cards_over_4_5",
+          "odds": 1.63,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.0,
+          "implied_probability_pct": 61.3,
+          "market_probability_pct": 52.2,
+          "fair_odds": 2.5,
+          "value_edge_pct": -12.2,
+          "ev_pct": -34.8,
+          "calibration_gap_pct": -12.2,
+          "consensus": "0/3",
+          "confidence_10": 3.0,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 37.5,
+            "prediction_pct": 37.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 52.2
+          }
+        }
+      ]
     },
     {
       "home": "Sporting Clube de Braga",
@@ -3719,7 +7067,418 @@
         ]
       },
       "htft_matrix": [],
-      "market_analysis": []
+      "market_analysis": [
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "first_half_home",
+          "odds": 3.68,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.0,
+          "implied_probability_pct": 27.2,
+          "market_probability_pct": 23.1,
+          "fair_odds": 3.03,
+          "value_edge_pct": 9.89,
+          "ev_pct": 21.37,
+          "calibration_gap_pct": 9.89,
+          "consensus": "0/3",
+          "confidence_10": 4.02,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 33.0,
+            "prediction_pct": 32.9,
+            "intelligence_pct": 33.1,
+            "market_benchmark_pct": 23.1
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "home_win",
+          "odds": 3.14,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 38.1,
+          "implied_probability_pct": 31.8,
+          "market_probability_pct": 27.0,
+          "fair_odds": 2.62,
+          "value_edge_pct": 11.09,
+          "ev_pct": 19.66,
+          "calibration_gap_pct": 11.09,
+          "consensus": "0/3",
+          "confidence_10": 4.17,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 35.9,
+            "prediction_pct": 34.1,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 27.0
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "draw",
+          "odds": 3.1,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 31.9,
+          "implied_probability_pct": 32.3,
+          "market_probability_pct": 27.4,
+          "fair_odds": 3.14,
+          "value_edge_pct": 4.49,
+          "ev_pct": -1.24,
+          "calibration_gap_pct": 4.49,
+          "consensus": "0/3",
+          "confidence_10": 2.25,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 27.2,
+            "prediction_pct": 27.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 27.4
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "btts_over_2_5",
+          "odds": 1.95,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 48.4,
+          "implied_probability_pct": 51.3,
+          "market_probability_pct": 51.3,
+          "fair_odds": 2.06,
+          "value_edge_pct": -2.84,
+          "ev_pct": -5.53,
+          "calibration_gap_pct": -2.84,
+          "consensus": "0/3",
+          "confidence_10": 3.16,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 47.4,
+            "prediction_pct": 48.9,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": null
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "over_2_5",
+          "odds": 1.65,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 55.2,
+          "implied_probability_pct": 60.6,
+          "market_probability_pct": 51.3,
+          "fair_odds": 1.81,
+          "value_edge_pct": 3.85,
+          "ev_pct": -8.95,
+          "calibration_gap_pct": 3.85,
+          "consensus": "2/3",
+          "confidence_10": 4.34,
+          "decision": "NO BET",
+          "reasons": [
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 56.1,
+            "prediction_pct": 57.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.3
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "btts_yes",
+          "odds": 1.53,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 58.4,
+          "implied_probability_pct": 65.4,
+          "market_probability_pct": 55.4,
+          "fair_odds": 1.71,
+          "value_edge_pct": 3.04,
+          "ev_pct": -10.6,
+          "calibration_gap_pct": 3.04,
+          "consensus": "2/3",
+          "confidence_10": 4.51,
+          "decision": "NO BET",
+          "reasons": [
+            "Çok düşük oran (< 1.55)",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 60.3,
+            "prediction_pct": 60.8,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 55.4
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "cards_under_4_5",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
+          "fair_odds": 2.0,
+          "value_edge_pct": 1.91,
+          "ev_pct": -11.5,
+          "calibration_gap_pct": 1.91,
+          "consensus": "0/3",
+          "confidence_10": 3.25,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.1
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "corners_under_8_5",
+          "odds": 1.7,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 58.8,
+          "market_probability_pct": 48.5,
+          "fair_odds": 2.0,
+          "value_edge_pct": 1.52,
+          "ev_pct": -15.0,
+          "calibration_gap_pct": 1.52,
+          "consensus": "0/3",
+          "confidence_10": 3.25,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.5
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "away_win",
+          "odds": 1.86,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.4,
+          "implied_probability_pct": 53.8,
+          "market_probability_pct": 45.6,
+          "fair_odds": 2.25,
+          "value_edge_pct": -1.17,
+          "ev_pct": -17.34,
+          "calibration_gap_pct": -1.17,
+          "consensus": "0/3",
+          "confidence_10": 2.94,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 43.5,
+            "prediction_pct": 42.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 45.6
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "cards_over_4_5",
+          "odds": 1.64,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
+          "fair_odds": 2.0,
+          "value_edge_pct": -1.91,
+          "ev_pct": -18.0,
+          "calibration_gap_pct": -1.91,
+          "consensus": "0/3",
+          "confidence_10": 3.25,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.9
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "corners_over_8_5",
+          "odds": 1.6,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 62.5,
+          "market_probability_pct": 51.5,
+          "fair_odds": 2.0,
+          "value_edge_pct": -1.52,
+          "ev_pct": -20.0,
+          "calibration_gap_pct": -1.52,
+          "consensus": "0/3",
+          "confidence_10": 3.25,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.5
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "first_half_away",
+          "odds": 2.41,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 33.2,
+          "implied_probability_pct": 41.5,
+          "market_probability_pct": 35.3,
+          "fair_odds": 3.02,
+          "value_edge_pct": -2.09,
+          "ev_pct": -20.07,
+          "calibration_gap_pct": -2.09,
+          "consensus": "0/3",
+          "confidence_10": 2.32,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 33.0,
+            "prediction_pct": 33.1,
+            "intelligence_pct": 33.7,
+            "market_benchmark_pct": 35.3
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "btts_no",
+          "odds": 1.9,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 41.6,
+          "implied_probability_pct": 52.6,
+          "market_probability_pct": 44.6,
+          "fair_odds": 2.41,
+          "value_edge_pct": -3.04,
+          "ev_pct": -21.02,
+          "calibration_gap_pct": -3.04,
+          "consensus": "0/3",
+          "confidence_10": 2.79,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.7,
+            "prediction_pct": 39.2,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 44.6
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "under_2_5",
+          "odds": 1.74,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.8,
+          "implied_probability_pct": 57.5,
+          "market_probability_pct": 48.7,
+          "fair_odds": 2.23,
+          "value_edge_pct": -3.85,
+          "ev_pct": -22.02,
+          "calibration_gap_pct": -3.85,
+          "consensus": "0/3",
+          "confidence_10": 2.96,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 43.9,
+            "prediction_pct": 43.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.7
+          }
+        },
+        {
+          "match": "Sporting Clube de Braga vs Sporting Clube de Portugal",
+          "market": "first_half_draw",
+          "odds": 2.04,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 33.9,
+          "implied_probability_pct": 49.0,
+          "market_probability_pct": 41.7,
+          "fair_odds": 2.95,
+          "value_edge_pct": -7.8,
+          "ev_pct": -30.94,
+          "calibration_gap_pct": -7.8,
+          "consensus": "0/3",
+          "confidence_10": 2.36,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 34.0,
+            "prediction_pct": 34.0,
+            "intelligence_pct": 33.2,
+            "market_benchmark_pct": 41.7
+          }
+        }
+      ]
     },
     {
       "home": "Málaga CF",
