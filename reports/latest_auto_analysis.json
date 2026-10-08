@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:31:14.251946+03:00",
+  "generated_at": "2026-10-08T09:41:24.380429+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -15,7 +15,7 @@
   "fixtures_scanned": 7,
   "matches_with_odds": 0,
   "eligible_matches": 0,
-  "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. It is an independent probability component; probabilities are estimates, not guarantees.",
+  "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. Full market layer covers MS 1/X/2, İY 1/X/2, KG VAR/YOK, ÜST/ALT 2.5, KG VAR+ÜST 2.5, Korner ÜST/ALT 8.5 and Kart ÜST/ALT 4.5. Probabilities are estimates, fair odds are 1/p, and value decisions require concrete bookmaker odds.",
   "top_matches": [],
   "all_scanned": [
     {
@@ -38,7 +38,14 @@
           "goals_against_per_game": 1.4285714285714286,
           "over25_rate": 1.0,
           "btts_rate": 1.0,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 8,
@@ -48,7 +55,14 @@
           "goals_against_per_game": 1.75,
           "over25_rate": 0.625,
           "btts_rate": 0.5,
-          "source": "openfootball"
+          "ht_home_rate": 0.4,
+          "ht_draw_rate": 0.6,
+          "ht_away_rate": 0.0,
+          "corners_over8_5_rate": 0.6,
+          "cards_over4_5_rate": 0.0,
+          "corner_samples": 5,
+          "card_samples": 5,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -572,6 +586,206 @@
         "final_probability": 0.593,
         "category": "VALUE"
       },
+      "model_markets": [
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.666667,
+          "model_probability_pct": 66.67,
+          "fair_odds": 1.5,
+          "odds_required_for_value": 1.54
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.640078,
+          "model_probability_pct": 64.01,
+          "fair_odds": 1.56,
+          "odds_required_for_value": 1.61
+        },
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.62476,
+          "model_probability_pct": 62.48,
+          "fair_odds": 1.6,
+          "odds_required_for_value": 1.65
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.564897,
+          "model_probability_pct": 56.49,
+          "fair_odds": 1.77,
+          "odds_required_for_value": 1.82
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.539087,
+          "model_probability_pct": 53.91,
+          "fair_odds": 1.85,
+          "odds_required_for_value": 1.91
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.533333,
+          "model_probability_pct": 53.33,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.93
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.466667,
+          "model_probability_pct": 46.67,
+          "fair_odds": 2.14,
+          "odds_required_for_value": 2.21
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.406407,
+          "model_probability_pct": 40.64,
+          "fair_odds": 2.46,
+          "odds_required_for_value": 2.53
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.37524,
+          "model_probability_pct": 37.52,
+          "fair_odds": 2.66,
+          "odds_required_for_value": 2.74
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.367308,
+          "model_probability_pct": 36.73,
+          "fair_odds": 2.72,
+          "odds_required_for_value": 2.8
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.359922,
+          "model_probability_pct": 35.99,
+          "fair_odds": 2.78,
+          "odds_required_for_value": 2.86
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.344464,
+          "model_probability_pct": 34.45,
+          "fair_odds": 2.9,
+          "odds_required_for_value": 2.99
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.333333,
+          "model_probability_pct": 33.33,
+          "fair_odds": 3.0,
+          "odds_required_for_value": 3.09
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.316381,
+          "model_probability_pct": 31.64,
+          "fair_odds": 3.16,
+          "odds_required_for_value": 3.26
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.226285,
+          "model_probability_pct": 22.63,
+          "fair_odds": 4.42,
+          "odds_required_for_value": 4.55
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.5608456128120655,
+          0.5564166945203409,
+          0.5
+        ],
+        "draw": [
+          0.22744474152163796,
+          0.22169969590780936,
+          0.5
+        ],
+        "away_win": [
+          0.2767189009713632,
+          0.25667427824373545,
+          0.5
+        ],
+        "btts_yes": [
+          0.683832241917187,
+          0.6904490177254683,
+          0.5
+        ],
+        "btts_no": [
+          0.31616775808281306,
+          0.3095509822745317,
+          0.5
+        ],
+        "over_2_5": [
+          0.7047285529500142,
+          0.7155056976550129,
+          0.5
+        ],
+        "under_2_5": [
+          0.29527144704998576,
+          0.28449430234498707,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.5909850497528691,
+          0.6037062457726396,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.55,
+          0.55,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.44999999999999996,
+          0.44999999999999996,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.25,
+          0.25,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.75,
+          0.75,
+          0.5
+        ],
+        "first_half_home": [
+          0.365,
+          0.3656626077049064,
+          0.37126132627696257
+        ],
+        "first_half_draw": [
+          0.47,
+          0.4296802677490565,
+          0.31954133589928635
+        ],
+        "first_half_away": [
+          0.165,
+          0.2046571245460372,
+          0.3091973378237511
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -594,7 +808,14 @@
           "goals_against_per_game": 1.375,
           "over25_rate": 0.875,
           "btts_rate": 0.75,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 6,
@@ -604,7 +825,14 @@
           "goals_against_per_game": 1.1666666666666667,
           "over25_rate": 0.6666666666666666,
           "btts_rate": 0.8333333333333334,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -937,6 +1165,206 @@
         "final_probability": 0.5281,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.602803,
+          "model_probability_pct": 60.28,
+          "fair_odds": 1.66,
+          "odds_required_for_value": 1.71
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.600653,
+          "model_probability_pct": 60.07,
+          "fair_odds": 1.66,
+          "odds_required_for_value": 1.71
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.532165,
+          "model_probability_pct": 53.22,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.94
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.509459,
+          "model_probability_pct": 50.95,
+          "fair_odds": 1.96,
+          "odds_required_for_value": 2.02
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.399347,
+          "model_probability_pct": 39.93,
+          "fair_odds": 2.5,
+          "odds_required_for_value": 2.58
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.397197,
+          "model_probability_pct": 39.72,
+          "fair_odds": 2.52,
+          "odds_required_for_value": 2.59
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.361654,
+          "model_probability_pct": 36.17,
+          "fair_odds": 2.77,
+          "odds_required_for_value": 2.85
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.337645,
+          "model_probability_pct": 33.76,
+          "fair_odds": 2.96,
+          "odds_required_for_value": 3.05
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.331553,
+          "model_probability_pct": 33.16,
+          "fair_odds": 3.02,
+          "odds_required_for_value": 3.11
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.330803,
+          "model_probability_pct": 33.08,
+          "fair_odds": 3.02,
+          "odds_required_for_value": 3.11
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.328747,
+          "model_probability_pct": 32.87,
+          "fair_odds": 3.04,
+          "odds_required_for_value": 3.13
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.5134619012982419,
+          0.5149165436935631,
+          0.5
+        ],
+        "draw": [
+          0.24448960462887961,
+          0.241752476033976,
+          0.5
+        ],
+        "away_win": [
+          0.3053279083429428,
+          0.27963551834422407,
+          0.5
+        ],
+        "btts_yes": [
+          0.6469696732680298,
+          0.6614393726078935,
+          0.5
+        ],
+        "btts_no": [
+          0.3530303267319702,
+          0.33856062739210646,
+          0.5
+        ],
+        "over_2_5": [
+          0.6446710100100124,
+          0.6572872423423446,
+          0.5
+        ],
+        "under_2_5": [
+          0.35532898998998763,
+          0.3427127576576554,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.5389737634780397,
+          0.5575225290664633,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.33030580784934593,
+          0.3343521348522738
+        ],
+        "first_half_draw": [
+          0.34,
+          0.339971669027581,
+          0.33296286005371867
+        ],
+        "first_half_away": [
+          0.33,
+          0.3297225231230731,
+          0.3326850050940076
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -959,7 +1387,14 @@
           "goals_against_per_game": 0.5,
           "over25_rate": 0.5,
           "btts_rate": 0.25,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 4,
@@ -969,7 +1404,14 @@
           "goals_against_per_game": 2.0,
           "over25_rate": 0.75,
           "btts_rate": 1.0,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -1502,6 +1944,206 @@
         "final_probability": 0.4973,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.562434,
+          "model_probability_pct": 56.24,
+          "fair_odds": 1.78,
+          "odds_required_for_value": 1.83
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.542362,
+          "model_probability_pct": 54.24,
+          "fair_odds": 1.84,
+          "odds_required_for_value": 1.9
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.49244,
+          "model_probability_pct": 49.24,
+          "fair_odds": 2.03,
+          "odds_required_for_value": 2.09
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.481469,
+          "model_probability_pct": 48.15,
+          "fair_odds": 2.08,
+          "odds_required_for_value": 2.14
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.457638,
+          "model_probability_pct": 45.76,
+          "fair_odds": 2.19,
+          "odds_required_for_value": 2.25
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.437566,
+          "model_probability_pct": 43.76,
+          "fair_odds": 2.29,
+          "odds_required_for_value": 2.35
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.36618,
+          "model_probability_pct": 36.62,
+          "fair_odds": 2.73,
+          "odds_required_for_value": 2.81
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.344824,
+          "model_probability_pct": 34.48,
+          "fair_odds": 2.9,
+          "odds_required_for_value": 2.99
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.344433,
+          "model_probability_pct": 34.44,
+          "fair_odds": 2.9,
+          "odds_required_for_value": 2.99
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.33376,
+          "model_probability_pct": 33.38,
+          "fair_odds": 3.0,
+          "odds_required_for_value": 3.09
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.321807,
+          "model_probability_pct": 32.18,
+          "fair_odds": 3.11,
+          "odds_required_for_value": 3.2
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.4941534908311844,
+          0.48316562294200904,
+          0.5
+        ],
+        "draw": [
+          0.2666493435374598,
+          0.2678227571028939,
+          0.5
+        ],
+        "away_win": [
+          0.3081044413416453,
+          0.2904350335205313,
+          0.5
+        ],
+        "btts_yes": [
+          0.5920009008925099,
+          0.5953008108032589,
+          0.5
+        ],
+        "btts_no": [
+          0.4079990991074901,
+          0.4046991891967411,
+          0.5
+        ],
+        "over_2_5": [
+          0.5603085422040881,
+          0.5667776879836793,
+          0.5
+        ],
+        "under_2_5": [
+          0.4396914577959119,
+          0.43322231201632067,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.46583760838613675,
+          0.4785705997152458,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3391521197007481,
+          0.3641456582633053
+        ],
+        "first_half_draw": [
+          0.34,
+          0.3391521197007481,
+          0.32212885154061627
+        ],
+        "first_half_away": [
+          0.33,
+          0.32169576059850374,
+          0.3137254901960784
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -1524,7 +2166,14 @@
           "goals_against_per_game": 1.8,
           "over25_rate": 0.8,
           "btts_rate": 0.8,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 4,
@@ -1534,7 +2183,14 @@
           "goals_against_per_game": 0.5,
           "over25_rate": 0.5,
           "btts_rate": 0.5,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -1768,6 +2424,206 @@
         "final_probability": 0.45,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.569918,
+          "model_probability_pct": 56.99,
+          "fair_odds": 1.75,
+          "odds_required_for_value": 1.81
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.543812,
+          "model_probability_pct": 54.38,
+          "fair_odds": 1.84,
+          "odds_required_for_value": 1.89
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.48739,
+          "model_probability_pct": 48.74,
+          "fair_odds": 2.05,
+          "odds_required_for_value": 2.11
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.465793,
+          "model_probability_pct": 46.58,
+          "fair_odds": 2.15,
+          "odds_required_for_value": 2.21
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.456188,
+          "model_probability_pct": 45.62,
+          "fair_odds": 2.19,
+          "odds_required_for_value": 2.26
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.430082,
+          "model_probability_pct": 43.01,
+          "fair_odds": 2.33,
+          "odds_required_for_value": 2.39
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.386311,
+          "model_probability_pct": 38.63,
+          "fair_odds": 2.59,
+          "odds_required_for_value": 2.67
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.348378,
+          "model_probability_pct": 34.84,
+          "fair_odds": 2.87,
+          "odds_required_for_value": 2.96
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.348264,
+          "model_probability_pct": 34.83,
+          "fair_odds": 2.87,
+          "odds_required_for_value": 2.96
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.334715,
+          "model_probability_pct": 33.47,
+          "fair_odds": 2.99,
+          "odds_required_for_value": 3.08
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.317021,
+          "model_probability_pct": 31.7,
+          "fair_odds": 3.15,
+          "odds_required_for_value": 3.25
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.3336177316776994,
+          0.3253167625680593,
+          0.5
+        ],
+        "draw": [
+          0.27154780278545443,
+          0.27358565033582877,
+          0.5
+        ],
+        "away_win": [
+          0.45694303057042895,
+          0.44043543464648616,
+          0.5
+        ],
+        "btts_yes": [
+          0.6025026359960487,
+          0.6072523723964438,
+          0.5
+        ],
+        "btts_no": [
+          0.3974973640039513,
+          0.3927476276035562,
+          0.5
+        ],
+        "over_2_5": [
+          0.561282546796801,
+          0.570154292117121,
+          0.5
+        ],
+        "under_2_5": [
+          0.438717453203199,
+          0.429845707882879,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.47404692073857185,
+          0.4881231670794861,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3174794300622116,
+          0.30358365669938375
+        ],
+        "first_half_draw": [
+          0.34,
+          0.3411599438089504,
+          0.3229856197215248
+        ],
+        "first_half_away": [
+          0.33,
+          0.341360626128838,
+          0.3734307235790916
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -1790,7 +2646,14 @@
           "goals_against_per_game": 1.75,
           "over25_rate": 0.625,
           "btts_rate": 0.625,
-          "source": "openfootball"
+          "ht_home_rate": 0.25,
+          "ht_draw_rate": 0.5,
+          "ht_away_rate": 0.25,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.25,
+          "corner_samples": 4,
+          "card_samples": 4,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 8,
@@ -1800,7 +2663,14 @@
           "goals_against_per_game": 1.25,
           "over25_rate": 0.25,
           "btts_rate": 0.5,
-          "source": "openfootball"
+          "ht_home_rate": 0.25,
+          "ht_draw_rate": 0.5,
+          "ht_away_rate": 0.25,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 4,
+          "card_samples": 4,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -2120,28 +2990,19 @@
           },
           {
             "source": "Google News RSS",
+            "title": "FC Felgueiras Sub-23 - CF Estrela Amadora U23, 6 Eki 2026 - Liga Next Gen U23 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pZE53cjdQOThMeF9yakdxTC10ZnVURnBPdlZIenV5bTVLSGJSdTlmemsyODVrd1c1UjFXNV91ZjN0Z19RejgzdUNLQlZVR3ZtMFdZVl9MZ0ZmSHJkdWVIZF9SZkVfUUc0RVdvaHBIUk85ekZodmNQYVZ1MC0?oc=5",
+            "published": "Tue, 06 Oct 2026 21:37:57 GMT",
+            "text": "FC Felgueiras Sub-23 - CF Estrela Amadora U23, 6 Eki 2026 - Liga Next Gen U23 - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Vítor Oliveira - Teknik Direktör profili - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53S0NvSF9ZempCa2N1clJOX0huRHlwOGxkSDBzc2tqX2ZoTTRMcnpqZWNhblRlc0g0QW9CRHBmTU9lU28yM3dlZDMxYzBUdUdGRXZkeXh5ZjlRR2xBLXlLRTJMU2x1RFhWZ0tFS0E3TlRXbnctRGc?oc=5",
             "published": "Sat, 28 Nov 2020 08:00:00 GMT",
             "text": "Vítor Oliveira - Teknik Direktör profili Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Moreirense FC - Fikstür 26/27 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFeTRpNE5wRUtadzNaR3VvUHBKVmE2dkREMS1RdnVPUmNaemtXdEhFM3dZR2FwamRtWkEzbkdCN1RxUWdhTjgxbWpLRm5ycDdGSXNQX1U3QVpSQVJCaUl1T2dYRXpNSVRweEQtdm1oQzVvcWVhUFE?oc=5",
-            "published": "Sun, 04 Jun 2017 15:29:31 GMT",
-            "text": "Moreirense FC - Fikstür 26/27 Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Moreirense FC - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lZm9JRXBmc2NYbjZDSmVQU0l3MFN1SlhmUkdQUXlxLXl2NlVwZDB0TWZWUVZKWGhhWjFIVVhIN2ZISUVvaWYtcG9HRVpvcXpuV2RvZGc3WGFkcGt6a0tlNDR5VWlueDhoMVNZd3U3T0h1OFU?oc=5",
-            "published": "Sat, 08 Jun 2019 12:49:52 GMT",
-            "text": "Moreirense FC Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -2156,19 +3017,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Petit - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkdlB6ckJCUDNCOUpfNXB5Zy1RZ25KV1FVZkpveGdyQWlMQUtKdS1WNVVlN0YxazlZRXVCWVEydDFONDZTWGtlMVRhS1NVV1ZCcEluVGsxdEo1Q1luNVhHU2JaVDJVQTVfajV0eUh3?oc=5",
-            "published": "Thu, 07 May 2020 14:32:28 GMT",
-            "text": "Petit Transfermarkt",
+            "title": "Moreirense FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lZm9JRXBmc2NYbjZDSmVQU0l3MFN1SlhmUkdQUXlxLXl2NlVwZDB0TWZWUVZKWGhhWjFIVVhIN2ZISUVvaWYtcG9HRVpvcXpuV2RvZGc3WGFkcGt6a0tlNDR5VWlueDhoMVNZd3U3T0h1OFU?oc=5",
+            "published": "Sat, 08 Jun 2019 12:49:52 GMT",
+            "text": "Moreirense FC Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FC Porto - Fikstür 25/26 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHgxbGNmWWRtTTFoVVpINGlPV01RNmRwaERxMWJ0Z1cyMVFKQVZPaFVzemtIdEdwRVBVUE55WnBVcVBqRURKbjQ5anhhTTNVTGdiRDMxaFpWcXlHenFQNXc0MlRrNWEyTzFMVjU0TzFYemgtd1N4TUlwWFF5QUVkX0FRVQ?oc=5",
-            "published": "Fri, 04 Jul 2025 17:01:06 GMT",
-            "text": "FC Porto - Fikstür 25/26 Transfermarkt",
+            "title": "Moreirense FC - Fikstür 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFeTRpNE5wRUtadzNaR3VvUHBKVmE2dkREMS1RdnVPUmNaemtXdEhFM3dZR2FwamRtWkEzbkdCN1RxUWdhTjgxbWpLRm5ycDdGSXNQX1U3QVpSQVJCaUl1T2dYRXpNSVRweEQtdm1oQzVvcWVhUFE?oc=5",
+            "published": "Sun, 04 Jun 2017 15:29:31 GMT",
+            "text": "Moreirense FC - Fikstür 26/27 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Petit - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkdlB6ckJCUDNCOUpfNXB5Zy1RZ25KV1FVZkpveGdyQWlMQUtKdS1WNVVlN0YxazlZRXVCWVEydDFONDZTWGtlMVRhS1NVV1ZCcEluVGsxdEo1Q1luNVhHU2JaVDJVQTVfajV0eUh3?oc=5",
+            "published": "Thu, 07 May 2020 14:32:28 GMT",
+            "text": "Petit Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -2196,6 +3066,206 @@
         "final_probability": 0.3971,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.583333,
+          "model_probability_pct": 58.33,
+          "fair_odds": 1.71,
+          "odds_required_for_value": 1.77
+        },
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.532803,
+          "model_probability_pct": 53.28,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.93
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.511273,
+          "model_probability_pct": 51.13,
+          "fair_odds": 1.96,
+          "odds_required_for_value": 2.01
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.488727,
+          "model_probability_pct": 48.87,
+          "fair_odds": 2.05,
+          "odds_required_for_value": 2.11
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.467197,
+          "model_probability_pct": 46.72,
+          "fair_odds": 2.14,
+          "odds_required_for_value": 2.2
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.43894,
+          "model_probability_pct": 43.89,
+          "fair_odds": 2.28,
+          "odds_required_for_value": 2.35
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.426397,
+          "model_probability_pct": 42.64,
+          "fair_odds": 2.35,
+          "odds_required_for_value": 2.42
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.421795,
+          "model_probability_pct": 42.18,
+          "fair_odds": 2.37,
+          "odds_required_for_value": 2.44
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.421349,
+          "model_probability_pct": 42.13,
+          "fair_odds": 2.37,
+          "odds_required_for_value": 2.44
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.416667,
+          "model_probability_pct": 41.67,
+          "fair_odds": 2.4,
+          "odds_required_for_value": 2.47
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.361875,
+          "model_probability_pct": 36.19,
+          "fair_odds": 2.76,
+          "odds_required_for_value": 2.85
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.292442,
+          "model_probability_pct": 29.24,
+          "fair_odds": 3.42,
+          "odds_required_for_value": 3.52
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.281161,
+          "model_probability_pct": 28.12,
+          "fair_odds": 3.56,
+          "odds_required_for_value": 3.66
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.3917889488709358,
+          0.3722566420537272,
+          0.5
+        ],
+        "draw": [
+          0.29015205936847904,
+          0.29547301102174006,
+          0.5
+        ],
+        "away_win": [
+          0.3881687928627592,
+          0.3772162985777937,
+          0.5
+        ],
+        "btts_yes": [
+          0.5485043045380815,
+          0.5499038740842733,
+          0.5
+        ],
+        "btts_no": [
+          0.4514956954619185,
+          0.4500961259157267,
+          0.5
+        ],
+        "over_2_5": [
+          0.4854903680316917,
+          0.48069133122852253,
+          0.5
+        ],
+        "under_2_5": [
+          0.5145096319683082,
+          0.5193086687714774,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.4071971923619171,
+          0.4096214169729637,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.375,
+          0.375,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.625,
+          0.625,
+          0.5
+        ],
+        "first_half_home": [
+          0.25,
+          0.2786516853932584,
+          0.3486750348675035
+        ],
+        "first_half_draw": [
+          0.5,
+          0.4514357053682896,
+          0.3277545327754533
+        ],
+        "first_half_away": [
+          0.25,
+          0.26991260923845195,
+          0.32357043235704325
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -2218,7 +3288,14 @@
           "goals_against_per_game": 1.0,
           "over25_rate": 0.6,
           "btts_rate": 0.6,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 7,
@@ -2228,7 +3305,14 @@
           "goals_against_per_game": 1.1428571428571428,
           "over25_rate": 0.7142857142857143,
           "btts_rate": 0.7142857142857143,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -2417,6 +3501,206 @@
         "final_probability": 0.38,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.570488,
+          "model_probability_pct": 57.05,
+          "fair_odds": 1.75,
+          "odds_required_for_value": 1.81
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.543588,
+          "model_probability_pct": 54.36,
+          "fair_odds": 1.84,
+          "odds_required_for_value": 1.89
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.487659,
+          "model_probability_pct": 48.77,
+          "fair_odds": 2.05,
+          "odds_required_for_value": 2.11
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.456412,
+          "model_probability_pct": 45.64,
+          "fair_odds": 2.19,
+          "odds_required_for_value": 2.26
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.453289,
+          "model_probability_pct": 45.33,
+          "fair_odds": 2.21,
+          "odds_required_for_value": 2.27
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.429512,
+          "model_probability_pct": 42.95,
+          "fair_odds": 2.33,
+          "odds_required_for_value": 2.4
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.400177,
+          "model_probability_pct": 40.02,
+          "fair_odds": 2.5,
+          "odds_required_for_value": 2.57
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.348903,
+          "model_probability_pct": 34.89,
+          "fair_odds": 2.87,
+          "odds_required_for_value": 2.95
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.337527,
+          "model_probability_pct": 33.75,
+          "fair_odds": 2.96,
+          "odds_required_for_value": 3.05
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.332524,
+          "model_probability_pct": 33.25,
+          "fair_odds": 3.01,
+          "odds_required_for_value": 3.1
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.329948,
+          "model_probability_pct": 32.99,
+          "fair_odds": 3.03,
+          "odds_required_for_value": 3.12
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.3590773541768131,
+          0.34145433473372144,
+          0.5
+        ],
+        "draw": [
+          0.27227235652293585,
+          0.27443806649757163,
+          0.5
+        ],
+        "away_win": [
+          0.43473695309286564,
+          0.4251304516004858,
+          0.5
+        ],
+        "btts_yes": [
+          0.6030261129918806,
+          0.6084377874069783,
+          0.5
+        ],
+        "btts_no": [
+          0.3969738870081194,
+          0.3915622125930217,
+          0.5
+        ],
+        "over_2_5": [
+          0.5605518971750626,
+          0.5702109931718421,
+          0.5
+        ],
+        "under_2_5": [
+          0.4394481028249374,
+          0.4297890068281579,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.4741687921881194,
+          0.48880671738449843,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3289511288939697,
+          0.3308940502704423
+        ],
+        "first_half_draw": [
+          0.34,
+          0.3400971706201772,
+          0.33248488705058865
+        ],
+        "first_half_away": [
+          0.33,
+          0.3309517004858531,
+          0.3366210626789692
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     },
     {
@@ -2439,7 +3723,14 @@
           "goals_against_per_game": 2.0,
           "over25_rate": 0.3333333333333333,
           "btts_rate": 0.5,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         },
         "away": {
           "matches": 7,
@@ -2449,7 +3740,14 @@
           "goals_against_per_game": 1.4285714285714286,
           "over25_rate": 0.7142857142857143,
           "btts_rate": 0.7142857142857143,
-          "source": "openfootball"
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
         }
       },
       "intelligence": {
@@ -2674,6 +3972,206 @@
         "final_probability": 0.38,
         "category": "WATCH"
       },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.533143,
+          "model_probability_pct": 53.31,
+          "fair_odds": 1.88,
+          "odds_required_for_value": 1.93
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.506592,
+          "model_probability_pct": 50.66,
+          "fair_odds": 1.97,
+          "odds_required_for_value": 2.03
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.493408,
+          "model_probability_pct": 49.34,
+          "fair_odds": 2.03,
+          "odds_required_for_value": 2.09
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.466857,
+          "model_probability_pct": 46.69,
+          "fair_odds": 2.14,
+          "odds_required_for_value": 2.21
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.455427,
+          "model_probability_pct": 45.54,
+          "fair_odds": 2.2,
+          "odds_required_for_value": 2.26
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.441078,
+          "model_probability_pct": 44.11,
+          "fair_odds": 2.27,
+          "odds_required_for_value": 2.34
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.387947,
+          "model_probability_pct": 38.79,
+          "fair_odds": 2.58,
+          "odds_required_for_value": 2.66
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.359867,
+          "model_probability_pct": 35.99,
+          "fair_odds": 2.78,
+          "odds_required_for_value": 2.86
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.337749,
+          "model_probability_pct": 33.77,
+          "fair_odds": 2.96,
+          "odds_required_for_value": 3.05
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.336598,
+          "model_probability_pct": 33.66,
+          "fair_odds": 2.97,
+          "odds_required_for_value": 3.06
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.325652,
+          "model_probability_pct": 32.57,
+          "fair_odds": 3.07,
+          "odds_required_for_value": 3.16
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.3398729866570813,
+          0.3239671626558033,
+          0.5
+        ],
+        "draw": [
+          0.2873837346009161,
+          0.29221615835401893,
+          0.5
+        ],
+        "away_win": [
+          0.43929822791073786,
+          0.426982436076614,
+          0.5
+        ],
+        "btts_yes": [
+          0.5466917956386241,
+          0.5527369017890474,
+          0.5
+        ],
+        "btts_no": [
+          0.45330820436137587,
+          0.44726309821095256,
+          0.5
+        ],
+        "over_2_5": [
+          0.48833797421958486,
+          0.49188512917857874,
+          0.5
+        ],
+        "under_2_5": [
+          0.5116620257804152,
+          0.5081148708214213,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.40694288125784184,
+          0.4162922126619764,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3251001335113485,
+          0.32185628742514966
+        ],
+        "first_half_draw": [
+          0.34,
+          0.3404539385847797,
+          0.32934131736526945
+        ],
+        "first_half_away": [
+          0.33,
+          0.33444592790387184,
+          0.34880239520958084
+        ]
+      },
+      "htft_matrix": [],
       "market_analysis": []
     }
   ]
