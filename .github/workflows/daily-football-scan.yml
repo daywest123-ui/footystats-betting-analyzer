@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/app
+      CODA_DOC_ID: ogctvyxHt8
+      CODA_MATCH_TABLE_ID: grid-s-1V_SzZ68
+      CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,6 +33,9 @@ jobs:
         run: python -m unittest discover -p 'test_*.py'
       - name: Run automatic fixture scan
         run: python -m app.auto_match_selector
+      - name: Sync analysis to Coda
+        if: env.CODA_API_TOKEN != ''
+        run: python -m app.coda_sync
       - name: Publish analysis summary
         if: always()
         run: |
@@ -62,6 +68,10 @@ jobs:
           PY
           else
             echo "### Rapor üretilemedi" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -z "$CODA_API_TOKEN" ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Coda sync: CODA_API_TOKEN tanımlı değil; atlandı." >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Publish latest report to repository
         if: success() && github.event_name != 'pull_request'
