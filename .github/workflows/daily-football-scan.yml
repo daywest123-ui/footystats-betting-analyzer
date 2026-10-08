@@ -31,6 +31,10 @@ jobs:
       - name: Run tests
         working-directory: app
         run: python -m unittest discover -p 'test_*.py'
+      - name: Install Chromium
+        run: python -m playwright install chromium
+      - name: Snapshot public Nesine bulletin
+        run: python -m app.nesine_browser_odds
       - name: Run automatic fixture scan
         run: python -m app.auto_match_selector
       - name: Sync analysis to Coda
