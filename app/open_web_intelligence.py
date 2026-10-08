@@ -45,9 +45,14 @@ def _sentiment(text: str) -> float:
 def google_news_rss(query: str, language: str = "en", country: str = "US", limit: int = 20) -> list[WebMention]:
     params = {"q": query, "hl": language, "gl": country, "ceid": f"{country}:{language}"}
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(params)
-    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
-    r.raise_for_status()
-    root = ET.fromstring(r.content)
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+    except (requests.RequestException, ET.ParseError):
+        # Public RSS is an optional evidence source; transient 429/5xx or parse
+        # failures must not break the main match-analysis pipeline.
+        return []
     result: list[WebMention] = []
     for item in root.findall("./channel/item")[:limit]:
         title = _clean(item.findtext("title", ""))
