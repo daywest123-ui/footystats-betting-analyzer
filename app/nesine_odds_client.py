@@ -5,8 +5,10 @@ Only concrete odds returned by Nesine are accepted; no synthetic odds are made.
 """
 from __future__ import annotations
 
+import json
 import re
 from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
 import requests
@@ -82,6 +84,17 @@ def _odds_map(oca: list[dict[str, Any]]) -> dict[int, float]:
 
 @lru_cache(maxsize=2)
 def _payload() -> dict[str, Any]:
+    # CI can supply a browser-backed public snapshot. Prefer it because the
+    # Nesine site can treat GitHub's outbound HTTP differently from Chromium.
+    snapshot = Path("reports/nesine_prebulten.json")
+    if snapshot.exists():
+        try:
+            payload = json.loads(snapshot.read_text(encoding="utf-8"))
+            if (payload.get("sg") or {}).get("EA"):
+                return payload
+        except (OSError, ValueError):
+            pass
+
     headers = {
         "User-Agent": UA,
         "Accept": "application/json,text/plain,*/*",
