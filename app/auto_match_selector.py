@@ -12,6 +12,7 @@ from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
 from app.dixon_coles_model import predict as dixon_coles_predict
 from app.market_probabilities import add_htft_probabilities, as_model_market_rows, build_market_probabilities
+from app.nesine_odds_client import _payload as load_nesine_payload
 
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 _OPEN_MATCHES = []
@@ -28,24 +29,65 @@ def _empty_form() -> dict:
 def discover_fixtures(date: datetime) -> list[dict]:
     global _OPEN_MATCHES
     _OPEN_MATCHES = load_openfootball()
-    base_day = date.astimezone(LOCAL_TZ).date()
-    for offset in range(0, 16):
-        target = base_day.fromordinal(base_day.toordinal() + offset).isoformat()
-        fixtures = [
-            {
-                "home": m["home"], "away": m["away"], "league": m["league"],
-                "fixture_date": m["date"],
-                "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
-                "source": m.get("source", "openfootball/football.json"),
-            }
-            for m in _OPEN_MATCHES
-            if m["date"] == target and not m.get("finished")
-        ]
-        if fixtures:
-            fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
-            print(f"[FixtureDiscovery] Using {len(fixtures)} open-data fixtures for {target}")
-            return fixtures[:100]
-    return []
+    now = date.astimezone(LOCAL_TZ)
+    base_day = now.date()
+    target = base_day.isoformat()
+
+    fixtures = [
+        {
+            "home": m["home"], "away": m["away"], "league": m["league"],
+            "fixture_date": m["date"],
+            "fixture_id": f"{m['home']}||{m['away']}||{m['date']}",
+            "source": m.get("source", "openfootball/football.json"),
+        }
+        for m in _OPEN_MATCHES
+        if m["date"] == target and not m.get("finished")
+    ]
+    if fixtures:
+        fixtures.sort(key=lambda x: (x.get("league", ""), x.get("home", "")))
+        print(f"[FixtureDiscovery] Using {len(fixtures)} open-data fixtures for {target}")
+        return fixtures[:100]
+
+    # Fallback to the live public Nesine bulletin when OpenFootball has no
+    # fixture for the local calendar day. Only football (TYPE/GT == 1) and
+    # upcoming kickoff times are accepted.
+    nesine_day = now.strftime("%d.%m.%Y")
+    try:
+        payload = load_nesine_payload()
+        events = (payload.get("sg") or {}).get("EA") or []
+    except Exception as exc:
+        print(f"[FixtureDiscovery] Nesine fallback unavailable: {type(exc).__name__}: {exc}")
+        return []
+
+    fallback = []
+    for event in events:
+        if str(event.get("D") or "") != nesine_day:
+            continue
+        if str(event.get("TYPE") or "") != "1" or str(event.get("GT") or "") != "1":
+            continue
+        home = str(event.get("HN") or "").strip()
+        away = str(event.get("AN") or "").strip()
+        if not home or not away:
+            continue
+        try:
+            kickoff = datetime.fromtimestamp(int(event.get("ESD")) / 1000, LOCAL_TZ)
+        except (TypeError, ValueError, OSError):
+            continue
+        if kickoff.date() != base_day or kickoff <= now:
+            continue
+        fallback.append({
+            "home": home,
+            "away": away,
+            "league": "Nesine public bulletin",
+            "fixture_date": target,
+            "fixture_id": f"{home}||{away}||{target}",
+            "source": "nesine.com public bulletin",
+            "kickoff": event.get("T"),
+        })
+
+    fallback.sort(key=lambda x: (x.get("kickoff", ""), x.get("home", "")))
+    print(f"[FixtureDiscovery] OpenFootball had no {target} fixtures; using {len(fallback)} upcoming Nesine football fixtures")
+    return fallback[:100]
 
 
 def _recent_form(team: str | None, before: str) -> dict:
