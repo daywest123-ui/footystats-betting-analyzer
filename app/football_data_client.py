@@ -257,8 +257,15 @@ def _csv_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
 
 
 def fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
-    # No live scraper is used here. Only a concrete CSV bookmaker price is
-    # accepted; otherwise the caller must treat the market as NO BET.
+    # Prefer live Nesine bulletin prices; fall back to downloadable CSV odds.
+    # Both sources require concrete prices and never invent a market number.
+    try:
+        from app.nesine_odds_client import get_fixture_odds as get_nesine_fixture_odds
+        live = get_nesine_fixture_odds(home, away, day)
+        if live:
+            return live
+    except (ImportError, requests.RequestException, ValueError, TypeError):
+        pass
     return _csv_fixture_odds(home, away, day)
 
 
