@@ -98,12 +98,21 @@ def _football_data_matches() -> list[dict[str, Any]]:
             if not d or not h or not a:
                 continue
             hg, ag = _float(row.get("FTHG")), _float(row.get("FTAG"))
+            hthg, htag = _float(row.get("HTHG")), _float(row.get("HTAG"))
+            hc, ac = _float(row.get("HC")), _float(row.get("AC"))
+            hy, ay = _float(row.get("HY")), _float(row.get("AY"))
+            hr, ar = _float(row.get("HR")), _float(row.get("AR"))
             done = hg is not None and ag is not None
             out.append({
                 "home": h, "away": a, "league": league, "date": d,
                 "time": row.get("Time"), "finished": done,
                 "home_goals": int(hg) if done else None,
                 "away_goals": int(ag) if done else None,
+                "home_ht_goals": int(hthg) if hthg is not None else None,
+                "away_ht_goals": int(htag) if htag is not None else None,
+                "home_corners": hc, "away_corners": ac,
+                "home_yellow": hy, "away_yellow": ay,
+                "home_red": hr, "away_red": ar,
                 "source": "football-data.co.uk",
             })
     return out
@@ -133,12 +142,17 @@ def load_openfootball() -> list[dict[str, Any]]:
             continue
 
     fallback = _football_data_matches()
-    seen = {(_norm(x["home"]), _norm(x["away"]), x["date"]) for x in out}
+    by_key = {(_norm(x["home"]), _norm(x["away"]), x["date"]): x for x in out}
     for m in fallback:
         key = (_norm(m["home"]), _norm(m["away"]), m["date"])
-        if key not in seen:
+        if key not in by_key:
             out.append(m)
-            seen.add(key)
+            by_key[key] = m
+        else:
+            target = by_key[key]
+            for field, value in m.items():
+                if target.get(field) in (None, "") and value not in (None, ""):
+                    target[field] = value
     return out
 
 
@@ -163,6 +177,8 @@ def recent_form(matches: list[dict[str, Any]], team: str, before: str, limit: in
         }
 
     pts = gd = gf_total = ga_total = over = btts = 0.0
+    ht_home = ht_draw = ht_away = 0.0
+    corner_over = card_over = corner_samples = card_samples = 0.0
     for m in rows:
         hg, ag = m["home_goals"], m["away_goals"]
         home = _norm(m["home"]) == key
@@ -174,7 +190,28 @@ def recent_form(matches: list[dict[str, Any]], team: str, before: str, limit: in
         over += int(hg + ag >= 3)
         btts += int(hg > 0 and ag > 0)
 
+        hthg, htag = m.get("home_ht_goals"), m.get("away_ht_goals")
+        if hthg is not None and htag is not None:
+            ht_result = "1" if hthg > htag else "2" if hthg < htag else "X"
+            if not home:
+                ht_result = {"1": "2", "2": "1", "X": "X"}[ht_result]
+            ht_home += int(ht_result == "1")
+            ht_draw += int(ht_result == "X")
+            ht_away += int(ht_result == "2")
+
+        hc, ac = m.get("home_corners"), m.get("away_corners")
+        if hc is not None and ac is not None:
+            corner_samples += 1
+            corner_over += int(float(hc) + float(ac) >= 9)
+
+        hy, ay = m.get("home_yellow"), m.get("away_yellow")
+        hr, ar = m.get("home_red"), m.get("away_red")
+        if any(m.get(k) is not None for k in ("home_yellow", "away_yellow", "home_red", "away_red")):
+            card_samples += 1
+            card_over += int(float(hy or 0) + float(ay or 0) + float(hr or 0) + float(ar or 0) >= 5)
+
     n = len(rows)
+    ht_n = ht_home + ht_draw + ht_away
     return {
         "matches": n,
         "points_per_game": pts / n,
@@ -183,7 +220,14 @@ def recent_form(matches: list[dict[str, Any]], team: str, before: str, limit: in
         "goals_against_per_game": ga_total / n,
         "over25_rate": over / n,
         "btts_rate": btts / n,
-        "source": "openfootball",
+        "ht_home_rate": ht_home / ht_n if ht_n else 0.33,
+        "ht_draw_rate": ht_draw / ht_n if ht_n else 0.34,
+        "ht_away_rate": ht_away / ht_n if ht_n else 0.33,
+        "corners_over8_5_rate": corner_over / corner_samples if corner_samples else 0.50,
+        "cards_over4_5_rate": card_over / card_samples if card_samples else 0.50,
+        "corner_samples": int(corner_samples),
+        "card_samples": int(card_samples),
+        "source": "openfootball+football-data.co.uk",
     }
 
 
