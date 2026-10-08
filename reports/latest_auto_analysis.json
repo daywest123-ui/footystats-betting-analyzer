@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:41:24.380429+03:00",
+  "generated_at": "2026-10-08T10:18:00.319496+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -66,8 +66,8 @@
         }
       },
       "intelligence": {
-        "mentions": 54,
-        "web_score": -0.0556,
+        "mentions": 56,
+        "web_score": -0.0536,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -76,6 +76,15 @@
           "multiple_injury_or_suspension_mentions"
         ],
         "items": [
+          {
+            "source": "Google News RSS",
+            "title": "PSV - sc Heerenveen Stats: Football Scores & Results - TNT Sports",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0hyYkdqcFNVSlFhUS1UY3hBLW5Hd21uMTdseXZTYkd2Vkdxd2w0V2NScFk2eG9OLWdUSVU2YlVzM3Z1bWd0RjVxSHlUV2kzVThNbUFfQml6UENRaUVyblpYV05FRE5VdlNEaEptY1dQamR1WWJPSXRPVS1udFZxMmYzSDJxQktjTHZRdGtmOVE2UDhkRk1yN1ZhZWlhMzVkYWNfTXB3ay1HbXAxZmVaOC15QmJRLXV0d0dXMg?oc=5",
+            "published": "Wed, 07 Oct 2026 16:21:39 GMT",
+            "text": "PSV - sc Heerenveen Stats: Football Scores & Results TNT Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
           {
             "source": "Google News RSS",
             "title": "PSV Eindhoven vs. SC Heerenveen - Live Score - October 09, 2026 - FOX Sports",
@@ -87,10 +96,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Heerenveen vs. PSV: Live game updates, stats, play-by-play - Yahoo",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkpMa3ZrY2doQWQzM1VPLU10RVd1OGl3VjJsUHFqWHo4RUgtdnBlQlFvSE1LdXRJRENFV2IzWVduMXNmcTRaLVY3MjRFckZCSktfSnMtNUJzWFJyU01MUERIN1NuOV9NU3Z0ZVg5dTJxUW01cjQ0bTVEdUxYZ2x5d0NWREg?oc=5",
-            "published": "Wed, 30 Sep 2026 04:28:46 GMT",
-            "text": "Heerenveen vs. PSV: Live game updates, stats, play-by-play Yahoo",
+            "title": "PSV - sc Heerenveen Live - VriendenLoterij Eredivisie: Football Scores & Highlights - 09/10/2026 - TNT Sports",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcVlFYmQ0blVLV21EQ2sycnFhTkR6cXBadGJyVU02bE84Y0xsRGZuWkh5OU5zaUNMNTFRaUdWbUdWZ1F1ODZ5QWxZNnA5TGZ2XzZvUXNYdE9WZVZ2SW5sMnpDRHBHdWRnZ0tVaTJOeGVSbk1WcmVIZlNQTWIwN1RlLWJxZHBIN1puU3hsNUhoYkFhRy0xT0MwVzNBYldPNTQ2VktMdi1TOUV1ckRUU3YzTUxrM0g?oc=5",
+            "published": "Wed, 07 Oct 2026 13:25:48 GMT",
+            "text": "PSV - sc Heerenveen Live - VriendenLoterij Eredivisie: Football Scores & Highlights - 09/10/2026 TNT Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -100,6 +109,24 @@
             "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkVRWW5INWNIRC1JdlkyQlI2WHg1Z1F5dVlLM0hKenVuZ0VhR2VyOGhVSHFBckNkUFpkZEhOaHQ2alZuWkFMM0h2T015cUxBVkFVY0hDZzlvS3NhakhtVTRhWTFkaGIxWmotUGF5UmZDYjFOUXFveVpKak9hOVc5ckFMOFVIbk1NWTBZZF9YR2RMdnZ0VkhHXzE0UmVMM0E?oc=5",
             "published": "Sat, 21 Feb 2026 08:00:00 GMT",
             "text": "How to watch today's PSV Eindhoven vs SC Heerenveen Eredivisie game: Live stream, TV channel, and start time Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PSV vs. Heerenveen: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObE9xeWRoektWaFFsYTYtTV9vVlZPTmpjVmhWcjhYbkFmXy1VSUpab2xEUW9WNTNjVjgwQjZBUGR1ZUtwMlFCd1JSaUFrdFphYmsxbkZtb0VSZ1RjMllURWQwbmlwN29PX01QOUpDVS1EM0JsZkM2bm5yNHl2S2VuaG10RU0?oc=5",
+            "published": "Fri, 18 Sep 2026 06:30:45 GMT",
+            "text": "PSV vs. Heerenveen: Live game updates, stats, play-by-play Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Featured | From 2018 to now: PSV - sc Heerenveen - PSV",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTEpNNmROdWFKa3BHVW1SblhVSVRCbGllVE9CT0l3R0hfSVJCZ2hDVnFsR2dYa24wWFhTWVdQVENTWXVvR2Z3VVJrWnhZb01JLWROM080SlNuX2gwSHhmUFlHaFl0OEVNSzdCQy1Vc0JvNzlRa2lEWG1jLU5aM2l2UFQ4Q3kzdw?oc=5",
+            "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+            "text": "Featured | From 2018 to now: PSV - sc Heerenveen PSV",
             "language": "en",
             "sentiment": 0.0
           },
@@ -127,15 +154,6 @@
             "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU3U3TVVsTVhNYzBxRFA2NFI4MW9QZjRKSndWR09KUVVEWTAtWmZETEZwRXpLVEhFeEtQdGNGM0toV3JWbi0wR2pQU0MyLUs4c01JcTBnc3I0ZGlhUUZyeGZVM1UwZXdDYnRQNGo1SXBTVVk1TExWd0VyTnJ0ZmNxelFSRHZ1VjVTVTVnUkk5Z3NCS1BTaHpLWVpKbXQ4SlR5S0ZtbVFEazB6NnNuUWhBN3lVMW4tRFI3OEE?oc=5",
             "published": "Fri, 20 Feb 2026 08:00:00 GMT",
             "text": "Press conference | Pepi, Saibari and Kovar possibly deployable against sc Heerenveen PSV",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PSV vs. Heerenveen: Live game updates, stats, play-by-play - Yahoo",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObE9xeWRoektWaFFsYTYtTV9vVlZPTmpjVmhWcjhYbkFmXy1VSUpab2xEUW9WNTNjVjgwQjZBUGR1ZUtwMlFCd1JSaUFrdFphYmsxbkZtb0VSZ1RjMllURWQwbmlwN29PX01QOUpDVS1EM0JsZkM2bm5yNHl2S2VuaG10RU0?oc=5",
-            "published": "Fri, 18 Sep 2026 06:30:45 GMT",
-            "text": "PSV vs. Heerenveen: Live game updates, stats, play-by-play Yahoo",
             "language": "en",
             "sentiment": 0.0
           },
@@ -186,28 +204,19 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Heerenveen vs. PSV: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkpMa3ZrY2doQWQzM1VPLU10RVd1OGl3VjJsUHFqWHo4RUgtdnBlQlFvSE1LdXRJRENFV2IzWVduMXNmcTRaLVY3MjRFckZCSktfSnMtNUJzWFJyU01MUERIN1NuOV9NU3Z0ZVg5dTJxUW01cjQ0bTVEdUxYZ2x5d0NWREg?oc=5",
+            "published": "Wed, 30 Sep 2026 04:28:46 GMT",
+            "text": "Heerenveen vs. PSV: Live game updates, stats, play-by-play Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV Eindhoven - Sc Heerenveen prediction & tips 09.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMF9pWWcySGh0Zjd5M1lEWl9Dak1GamNuU0hMb1JzWlduWTlmdGRlRjVoMEdxWVE3TU9XQk1sb3R5Y0hCYmExd3pXazdkQUdEZXhFVWdEclNmbElQZkxhekFLNEJrcW51b2lGY2pZVXpITXFyTGxzN25WOGw0elVwZFJzNlBJTm05NGpKRVB0ZVkyb1VJbFgxZzJmcVE?oc=5",
             "published": "Wed, 07 Oct 2026 17:00:57 GMT",
             "text": "PSV Eindhoven - Sc Heerenveen prediction & tips 09.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LcXBlZ1ZzOWtvaWpudkhlaE1RZUhsaThSZFdTR2dZbElIOVIxZUJlNzM4enFqQlctdlFpcmRzLUJCbzgza0swZEpLM0pDczNNVlBJOTB3VkZ6OFI1TGp3YU5qbGU1M0wxTkwybg?oc=5",
-            "published": "Sat, 04 Nov 2023 10:52:06 GMT",
-            "text": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Everything About | Exactly five years ago, PSV and sc Heerenveen played equal - PSV",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUtvUXZfNE8tdm05MzQyTTR4MWNzQkZPWG0yaFZ4bGh1SmpmT3ZZNjBuWnNqYjFBakhHX3lGaDhBeTQtN2NoZHFHLWtKOUx3OW5HSjVaMXBGMkhmVXlvdm5lR0ktT1dFNHprTGlaXzRRaXNUc3RBRGJzWVJOT1FVY3RuY0NndXRiVDV3UnRLNDdzTkxFQlNNN0ZETDlxTEZxMGh6dmZ3M2VVS0tY?oc=5",
-            "published": "Fri, 05 Dec 2025 08:00:00 GMT",
-            "text": "Everything About | Exactly five years ago, PSV and sc Heerenveen played equal PSV",
             "language": "en",
             "sentiment": 0.0
           },
@@ -249,10 +258,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OUk9TbDhORGZ4N3BrSUFPNDNKbGZpRVNmSG5TUF90eDNENFR1NU85MmpTekh5MDl2MWdqclBuY25JWFNBdXRmbFNXLThjY0s2em9tTk5WSmkwM1FiVXhSYWFYUGYxVTgweXNnaFhfcw?oc=5",
-            "published": "Fri, 20 Oct 2023 07:02:02 GMT",
-            "text": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
+            "title": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DMXRmcy1Ock53NGRoUkR2WlNrdjR2LVdabHhkS1pCLTdHYkxFOUJtY04zNFNkUElqRGFxbWJWU21fSWdWR0I2T3psWVlLNElnOEhZR0FEdE5YUU5oeWxUdGhBUnlKdEI1UE0ycS04VEplUQ?oc=5",
+            "published": "Fri, 20 Oct 2023 08:02:41 GMT",
+            "text": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
             "language": "en",
             "sentiment": 0.0
           },
@@ -282,15 +291,6 @@
             "text": "PSV suffer first loss of Eredivisie season against Heerenveen India.com",
             "language": "en",
             "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DMXRmcy1Ock53NGRoUkR2WlNrdjR2LVdabHhkS1pCLTdHYkxFOUJtY04zNFNkUElqRGFxbWJWU21fSWdWR0I2T3psWVlLNElnOEhZR0FEdE5YUU5oeWxUdGhBUnlKdEI1UE0ycS04VEplUQ?oc=5",
-            "published": "Fri, 20 Oct 2023 08:02:41 GMT",
-            "text": "Excelsior vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -325,6 +325,15 @@
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVF8tbTJoX2dWYU1EbGo5emI0SkZBNEdNVDd6bzlLeHNyVFo2bG5lZWNVU1NwSGFlUzM2MFJEUERJeHRkaXZrTjB0YUpBa3dNUlpxOGZkZWZfaWZiZEtteEh6a1dGdXhzS2pwMURsLTNjRHFfenk0MHp0emZWRkZzNm1zUkxwOGFWb05jSmtGU2VDZ3Ntc1NQMkNvejlwRzA2eUM3aE1Rd2FYSTgtc2lXbmJkVXlUdw?oc=5",
             "published": "Sat, 21 Feb 2026 08:00:00 GMT",
             "text": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips BetMines",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Heerenveen vs PSV Prediction, Betting Tips, Lineups & Odds | 06 Dec 2025 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlZ6WFBrNEU1eTYzY2FIMklSX29LSFFmYkZHeGE5eVhFREw5UnhYYUhFbWFaU3hTbXdkY1ZBenBUZ3dLYzBPS3RtVDZGa05xQXhNMmhFYVBLUXRVOHg3cVlFd29xWkd3bmhGV3lNWWVqWmRYS3pZdGZLdTY2MzcwY3RPcVp3cEdHUjdkdDFRVGoxa1lReHlBZmFXT1d1Z25IZWhPU05XcXo?oc=5",
+            "published": "Sat, 06 Dec 2025 08:00:00 GMT",
+            "text": "Heerenveen vs PSV Prediction, Betting Tips, Lineups & Odds | 06 Dec 2025 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -429,6 +438,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LcXBlZ1ZzOWtvaWpudkhlaE1RZUhsaThSZFdTR2dZbElIOVIxZUJlNzM4enFqQlctdlFpcmRzLUJCbzgza0swZEpLM0pDczNNVlBJOTB3VkZ6OFI1TGp3YU5qbGU1M0wxTkwybg?oc=5",
+            "published": "Sat, 04 Nov 2023 10:52:06 GMT",
+            "text": "PSV (W) vs SC Heerenveen (W) - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Ajax ve PSV'nin muhtemel kadroları: Takehiro Tomiyasu ve Paul Wanner ilk 11'e geri dönüyor - Goal.com",
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRRbmtvTmdfazJ0aHA4V1doeUpCb0tDVzN3ZEhXTU9vMDVMNzN5cERfbEpSNXBncldmd0I1RHZkUThNWnhQeHJJN3MzZVhhM09rMC1PN1d2U3NoLXhob3BVVHNuVXIyMWx6cTZEaHY5R2ZyQTViUmt4UmwtMTlYUHpnb0hTR1c0YjYtZ0FxX3YwOVIwY3lFZ3MxcVZjVG1OTEdheVA2UGp1QVBCR1Rpaml5Y3pSNk1WejRIWHVNWUxZYTVmaVVOUWJrQXQtR2dsdUR5RDBn?oc=5",
             "published": "Sun, 03 May 2026 07:00:00 GMT",
@@ -465,19 +483,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMW9Cdkc2UHJXcHczaTJ2SXdfMTVqXzM1SUdXV3JKUlpOSUZkMjE1VWpxUVNCa1BkbEhnTzZTMUNyLUgzZ0c2d2xkRzA4YWVGZnNzNm1GU0xvTTAxMmU3cHdRVWFiMHNEdWZfa195d1ZGbmtDc0FxOGx3U0dOQlFNdGNjcVEyaXRTcWNOMmFyNl82X3F1Yi14cWVLX3o2emRnLWNqa1NacE5tTHpFVVloQkJ5U2FkMWJYNVpyc2dTWXBHVjJGeWVFcUs5MXNvX0k?oc=5",
-            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-            "text": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik Goal.com",
+            "title": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y2gtX1FJNWRlelJlTVFMWWo0U1RvWXRzTzlyNzlBcEhSQ1UxMGljRG1oMW5YdXRueDl4YVcyTWJoYzNxWl92dWlic0hxeDRfTnRUVVNVYVdPbkU1cHdVZi10QmVLOXVySFFjbDJLUWU5UWZVMnc?oc=5",
+            "published": "Thu, 29 Aug 2024 19:32:55 GMT",
+            "text": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri FotMob",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y2gtX1FJNWRlelJlTVFMWWo0U1RvWXRzTzlyNzlBcEhSQ1UxMGljRG1oMW5YdXRueDl4YVcyTWJoYzNxWl92dWlic0hxeDRfTnRUVVNVYVdPbkU1cHdVZi10QmVLOXVySFFjbDJLUWU5UWZVMnc?oc=5",
-            "published": "Thu, 29 Aug 2024 19:32:55 GMT",
-            "text": "Liverpool - PSV Eindhoven canlı skor, tahmin edilen ilk 11'ler ve H2H istatistikleri FotMob",
+            "title": "Cambuur (Hollanda) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5dE94ZnNVdmJ5UzkyVHNmdWppRjFqSG5Qam9lRlp5ZFplLTJORTB2WGlaeHBiSnFyckJEa1hadjBzTDBCWFc0bHBnZGtMdVRsSk9BakJoR3F5ZnBWU2RhZGMxTnlRTFB0?oc=5",
+            "published": "Mon, 07 Dec 2020 04:23:32 GMT",
+            "text": "Cambuur (Hollanda) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -519,6 +537,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMW9Cdkc2UHJXcHczaTJ2SXdfMTVqXzM1SUdXV3JKUlpOSUZkMjE1VWpxUVNCa1BkbEhnTzZTMUNyLUgzZ0c2d2xkRzA4YWVGZnNzNm1GU0xvTTAxMmU3cHdRVWFiMHNEdWZfa195d1ZGbmtDc0FxOGx3U0dOQlFNdGNjcVEyaXRTcWNOMmFyNl82X3F1Yi14cWVLX3o2emRnLWNqa1NacE5tTHpFVVloQkJ5U2FkMWJYNVpyc2dTWXBHVjJGeWVFcUs5MXNvX0k?oc=5",
+            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+            "text": "Ajax için endişe mi var? PSV maçı öncesindeki açık antrenmanda dikkat çeken bir eksik Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Eredivisie 2025/2026 için PSV Eindhoven istatistikleri: Maç başına gol - FotMob",
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3AyUG1mUnptMUJCaElETDdpU2syejh4QkY0em5ab0hnd2xYMWNnR284X2NWYXN3UzdwUmY4bTF2TndDYTVkbWhTMUxPb0lhUjhWamhsdUphM2kzTjlxODl3QnVmLXZYenJTQk5DcXV5bUVpLTFsTTRjVFhjYzBkRWxIRDVBOFdBX2t3SUxRbWlSdDlTb2Qxc3FQdFMtRmRzVFpxOWpkZ2UtcmQ3NExrZ0JvQQ?oc=5",
             "published": "Sun, 04 Oct 2026 06:19:36 GMT",
@@ -550,15 +577,6 @@
             "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FRFBVZktoWGFBd3g2dW5RcmhDQm1tcnI3M0M1Z056YktqYXQ5WjlyU0g1eDRsSm9McXdLcGhnZVpsSkh5QktiTjdPTUY0cFVHYk9idTl0NDM1LWZ1RGJiczBqdXliTG1uaXhJ?oc=5",
             "published": "Tue, 26 Sep 2023 21:04:43 GMT",
             "text": "PSV Eindhoven FotMob",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PSV Eindhoven - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EWkpPVThkRjhIOC1OMTBXRzFXalQ2TGRYcWFmM2Jkc3BqUGREM3BURkNBYkw5OU1Hcnp3TkdHeTMzamJBeGRZdXJ2cUdOMUxnTUtGeEVZb3VCZnVsb2l2LTlid1VDWHptQkFWOFhpa1BQZEJYNGNF?oc=5",
-            "published": "Fri, 05 May 2017 16:59:04 GMT",
-            "text": "PSV Eindhoven Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -927,15 +945,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "QPR swoop for West Ham frontman Maiga - My London",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYy1YQWNlVEF6NWgtQVBOUlpmSGoyQmVIUUdnWXBZOGVFTTFqSGVrR2VzU051YVA1SjVvSHBYbFVLVlItVmdpMlNWd0FWNHVDNklrN2lvdDAxQ2x5Mjkydmc1MFNqdThYVjZSaVJ1ci0xNnBIbF94Q3hLOGc4bW9SMzA5aVY4VWJVRkxVc3NSeWxUQTBL0gGaAUFVX3lxTE1fblhFV0RDaE9td2ZVdEw4LXdBbzQ1Vnl6Rm1qZUFUekxxN3ltaE9aMS1JaHNqN1ZGcHN0R19tWk9CeTRGQUY0WkRkV0JzWUFhckdqQUUyeG5GTmZ4RUEzTFZMNVhWaHJxMHI5aExpWm9yUDdFY1FHNE5ibjllSXB3d051RXBUeVpGeUZ5aU5kWWFYTF80Z1RZbHc?oc=5",
-            "published": "Fri, 31 Jan 2014 08:00:00 GMT",
-            "text": "QPR swoop for West Ham frontman Maiga My London",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Fans of Chelsea and Millwall rated worst in London - YouGov",
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkNSV3dSSUNEak1oallFTEhrVkJZWlZ2UGdiQlo0V1BtQjFuY2tOMkRkc05fSUZ6cHRyRG1jb1JVTDFNekp0djRqbFBvNnJqQmR1eDI4TzY5OS1FUkJ4ejltNE9EQWZZcjJlalhSdTR4b0VIY05QZzJsTVIyLWliajZobVdPR1V3d0I1VA?oc=5",
             "published": "Wed, 04 Mar 2015 08:00:00 GMT",
@@ -954,6 +963,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Former Chelsea and West Ham midfielder says QPR must focus on making steady improvements ahead of Fulham clash - My London",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdXBYZk12LXZjWTRjZFZoTjV4YVN2bXNYTGplbFhFbG1VTzdBZXFfQlJTR3IxenZpekxtVkszYnN4SkNtS3J3cGFzSnlRb0dLbGx0bjJwcEppdHA3WnpxMVd3TzhXMGdCdG9ZVVpMMld2WUNibTVQYUZWVWJ4N011dnJMQ3NGTlBMa2EyZWVWY24zal9nX2RVQ1lPWnFDLUXSAaQBQVVfeXFMUC1pVVVJbDdMdHJGcGw4bUJqaTFtUnlyZGF2Z0pfRERMTTNiWENWdTd3aUJpWmlLcS0yRTdnaS1jR2k4V1dUSkIteW1oejA1a3pQLTZiNnVsdDllSVBVMnBkb1hwbGh5ZkNFbTJkalBVTTRMUTlxazJvcnBrMnFMaWhmd0RUdFJyOC1mNTU5anpWSEdIWXpsUnZLd09Jc185VElibjg?oc=5",
+            "published": "Thu, 28 Sep 2017 07:00:00 GMT",
+            "text": "Former Chelsea and West Ham midfielder says QPR must focus on making steady improvements ahead of Fulham clash My London",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Eberechi Eze Can He Replicate Championsh­ip Form on the Big Stage? - PressReader",
             "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfWUU5RExkTHFROVN6STBhVm9GZGU3QlNOeW14Z2Q5a3ZaN2R0UmpvdzZPZkkxeWtDLUx4UjRHdHlvWlF2VDBkaGpKc1BSSnJ3MnRrWHA2YUxJTnNOdmdEYlEyal9FUFFadjVyUDFONEJ5eWo2UWtZ?oc=5",
             "published": "Sat, 29 Aug 2020 07:00:00 GMT",
@@ -963,10 +981,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Former Chelsea and West Ham midfielder says QPR must focus on making steady improvements ahead of Fulham clash - My London",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdXBYZk12LXZjWTRjZFZoTjV4YVN2bXNYTGplbFhFbG1VTzdBZXFfQlJTR3IxenZpekxtVkszYnN4SkNtS3J3cGFzSnlRb0dLbGx0bjJwcEppdHA3WnpxMVd3TzhXMGdCdG9ZVVpMMld2WUNibTVQYUZWVWJ4N011dnJMQ3NGTlBMa2EyZWVWY24zal9nX2RVQ1lPWnFDLUXSAaQBQVVfeXFMUC1pVVVJbDdMdHJGcGw4bUJqaTFtUnlyZGF2Z0pfRERMTTNiWENWdTd3aUJpWmlLcS0yRTdnaS1jR2k4V1dUSkIteW1oejA1a3pQLTZiNnVsdDllSVBVMnBkb1hwbGh5ZkNFbTJkalBVTTRMUTlxazJvcnBrMnFMaWhmd0RUdFJyOC1mNTU5anpWSEdIWXpsUnZLd09Jc185VElibjg?oc=5",
-            "published": "Thu, 28 Sep 2017 07:00:00 GMT",
-            "text": "Former Chelsea and West Ham midfielder says QPR must focus on making steady improvements ahead of Fulham clash My London",
+            "title": "QPR swoop for West Ham frontman Maiga - My London",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYy1YQWNlVEF6NWgtQVBOUlpmSGoyQmVIUUdnWXBZOGVFTTFqSGVrR2VzU051YVA1SjVvSHBYbFVLVlItVmdpMlNWd0FWNHVDNklrN2lvdDAxQ2x5Mjkydmc1MFNqdThYVjZSaVJ1ci0xNnBIbF94Q3hLOGc4bW9SMzA5aVY4VWJVRkxVc3NSeWxUQTBL0gGaAUFVX3lxTE1fblhFV0RDaE9td2ZVdEw4LXdBbzQ1Vnl6Rm1qZUFUekxxN3ltaE9aMS1JaHNqN1ZGcHN0R19tWk9CeTRGQUY0WkRkV0JzWUFhckdqQUUyeG5GTmZ4RUEzTFZMNVhWaHJxMHI5aExpWm9yUDdFY1FHNE5ibjllSXB3d051RXBUeVpGeUZ5aU5kWWFYTF80Z1RZbHc?oc=5",
+            "published": "Fri, 31 Jan 2014 08:00:00 GMT",
+            "text": "QPR swoop for West Ham frontman Maiga My London",
             "language": "en",
             "sentiment": 0.0
           },
@@ -990,6 +1008,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGdSVXFTYXEwUDkyTENoZnQzMm4wZ0Y0MW9Qa3RGWGV1eVRiZHVlS3IyZU1qZUJuVDlkdk94T0xOYUxpZFc2RFpHcXBOdEY0bkE5S1dZVXdXQlQyWlVhdmZPakJ2dWViRktSLW40ZDNHUWZTVXZzZklqOFZqcU9uT3lPSUQtSk0zMm9n?oc=5",
+            "published": "Fri, 02 Oct 2026 07:00:00 GMT",
+            "text": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win Squawka",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Swansea City vs Sheffield United predictions and betting tips: Swans fancied at home - Squawka",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmtOYkZMLXNJRDBzNjhfUVpiNmc0b3F0VUJwNXFuc3p1UUNpNEl1RTVPQzR5ZFB2VW5VcFR5aXpEX1ZlT3gxeXBhMmJzQ0hEbWRxRHBWVGRZaGQ0ck9MX0htUDJDZVdkZmFFelJ6NmRyVDh6SllRM2gwVGpZRktkZTlGam4wbm9nSHpWNzFnTUVLeXQ2ejZnSXVR?oc=5",
             "published": "Tue, 06 Oct 2026 07:00:00 GMT",
@@ -1005,6 +1032,15 @@
             "text": "Wrexham vs Birmingham City predictions and betting tips: Racecourse to roar again Squawka",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWp5d3Q3emNNQ3Jpd25Denlvb2FKN0dRbjcySUkwamkyMV9sMy1mRnliMExQZE5VYzF5Z3I5aDBBOUVzQjZuLU9ha2FCSWswanM0Z0F3QVhTX19kVHFTb3pGcDRZdzZxbWpZXzBCdktrOTdVZURIejJiZUpnck8zdERMbFBRUEpPRVk2RURjWQ?oc=5",
+            "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+            "text": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides Squawka",
+            "language": "en",
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -1026,19 +1062,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
-            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
-            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
+            "title": "'QPR was the only job that could have tempted Ollie away from Sky' says Minto - My London",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOems1c2Q3UGk1eko0ZzF5LUdZcndZeEFrbTVSMTNEUi1LWDBnaE45R0ZvN3JtNnk3dE15dUFtM21UQ0gwN0F3cTRnckdDS1V2VHgzX0hRR1V0X20tVGRsdnVOcDNHQmRuQUtzdFNjb1ptdXZBQlpnQXZIWjFDeEJhRTljbWw1bUhoZ0Racks3VFZvLXNXZmfSAZsBQVVfeXFMTXhiR2F1dTFxemRoS3dleEJpdG5ycmpmeFplUWNOYmdkcjZpQXJ1NWpBeWtGcnFndU5uYUliVUFtQUpXMDRPQXhfMWh4Wk1oZzdoRFcxSTVxeGpuTWRwOTRaSGxOV3FqYXlOZkVvUE8yUlRKZDVfLVJEb2lrSWlfTGNaSElYdHRKX0VldkxhMjdyQzR0RUgyTk5taG8?oc=5",
+            "published": "Thu, 28 Sep 2017 07:00:00 GMT",
+            "text": "'QPR was the only job that could have tempted Ollie away from Sky' says Minto My London",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
-            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-            "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
+            "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
+            "published": "Wed, 12 Aug 2026 13:19:04 GMT",
+            "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1053,21 +1089,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGdSVXFTYXEwUDkyTENoZnQzMm4wZ0Y0MW9Qa3RGWGV1eVRiZHVlS3IyZU1qZUJuVDlkdk94T0xOYUxpZFc2RFpHcXBOdEY0bkE5S1dZVXdXQlQyWlVhdmZPakJ2dWViRktSLW40ZDNHUWZTVXZzZklqOFZqcU9uT3lPSUQtSk0zMm9n?oc=5",
-            "published": "Fri, 02 Oct 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win Squawka",
+            "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
             "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWp5d3Q3emNNQ3Jpd25Denlvb2FKN0dRbjcySUkwamkyMV9sMy1mRnliMExQZE5VYzF5Z3I5aDBBOUVzQjZuLU9ha2FCSWswanM0Z0F3QVhTX19kVHFTb3pGcDRZdzZxbWpZXzBCdktrOTdVZURIejJiZUpnck8zdERMbFBRUEpPRVk2RURjWQ?oc=5",
-            "published": "Mon, 21 Sep 2026 07:00:00 GMT",
-            "text": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides Squawka",
-            "language": "en",
-            "sentiment": 1.0
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -1077,15 +1104,6 @@
             "text": "Charlton Athletic vs Preston predictions and betting tips: Addicks fancied after West Ham win Squawka",
             "language": "en",
             "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bolton vs West Ham predictions and betting tips: Hammers fancied - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFFbXA3OERqcGQ4SEE5dGRnRm1WMWM0QjNrME91eEZkc3k4dkxqMkZhWV9ucDVMTU92VU9RdW1NUWlrdzd3M0tVSWl0Tlgxdlk1VFdWdFUxcHgyOVp3a2tnUnZfcW8xdHdyTE9yQk4xNHVhWV9ySk1JUkg2Y1BwMXpBdFNBakdGQV9NQWtB?oc=5",
-            "published": "Fri, 25 Sep 2026 07:00:00 GMT",
-            "text": "Bolton vs West Ham predictions and betting tips: Hammers fancied Squawka",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -1544,19 +1562,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Werder says farewell to Bittencourt & Co. - werder.de",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qLTBWMGhwQm5fUm9MZm0wY19hZTZLZ0xLUFVyM3hsU2xzX0xfYU5Na0t0MVpOd0g1Q0NnVF90b1otLUtGdjFUUEZQT2dLb05NYlNqWm5sTFZtWHZCTTIzUFNfM3FaR2RXUlByLWdOTWp5R3Z0dDVIMQ?oc=5",
-            "published": "Sat, 16 May 2026 07:00:00 GMT",
-            "text": "Werder says farewell to Bittencourt & Co. werder.de",
+            "title": "Kovac thrilled with Dortmund’s Bundesliga season - beIN SPORTS",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3haSnlaMWZERlRCdzNqb0xiNW9BdEZsOEdScm9aQTF5YzdYLWpka0hNUjlUUGtVWkNWRFY0RVFiSWppUGRHVlNJd2ZPVzU0RzdEYmc0RnB4UlFsVUgySktZX2gxdnlwek9EVjRYN1hsSkFZYlZYY21RaWRBU1dnSVNYaGkyM183TWNmSlVRcGlaOWdDckNhdmNOdUJQVEM1Uko3UGl0QVZwSXV2eE5BV09ETkdzNUdaQVdIRGZvN1lHSjV6OFE?oc=5",
+            "published": "Fri, 15 May 2026 07:00:00 GMT",
+            "text": "Kovac thrilled with Dortmund’s Bundesliga season beIN SPORTS",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund’s Yan Couto now set for Como loan - Get German Football News",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MTGREckFPdUVMUHhBVW1wdEVobkZiZ3BqM1o4eG9ucFFMTzFnUk1JSFlpcXkyNi1Nb2dzb1N3dnh0SHpucGN4YlA1ZWdDUmY4bmJTTGxTcnN0MElYa2tLSGxMNUtRR1VlUV9VYWRxb3AtQQ?oc=5",
-            "published": "Sun, 02 Aug 2026 07:00:00 GMT",
-            "text": "Borussia Dortmund’s Yan Couto now set for Como loan Get German Football News",
+            "title": "Werder says farewell to Bittencourt & Co. - werder.de",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qLTBWMGhwQm5fUm9MZm0wY19hZTZLZ0xLUFVyM3hsU2xzX0xfYU5Na0t0MVpOd0g1Q0NnVF90b1otLUtGdjFUUEZQT2dLb05NYlNqWm5sTFZtWHZCTTIzUFNfM3FaR2RXUlByLWdOTWp5R3Z0dDVIMQ?oc=5",
+            "published": "Sat, 16 May 2026 07:00:00 GMT",
+            "text": "Werder says farewell to Bittencourt & Co. werder.de",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1670,19 +1688,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stuttgart VS Werder Bremen: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU204aEhrUzllcldaejhvaE1CQ0xLVTI3cHo5dGZzYV9JZWVwNnlrT3JXU01RakU3bzdGQWJ6bjZkMERuRHd0VTdyNFpaZmVRa2VHZkZlbWRpbXFxZU1RYlFCekMzY1JnZjhfdzZ0RkRkUWxyYWhGQVRfYk9RN2ZuMHRlYldXa01MNVpoeHItbEJYaE0?oc=5",
-            "published": "Thu, 28 Mar 2024 07:27:32 GMT",
-            "text": "Stuttgart VS Werder Bremen: Live Scores, Lineups, H2H & Odds 365Scores",
+            "title": "Borussia Dortmund vs Werder Bremen Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeGZ6dVE3LWZSa3B3dXpUUG82ZUwydzNweVMxVE1qV1EwdTNqRS1taHpzZnRGM19MMnRvWk0tNS1fSmRvNnAzbzVwQWZIaWV0aTRmUTJSV18zZVo1WGhqQ2RRSy1iUVFZX2NrM29xRFJ4emFLa0NuQWQzOVZLT09xaGw4YURXQnZkNTBRMmsyYTJRaU1sY2lrQVhSUW15NEZJc0RURS1xcUtLMXFHOHRna1ZhTGZzY2diR2dnMTlEZw?oc=5",
+            "published": "Thu, 08 Oct 2026 01:22:02 GMT",
+            "text": "Borussia Dortmund vs Werder Bremen Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Borussia Dortmund vs Werder Bremen Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeGZ6dVE3LWZSa3B3dXpUUG82ZUwydzNweVMxVE1qV1EwdTNqRS1taHpzZnRGM19MMnRvWk0tNS1fSmRvNnAzbzVwQWZIaWV0aTRmUTJSV18zZVo1WGhqQ2RRSy1iUVFZX2NrM29xRFJ4emFLa0NuQWQzOVZLT09xaGw4YURXQnZkNTBRMmsyYTJRaU1sY2lrQVhSUW15NEZJc0RURS1xcUtLMXFHOHRna1ZhTGZzY2diR2dnMTlEZw?oc=5",
-            "published": "Thu, 08 Oct 2026 01:22:02 GMT",
-            "text": "Borussia Dortmund vs Werder Bremen Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026 Sportsgambler",
+            "title": "Werder Bremen vs Borussia Dortmund Prediction and Betting Tips | May 16th 2026 - Sportskeeda",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVVvX2VDRWwtWlpUaUp5alhma3RpMi01dFpJTmpfU2V0d3Fnb2RJeU16cnR5cVRoOTVaSmZrRlo5TDVZaXJwSmFPaEN0bC00RkFtalRMWVFNcXAxNFB1Ymp3eVV4MXpiYnBHX3lxRGxXbldBU2lCUWhJY1ZKVkxUbEp1ZXZ3U2ljODhwZTJINTI2UzRRVUU3TFVOaF90N2kzM2lSZzZ3Vk12aWt3N2c?oc=5",
+            "published": "Sat, 16 May 2026 07:00:00 GMT",
+            "text": "Werder Bremen vs Borussia Dortmund Prediction and Betting Tips | May 16th 2026 Sportskeeda",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1710,6 +1728,15 @@
             "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kYXdzNlRqLThEcmp3NG5WNGxhUThSR2xaa1BMRWRsVlg3YzNFX0F4dWtDcXR3ZnpIVENTZHh6b2ZWYU12OW1ndVNwQUFvZEdESXdsOFcxMFlPVTk0WlB3LUxpQlk2TWtLeFBCb1Q1Y3o0RHN6?oc=5",
             "published": "Fri, 10 Jul 2026 07:30:46 GMT",
             "text": "Werder Bremen confirm signing of Polish defender Bulinews",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "404 | This page cannot be found. - Bundesliga | official website",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdExrSjRyb3A0RFJVZzFXV2JzQUtWMVRwcFEybl92bnJhaFJXV3VlQVJlOWJudnNuYWUzVW9oQ2RwZmVXdXNzOXhBb2FvaXJJUWhjYzltaFVWNTEtODlJSlBNcmR2RVRLZEt4RWZGaklIZTVvMFZObExZVU05N2otcWhwSUF6OENyYzR1dFdZeHQ5djFvQ0JDSm1xc3NWaXd3VW9JdGNsQjdaSVhobWU0?oc=5",
+            "published": "Thu, 02 Jul 2026 13:03:12 GMT",
+            "text": "404 | This page cannot be found. Bundesliga | official website",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1773,15 +1800,6 @@
             "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVEp0Wk9mWmpvdUZ5RURNVnhiVlF6U1FRY0hkLWQtbUN5S0w3dU90MXdUVkhNVnV6LUFKZk1mLVozcllnQ0YzQTlkSVF4WlBRTkcwZUtZTjlPVnNiNm9CTl90SElHc2tsNWpKaWtfM3ZpZGlPX2VTd2RWOWczWmdlZjkwdU1SUmlMWHFVeWQ5Mmw?oc=5",
             "published": "Fri, 20 Mar 2026 07:00:00 GMT",
             "text": "St. Pauli vs. SC Freiburg preview: Freiburg looking to build off European success Bulinews",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Dortmund start with comfortable win over HSV despite injury scare and red card - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSUlzMkVZbXpwSFFaSDlwMVl0YzIyaThzRXI1aW1ZMTFtdHRleVRRZlBhRllVTm9hNWg3dXZ2ZktQM0ttanY2WmRWcGRDTjNXSFZMdzgwMlRVaENULWRuRFVrMkR4cWFCclI3UEZxR0VtZ2RPYnE0ZDZtLUZhQUF0VTFrcXc4U2otMmpadQ?oc=5",
-            "published": "Sat, 29 Aug 2026 07:00:00 GMT",
-            "text": "Dortmund start with comfortable win over HSV despite injury scare and red card Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2738,19 +2756,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Gil Vicente FC - Transfers 17/18 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDdqcnRYNkVEWFZHNGpOT01DMHNOSjI3ZVFYNmxQc190QUF4ZFoxdnVLR0xuR2RzeHc4YldPX1NRbkVkWkFRY0NJal93elZobnRzMU5IeHNIOEVsZDF1c1V4ZjRGX1VuTk1SYmlMN0xtZm5xTDFyMmhXRW5HOEdwanR0WkV2Ui1JR1pDWDRqaWswWDc5Y2k2ZENVZkxIM2FfZktSMFBB?oc=5",
-            "published": "Tue, 07 Nov 2017 17:27:22 GMT",
-            "text": "Gil Vicente FC - Transfers 17/18 Transfermarkt",
+            "title": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZVJScnFoemVVRG1pR1hqVXZKQm9RQVlvSC0xSVg1d0kyTXlpRkhoV1AyY3VQNTBjNmZlRjZ1QUZvNW1CYXU1T1ZQa3JhYXRxX0pwNDRoRVBHNi1UdFkxSmxKQ2pYajBOcmMzX2syM3J0STh2QW9obW5yMFhHT2tEQXA4d3J6aGpfTmFBSFU5amtaYkNtUVNRU0VodDhRV2NjWjY5MlQ1czlneXpoZUlnOUo5NjhuV1BXZTZrajBVeUQ?oc=5",
+            "published": "Mon, 31 Mar 2025 07:00:00 GMT",
+            "text": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZVJScnFoemVVRG1pR1hqVXZKQm9RQVlvSC0xSVg1d0kyTXlpRkhoV1AyY3VQNTBjNmZlRjZ1QUZvNW1CYXU1T1ZQa3JhYXRxX0pwNDRoRVBHNi1UdFkxSmxKQ2pYajBOcmMzX2syM3J0STh2QW9obW5yMFhHT2tEQXA4d3J6aGpfTmFBSFU5amtaYkNtUVNRU0VodDhRV2NjWjY5MlQ1czlneXpoZUlnOUo5NjhuV1BXZTZrajBVeUQ?oc=5",
-            "published": "Mon, 31 Mar 2025 07:00:00 GMT",
-            "text": "Liga Portugal market values: Chelsea talent Quenda up by 50% - Diogo Costa drops Transfermarkt",
+            "title": "FC Famalicão - Club profile 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTUdwN01pQ0FNWFFsM215czNqT1JFZF9CYU9uSU5lVDhXQ3gzWlhnbG4tQ19pUmdrSWJ3dnRWLWt0UVc5bkZ5V242TFR1eWZWdDJ5OVJsTUliUVdrQkZxeEpLckJoYTlkSnRMeXNyRENNUnM2OUtaS180WG5YaXc2ZnBhM1MxSjQ?oc=5",
+            "published": "Tue, 17 Jun 2025 02:54:34 GMT",
+            "text": "FC Famalicão - Club profile 25/26 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3008,15 +3026,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "SC Braga - Fikstür 25/26 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5sRVRCOTRyQmRzRXBZXzVhZnBXblNKd0R6ME55NVVSSlJaSkVxcDI0M0xxMUZMaU5PY3cxNnZYeU55UzU0LVdwRFBaSUtZSXBGUUQzckIySHZiSDhhbGN6NGpVYTByRzNKRnVobGswY1IzWEUyN24xNVl3OVYycEhyUGk?oc=5",
-            "published": "Fri, 04 Jul 2025 16:07:33 GMT",
-            "text": "SC Braga - Fikstür 25/26 Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Moreirense FC - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lZm9JRXBmc2NYbjZDSmVQU0l3MFN1SlhmUkdQUXlxLXl2NlVwZDB0TWZWUVZKWGhhWjFIVVhIN2ZISUVvaWYtcG9HRVpvcXpuV2RvZGc3WGFkcGt6a0tlNDR5VWlueDhoMVNZd3U3T0h1OFU?oc=5",
             "published": "Sat, 08 Jun 2019 12:49:52 GMT",
@@ -3030,6 +3039,15 @@
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFeTRpNE5wRUtadzNaR3VvUHBKVmE2dkREMS1RdnVPUmNaemtXdEhFM3dZR2FwamRtWkEzbkdCN1RxUWdhTjgxbWpLRm5ycDdGSXNQX1U3QVpSQVJCaUl1T2dYRXpNSVRweEQtdm1oQzVvcWVhUFE?oc=5",
             "published": "Sun, 04 Jun 2017 15:29:31 GMT",
             "text": "Moreirense FC - Fikstür 26/27 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "SC Braga - Fikstür 25/26 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5sRVRCOTRyQmRzRXBZXzVhZnBXblNKd0R6ME55NVVSSlJaSkVxcDI0M0xxMUZMaU5PY3cxNnZYeU55UzU0LVdwRFBaSUtZSXBGUUQzckIySHZiSDhhbGN6NGpVYTByRzNKRnVobGswY1IzWEUyN24xNVl3OVYycEhyUGk?oc=5",
+            "published": "Fri, 04 Jul 2025 16:07:33 GMT",
+            "text": "SC Braga - Fikstür 25/26 Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3389,19 +3407,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Fonte Signs - Fulham FC",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uSzUwYTdzQU9ZUVhQRkZ3WjIzdU9UMUpLQ2xPQmNBeDJaWFA2bHlES3VQcGt1QmFxQmtmX05tZDRwaW5rZkRGM1lzLUJyOHNLUnBkVmRCaHJ0c1ExS0g4NFBON0wyUGc?oc=5",
-            "published": "Thu, 17 Aug 2017 07:00:00 GMT",
-            "text": "Fonte Signs Fulham FC",
+            "title": "2025 Review | A record year for Europe - European Athletics",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPajIwYkJ1bUxxRkN5OUNpUEtOZ0hsMEVueS1FTW9XNUhOeUhRQzBfUXJTRFRBeFlMaGpfUzZBS0xxSVZuZ1ZUZ0wweS0xLVJMY29LM3dLOWpQdTNLeFpEbXJlVFV1S01oeFI0ZDNrV1FKSExyeC14LUF4aFl3YnFrWTktU0dwU2hz?oc=5",
+            "published": "Wed, 31 Dec 2025 08:00:00 GMT",
+            "text": "2025 Review | A record year for Europe European Athletics",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "2025 Review | A record year for Europe - European Athletics",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPajIwYkJ1bUxxRkN5OUNpUEtOZ0hsMEVueS1FTW9XNUhOeUhRQzBfUXJTRFRBeFlMaGpfUzZBS0xxSVZuZ1ZUZ0wweS0xLVJMY29LM3dLOWpQdTNLeFpEbXJlVFV1S01oeFI0ZDNrV1FKSExyeC14LUF4aFl3YnFrWTktU0dwU2hz?oc=5",
-            "published": "Wed, 31 Dec 2025 08:00:00 GMT",
-            "text": "2025 Review | A record year for Europe European Athletics",
+            "title": "Fonte Signs - Fulham FC",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uSzUwYTdzQU9ZUVhQRkZ3WjIzdU9UMUpLQ2xPQmNBeDJaWFA2bHlES3VQcGt1QmFxQmtmX05tZDRwaW5rZkRGM1lzLUJyOHNLUnBkVmRCaHJ0c1ExS0g4NFBON0wyUGc?oc=5",
+            "published": "Thu, 17 Aug 2017 07:00:00 GMT",
+            "text": "Fonte Signs Fulham FC",
             "language": "en",
             "sentiment": 0.0
           },
