@@ -17,8 +17,19 @@ def _devig_probability(odds_map: dict[str, float], key: str) -> float | None:
         "first_half_home": ("first_half_home", "first_half_draw", "first_half_away"),
         "first_half_draw": ("first_half_home", "first_half_draw", "first_half_away"),
         "first_half_away": ("first_half_home", "first_half_draw", "first_half_away"),
+        "corners_over_8_5": ("corners_over_8_5", "corners_under_8_5"),
+        "corners_under_8_5": ("corners_over_8_5", "corners_under_8_5"),
+        "cards_over_4_5": ("cards_over_4_5", "cards_under_4_5"),
+        "cards_under_4_5": ("cards_over_4_5", "cards_under_4_5"),
     }
-    keys = groups.get(key, ())
+    if key.startswith("htft_"):
+        keys = (
+            "htft_1_1", "htft_1_x", "htft_1_2",
+            "htft_x_1", "htft_x_x", "htft_x_2",
+            "htft_2_1", "htft_2_x", "htft_2_2",
+        )
+    else:
+        keys = groups.get(key, ())
     if not keys or any(odds_map.get(k, 0) <= 1 for k in keys):
         return None
     raw = [1.0 / odds_map[k] for k in keys]
