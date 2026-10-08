@@ -88,21 +88,30 @@ def _payload() -> dict[str, Any]:
         "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
         "Referer": "https://www.nesine.com/iddaa/futbol",
         "Origin": "https://www.nesine.com",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
     }
+    # First open the public bulletin page so the session receives the same
+    # cookies a normal browser gets, then request the JSON feed.
+    cachebuster = __import__("time").time_ns()
     try:
-        r = requests.get(URL, headers=headers, timeout=TIMEOUT)
+        session = requests.Session()
+        session.get("https://www.nesine.com/iddaa/futbol", headers=headers, timeout=TIMEOUT)
+        r = session.get(f"{URL}?_={cachebuster}", headers=headers, timeout=TIMEOUT)
         r.raise_for_status()
-        return r.json()
+        payload = r.json()
+        if (payload.get("sg") or {}).get("EA"):
+            return payload
     except (requests.RequestException, ValueError):
-        # Some bot-protection paths treat normal Requests differently from a
-        # browser. curl_cffi is already a transitive dependency of DataFC.
-        try:
-            from curl_cffi import requests as curl_requests
-            r = curl_requests.get(URL, headers=headers, timeout=TIMEOUT, impersonate="chrome")
-            r.raise_for_status()
-            return r.json()
-        except Exception:
-            raise
+        pass
+
+    # Browser-like fallback for bot/CDN differences on GitHub Actions.
+    from curl_cffi import requests as curl_requests
+    session = curl_requests.Session(impersonate="chrome")
+    session.get("https://www.nesine.com/iddaa/futbol", headers=headers, timeout=TIMEOUT)
+    r = session.get(f"{URL}?_={cachebuster}", headers=headers, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r.json()
 
 
 def _event_markets(event: dict[str, Any]) -> dict[str, float]:
@@ -153,11 +162,14 @@ def _event_markets(event: dict[str, Any]) -> dict[str, float]:
 def get_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
     data = _payload()
     events = (data.get("sg") or {}).get("EA") or []
-    for event in events:
-        if event.get("D") != day:
-            continue
-        if _match_name(home, event.get("HN", "")) and _match_name(away, event.get("AN", "")):
-            odds = _event_markets(event)
-            if odds:
-                return odds
+    candidates = [
+        e for e in events
+        if e.get("D") == day
+        and _match_name(home, e.get("HN", ""))
+        and _match_name(away, e.get("AN", ""))
+    ]
+    for event in candidates:
+        odds = _event_markets(event)
+        if odds:
+            return odds
     return {}
