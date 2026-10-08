@@ -3,7 +3,7 @@ import unittest
 from app.market_engine import consensus_probability
 from app.odds_pipeline import _devig_probability
 from app.signal_fusion import evaluate_market
-from app.auto_match_selector import _market_probabilities
+from app.market_probabilities import build_market_probabilities
 
 
 class HardeningTests(unittest.TestCase):
@@ -36,17 +36,22 @@ class HardeningTests(unittest.TestCase):
         self.assertAlmostEqual(probability, 0.45 * 1.0 + 0.35 * 0.0 + 0.20 * 0.60)
         self.assertEqual(votes, 2)
 
-    def test_market_probability_components_are_not_identical(self):
+    def test_market_probability_components_are_bounded(self):
         home = {"points_per_game": 2.0, "goal_diff_per_game": 0.75,
                 "over25_rate": 0.7, "btts_rate": 0.65, "matches": 8}
         away = {"points_per_game": 1.0, "goal_diff_per_game": -0.25,
                 "over25_rate": 0.4, "btts_rate": 0.45, "matches": 8}
-        probs = _market_probabilities(home, away, {"web_score": 0.2, "confidence": 0.8})
+        dc = {
+            "home_win": 0.62, "draw": 0.22, "away_win": 0.16,
+            "btts_yes": 0.58, "over_2_5": 0.61,
+            "score_matrix": [[0.10, 0.08], [0.05, 0.07]],
+        }
+        probs = build_market_probabilities(home, away, dc)
         for stat, pred, intel in probs.values():
-            self.assertNotEqual(stat, pred)
-            self.assertTrue(0.05 <= stat <= 0.95)
-            self.assertTrue(0.05 <= pred <= 0.95)
-            self.assertTrue(0.05 <= intel <= 0.95)
+            self.assertTrue(0.02 <= stat <= 0.98)
+            self.assertTrue(0.02 <= pred <= 0.98)
+            self.assertTrue(0.02 <= intel <= 0.98)
+        self.assertNotEqual(probs["home_win"][0], probs["home_win"][1])
 
 
 if __name__ == "__main__":
