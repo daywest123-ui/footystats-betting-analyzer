@@ -14,6 +14,9 @@ def _devig_probability(odds_map: dict[str, float], key: str) -> float | None:
         "btts_no": ("btts_yes", "btts_no"),
         "over_2_5": ("over_2_5", "under_2_5"),
         "under_2_5": ("over_2_5", "under_2_5"),
+        "first_half_home": ("first_half_home", "first_half_draw", "first_half_away"),
+        "first_half_draw": ("first_half_home", "first_half_draw", "first_half_away"),
+        "first_half_away": ("first_half_home", "first_half_draw", "first_half_away"),
     }
     keys = groups.get(key, ())
     if not keys or any(odds_map.get(k, 0) <= 1 for k in keys):
