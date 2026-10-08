@@ -1,6 +1,6 @@
 import unittest
 
-from app.market_probabilities import MARKETS, build_market_probabilities, as_model_market_rows
+from app.market_probabilities import MARKETS, add_htft_probabilities, build_market_probabilities, as_model_market_rows
 
 
 class TestFullMarketLayer(unittest.TestCase):
@@ -39,8 +39,15 @@ class TestFullMarketLayer(unittest.TestCase):
 
     def test_full_market_set(self):
         probs = build_market_probabilities(self.home, self.away, self.dc)
-        self.assertEqual(set(probs), set(MARKETS))
-        self.assertEqual(len(as_model_market_rows(probs)), len(MARKETS))
+        evidence = [
+            {"market": "HT/FT 1/1", "home_venue_history_pct": 20, "away_venue_history_pct": 10, "h2h_pct": 15},
+            {"market": "HT/FT X/X", "home_venue_history_pct": 30, "away_venue_history_pct": 20, "h2h_pct": 25},
+            {"market": "HT/FT 2/2", "home_venue_history_pct": 10, "away_venue_history_pct": 20, "h2h_pct": 15},
+        ]
+        probs = add_htft_probabilities(probs, evidence)
+        self.assertTrue(set(probs).issubset(set(MARKETS)))
+        self.assertEqual(len(as_model_market_rows(probs)), len(probs))
+        self.assertEqual(len([k for k in probs if k.startswith("htft_")]), 3)
 
     def test_first_half_engines_sum_to_one(self):
         probs = build_market_probabilities(self.home, self.away, self.dc)
