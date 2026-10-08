@@ -33,11 +33,38 @@ def _norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", value)
 
 
+TEAM_ALIASES = {
+    "psv": {"psv", "psveindhoven"},
+    "heerenveen": {"heerenveen", "scheerenveen", "sc heerenveen"},
+    "westham": {"westham", "westhamunited"},
+    "qpr": {"qpr", "queensparkrangers"},
+    "dortmund": {"dortmund", "bdortmund", "borussiadortmund"},
+    "werderbremen": {"werderbremen", "svwerderbremen"},
+    "lens": {"lens", "rclens", "racingclubdelens"},
+    "lyon": {"lyon", "olympiquelyonnais"},
+    "moreirense": {"moreirense", "moreirensefc"},
+    "gilvicente": {"gilvicente", "gilvicentefc"},
+    "braga": {"braga", "sportingclubedebraga", "scbraga"},
+    "sporting": {"sporting", "sportingcp", "sportinglisbon", "sportinglizbon", "sportingclubedeportugal"},
+    "malaga": {"malaga", "malagacf"},
+    "espanyol": {"espanyol", "rcdespanyol", "rcdespanyold ebarcelona"},
+}
+
+
+def _canonical(value: str) -> str:
+    n = _norm(value)
+    for key, aliases in TEAM_ALIASES.items():
+        cleaned = {_norm(x) for x in aliases}
+        if n in cleaned or any(alias in n or n in alias for alias in cleaned):
+            return key
+    return n
+
+
 def _match_name(a: str, b: str) -> bool:
-    a, b = _norm(a), _norm(b)
+    a, b = _canonical(a), _canonical(b)
     if not a or not b:
         return False
-    return a == b or a in b or b in a
+    return a == b
 
 
 def _odds_map(oca: list[dict[str, Any]]) -> dict[int, float]:
