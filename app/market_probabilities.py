@@ -99,15 +99,26 @@ def build_market_probabilities(
 
     first_half_intel = _clamp(0.50 + 0.10 * form_edge)
     # Independent statistical/prediction views are intentionally conservative.
-    return {
+    first_half = {
+        "first_half_home": trio(h1, _clamp(0.70 * h1 + 0.30 * (0.33 + 0.08 * form_edge)), first_half_intel),
+        "first_half_draw": trio(hx, _clamp(0.70 * hx + 0.30 * 0.34), _clamp(0.50 - 0.05 * abs(form_edge))),
+        "first_half_away": trio(h2, _clamp(0.70 * h2 + 0.30 * (0.33 - 0.06 * form_edge)), _clamp(0.50 - 0.08 * form_edge)),
+    }
+    # Normalize each engine's three first-half outcomes so the 1/X/2 set is
+    # coherent even after conservative shrinkage.
+    for engine_index in range(3):
+        total = sum(first_half[k][engine_index] for k in first_half)
+        for k in first_half:
+            values = list(first_half[k])
+            values[engine_index] = values[engine_index] / total
+            first_half[k] = tuple(values)
+
+    out = {
         "home_win": trio(dc_home * 0.75 + 0.25 * (0.50 + 0.15 * form_edge),
                           dc_home * 0.85 + 0.15 * (0.50 + 0.12 * form_edge)),
         "draw": trio(dc_draw * 0.85 + 0.15 * 0.26, dc_draw),
         "away_win": trio(dc_away * 0.75 + 0.25 * (0.50 - 0.12 * form_edge),
                           dc_away * 0.85 + 0.15 * (0.50 - 0.10 * form_edge)),
-        "first_half_home": trio(h1, _clamp(0.70 * h1 + 0.30 * (0.33 + 0.08 * form_edge)), first_half_intel),
-        "first_half_draw": trio(hx, _clamp(0.70 * hx + 0.30 * 0.34), _clamp(0.50 - 0.05 * abs(form_edge))),
-        "first_half_away": trio(h2, _clamp(0.70 * h2 + 0.30 * (0.33 - 0.06 * form_edge)), _clamp(0.50 - 0.08 * form_edge)),
         "btts_yes": trio(dc_btts, dc_btts * 0.90 + 0.10 * btts_signal),
         "btts_no": trio(1.0 - dc_btts, 1.0 - (dc_btts * 0.90 + 0.10 * btts_signal)),
         "over_2_5": trio(dc_over, dc_over * 0.90 + 0.10 * goal_signal),
@@ -118,6 +129,8 @@ def build_market_probabilities(
         "cards_over_4_5": trio(card_over, card_over, None),
         "cards_under_4_5": trio(1.0 - card_over, 1.0 - card_over, None),
     }
+    out.update(first_half)
+    return out
 
 
 def as_model_market_rows(probabilities: dict[str, tuple[float, float, float]]) -> list[dict[str, Any]]:
