@@ -16,6 +16,9 @@ MARKETS = (
     "btts_over_2_5",
     "corners_over_8_5", "corners_under_8_5",
     "cards_over_4_5", "cards_under_4_5",
+    "htft_1_1", "htft_1_x", "htft_1_2",
+    "htft_x_1", "htft_x_x", "htft_x_2",
+    "htft_2_1", "htft_2_x", "htft_2_2",
 )
 
 
@@ -133,6 +136,24 @@ def build_market_probabilities(
     return out
 
 
+def add_htft_probabilities(
+    probabilities: dict[str, tuple[float, float, float]],
+    htft_evidence: list[dict[str, Any]],
+) -> dict[str, tuple[float, float, float]]:
+    """Add the exact nine HT/FT outcomes from venue-aware historical evidence."""
+    for row in htft_evidence or []:
+        market = str(row.get("market", ""))
+        if not market.startswith("HT/FT "):
+            continue
+        outcome = market.split(" ", 1)[1].strip()
+        key = "htft_" + outcome.replace("/", "_").replace("X", "x")
+        hp = float(row.get("home_venue_history_pct", 0.0)) / 100.0
+        ap = float(row.get("away_venue_history_pct", 0.0)) / 100.0
+        h2h = float(row.get("h2h_pct", 50.0)) / 100.0
+        probabilities[key] = (_clamp(hp, 0.001, 0.999), _clamp(ap, 0.001, 0.999), _clamp(h2h, 0.001, 0.999))
+    return probabilities
+
+
 def as_model_market_rows(probabilities: dict[str, tuple[float, float, float]]) -> list[dict[str, Any]]:
     labels = {
         "home_win": "MS 1", "draw": "MS X", "away_win": "MS 2",
@@ -142,6 +163,9 @@ def as_model_market_rows(probabilities: dict[str, tuple[float, float, float]]) -
         "btts_over_2_5": "KG VAR + ÜST 2.5",
         "corners_over_8_5": "Korner ÜST 8.5", "corners_under_8_5": "Korner ALT 8.5",
         "cards_over_4_5": "Kart ÜST 4.5", "cards_under_4_5": "Kart ALT 4.5",
+        "htft_1_1": "HT/FT 1/1", "htft_1_x": "HT/FT 1/X", "htft_1_2": "HT/FT 1/2",
+        "htft_x_1": "HT/FT X/1", "htft_x_x": "HT/FT X/X", "htft_x_2": "HT/FT X/2",
+        "htft_2_1": "HT/FT 2/1", "htft_2_x": "HT/FT 2/X", "htft_2_2": "HT/FT 2/2",
     }
     rows = []
     for market, trio_probs in probabilities.items():
