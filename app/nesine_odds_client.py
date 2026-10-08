@@ -175,9 +175,15 @@ def _event_markets(event: dict[str, Any]) -> dict[str, float]:
 def get_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
     data = _payload()
     events = (data.get("sg") or {}).get("EA") or []
+    # Open-data fixtures use ISO YYYY-MM-DD, while Nesine publishes DD.MM.YYYY.
+    try:
+        from datetime import date
+        nesine_day = date.fromisoformat(day).strftime("%d.%m.%Y")
+    except ValueError:
+        nesine_day = day
     candidates = [
         e for e in events
-        if e.get("D") == day
+        if e.get("D") in {day, nesine_day}
         and _match_name(home, e.get("HN", ""))
         and _match_name(away, e.get("AN", ""))
     ]
