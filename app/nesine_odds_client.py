@@ -82,13 +82,27 @@ def _odds_map(oca: list[dict[str, Any]]) -> dict[int, float]:
 
 @lru_cache(maxsize=2)
 def _payload() -> dict[str, Any]:
-    r = requests.get(
-        URL,
-        headers={"User-Agent": UA, "Accept": "application/json,text/plain,*/*"},
-        timeout=TIMEOUT,
-    )
-    r.raise_for_status()
-    return r.json()
+    headers = {
+        "User-Agent": UA,
+        "Accept": "application/json,text/plain,*/*",
+        "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+        "Referer": "https://www.nesine.com/iddaa/futbol",
+        "Origin": "https://www.nesine.com",
+    }
+    try:
+        r = requests.get(URL, headers=headers, timeout=TIMEOUT)
+        r.raise_for_status()
+        return r.json()
+    except (requests.RequestException, ValueError):
+        # Some bot-protection paths treat normal Requests differently from a
+        # browser. curl_cffi is already a transitive dependency of DataFC.
+        try:
+            from curl_cffi import requests as curl_requests
+            r = curl_requests.get(URL, headers=headers, timeout=TIMEOUT, impersonate="chrome")
+            r.raise_for_status()
+            return r.json()
+        except Exception:
+            raise
 
 
 def _event_markets(event: dict[str, Any]) -> dict[str, float]:
