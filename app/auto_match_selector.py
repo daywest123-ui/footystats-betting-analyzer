@@ -11,6 +11,7 @@ from app.football_data_client import load_openfootball, recent_form, fixture_odd
 from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
 from app.dixon_coles_model import predict as dixon_coles_predict
+from app.market_probabilities import as_model_market_rows, build_market_probabilities
 
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 _OPEN_MATCHES = []
@@ -83,46 +84,6 @@ def _poisson_home_probability(home_form: dict, away_form: dict) -> float:
     return _clamp_probability(home_win)
 
 
-def _market_probabilities(home_form: dict, away_form: dict, intelligence: dict | None = None,
-                          dixon: dict | None = None) -> dict[str, tuple[float, float, float]]:
-    h_o, a_o = home_form.get("over25_rate", .5), away_form.get("over25_rate", .5)
-    h_b, a_b = home_form.get("btts_rate", .5), away_form.get("btts_rate", .5)
-    h_ppg, a_ppg = home_form.get("points_per_game", 1.0), away_form.get("points_per_game", 1.0)
-    h_gd, a_gd = home_form.get("goal_diff_per_game", 0.0), away_form.get("goal_diff_per_game", 0.0)
-    goal_signal = (h_o + a_o) / 2
-    btts_signal = (h_b + a_b) / 2
-    form_edge = max(-1.0, min(1.0, (h_ppg - a_ppg) / 3.0))
-    gd_edge = max(-1.0, min(1.0, (h_gd - a_gd) / 3.0))
-
-    poisson_home = _poisson_home_probability(home_form, away_form)
-    form_home = _clamp_probability(0.50 + 0.13 * form_edge + 0.09 * gd_edge + 0.03)
-    legacy_home = _clamp_probability(0.65 * poisson_home + 0.35 * form_home)
-
-    dc_home = float((dixon or {}).get("home_win", legacy_home))
-    dc_btts = float((dixon or {}).get("btts_yes", 0.50))
-    dc_over = float((dixon or {}).get("over_2_5", 0.50))
-
-    # Three independent probability views: existing Poisson/form, Dixon-Coles,
-    # and bounded public-web intelligence. No bookmaker price is a model vote.
-    home_stat = _clamp_probability(0.55 * legacy_home + 0.45 * dc_home)
-    home_pred = _clamp_probability(0.60 * dc_home + 0.40 * form_home)
-    btts_stat = _clamp_probability(0.55 * (0.35 + 0.40 * btts_signal) + 0.45 * dc_btts)
-    btts_pred = _clamp_probability(0.60 * dc_btts + 0.40 * (0.40 + 0.32 * btts_signal))
-    over_stat = _clamp_probability(0.55 * (0.35 + 0.40 * goal_signal) + 0.45 * dc_over)
-    over_pred = _clamp_probability(0.60 * dc_over + 0.40 * (0.40 + 0.32 * goal_signal))
-
-    web_score = float((intelligence or {}).get("web_score", 0.0))
-    web_conf = max(0.0, min(1.0, float((intelligence or {}).get("confidence", 0.0))))
-    web_shift = max(-0.06, min(0.06, web_score * 0.10 * web_conf))
-    web_component = _clamp_probability(0.50 + web_shift)
-
-    return {
-        "home_win": (home_stat, home_pred, web_component),
-        "btts_yes": (btts_stat, btts_pred, web_component),
-        "over_2_5": (over_stat, over_pred, web_component),
-    }
-
-
 def score_fixture(fixture: dict) -> dict:
     day = str(fixture.get("fixture_date") or datetime.now(LOCAL_TZ).date().isoformat())[:10]
     home_form = _recent_form(fixture.get("home"), day)
@@ -136,6 +97,7 @@ def score_fixture(fixture: dict) -> dict:
     fused_probability = _clamp_probability(
         0.45 * poisson_probability + 0.45 * dc["home_win"] + 0.10 * form_probability
     )
+    market_probabilities = build_market_probabilities(home_form, away_form, dc)
     if min_matches < 3:
         status, fused_probability = "INSUFFICIENT_DATA", 0.5
     elif min_matches < 5:
@@ -156,6 +118,9 @@ def score_fixture(fixture: dict) -> dict:
             "final_probability": round(fused_probability, 4),
             "category": "VALUE" if fused_probability >= 0.58 else "WATCH",
         },
+        "model_markets": as_model_market_rows(market_probabilities),
+        "market_probability_engines": market_probabilities,
+        "htft_matrix": intel.get("opportunities", [])[:9],
     }
 
 
@@ -174,10 +139,7 @@ def main() -> None:
             odds = fixture_odds(item["home"], item["away"], day)
             if odds:
                 odds_matches += 1
-            probs = _market_probabilities(
-                item["form"]["home"], item["form"]["away"], item["intelligence"],
-                item.get("dixon_coles"),
-            )
+            probs = item.get("market_probability_engines") or {}
             item["market_analysis"] = analyze_fixture_markets(
                 item, probs, min(1.0, item["data_quality"]["min_recent_matches"] / 8),
                 odds_override=odds,
@@ -200,7 +162,7 @@ def main() -> None:
         "models": ["existing Poisson/form", "Elo + Dixon-Coles", "bounded web intelligence"],
         "fixtures_scanned": len(results), "matches_with_odds": odds_matches,
         "eligible_matches": len(eligible),
-        "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. It is an independent probability component; probabilities are estimates, not guarantees.",
+        "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. Full market layer covers MS 1/X/2, İY 1/X/2, KG VAR/YOK, ÜST/ALT 2.5, KG VAR+ÜST 2.5, Korner ÜST/ALT 8.5 and Kart ÜST/ALT 4.5. Probabilities are estimates, fair odds are 1/p, and value decisions require concrete bookmaker odds.",
         "top_matches": eligible[:5], "all_scanned": results[:50],
     }
     out = Path("reports"); out.mkdir(exist_ok=True)
@@ -210,8 +172,10 @@ def main() -> None:
     for n, item in enumerate(eligible[:5], 1):
         best = next(m for m in item["market_analysis"] if m.get("decision") == "ANALYZE")
         print(f"#{n} | {item['home']} vs {item['away']} | {best['market']} | odds={best['odds']:.2f} | model={best['model_probability_pct']}% | edge={best['value_edge_pct']:+.2f}% | EV={best['ev_pct']:+.2f}% | confidence={best['confidence_10']}/10")
+    if results:
+        print(f"Full market layer: {sum(len(x.get('model_markets', [])) for x in results)} market-model rows generated.")
     if not eligible:
-        print("NO BET: kriterleri geçen market bulunamadı.")
+        print("NO BET: kriterleri geçen fiyatlı market bulunamadı. Fiyat yoksa model fair oranı tek başına kupon üretmez.")
 
 
 if __name__ == "__main__":
