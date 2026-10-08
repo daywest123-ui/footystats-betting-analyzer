@@ -22,6 +22,7 @@ MT_GOALS_25 = 12
 MT_BTTS = 38
 MT_CORNERS = 216
 MT_CARDS = 49
+MT_BTTS_OVER = 446
 
 
 def _norm(value: str) -> str:
@@ -100,10 +101,11 @@ def _event_markets(event: dict[str, Any]) -> dict[str, float]:
             result["corners_under_8_5"] = odds[1]
             result["corners_over_8_5"] = odds[2]
         elif mtid == MT_CARDS and {1, 2}.issubset(odds):
-            # Nesine's total-card line is encoded separately from the displayed
-            # selection label; MTID 49 identifies the total-card O/U market.
+            # MTID 49 is Nesine's total-card market.
             result["cards_under_4_5"] = odds[1]
             result["cards_over_4_5"] = odds[2]
+        elif mtid == MT_BTTS_OVER and len(odds) >= 4 and abs(float(market.get("SOV") or 0) - 2.5) < 1e-9:
+            result["btts_over_2_5"] = odds[2]
     return result
 
 
