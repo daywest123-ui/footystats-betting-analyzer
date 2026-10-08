@@ -1,0 +1,120 @@
+"""Live, keyless Nesine pre-match odds client.
+
+The public bulletin endpoint is read-only from the analyzer's perspective.
+Only concrete odds returned by Nesine are accepted; no synthetic odds are made.
+"""
+from __future__ import annotations
+
+import re
+from functools import lru_cache
+from typing import Any
+
+import requests
+
+URL = "https://bulten.nesine.com/api/bulten/getprebultenfull"
+TIMEOUT = 20
+UA = "Mozilla/5.0 (compatible; MatchAnalyzerX/1.0)"
+
+MT_MS = 1
+MT_FIRST_HALF = 7
+MT_HTFT = 5
+MT_GOALS_25 = 12
+MT_BTTS = 38
+MT_CORNERS = 216
+MT_CARDS = 49
+
+
+def _norm(value: str) -> str:
+    value = str(value or "").lower()
+    value = value.replace("ı", "i").replace("ş", "s").replace("ğ", "g")
+    value = value.replace("ü", "u").replace("ö", "o").replace("ç", "c")
+    value = re.sub(r"\b(fc|afc|cf|sc|fk|club)\b", " ", value)
+    return re.sub(r"[^a-z0-9]+", "", value)
+
+
+def _match_name(a: str, b: str) -> bool:
+    a, b = _norm(a), _norm(b)
+    if not a or not b:
+        return False
+    return a == b or a in b or b in a
+
+
+def _odds_map(oca: list[dict[str, Any]]) -> dict[int, float]:
+    out = {}
+    for item in oca or []:
+        try:
+            n = int(item.get("N"))
+            odd = float(item.get("O"))
+            if odd > 1.0:
+                out[n] = odd
+        except (TypeError, ValueError):
+            continue
+    return out
+
+
+@lru_cache(maxsize=2)
+def _payload() -> dict[str, Any]:
+    r = requests.get(
+        URL,
+        headers={"User-Agent": UA, "Accept": "application/json,text/plain,*/*"},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    return r.json()
+
+
+def _event_markets(event: dict[str, Any]) -> dict[str, float]:
+    result: dict[str, float] = {}
+    for market in event.get("MA") or []:
+        mtid = market.get("MTID")
+        odds = _odds_map(market.get("OCA") or [])
+        if not odds:
+            continue
+
+        if mtid == MT_MS and {1, 2, 3}.issubset(odds):
+            result["home_win"] = odds[1]
+            result["draw"] = odds[2]
+            result["away_win"] = odds[3]
+        elif mtid == MT_FIRST_HALF and {1, 2, 3}.issubset(odds):
+            result["first_half_home"] = odds[1]
+            result["first_half_draw"] = odds[2]
+            result["first_half_away"] = odds[3]
+        elif mtid == MT_HTFT and len(odds) >= 9:
+            # Nesine's published HT/FT column order:
+            # 1/1, X/1, 2/1, 1/X, X/X, 2/X, 1/2, X/2, 2/2.
+            order = (
+                "htft_1_1", "htft_x_1", "htft_2_1",
+                "htft_1_x", "htft_x_x", "htft_2_x",
+                "htft_1_2", "htft_x_2", "htft_2_2",
+            )
+            for n, key in enumerate(order, 1):
+                if n in odds:
+                    result[key] = odds[n]
+        elif mtid == MT_GOALS_25 and abs(float(market.get("SOV") or 0) - 2.5) < 1e-9 and {1, 2}.issubset(odds):
+            result["under_2_5"] = odds[1]
+            result["over_2_5"] = odds[2]
+        elif mtid == MT_BTTS and {1, 2}.issubset(odds):
+            result["btts_yes"] = odds[1]
+            result["btts_no"] = odds[2]
+        elif mtid == MT_CORNERS and abs(float(market.get("SOV") or 0) - 8.5) < 1e-9 and {1, 2}.issubset(odds):
+            result["corners_under_8_5"] = odds[1]
+            result["corners_over_8_5"] = odds[2]
+        elif mtid == MT_CARDS and {1, 2}.issubset(odds):
+            # Nesine's total-card line is encoded separately from the displayed
+            # selection label; MTID 49 identifies the total-card O/U market.
+            result["cards_under_4_5"] = odds[1]
+            result["cards_over_4_5"] = odds[2]
+    return result
+
+
+def get_fixture_odds(home: str, away: str, day: str) -> dict[str, float]:
+    data = _payload()
+    events = (data.get("sg") or {}).get("EA") or []
+    for event in events:
+        if event.get("D") != day:
+            continue
+        if _match_name(home, event.get("HN", "")) and _match_name(away, event.get("AN", "")):
+            odds = _event_markets(event)
+            if odds:
+                return odds
+    return {}
