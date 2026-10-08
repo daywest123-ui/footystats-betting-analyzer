@@ -11,7 +11,7 @@ from app.football_data_client import load_openfootball, recent_form, fixture_odd
 from app.open_web_intelligence import analyze_match
 from app.odds_pipeline import analyze_fixture_markets
 from app.dixon_coles_model import predict as dixon_coles_predict
-from app.market_probabilities import as_model_market_rows, build_market_probabilities
+from app.market_probabilities import add_htft_probabilities, as_model_market_rows, build_market_probabilities
 
 LOCAL_TZ = ZoneInfo("Europe/Istanbul")
 _OPEN_MATCHES = []
@@ -98,6 +98,7 @@ def score_fixture(fixture: dict) -> dict:
         0.45 * poisson_probability + 0.45 * dc["home_win"] + 0.10 * form_probability
     )
     market_probabilities = build_market_probabilities(home_form, away_form, dc)
+    market_probabilities = add_htft_probabilities(market_probabilities, intel.get("opportunities", []))
     if min_matches < 3:
         status, fused_probability = "INSUFFICIENT_DATA", 0.5
     elif min_matches < 5:
