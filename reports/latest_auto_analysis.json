@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:04:27.520628+03:00",
+  "generated_at": "2026-10-09T09:20:45.771514+03:00",
   "run_status": "OK",
   "decision_status": "BET_CANDIDATES",
   "data_sources": [
@@ -194,21 +194,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMGpEVVBKQW1Ub1JIeWxZSDFqajdCNFphc1o0bFNMdG1Ld1FhenRxdEF0QmNkLTlEMXByMkxqTkI1TUVMb3NyanlCYnkyakV6SHVrVFJ0c3FERW9KYTR2YlBrOVVNMU5ybW1STGx1c3FxR2x4V2YxMll0ckdNQkZndjdPLVYyQQ?oc=5",
+            "published": "Thu, 08 Oct 2026 16:02:59 GMT",
+            "text": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash Yahoo Sports",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZHJjWGdmalhJWi00SzhWdFF0M3pMNW1mUlVjRUwwM0cydjlmRVdIRGlpbmRNbnlIVjZpV0RmbVRvQ2ZLN2JXX1ZHdlJ6SGxvMk96b3RYcS1WNzZGY0d3Y01iTHJYczE5VnB0V2FzcG5UZVV1c1NIV0wwU2lPZW16ZVJpNE1YNzhUak9ha3NBVFpZQUF4UEN1akdhaDM?oc=5",
             "published": "Wed, 06 Mar 2024 09:37:15 GMT",
             "text": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash - roundtable.io",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRk1rMFI4RS1NVzlQajN1Vm9lMFc4d2lYUDYxSjNnY2VIWTk1TG1DdTJqbzdNQ1hrOTdjVmR6dFpiSTVVOFF6MUlWaFlud2tqYUVTR2pUV0p6OHg1NjA2U096NUw5M1FjWlVOaEtTcGhLWFVRdVRPaEhOWlU1ZWkyakFBb0NzVWtTNTZtUzhOUmxSbldEN0s3bXdoWHZWVERodHhqNlhQeHBwOFhZdEdMaGJ1clRySzNsOXN5UkdMdEtNNWM?oc=5",
-            "published": "Thu, 08 Oct 2026 15:43:38 GMT",
-            "text": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash roundtable.io",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -311,15 +311,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips - BetMines",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHBjLXJreFJzdk90YXFUUWxBaTlKZXRzeG5mRkhyTm8wc2hOdWdRVDQ3VjBXR0E4OC1Ldk5vcjM5aFU2WXBOMk82NVYxbmJGbVB3eU01dFhWVU9pS2tRa2NiSXVCbERmbkdYX0g5WmFuZ2g2VHFlejVjT1RSNzBMbmJjRHROLTNxZFFTN3hKY2VZM2ZaQTZVbDVpU2t1NXpLSEhFajNFSTV6YkRNWUxscG5adWUzZw?oc=5",
-            "published": "Thu, 08 Oct 2026 21:46:07 GMT",
-            "text": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips BetMines",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "PSV vs Heerenveen prediction: team news, lineups, expert analysis - RatingBet",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjl6MEZYeElYbEJVMDdnUDI0ZFRwRlJxbjVIcnU1UnJncGg4b0ZDZFdJSnA5Q2RObFhWNUxZRFhBNXBVMDJWZXBPOFkzYjhrR3JfdzRPdkZlYnJkOGVyckFHQllEVE5pX2k2SFp2Znp3YloyWWNNS2twTFhHOGJTeUJxMXVORzQ2OXFIQVJpQUlJbWp3RmZ5eWd1NG1CUQ?oc=5",
             "published": "Wed, 07 Oct 2026 19:47:33 GMT",
@@ -338,10 +329,28 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkZ1Wk9HM0RpZUw3UE1pbHhJY3ZiNlB4dEYteHJUUGx4c25oS1RlLXBjWlQ1Nm9TTExySVNxTkZ5V25tZktCdmFUajlqb1RZazdwUTNEUTFVSzBBcFFGQkdqeUFBWHdPZ2pwUm5qS2hMX2dyQkFMaHZWMW9NQ3FwQXNPX0NQTWhYOHl6U0d0MnJtVXl2MjJUSWJzSTlFa3pBWW9Yd0xKd3VxX2EwV1VmQndmM3ZDNkJxVkN5WndtaVZSRjBWVDhONg?oc=5",
+            "published": "Mon, 02 Feb 2026 08:00:00 GMT",
+            "text": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV requests rescheduling of Eredivisie match: 'Otherwise you have few days' - PSV Inside",
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlM2UnU0OXl1bVpHa2ROT1VoZERYLW1OVzRSSDVzcllqdUhYcU9BSHFkWHFsQ0U5TEZuOUIxV0JiSFVYT1RUbGVQUUdvcFJBSFNDTTB4RS1WRy1obnhVYVVvN2lZVGpSWWlWTFVHOFdJY0k4WkF5Sm1kT0dqM1BtRWo4SEVxOWR4bkxWUElpMDgxZVlsMFhpTzBxNnMxRjM1LUt1bm11bHJNdw?oc=5",
             "published": "Thu, 08 Oct 2026 19:18:58 GMT",
             "text": "PSV requests rescheduling of Eredivisie match: 'Otherwise you have few days' PSV Inside",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HcldITk9neGQ2QV9RMjk1OF8tZjRoY2NudktXOFRLTVNhZkJWRTM2dkNZMU1OdlJWdlRyb213NGx0WjBOTzIzYmdNNUw4NE5SM0s2UXF5cHdzZjF2T004UEYwdV9GeDVtMU9IaF9hTm1Sc1k?oc=5",
+            "published": "Sun, 29 Oct 2023 07:18:40 GMT",
+            "text": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
             "language": "en",
             "sentiment": 0.0
           },
@@ -356,21 +365,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HcldITk9neGQ2QV9RMjk1OF8tZjRoY2NudktXOFRLTVNhZkJWRTM2dkNZMU1OdlJWdlRyb213NGx0WjBOTzIzYmdNNUw4NE5SM0s2UXF5cHdzZjF2T004UEYwdV9GeDVtMU9IaF9hTm1Sc1k?oc=5",
-            "published": "Sun, 29 Oct 2023 07:18:40 GMT",
-            "text": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Jerdy Schouten stats and ratings - Sofascore",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mWW04X2JwMUVBMWlydmdldFQySVBka3NaMkVQdXJGUXJmYnNsS2hXTFE5SW9VWDZDZHIwa1k3Q0NiVW1ESnZjVEluczZkMktETE9qRm8wSWRiaUxwV3NRQXo3NE1Pd2YtZkpvc1d4OU8?oc=5",
             "published": "Wed, 18 Jun 2025 11:09:21 GMT",
             "text": "Jerdy Schouten stats and ratings Sofascore",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ - roundtable.io",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ0NLdWxWb1Qyb1piTU16ZW0yVDluSFVsdGZMZEh6NlRLZURsM0F2RzEwZVlEMUE1ajNTQVlpMVNDckRVdk5OR0wwZUhXRktLWUlhQTZBeUoyWDlYdWdYRUxlRy1pSjdyb25CTngwb0JmRW12NnFZZG1HZDhDQ0toLUZzNWhzbzg0dlBVX3p4cFhFcWxSREY0NkY1MW9oU2tiRHhkVWdEcHJmbTNZM2FvY0J4YnAxRzF1RzNPOUt6bTU4S2FhSXZadmI1dDZYWWhuaXFTbjVTUWczQXBYc0RHR1NlSmpJdlJpMVE?oc=5",
+            "published": "Sat, 03 Oct 2026 21:08:34 GMT",
+            "text": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ roundtable.io",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -392,21 +401,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kMVhYM3pYWG1qNnpJd2RFZGVSaG1BUGxaWXFtdzdFQ3IxQ1ZpZFE5YWM5dS1JSU9aVVJ4U0ZxcnZGVzd0MFNHbVV4M3JId2RobnJENjBsbHd5b25TSkZycWZBbTdvdHJmY3FVRlhuVGV6MUpyaW10WklLaw?oc=5",
+            "published": "Sat, 04 Nov 2023 19:04:33 GMT",
+            "text": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Heerenveen Team Roster - Yahoo",
             "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRFNPQU93ZWZyM3lsekxjR3l6QUtSNVF3d1A5d0dLRDBNNjE1bkUzTEFjMExUSnpFcTFhNTU1c0NFVkdIU3MwRVhiX0xSd0Vac0NhUkwzNTc1YnNtM0pkZEJja2lSaFRHLXc?oc=5",
             "published": "Fri, 18 Sep 2026 06:31:39 GMT",
             "text": "Heerenveen Team Roster Yahoo",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ - roundtable.io",
-            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ0NLdWxWb1Qyb1piTU16ZW0yVDluSFVsdGZMZEh6NlRLZURsM0F2RzEwZVlEMUE1ajNTQVlpMVNDckRVdk5OR0wwZUhXRktLWUlhQTZBeUoyWDlYdWdYRUxlRy1pSjdyb25CTngwb0JmRW12NnFZZG1HZDhDQ0toLUZzNWhzbzg0dlBVX3p4cFhFcWxSREY0NkY1MW9oU2tiRHhkVWdEcHJmbTNZM2FvY0J4YnAxRzF1RzNPOUt6bTU4S2FhSXZadmI1dDZYWWhuaXFTbjVTUWczQXBYc0RHR1NlSmpJdlJpMVE?oc=5",
-            "published": "Sat, 03 Oct 2026 21:08:34 GMT",
-            "text": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ roundtable.io",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -423,15 +432,6 @@
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LSHEzMWpRM3hVX19JcE85SV9iVmJwUUphSDFzUnVYOWxDVFlrNF8tVk5WQU9adWswOTlsWUE0Y0ZGc1VPU2JwSjBxV0MtNmlNLXN1R2d1eGE2ZnZPR0JPa1ROZHdvUWowbHJ5ZDBVcnhfbE10MDc1bFdBanhnamc?oc=5",
             "published": "Tue, 22 Oct 2024 07:00:00 GMT",
             "text": "PSG vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iRTExQ292cDdVUm5uanN6WXQwQ3gyRjlpYzRLN01nNkV2LWE1WUFCcDJrTW1FNVItdjJNRTQ1c0t5WEF4TnFuLXRwZ1VtUWRnb2hmS3ViS28zRm1NeXJma2Y3M2M1S1FPc0l2ejJTOTdMLXpqUWRB?oc=5",
-            "published": "Mon, 30 Oct 2023 12:54:50 GMT",
-            "text": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1806,40 +1806,40 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "cards_under_4_5",
-          "odds": 1.78,
+          "odds": 1.77,
           "odds_zone": "IDEAL",
           "model_probability_pct": 60.0,
-          "implied_probability_pct": 56.2,
-          "market_probability_pct": 47.8,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
           "fair_odds": 1.67,
-          "value_edge_pct": 12.2,
-          "ev_pct": 6.8,
-          "calibration_gap_pct": 12.2,
+          "value_edge_pct": 11.91,
+          "ev_pct": 6.2,
+          "calibration_gap_pct": 11.91,
           "consensus": "2/3",
-          "confidence_10": 5.44,
+          "confidence_10": 5.4,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 62.5,
             "prediction_pct": 62.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 47.8
+            "market_benchmark_pct": 48.1
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "home_win",
-          "odds": 3.03,
+          "odds": 3.11,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 40.7,
-          "implied_probability_pct": 33.0,
-          "market_probability_pct": 28.0,
+          "implied_probability_pct": 32.2,
+          "market_probability_pct": 27.4,
           "fair_odds": 2.46,
-          "value_edge_pct": 12.62,
-          "ev_pct": 23.2,
-          "calibration_gap_pct": 12.62,
+          "value_edge_pct": 13.3,
+          "ev_pct": 26.45,
+          "calibration_gap_pct": 13.3,
           "consensus": "0/3",
-          "confidence_10": 4.89,
+          "confidence_10": 5.15,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -1849,23 +1849,23 @@
             "statistical_pct": 39.2,
             "prediction_pct": 37.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 28.0
+            "market_benchmark_pct": 27.4
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_home",
-          "odds": 3.75,
+          "odds": 3.87,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 28.0,
-          "implied_probability_pct": 26.7,
-          "market_probability_pct": 22.6,
+          "implied_probability_pct": 25.8,
+          "market_probability_pct": 22.0,
           "fair_odds": 3.57,
-          "value_edge_pct": 5.33,
-          "ev_pct": 4.91,
-          "calibration_gap_pct": 5.33,
+          "value_edge_pct": 6.01,
+          "ev_pct": 8.27,
+          "calibration_gap_pct": 6.01,
           "consensus": "0/3",
-          "confidence_10": 2.73,
+          "confidence_10": 3.0,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -1875,28 +1875,27 @@
             "statistical_pct": 25.0,
             "prediction_pct": 27.9,
             "intelligence_pct": 34.9,
-            "market_benchmark_pct": 22.6
+            "market_benchmark_pct": 22.0
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_over_2_5",
-          "odds": 2.4,
+          "odds": 2.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 42.7,
-          "implied_probability_pct": 41.7,
-          "market_probability_pct": 41.7,
+          "implied_probability_pct": 40.8,
+          "market_probability_pct": 40.8,
           "fair_odds": 2.34,
-          "value_edge_pct": 0.99,
-          "ev_pct": 2.39,
-          "calibration_gap_pct": 0.99,
+          "value_edge_pct": 1.84,
+          "ev_pct": 4.52,
+          "calibration_gap_pct": 1.84,
           "consensus": "0/3",
-          "confidence_10": 3.34,
+          "confidence_10": 3.51,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
             "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
@@ -1909,15 +1908,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "over_2_5",
-          "odds": 2.01,
+          "odds": 2.05,
           "odds_zone": "IDEAL",
           "model_probability_pct": 48.7,
-          "implied_probability_pct": 49.8,
-          "market_probability_pct": 42.2,
+          "implied_probability_pct": 48.8,
+          "market_probability_pct": 41.4,
           "fair_odds": 2.05,
-          "value_edge_pct": 6.43,
-          "ev_pct": -2.17,
-          "calibration_gap_pct": 6.43,
+          "value_edge_pct": 7.24,
+          "ev_pct": -0.22,
+          "calibration_gap_pct": 7.24,
           "consensus": "0/3",
           "confidence_10": 3.48,
           "decision": "NO BET",
@@ -1930,48 +1929,21 @@
             "statistical_pct": 48.5,
             "prediction_pct": 48.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.2
-          }
-        },
-        {
-          "match": "Moreirense FC vs Gil Vicente FC",
-          "market": "draw",
-          "odds": 2.86,
-          "odds_zone": "HIGH_ODDS",
-          "model_probability_pct": 33.4,
-          "implied_probability_pct": 35.0,
-          "market_probability_pct": 29.7,
-          "fair_odds": 2.99,
-          "value_edge_pct": 3.7,
-          "ev_pct": -4.48,
-          "calibration_gap_pct": 3.7,
-          "consensus": "0/3",
-          "confidence_10": 2.64,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 29.0,
-            "prediction_pct": 29.5,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 29.7
+            "market_benchmark_pct": 41.4
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_yes",
-          "odds": 1.75,
+          "odds": 1.79,
           "odds_zone": "IDEAL",
           "model_probability_pct": 53.9,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.5,
+          "implied_probability_pct": 55.9,
+          "market_probability_pct": 47.5,
           "fair_odds": 1.85,
-          "value_edge_pct": 5.4,
-          "ev_pct": -5.62,
-          "calibration_gap_pct": 5.4,
+          "value_edge_pct": 6.42,
+          "ev_pct": -3.47,
+          "calibration_gap_pct": 6.42,
           "consensus": "0/3",
           "confidence_10": 3.77,
           "decision": "NO BET",
@@ -1984,7 +1956,34 @@
             "statistical_pct": 54.9,
             "prediction_pct": 55.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.5
+            "market_benchmark_pct": 47.5
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "draw",
+          "odds": 2.89,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.4,
+          "implied_probability_pct": 34.6,
+          "market_probability_pct": 29.4,
+          "fair_odds": 2.99,
+          "value_edge_pct": 3.95,
+          "ev_pct": -3.48,
+          "calibration_gap_pct": 3.95,
+          "consensus": "0/3",
+          "confidence_10": 2.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 29.0,
+            "prediction_pct": 29.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 29.4
           }
         },
         {
@@ -2017,15 +2016,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_draw",
-          "odds": 1.86,
+          "odds": 1.85,
           "odds_zone": "IDEAL",
           "model_probability_pct": 44.9,
-          "implied_probability_pct": 53.8,
-          "market_probability_pct": 45.7,
+          "implied_probability_pct": 54.1,
+          "market_probability_pct": 46.0,
           "fair_odds": 2.23,
-          "value_edge_pct": -0.81,
-          "ev_pct": -16.57,
-          "calibration_gap_pct": -0.81,
+          "value_edge_pct": -1.1,
+          "ev_pct": -17.02,
+          "calibration_gap_pct": -1.1,
           "consensus": "0/3",
           "confidence_10": 3.27,
           "decision": "NO BET",
@@ -2039,21 +2038,21 @@
             "statistical_pct": 50.0,
             "prediction_pct": 45.1,
             "intelligence_pct": 32.8,
-            "market_benchmark_pct": 45.7
+            "market_benchmark_pct": 46.0
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "away_win",
-          "odds": 2.01,
+          "odds": 1.97,
           "odds_zone": "IDEAL",
           "model_probability_pct": 40.7,
-          "implied_probability_pct": 49.8,
-          "market_probability_pct": 42.3,
+          "implied_probability_pct": 50.8,
+          "market_probability_pct": 43.2,
           "fair_odds": 2.46,
-          "value_edge_pct": -1.59,
-          "ev_pct": -18.25,
-          "calibration_gap_pct": -1.59,
+          "value_edge_pct": -2.52,
+          "ev_pct": -19.88,
+          "calibration_gap_pct": -2.52,
           "consensus": "0/3",
           "confidence_10": 3.04,
           "decision": "NO BET",
@@ -2067,7 +2066,7 @@
             "statistical_pct": 38.8,
             "prediction_pct": 37.7,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.3
+            "market_benchmark_pct": 43.2
           }
         },
         {
@@ -2102,15 +2101,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_no",
-          "odds": 1.65,
+          "odds": 1.62,
           "odds_zone": "IDEAL",
           "model_probability_pct": 46.1,
-          "implied_probability_pct": 60.6,
-          "market_probability_pct": 51.5,
+          "implied_probability_pct": 61.7,
+          "market_probability_pct": 52.5,
           "fair_odds": 2.17,
-          "value_edge_pct": -5.4,
-          "ev_pct": -23.98,
-          "calibration_gap_pct": -5.4,
+          "value_edge_pct": -6.42,
+          "ev_pct": -25.37,
+          "calibration_gap_pct": -6.42,
           "consensus": "0/3",
           "confidence_10": 3.33,
           "decision": "NO BET",
@@ -2124,21 +2123,21 @@
             "statistical_pct": 45.1,
             "prediction_pct": 45.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.5
+            "market_benchmark_pct": 52.5
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "under_2_5",
-          "odds": 1.47,
+          "odds": 1.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 51.3,
-          "implied_probability_pct": 68.0,
-          "market_probability_pct": 57.8,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.6,
           "fair_odds": 1.95,
-          "value_edge_pct": -6.43,
-          "ev_pct": -24.55,
-          "calibration_gap_pct": -6.43,
+          "value_edge_pct": -7.24,
+          "ev_pct": -25.57,
+          "calibration_gap_pct": -7.24,
           "consensus": "0/3",
           "confidence_10": 3.62,
           "decision": "NO BET",
@@ -2153,21 +2152,21 @@
             "statistical_pct": 51.5,
             "prediction_pct": 51.9,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.8
+            "market_benchmark_pct": 58.6
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_away",
-          "odds": 2.68,
+          "odds": 2.65,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 27.2,
-          "implied_probability_pct": 37.3,
-          "market_probability_pct": 31.7,
+          "implied_probability_pct": 37.7,
+          "market_probability_pct": 32.1,
           "fair_odds": 3.68,
-          "value_edge_pct": -4.52,
-          "ev_pct": -27.19,
-          "calibration_gap_pct": -4.52,
+          "value_edge_pct": -4.91,
+          "ev_pct": -28.0,
+          "calibration_gap_pct": -4.91,
           "consensus": "0/3",
           "confidence_10": 2.29,
           "decision": "NO BET",
@@ -2181,21 +2180,21 @@
             "statistical_pct": 25.0,
             "prediction_pct": 27.0,
             "intelligence_pct": 32.4,
-            "market_benchmark_pct": 31.7
+            "market_benchmark_pct": 32.1
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "cards_over_4_5",
-          "odds": 1.63,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 40.0,
-          "implied_probability_pct": 61.3,
-          "market_probability_pct": 52.2,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
           "fair_odds": 2.5,
-          "value_edge_pct": -12.2,
-          "ev_pct": -34.8,
-          "calibration_gap_pct": -12.2,
+          "value_edge_pct": -11.91,
+          "ev_pct": -34.4,
+          "calibration_gap_pct": -11.91,
           "consensus": "0/3",
           "confidence_10": 3.0,
           "decision": "NO BET",
@@ -2209,7 +2208,7 @@
             "statistical_pct": 37.5,
             "prediction_pct": 37.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 52.2
+            "market_benchmark_pct": 51.9
           }
         }
       ]
@@ -2393,21 +2392,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMGpEVVBKQW1Ub1JIeWxZSDFqajdCNFphc1o0bFNMdG1Ld1FhenRxdEF0QmNkLTlEMXByMkxqTkI1TUVMb3NyanlCYnkyakV6SHVrVFJ0c3FERW9KYTR2YlBrOVVNMU5ybW1STGx1c3FxR2x4V2YxMll0ckdNQkZndjdPLVYyQQ?oc=5",
+            "published": "Thu, 08 Oct 2026 16:02:59 GMT",
+            "text": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash Yahoo Sports",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZHJjWGdmalhJWi00SzhWdFF0M3pMNW1mUlVjRUwwM0cydjlmRVdIRGlpbmRNbnlIVjZpV0RmbVRvQ2ZLN2JXX1ZHdlJ6SGxvMk96b3RYcS1WNzZGY0d3Y01iTHJYczE5VnB0V2FzcG5UZVV1c1NIV0wwU2lPZW16ZVJpNE1YNzhUak9ha3NBVFpZQUF4UEN1akdhaDM?oc=5",
             "published": "Wed, 06 Mar 2024 09:37:15 GMT",
             "text": "PSV Eindhoven vs Heerenveen: Scores, Results Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash - roundtable.io",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRk1rMFI4RS1NVzlQajN1Vm9lMFc4d2lYUDYxSjNnY2VIWTk1TG1DdTJqbzdNQ1hrOTdjVmR6dFpiSTVVOFF6MUlWaFlud2tqYUVTR2pUV0p6OHg1NjA2U096NUw5M1FjWlVOaEtTcGhLWFVRdVRPaEhOWlU1ZWkyakFBb0NzVWtTNTZtUzhOUmxSbldEN0s3bXdoWHZWVERodHhqNlhQeHBwOFhZdEdMaGJ1clRySzNsOXN5UkdMdEtNNWM?oc=5",
-            "published": "Thu, 08 Oct 2026 15:43:38 GMT",
-            "text": "PSV Receive Major Injury Boost Ahead of SC Heerenveen Clash roundtable.io",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -2510,15 +2509,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips - BetMines",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHBjLXJreFJzdk90YXFUUWxBaTlKZXRzeG5mRkhyTm8wc2hOdWdRVDQ3VjBXR0E4OC1Ldk5vcjM5aFU2WXBOMk82NVYxbmJGbVB3eU01dFhWVU9pS2tRa2NiSXVCbERmbkdYX0g5WmFuZ2g2VHFlejVjT1RSNzBMbmJjRHROLTNxZFFTN3hKY2VZM2ZaQTZVbDVpU2t1NXpLSEhFajNFSTV6YkRNWUxscG5adWUzZw?oc=5",
-            "published": "Thu, 08 Oct 2026 21:46:07 GMT",
-            "text": "Prediction PSV vs SC Heerenveen: analysis, odds and betting tips BetMines",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "PSV vs Heerenveen prediction: team news, lineups, expert analysis - RatingBet",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjl6MEZYeElYbEJVMDdnUDI0ZFRwRlJxbjVIcnU1UnJncGg4b0ZDZFdJSnA5Q2RObFhWNUxZRFhBNXBVMDJWZXBPOFkzYjhrR3JfdzRPdkZlYnJkOGVyckFHQllEVE5pX2k2SFp2Znp3YloyWWNNS2twTFhHOGJTeUJxMXVORzQ2OXFIQVJpQUlJbWp3RmZ5eWd1NG1CUQ?oc=5",
             "published": "Wed, 07 Oct 2026 19:47:33 GMT",
@@ -2537,10 +2527,28 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkZ1Wk9HM0RpZUw3UE1pbHhJY3ZiNlB4dEYteHJUUGx4c25oS1RlLXBjWlQ1Nm9TTExySVNxTkZ5V25tZktCdmFUajlqb1RZazdwUTNEUTFVSzBBcFFGQkdqeUFBWHdPZ2pwUm5qS2hMX2dyQkFMaHZWMW9NQ3FwQXNPX0NQTWhYOHl6U0d0MnJtVXl2MjJUSWJzSTlFa3pBWW9Yd0xKd3VxX2EwV1VmQndmM3ZDNkJxVkN5WndtaVZSRjBWVDhONg?oc=5",
+            "published": "Mon, 02 Feb 2026 08:00:00 GMT",
+            "text": "Preview: PSV Eindhoven vs Heerenveen - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "PSV requests rescheduling of Eredivisie match: 'Otherwise you have few days' - PSV Inside",
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlM2UnU0OXl1bVpHa2ROT1VoZERYLW1OVzRSSDVzcllqdUhYcU9BSHFkWHFsQ0U5TEZuOUIxV0JiSFVYT1RUbGVQUUdvcFJBSFNDTTB4RS1WRy1obnhVYVVvN2lZVGpSWWlWTFVHOFdJY0k4WkF5Sm1kT0dqM1BtRWo4SEVxOWR4bkxWUElpMDgxZVlsMFhpTzBxNnMxRjM1LUt1bm11bHJNdw?oc=5",
             "published": "Thu, 08 Oct 2026 19:18:58 GMT",
             "text": "PSV requests rescheduling of Eredivisie match: 'Otherwise you have few days' PSV Inside",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HcldITk9neGQ2QV9RMjk1OF8tZjRoY2NudktXOFRLTVNhZkJWRTM2dkNZMU1OdlJWdlRyb213NGx0WjBOTzIzYmdNNUw4NE5SM0s2UXF5cHdzZjF2T004UEYwdV9GeDVtMU9IaF9hTm1Sc1k?oc=5",
+            "published": "Sun, 29 Oct 2023 07:18:40 GMT",
+            "text": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2555,21 +2563,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HcldITk9neGQ2QV9RMjk1OF8tZjRoY2NudktXOFRLTVNhZkJWRTM2dkNZMU1OdlJWdlRyb213NGx0WjBOTzIzYmdNNUw4NE5SM0s2UXF5cHdzZjF2T004UEYwdV9GeDVtMU9IaF9hTm1Sc1k?oc=5",
-            "published": "Sun, 29 Oct 2023 07:18:40 GMT",
-            "text": "Ajax vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Jerdy Schouten stats and ratings - Sofascore",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mWW04X2JwMUVBMWlydmdldFQySVBka3NaMkVQdXJGUXJmYnNsS2hXTFE5SW9VWDZDZHIwa1k3Q0NiVW1ESnZjVEluczZkMktETE9qRm8wSWRiaUxwV3NRQXo3NE1Pd2YtZkpvc1d4OU8?oc=5",
             "published": "Wed, 18 Jun 2025 11:09:21 GMT",
             "text": "Jerdy Schouten stats and ratings Sofascore",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ - roundtable.io",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ0NLdWxWb1Qyb1piTU16ZW0yVDluSFVsdGZMZEh6NlRLZURsM0F2RzEwZVlEMUE1ajNTQVlpMVNDckRVdk5OR0wwZUhXRktLWUlhQTZBeUoyWDlYdWdYRUxlRy1pSjdyb25CTngwb0JmRW12NnFZZG1HZDhDQ0toLUZzNWhzbzg0dlBVX3p4cFhFcWxSREY0NkY1MW9oU2tiRHhkVWdEcHJmbTNZM2FvY0J4YnAxRzF1RzNPOUt6bTU4S2FhSXZadmI1dDZYWWhuaXFTbjVTUWczQXBYc0RHR1NlSmpJdlJpMVE?oc=5",
+            "published": "Sat, 03 Oct 2026 21:08:34 GMT",
+            "text": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ roundtable.io",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -2591,21 +2599,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kMVhYM3pYWG1qNnpJd2RFZGVSaG1BUGxaWXFtdzdFQ3IxQ1ZpZFE5YWM5dS1JSU9aVVJ4U0ZxcnZGVzd0MFNHbVV4M3JId2RobnJENjBsbHd5b25TSkZycWZBbTdvdHJmY3FVRlhuVGV6MUpyaW10WklLaw?oc=5",
+            "published": "Sat, 04 Nov 2023 19:04:33 GMT",
+            "text": "FC Utrecht vs SC Heerenveen - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Heerenveen Team Roster - Yahoo",
             "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRFNPQU93ZWZyM3lsekxjR3l6QUtSNVF3d1A5d0dLRDBNNjE1bkUzTEFjMExUSnpFcTFhNTU1c0NFVkdIU3MwRVhiX0xSd0Vac0NhUkwzNTc1YnNtM0pkZEJja2lSaFRHLXc?oc=5",
             "published": "Fri, 18 Sep 2026 06:31:39 GMT",
             "text": "Heerenveen Team Roster Yahoo",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ - roundtable.io",
-            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ0NLdWxWb1Qyb1piTU16ZW0yVDluSFVsdGZMZEh6NlRLZURsM0F2RzEwZVlEMUE1ajNTQVlpMVNDckRVdk5OR0wwZUhXRktLWUlhQTZBeUoyWDlYdWdYRUxlRy1pSjdyb25CTngwb0JmRW12NnFZZG1HZDhDQ0toLUZzNWhzbzg0dlBVX3p4cFhFcWxSREY0NkY1MW9oU2tiRHhkVWdEcHJmbTNZM2FvY0J4YnAxRzF1RzNPOUt6bTU4S2FhSXZadmI1dDZYWWhuaXFTbjVTUWczQXBYc0RHR1NlSmpJdlJpMVE?oc=5",
-            "published": "Sat, 03 Oct 2026 21:08:34 GMT",
-            "text": "Peter Bosz Admits PSV Injury Concerns During International Break: ‘There Has to Be a Limit’ roundtable.io",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -2622,15 +2630,6 @@
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LSHEzMWpRM3hVX19JcE85SV9iVmJwUUphSDFzUnVYOWxDVFlrNF8tVk5WQU9adWswOTlsWUE0Y0ZGc1VPU2JwSjBxV0MtNmlNLXN1R2d1eGE2ZnZPR0JPa1ROZHdvUWowbHJ5ZDBVcnhfbE10MDc1bFdBanhnamc?oc=5",
             "published": "Tue, 22 Oct 2024 07:00:00 GMT",
             "text": "PSG vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iRTExQ292cDdVUm5uanN6WXQwQ3gyRjlpYzRLN01nNkV2LWE1WUFCcDJrTW1FNVItdjJNRTQ1c0t5WEF4TnFuLXRwZ1VtUWRnb2hmS3ViS28zRm1NeXJma2Y3M2M1S1FPc0l2ejJTOTdMLXpqUWRB?oc=5",
-            "published": "Mon, 30 Oct 2023 12:54:50 GMT",
-            "text": "Arsenal vs PSV Eindhoven - live score, predicted lineups and H2H stats FotMob",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3545,10 +3544,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature - The Mirror",
+            "title": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature - Daily Mirror",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFM3QmtyMnV4dE5pNEdWcjZYRXREcGhHT1hITUIxRGxMalFlZTVEYkpPdFp4VUFubFVhT1VVMk9ZdTZpdmpRcGNxRVB4MHp2SnU0Y0xYNDAzQWlobnh6QnFjek5EdWE5ZTR3NUZZVEk5alpPUEhoVElJbVdmR1dPR2YxdnllX0hMQmRBTlBhZ0w3S1hoZS13bFBB0gGfAUFVX3lxTE9QVkg5djBKcFVsUHRQZ252UU9hTjEyU1pTNTBKU3l6TlNxRFpfdmVkTmFHNml2Z282WFE4T2I4ekt6UGloVTY3VXZMTE1ZU3FlMmN0NUYzYk5VUlNUSVZUNkxQNmZsY0lMSmVYN3RsZGE0bjUyZzc4WjV3REFwN0tlN3ZydmtTa25FSURjeVZXX0RXV01mSWZ5Q2t1QWhmQQ?oc=5",
             "published": "Sat, 20 Jun 2015 07:00:00 GMT",
-            "text": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature The Mirror",
+            "text": "Charlie Austin transfer: West Ham set to beat Newcastle to QPR hitman's signature Daily Mirror",
             "language": "en",
             "sentiment": 1.0
           },
@@ -3608,12 +3607,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
-            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-            "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
+            "title": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWp5d3Q3emNNQ3Jpd25Denlvb2FKN0dRbjcySUkwamkyMV9sMy1mRnliMExQZE5VYzF5Z3I5aDBBOUVzQjZuLU9ha2FCSWswanM0Z0F3QVhTX19kVHFTb3pGcDRZdzZxbWpZXzBCdktrOTdVZURIejJiZUpnck8zdERMbFBRUEpPRVk2RURjWQ?oc=5",
+            "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+            "text": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides Squawka",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -3626,12 +3625,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWp5d3Q3emNNQ3Jpd25Denlvb2FKN0dRbjcySUkwamkyMV9sMy1mRnliMExQZE5VYzF5Z3I5aDBBOUVzQjZuLU9ha2FCSWswanM0Z0F3QVhTX19kVHFTb3pGcDRZdzZxbWpZXzBCdktrOTdVZURIejJiZUpnck8zdERMbFBRUEpPRVk2RURjWQ?oc=5",
-            "published": "Mon, 21 Sep 2026 07:00:00 GMT",
-            "text": "Burnley vs West Ham predictions and betting tips: Hammers to win the battle of the relegated sides Squawka",
+            "title": "Cardiff City vs Sheffield United predictions and betting tips: Little to separate them - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcHgxRGtZa1hSX29RT2U0QWRsSlE0T2lDWXBjTGxYbktOdzJGX09RT3h3R2tJcDlaYndEMWd3eVJCdDJUZnYwMEpuYkhUVHhYZW5WbDJ6S0h0Y2dZdnZqb2thVzFOUy1MajkwcTRWWVVtR05DVkFLdDJvU3F4VkhrSDh6dFdmZGFwaWFtZzBkQnRYOUtYZVJCaXFB?oc=5",
+            "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+            "text": "Cardiff City vs Sheffield United predictions and betting tips: Little to separate them Squawka",
             "language": "en",
-            "sentiment": 1.0
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -3644,10 +3643,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Cardiff City vs Sheffield United predictions and betting tips: Little to separate them - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcHgxRGtZa1hSX29RT2U0QWRsSlE0T2lDWXBjTGxYbktOdzJGX09RT3h3R2tJcDlaYndEMWd3eVJCdDJUZnYwMEpuYkhUVHhYZW5WbDJ6S0h0Y2dZdnZqb2thVzFOUy1MajkwcTRWWVVtR05DVkFLdDJvU3F4VkhrSDh6dFdmZGFwaWFtZzBkQnRYOUtYZVJCaXFB?oc=5",
-            "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-            "text": "Cardiff City vs Sheffield United predictions and betting tips: Little to separate them Squawka",
+            "title": "EFL Championship - Matches, Stats & Standings - APWin",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwWVJVTEFJaDhtck5UajNvWjZlQUZoMXR6RDZQMXk1Rmg5LUsyOW1jbE9YbXpYa3JNTXY3eUd1SEdSNWtHTGprT1Z5cmEtQldkYUliNzExRFo2S21KSlQ2UkU3YUI?oc=5",
+            "published": "Mon, 16 Mar 2026 20:11:03 GMT",
+            "text": "EFL Championship - Matches, Stats & Standings APWin",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4427,8 +4426,8 @@
         }
       },
       "intelligence": {
-        "mentions": 54,
-        "web_score": 0.0185,
+        "mentions": 55,
+        "web_score": 0.0182,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -4538,15 +4537,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "DFB-Pokal second round draw: Holders Bayern host Magdeburg, Dortmund clash with Bremen - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGx0YTNrY2tSczhzV1J3YkpjYVliTW9GOTJUQXhoS3d2WXk0UlNUaTBodnNOM2F2TEVhS283YmZSZk1nU2JBT29POU8zdWZja2h1TEN3Z3BuZFpYaXVTbm01SU1FUWJpRTNmYzRZaXVuLXc5T1BIVldMRFRIVzlhdmR5MzVWcXY5cWFOV2RuUlVjM0RBVmhHVElseFBZYXEwb0E?oc=5",
-            "published": "Sat, 05 Sep 2026 07:00:00 GMT",
-            "text": "DFB-Pokal second round draw: Holders Bayern host Magdeburg, Dortmund clash with Bremen Bulinews",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Borussia Dortmund vs. SV Werder Bremen: Live game updates, stats, play-by-play - Yahoo",
             "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0lMSS1YQ0Z4RjMtbWItZTJYd0JaOWtodTNzMmI5YnRzbjB0Y0JuanpfakVKZ3NaVl9UdEo2X1Q2dU1nQUFBSDdHZjRUczlndjZ6NHFENmZRdmJhX2pHTkx2RE9qdWg3V19oSzdRX0NmOE5kcTRxa1BJaExFbWo2YWxmWG1ic3Z5cHdWZDlSRnVrZXgtU2c?oc=5",
             "published": "Thu, 17 Sep 2026 20:00:59 GMT",
@@ -4569,6 +4559,15 @@
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qLTBWMGhwQm5fUm9MZm0wY19hZTZLZ0xLUFVyM3hsU2xzX0xfYU5Na0t0MVpOd0g1Q0NnVF90b1otLUtGdjFUUEZQT2dLb05NYlNqWm5sTFZtWHZCTTIzUFNfM3FaR2RXUlByLWdOTWp5R3Z0dDVIMQ?oc=5",
             "published": "Sat, 16 May 2026 07:00:00 GMT",
             "text": "Werder says farewell to Bittencourt & Co. werder.de",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Borussia Dortmund vs. SV Werder Bremen: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ0wzNzU0LTdtY3NldjF0VExtYW1zUUFUX3lyeEhkbDhGWUp0X2ZKTU9jTGF4c2ZQak11MGs4UGlER0V4Qk5leUVUXzdOaDU4TFdfNWNOMzJITS16SWFHb0xvODFoQ2hHYjMyNjJTM3RET1FtUmc0c0RuOVBmc09hZmZPTzJjS2w4RU5fdVZWWHB4RndvbGlv?oc=5",
+            "published": "Thu, 17 Sep 2026 04:40:54 GMT",
+            "text": "Borussia Dortmund vs. SV Werder Bremen: Live game updates, stats, play-by-play Yahoo",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4677,6 +4676,15 @@
             "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcm1sSTA4c1VJc2RHUzdmRWVacGl2X2N1UThtQUtPdHhnVlQ2N2x1SVRpVEhSN2U3dF9xeXlPVDdrbEt5RGtKQXlGdTlZajhRbXB4WkVKdlRORFFaZ255eUV4VEhkZmZCM1BTNlBmT0p4VmluSmZ3MjJrbHhNTFhhZ0ozSkhvWGtNM19SYkJqVjN3a1NIZXZv?oc=5",
             "published": "Tue, 05 Mar 2024 07:34:20 GMT",
             "text": "Werder Bremen VS Union Berlin: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "DFB-Pokal second round draw: Holders Bayern host Magdeburg, Dortmund clash with Bremen - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGx0YTNrY2tSczhzV1J3YkpjYVliTW9GOTJUQXhoS3d2WXk0UlNUaTBodnNOM2F2TEVhS283YmZSZk1nU2JBT29POU8zdWZja2h1TEN3Z3BuZFpYaXVTbm01SU1FUWJpRTNmYzRZaXVuLXc5T1BIVldMRFRIVzlhdmR5MzVWcXY5cWFOV2RuUlVjM0RBVmhHVElseFBZYXEwb0E?oc=5",
+            "published": "Sat, 05 Sep 2026 07:00:00 GMT",
+            "text": "DFB-Pokal second round draw: Holders Bayern host Magdeburg, Dortmund clash with Bremen Bulinews",
             "language": "en",
             "sentiment": 0.0
           },
@@ -6264,40 +6272,40 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "cards_under_4_5",
-          "odds": 1.78,
+          "odds": 1.77,
           "odds_zone": "IDEAL",
           "model_probability_pct": 60.0,
-          "implied_probability_pct": 56.2,
-          "market_probability_pct": 47.8,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
           "fair_odds": 1.67,
-          "value_edge_pct": 12.2,
-          "ev_pct": 6.8,
-          "calibration_gap_pct": 12.2,
+          "value_edge_pct": 11.91,
+          "ev_pct": 6.2,
+          "calibration_gap_pct": 11.91,
           "consensus": "2/3",
-          "confidence_10": 5.44,
+          "confidence_10": 5.4,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 62.5,
             "prediction_pct": 62.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 47.8
+            "market_benchmark_pct": 48.1
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "home_win",
-          "odds": 3.03,
+          "odds": 3.11,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 40.7,
-          "implied_probability_pct": 33.0,
-          "market_probability_pct": 28.0,
+          "implied_probability_pct": 32.2,
+          "market_probability_pct": 27.4,
           "fair_odds": 2.46,
-          "value_edge_pct": 12.62,
-          "ev_pct": 23.2,
-          "calibration_gap_pct": 12.62,
+          "value_edge_pct": 13.3,
+          "ev_pct": 26.45,
+          "calibration_gap_pct": 13.3,
           "consensus": "0/3",
-          "confidence_10": 4.89,
+          "confidence_10": 5.15,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -6307,23 +6315,23 @@
             "statistical_pct": 39.2,
             "prediction_pct": 37.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 28.0
+            "market_benchmark_pct": 27.4
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_home",
-          "odds": 3.75,
+          "odds": 3.87,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 28.0,
-          "implied_probability_pct": 26.7,
-          "market_probability_pct": 22.6,
+          "implied_probability_pct": 25.8,
+          "market_probability_pct": 22.0,
           "fair_odds": 3.57,
-          "value_edge_pct": 5.33,
-          "ev_pct": 4.91,
-          "calibration_gap_pct": 5.33,
+          "value_edge_pct": 6.01,
+          "ev_pct": 8.27,
+          "calibration_gap_pct": 6.01,
           "consensus": "0/3",
-          "confidence_10": 2.73,
+          "confidence_10": 3.0,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -6333,28 +6341,27 @@
             "statistical_pct": 25.0,
             "prediction_pct": 27.9,
             "intelligence_pct": 34.9,
-            "market_benchmark_pct": 22.6
+            "market_benchmark_pct": 22.0
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_over_2_5",
-          "odds": 2.4,
+          "odds": 2.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 42.7,
-          "implied_probability_pct": 41.7,
-          "market_probability_pct": 41.7,
+          "implied_probability_pct": 40.8,
+          "market_probability_pct": 40.8,
           "fair_odds": 2.34,
-          "value_edge_pct": 0.99,
-          "ev_pct": 2.39,
-          "calibration_gap_pct": 0.99,
+          "value_edge_pct": 1.84,
+          "ev_pct": 4.52,
+          "calibration_gap_pct": 1.84,
           "consensus": "0/3",
-          "confidence_10": 3.34,
+          "confidence_10": 3.51,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
             "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
@@ -6367,15 +6374,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "over_2_5",
-          "odds": 2.01,
+          "odds": 2.05,
           "odds_zone": "IDEAL",
           "model_probability_pct": 48.7,
-          "implied_probability_pct": 49.8,
-          "market_probability_pct": 42.2,
+          "implied_probability_pct": 48.8,
+          "market_probability_pct": 41.4,
           "fair_odds": 2.05,
-          "value_edge_pct": 6.43,
-          "ev_pct": -2.17,
-          "calibration_gap_pct": 6.43,
+          "value_edge_pct": 7.24,
+          "ev_pct": -0.22,
+          "calibration_gap_pct": 7.24,
           "consensus": "0/3",
           "confidence_10": 3.48,
           "decision": "NO BET",
@@ -6388,48 +6395,21 @@
             "statistical_pct": 48.5,
             "prediction_pct": 48.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.2
-          }
-        },
-        {
-          "match": "Moreirense FC vs Gil Vicente FC",
-          "market": "draw",
-          "odds": 2.86,
-          "odds_zone": "HIGH_ODDS",
-          "model_probability_pct": 33.4,
-          "implied_probability_pct": 35.0,
-          "market_probability_pct": 29.7,
-          "fair_odds": 2.99,
-          "value_edge_pct": 3.7,
-          "ev_pct": -4.48,
-          "calibration_gap_pct": 3.7,
-          "consensus": "0/3",
-          "confidence_10": 2.64,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 29.0,
-            "prediction_pct": 29.5,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 29.7
+            "market_benchmark_pct": 41.4
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_yes",
-          "odds": 1.75,
+          "odds": 1.79,
           "odds_zone": "IDEAL",
           "model_probability_pct": 53.9,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.5,
+          "implied_probability_pct": 55.9,
+          "market_probability_pct": 47.5,
           "fair_odds": 1.85,
-          "value_edge_pct": 5.4,
-          "ev_pct": -5.62,
-          "calibration_gap_pct": 5.4,
+          "value_edge_pct": 6.42,
+          "ev_pct": -3.47,
+          "calibration_gap_pct": 6.42,
           "consensus": "0/3",
           "confidence_10": 3.77,
           "decision": "NO BET",
@@ -6442,7 +6422,34 @@
             "statistical_pct": 54.9,
             "prediction_pct": 55.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.5
+            "market_benchmark_pct": 47.5
+          }
+        },
+        {
+          "match": "Moreirense FC vs Gil Vicente FC",
+          "market": "draw",
+          "odds": 2.89,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 33.4,
+          "implied_probability_pct": 34.6,
+          "market_probability_pct": 29.4,
+          "fair_odds": 2.99,
+          "value_edge_pct": 3.95,
+          "ev_pct": -3.48,
+          "calibration_gap_pct": 3.95,
+          "consensus": "0/3",
+          "confidence_10": 2.64,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 29.0,
+            "prediction_pct": 29.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 29.4
           }
         },
         {
@@ -6475,15 +6482,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_draw",
-          "odds": 1.86,
+          "odds": 1.85,
           "odds_zone": "IDEAL",
           "model_probability_pct": 44.9,
-          "implied_probability_pct": 53.8,
-          "market_probability_pct": 45.7,
+          "implied_probability_pct": 54.1,
+          "market_probability_pct": 46.0,
           "fair_odds": 2.23,
-          "value_edge_pct": -0.81,
-          "ev_pct": -16.57,
-          "calibration_gap_pct": -0.81,
+          "value_edge_pct": -1.1,
+          "ev_pct": -17.02,
+          "calibration_gap_pct": -1.1,
           "consensus": "0/3",
           "confidence_10": 3.27,
           "decision": "NO BET",
@@ -6497,21 +6504,21 @@
             "statistical_pct": 50.0,
             "prediction_pct": 45.1,
             "intelligence_pct": 32.8,
-            "market_benchmark_pct": 45.7
+            "market_benchmark_pct": 46.0
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "away_win",
-          "odds": 2.01,
+          "odds": 1.97,
           "odds_zone": "IDEAL",
           "model_probability_pct": 40.7,
-          "implied_probability_pct": 49.8,
-          "market_probability_pct": 42.3,
+          "implied_probability_pct": 50.8,
+          "market_probability_pct": 43.2,
           "fair_odds": 2.46,
-          "value_edge_pct": -1.59,
-          "ev_pct": -18.25,
-          "calibration_gap_pct": -1.59,
+          "value_edge_pct": -2.52,
+          "ev_pct": -19.88,
+          "calibration_gap_pct": -2.52,
           "consensus": "0/3",
           "confidence_10": 3.04,
           "decision": "NO BET",
@@ -6525,7 +6532,7 @@
             "statistical_pct": 38.8,
             "prediction_pct": 37.7,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.3
+            "market_benchmark_pct": 43.2
           }
         },
         {
@@ -6560,15 +6567,15 @@
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "btts_no",
-          "odds": 1.65,
+          "odds": 1.62,
           "odds_zone": "IDEAL",
           "model_probability_pct": 46.1,
-          "implied_probability_pct": 60.6,
-          "market_probability_pct": 51.5,
+          "implied_probability_pct": 61.7,
+          "market_probability_pct": 52.5,
           "fair_odds": 2.17,
-          "value_edge_pct": -5.4,
-          "ev_pct": -23.98,
-          "calibration_gap_pct": -5.4,
+          "value_edge_pct": -6.42,
+          "ev_pct": -25.37,
+          "calibration_gap_pct": -6.42,
           "consensus": "0/3",
           "confidence_10": 3.33,
           "decision": "NO BET",
@@ -6582,21 +6589,21 @@
             "statistical_pct": 45.1,
             "prediction_pct": 45.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.5
+            "market_benchmark_pct": 52.5
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "under_2_5",
-          "odds": 1.47,
+          "odds": 1.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 51.3,
-          "implied_probability_pct": 68.0,
-          "market_probability_pct": 57.8,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.6,
           "fair_odds": 1.95,
-          "value_edge_pct": -6.43,
-          "ev_pct": -24.55,
-          "calibration_gap_pct": -6.43,
+          "value_edge_pct": -7.24,
+          "ev_pct": -25.57,
+          "calibration_gap_pct": -7.24,
           "consensus": "0/3",
           "confidence_10": 3.62,
           "decision": "NO BET",
@@ -6611,21 +6618,21 @@
             "statistical_pct": 51.5,
             "prediction_pct": 51.9,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.8
+            "market_benchmark_pct": 58.6
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "first_half_away",
-          "odds": 2.68,
+          "odds": 2.65,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 27.2,
-          "implied_probability_pct": 37.3,
-          "market_probability_pct": 31.7,
+          "implied_probability_pct": 37.7,
+          "market_probability_pct": 32.1,
           "fair_odds": 3.68,
-          "value_edge_pct": -4.52,
-          "ev_pct": -27.19,
-          "calibration_gap_pct": -4.52,
+          "value_edge_pct": -4.91,
+          "ev_pct": -28.0,
+          "calibration_gap_pct": -4.91,
           "consensus": "0/3",
           "confidence_10": 2.29,
           "decision": "NO BET",
@@ -6639,21 +6646,21 @@
             "statistical_pct": 25.0,
             "prediction_pct": 27.0,
             "intelligence_pct": 32.4,
-            "market_benchmark_pct": 31.7
+            "market_benchmark_pct": 32.1
           }
         },
         {
           "match": "Moreirense FC vs Gil Vicente FC",
           "market": "cards_over_4_5",
-          "odds": 1.63,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 40.0,
-          "implied_probability_pct": 61.3,
-          "market_probability_pct": 52.2,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
           "fair_odds": 2.5,
-          "value_edge_pct": -12.2,
-          "ev_pct": -34.8,
-          "calibration_gap_pct": -12.2,
+          "value_edge_pct": -11.91,
+          "ev_pct": -34.4,
+          "calibration_gap_pct": -11.91,
           "consensus": "0/3",
           "confidence_10": 3.0,
           "decision": "NO BET",
@@ -6667,7 +6674,7 @@
             "statistical_pct": 37.5,
             "prediction_pct": 37.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 52.2
+            "market_benchmark_pct": 51.9
           }
         }
       ]
