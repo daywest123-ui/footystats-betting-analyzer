@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:54:39.484917+03:00",
+  "generated_at": "2026-10-12T08:51:12.750955+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -66,14 +66,23 @@
         }
       },
       "intelligence": {
-        "mentions": 31,
-        "web_score": 0.0645,
+        "mentions": 33,
+        "web_score": 0.0303,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
         ],
         "risk_flags": [],
         "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Atalanta vs Venezia Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUxwRTR6Um5rd1AxYklNQUJLWmZwSkdHUmVsMzRzdDVPSzBneVpYZUN2ZUhISF83eDhydDhqdUQ4MU9ueERISzdsUXJXZjViWFJGajlSN1dIQ1FHTUZrUHpUQzk1R2o3dnR2am9JZ3czdWxaYTg0WWtsS2ltc0lsXzBUMlJFY2hFbFN3NUJ6clk2T3ZqaXNZb2JWOTE1dFhiWWV5eXN5OXkwdk0?oc=5",
+            "published": "Sat, 10 Oct 2026 23:12:30 GMT",
+            "text": "Atalanta vs Venezia Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
           {
             "source": "Google News RSS",
             "title": "Preview: Atalanta BC vs Venezia - prediction, team news, lineups - Sports Mole",
@@ -94,10 +103,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Atalanta BC vs. Venezia FC - March 14, 2027 - Bleacher Report",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rUGo3WmhTNGdIX29VaDBSbXlUSU5CTWhObEdXSG5ieEllZDFUR0hEN0c5T0tPRzBjeUgtX09LV25WOWk1cmtwbXpLSWNtd0lXVTdEUTlTZjhTRVZCNjdWRGVlV1YtYkZreUNnNUpmVERxUGVhN3NPUC1Gcw?oc=5",
-            "published": "Fri, 13 Mar 2026 07:00:00 GMT",
-            "text": "Atalanta BC vs. Venezia FC - March 14, 2027 Bleacher Report",
+            "title": "Venezia FC vs. Atalanta BC - October 10, 2026 - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0za2lUZWhJODMxLU1BU0ZEVGlIbVlYTm9SekZCTjdiTWl2alctaDVMZ3NHd0k5cmVTc0ZoMFUyWVl3SVN5LXFEQ2ZtQkFjY1lLY3JsNE5VT3FiWGRncnZkVkE5RmRFRW5LajU0clNRdVB6bF9CMkI5N2t1SXI?oc=5",
+            "published": "Sun, 12 Oct 2025 07:00:00 GMT",
+            "text": "Venezia FC vs. Atalanta BC - October 10, 2026 Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
@@ -112,10 +121,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "U23s, Simone Panada joins Venezia FC - Atalanta",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMzB4eHlDX2ZVdnh4SFdSU3QtYjBsUktZY1Y2c0JBUy1zZ2hYbU92Z0JEVVBTa3hacVhrX21XamFuMXVac1ZMbVd2RDl0ZnRWdnFfdGg3cTNEeGh6SVNheWRsRkZmNk4zcVRqRnVfa1A?oc=5",
-            "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-            "text": "U23s, Simone Panada joins Venezia FC Atalanta",
+            "title": "Atalanta v Venezia: ticket info | Serie A Enilive 2026/27 MD6 - Atalanta",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUlCbVF1UllSeFJ6T1NvSjA2Q1RwR1luN1RiVm45QjhHMXZZQWhVcFpDd3g3VEVBaExEOFBLNzBWYzlpVzQxekMtQ1VCOXAyZXJCdDRfQjFfWkpLNjZha00zSWZwbldsS0Y4Y0V0QWlvNUhlRHppTEF5cFROQk5ieXBMQVNETUUtR2phR0cxaw?oc=5",
+            "published": "Wed, 30 Sep 2026 12:01:09 GMT",
+            "text": "Atalanta v Venezia: ticket info | Serie A Enilive 2026/27 MD6 Atalanta",
             "language": "en",
             "sentiment": 0.0
           },
@@ -134,6 +143,24 @@
             "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa1NRTTN2VEQzVlJHZ1JzQWkxZ0FZbnpYX01TQ2szQ1gtaTBxalBNMkNrb1FMR1o3UmNPNzgwd2F2Y05OaThoY2Y0TzFkbGVHUXhMQ2ROMTVDNU9QZk1ScHRUcUFoYWlrWkh4LVpZNmhYVzI2bGtuak1jZ25oRzBzdXNrRzJ1QldSYzI1ZmxTT1VPalFSa3h4dXotVURUVWlOSjlpOWdwVFd4R2ZtaHhwR1hIX0FZM2xzMFBTRDlVQWZxa1R2Rjd3UFlRclpnN0VVZ05zUlN2RmhEZw?oc=5",
             "published": "Wed, 03 Sep 2025 07:00:00 GMT",
             "text": "Ademola Lookman sparks transfer battle between Galatasaray and Fenerbahce but Atalanta stand by €50m demand Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Italy dominated with a 3–0 victory against Montenegro. Franceschini: “Pleased with the performance and the result” - FIGC",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcnFITEdGWjNSaXdpTktGTVpWZWt1cUpMX2RPTFliVFMzM1F1YUNaRzlTaXBvdFlYVXF5aVZ4VnhKdWJUSXM4VlBtcXNLYmdhdUdRZnM5UVF3ZW92dEYyTDV1THJJT1R0UjFScUVnOTBqdWtIbWdER0w2MTFvMDJwb1dmc3d6TlRlM3J0Ul9xYVE2Y0lNSEU3SEtmcmpZU3huMkxIb1hEVk9iNTBERERSN210MGhXX2F4MDlROFBxdTFqRkVJQktnVU9SUGhOZ29pUlhZeE5VOTU4NlVtLXRLdms2TnFkeG03dkl4MXVteEp0ajg?oc=5",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "text": "Italy dominated with a 3–0 victory against Montenegro. Franceschini: “Pleased with the performance and the result” FIGC",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "U23s, Simone Panada joins Venezia FC - Atalanta",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMzB4eHlDX2ZVdnh4SFdSU3QtYjBsUktZY1Y2c0JBUy1zZ2hYbU92Z0JEVVBTa3hacVhrX21XamFuMXVac1ZMbVd2RDl0ZnRWdnFfdGg3cTNEeGh6SVNheWRsRkZmNk4zcVRqRnVfa1A?oc=5",
+            "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+            "text": "U23s, Simone Panada joins Venezia FC Atalanta",
             "language": "en",
             "sentiment": 0.0
           },
@@ -175,37 +202,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Atalanta vs Venezia Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUxwRTR6Um5rd1AxYklNQUJLWmZwSkdHUmVsMzRzdDVPSzBneVpYZUN2ZUhISF83eDhydDhqdUQ4MU9ueERISzdsUXJXZjViWFJGajlSN1dIQ1FHTUZrUHpUQzk1R2o3dnR2am9JZ3czdWxaYTg0WWtsS2ltc0lsXzBUMlJFY2hFbFN3NUJ6clk2T3ZqaXNZb2JWOTE1dFhiWWV5eXN5OXkwdk0?oc=5",
-            "published": "Sun, 11 Oct 2026 21:07:54 GMT",
-            "text": "Atalanta vs Venezia Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Atalanta BC - Club profile - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80aDJ4UkhCVHNIOWVEUmNacjFWcEhNaThId091YUQwYWpJRmdRMElZQ2hBczdfVDJHbzVUMURueVgxM0U0VWY3T2VESHZLOGEtSGplU2hfdjA2M0JqWE81SWU2cUxzaFh6aE1pMVNqS0g?oc=5",
             "published": "Fri, 28 Apr 2017 12:06:54 GMT",
             "text": "Atalanta BC - Club profile Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ademola Lookman is back! Nigeria star puts Inter transfer feud with Serie A side beside him with return to training - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQY0Vta2lhcXE3aFhQbml0VmJPaS1zR2dlT05Xb1J4ZnZyZHRyZlBpOHluSUhBYjdYS0NNRTVLelFiZ3ZuRVYtc1dIX2ltRnN0bDhKMWJISTlET09GZVZwLXlDRV82NUpUY2VTaEk0bUMtT1JMZVhSNzNXcEptRnFOUFJSMzN6LVNpa2hyaDBUbEprNG90WmtaYXdfQVVUMXFxOFF2NEFzR011dlhyVEppSUFYMU9vd0VmTzRoeVh0ZXpZTWpsZHR3UDY5TE55S1VvQm5iSUZGOEVGai15cThHQXlZWjB3dWtfdTNVeWpxTXFoRE80UzRTWmczRQ?oc=5",
-            "published": "Thu, 11 Sep 2025 07:00:00 GMT",
-            "text": "Ademola Lookman is back! Nigeria star puts Inter transfer feud with Serie A side beside him with return to training Goal.com",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Exclusive: Torino lead Parma in race for Oristanio - Football Italia",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56MzNIZ1prUkIwZk5UaFNRdXE2Sy03YmZBcWptMV9vNEJ1WjdJSWstQ3Jua2lzRmdlc3NDalA5TzktVF9KRzVYcVp6Mno4cUtWdTc3ZTlDQllhZzFiUXNzZGNabmtzV1VucUZDX3NISTZVZ9IBd0FVX3lxTE4wcmV0WjFLazV6NGRzZnZBWlc4LTJ5RHVpVEV4U2NIZjlRZzBfbWl5bVQ4ajc3eVBERHVzdl9CdlVpSXpiT3A5MlJYMmFPckljckRNOVlaN2l1VkZFSmMtQU9IbFd3U2owYzd0bXRPVERxNXdHemZJ?oc=5",
-            "published": "Wed, 09 Jul 2025 07:00:00 GMT",
-            "text": "Exclusive: Torino lead Parma in race for Oristanio Football Italia",
             "language": "en",
             "sentiment": 0.0
           },
@@ -220,19 +220,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "October 12, 2026: Atalanta vs Venezia Soccer Prediction Market - Robinhood",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLS1wZTJlSVpCVW1pSXdiWXpZaHUyakZfei00NC1WNjg0aW9JUmtTd0lIMFVXeHBIUUIwUVdFcFFyUWpOX3h0dXRfSU1TUEZvdGExNmFwSkJJX2x5VUp6Q1M0Q2V5NTh3c2g4czNZTW8wX0d0bmc1WWM4UTc4QXpMVF9nX2VBNUpyR0s2bXp5dThHWGM2ZHRLZg?oc=5",
-            "published": "Mon, 28 Sep 2026 00:45:11 GMT",
-            "text": "October 12, 2026: Atalanta vs Venezia Soccer Prediction Market Robinhood",
+            "title": "Cagliari Calcio – Juventus FC prediction 11.10.2026 – Betting - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcDJCSDhlbWJBclhmY2lVcGVyNmRWV21CakVpSU1scktrN2F1TmdRVTRSNDU2VzZjd1JiUEJQc1d3dHJvRWwwT2E0TXJMUmlyRGRJQTNPWmNBU2Jaa2diXzk4b19CZlVCakE4T3lrbUhydV9FYVdoNF9GQ2NQZ2ZmeHNjUzA2VHk2Z05vQWVhcw?oc=5",
+            "published": "Thu, 08 Oct 2026 12:21:53 GMT",
+            "text": "Cagliari Calcio – Juventus FC prediction 11.10.2026 – Betting Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Cagliari Calcio – Juventus FC prediction 11.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcDJCSDhlbWJBclhmY2lVcGVyNmRWV21CakVpSU1scktrN2F1TmdRVTRSNDU2VzZjd1JiUEJQc1d3dHJvRWwwT2E0TXJMUmlyRGRJQTNPWmNBU2Jaa2diXzk4b19CZlVCakE4T3lrbUhydV9FYVdoNF9GQ2NQZ2ZmeHNjUzA2VHk2Z05vQWVhcw?oc=5",
-            "published": "Thu, 08 Oct 2026 12:21:53 GMT",
-            "text": "Cagliari Calcio – Juventus FC prediction 11.10.2026 – Betting Transfermarkt",
+            "title": "Soccer Prediction Market - Robinhood",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10eE9ZYy1ya3l6YjBkTWxJZV9qXzhhU1pJUTFabUNMbWZEaWZtd0ROQUQyaHNRNGFsbXJJN285VTVXX2VEV09zUTBPNkxBbXc3RXNqSVRmWEVLNnZJYVBEOE5LZjg?oc=5",
+            "published": "Tue, 16 Dec 2025 23:57:47 GMT",
+            "text": "Soccer Prediction Market Robinhood",
             "language": "en",
             "sentiment": 0.0
           },
@@ -276,7 +276,7 @@
             "source": "Google News RSS",
             "title": "Torino FC - Udinese Calcio prediction & tips 12.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRU5YYWhkVmI1N0NoVWVHeTc4cmJOUVUwYUdKNnFBY3BFTzdJZU5WZTE1aVR5dm13aE1FaEZPOGtyaHpHekNYV0Q0MThFVTJ6UVgtcXVUUlBoRmJ6U3JqSVFIRWNqa1VEck9DbmJPU0NOTjM3V3JJSzVUTnBKalJxUFZ3aS1McXphX0NHU2prWQ?oc=5",
-            "published": "Sun, 11 Oct 2026 02:06:03 GMT",
+            "published": "Mon, 12 Oct 2026 01:04:33 GMT",
             "text": "Torino FC - Udinese Calcio prediction & tips 12.10.2026 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
@@ -306,6 +306,15 @@
             "published": "Sat, 28 Feb 2026 08:00:00 GMT",
             "text": "Inter Milan Vs Genoa – Official Starting Lineups As Thuram & Bonny Lead Line Without Lautaro Yahoo Sports",
             "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "12 Ekim bugünkü maçlar: Bugün maç var mı, hangi maç hangi kanalda? - Fotomaç",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGgweF9PenMwZlZhWi1OSlZ2UlJQNGtxNFl6Y080OFBOaEtGTUM3cm1Wd0hydnJwOVU5Z1BrSm1aN1NMZzRzblRsV29qaERZdmd0emNqNnJCOG8yeHluaWREM3NidWIwWXJhaE0zQjQ1R0sxTVRjcmVVX29ja2pDOS1MQ2QwV2JyQUdpVDB2Q0VTWV9wcDEyUDZyX1AyQ1pldmo5WEozYTNaYzVveWE00gG0AUFVX3lxTE5wTXVsNldSRThoXzRoVjR5T0JzTkdKdThMTmhTTndja2J5OFZKbTRTSEI1WGFRdkhIN3Y4S1BiRzctSjVFYUNEbEFpNmNZaWdhNWpxUjV6Wl92SVFoV0tPLVNzWWhYYWNsZzRZZW1tXzJCb291bG51Sy1qQ1pBaHd1dnp2S2lMM2JvczM4aW90aW01aGZWN1ZJbDNlTkNMLVlvZWk0a2RSZEtsZy1UZGZMM1lQRA?oc=5",
+            "published": "Mon, 12 Oct 2026 04:06:09 GMT",
+            "text": "12 Ekim bugünkü maçlar: Bugün maç var mı, hangi maç hangi kanalda? Fotomaç",
+            "language": "tr",
             "sentiment": 0.0
           },
           {
@@ -350,6 +359,15 @@
             "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIaUJUaFVkVHd3NjNuZjZjQjBSRmw4T2dUWks2ZVZFXzhNRUdmU0hEa3oyM3hDc1k5Tzl5eUpfVUJ3YkpoTms4UFpSQlJVVXZ3WU5JZkNZeUdlV1A5MjVRcGxrblNEQ3c5d3ZiYi00MA?oc=5",
             "published": "Sun, 20 Oct 2024 10:00:44 GMT",
             "text": "Bugün Kimin Maçı Var? Çanakkale Olay",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Canlı skor, Maç sonuçları, Canlı Anlatım - Fotomaç",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NOG9pR05KdVctbHRaZXdYZHhHNG5Uei1aWTN3c0IwZGJZRXdZSUotOTZ4RHlHNkFobTc5cW1mSFFhLXZTSXo2X0dRXzdOQQ?oc=5",
+            "published": "Sun, 01 Oct 2017 09:47:17 GMT",
+            "text": "Canlı skor, Maç sonuçları, Canlı Anlatım Fotomaç",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -664,19 +682,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Levante UD - Sevilla FC prediction & tips 12.10.2026 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGNRZmp6UWt5M2U4RmEwU2NnZ2VtWXRzYjhoUGg3eHFPYVkzbzhOQXVKTzV1NWxGaG1pMFpPQnZERVB3VUgwbGh3eXQyUFhwQlZLR21Rb1BIUDh4Tl9aV2gtYlpPSGNxaHE2Q3RFNW9ZVzRlMUhtajIzOU40SzZsaWhpeXN0UUt1RmV5bEVncXpCMTJC?oc=5",
-            "published": "Sun, 11 Oct 2026 01:53:14 GMT",
-            "text": "Levante UD - Sevilla FC prediction & tips 12.10.2026 Transfermarkt",
+            "title": "Levante UD - Sevilla FC Line-up: La Liga Football - TNT Sports",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdW1vWV9lVXBvVXVTaWFKNE5QdFRmWWtCbVUwZkc2Q3dzZ0V4d2lORDFtck1hbzhaWm9nUjBBdExfemNtYU9VU3VMOG0zSFB5TjEtWEhsWlJTZFhVeFZ5eGVUR1lSUWpmUTZ3TFEtWGVTUUR3SkhVSUlGZDhhVHYyU0VXSlhLZnRJaGw4OWFYTXdEb2otVUc0RUJtUGVQV3A0S0pyRko4aGdPQQ?oc=5",
+            "published": "Wed, 07 Oct 2026 02:37:56 GMT",
+            "text": "Levante UD - Sevilla FC Line-up: La Liga Football TNT Sports",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Levante UD - Sevilla FC Line-up: La Liga Football - TNT Sports",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdW1vWV9lVXBvVXVTaWFKNE5QdFRmWWtCbVUwZkc2Q3dzZ0V4d2lORDFtck1hbzhaWm9nUjBBdExfemNtYU9VU3VMOG0zSFB5TjEtWEhsWlJTZFhVeFZ5eGVUR1lSUWpmUTZ3TFEtWGVTUUR3SkhVSUlGZDhhVHYyU0VXSlhLZnRJaGw4OWFYTXdEb2otVUc0RUJtUGVQV3A0S0pyRko4aGdPQQ?oc=5",
-            "published": "Wed, 07 Oct 2026 02:37:56 GMT",
-            "text": "Levante UD - Sevilla FC Line-up: La Liga Football TNT Sports",
+            "title": "Levante UD - Sevilla FC prediction & tips 12.10.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGNRZmp6UWt5M2U4RmEwU2NnZ2VtWXRzYjhoUGg3eHFPYVkzbzhOQXVKTzV1NWxGaG1pMFpPQnZERVB3VUgwbGh3eXQyUFhwQlZLR21Rb1BIUDh4Tl9aV2gtYlpPSGNxaHE2Q3RFNW9ZVzRlMUhtajIzOU40SzZsaWhpeXN0UUt1RmV5bEVncXpCMTJC?oc=5",
+            "published": "Sun, 11 Oct 2026 01:53:14 GMT",
+            "text": "Levante UD - Sevilla FC prediction & tips 12.10.2026 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -727,6 +745,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Levante UD vs. Sevilla FC - April 21, 2027 - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BMm9QVlZSNmRBcDNyMERsYm1TTDRjVEN2d1dwclgxSkpLYk1tWGtxZ1BveUJTb0Q0Y1dpbkFFS2xuUjMwN1ZvUHByQXVmeERHb0xHRlJLVWZRcDFfRkNQeXVZdDR0WVlyRmRVSEJOdVVuVlp5?oc=5",
+            "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+            "text": "Levante UD vs. Sevilla FC - April 21, 2027 Bleacher Report",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Ndukwe prepares with the team for the match against Sevilla FC - Levante UD | Web Oficial",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUW8zRk9TZjIzSGdRcWJNM1B5YUJVRXBjRzBibGpXcUluQXdUMElBbW53Qkt1b2dFX2RLRHBhdThodTlSaUg0cHlsMThKT1JOazA4SkozdVpnTmhqTXp5aENkOFMzcHRMNGxVVmxLaTh0dHM0ZzNoaGh2RzRPWU5heHM5eE95Y3B6N2V4NVJsdHJXQlhBTHFJZmdaTk4?oc=5",
             "published": "Thu, 08 Oct 2026 11:10:19 GMT",
@@ -763,10 +790,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sheila Martínez's serve and Dela's 100 matches mark the preview of Levante UD - Sevilla FC. - Levante UD | Web Oficial",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTXlvaFczbjVOT2lqV3VFRHJ1ZkFzYVI4T2F6b00wMVg5bzhvQl81b3lHOVZjbTZWR1JwQ0tTUTNJdHFBRXk0SWs2ajFPMi1uODJVa0NIT0VNZmFCemFhOWFDNFVOV3BqdjJqZHE2NzliQzdTNmptZzJLTHAyY1VONkVDaDh5NnZTb295OEYzelBlRDJpMVZsOWhBMXhBc2FwNVFtRm9VZjhiTmtRQ0ZDVFoxTUlBQ0NGNjBaTg?oc=5",
-            "published": "Thu, 23 Apr 2026 19:08:19 GMT",
-            "text": "Sheila Martínez's serve and Dela's 100 matches mark the preview of Levante UD - Sevilla FC. Levante UD | Web Oficial",
+            "title": "Soccer Prediction Market - Robinhood",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10eE9ZYy1ya3l6YjBkTWxJZV9qXzhhU1pJUTFabUNMbWZEaWZtd0ROQUQyaHNRNGFsbXJJN285VTVXX2VEV09zUTBPNkxBbXc3RXNqSVRmWEVLNnZJYVBEOE5LZjg?oc=5",
+            "published": "Tue, 16 Dec 2025 23:57:47 GMT",
+            "text": "Soccer Prediction Market Robinhood",
             "language": "en",
             "sentiment": 0.0
           },
@@ -810,8 +837,17 @@
             "source": "Google News RSS",
             "title": "Levante vs Sevilla Prediction and Betting Tips | October 12th 2026 - Sportskeeda",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcnpnR3VkY3BXYURKY0NXbmZ5UkJxaU5SWDAzYmRIZ0xpSHlWX2FXQWljUTZiNDFyNXVKeTRNNm14c3lRRi15akpKLVFUeTNfVWczMi1XSWY3Q0QtTUtobVpiSzNjdmpmeklLZjZlRFBnTDJNamRYYkl1UldDVVRNZ1ZHd1dTbHNlbU5vWUxSOUZjS1BsR3p3eDhaVG0zdw?oc=5",
-            "published": "Sun, 11 Oct 2026 19:28:55 GMT",
+            "published": "Mon, 12 Oct 2026 04:57:17 GMT",
             "text": "Levante vs Sevilla Prediction and Betting Tips | October 12th 2026 Sportskeeda",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOck5EMEY0ZUlkLW1JNFZ1QTdDX0d3QlQ3bExSWHpaR0VJQVNFTlRHamVINm03RzEtWjJrRVhEWktpRnpRWXI3My04UU5ubEtYNFozcXhjbDhaaFEzU2hoZ0JKSmhPZ2lXT0ZiS2QxbmgyMkV1d3ZXMXMzY0dqbUVXWmF0M1lET2h5bWhtLUJKRmJGT0NrekZseEVFeGpuYXBseVZ1MElLaWJtdw?oc=5",
+            "published": "Sun, 11 Oct 2026 01:47:34 GMT",
+            "text": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -821,24 +857,6 @@
             "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOVdObVV2dzExTlZVRVRyZnJYbjdGMFRwZEU4eHI5UkdsWUpsSVhZTmdUYkdsbnlfQmpKbFhOaUZjRHFVMW5zSllzM3FWUEJ0Q2M1UEJYazY2VGpkQWhTVUw3eVBFdGtpeThFZDllU2l3Y0RLQTNpTUJWS1gxUVNnemZR?oc=5",
             "published": "Thu, 03 Jul 2025 22:45:45 GMT",
             "text": "Levante 1 - 1 Girona (03/07) - Match Report 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOck5EMEY0ZUlkLW1JNFZ1QTdDX0d3QlQ3bExSWHpaR0VJQVNFTlRHamVINm03RzEtWjJrRVhEWktpRnpRWXI3My04UU5ubEtYNFozcXhjbDhaaFEzU2hoZ0JKSmhPZ2lXT0ZiS2QxbmgyMkV1d3ZXMXMzY0dqbUVXWmF0M1lET2h5bWhtLUJKRmJGT0NrekZseEVFeGpuYXBseVZ1MElLaWJtdw?oc=5",
-            "published": "Sun, 11 Oct 2026 02:15:36 GMT",
-            "text": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Levante vs Sevilla Prediction and Betting Tips | April 23rd 2026 - Sportskeeda",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTWZMbUc5VWNIV1pMUGIyTGxkbGhob1ZQdFlnUUZoTFp2OTVqLVNUMG1FSTBPZ1MyMVloOEM2Q0plMTNndFNPWXlsOVlsbUd2NE1LZVN4SFAwMlZZUHFPWkMxbnAtakprTWM1bFltUzlnaDJndGZUTS1mZm5FQ3JLY0ktdnlsalVNUHp6cHphbjBOS2t5ejJmQUs0MA?oc=5",
-            "published": "Thu, 23 Apr 2026 07:00:00 GMT",
-            "text": "Levante vs Sevilla Prediction and Betting Tips | April 23rd 2026 Sportskeeda",
             "language": "en",
             "sentiment": 0.0
           },
@@ -862,6 +880,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Levante vs Sevilla Prediction and Betting Tips | April 23rd 2026 - Sportskeeda",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTWZMbUc5VWNIV1pMUGIyTGxkbGhob1ZQdFlnUUZoTFp2OTVqLVNUMG1FSTBPZ1MyMVloOEM2Q0plMTNndFNPWXlsOVlsbUd2NE1LZVN4SFAwMlZZUHFPWkMxbnAtakprTWM1bFltUzlnaDJndGZUTS1mZm5FQ3JLY0ktdnlsalVNUHp6cHphbjBOS2t5ejJmQUs0MA?oc=5",
+            "published": "Thu, 23 Apr 2026 07:00:00 GMT",
+            "text": "Levante vs Sevilla Prediction and Betting Tips | April 23rd 2026 Sportskeeda",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Sevilla vs Levante Prediction and Betting Tips | January 4th 2026 - Sportskeeda",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcENzMElTRUg1dGlKMTkydnRtdWNTb1ZJUnBfWE4wMkM4R2lnR1hqR0h5MVhqWlc3ckdKRTRqeE1FeWJXeWRPa3E1alFnVU1xY3JYTWhQU0dIbU1RMnc1TVRtMFdweEZRX1RwVks2QlJVei1DRTR3YTU1bWZIODIzTE9qQ0RNMXhBY0NkRXdzTmgtcElKWi1XNFViem4?oc=5",
             "published": "Sun, 04 Jan 2026 08:00:00 GMT",
@@ -875,24 +902,6 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUlRhLWg1ZWJ0YVdqNDl2b1BxUHpEd2lkNHFUOWlqMGw2MnNDbnRKWnRLT0tZTWFqOWNJUlN1ZkRVSGFmMTUwa2lYcEYwTEJwSFF4b2VzRkJSMlJCMDZXdUZLVlVWVlMtUWlyQ091aTJkbTNidXBEMFE0UFktS2lwcE5FZkJXeWRpQkZjclBpd2tOaktlczRNdUdSZmVIcHRETkt1Q3E2REVpZ3lKYVZ6MTBOQUpTaTZhUldJ?oc=5",
             "published": "Wed, 22 Apr 2026 07:00:00 GMT",
             "text": "Levante vs Sevilla Prediction, 4/23/2026 Soccer Pick, Tips and Odds Doc's Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 23 Apr 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUzdOUk05czVHSXp0UGtsSncxNGVqS1B5QWJtejFYZ0tPQjZQdEp6azV4ZGF4cndOZ25NNUV4WFB6N2t2R1pkRlhWWGpscGdqajdqZWo0eW9NTEJFUTkzeFh4Z0UwQ0l0V3dCem9nb3NWcUdYRUFZZ3VXWVNUdWpTMDBtMnRPOEVrdlJ0YzNzS1VLM1JoZENNS2JrZUdyNGMzSkhCc2lLMkdmdw?oc=5",
-            "published": "Thu, 23 Apr 2026 07:00:00 GMT",
-            "text": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 23 Apr 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "​Levante UD sizing up strategy for Sevilla FC showdown - Levante UD | Web Oficial",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOd09TMUJIU0pMamlCaDRFTWZPVG5aRUY3aWVnZFpjY203U2pHVllPUXYtSTZfbFNhUVFoQ0QzeXAzcE1Md01JeTY4dXZ5cS13aGU0YnBKd25KeHFpVHItaDBqR1VMOWR2OXdKLTRTR0p6MWFMU0lmRU40U01oM1RNdWg0VDVRcDZlOHlaSlk4UGI?oc=5",
-            "published": "Mon, 21 Sep 2026 22:12:10 GMT",
-            "text": "​Levante UD sizing up strategy for Sevilla FC showdown Levante UD | Web Oficial",
             "language": "en",
             "sentiment": 0.0
           },
@@ -965,6 +974,15 @@
             "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQld6VDFQWnBCQi1kSXBuSF9DRmVfY0ZQWnAzUnRNMnpYN1FfcnRuSVFWaTc2ZUJ3RTFadXhmeTZGYUxTcFpfVWRCc3lETkNZRjY5aGNWdWx1VUpRdTlHdXJwUU9LMWYwWnRXdlpMb0htVlRBbHBnMzkyUGp4VDctUkt1bkJWc1J2bjZCNTRudVRjeFIzUFpEWUZGdDc2eDRMS3hqdVZMUHgzU2NWUXcxaDBUVmxGRU85alAtMkRhX011WHhZS3Fzblc1cWg3Zw?oc=5",
             "published": "Tue, 11 May 2021 07:00:00 GMT",
             "text": "Levante vs Barcelona: TV & Streaming, LIVE BLOG! Barca Blaugranes",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 23 Apr 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUzdOUk05czVHSXp0UGtsSncxNGVqS1B5QWJtejFYZ0tPQjZQdEp6azV4ZGF4cndOZ25NNUV4WFB6N2t2R1pkRlhWWGpscGdqajdqZWo0eW9NTEJFUTkzeFh4Z0UwQ0l0V3dCem9nb3NWcUdYRUFZZ3VXWVNUdWpTMDBtMnRPOEVrdlJ0YzNzS1VLM1JoZENNS2JrZUdyNGMzSkhCc2lLMkdmdw?oc=5",
+            "published": "Thu, 23 Apr 2026 07:00:00 GMT",
+            "text": "Levante vs Sevilla Prediction, Betting Tips, Lineups & Odds | 23 Apr 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1105,19 +1123,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "CA Osasuna (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Uk5qZVVPZnJpUGdyRXBZLThCcE04bVQyaEVDNFg0Q19JZlBCN25fdGwyMFlNTUF0UjRQaGllYzloSmNwNHBYcHBlVURiVk03QW9LQWE0V252dw?oc=5",
-            "published": "Sat, 05 Dec 2020 16:24:58 GMT",
-            "text": "CA Osasuna (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "title": "Malaga CF (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85TjlIWEJPVjhDMmQ5UE1pSXlrdmIwNlI2VFltU2I3TjZ3R1FYbVUwTWNWV2hldjV4azdxbGJHU2VFNTVvTGdjRkxsNm13cG5aNWY3Vk9GRHk?oc=5",
+            "published": "Sat, 05 Dec 2020 09:41:20 GMT",
+            "text": "Malaga CF (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Levante UD - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbUxQc25QYWwtbEh5Ny1FVVFUTVBCNHhGdTliNVhwMmtsaVFfenZBUXVwaGw1TG5uZmpYSnVBUjRrSmdsZ2FNYk9PdXNtRFVPM3RGNnNHTXZ2eXlGdUQ3R1hLN2t3eW5RcWVSeUxhUWJYZFY3TTNia3ZVbnBHbmNrWHpR?oc=5",
-            "published": "Wed, 30 Oct 2024 23:55:54 GMT",
-            "text": "Levante UD Transfermarkt",
+            "title": "CA Osasuna (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Uk5qZVVPZnJpUGdyRXBZLThCcE04bVQyaEVDNFg0Q19JZlBCN25fdGwyMFlNTUF0UjRQaGllYzloSmNwNHBYcHBlVURiVk03QW9LQWE0V252dw?oc=5",
+            "published": "Sat, 05 Dec 2020 16:24:58 GMT",
+            "text": "CA Osasuna (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -1405,19 +1423,19 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "FC Famalicao vs. FC Alverca SAD - Live Score - October 12, 2026 - FOX Sports",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmI0cWMyTkwzTnF4X0pOV2FZeGpBemRQMnYxdjBjVWRVUHRRc2NNNWRpSXZ3MnN5bWtoeGt4ZlkzOHpOX2ZLQ0YxZEtiUV8xNlpQZG1RbWVmV0FIM0N6SEpVUW1lcEh2WmFJaFVIUFZVRUVEUC1MM0lmWjRHSnlhOUxzWEZnMk0zM1ZxNlRaeFVQeU4tVUNqaUhYT2xTUDR2SzdQTEhzMDh2TzF4blow?oc=5",
-            "published": "Mon, 21 Sep 2026 09:21:57 GMT",
-            "text": "FC Famalicao vs. FC Alverca SAD - Live Score - October 12, 2026 FOX Sports",
+            "title": "FC Famalicão - FC Alverca prediction & tips 12.10.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLTZDb2hxODR4VGQwYmFqNnN1ZldTWTl5RnRlX2R3VWpUbTYtcHMxczRXbUgzRTEzTG56YVlrTEF3aDZ1aFNjNlRXOUdGUjFEM1pPZXlvNlE0cXVPc2tQdFJYT2FTRWc3ZGVmSTB2dEhmN19fRGJrZG5oQlVYT3JFTjByeHBVbG91WDktbmZ6RjdHT3VIOV9F?oc=5",
+            "published": "Mon, 12 Oct 2026 01:04:32 GMT",
+            "text": "FC Famalicão - FC Alverca prediction & tips 12.10.2026 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FC Famalicão - FC Alverca prediction & tips 12.10.2026 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLTZDb2hxODR4VGQwYmFqNnN1ZldTWTl5RnRlX2R3VWpUbTYtcHMxczRXbUgzRTEzTG56YVlrTEF3aDZ1aFNjNlRXOUdGUjFEM1pPZXlvNlE0cXVPc2tQdFJYT2FTRWc3ZGVmSTB2dEhmN19fRGJrZG5oQlVYT3JFTjByeHBVbG91WDktbmZ6RjdHT3VIOV9F?oc=5",
-            "published": "Sun, 11 Oct 2026 02:02:21 GMT",
-            "text": "FC Famalicão - FC Alverca prediction & tips 12.10.2026 Transfermarkt",
+            "title": "FC Famalicao vs. FC Alverca SAD - Live Score - October 12, 2026 - FOX Sports",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmI0cWMyTkwzTnF4X0pOV2FZeGpBemRQMnYxdjBjVWRVUHRRc2NNNWRpSXZ3MnN5bWtoeGt4ZlkzOHpOX2ZLQ0YxZEtiUV8xNlpQZG1RbWVmV0FIM0N6SEpVUW1lcEh2WmFJaFVIUFZVRUVEUC1MM0lmWjRHSnlhOUxzWEZnMk0zM1ZxNlRaeFVQeU4tVUNqaUhYT2xTUDR2SzdQTEhzMDh2TzF4blow?oc=5",
+            "published": "Mon, 21 Sep 2026 09:21:57 GMT",
+            "text": "FC Famalicao vs. FC Alverca SAD - Live Score - October 12, 2026 FOX Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1436,15 +1454,6 @@
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbHEzMGhkd3ljcV85dXFiWnM3TFZCYVZjV3hPbzFXYlY1eXAzR2RmODdnZWZBeENpLS1UempwbHZzREtHUUtyMUpVRFRtVC1UVF9VcUtvcXY5YjFnTDR0TWszZXNlSFlSbW5JbVIxcmRWb2ZTY0ZtaVhsMXZXbHc0ekF0VFhhTnZ1OGtMOG1tRmlta0ZMV0plSEpyMU92aHJ0d2F2VXI3X3ZmM3hHcHBJ?oc=5",
             "published": "Wed, 08 Jul 2026 22:13:24 GMT",
             "text": "FC Famalicao vs. FC Alverca SAD - Live Score - October 10, 2026 FOX Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Famalicão - FC Alverca betting tip & best odds | 12.10.2026 - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjdUOXZ1Y2ZTQm9NUkJOY1k5Z2NOSW96Ulc4SnBYU0JmTkZ3Z0VkY1FHVHRGT1E3eUlzVUJuSzBXSW1KcE9ZUWZ3VzZOZk92Sm5ZODkxT25LNnFpY1lwX043Wm9HeDBZNFFwZ2k3OU5YN0pjNURhUHR5eGVycjNZMUFCVXkzenJjT3BpQ1ZjTDYwMS1DSi1qbw?oc=5",
-            "published": "Fri, 09 Oct 2026 01:27:50 GMT",
-            "text": "FC Famalicão - FC Alverca betting tip & best odds | 12.10.2026 Futbol24",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1486,6 +1495,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "FC Alverca - SC Braga Live - Primeira Liga: Football Scores & Highlights - 05/09/2026 - TNT Sports",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRWpKMnZiUzJteks3R1BvamRNMUE4bFhiMVJxcVhuVURxeTVTTG9ua1hMamIzcjFxLTRac0JKdGJTRDFERmVVR213V2RpTUJQUHc2dGFtbUU0RWoyZDEzRGl6N0w5cVFTOThQZ2dySDVyb0JqNUk2aHIyN0JrNHNTMU5WeDhGYkkzZjVjMldpajdHb2lOY1JoT25DZnRvdW5ESks1S2twYjhuV05H?oc=5",
+            "published": "Sat, 05 Sep 2026 07:00:00 GMT",
+            "text": "FC Alverca - SC Braga Live - Primeira Liga: Football Scores & Highlights - 05/09/2026 TNT Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "FC Porto-Alverca: first match point for the Dragons' 31st title - OneFootball",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORUhwNTN3SWZ5dGJ2aDhwQlNCMllhZU9WTzA2ajU5U0pZaVVEeDBMZGNORVpHaXlZcUJGNXUzV2hzY0FsU3NQQ3l5b2N3eXd2eTg2RC1ndDdvV2pkejJnR012XzF6U0YwbkMwMkJIYXV1b2d1dGdjNHhYME81WTBJQ0NwMy1hNXlwaFVCRXpzbE85c0x2VWUxN2Q0Sy0wV2IxOEt6Nw?oc=5",
             "published": "Sat, 02 May 2026 07:00:00 GMT",
@@ -1504,10 +1522,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Estrela da Amadora Standings, Matches and Scores - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QMkM4Y2FnblVhbW5NQ2tNS0drMEx6eXNReTh3X0VIcndlV04yTVpUeHItZlJxUzUtX1JaRjQ1ckZIWmkydzJSOERxb1hZdDZZU3lUSWdxODJ4cXlpSElkLVdFZkRROXNP?oc=5",
-            "published": "Wed, 22 Apr 2026 21:33:49 GMT",
-            "text": "Estrela da Amadora Standings, Matches and Scores Futbol24",
+            "title": "CD Santa Clara Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9nNjBJNjNuRnNDbUg5ano1bVo0c2pMZ2dGbVhnSW5CcWhLWXc3MUhDanJPcXJpSGFkR2tfVklXTWwyTHJyUll4cTdMUXdvaTRVbHNsb2JHeHh3dndMWjdlM0NzZw?oc=5",
+            "published": "Tue, 21 Apr 2026 17:39:29 GMT",
+            "text": "CD Santa Clara Standings, Matches and Scores Futbol24",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1522,10 +1540,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "FC Alverca - SC Braga Live - Primeira Liga: Football Scores & Highlights - 05/09/2026 - TNT Sports",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRWpKMnZiUzJteks3R1BvamRNMUE4bFhiMVJxcVhuVURxeTVTTG9ua1hMamIzcjFxLTRac0JKdGJTRDFERmVVR213V2RpTUJQUHc2dGFtbUU0RWoyZDEzRGl6N0w5cVFTOThQZ2dySDVyb0JqNUk2aHIyN0JrNHNTMU5WeDhGYkkzZjVjMldpajdHb2lOY1JoT25DZnRvdW5ESks1S2twYjhuV05H?oc=5",
-            "published": "Sat, 05 Sep 2026 07:00:00 GMT",
-            "text": "FC Alverca - SC Braga Live - Primeira Liga: Football Scores & Highlights - 05/09/2026 TNT Sports",
+            "title": "Sporting Lisboa Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WLTlWTkZ3d2dZLUF0QkRmNnRpNFNvb2RBWTZCaW0zbS1qTFdzenltMlB1emExb2dkaWluUWhWdlFhOVNfTEl5cmdMY1NWWTE5ZW9aRFJKRmNqVlRvRXJ6MV9hNks?oc=5",
+            "published": "Tue, 21 Apr 2026 11:13:42 GMT",
+            "text": "Sporting Lisboa Standings, Matches and Scores Futbol24",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1549,6 +1567,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Moreirense FC - Gil Vicente prediction & tips 09.10.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmwta0FSZXM0c0hkYUpIcVZPMThDM2lfZ1ptWklTbEFjS3FIcnVOQUJ1OW85c29aM0ptOFBZbHV1aEtCWVB6Rjl1bzA2eDFoQlBEc3B6eVQycUJsTm4zQjhwOVRMMThjU0NiZDZXRDQwQUc1d1lxdE1qRTU3WjlGa0xHRzhiTlY5a2E3MGNOcXRQX0J5b0x0c1pR?oc=5",
+            "published": "Wed, 07 Oct 2026 17:00:52 GMT",
+            "text": "Moreirense FC - Gil Vicente prediction & tips 09.10.2026 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Sporting Braga - Sporting CP prediction & tips 09.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTBOVDhWN2dFQ3Z2aVpzSExXcXpZNjZCYmg1VEdFcWptZEZMaDRPS3dJNy1xUFowNjhDY1YyVzRCZXA3d1FHbDIxTzlyLVkwTmRqelNHUDZsZzFBZm9lNFpqU2UxUmcwcS1jWGFpNGVIcUxkdDgzR1psd1g0SkItUEMtS25KNkgxZ2psWXZMQmpkNS1Ca2lFMURjTQ?oc=5",
             "published": "Wed, 07 Oct 2026 17:00:53 GMT",
@@ -1558,19 +1585,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Maritimo Funchal – Futebol Clube do Porto prediction 10.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQm1YT2lNbXBKQ2F2bmluclRkXzE1b21HMEFJalI2cl84ZFhUUG5Mb3hSR1gzV2xhT29FZUNvczVDd1FIYkItMXN0N0dOVk5NellDRGhvYXlFdVpGV2M4dEptV2lQZnU3aXVXUVpteFlRTFZfV2tXSXNIRUJON1RkUU0xc0NQdUdNZnF4NG4yQzBSV0lNQWdBWTJn?oc=5",
-            "published": "Thu, 08 Oct 2026 19:29:31 GMT",
-            "text": "Maritimo Funchal – Futebol Clube do Porto prediction 10.10.2026 – Betting Transfermarkt",
+            "title": "Famalicão vs Alverca Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzJQZkVKNThMV1FJcGVKOUJVTUFsc2F3Z3QtNm1OSTFxMHcxWXJ4WnVfZ0FMRnBUUzNLMWhCaG5RVzJoVzJJSUg3QjVCN3J1aTJrd1hHajBpZEVvV2htamFNMGRZcm56WXRZczhrd2tfMGhTUXJNaUpSME54ZThpeEM0Q0ZpVmo1Nkw2cWhWMWduazJlN1ZoU20wMjVJWVRBU0lQNlpVWWRNa25m?oc=5",
+            "published": "Sun, 11 Oct 2026 01:44:19 GMT",
+            "text": "Famalicão vs Alverca Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Famalicão vs Alverca Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzJQZkVKNThMV1FJcGVKOUJVTUFsc2F3Z3QtNm1OSTFxMHcxWXJ4WnVfZ0FMRnBUUzNLMWhCaG5RVzJoVzJJSUg3QjVCN3J1aTJrd1hHajBpZEVvV2htamFNMGRZcm56WXRZczhrd2tfMGhTUXJNaUpSME54ZThpeEM0Q0ZpVmo1Nkw2cWhWMWduazJlN1ZoU20wMjVJWVRBU0lQNlpVWWRNa25m?oc=5",
-            "published": "Sun, 11 Oct 2026 01:44:19 GMT",
-            "text": "Famalicão vs Alverca Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
+            "title": "Maritimo Funchal – Futebol Clube do Porto prediction 10.10.2026 – Betting - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQm1YT2lNbXBKQ2F2bmluclRkXzE1b21HMEFJalI2cl84ZFhUUG5Mb3hSR1gzV2xhT29FZUNvczVDd1FIYkItMXN0N0dOVk5NellDRGhvYXlFdVpGV2M4dEptV2lQZnU3aXVXUVpteFlRTFZfV2tXSXNIRUJON1RkUU0xc0NQdUdNZnF4NG4yQzBSV0lNQWdBWTJn?oc=5",
+            "published": "Thu, 08 Oct 2026 19:29:31 GMT",
+            "text": "Maritimo Funchal – Futebol Clube do Porto prediction 10.10.2026 – Betting Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1621,15 +1648,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTEsxRGZoMFkxdzVaaWV0eWsxZWJmZFJaSjViWXZrZ2t4UFZnYW5LUHdtcEVTWkVmS3B0QUViNG1YWVlKaTk3RUQxU1ZOVElvM2s1akF3emN5YUlDSF9xQWRiY2JQR3JCRDhFLVRITjN3R0w2djJ5aWZTUTZvMlA5aWw3aV9RcE0yVHVWYw?oc=5",
-            "published": "Mon, 05 Oct 2026 16:45:42 GMT",
-            "text": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "FC Famalicão - FC Alverca Özet: Futbol Skorlar & Önemli Anlar - www.eurosport.com.tr",
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWdLTVVMWDBlMVZIU2xENmVJUlBEUTk0Uzh6TVlrXzdlU0F2YW9veW1VQXl6ajN2VjYzQVRSbXdfSzZLVjlmZF9xVEJNd0VndnlPNGV6dEpTME82Y1hKTDZrRHhPWnY1XzFaR0JORThmdU9fY2FTZkVoSHZ2TEkwTjhRa2lwTWJJS2VfMXBReFFPSXNoRGx1WDdaYXIySW5QT0RKcm1Lb0pMQQ?oc=5",
             "published": "Tue, 06 Oct 2026 12:30:34 GMT",
@@ -1639,19 +1657,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Moreirense FC Sonuçları - Tüm Maç Skorları - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SVVNTNHk5bU1zOU9TSjViMk13eERISFVBczh1VzhWQ3MtRm5aNnVTMTNYeWFMd0NWN29aY0g1S3diMnlBZzN1X1B5cnJYckdqekwtTHFXaUVMTHVfcTJhQmNab2w3QnRhWnBsR182bUtGV0U?oc=5",
-            "published": "Wed, 13 May 2026 06:20:36 GMT",
-            "text": "Moreirense FC Sonuçları - Tüm Maç Skorları Futbol24",
+            "title": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTEsxRGZoMFkxdzVaaWV0eWsxZWJmZFJaSjViWXZrZ2t4UFZnYW5LUHdtcEVTWkVmS3B0QUViNG1YWVlKaTk3RUQxU1ZOVElvM2s1akF3emN5YUlDSF9xQWRiY2JQR3JCRDhFLVRITjN3R0w2djJ5aWZTUTZvMlA5aWw3aV9RcE0yVHVWYw?oc=5",
+            "published": "Mon, 05 Oct 2026 16:45:42 GMT",
+            "text": "Moreirense FC - FC Alverca, 18 Nis 2027 - Liga Portugal - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Mathias De Amorim istatistikleri ve reytingleri - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1iSGE2Z1VUNEtFYS1rUUhJano2YU1QYU1DSGZ1RjlWR0UxMnhzUTlBYll2cThNUXN3SmJhSzJsMEdjRF9fZ0Y2d3VjZkx3aEZhTU5nLXdNTmpPbnUxZ0o2VWJLZXNCZ084dmo2Z2FtX1RrYWdudmxOakRB?oc=5",
-            "published": "Thu, 19 Jun 2025 07:55:27 GMT",
-            "text": "Mathias De Amorim istatistikleri ve reytingleri Sofascore",
+            "title": "Moreirense FC Sonuçları - Tüm Maç Skorları - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SVVNTNHk5bU1zOU9TSjViMk13eERISFVBczh1VzhWQ3MtRm5aNnVTMTNYeWFMd0NWN29aY0g1S3diMnlBZzN1X1B5cnJYckdqekwtTHFXaUVMTHVfcTJhQmNab2w3QnRhWnBsR182bUtGV0U?oc=5",
+            "published": "Wed, 13 May 2026 06:20:36 GMT",
+            "text": "Moreirense FC Sonuçları - Tüm Maç Skorları Futbol24",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1684,19 +1702,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "FC Alverca - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQW8zVEdTRnNHaE9LUlJMUEc5YzN4VWV4UU5yeDB6ZUNFRU5UZFR1d3ExYnEwSGw3Sk5QTU95TmpwclhRc2FJdVZ6MzJSWDdYSVZsTXpNSjZxU0JBX29xSUVKNVRra0JmdjNHWmdmWFBKTEJPNVI0ZWpfNkREZGFXUTlJNDhIdEpBYjBnZ2lDZUtsNmM?oc=5",
-            "published": "Mon, 17 Mar 2025 06:47:48 GMT",
-            "text": "FC Alverca Transfermarkt",
+            "title": "Canlı skor, Maç sonuçları, Canlı Anlatım - Fotomaç",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NOG9pR05KdVctbHRaZXdYZHhHNG5Uei1aWTN3c0IwZGJZRXdZSUotOTZ4RHlHNkFobTc5cW1mSFFhLXZTSXo2X0dRXzdOQQ?oc=5",
+            "published": "Sun, 01 Oct 2017 09:47:17 GMT",
+            "text": "Canlı skor, Maç sonuçları, Canlı Anlatım Fotomaç",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FC Famalicão - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VV3dLcTB0S0NxUHBxVEZyc1plQWMtVWJaRDZQeXpmYUNtamcyZUxGVjItdHhrSTdiSU9jdjNWeVNpanlGOHJlRXc4VHZ2bmEzSFcya2loX0Z6dFhMRmVuUi0wWENqbDJQVERGYWt6VDRlb2dQWUE?oc=5",
-            "published": "Fri, 06 May 2022 18:16:36 GMT",
-            "text": "FC Famalicão Transfermarkt",
+            "title": "FC Alverca - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQW8zVEdTRnNHaE9LUlJMUEc5YzN4VWV4UU5yeDB6ZUNFRU5UZFR1d3ExYnEwSGw3Sk5QTU95TmpwclhRc2FJdVZ6MzJSWDdYSVZsTXpNSjZxU0JBX29xSUVKNVRra0JmdjNHWmdmWFBKTEJPNVI0ZWpfNkREZGFXUTlJNDhIdEpBYjBnZ2lDZUtsNmM?oc=5",
+            "published": "Mon, 17 Mar 2025 06:47:48 GMT",
+            "text": "FC Alverca Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1992,8 +2010,8 @@
         }
       },
       "intelligence": {
-        "mentions": 40,
-        "web_score": -0.025,
+        "mentions": 43,
+        "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -2006,80 +2024,8 @@
             "source": "Google News RSS",
             "title": "Torino FC - Udinese Calcio prediction & tips 12.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRU5YYWhkVmI1N0NoVWVHeTc4cmJOUVUwYUdKNnFBY3BFTzdJZU5WZTE1aVR5dm13aE1FaEZPOGtyaHpHekNYV0Q0MThFVTJ6UVgtcXVUUlBoRmJ6U3JqSVFIRWNqa1VEck9DbmJPU0NOTjM3V3JJSzVUTnBKalJxUFZ3aS1McXphX0NHU2prWQ?oc=5",
-            "published": "Sun, 11 Oct 2026 02:06:03 GMT",
+            "published": "Mon, 12 Oct 2026 01:04:33 GMT",
             "text": "Torino FC - Udinese Calcio prediction & tips 12.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Serie A | Torino 1-2 Udinese: Zaniolo inspires surprising victory - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82WEhRVEJCSlpacXBGM3pSNmVKbjd1WXNCSUhRSWh6NndlODk4ZnlYaGFvU0lpNTZTZGdDX3ozZFF5SDI3cHZHQjdabjdXbU1pVWRaaVA3dENidGdTbmFPbDFYdGlZYUZZd3JNMHZJLU1reWppYmhsLWxYUGQzdw?oc=5",
-            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-            "text": "Serie A | Torino 1-2 Udinese: Zaniolo inspires surprising victory Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "'Something beyond biology' - Ex-Barcelona & Everton star Gerard Deulofeu may retire at age of 30 due to freak injury - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnpZdDV6YTJYSHU5ZVE4ZUJha2FJWHV2a1Z3dkRyemZSUTJuekt0T1IxeHg0a2J4ZWZHQldEUDZodGxPZ3NIWWZ1RGJlaWhiTmt0SVF3Y2Q4UEdkakwyOFQ4ZlNJMmNsN0hrQW9RSmo3NkxrbjEzbVZTRDZ6cTBTclBYS0NoQTNpNGRXLW8zWTAwV09IZEh1N01JZUE1N0trRTYweFl1Mm5SeXBheVJra0ZCSQ?oc=5",
-            "published": "Thu, 23 Oct 2025 07:00:00 GMT",
-            "text": "'Something beyond biology' - Ex-Barcelona & Everton star Gerard Deulofeu may retire at age of 30 due to freak injury Goal.com",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Tickets: Torino vs Udinese | Serie A in Turin 2026 - KarloBag.eu",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLXpjWGF0dXBGbVlFb1FDWHRuMDd6WnRKTDhmMUNLcWNTa0drc1ZmSThLQnQ5VDNsRUdxZUFRa0c1Mk1vVmVPNXhhdDllSm02XzZXWEN6NGZZOFBGTWxZV3hBUElJVkNmUnhXN05kMU84SzdtbFVJbFF4a0pJR3N6THd3Nk40Nk4tWHpwTnRuaF9BUllrMy1Qcw?oc=5",
-            "published": "Sun, 11 Oct 2026 06:33:45 GMT",
-            "text": "Tickets: Torino vs Udinese | Serie A in Turin 2026 KarloBag.eu",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ladbrokes' football tips - Monday, October 12, 2026: Away wins in Premier League, LaLiga & Serie A - Ladbrokes",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04SllrWTRWMEJnbFVrRWsyU21HNHM0c1I1bkZZWmM3X2xGLWxSWm9MQXgxb2hyallDVHVCd3QwWTRObjNFNlZRNURwZUZmZkFmX3pYWkZQa1dHeEJKZUVJZlVtSjhHNlpRcTcwM3JZWk5xRW81?oc=5",
-            "published": "Sun, 11 Oct 2026 20:00:00 GMT",
-            "text": "Ladbrokes' football tips - Monday, October 12, 2026: Away wins in Premier League, LaLiga & Serie A Ladbrokes",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Torino Ready to Sell Milan Transfer Market Target Andrea Belotti - The Cult of Calcio",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFN4TjZROFlWa0gxV3JVc3RsVU80b2xuRFUtdUU1QnZ5OFV1TGNGbDJxWTJQcEtySEkwR1NTVzlJSWQtZ3RHeXpaMmxFRVRHaFFYTlFYRURwdlhMbGstTkxQdU9hRkhoX3ZDRVlmVE9iNlpoRy1MNXpfVFdVcG9DdVNoc9IBiAFBVV95cUxNQ1JUNUwxZ1FoaEpYeVNIcTlNcG53Zks1U2VBUlE0XzNUUnRPWXJ6VGY2b2d6LTdrR0N6aGd4RVVjVUhzVV9xRnVwVl8tY0VQdWw1Vnp5aFF1ZHBqMVJaTVVVWXB5a0hzYzcxenI4cExMZ2J0MlRmZ0MxMFZ4OXZJUVVXTkZqNlFm?oc=5",
-            "published": "Sat, 27 Mar 2021 07:00:00 GMT",
-            "text": "Torino Ready to Sell Milan Transfer Market Target Andrea Belotti The Cult of Calcio",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Udinese Calcio - Schedule 26/27 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN2FrRHV3MUxuRmlkMnRPTjUwVm9VcWJaNmVXTGxTTDVPSkJTRWR1bjVVaGZhdG5lS3QzSDk0MnROcnNCWWFpTkZFVTItWG1jQ1ZUSlQtd3ZNby1zOXdnaTE4THc0Z0VpUXJfOWhKU0Z2djVEVy1YY3BzbzBfUDgxM0VVNkRZVW8?oc=5",
-            "published": "Tue, 30 Jun 2026 23:01:55 GMT",
-            "text": "Udinese Calcio - Schedule 26/27 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVUZyT21aVWg1RHViT001bXd6MTR2Z1JwdDV3Mk5kajJzQURLdG01dEw3VmVIMlZHUVk1ZzJDWVdpTzFJbW5QRWhyMFl6ZUxhcWVuLTJSWDJQZnZoSWxuWTR2MHV4Wlk0WVBhV1dqMWhvRTYxOGQ1YXJmUkFaOTl1bTViazlxM1NkdDVRLXJUbzJoTHlrZThWSFJ4VkxESHVTaUJjX3ZuMkg?oc=5",
-            "published": "Sun, 11 Oct 2026 21:19:57 GMT",
-            "text": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Udinese Calcio - Club profile - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51U29MTUEwREJSLWp5NnhXaUJZX2JzZEFXNi1KUFpwMjV4MUpOMVpwbnRSVW5QR2JZTzVvUTlkWWhQQmRfMzRDQkNTR0gwNlRyVGJLTjFZZ2ppVXlSQncyUHhKZjFHTmJ6ZFRiaGF2T1VSVl90?oc=5",
-            "published": "Fri, 28 Apr 2017 12:07:16 GMT",
-            "text": "Udinese Calcio - Club profile Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2089,6 +2035,15 @@
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONnBpRW9JM1ZVdldyYmpva3c3VS1zV045TVZvQWVHSnZmWHVfbl9CbnFtUzVjYmhIams2REUyUUNSbE5wX3l2YXhwRGlrQzg3VlJkdlNGckxUYUx5YlBjSFV2bnVKQWtQdGNsVEd3TGJlMzNHZEtIWVNsVTNjNEdPQV9kSDhhblp5ZnpvUkdEOVllcVVLVFozOUpR?oc=5",
             "published": "Sun, 11 Oct 2026 21:23:02 GMT",
             "text": "Torino FC - Udinese Calcio betting tip & best odds | 12.10.2026 Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Serie A | Torino 1-2 Udinese: Zaniolo inspires surprising victory - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82WEhRVEJCSlpacXBGM3pSNmVKbjd1WXNCSUhRSWh6NndlODk4ZnlYaGFvU0lpNTZTZGdDX3ozZFF5SDI3cHZHQjdabjdXbU1pVWRaaVA3dENidGdTbmFPbDFYdGlZYUZZd3JNMHZJLU1reWppYmhsLWxYUGQzdw?oc=5",
+            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
+            "text": "Serie A | Torino 1-2 Udinese: Zaniolo inspires surprising victory Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2112,10 +2067,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 07 Jan 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1NDOFhsM1FreFdaWEMtS0puaG9GcDdMQ1pWV1c3MktZUHBTcy1jWFhhd0tERU1jaWxya3p0LUNFTERjQ1hEVTdLUXBfMkJQdUlxTGRyci0yZ1JXWlJCMVA3dG1HY20tU3hkdnh6NlFjX2ZCWURIOUdCamhpT0k3NEZna3cxcDR0bXNGa3FvN2dfcjJWUWJUa0hQblM1cHNWc2xVWjhkTFc?oc=5",
-            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-            "text": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 07 Jan 2026 Sportsgambler",
+            "title": "'Something beyond biology' - Ex-Barcelona & Everton star Gerard Deulofeu may retire at age of 30 due to freak injury - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnpZdDV6YTJYSHU5ZVE4ZUJha2FJWHV2a1Z3dkRyemZSUTJuekt0T1IxeHg0a2J4ZWZHQldEUDZodGxPZ3NIWWZ1RGJlaWhiTmt0SVF3Y2Q4UEdkakwyOFQ4ZlNJMmNsN0hrQW9RSmo3NkxrbjEzbVZTRDZ6cTBTclBYS0NoQTNpNGRXLW8zWTAwV09IZEh1N01JZUE1N0trRTYweFl1Mm5SeXBheVJra0ZCSQ?oc=5",
+            "published": "Thu, 23 Oct 2025 07:00:00 GMT",
+            "text": "'Something beyond biology' - Ex-Barcelona & Everton star Gerard Deulofeu may retire at age of 30 due to freak injury Goal.com",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Tickets: Torino vs Udinese | Serie A in Turin 2026 - KarloBag.eu",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLXpjWGF0dXBGbVlFb1FDWHRuMDd6WnRKTDhmMUNLcWNTa0drc1ZmSThLQnQ5VDNsRUdxZUFRa0c1Mk1vVmVPNXhhdDllSm02XzZXWEN6NGZZOFBGTWxZV3hBUElJVkNmUnhXN05kMU84SzdtbFVJbFF4a0pJR3N6THd3Nk40Nk4tWHpwTnRuaF9BUllrMy1Qcw?oc=5",
+            "published": "Sun, 11 Oct 2026 06:33:45 GMT",
+            "text": "Tickets: Torino vs Udinese | Serie A in Turin 2026 KarloBag.eu",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2134,6 +2098,87 @@
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wTlRsWlhsSXF0MnoyRFJKMkVyVk5FNER1MXRnX1hlcmw2UVFCN2h6c0dxMkltdnVzZ3lUcGs2OURpSlYzZlN2S0VBdm5TbjVOOXVJS0NqSlZlSUpSVURPZGlDRzA0cDR2WnUzT2hMalkzYmdCWUtXTjFJa9IBgAFBVV95cUxQbVdYMTFVa1BPdjNHM0VOemYtQ0pacF85WXh4NXlIajVnWlJYV3ZYRWdiNUpBRHlFR2VKUFRnNU9WOUJzeGhoV3pUYzdKamxlRnNULUhQdHR6RW1CQi1YRTJtMUo5c1k5YlhzLVF0aHdqVG1KY0dYY1B3RmNra0diSw?oc=5",
             "published": "Mon, 20 Jul 2026 07:00:00 GMT",
             "text": "Zaniolo reaches new agreement with Udinese for contract to 2029 Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Juventus and Como lead race for Udinese’s Zaniolo as Milan also circle - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KT0FyV0xKcFpyWUxOajZXM3JXcktZRWR5RjFRckViTklXVUZQZnJGdFhGWjhPZ0dJaGplSlBNSnhTYTBvRkQtdTlNWGtXcGlmUE9TOE5ZQ1ExZWY3cWdCeUFhQV80NzczNm5BVjVzVdIBdEFVX3lxTE00ZFNGZWpTcVhCTTBFYmNKY3ZXb3hSdEJEVE1URl9oRlNRcUI0VTNHR0N4UExBRzZmRzBoOEhsWW9fUE9BRlhWdXJ3VENvMW5vbGt2bDJkMU1QYkE4QmtWX21SM3FXS1FZNGpPbGU4cVV6b2Vw?oc=5",
+            "published": "Sat, 20 Jun 2026 07:00:00 GMT",
+            "text": "Juventus and Como lead race for Udinese’s Zaniolo as Milan also circle Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Torino vs. Sassuolo: Serie A week 36 official line-ups and updates - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqOTZlOV9qM3VMazdsd2Y3Nk4xT1IxSmk3eGgyV1h6T0NPQTVRYXNTaXlDLXBCTDJ6Y21nYUFSNTZtVEQ3ZkJZVUUyb2dTU0taSTQyOHJYT0VIcDZvUkUwRGp3MF9NTXl3Y3Q1azhDa1lTSDNfeTJsVU9wWVRRYW8?oc=5",
+            "published": "Fri, 08 May 2026 07:00:00 GMT",
+            "text": "Torino vs. Sassuolo: Serie A week 36 official line-ups and updates Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Betis ask Torino for information on former Chelsea and Inter midfielder Casadei - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HMklLT3hBbndWNEhkV3pVQWxtOXB6M3dicUVvZk5VODJ1Qkt3d1EtdW5ZaFl3MEdQak9YcUtYNGNYZFFJYnhzcDVyV0FsUzZ0QmVrWXhkc0JYYVNFV0lESUlQM3A0bGNmVXFKUFVxR1dPMVc3aXl3T0NsM3bSAYIBQVVfeXFMTzdyMFdQQ21QR1lfcW5XWGdNTGxuTm9BMzBXX0lxaldaUHdWcm41bjZuS3RQVmp5eVYzUjBJVXVTd0ZDZzdMNkpqY0xqNUR4OXJkSFhIaXljczZ2d19CSlh4by1FdWhBSlhEVXlWR2h5UUNGRzhLQTFKYXNCMWF4bkdMZw?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "text": "Betis ask Torino for information on former Chelsea and Inter midfielder Casadei Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Chelsea could bring Casadei back from Torino and send him to Ipswich - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CWkN6d3pjZVRkVUJtcVJVa3JXSzMwX1hzYmY0U0RQcVVYMTQtTkdHM185RWRvN3JPandYWnpORWEyNXdKQVB3cE9rNzJ6Yl80SUF1ODNNT3I1eTVmdUZ1MkszSHR6U0k2U09oSmY5OFNUWG54TmxhNjRNRTl4d9IBgwFBVV95cUxPMkt6ejVRZWd2eERTcEZqMUJEczFnT2VLUW5rOV8wQ0p2QmFGeG0yWTJ1U3dVZXhJanBYVGlOSXhCYml5LUpiQndXVktOU3NCcXNXSlN2d0xoNDJpeURfZUxHYXhpQ3NFR2ZueWt5Y3h3TjRvM28zblcyNjVySHhqcGxNdw?oc=5",
+            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+            "text": "Chelsea could bring Casadei back from Torino and send him to Ipswich Football Italia",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Udinese to host Barcelona and Nottingham Forest in new tournament on August 8 - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzN1dEbFpBbW9hM1lvSnV1anVkTkRJNjRmRURXQ0VYRWVPU0dXMU5RMkdQQVdUZnhkOVdEVndvTXlwdmVUQ2RQRXhjcW16VEp5S0tCVHlZWkRMU2s4R0FlM1NiTHVaNGdZZVdOYmY2dGV1M0xSSUdySW1kaF_SAYIBQVVfeXFMTTBzOVg1WXdoaGpIWmIzRWRRNW1ienlPaTZ5NEVJN2NYaXNkYW94QUtBM1otUVN3MDFOMDJha29jdzFiWjFXY29QUU9NcHBIUkcwbFoxLThJaDlKME9LclpfX3ZhVEhQelU2UVpQWEswdXF0V0wxaW0xcnpRbTdGZmwtUQ?oc=5",
+            "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+            "text": "Udinese to host Barcelona and Nottingham Forest in new tournament on August 8 Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Serie A | Udinese 2-2 Torino: Adams inspires exciting comeback - Football Italia",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMXFmZXRVRk5YR3RqTVZGYjVhRlpmeExXLUtHMFFyVF9pV0xhRmU5Rmlob3hLaGFReHlvOW9UVlZOeUtzRVRhOGZMNUdobDE0ckJXVkhsc3ZKcE0xb1JPLThPQzZJeldHWTNYUUJOMHJhM0hOSm1nLXlR?oc=5",
+            "published": "Sun, 29 Dec 2024 08:00:00 GMT",
+            "text": "Serie A | Udinese 2-2 Torino: Adams inspires exciting comeback Football Italia",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Soccer Prediction Market - Robinhood",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10eE9ZYy1ya3l6YjBkTWxJZV9qXzhhU1pJUTFabUNMbWZEaWZtd0ROQUQyaHNRNGFsbXJJN285VTVXX2VEV09zUTBPNkxBbXc3RXNqSVRmWEVLNnZJYVBEOE5LZjg?oc=5",
+            "published": "Tue, 16 Dec 2025 23:57:47 GMT",
+            "text": "Soccer Prediction Market Robinhood",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ladbrokes' football tips - Monday, October 12, 2026: Away wins in Premier League, LaLiga & Serie A - Ladbrokes",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04SllrWTRWMEJnbFVrRWsyU21HNHM0c1I1bkZZWmM3X2xGLWxSWm9MQXgxb2hyallDVHVCd3QwWTRObjNFNlZRNURwZUZmZkFmX3pYWkZQa1dHeEJKZUVJZlVtSjhHNlpRcTcwM3JZWk5xRW81?oc=5",
+            "published": "Sun, 11 Oct 2026 20:00:00 GMT",
+            "text": "Ladbrokes' football tips - Monday, October 12, 2026: Away wins in Premier League, LaLiga & Serie A Ladbrokes",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVUZyT21aVWg1RHViT001bXd6MTR2Z1JwdDV3Mk5kajJzQURLdG01dEw3VmVIMlZHUVk1ZzJDWVdpTzFJbW5QRWhyMFl6ZUxhcWVuLTJSWDJQZnZoSWxuWTR2MHV4Wlk0WVBhV1dqMWhvRTYxOGQ1YXJmUkFaOTl1bTViazlxM1NkdDVRLXJUbzJoTHlrZThWSFJ4VkxESHVTaUJjX3ZuMkg?oc=5",
+            "published": "Mon, 12 Oct 2026 03:21:48 GMT",
+            "text": "Torino vs Udinese Prediction, Betting Tips, Lineups & Odds | 12 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2247,6 +2292,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "UDINESE - TORINO MAÇI NE ZAMAN, SAAT KAÇTA VE HANGİ KANALDA? || Udinese - Torino maçı canlı izle linki… - Fotomaç",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVElRNEFIQ1lWU3VRSUl5WkJ2UG1ITnB0RXNIU3Z0ZC1UdFFVb2hxcnpnQU9QWnkxSDJ1azNFZlBEZS16VlhuZGI5V2lHTXhjcG5wMWpRVjRRNUR4eW5xVFdzVEcwS2hnQzVlT0hFU3UyTVZSZGc5em9IR1VYQl9tNzRfMUNGckZXVS1xZmxXZlNqSWxMdXhYakpFRG5JRDVvOVVn0gGoAUFVX3lxTE4teHp6N0s2dFBXcFJUUFJSc0lPUVpsY0JjV0hNS2xNekZ6VDBEc2pqSHN2Y0VTSWJXczJtSnlLaW9fLVN0UnVlOF9zRk1KdlFnN0I2T28tTEZ3aGJEU3VwNkljUVU0c3ExU0pta3phTDZwMlNjYWtteVhLM2xid2hhSG5WSVRuLU5OTWZHZ25JUjBMTVV3YUgxWE5XY09MZEhSLWhEcXEyTw?oc=5",
+            "published": "Sat, 02 May 2026 07:00:00 GMT",
+            "text": "UDINESE - TORINO MAÇI NE ZAMAN, SAAT KAÇTA VE HANGİ KANALDA? || Udinese - Torino maçı canlı izle linki… Fotomaç",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "8 ARALIK GÜNÜN MAÇLARI: Bugün Hangi Maçlar Var? Beşiktaş Gaziantep Maçı Hangi Kanalda, Saat Kaçta? İşte 8 Aralık Günün Maçları... - CNN Türk",
             "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVk1EQURZd0pqa3lqX0NONWVxMElYaldHaV8xYktxbGgyNWx6OG5fY3ZOV0VLTzN3YVNfNmwtVkpKSWMtdmZXMksxZ3hnOHhabEhBdDhLeHZrTHFjMld6d050OU13cUR4dnllY1VtRzFrQmlfbWtkVGlzU2FGVEk1Z09OeEplX0U2bVp2djdvRXpJQkFRNEprWFRmdUtJMmVncUo5cl84R3p0UnlkX0NaMmZCZUVzVkUzNWR3TTAybXZwM2QxWHdTVF8zQWY2Q2k2N25VTVpLWGlFeE1YVGtBMDV4TGt3Mk9YUEhteHhZYUU?oc=5",
             "published": "Mon, 08 Dec 2025 08:00:00 GMT",
@@ -2260,6 +2314,15 @@
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Wemxod2h2YXpEVDFZOU1fd1oyWmt1Qk1XZnRPdHVKdGVfWHIzSmJ6TVZoZURQYUNjRjhzdFJrMkpRMmVwazZBQTdieTlMU0NjWnlPa01HLVYwOU9rUFRtTjFna3c1azJwdi1uODBNWE1MbDJIT3dLRUpweDQ?oc=5",
             "published": "Sun, 06 Sep 2026 17:25:18 GMT",
             "text": "Torino FC - Udinese Calcio, 12 Eki 2026 - Serie A - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Andrea Belotti - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kdmVDZUQ0YkhOdU54b1E2SFhKNGhSaktUNE5aN1Fjc0laNHE1OHBFQloyYjVUbWRvOUFxQ1FoeXFmSWJNNUN6dFBTSjRma3NkWlh2TjBYcUc4b0Qwd2ktd0xsdFA1aGMyMnJCbkN3d0hHbDdEdUFmTUFiZw?oc=5",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "text": "Andrea Belotti Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -2319,6 +2382,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Torino FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fUWoxRTJfVHUzcHp0dkRsSUh2SWJGZ0NpeDlDOUpMTjBUeTM2a2x2cFRvN0M2cUdwME55cUVwZlotUXo1TG9CejEzNlByTTFPUnJtaklrMnBtS3V6VVRFMFNyZXZRTkVXc0J4Q0RwUC1Ba2Z1WGFhTWt5LVlNYTA?oc=5",
+            "published": "Tue, 03 Dec 2024 08:46:44 GMT",
+            "text": "Torino FC Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Samuele Ricci - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzZWhHNkFmWVZ6SVFRcUI4TjdhRmJZYVcwd21GcFotNFRBS2NIWW04Q1hUMXlNTFhodzd2eThsaG51clktLURfX3QyX2Zwa2hwZ0ZqcXJkbGxid2d4WEJMU0lOR1FFVEVON21ZVl9OYlZKOUJGUW9fSmVR?oc=5",
             "published": "Fri, 29 May 2026 07:00:00 GMT",
@@ -2328,37 +2400,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "AC Monza - Bologna FC, 21 Mar 2027 - Serie A - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0tzTE1QVHNJSnNfSWFRTFpHR3dtV05rcWFuVWFFb1lOTWM2eHo2eHk2Zmh1MlpSRG1qUDN0YmZCUkZoaUpWdFNJLXF3UTFLZENDaExVUUJ3MGY2NmRxRkFpUzJnTmJqZWlnTTJZcnBRWFVrWk43UU5sQXlaZldqZm9GSlI1QQ?oc=5",
-            "published": "Sun, 04 Oct 2026 17:32:00 GMT",
-            "text": "AC Monza - Bologna FC, 21 Mar 2027 - Serie A - Maç raporu Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Udinese Calcio - Kulüp profili 24/25 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc1Q2eEl0NGdkVzk1SExnZjlvQjVaLWVQYmk5ZDRJTWt6ZE5XX0RUQ0phVExiS3Y0ZE83YmRadHc2MnRFekpwMHR6c2tvZnh0cTNFQzBfOHZmX3cxS2E5V3Q2bC1HQWVPQjVnMzJqZkxVUXdjQ2k4S0R0NEIxZF9wRVBZZG93U0pVZEhuSA?oc=5",
-            "published": "Fri, 14 Jun 2024 03:52:33 GMT",
-            "text": "Udinese Calcio - Kulüp profili 24/25 Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Torino FC - Fikstür 26/27 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QeTVVd3lMa2lnZEVSTFJNVllPXzN1VDV2MmxIbkZucWpQaGsyTFdkWHpoUHlXZUhNMTNRQ28tM3JLUWhYdWhKelF0MTRjT0VialNoRUtfLThqWlpEaURDQldaV2FrQTNPUWZ5X3pWR20?oc=5",
-            "published": "Thu, 12 Sep 2019 01:26:18 GMT",
-            "text": "Torino FC - Fikstür 26/27 Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Udinese Calcio - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbXhPc1MzX29BNXpmNWpCM3FjWl9IZWVHT2RJbVphNXZCb3dKUnZ4Ym42SEIyOXlQYURPdnR3ZFM3XzdRTWplY3VlVFlOcjZlMTRSMDRkSm1PU2lYWkZfZFBIaWgxc2o4bUx0SEdmcVdVUTFmZEN1aGJJMnNEN0tvRnNrYUctdnpuVmZTeVZtQWVjWkUtMlF0R0JoMA?oc=5",
-            "published": "Sat, 09 Dec 2023 22:34:30 GMT",
-            "text": "Udinese Calcio Transfermarkt",
+            "title": "Frosinone Calcio - Cagliari Calcio, 23 May 2027 - Serie A - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTF9tZXRUMDBsZlQtRHgzcWlMQXo4X0lvVWRhRGN2TDd4SU1BMU1nVjh4TnF4VEpxX2xoMndLSWFWOXFUVTRTVjh1emVaSi1OdEMyemFpbVctU2VGbE91R3UzM2hjeWt5Z3EtaHc0TGlZMzF2aGtUV2Rfb3RoNmJ4X00xWW00X0tGQ1E2Rk5uUjJjMWRJTkNn?oc=5",
+            "published": "Fri, 04 Sep 2026 12:04:01 GMT",
+            "text": "Frosinone Calcio - Cagliari Calcio, 23 May 2027 - Serie A - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -2801,19 +2846,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Hull City vs Everton predictions and betting tips: Barry to draw fouls as Belloumi eyes an assist - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdGdwYXhKZTk0YTN0MUZ3T0QtTEZScGhzZzR3cnlvclNYbkU4ZWpPYVZIUFFiZE83cEY1QllBeTdpUEd1b2ZsZU02cnAtOTlCU3Q0NlNGcEo2ZFlSMkd2NV9QeHVxbjhVTTFlc3V4ZDM2Q2dBYUY4NHh1Q3RPM0lJT3luNjZLakIyd3c?oc=5",
-            "published": "Thu, 08 Oct 2026 10:59:18 GMT",
-            "text": "Hull City vs Everton predictions and betting tips: Barry to draw fouls as Belloumi eyes an assist Squawka",
+            "title": "Soccer Prediction Market - Robinhood",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10eE9ZYy1ya3l6YjBkTWxJZV9qXzhhU1pJUTFabUNMbWZEaWZtd0ROQUQyaHNRNGFsbXJJN285VTVXX2VEV09zUTBPNkxBbXc3RXNqSVRmWEVLNnZJYVBEOE5LZjg?oc=5",
+            "published": "Tue, 16 Dec 2025 23:57:47 GMT",
+            "text": "Soccer Prediction Market Robinhood",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Sunderland vs Fulham predictions and betting tips: Black Cats fancied at a rocking Stadium of Light - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNEhoWEhHMHp2OUxNNlRJNWRrTDFGM2R5eVpJYjFWRXhqRkNaM0JwOTl2b09JbE53RHkxbU16TjM1RUxRbDI0TEZxcDJXZmVoZDE2a01ERFh2eERWRGRuUXN6eW5yS2wybkd6ak5BXzU4STZuQmhMVEhHa2czeWNhY0JyOXJaLXpwY3J0M2t2bVY?oc=5",
-            "published": "Sun, 30 Aug 2026 07:00:00 GMT",
-            "text": "Sunderland vs Fulham predictions and betting tips: Black Cats fancied at a rocking Stadium of Light Squawka",
+            "title": "Hull City vs Everton predictions and betting tips: Barry to draw fouls as Belloumi eyes an assist - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdGdwYXhKZTk0YTN0MUZ3T0QtTEZScGhzZzR3cnlvclNYbkU4ZWpPYVZIUFFiZE83cEY1QllBeTdpUEd1b2ZsZU02cnAtOTlCU3Q0NlNGcEo2ZFlSMkd2NV9QeHVxbjhVTTFlc3V4ZDM2Q2dBYUY4NHh1Q3RPM0lJT3luNjZLakIyd3c?oc=5",
+            "published": "Thu, 08 Oct 2026 10:59:18 GMT",
+            "text": "Hull City vs Everton predictions and betting tips: Barry to draw fouls as Belloumi eyes an assist Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2828,21 +2873,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Frank Lampard - The Mirror",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LSVNITi04UXdQUUJjNkV5ZzVQWDBYZGV6VFB3QzRwVzE3cEFYbl94RTJGTnVZLWFJX1ZzSVQ4MXJEN1Y1Wm9CWW9VMDdZUDFQUE5zck0xc1c3SnBtSjlxZVh2VU5XaGkxMHl6R3ZR?oc=5",
+            "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+            "text": "Frank Lampard The Mirror",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Premier League Predictions: Arsenal and Chelsea get back on track, Man United frustrated while City survive Liverpool storm - 101 Great Goals",
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUFsaGFBMzdWSmgxc20tQXZHblRJbHlUeGlBNHpZS0lMVy1ON25ZQTJwM212THRuZ1B6QVdFTF9tYXdhdldPdU02b05NcG9ocWl4XzlnZjYtRGRJMUNzbXAtVnY0TTR1MWZRTlY3REFoM1F4VUgwMFVUX0ZWSnBQZjdnM2lueHlSVlZiaE4xZlE5dkdaUG10aXNIOTA3aWhTcEZ1TExlTDFxdWV4S1d1aG9ITkI5WmpyYmJ1U2g5Wlk?oc=5",
             "published": "Thu, 08 Oct 2026 09:38:56 GMT",
             "text": "Premier League Predictions: Arsenal and Chelsea get back on track, Man United frustrated while City survive Liverpool storm 101 Great Goals",
             "language": "en",
             "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "League Cup BTTS Stats (Both Teams Scored) (England) - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfMVdtc01kZlgzeXNwUDRxOHh4SWRCM1U5R092a204ZzdEVHV3MGx2UE1ZMzlpUzB2b1FMS21lUUJ0TXg4TTNIZENIemJBQjcwa3UybXNvLUVYdw?oc=5",
-            "published": "Wed, 18 Mar 2020 16:11:57 GMT",
-            "text": "League Cup BTTS Stats (Both Teams Scored) (England) FootyStats",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
