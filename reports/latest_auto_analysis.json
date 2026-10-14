@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T07:48:30.465228+03:00",
+  "generated_at": "2026-10-14T20:07:20.543186+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -66,16 +66,32 @@
         }
       },
       "intelligence": {
-        "mentions": 36,
+        "mentions": 35,
         "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
         ],
-        "risk_flags": [
-          "multiple_injury_or_suspension_mentions"
-        ],
+        "risk_flags": [],
         "items": [
+          {
+            "source": "Google News RSS",
+            "title": "[[ - Universidad de Córdoba (UCO)",
+            "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOMkVEZzlXV003dnY5Q19kUTY1bVdfZmJpTnBHbEMtYUQwQUZmSUdUd3k3M1hWelZrSllnSU8tZG1QWk5XMzZVeFlMQVpGOXhPeVNpdThncW1ta1hIMXZHdUJqcFl1TGhOWVpndXY2N21VcXVTeVpNblQybHQ1VHlDTWhLbzlzMHVrRlZuTXVkOHZZZ1c4UlZXa3NqSUU0RUJsYkVrNlhaRS00VG1kbjlTTnRRRU5NTXMycU9XQ25QZTJoMEZtbHV1WE1wNzMtYWRzSVlvYTc0cWVTQy1McTJDczUtNi16UzBreFg0SHk3cnJ5Z2RoMnhsVDVya202alBuNDFnZFZYRldMUnpmQXowN1Jjd21pdjBFcC1tOEhFS2RDU3JGcUViZ0RvdVFMV3QzWndOV3dpSjh1dkRyc2VOaXd0MzhqWWpiX3k0ckVkUF9PUU9VcS16aS1iX1JSNXhjdVFV?oc=5",
+            "published": "Wed, 14 Oct 2026 16:08:25 GMT",
+            "text": "[[ Universidad de Córdoba (UCO)",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "[!LIVESTREAMs!]Tv] Derby County FC v Queens Park Rangers FC 𝐋𝐈𝐕𝐄 ｏｎｌｉｎｅ 14 October 2026 Stream - Universidad de Córdoba (UCO)",
+            "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNUWdiRnlFeG1nUlZZbWRySlFTTHJOLUFlemxienhWc1ZvV2JRcGRZalpqa2tYclBVTXRxWEx6WTdqeU42eGZ1V0p5OU1KNXhYUTBzN0JWX2lHazhHbXBCRXhEaDV0bldoblVOdEVmaXFyeFRtMWhYQUdmZW5fWmJ1R09RbnpfM0lBal9mdzVfTHlwbDlGLWthTUg5cUdMNi1BeDg4cDVQeHlmU2NqRFZyNG9pR014cWhuaFk2aENwUkhpZkdsdUNmUjJQSTBnTW1vQWR4S09oZUpxcndJcUJQM1BNNm91VTJaRFVXZG1wVzIyTW11d0c2Yy11aGtsdDNYcnNVcDcyUjRfOWlOX1J6ZTh0V0pUeXBkNnB0TDlBcEZ1U0dtRVNVOGF1ZDdPWnQwd1cybm5QdmN3VVU3LS1YYWU5MXV5U0phbllVTlc3WWZBbTlOZlUwR0tXQWlvcHV2SGpnazZR?oc=5",
+            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+            "text": "[!LIVESTREAMs!]Tv] Derby County FC v Queens Park Rangers FC 𝐋𝐈𝐕𝐄 ｏｎｌｉｎｅ 14 October 2026 Stream Universidad de Córdoba (UCO)",
+            "language": "en",
+            "sentiment": 0.0
+          },
           {
             "source": "Google News RSS",
             "title": "Championship 2026/2027 Stats : Goals, Assists, Cards, Tackles + More - Squawka",
@@ -132,15 +148,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Jenkinson and Nobbs part of 'Next 20' - Arsenal.com",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFdVdmxYWmJRYWxkNEFCVFZWRFVIY0p3WTl3aW5pMkJpcnh6ZXh5cWo1cURpVGVXWjJLRmhYc1VBRkRSNTNDMjVYZEtuZGMzMUpXQlprdEFKSFVPTXkxTzRkVGY1Wk5RUWJOZlJUUXR3YWJtQW9JemppdXppUDBfdHcycw?oc=5",
-            "published": "Wed, 30 Oct 2013 07:00:00 GMT",
-            "text": "Jenkinson and Nobbs part of 'Next 20' Arsenal.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "FA charges - January 2021 - TheFA.com",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qLXg2VWhfQjlqMHhqSHh2aWdneXRjZlV5SXhMdFlKOVJKMjlWTHBwT2lNaWk0SjYxaEtDUzZIcU1RQVRnMkt3c25RMkE2RXZ0bTQxTThERFUyMERYcFZpTU5iYXNud3ZJRG5Lc0VrYm1icWMySXNoQS1zQQ?oc=5",
             "published": "Fri, 05 Feb 2021 08:00:00 GMT",
@@ -150,10 +157,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury - www.derbycounty.news",
+            "title": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury - derbycounty.news",
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTN4ZElaT3BmRW03enhza1Nvb0hWbnZaUHdiUFB0akN5cFpvMmFLY3VVU0dINThCc1JOSlVQVEtNbU40eW5LS1VRUENFaVFiWk9RbE0tbGVRNmxPbnA5TmFrbkZxS25tNEZjRmxrSkZGdkFmZkVaTXlOUGNFWXEtTFlZWktURTh3ZHRjaDA4aUQtTmdqdGtsd2MzNEh0RGhHanFmNnNTTW1JVHFtS2ZvSWRzYw?oc=5",
             "published": "Fri, 25 Oct 2024 07:00:00 GMT",
-            "text": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury www.derbycounty.news",
+            "text": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury derbycounty.news",
             "language": "en",
             "sentiment": -1.0
           },
@@ -168,10 +175,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Gimme a call, JFF! - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaUV0RGFYYlItYU5oVlI0X1FjYlBYTWlJZExYSkZGWFBNbEtZRWE0OVo1WHU3SXd3WENNNk5oRDBmdk5aOGVhM3I0QjRxS2xzbkp1dVpzRUhMSWgxeDdmNHcwS3Bja1BacGtGNFBHWXNqYnh6dGs1REUtMk1QRWMwRmtB?oc=5",
-            "published": "Mon, 19 Mar 2018 07:00:00 GMT",
-            "text": "Gimme a call, JFF! PressReader",
+            "title": "Reggae Boy defender Moore joins Stoke from Reading - PressReader",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdHY2QldJeVlqM0QtVkxFcGF1RTExSW5aVWljejllS1ZhTC1oZDMybXVyX1FpS09tb29mU01feDkyM0Q5eFZDNkY4RUxMWld1UmZRdHRHWUFNaEtiNVpZSEh1UmI1cUpIWlJISk53ZTdfamotTTBScFZvTm01eWdacF9xWXMxWkZWZ3lJ?oc=5",
+            "published": "Thu, 03 Feb 2022 08:00:00 GMT",
+            "text": "Reggae Boy defender Moore joins Stoke from Reading PressReader",
             "language": "en",
             "sentiment": 0.0
           },
@@ -186,15 +193,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "League Tables 2026/2027 Burnley - Clarets Mad - Clarets - Clarets Mad",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81NXNDbjBhek1tNTdkV25OVURfVjNDbVpfdWRYOFI2RVZQcXJJcEs5UlRGU0ItaDU1R01MM2tsaVEyb044ZzhjeXRRVzRUTlRuN0hoU1dWTQ?oc=5",
-            "published": "Mon, 17 Feb 2020 08:10:14 GMT",
-            "text": "League Tables 2026/2027 Burnley - Clarets Mad - Clarets Clarets Mad",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "FA charges - April 2022 - TheFA.com",
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vb051UEthUkhjdi1qYVFfN3Z2MTg2QnpHbm1rTFVBUTFqMzgtaHNJUERoeno2VVFBNDd0TjF6M0d6b2RmSF9SZ1pLUlVSWG9tMlZaYjFYZC1pMi1BNEZjNklyb2tzVTFJTXctdDBoajYtNG9zYlFTMA?oc=5",
             "published": "Thu, 05 May 2022 07:00:00 GMT",
@@ -204,10 +202,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Reggae Boy defender Moore joins Stoke from Reading - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdHY2QldJeVlqM0QtVkxFcGF1RTExSW5aVWljejllS1ZhTC1oZDMybXVyX1FpS09tb29mU01feDkyM0Q5eFZDNkY4RUxMWld1UmZRdHRHWUFNaEtiNVpZSEh1UmI1cUpIWlJISk53ZTdfamotTTBScFZvTm01eWdacF9xWXMxWkZWZ3lJ?oc=5",
-            "published": "Thu, 03 Feb 2022 08:00:00 GMT",
-            "text": "Reggae Boy defender Moore joins Stoke from Reading PressReader",
+            "title": "Gimme a call, JFF! - PressReader",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaUV0RGFYYlItYU5oVlI0X1FjYlBYTWlJZExYSkZGWFBNbEtZRWE0OVo1WHU3SXd3WENNNk5oRDBmdk5aOGVhM3I0QjRxS2xzbkp1dVpzRUhMSWgxeDdmNHcwS3Bja1BacGtGNFBHWXNqYnh6dGs1REUtMk1QRWMwRmtB?oc=5",
+            "published": "Mon, 19 Mar 2018 07:00:00 GMT",
+            "text": "Gimme a call, JFF! PressReader",
             "language": "en",
             "sentiment": 0.0
           },
@@ -222,19 +220,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGdSVXFTYXEwUDkyTENoZnQzMm4wZ0Y0MW9Qa3RGWGV1eVRiZHVlS3IyZU1qZUJuVDlkdk94T0xOYUxpZFc2RFpHcXBOdEY0bkE5S1dZVXdXQlQyWlVhdmZPakJ2dWViRktSLW40ZDNHUWZTVXZzZklqOFZqcU9uT3lPSUQtSk0zMm9n?oc=5",
-            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers vs QPR predictions and betting tips: Rovers fancied after Boro win Squawka",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park - Squawka",
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWctSXRqTEdTdFVaVFlrVHUyeW1iZ3RFSDg0VC1rVHY4NjVoOERLMVJ5U1liUUxTS0hoakdCUDNZdEgtSWczOU55YTJzcmVoSWdOVkpnc3p3ZlpTM3B6Sll6TWVYZlNOVURqTDRBYThsOXJPdHBFNnNhcEFPdl8yMFJ4SENOWFF4LXlGZQ?oc=5",
             "published": "Wed, 12 Aug 2026 13:19:04 GMT",
             "text": "Portsmouth vs QPR predictions and betting tips: Goals on the cards at Fratton Park Squawka",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "EFL Championship – Gameweek 43 preview with potential for more drama - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0RJV0Vqb1NiaEVkSXU5Sm8wSHpQMWttVEpxb2ZfbnJYSjJrVlhxX0pVZGFfNDJzM01RWTZ0ZjJkTW9IWmxtbnZrSXdWUmMzckp4WEFxdDVHaXQtMkJwM3lBdFlzc3FCTTVLcnZR?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "text": "EFL Championship – Gameweek 43 preview with potential for more drama Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -267,10 +265,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Championship 2025-26 promotion permutations: Latest in the race for a top-2 finish & play-off places - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNk9kNzRuMmc4bHZVOUkxYXZwZ25reVpZU29LRXlEZWN0c1pRX2pZc050amRoUFhMdDVuTncyN25sRDhwZ2w2dEZPOTFWSnRqcy0xV1k4TGM0alM2NzBiZUdpQjNVNE9IajU5N1h3bE9EVzhtd0UtOF8wUmhQa013TGFiZVhGdEFzYUU1Qg?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "text": "Championship 2025-26 promotion permutations: Latest in the race for a top-2 finish & play-off places Squawka",
+            "title": "Queens Park Rangers v Derby County Prediction: Draw specialists to serve up 29/10 stalemate - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3JEaUEwU3RwRnRnSnhwcDMyMngxbnZnVEVVMUgyREc5YTlqRExJOTZuaEZxRzJMWVJrVVEwdGdfSWx1WTY3RWxsN0V4WERQUklqMURJZ3ljZVhNS1VmZ0t0UXgwdnNOX1Q1Q0tDajVMRk41OGNvcnYzZFNpeDljVzNZbUExZXpqY2c2SlZ3WUl1WFAwSjRRd21pYTRkNnRSVUJSbVYxNFhnLVk2ZlRqV2xtRXpuX1JDWVlz?oc=5",
+            "published": "Wed, 14 Oct 2026 09:12:46 GMT",
+            "text": "Queens Park Rangers v Derby County Prediction: Draw specialists to serve up 29/10 stalemate news.bet365.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Charlton Athletic vs Derby County predictions and betting tips: Derby to kickstart their season on opening day - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQamNmOWdPdy0takF6bGtqVWtlc1BJdHU2REN5SDBuQlFKeWhxTXE0WXFfaEpZa0ZRUU9WcllKS00wdUZBSHhFelE0QkVjMEI3Zk1KY3o2TmpBcF9wVUVaNmtWU0l4QXZ3ZU5xUTktUk0wLUFqcFFLSGFpSDBxaWZSYjg5ZkNTclRlcGdPNQ?oc=5",
+            "published": "Mon, 12 Oct 2026 07:00:00 GMT",
+            "text": "Charlton Athletic vs Derby County predictions and betting tips: Derby to kickstart their season on opening day Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -285,10 +292,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Charlton Athletic vs Derby County predictions and betting tips: Derby to kickstart their season on opening day - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQamNmOWdPdy0takF6bGtqVWtlc1BJdHU2REN5SDBuQlFKeWhxTXE0WXFfaEpZa0ZRUU9WcllKS00wdUZBSHhFelE0QkVjMEI3Zk1KY3o2TmpBcF9wVUVaNmtWU0l4QXZ3ZU5xUTktUk0wLUFqcFFLSGFpSDBxaWZSYjg5ZkNTclRlcGdPNQ?oc=5",
-            "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-            "text": "Charlton Athletic vs Derby County predictions and betting tips: Derby to kickstart their season on opening day Squawka",
+            "title": "How to watch Queens Park Rangers v Derby County: Live stream, TV channel, kick-off time and head-to-head stats - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVGVPQzBhb2pkVTk4dXNiRnVaZk1PQUZEYjF1c2dpcHlyYnFBRG1kRWx1TkFtdWxGUEw2QndYUk1CNWdVY1VLdTJVSll1TDRqcG5iVVVxWVdGNjBISG9haHZUbVlmcjI4SXNyYTdQOWkxemctdDQ5TE5ZaExPUnN5WHRlVmM3ZXJFd3QtTloxS21yVlJSOGp2SmJiRXg3X3lqQVdadmprV1NUTkVkbTZWNndjWFZ4RlBQaWdHMUEwbzk3QkFsZTljNmoxT19EMGdHckNDTU5OVElKeU9qeGJKLUMwckI2bVJOV2UwTVB3azJsY255WTBOcQ?oc=5",
+            "published": "Wed, 14 Oct 2026 06:10:14 GMT",
+            "text": "How to watch Queens Park Rangers v Derby County: Live stream, TV channel, kick-off time and head-to-head stats news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -312,37 +319,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“A decisive year”: Portsmouth vs QPR predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IeVl6Qm94dk9ZbFpvMFpCTDlQaGNEWldTTUpOdzRXSlFxMXpzSjFJak96MVZaQ2lObGRSaWUxOEpxb0FLblVZQzlWNFNkNUlLNXdqanJhNzRra3U2cE5FOVpSNXg3a05TMXJGLVZR?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“A decisive year”: Portsmouth vs QPR predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“Can be so dangerous”: QPR vs Bolton Wanderers predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tZEN5SEo4NXJvdWRTTE92VzJsS0RvTHRVcS1wNFd1RUNFUjlfYXUzc1ViY0F0S3pmOFdKY096azVkTWdGVnRNWVRkVks2LVZMOXdFOUlseVVEWEJQbUQyc1RpcVRPVzEyb2JfYjNXNTFpLUdjeXc?oc=5",
-            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-            "text": "“Can be so dangerous”: QPR vs Bolton Wanderers predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City - www.derbycounty.news",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcExxSW1vLWFDVVdTN3VheFFOTkFhTVVRcGZsc01OVDdUTlNWS0lON2Fsa0cxLUFZVDl1OG5zM3liWWMyV0xxajVLcE8xNmxsT1RWQVI5RmdWZjVZSkFwNkRTNEhEVnRIR0xLNEN3ZGpiMWVNRDByT2szRGVacmR1QXU1RE9vSUxKZkhqY0VJYlJfZ3VwZDFwcmNqX2prOFNMbzZSVDEzRjF0QXRFT2ZfeFpaaGl6c2V3TzgzRi1mMUxiZFAyRFpsR3o2QzM?oc=5",
-            "published": "Fri, 25 Oct 2024 07:00:00 GMT",
-            "text": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City www.derbycounty.news",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KQlBOU1lYYWtHTWJnV2l3NnQ0bXVMUklnUlVzbklsN3FoWFZJRGRUdnVHSlljM25lNXQtMEFZNTNXWVltR0pmSlpuUThQZUU3dWhaSzZ1LXFWWG8wdjJaMkZKVE5objZfTGJUYjZ2VEtlOEJncGlB?oc=5",
-            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-            "text": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions The72",
+            "title": "“They’re no mugs”: QPR vs Cardiff City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oQ0hNekxiT1N4LWVNM0JwcERzS0t0YzdkQWxzbzdLeFQxVy11T3NiS3dldzdrOTNoREVBY0tmaDhuNkNNSkx0YVRMZEg0Z25hd3QxcURxbkRCOFBYSnhXaHV6YnBNLUFqYl9CRlFrT3g?oc=5",
+            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+            "text": "“They’re no mugs”: QPR vs Cardiff City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -352,6 +332,15 @@
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsX21EZzBfY1hwTHNqTGpkcFBHck02dVhPWDZxNkpNd29uMXlZemVDM0pXNmpPTVdiQWY4WG9rQVJZajFOWVQ2TGF6TEdPUnBfX1dyWF9nV20xTmdEajNjNGtmamROcGlnaGFwVTEtWTBwdkdPY3dQQnh2X3lyUGM?oc=5",
             "published": "Fri, 07 Aug 2026 07:00:00 GMT",
             "text": "QPR team news and predicted XI to face Millwall amid new Madsen update The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KQlBOU1lYYWtHTWJnV2l3NnQ0bXVMUklnUlVzbklsN3FoWFZJRGRUdnVHSlljM25lNXQtMEFZNTNXWVltR0pmSlpuUThQZUU3dWhaSzZ1LXFWWG8wdjJaMkZKVE5objZfTGJUYjZ2VEtlOEJncGlB?oc=5",
+            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+            "text": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -628,15 +617,15 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "first_half_away",
-          "odds": 4.87,
+          "odds": 4.93,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 32.4,
-          "implied_probability_pct": 20.5,
-          "market_probability_pct": 17.4,
+          "implied_probability_pct": 20.3,
+          "market_probability_pct": 17.2,
           "fair_odds": 3.09,
-          "value_edge_pct": 14.97,
-          "ev_pct": 57.82,
-          "calibration_gap_pct": 14.97,
+          "value_edge_pct": 15.17,
+          "ev_pct": 59.77,
+          "calibration_gap_pct": 15.17,
           "consensus": "0/3",
           "confidence_10": 4.78,
           "decision": "NO BET",
@@ -648,21 +637,21 @@
             "statistical_pct": 33.0,
             "prediction_pct": 32.2,
             "intelligence_pct": 31.4,
-            "market_benchmark_pct": 17.4
+            "market_benchmark_pct": 17.2
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "away_win",
-          "odds": 4.5,
+          "odds": 4.53,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 30.9,
-          "implied_probability_pct": 22.2,
-          "market_probability_pct": 18.9,
+          "implied_probability_pct": 22.1,
+          "market_probability_pct": 18.7,
           "fair_odds": 3.24,
-          "value_edge_pct": 12.02,
-          "ev_pct": 39.03,
-          "calibration_gap_pct": 12.02,
+          "value_edge_pct": 12.15,
+          "ev_pct": 39.95,
+          "calibration_gap_pct": 12.15,
           "consensus": "0/3",
           "confidence_10": 4.7,
           "decision": "NO BET",
@@ -674,7 +663,7 @@
             "statistical_pct": 27.1,
             "prediction_pct": 24.8,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 18.9
+            "market_benchmark_pct": 18.7
           }
         },
         {
@@ -706,17 +695,17 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "draw",
-          "odds": 3.58,
+          "odds": 3.5,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 31.6,
-          "implied_probability_pct": 27.9,
-          "market_probability_pct": 23.7,
+          "implied_probability_pct": 28.6,
+          "market_probability_pct": 24.3,
           "fair_odds": 3.16,
-          "value_edge_pct": 7.9,
-          "ev_pct": 13.24,
-          "calibration_gap_pct": 7.9,
+          "value_edge_pct": 7.37,
+          "ev_pct": 10.71,
+          "calibration_gap_pct": 7.37,
           "consensus": "0/3",
-          "confidence_10": 3.4,
+          "confidence_10": 3.2,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -726,49 +715,21 @@
             "statistical_pct": 27.0,
             "prediction_pct": 27.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 23.7
-          }
-        },
-        {
-          "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "under_2_5",
-          "odds": 1.79,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 49.1,
-          "implied_probability_pct": 55.9,
-          "market_probability_pct": 47.4,
-          "fair_odds": 2.04,
-          "value_edge_pct": 1.71,
-          "ev_pct": -12.18,
-          "calibration_gap_pct": 1.71,
-          "consensus": "0/3",
-          "confidence_10": 3.3,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 49.4,
-            "prediction_pct": 48.0,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 47.4
+            "market_benchmark_pct": 24.3
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "btts_over_2_5",
-          "odds": 2.03,
+          "odds": 2.11,
           "odds_zone": "IDEAL",
           "model_probability_pct": 42.9,
-          "implied_probability_pct": 49.3,
-          "market_probability_pct": 49.3,
+          "implied_probability_pct": 47.4,
+          "market_probability_pct": 47.4,
           "fair_odds": 2.33,
-          "value_edge_pct": -6.33,
-          "ev_pct": -12.84,
-          "calibration_gap_pct": -6.33,
+          "value_edge_pct": -4.46,
+          "ev_pct": -9.41,
+          "calibration_gap_pct": -4.46,
           "consensus": "0/3",
           "confidence_10": 2.96,
           "decision": "NO BET",
@@ -788,21 +749,20 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "btts_yes",
-          "odds": 1.64,
+          "odds": 1.68,
           "odds_zone": "IDEAL",
           "model_probability_pct": 53.1,
-          "implied_probability_pct": 61.0,
-          "market_probability_pct": 51.9,
+          "implied_probability_pct": 59.5,
+          "market_probability_pct": 50.6,
           "fair_odds": 1.88,
-          "value_edge_pct": 1.2,
-          "ev_pct": -12.91,
-          "calibration_gap_pct": 1.2,
+          "value_edge_pct": 2.52,
+          "ev_pct": -10.78,
+          "calibration_gap_pct": 2.52,
           "consensus": "0/3",
           "confidence_10": 3.52,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında",
             "En az 2/3 motor consensus sağlamadı"
           ],
@@ -810,21 +770,21 @@
             "statistical_pct": 53.3,
             "prediction_pct": 54.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.9
+            "market_benchmark_pct": 50.6
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "cards_under_4_5",
-          "odds": 1.73,
+          "odds": 1.74,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 57.8,
-          "market_probability_pct": 49.0,
+          "implied_probability_pct": 57.5,
+          "market_probability_pct": 48.8,
           "fair_odds": 2.0,
-          "value_edge_pct": 1.03,
-          "ev_pct": -13.5,
-          "calibration_gap_pct": 1.03,
+          "value_edge_pct": 1.18,
+          "ev_pct": -13.0,
+          "calibration_gap_pct": 1.18,
           "consensus": "0/3",
           "confidence_10": 3.35,
           "decision": "NO BET",
@@ -837,78 +797,50 @@
           "engines": {
             "statistical_pct": 50.0,
             "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.8
+          }
+        },
+        {
+          "match": "Queens Park Rangers FC vs Derby County FC",
+          "market": "under_2_5",
+          "odds": 1.73,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 49.1,
+          "implied_probability_pct": 57.8,
+          "market_probability_pct": 49.0,
+          "fair_odds": 2.04,
+          "value_edge_pct": 0.09,
+          "ev_pct": -15.12,
+          "calibration_gap_pct": 0.09,
+          "consensus": "0/3",
+          "confidence_10": 3.3,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 49.4,
+            "prediction_pct": 48.0,
             "intelligence_pct": 50.0,
             "market_benchmark_pct": 49.0
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "btts_no",
-          "odds": 1.77,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 46.9,
-          "implied_probability_pct": 56.5,
-          "market_probability_pct": 48.1,
-          "fair_odds": 2.13,
-          "value_edge_pct": -1.2,
-          "ev_pct": -16.99,
-          "calibration_gap_pct": -1.2,
-          "consensus": "0/3",
-          "confidence_10": 3.18,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 46.7,
-            "prediction_pct": 45.4,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.1
-          }
-        },
-        {
-          "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "cards_over_4_5",
+          "market": "over_2_5",
           "odds": 1.66,
           "odds_zone": "IDEAL",
-          "model_probability_pct": 50.0,
+          "model_probability_pct": 50.9,
           "implied_probability_pct": 60.2,
           "market_probability_pct": 51.0,
-          "fair_odds": 2.0,
-          "value_edge_pct": -1.03,
-          "ev_pct": -17.0,
-          "calibration_gap_pct": -1.03,
-          "consensus": "0/3",
-          "confidence_10": 3.35,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 50.0,
-            "prediction_pct": 50.0,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.0
-          }
-        },
-        {
-          "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "over_2_5",
-          "odds": 1.61,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 50.9,
-          "implied_probability_pct": 62.1,
-          "market_probability_pct": 52.6,
           "fair_odds": 1.96,
-          "value_edge_pct": -1.71,
-          "ev_pct": -17.99,
-          "calibration_gap_pct": -1.71,
+          "value_edge_pct": -0.09,
+          "ev_pct": -15.44,
+          "calibration_gap_pct": -0.09,
           "consensus": "0/3",
           "confidence_10": 3.4,
           "decision": "NO BET",
@@ -922,21 +854,77 @@
             "statistical_pct": 50.6,
             "prediction_pct": 52.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 52.6
+            "market_benchmark_pct": 51.0
+          }
+        },
+        {
+          "match": "Queens Park Rangers FC vs Derby County FC",
+          "market": "cards_over_4_5",
+          "odds": 1.66,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.2,
+          "market_probability_pct": 51.2,
+          "fair_odds": 2.0,
+          "value_edge_pct": -1.18,
+          "ev_pct": -17.0,
+          "calibration_gap_pct": -1.18,
+          "consensus": "0/3",
+          "confidence_10": 3.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.2
+          }
+        },
+        {
+          "match": "Queens Park Rangers FC vs Derby County FC",
+          "market": "btts_no",
+          "odds": 1.72,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 46.9,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.4,
+          "fair_odds": 2.13,
+          "value_edge_pct": -2.52,
+          "ev_pct": -19.34,
+          "calibration_gap_pct": -2.52,
+          "consensus": "0/3",
+          "confidence_10": 3.18,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 46.7,
+            "prediction_pct": 45.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.4
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "home_win",
-          "odds": 1.48,
+          "odds": 1.49,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 52.1,
-          "implied_probability_pct": 67.6,
-          "market_probability_pct": 57.4,
+          "implied_probability_pct": 67.1,
+          "market_probability_pct": 57.0,
           "fair_odds": 1.92,
-          "value_edge_pct": -5.34,
-          "ev_pct": -22.96,
-          "calibration_gap_pct": -5.34,
+          "value_edge_pct": -4.94,
+          "ev_pct": -22.44,
+          "calibration_gap_pct": -4.94,
           "consensus": "0/3",
           "confidence_10": 3.46,
           "decision": "NO BET",
@@ -951,21 +939,21 @@
             "statistical_pct": 52.8,
             "prediction_pct": 52.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.4
+            "market_benchmark_pct": 57.0
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "first_half_draw",
-          "odds": 2.14,
+          "odds": 2.11,
           "odds_zone": "IDEAL",
           "model_probability_pct": 33.6,
-          "implied_probability_pct": 46.7,
-          "market_probability_pct": 39.7,
+          "implied_probability_pct": 47.4,
+          "market_probability_pct": 40.3,
           "fair_odds": 2.97,
-          "value_edge_pct": -6.06,
-          "ev_pct": -28.05,
-          "calibration_gap_pct": -6.06,
+          "value_edge_pct": -6.65,
+          "ev_pct": -29.06,
+          "calibration_gap_pct": -6.65,
           "consensus": "0/3",
           "confidence_10": 2.45,
           "decision": "NO BET",
@@ -979,21 +967,21 @@
             "statistical_pct": 34.0,
             "prediction_pct": 33.9,
             "intelligence_pct": 32.3,
-            "market_benchmark_pct": 39.7
+            "market_benchmark_pct": 40.3
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "first_half_home",
-          "odds": 1.98,
+          "odds": 2.0,
           "odds_zone": "IDEAL",
           "model_probability_pct": 34.0,
-          "implied_probability_pct": 50.5,
-          "market_probability_pct": 42.9,
+          "implied_probability_pct": 50.0,
+          "market_probability_pct": 42.5,
           "fair_odds": 2.94,
-          "value_edge_pct": -8.91,
-          "ev_pct": -32.74,
-          "calibration_gap_pct": -8.91,
+          "value_edge_pct": -8.52,
+          "ev_pct": -32.06,
+          "calibration_gap_pct": -8.52,
           "consensus": "0/3",
           "confidence_10": 2.47,
           "decision": "NO BET",
@@ -1007,7 +995,7 @@
             "statistical_pct": 33.0,
             "prediction_pct": 33.9,
             "intelligence_pct": 36.3,
-            "market_benchmark_pct": 42.9
+            "market_benchmark_pct": 42.5
           }
         },
         {
@@ -1089,16 +1077,23 @@
         }
       },
       "intelligence": {
-        "mentions": 34,
-        "web_score": 0.0,
+        "mentions": 33,
+        "web_score": 0.0606,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
         ],
-        "risk_flags": [
-          "multiple_injury_or_suspension_mentions"
-        ],
+        "risk_flags": [],
         "items": [
+          {
+            "source": "Google News RSS",
+            "title": "[[\"LiVeSTreaM\"]]tv* Portsmouth FC v Sheffield United FC 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ - Universidad de Córdoba (UCO)",
+            "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNNHllbWpMWUh1SExPcUZWZVBlckRIbUdlTFlkV1VrT3c2aEhEMzdHaVl3MFJfU2ZtbW9iZjBfRjRqVTd5OExXTmo4SnQ5VkIwVHgxdml6TEY5MmZ6TjYxSTFpM2RmYlpLUDlER01HS3RlU0FoeWRnbTh1Tmd5di1hYmJGdEpkdnkzWWZhQ0ZuN01qLVFLRzRkdWtEQmQtX3BvUzg4RVJ3cXIwazZCMm5MZU5xelBLa1BuRGVHR3RKNHJ4d1FLS05zS1hKZEVUN0hxMnBfZ3NOV083TnlvZVBGWmMwM1M3WF9FbjAzdEQ0dXc0bXhibWhkSmJVUUVlSUxscmxYNjFjXzgtaklVS2RkazFqUnQ3aVVMVXI0WXg4VjdNTDJ4bHdLS2tGRXV5dVZnNFA4YS0waUdwR2dQbktaU01OcXZLOTItOFV3TDRKT2Zral9zNEVKXzlsdURaN2Z1?oc=5",
+            "published": "Wed, 14 Oct 2026 16:08:23 GMT",
+            "text": "[[\"LiVeSTreaM\"]]tv* Portsmouth FC v Sheffield United FC 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ Universidad de Córdoba (UCO)",
+            "language": "en",
+            "sentiment": 0.0
+          },
           {
             "source": "Google News RSS",
             "title": "Portsmouth: Seven Steps To Return To the English Premier League - Bleacher Report",
@@ -1146,10 +1141,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "'Rattled'… Sky Sports pundit left fuming at 'stupid' thing Max Lowe did for Sheffield Wednesday vs United - Sheffield Wednesday News",
+            "title": "'Rattled'… Sky Sports pundit left fuming at 'stupid' thing Max Lowe did for Sheffield Wednesday vs United - sheffieldwednesday.news",
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSnBnOG9uVjQzLXVCclBOeS01S2FZOWFBSV9YazdUUTMwdDM2VjRHWXVINEFvcHUxT0wxX1gwRFV0T1NWb3pabGlGSHpMcHpQdEw0OHc5S0FWakpTZG5VYW5hTUk5OHlQRDRUTGkyV3hRbEZReDA4dGpxMXFSd3NPQldlT1BsSnMtQ2MzWU5hU2ZyOXVjQW1aTUJhZk1pQmRYb0xReE9pSGx3Q2tNU1UtSGMxbXA4TS1qMEw2bE9JOFVDanoza1FiOFFnRQ?oc=5",
             "published": "Sun, 10 Nov 2024 08:00:00 GMT",
-            "text": "'Rattled'… Sky Sports pundit left fuming at 'stupid' thing Max Lowe did for Sheffield Wednesday vs United Sheffield Wednesday News",
+            "text": "'Rattled'… Sky Sports pundit left fuming at 'stupid' thing Max Lowe did for Sheffield Wednesday vs United sheffieldwednesday.news",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1200,6 +1195,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Portsmouth vs Sheffield United Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMi1iQ2lrYkNJNEdwZFBDalJ6TnhPWTd3R3VDSDY0RHZfanE0ZjM1MkttYlZLUWNfQV80WGQ3aEt1SHl6ckVpdkFLYUFUbnVhbTFsaFRJQ0Uyc2VWQkljcF90Uk9fZFloRmFOdUg4dmNscldhM2tMVGtDV2VpS2NJMVc5VEtpTDB0NVNnUDc2WE9taGlJeXFSbjRITUQ1cVJCTHVXWUh0N240Wk9PazgwTjFlTEt5c0dMUEE?oc=5",
+            "published": "Wed, 14 Oct 2026 15:26:45 GMT",
+            "text": "Portsmouth vs Sheffield United Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "HERO KEEPER PICKFORD CUT HIS TEETH AT BURTON ALBION - PressReader",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40Q00xMDNoRnRNMFh6UTV0ajJDMnlMZEpQT2NVM3V0NXZmMlEteDRUZzBLaWNFMUdGcVViZ2dZa3MxVmdvVHlrYVlXZ0FyTnZ1RTNWQUN5QzBOMGxhRWJmV0JURWk0dTZ0NjNlZ1k5NExDVjU0bmc?oc=5",
             "published": "Tue, 13 Jul 2021 07:00:00 GMT",
@@ -1209,28 +1213,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Portsmouth vs Sheffield United Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMi1iQ2lrYkNJNEdwZFBDalJ6TnhPWTd3R3VDSDY0RHZfanE0ZjM1MkttYlZLUWNfQV80WGQ3aEt1SHl6ckVpdkFLYUFUbnVhbTFsaFRJQ0Uyc2VWQkljcF90Uk9fZFloRmFOdUg4dmNscldhM2tMVGtDV2VpS2NJMVc5VEtpTDB0NVNnUDc2WE9taGlJeXFSbjRITUQ1cVJCTHVXWUh0N240Wk9PazgwTjFlTEt5c0dMUEE?oc=5",
-            "published": "Tue, 13 Oct 2026 01:01:44 GMT",
-            "text": "Portsmouth vs Sheffield United Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Withered under the lights\": Portsmouth vs Sheffield United predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IZlFzbnJidDhTSkZGa1ZaMzRKeFlXcFoyVWtDclBrOGR3ODlFR09HMnZKWkFIcWxsRzRvYVRjYnFhWUZMUU1JSk5ISGFkbEhlRXl3RmN1X0FsWXNETElKTFdGNURCOHF0dDlKbURkblZ5eVFKQ1Q1V2htbWx1Z0U?oc=5",
-            "published": "Tue, 13 Oct 2026 07:09:54 GMT",
-            "text": "\"Withered under the lights\": Portsmouth vs Sheffield United predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Sky Sports pundit in tears after major announcement live on TV - 'That was tough' - Daily Express",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFBYaTlhRGFrUnFibEhQTTVqdXhaWXY0LV9IUzZvU2U3d2o1bThMaU9pVWFFekx5cllPeFJpbFRTRGkteVZPZTV2ZnUyMG14N3AxUnI1NTE1TjUteThpVER2TkFaQl9lX2RlRmNERXgwc0hUazVFRU9KY1F2bUE2U9IBhgFBVV95cUxOZUtWeW8zU3lwUXI4ek9OM3lSZnFKQ2JYdHVNLUFXZkl5Nkt3eTN5NXFTTHJBemlsdmZsMnV3UWZtWTk0SFpTSE8wakljbXlIRUtHdGJFRUJZajNWdTJkZWRIT2JTOXVGVGZVaF9KakExTG1CR1N3aVQxczRmR2FUY3haRF9aQQ?oc=5",
-            "published": "Sun, 11 Oct 2026 12:27:00 GMT",
-            "text": "Sky Sports pundit in tears after major announcement live on TV - 'That was tough' Daily Express",
+            "title": "Portsmouth v Sheffield United Prediction: 2/1 Blades to put paid to Pompey - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV2ZDNUtqdy1kMzk0NHBDMVVPUVhtRXNyNjJSYXdraUMwYWVVVXhrUldCamxYaERTUHR5bWNEZldvdHVrWERRUWtSTXpleXB1QUtuaGd6TFpyX3cwU2o4Ynk5SlpfeEJ5aGU5dUJGX1cwdHFVUS1wcGdHWllRM2ZaXzRpd0ZSXzQ1XzVSczd1MWJhc2d2bDB0eEZtMFctUWlZc0NEenJSaXF6XzBWR2lsMEl1LXE?oc=5",
+            "published": "Wed, 14 Oct 2026 08:05:08 GMT",
+            "text": "Portsmouth v Sheffield United Prediction: 2/1 Blades to put paid to Pompey news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1245,28 +1231,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sheffield United vs Birmingham City predictions and betting tips: Back the Visitors at Bramall Lane - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFFkTDRwekNCenhxRkx2Z0xsMGhzdzFMb1lXaU5XRU5HVE5SRTR5QTA0cFdjUnlxSDAxLUthcEphS3BCOU15Zko4ajdrLWZCczRBV1ViQVNoUjFjWnF0ckFDN2ZCRnRTdDZ1Tmx6TlRacmtKRjFmRXEtRVNfUmp6cF9BV1djMGtheTB3b0MwbFBuX0tWWTJ3MkNiUVNPeFhNRDEteA?oc=5",
-            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-            "text": "Sheffield United vs Birmingham City predictions and betting tips: Back the Visitors at Bramall Lane Squawka",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2JiZ016SDlON2x3TE1OZ1oyY0M2NWRNdTk1VnQtVGVQbUt3S2FfWVp5MG9RZ2RXMkFqc24zUTBpRGk5ZzZFTDNiMmdXVWpCa2FxQ2R3ZW1Vb19UajFPS202WGtFakVxaEM2VDJPamlVazd2YWFyeWVPQzZFVUg4bV9vcndvTmxkUHhDVmFQRnljem5Pa2VaNXRiQlM?oc=5",
-            "published": "Tue, 13 Oct 2026 21:41:57 GMT",
-            "text": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 Futbol24",
+            "title": "EFL Championship – Gameweek 43 preview with potential for more drama - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0RJV0Vqb1NiaEVkSXU5Sm8wSHpQMWttVEpxb2ZfbnJYSjJrVlhxX0pVZGFfNDJzM01RWTZ0ZjJkTW9IWmxtbnZrSXdWUmMzckp4WEFxdDVHaXQtMkJwM3lBdFlzc3FCTTVLcnZR?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "text": "EFL Championship – Gameweek 43 preview with potential for more drama Squawka",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "EFL Championship – Gameweek 43 preview with potential for more drama - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0RJV0Vqb1NiaEVkSXU5Sm8wSHpQMWttVEpxb2ZfbnJYSjJrVlhxX0pVZGFfNDJzM01RWTZ0ZjJkTW9IWmxtbnZrSXdWUmMzckp4WEFxdDVHaXQtMkJwM3lBdFlzc3FCTTVLcnZR?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "text": "EFL Championship – Gameweek 43 preview with potential for more drama Squawka",
+            "title": "“Withered under the lights”: Portsmouth vs Sheffield United predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSDdzc1dMNGJMZGJqaGlUSDZSV3I5YmZzYUVQdzdJUXZpQVRaS2xiVHZVSUh4TFFEcV9RS0xSNlBtOWh6M1NJMzdRR2hNdlh4Yko5cWpSbTdBTVlwa2FES1FqQ0lEeGJtdFZadjhLN080WUlxTG9NcHBWMW95eDRWdXV0allxZ3haQzNicy0xYUI3bmNnVVVIWlk0b0lyM1ZVNE9zT09xUGNIcnRKV3pPSmRFM2VTb3VTVjN0TkdjY1FqV1hZT29Wa2NqbzljVGRrVndsYzNCN2JQaklBNjhfM1ZCWVk0UExOVC1URWhxMjRWZw?oc=5",
+            "published": "Tue, 13 Oct 2026 07:09:54 GMT",
+            "text": "“Withered under the lights”: Portsmouth vs Sheffield United predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1290,21 +1267,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Sheffield United defender linked with Championship rivals - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSTQzSjM4RFV6bWJqLVpiZDBVb3BPeU1vU0FCdnp3Skl0a19NbVM5TWNVQ3Z1c3ZmWG1sSFZBRnhad0NnS2UtcjB3UFFkTE9YYnFzVHFiOU9YejN3N0w0WlVqRmhmMnNWS3lhOFNFNWVaVjg2MXEtMmVJSGxmMG5GamF5SnZnT3VRS01rV1ItUXJkME5iMmhnVHJkWWNkRkRObTU4RnJyRDJqR0VMR0RTczFTbVRiZw?oc=5",
+            "published": "Sun, 23 Aug 2026 07:00:00 GMT",
+            "text": "Sheffield United defender linked with Championship rivals news.bet365.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "January signings start: Portsmouth team news and predicted XI to face Sheffield United - The72",
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52cVVPNC1HQWlSSU9MWjlqa2duOFRCVENEdG1ibFpBTnRKb1I0cDZrV0VQc0daUWdEaFFKYnB1Z1ZJQS1weHpMQ3JsZmJwQnhwVDIzRmJ3ejJoNGZLUVk3MkVjRm45dlZDTHVPMXhEM2NGaUNSSEpJLQ?oc=5",
             "published": "Fri, 13 Feb 2026 08:00:00 GMT",
             "text": "January signings start: Portsmouth team news and predicted XI to face Sheffield United The72",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie - The72",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZnBvZkdlQ2NhejFwdmNSckpvY0dKNm4tNGoyWThaU2ZWbUw3Tkx3MnI3YVUxLW9UWWhhSnk4VmV3QmZzdG13ZmNNeC01Rm8zRmRhSDFBRnRlZ1pQUWtnMXFHV21GS3I1YlBzSUR5MUZVVGJtZkhhRHlaRERFaEZYS21GX180eEo4dkJ0aQ?oc=5",
-            "published": "Wed, 07 Oct 2026 11:18:31 GMT",
-            "text": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie The72",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -1335,10 +1312,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sheffield United star closing in on Premier League transfer - The72",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa29ybWNNU0dVbXdibi1JQUhHZzdmV2p5SFFBa05aU3padHR4NU1BSld4T0R6VmFRWko3REdibzVMWUxGNUxWdHpzcDJTMHBNTUpUUmxZb0IyUjRwU2x4OXRacTlBN053MFp1S091R2dRTjlNOWdGTGVOOE1XMXRiS3BmSkw2S0owYTlublNKNERzNU0?oc=5",
-            "published": "Fri, 31 Jul 2026 07:00:00 GMT",
-            "text": "Sheffield United star closing in on Premier League transfer The72",
+            "title": "Sheffield United eye free agent after Premier League exit - The72",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcEtTcmVCY1NIODY3eFdBMjFHblY3dThtc1prM0R2TktmeHJDOEwyMTUxczhqVnR2TDNnV01OeGtRbHE3R3daX2p0Y25SaXlvU1dtdElnZ2IyMDd5dFlKWDBIZXZwUzVVZFVFaGFobWFIbHpFR2RwZFY0TGNXMHA5Q2J5ZmZOQQ?oc=5",
+            "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+            "text": "Sheffield United eye free agent after Premier League exit The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1353,12 +1330,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Derby County land significant injury boost amid fresh update over star player - The72",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjA5VGVncjNXdlN3bnRDV0dmZFFMRkdCNHBpMjY2VVJidDFpb1VZaXdFcGhid1VNYmVPU3lrWFo0WlpXOVIzMWM4S3JoVGxiRFB6VXZjUml6eUxHWmtuaGZUNTNlYjJfdENtdjYyYk84cThRdzh5V25tZTYwcDdqYjhjNEY3ZzA1WWJ3Sklab0U?oc=5",
-            "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-            "text": "Derby County land significant injury boost amid fresh update over star player The72",
+            "title": "\"Excellent\": Sheffield United new boy hailed by reporter after Blackburn Rovers win - The72",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVkcyblJhbFZqYXkyRmV5eUMzblFhQ0J6WHRPZVd0QTFxRTB5S1hOOTVnb0FRRnpMUmctQTRSM2R3OE13dTJqUkplU0xoblYzN3ZqYndIOWtYMURCRFN6UjVsT1JfMDZBYUxnZkNxZGhxUG9rekIyaVEzOFM2QWdXVTlrcXhPUGx6Y0xDUWxOZVhWbmJVNWRV?oc=5",
+            "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+            "text": "\"Excellent\": Sheffield United new boy hailed by reporter after Blackburn Rovers win The72",
             "language": "en",
-            "sentiment": -1.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -1679,8 +1656,8 @@
         }
       },
       "intelligence": {
-        "mentions": 32,
-        "web_score": 0.0312,
+        "mentions": 31,
+        "web_score": 0.0968,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -1707,10 +1684,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "The cheapest new shirts in the Championship and where Bolton Wanderers rank - The Bolton News",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWk9Fb2pEYWszWi00QzhvREliOHJ0NndyaHB3MHhfeV9KcHJ3SEZXRE1jVnhoQ2I4WVRIakFxTkF6WW1tNTRkVWxiTHFXblZESWJLUF9EejVYelFLcThvZkRoajBwNUFSZjVIb2FQQ3FHaVZVX0h5ZTdaalowRmlXay12WW9NZUZQZDBjOGZfTm8xU24tUEFmcDZSLTI?oc=5",
-            "published": "Mon, 20 Jul 2026 07:00:00 GMT",
-            "text": "The cheapest new shirts in the Championship and where Bolton Wanderers rank The Bolton News",
+            "title": "Lincoln City FC 0-1 West Ham | Souček Secures Hard Fought Cup Win | Carabao Cup Highlights - West Ham United",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PeVNhOU5vLWVIblpDbjQxUjhqOUdVX0JjaUdmN0ZUN2tLQ2daMlNuX25wYzRSd2F0LXQzYTdlZzN2T0xaLXhmajgtbE9xTWhEU09ZcmtGdjI3UmlrYnlpcXB2VEMzTTBKWXRLVmU0UnBLeWpDYV9j?oc=5",
+            "published": "Mon, 12 Oct 2026 07:00:00 GMT",
+            "text": "Lincoln City FC 0-1 West Ham | Souček Secures Hard Fought Cup Win | Carabao Cup Highlights West Ham United",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Why Conor Coventry feels Lincoln City is the perfect place to develop his career - Lincolnshire Live",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW52LWtlWTI2SWxWQUQyd0xWTUh6Wm1HOXVIaGRSaXNURmlvbDYwa2V6NXdpb1dod0N3QzN4VzlVZEpBRXNpX1pfQzdMMlVfc2ZaVENQYlJnN3pBTlNWRmsyVUR4Yk9MR3E5M1RDZC1UM2toZHdZVHUzZy1TU21zX1F1ZXdtZ2VkOU1XbWw1NzVNeC1FUmk2Y2I1cFBxZkRtUXBRcWZR0gGrAUFVX3lxTE1kNkVaWF90aVNJa2NLdGZ3V1JHa1ZhVmUwckFxck5pazlQZ08xY05CcXI2bnhtWXVhQy14d1dfYVhmc2FDZm1tSWlRUlhiVVY5enJDbTR1WTRlUWg5MldHdmh4cEpIR3pnOXYwSFAtN3RMR3hYZzh2M2phMWxxV2ZMakh1N1RaNkx4dVZ4NEdka0hfLWs5S2RpQ1ZRbjFtN0FPWWJWZm0tR1JQRQ?oc=5",
+            "published": "Wed, 22 Jan 2020 08:00:00 GMT",
+            "text": "Why Conor Coventry feels Lincoln City is the perfect place to develop his career Lincolnshire Live",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1725,10 +1711,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Why Conor Coventry feels Lincoln City is the perfect place to develop his career - Lincolnshire Live",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW52LWtlWTI2SWxWQUQyd0xWTUh6Wm1HOXVIaGRSaXNURmlvbDYwa2V6NXdpb1dod0N3QzN4VzlVZEpBRXNpX1pfQzdMMlVfc2ZaVENQYlJnN3pBTlNWRmsyVUR4Yk9MR3E5M1RDZC1UM2toZHdZVHUzZy1TU21zX1F1ZXdtZ2VkOU1XbWw1NzVNeC1FUmk2Y2I1cFBxZkRtUXBRcWZR0gGrAUFVX3lxTE1kNkVaWF90aVNJa2NLdGZ3V1JHa1ZhVmUwckFxck5pazlQZ08xY05CcXI2bnhtWXVhQy14d1dfYVhmc2FDZm1tSWlRUlhiVVY5enJDbTR1WTRlUWg5MldHdmh4cEpIR3pnOXYwSFAtN3RMR3hYZzh2M2phMWxxV2ZMakh1N1RaNkx4dVZ4NEdka0hfLWs5S2RpQ1ZRbjFtN0FPWWJWZm0tR1JQRQ?oc=5",
-            "published": "Wed, 22 Jan 2020 08:00:00 GMT",
-            "text": "Why Conor Coventry feels Lincoln City is the perfect place to develop his career Lincolnshire Live",
+            "title": "The cheapest new shirts in the Championship and where Bolton Wanderers rank - The Bolton News",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWk9Fb2pEYWszWi00QzhvREliOHJ0NndyaHB3MHhfeV9KcHJ3SEZXRE1jVnhoQ2I4WVRIakFxTkF6WW1tNTRkVWxiTHFXblZESWJLUF9EejVYelFLcThvZkRoajBwNUFSZjVIb2FQQ3FHaVZVX0h5ZTdaalowRmlXay12WW9NZUZQZDBjOGZfTm8xU24tUEFmcDZSLTI?oc=5",
+            "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+            "text": "The cheapest new shirts in the Championship and where Bolton Wanderers rank The Bolton News",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1743,10 +1729,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Third round highlights - TheFA.com",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdnlZUTJ4dUpQcy0xTkV2alpnVmZRMFk5UGtYLW93V2ZGaHdNSm81VTdfVnRrTm9GanFLY2xRdjV0UnhIYnI3RHAtb1h6R2dBUEJJZXVmN1VxZy1nbGtHcGJFR1BlVFZmckkzQTJNdWRhQWpLc3hVYUktX0I2d3YyaFAyQmRraVF1R21RMQ?oc=5",
-            "published": "Thu, 19 Jan 2017 08:00:00 GMT",
-            "text": "Third round highlights TheFA.com",
+            "title": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2YyY2RIZlk5QVY2b092V0lWYUtmc21JNzJ5Vl9pNEZKNWk5bGlGNXlTZ2t5enlSU09kekNqMTM2bVNnanU0R2hCRnd4RnJOVVZBM0tHRUFuSkotaThVT2JILXFHZzV3NXdzOGNIUEgtcENOWmtQd3VwaHhEVGRWMndNZnpBb2NfRTZHVkgxTmJSZldRMDNCdWcwLXJPMEJkemJDZzQ2NGRybzQ?oc=5",
+            "published": "Wed, 14 Oct 2026 15:33:47 GMT",
+            "text": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1761,10 +1747,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2YyY2RIZlk5QVY2b092V0lWYUtmc21JNzJ5Vl9pNEZKNWk5bGlGNXlTZ2t5enlSU09kekNqMTM2bVNnanU0R2hCRnd4RnJOVVZBM0tHRUFuSkotaThVT2JILXFHZzV3NXdzOGNIUEgtcENOWmtQd3VwaHhEVGRWMndNZnpBb2NfRTZHVkgxTmJSZldRMDNCdWcwLXJPMEJkemJDZzQ2NGRybzQ?oc=5",
-            "published": "Tue, 13 Oct 2026 01:41:57 GMT",
-            "text": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
+            "title": "Third round highlights - TheFA.com",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdnlZUTJ4dUpQcy0xTkV2alpnVmZRMFk5UGtYLW93V2ZGaHdNSm81VTdfVnRrTm9GanFLY2xRdjV0UnhIYnI3RHAtb1h6R2dBUEJJZXVmN1VxZy1nbGtHcGJFR1BlVFZmckkzQTJNdWRhQWpLc3hVYUktX0I2d3YyaFAyQmRraVF1R21RMQ?oc=5",
+            "published": "Thu, 19 Jan 2017 08:00:00 GMT",
+            "text": "Third round highlights TheFA.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Lincoln City v West Ham United Prediction: 3/1 Solomon to help Hammers' cause - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbEJtQlFUR3BfdXpfeV9uZVFvNVdybFZkOWktT2ltRzJXVi1iMWNDaXpJUWozR01zWU5QQWVxVW82elBGZC1nQ01rYTc1XzM3eDV0WmFiNjlsUXJPV3Q2aUJyelVVdDNaWHJMbG52RXByTXdtSnpiZTFwSU5XVmFhZm05ODNCbzc3bXk5bm1JbHU5Rnp6Zm5PdzF5b3l1NDUyR0tIYzd5VFBnSTlnU19CTV9MYVNCdw?oc=5",
+            "published": "Wed, 14 Oct 2026 11:07:04 GMT",
+            "text": "Lincoln City v West Ham United Prediction: 3/1 Solomon to help Hammers' cause news.bet365.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How to watch Lincoln City v West Ham United: Live stream, TV channel, kick-off time and head-to-head stats - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONFhIRHI0TE1rU2c0dkpxOGoyUmdYS2Z2NWlWcTlsakktcjVBaXZ5R0VDbngxdlNZc2xZdWhKZnF2bXFqZVdlTFRLN1VZM3pQMVR3LVU4aTR6S3k0S2lhR3BoaGxJRWFIUWM5bXhxTXpkTERsME1VSjRwbDlva19RMUwxNC1mU1F4aksydVBIYXRqNUtYVmJyd0NkNW9NdFBMRl9MWDRZanBhTkd5SzNVeEh2WjJCNHhpSENaMUJMU0lpdVVRZ3ZSTld1VVJySGpXZkRmeTNCTW0xWm5EbXp1aEJid21rQkkyb1JSXzFrd1RjSFk?oc=5",
+            "published": "Wed, 14 Oct 2026 06:16:31 GMT",
+            "text": "How to watch Lincoln City v West Ham United: Live stream, TV channel, kick-off time and head-to-head stats news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1788,46 +1792,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Lincoln City set to complete Manchester United swoop - The72",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZHd5T09XZ2dTZ2VETWVxak1EZkVqLTlxeWxMY2M2ak1xTUFPdzgzbEdxYV9FWFZHam1sVHJkSkxJdzlLUVkwVkVHdTJpWUZPSjdVZ0tRVWFkUFhZSVRKYi1tQWpTMDlRQlRhY2drRnNfeW1qc1JybnZjQndWaFY0Y2JVX0VVNzI0V3c?oc=5",
-            "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-            "text": "Lincoln City set to complete Manchester United swoop The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "West Ham dealt major blow in pursuit of striker target - The72",
             "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNmFhM2ZFcDNQb3pJNXl1aVBHZklMT3c5dlAzMFdXdWVxcUxwN0lveVR1X2lkT2ttdXgybTRuNzcyTUNBbGhjQlNtQkpOVVRDREluTmlZcEx1eTRnSkZYd09tQ2phdkVsVGM0bW1wRkJMemM3RmtrT0thcWJnWE1JR24yYw?oc=5",
             "published": "Mon, 03 Aug 2026 07:00:00 GMT",
             "text": "West Ham dealt major blow in pursuit of striker target The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Ham set to lose promising midfielder as £10 million agreement reached - The72",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FTjMtdTFsUEY0bU5KRWFKZWtERDdoMklBQjBPYUNYRTY4YWQ1NkxpMWVGYnB0bXd5S2UxUnZhZEh0ckI3QXhLejk2LWtfQks4S3Y1LU1MdXF5OUU0VVQwei1yNGY0R3dIMDdCYmtoNlR4ZnpHei0wazNPdllkYXM?oc=5",
-            "published": "Sat, 01 Aug 2026 07:00:00 GMT",
-            "text": "West Ham set to lose promising midfielder as £10 million agreement reached The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Ham face triple threat in pursuit of Championship star - The72",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6QndGcHhTS1VqNTYtUWk4OWZsY1BZb0Y0dk50QWhET1gzRW9QbVpWMzBaOWFWb1BHdHp3ZmJyLW1uaHl4a1dZN1ZJZnFZUXFrMGlWS21jU21JU2hRQzI3VmcyaE44c2ZlZ0F3akpiWnRrVVo1MHhDYUlqSzEwQQ?oc=5",
-            "published": "Thu, 30 Jul 2026 07:00:00 GMT",
-            "text": "West Ham face triple threat in pursuit of Championship star The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
-            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-            "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1844,8 +1812,17 @@
             "source": "Google News RSS",
             "title": "West Ham vs Charlton predictions and betting tips: Hammers fancied on home return - Squawka",
             "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd0NDbkVYaHJrSEFoblF2c3FCQXo0dWdRYUt1ZEhwczRhYWt0VWVuT0JSZkpLeHFvNHdWOENjY3hpcGh3eFZtLWtoRS11ZHRYMTRXclRSSzJVMzFxLXotUUswc0d0cC1aTlJfTWlfeU9ISF9KOVVlSGVCa09PUkU4d1pfc1hPYnpFYk5EWTIwcno?oc=5",
-            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+            "published": "Mon, 12 Oct 2026 07:00:00 GMT",
             "text": "West Ham vs Charlton predictions and betting tips: Hammers fancied on home return Squawka",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "West Ham vs Wolves predictions and betting tips: relegated rivals clash - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXBHQUxlTHloX0ctZW96Sk5zQV9Ha3RJOUdLbTlfSThGUWJURHF4cnk3TFUwakNuWGE0VXg2UmE0Qm9qbEtNS3BwTDQwQk9WaGVHdkd1WXhVaXJBTTh0c2V1SkZIeHQtNmJxT3FYbEZ5czNnMlh6c3RHNlJpR2hNUlQxM3diQ3o4akJRNGNB?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "text": "West Ham vs Wolves predictions and betting tips: relegated rivals clash Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1909,15 +1886,6 @@
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fdW1DS0N4b0Z6b2V4SHhHbXoyQ21hQkwzREItREl5RXFzMVRqamc5dWRNWU9MRkM5aUpvY1ZlWVBoamlQSU1HdUh5TVdXX1E4eEp4cUpBTFJ0aGp3Z3cxd2IwUGVlY2o2cGh4VVl5SF9lRkVteFRUdg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
             "text": "West Ham and Wolves eyeing swoop for International midfielder The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Ham agree statement £22m deal for Celtic's Arne Engels - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtbnY5QXdGR3VMMDBCbUpFbVh0T01yMTlrUHFXN2dSSnpEWXlSYi1HbnNPUzJJMlhpLXVScTFDN0dWT2tkZ21JX19kbGZva0trQmI2VDhwV3VuYTdFeUw1YzVJanBhUGtGczZUaElLTWVma3llMzdaajhn?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "West Ham agree statement £22m deal for Celtic's Arne Engels The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2203,15 +2171,15 @@
         {
           "match": "Lincoln City FC vs West Ham United FC",
           "market": "first_half_home",
-          "odds": 4.52,
+          "odds": 5.12,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 32.8,
-          "implied_probability_pct": 22.1,
-          "market_probability_pct": 18.8,
+          "implied_probability_pct": 19.5,
+          "market_probability_pct": 16.6,
           "fair_odds": 3.05,
-          "value_edge_pct": 14.01,
-          "ev_pct": 48.25,
-          "calibration_gap_pct": 14.01,
+          "value_edge_pct": 16.2,
+          "ev_pct": 67.93,
+          "calibration_gap_pct": 16.2,
           "consensus": "0/3",
           "confidence_10": 4.9,
           "decision": "NO BET",
@@ -2223,21 +2191,21 @@
             "statistical_pct": 33.0,
             "prediction_pct": 32.7,
             "intelligence_pct": 32.6,
-            "market_benchmark_pct": 18.8
+            "market_benchmark_pct": 16.6
           }
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
           "market": "home_win",
-          "odds": 4.24,
+          "odds": 4.72,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 34.2,
-          "implied_probability_pct": 23.6,
-          "market_probability_pct": 20.1,
+          "implied_probability_pct": 21.2,
+          "market_probability_pct": 18.0,
           "fair_odds": 2.93,
-          "value_edge_pct": 14.08,
-          "ev_pct": 44.86,
-          "calibration_gap_pct": 14.08,
+          "value_edge_pct": 16.15,
+          "ev_pct": 61.26,
+          "calibration_gap_pct": 16.15,
           "consensus": "0/3",
           "confidence_10": 4.98,
           "decision": "NO BET",
@@ -2249,7 +2217,7 @@
             "statistical_pct": 31.1,
             "prediction_pct": 29.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 20.1
+            "market_benchmark_pct": 18.0
           }
         },
         {
@@ -2280,49 +2248,21 @@
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
-          "market": "draw",
-          "odds": 3.62,
-          "odds_zone": "HIGH_ODDS",
-          "model_probability_pct": 30.5,
-          "implied_probability_pct": 27.6,
-          "market_probability_pct": 23.5,
-          "fair_odds": 3.28,
-          "value_edge_pct": 7.01,
-          "ev_pct": 10.52,
-          "calibration_gap_pct": 7.01,
-          "consensus": "0/3",
-          "confidence_10": 3.22,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 25.7,
-            "prediction_pct": 25.6,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 23.5
-          }
-        },
-        {
-          "match": "Lincoln City FC vs West Ham United FC",
           "market": "btts_over_2_5",
-          "odds": 1.83,
+          "odds": 2.17,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.6,
-          "implied_probability_pct": 54.6,
-          "market_probability_pct": 54.6,
+          "implied_probability_pct": 46.1,
+          "market_probability_pct": 46.1,
           "fair_odds": 1.98,
-          "value_edge_pct": -4.09,
-          "ev_pct": -7.48,
-          "calibration_gap_pct": -4.09,
+          "value_edge_pct": 4.48,
+          "ev_pct": 9.71,
+          "calibration_gap_pct": 4.48,
           "consensus": "0/3",
-          "confidence_10": 3.48,
+          "confidence_10": 4.26,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
@@ -2334,125 +2274,92 @@
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
-          "market": "btts_yes",
-          "odds": 1.51,
-          "odds_zone": "ACCEPTABLE",
-          "model_probability_pct": 59.7,
-          "implied_probability_pct": 66.2,
-          "market_probability_pct": 56.2,
-          "fair_odds": 1.67,
-          "value_edge_pct": 3.51,
-          "ev_pct": -9.79,
-          "calibration_gap_pct": 3.51,
-          "consensus": "2/3",
-          "confidence_10": 4.79,
+          "market": "draw",
+          "odds": 3.58,
+          "odds_zone": "HIGH_ODDS",
+          "model_probability_pct": 30.5,
+          "implied_probability_pct": 27.9,
+          "market_probability_pct": 23.7,
+          "fair_odds": 3.28,
+          "value_edge_pct": 6.78,
+          "ev_pct": 9.3,
+          "calibration_gap_pct": 6.78,
+          "consensus": "0/3",
+          "confidence_10": 3.12,
           "decision": "NO BET",
           "reasons": [
-            "Çok düşük oran (< 1.55)",
+            "Model olasılığı %55 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 25.7,
+            "prediction_pct": 25.6,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 23.7
+          }
+        },
+        {
+          "match": "Lincoln City FC vs West Ham United FC",
+          "market": "btts_yes",
+          "odds": 1.72,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 59.7,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.4,
+          "fair_odds": 1.67,
+          "value_edge_pct": 10.33,
+          "ev_pct": 2.76,
+          "calibration_gap_pct": 10.33,
+          "consensus": "2/3",
+          "confidence_10": 5.01,
+          "decision": "NO BET",
+          "reasons": [
             "Beklenen değer (EV) %3 altında"
           ],
           "engines": {
             "statistical_pct": 62.0,
             "prediction_pct": 62.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 56.2
-          }
-        },
-        {
-          "match": "Lincoln City FC vs West Ham United FC",
-          "market": "cards_under_4_5",
-          "odds": 1.74,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 50.0,
-          "implied_probability_pct": 57.5,
-          "market_probability_pct": 48.8,
-          "fair_odds": 2.0,
-          "value_edge_pct": 1.18,
-          "ev_pct": -13.0,
-          "calibration_gap_pct": 1.18,
-          "consensus": "0/3",
-          "confidence_10": 3.45,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 50.0,
-            "prediction_pct": 50.0,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.8
+            "market_benchmark_pct": 49.4
           }
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
           "market": "over_2_5",
-          "odds": 1.49,
-          "odds_zone": "ACCEPTABLE",
+          "odds": 1.69,
+          "odds_zone": "IDEAL",
           "model_probability_pct": 58.2,
-          "implied_probability_pct": 67.1,
-          "market_probability_pct": 57.2,
+          "implied_probability_pct": 59.2,
+          "market_probability_pct": 50.4,
           "fair_odds": 1.72,
-          "value_edge_pct": 1.05,
-          "ev_pct": -13.24,
-          "calibration_gap_pct": 1.05,
+          "value_edge_pct": 7.79,
+          "ev_pct": -1.59,
+          "calibration_gap_pct": 7.79,
           "consensus": "2/3",
           "confidence_10": 4.7,
           "decision": "NO BET",
           "reasons": [
-            "Çok düşük oran (< 1.55)",
-            "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında"
           ],
           "engines": {
             "statistical_pct": 60.1,
             "prediction_pct": 60.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.2
+            "market_benchmark_pct": 50.4
           }
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
-          "market": "under_2_5",
-          "odds": 1.99,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 41.8,
-          "implied_probability_pct": 50.3,
-          "market_probability_pct": 42.8,
-          "fair_odds": 2.39,
-          "value_edge_pct": -1.05,
-          "ev_pct": -16.88,
-          "calibration_gap_pct": -1.05,
-          "consensus": "0/3",
-          "confidence_10": 3.0,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 39.9,
-            "prediction_pct": 39.4,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.8
-          }
-        },
-        {
-          "match": "Lincoln City FC vs West Ham United FC",
-          "market": "cards_over_4_5",
-          "odds": 1.66,
+          "market": "cards_under_4_5",
+          "odds": 1.73,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 60.2,
-          "market_probability_pct": 51.2,
+          "implied_probability_pct": 57.8,
+          "market_probability_pct": 49.1,
           "fair_odds": 2.0,
-          "value_edge_pct": -1.18,
-          "ev_pct": -17.0,
-          "calibration_gap_pct": -1.18,
+          "value_edge_pct": 0.88,
+          "ev_pct": -13.5,
+          "calibration_gap_pct": 0.88,
           "consensus": "0/3",
           "confidence_10": 3.45,
           "decision": "NO BET",
@@ -2466,23 +2373,23 @@
             "statistical_pct": 50.0,
             "prediction_pct": 50.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.2
+            "market_benchmark_pct": 49.1
           }
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
-          "market": "btts_no",
-          "odds": 1.94,
+          "market": "cards_over_4_5",
+          "odds": 1.67,
           "odds_zone": "IDEAL",
-          "model_probability_pct": 40.3,
-          "implied_probability_pct": 51.5,
-          "market_probability_pct": 43.8,
-          "fair_odds": 2.48,
-          "value_edge_pct": -3.51,
-          "ev_pct": -21.9,
-          "calibration_gap_pct": -3.51,
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 59.9,
+          "market_probability_pct": 50.9,
+          "fair_odds": 2.0,
+          "value_edge_pct": -0.88,
+          "ev_pct": -16.5,
+          "calibration_gap_pct": -0.88,
           "consensus": "0/3",
-          "confidence_10": 2.91,
+          "confidence_10": 3.45,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -2491,52 +2398,24 @@
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
-            "statistical_pct": 38.0,
-            "prediction_pct": 37.6,
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 43.8
-          }
-        },
-        {
-          "match": "Lincoln City FC vs West Ham United FC",
-          "market": "first_half_draw",
-          "odds": 2.23,
-          "odds_zone": "ACCEPTABLE",
-          "model_probability_pct": 33.8,
-          "implied_probability_pct": 44.8,
-          "market_probability_pct": 38.1,
-          "fair_odds": 2.96,
-          "value_edge_pct": -4.27,
-          "ev_pct": -24.57,
-          "calibration_gap_pct": -4.27,
-          "consensus": "0/3",
-          "confidence_10": 2.56,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 34.0,
-            "prediction_pct": 34.0,
-            "intelligence_pct": 33.1,
-            "market_benchmark_pct": 38.1
+            "market_benchmark_pct": 50.9
           }
         },
         {
           "match": "Lincoln City FC vs West Ham United FC",
           "market": "away_win",
-          "odds": 1.51,
+          "odds": 1.46,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 49.5,
-          "implied_probability_pct": 66.2,
-          "market_probability_pct": 56.4,
+          "implied_probability_pct": 68.5,
+          "market_probability_pct": 58.2,
           "fair_odds": 2.02,
-          "value_edge_pct": -6.9,
-          "ev_pct": -25.27,
-          "calibration_gap_pct": -6.9,
+          "value_edge_pct": -8.74,
+          "ev_pct": -27.74,
+          "calibration_gap_pct": -8.74,
           "consensus": "0/3",
           "confidence_10": 3.42,
           "decision": "NO BET",
@@ -2551,7 +2430,91 @@
             "statistical_pct": 49.5,
             "prediction_pct": 49.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 56.4
+            "market_benchmark_pct": 58.2
+          }
+        },
+        {
+          "match": "Lincoln City FC vs West Ham United FC",
+          "market": "under_2_5",
+          "odds": 1.72,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 41.8,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.6,
+          "fair_odds": 2.39,
+          "value_edge_pct": -7.79,
+          "ev_pct": -28.15,
+          "calibration_gap_pct": -7.79,
+          "consensus": "0/3",
+          "confidence_10": 3.0,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.9,
+            "prediction_pct": 39.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.6
+          }
+        },
+        {
+          "match": "Lincoln City FC vs West Ham United FC",
+          "market": "first_half_draw",
+          "odds": 2.11,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 33.8,
+          "implied_probability_pct": 47.4,
+          "market_probability_pct": 40.3,
+          "fair_odds": 2.96,
+          "value_edge_pct": -6.45,
+          "ev_pct": -28.63,
+          "calibration_gap_pct": -6.45,
+          "consensus": "0/3",
+          "confidence_10": 2.56,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 34.0,
+            "prediction_pct": 34.0,
+            "intelligence_pct": 33.1,
+            "market_benchmark_pct": 40.3
+          }
+        },
+        {
+          "match": "Lincoln City FC vs West Ham United FC",
+          "market": "btts_no",
+          "odds": 1.68,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.3,
+          "implied_probability_pct": 59.5,
+          "market_probability_pct": 50.6,
+          "fair_odds": 2.48,
+          "value_edge_pct": -10.33,
+          "ev_pct": -32.37,
+          "calibration_gap_pct": -10.33,
+          "consensus": "0/3",
+          "confidence_10": 2.91,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 38.0,
+            "prediction_pct": 37.6,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 50.6
           }
         },
         {
@@ -2563,9 +2526,9 @@
           "implied_probability_pct": 50.8,
           "market_probability_pct": 43.1,
           "fair_odds": 3.0,
-          "value_edge_pct": -9.74,
+          "value_edge_pct": -9.76,
           "ev_pct": -34.25,
-          "calibration_gap_pct": -9.74,
+          "calibration_gap_pct": -9.76,
           "consensus": "0/3",
           "confidence_10": 2.54,
           "decision": "NO BET",
@@ -2671,6 +2634,15 @@
         "items": [
           {
             "source": "Google News RSS",
+            "title": "[!LIVESTREAMs!]Tv] Southampton FC v Norwich City FC Live streams Stream - Universidad de Córdoba (UCO)",
+            "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQd1BCNWxkWlR0em93YlU4RVROekZyMDVZRUpPNUVxNi15Qk5pQmg4YUlRSmtXN3djZy04Z3BWTC1LQS0zYkF4d2N6SWRiZDFRU0hybTk1aGpodW9qUlNfOHB2TFJ1c0tsVGs4azhTZUxiV2xreEFuZVl6ZGFCaVlqX0EyRnQyWXlnVmJNLVQ5VlF5SGRaT25FRTRxUGhWeUw0SlM1cVNQQjhMQ18yMThveHgtWFBlY29BWmMzbDhReWw3c2pwVGFIaTVzNXQtRzlmY0E1aFJKQ3dKN0VxNFFBNUYzU05zQjEya19IRTRpeG05WXBndG5Mdy1QNVVaQmhJX2ZXbzl3RG9xU09kTjdkaEkzcDZBNVZvX0tGalBkT0JzVXp6dXF5QWRmT0l2QVJqS3Axek9Da0pTN2ZiUUNVeFZxSjZweWN0NU1YVUNDMDJxVEdBVjhn?oc=5",
+            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+            "text": "[!LIVESTREAMs!]Tv] Southampton FC v Norwich City FC Live streams Stream Universidad de Córdoba (UCO)",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Ex-City loanee Dobbin lands permanent Saints move - The Pink Un",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNWotZm44UHpEMHNNb3pqWkQ5eDlYTkpzaUZzLTlJMGRrRDNRSGJsQmN1aGNsX3oyOWpPRTZjODNrXzFyak94ZzNnSUdPODRzeU1qMDNLdlZURXZ4aHdnbXlxZmswb2JDR3lCaFY1UHZaX1ZubzNpa3l0ZHd4aFpGcXVwQzBqeWUwV1JsU3BrRmFZdWlSc3UxNDlqb09FelV3U25QNTMxdzM3VjhQbDJhYw?oc=5",
             "published": "Wed, 15 Jul 2026 07:00:00 GMT",
@@ -2743,24 +2715,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "THE FAR FROM PERFECT - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR2c1YkxTMFhwb2Y2dE15ajhvWlBhZkJ3d2FrMjZXU0ZFX3pWUDdVdWNaQzlDVm13OUZweUNBNjBxTkkzOHpuMW1ZU0FQeW52YlBhTE5iUmtteGxKMjJla0g2b01XbFB3WkRPVHMza1dUSG5GQWhvdkVZT0pBRlpRRG5Odw?oc=5",
-            "published": "Sat, 26 Sep 2026 05:59:25 GMT",
-            "text": "THE FAR FROM PERFECT PressReader",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Norwich vs Southampton: Scores, Results Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFJGNXZkb19HejNKTXJfaUdtWFlUZHZ0TEE2M0FEMUpCMjUxZkJNYWtuNE9NTHNKY0xDTkVLOEd4X0k5RnA1Zk83dUIwSThCUkxQUHRMZ3B4ajdMc2E3ZkRGYjE3bnNWVUlFU3lLdTAxRC02OHJRMzFsU1RidG5uS0FEdmZ6VmgtQ3h3TUNNUV9FdlE?oc=5",
-            "published": "Sun, 11 Feb 2024 11:02:12 GMT",
-            "text": "Norwich vs Southampton: Scores, Results Lineups, H2H & Odds 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Andre Brooks (Norwich) - Bio, stats and news - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZYm5BalpHNlNsUW5CaHJUWUlkeVlfcTlGa251TkM4VWJIbzRISG85MmhOR3k2WVJkTk9jeGhUMkNIY3ZLMFN1d0l5NXplSlB4WTJZQ0xTOVRiMlQzc3NYY3FmdWlGbUpMU1dXREEyV2ItYkF5WFE?oc=5",
             "published": "Sat, 11 Mar 2023 16:42:46 GMT",
@@ -2806,10 +2760,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Lincoln City - Southampton FC prediction & tips 05.09.2026 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ2dpLWhoWFY4UGI3bTRseDlNNnFRd2NOOHlzUzZOQi1pSDltRXY3N3pZSnRLNkpiMmF6YlhzbEZ2b1F6czQ0N0ZUc0ZXbW5pQmRYZnMzVkJKVG5ZV1pZb1NUcU1aZjl3Um5rdGlCZWdoeThsU2pxOExzRTdMV0Vkam9OYktNYUI3MGN2XzhlWDJfRm4tbFcwdUNHMXQ?oc=5",
-            "published": "Wed, 02 Sep 2026 10:04:42 GMT",
-            "text": "Lincoln City - Southampton FC prediction & tips 05.09.2026 Transfermarkt",
+            "title": "Birmingham VS Norwich: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzJJem5JMlZpVThiZjNhZW9fWDhibk56enZsdEFpc0JMb3g2NmtQMDVpRy1Dd1NPSGRibjl2bXoyZmlDOWJNRUFocW9rUjhtMjRRbHNsYkNTUWVlUl9aaU15bDN1TlhqcVZJWWVVVGlIQThMX29qd3g2TXFUODdMME8yWGpqQlA5?oc=5",
+            "published": "Mon, 11 Mar 2024 23:05:36 GMT",
+            "text": "Birmingham VS Norwich: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Fulham 0 - 2 Norwich (07/25) - Match Report - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3lOWWxNZkZxVG8za2t4d2M2V0NndFk5RVRERmswNFVFb1FjZ3ZETjlGYXo3MWpVUXNMR3M0R1hQc0gzWEI0UHdMRkdZdWVjR3FCTHNZTG1pNmo5MkNpd2VzbmZ3WHgxNGhNcjNRM05PNFppUUJfaE5kbVprNnl4NXo1MVlicTlXc2FfZDVLNA?oc=5",
+            "published": "Sat, 25 Jul 2026 13:27:05 GMT",
+            "text": "Fulham 0 - 2 Norwich (07/25) - Match Report 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2828,6 +2791,15 @@
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUk5mQ3VIYzdyXzI3b24xeUhnT3dSbjY0OTdtelI0SDJWRm0wZGxfVzhvTmd0UzFhNXNIbkRmTWlIai1GWVY2S29LWXlaSU5JdkpGdUp6WW1JVEFwcmlvZDc1aDNWUVNJNC1OcjRMTzlvN2V3YUtPYjVPenowT0lVd3E0MDhWdDFtOGUtaC1R?oc=5",
             "published": "Thu, 27 Aug 2026 09:04:54 GMT",
             "text": "Norwich City vs Burnley predictions and betting tips: Canaries seek response at Carrow Road Squawka",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "EFL Championship – Gameweek 43 preview with potential for more drama - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0RJV0Vqb1NiaEVkSXU5Sm8wSHpQMWttVEpxb2ZfbnJYSjJrVlhxX0pVZGFfNDJzM01RWTZ0ZjJkTW9IWmxtbnZrSXdWUmMzckp4WEFxdDVHaXQtMkJwM3lBdFlzc3FCTTVLcnZR?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "text": "EFL Championship – Gameweek 43 preview with potential for more drama Squawka",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2887,19 +2859,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2JiZ016SDlON2x3TE1OZ1oyY0M2NWRNdTk1VnQtVGVQbUt3S2FfWVp5MG9RZ2RXMkFqc24zUTBpRGk5ZzZFTDNiMmdXVWpCa2FxQ2R3ZW1Vb19UajFPS202WGtFakVxaEM2VDJPamlVazd2YWFyeWVPQzZFVUg4bV9vcndvTmxkUHhDVmFQRnljem5Pa2VaNXRiQlM?oc=5",
-            "published": "Tue, 13 Oct 2026 21:41:57 GMT",
-            "text": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 Futbol24",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Alarm bells ringing\": Norwich City vs Southampton predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9meEFNYndoNGZaQklYdllHaVpwZ2dtSFVRTGZuXzNVXzZtWW5Ib0pnLVg1UVpsZnBzODlpWFlOVC1CbkxMV05RdUFsYW9xNG5EMHRSOFIwT3pUVXV6cGRNWS1HT3hkX00xallEcjc5MGduMkhJLTJkWkFOZw?oc=5",
-            "published": "Tue, 13 Oct 2026 11:48:45 GMT",
-            "text": "\"Alarm bells ringing\": Norwich City vs Southampton predictions The72",
+            "title": "Southampton vs Watford FC: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOci02VWIwRmNfOFdrUHhQd0JFNGxLMGZoUk5LNklYT1JnSW1OazFhcVB3cEkyN3FNTHh4VWd5Ym5XaWVqeEFBSk1rS2NGejF4SUhuUHJOZFZiRkF0cm1OUFN3dnoxQ0dMaW16UmZCTEd6bHVRMmd3UHJMRUlXMnRScW5tUnliUFpFNEZfcEtBcWNyZEVJZFE?oc=5",
+            "published": "Wed, 06 Mar 2024 08:59:04 GMT",
+            "text": "Southampton vs Watford FC: Scores, Results Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2907,7 +2870,7 @@
             "source": "Google News RSS",
             "title": "Norwich vs Southampton Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdll5UlplbWlJRDZjbHpOMVNEd1JlRFpuSzk1VURrVnc0SDc1ZUVkODNzUFlSU2RCTTZLMkVjNG10RWMwZTlHc0llYlVmelk2bVVJcExsUzJQeTJCeVpZbERlVnhwSzFhSU9hWXRrSFVYYnpFSk9zbkJzRkRncjZxR09TX0NUakQwUEN3OWFuX1g5Z2NNbnJJODVJVEFpVFpMMUotTTF1NFdKZ1Z0Y0Rz?oc=5",
-            "published": "Tue, 13 Oct 2026 01:01:45 GMT",
+            "published": "Wed, 14 Oct 2026 15:57:58 GMT",
             "text": "Norwich vs Southampton Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
@@ -2968,15 +2931,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Which FA Cup games are on TV today? Full BBC, TNT Sports and discovery+ schedule - Metro.co.uk",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSHo5bktuT0hwbkZxd21sS2lQM0pCb1BTcHFqYy1qT1Z0VnZoUWYteFBzRnpyWDNCSFlKNkZhZXFoc1hGZ2YyZVVyRldPSWVucUotcURmQmVhU2RfTGE1SzhMZDRpMXhDN0xjTzRua2QwTXFkS0Y3YlNadmZDWjRwZlBXaHJLRU1lMzJnMTBYUWtlNzVIQlRld3VVQzZrOEFFTWY0VXJEZ0h0ZUl00gGyAUFVX3lxTE1SZjB2NDdhY2w0MWR3MThYZmhpemozOFZXTHR2Um4zdFE0eXB6aGlwbm1jZU5FdlR0WGRjUDhBOUptaTZSa09adE5GNTRnZ25QUVpWUndaY0oxMjZRc05Icmp3VVo2ZUZVXzcwZUtCcVZwVEpPa2p6azhYY1RQU1F2ODhlVXNOT0R3cnpFVXF2OVRvejRJbGZlRmdWX1NXbGVxTnpPN196cjFqRE9KdU5HVFE?oc=5",
-            "published": "Fri, 13 Feb 2026 08:00:00 GMT",
-            "text": "Which FA Cup games are on TV today? Full BBC, TNT Sports and discovery+ schedule Metro.co.uk",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Norwich VS Stoke City: Live Scores, Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVpCSFI5aDBELWVoRHQycTdpeHJvR243LWpGMmFjRkc1M3Exa3ZLWFNQWWpSN2h6ZmlNMHRJOGhGN08ydkhmWHdQOG93c3RXSXhVTU5ZQ3NydDhOeUl2VGpLU3hmVjcxa21QOUd6NUhwcndNNW9nSkNaN3l0NXpYNlpad1ZMWXpG?oc=5",
             "published": "Mon, 17 Feb 2025 15:08:46 GMT",
@@ -2999,6 +2953,15 @@
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDFMMjNpWmdPY19rVEZFM0lGRUlCb21GdDUzUmJWSUlWMkhmS0FCUW9yVUszOFJuVDVGUXRtOG45Y08xVFdOY25vUE9fbjQ4emw1R1ZESDdFclFPTWVzZFpmSXV6a2hCTjRNQndBaUcyNVhCaTZISUx0NGFPQXhCb3hrLTU2QQ?oc=5",
             "published": "Sun, 14 Apr 2024 05:29:05 GMT",
             "text": "Swansea VS Norwich: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Watford FC VS Swansea: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNS1XMElOeFY2STRySnVaaXJieC1ad1BvM245Q1BqMF9OSEcwejZ5b3gxZk51MUZyQl9qNkdhUl9tY2dhM0ZESElIdkk5blBxWDdvWjI3Sl9walZqM3h1WVJCNTFRWnBvYXpDUUFGVFk1ZGtEREFkMkVMcVkyWkppMl9Wd210U2FJ?oc=5",
+            "published": "Mon, 12 Feb 2024 18:06:41 GMT",
+            "text": "Watford FC VS Swansea: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3031,19 +2994,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Derby County FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TWWtnNW9PQm5kS0dfb1lxbmROY3Vtamh0N2o2SFh0Qy12ZmlZNXJPQkFKTEpnbHVUdmxwSkc3VlVYYWhJdGJVOTNSbDIteG5SN0FKSGpoN3lwSzVnT1JOcQ?oc=5",
-            "published": "Sun, 06 Dec 2020 03:41:33 GMT",
-            "text": "Derby County FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "title": "Burnley FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VNnhjVUZwUHRLMGRuWldOWEM1Ri05YTV6MGdDaXNLWmY1TnVRWmU1cm9ZMFQxVHJRZG0xM0RzZlVFbFBkMGtydzU0cHhWVXczd2ZydjN6RGR5Zw?oc=5",
+            "published": "Fri, 04 Dec 2020 13:29:24 GMT",
+            "text": "Burnley FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Burnley FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VNnhjVUZwUHRLMGRuWldOWEM1Ri05YTV6MGdDaXNLWmY1TnVRWmU1cm9ZMFQxVHJRZG0xM0RzZlVFbFBkMGtydzU0cHhWVXczd2ZydjN6RGR5Zw?oc=5",
-            "published": "Fri, 04 Dec 2020 13:29:24 GMT",
-            "text": "Burnley FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "title": "Derby County FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TWWtnNW9PQm5kS0dfb1lxbmROY3Vtamh0N2o2SFh0Qy12ZmlZNXJPQkFKTEpnbHVUdmxwSkc3VlVYYWhJdGJVOTNSbDIteG5SN0FKSGpoN3lwSzVnT1JOcQ?oc=5",
+            "published": "Sun, 06 Dec 2020 03:41:33 GMT",
+            "text": "Derby County FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -3275,15 +3238,15 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "corners_under_8_5",
-          "odds": 2.45,
+          "odds": 2.46,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 54.0,
-          "implied_probability_pct": 40.8,
-          "market_probability_pct": 33.6,
+          "implied_probability_pct": 40.7,
+          "market_probability_pct": 33.5,
           "fair_odds": 1.85,
-          "value_edge_pct": 20.4,
-          "ev_pct": 32.3,
-          "calibration_gap_pct": 20.4,
+          "value_edge_pct": 20.49,
+          "ev_pct": 32.84,
+          "calibration_gap_pct": 20.49,
           "consensus": "2/3",
           "confidence_10": 6.97,
           "decision": "NO BET",
@@ -3294,21 +3257,21 @@
             "statistical_pct": 55.0,
             "prediction_pct": 55.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 33.6
+            "market_benchmark_pct": 33.5
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_home",
-          "odds": 2.65,
+          "odds": 2.66,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 49.1,
-          "implied_probability_pct": 37.7,
-          "market_probability_pct": 32.0,
+          "implied_probability_pct": 37.6,
+          "market_probability_pct": 31.9,
           "fair_odds": 2.04,
-          "value_edge_pct": 17.08,
-          "ev_pct": 30.13,
-          "calibration_gap_pct": 17.08,
+          "value_edge_pct": 17.17,
+          "ev_pct": 30.62,
+          "calibration_gap_pct": 17.17,
           "consensus": "1/3",
           "confidence_10": 6.3,
           "decision": "NO BET",
@@ -3320,23 +3283,23 @@
             "statistical_pct": 56.5,
             "prediction_pct": 49.1,
             "intelligence_pct": 32.5,
-            "market_benchmark_pct": 32.0
+            "market_benchmark_pct": 31.9
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "away_win",
-          "odds": 2.4,
+          "odds": 2.43,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 46.7,
-          "implied_probability_pct": 41.7,
-          "market_probability_pct": 35.4,
+          "implied_probability_pct": 41.2,
+          "market_probability_pct": 35.0,
           "fair_odds": 2.14,
-          "value_edge_pct": 11.31,
-          "ev_pct": 12.14,
-          "calibration_gap_pct": 11.31,
+          "value_edge_pct": 11.73,
+          "ev_pct": 13.54,
+          "calibration_gap_pct": 11.73,
           "consensus": "0/3",
-          "confidence_10": 4.34,
+          "confidence_10": 4.45,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -3346,21 +3309,47 @@
             "statistical_pct": 46.3,
             "prediction_pct": 45.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 35.4
+            "market_benchmark_pct": 35.0
+          }
+        },
+        {
+          "match": "Norwich City FC vs Southampton FC",
+          "market": "cards_under_4_5",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 54.0,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
+          "fair_odds": 1.85,
+          "value_edge_pct": 5.91,
+          "ev_pct": -4.42,
+          "calibration_gap_pct": 5.91,
+          "consensus": "2/3",
+          "confidence_10": 4.57,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Beklenen değer (EV) %3 altında"
+          ],
+          "engines": {
+            "statistical_pct": 55.0,
+            "prediction_pct": 55.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.1
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "draw",
-          "odds": 3.37,
+          "odds": 3.25,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 29.3,
-          "implied_probability_pct": 29.7,
-          "market_probability_pct": 25.2,
+          "implied_probability_pct": 30.8,
+          "market_probability_pct": 26.2,
           "fair_odds": 3.41,
-          "value_edge_pct": 4.12,
-          "ev_pct": -1.09,
-          "calibration_gap_pct": 4.12,
+          "value_edge_pct": 3.18,
+          "ev_pct": -4.62,
+          "calibration_gap_pct": 3.18,
           "consensus": "0/3",
           "confidence_10": 2.41,
           "decision": "NO BET",
@@ -3373,47 +3362,21 @@
             "statistical_pct": 24.3,
             "prediction_pct": 24.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 25.2
-          }
-        },
-        {
-          "match": "Norwich City FC vs Southampton FC",
-          "market": "cards_under_4_5",
-          "odds": 1.75,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 54.0,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.5,
-          "fair_odds": 1.85,
-          "value_edge_pct": 5.47,
-          "ev_pct": -5.5,
-          "calibration_gap_pct": 5.47,
-          "consensus": "2/3",
-          "confidence_10": 4.57,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Beklenen değer (EV) %3 altında"
-          ],
-          "engines": {
-            "statistical_pct": 55.0,
-            "prediction_pct": 55.0,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.5
+            "market_benchmark_pct": 26.2
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_over_2_5",
-          "odds": 1.57,
-          "odds_zone": "ACCEPTABLE",
+          "odds": 1.61,
+          "odds_zone": "IDEAL",
           "model_probability_pct": 58.5,
-          "implied_probability_pct": 63.7,
-          "market_probability_pct": 63.7,
+          "implied_probability_pct": 62.1,
+          "market_probability_pct": 62.1,
           "fair_odds": 1.71,
-          "value_edge_pct": -5.24,
-          "ev_pct": -8.23,
-          "calibration_gap_pct": -5.24,
+          "value_edge_pct": -3.66,
+          "ev_pct": -5.89,
+          "calibration_gap_pct": -3.66,
           "consensus": "2/3",
           "confidence_10": 4.81,
           "decision": "NO BET",
@@ -3431,15 +3394,15 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "over_2_5",
-          "odds": 1.37,
+          "odds": 1.41,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 65.6,
-          "implied_probability_pct": 73.0,
-          "market_probability_pct": 61.8,
+          "implied_probability_pct": 70.9,
+          "market_probability_pct": 60.3,
           "fair_odds": 1.52,
-          "value_edge_pct": 3.75,
-          "ev_pct": -10.15,
-          "calibration_gap_pct": 3.75,
+          "value_edge_pct": 5.3,
+          "ev_pct": -7.52,
+          "calibration_gap_pct": 5.3,
           "consensus": "2/3",
           "confidence_10": 5.21,
           "decision": "NO BET",
@@ -3451,21 +3414,21 @@
             "statistical_pct": 69.5,
             "prediction_pct": 69.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 61.8
+            "market_benchmark_pct": 60.3
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_yes",
-          "odds": 1.32,
+          "odds": 1.34,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 66.8,
-          "implied_probability_pct": 75.8,
-          "market_probability_pct": 64.2,
+          "implied_probability_pct": 74.6,
+          "market_probability_pct": 63.4,
           "fair_odds": 1.5,
-          "value_edge_pct": 2.57,
-          "ev_pct": -11.82,
-          "calibration_gap_pct": 2.57,
+          "value_edge_pct": 3.41,
+          "ev_pct": -10.49,
+          "calibration_gap_pct": 3.41,
           "consensus": "2/3",
           "confidence_10": 5.27,
           "decision": "NO BET",
@@ -3477,21 +3440,21 @@
             "statistical_pct": 70.2,
             "prediction_pct": 72.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 64.2
+            "market_benchmark_pct": 63.4
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_away",
-          "odds": 2.87,
+          "odds": 2.9,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 28.9,
-          "implied_probability_pct": 34.8,
-          "market_probability_pct": 29.6,
+          "implied_probability_pct": 34.5,
+          "market_probability_pct": 29.3,
           "fair_odds": 3.46,
-          "value_edge_pct": -0.68,
-          "ev_pct": -17.07,
-          "calibration_gap_pct": -0.68,
+          "value_edge_pct": -0.39,
+          "ev_pct": -16.2,
+          "calibration_gap_pct": -0.39,
           "consensus": "0/3",
           "confidence_10": 2.39,
           "decision": "NO BET",
@@ -3505,21 +3468,21 @@
             "statistical_pct": 26.5,
             "prediction_pct": 28.8,
             "intelligence_pct": 34.5,
-            "market_benchmark_pct": 29.6
+            "market_benchmark_pct": 29.3
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "home_win",
-          "odds": 2.16,
+          "odds": 2.19,
           "odds_zone": "IDEAL",
           "model_probability_pct": 37.9,
-          "implied_probability_pct": 46.3,
-          "market_probability_pct": 39.4,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 38.8,
           "fair_odds": 2.64,
-          "value_edge_pct": -1.41,
-          "ev_pct": -18.03,
-          "calibration_gap_pct": -1.41,
+          "value_edge_pct": -0.89,
+          "ev_pct": -16.89,
+          "calibration_gap_pct": -0.89,
           "consensus": "0/3",
           "confidence_10": 2.89,
           "decision": "NO BET",
@@ -3533,21 +3496,21 @@
             "statistical_pct": 35.6,
             "prediction_pct": 34.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 39.4
+            "market_benchmark_pct": 38.8
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_no",
-          "odds": 2.37,
+          "odds": 2.32,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 33.2,
-          "implied_probability_pct": 42.2,
-          "market_probability_pct": 35.8,
+          "implied_probability_pct": 43.1,
+          "market_probability_pct": 36.6,
           "fair_odds": 3.01,
-          "value_edge_pct": -2.57,
-          "ev_pct": -21.32,
-          "calibration_gap_pct": -2.57,
+          "value_edge_pct": -3.41,
+          "ev_pct": -22.98,
+          "calibration_gap_pct": -3.41,
           "consensus": "0/3",
           "confidence_10": 2.63,
           "decision": "NO BET",
@@ -3561,49 +3524,21 @@
             "statistical_pct": 29.8,
             "prediction_pct": 28.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 35.8
-          }
-        },
-        {
-          "match": "Norwich City FC vs Southampton FC",
-          "market": "under_2_5",
-          "odds": 2.22,
-          "odds_zone": "ACCEPTABLE",
-          "model_probability_pct": 34.4,
-          "implied_probability_pct": 45.0,
-          "market_probability_pct": 38.2,
-          "fair_odds": 2.91,
-          "value_edge_pct": -3.75,
-          "ev_pct": -23.6,
-          "calibration_gap_pct": -3.75,
-          "consensus": "0/3",
-          "confidence_10": 2.69,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 30.5,
-            "prediction_pct": 30.6,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 38.2
+            "market_benchmark_pct": 36.6
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "cards_over_4_5",
-          "odds": 1.65,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 46.0,
-          "implied_probability_pct": 60.6,
-          "market_probability_pct": 51.5,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
           "fair_odds": 2.17,
-          "value_edge_pct": -5.47,
-          "ev_pct": -24.1,
-          "calibration_gap_pct": -5.47,
+          "value_edge_pct": -5.91,
+          "ev_pct": -24.56,
+          "calibration_gap_pct": -5.91,
           "consensus": "0/3",
           "confidence_10": 3.33,
           "decision": "NO BET",
@@ -3617,7 +3552,35 @@
             "statistical_pct": 45.0,
             "prediction_pct": 45.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.5
+            "market_benchmark_pct": 51.9
+          }
+        },
+        {
+          "match": "Norwich City FC vs Southampton FC",
+          "market": "under_2_5",
+          "odds": 2.14,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 34.4,
+          "implied_probability_pct": 46.7,
+          "market_probability_pct": 39.7,
+          "fair_odds": 2.91,
+          "value_edge_pct": -5.3,
+          "ev_pct": -26.35,
+          "calibration_gap_pct": -5.3,
+          "consensus": "0/3",
+          "confidence_10": 2.69,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 30.5,
+            "prediction_pct": 30.6,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 39.7
           }
         },
         {
@@ -3627,11 +3590,11 @@
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 46.0,
           "implied_probability_pct": 80.6,
-          "market_probability_pct": 66.4,
+          "market_probability_pct": 66.5,
           "fair_odds": 2.17,
-          "value_edge_pct": -20.4,
+          "value_edge_pct": -20.49,
           "ev_pct": -42.96,
-          "calibration_gap_pct": -20.4,
+          "calibration_gap_pct": -20.49,
           "consensus": "0/3",
           "confidence_10": 3.33,
           "decision": "NO BET",
@@ -3646,21 +3609,21 @@
             "statistical_pct": 45.0,
             "prediction_pct": 45.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 66.4
+            "market_benchmark_pct": 66.5
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_draw",
-          "odds": 2.21,
-          "odds_zone": "ACCEPTABLE",
+          "odds": 2.19,
+          "odds_zone": "IDEAL",
           "model_probability_pct": 22.0,
-          "implied_probability_pct": 45.2,
-          "market_probability_pct": 38.4,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 38.8,
           "fair_odds": 4.55,
-          "value_edge_pct": -16.4,
-          "ev_pct": -51.38,
-          "calibration_gap_pct": -16.4,
+          "value_edge_pct": -16.78,
+          "ev_pct": -51.82,
+          "calibration_gap_pct": -16.78,
           "consensus": "0/3",
           "confidence_10": 2.01,
           "decision": "NO BET",
@@ -3674,7 +3637,7 @@
             "statistical_pct": 17.0,
             "prediction_pct": 22.1,
             "intelligence_pct": 33.0,
-            "market_benchmark_pct": 38.4
+            "market_benchmark_pct": 38.8
           }
         }
       ]
