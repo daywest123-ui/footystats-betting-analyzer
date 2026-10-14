@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:41:28.105740+03:00",
+  "generated_at": "2026-10-14T07:48:30.465228+03:00",
   "run_status": "OK",
   "decision_status": "NO_BET",
   "data_sources": [
@@ -67,7 +67,7 @@
       },
       "intelligence": {
         "mentions": 36,
-        "web_score": 0.0278,
+        "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -78,19 +78,28 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "New York Red Bulls II Sign English Midfielder Henry Wise - Red Bull New York",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONG9URG1YRjRreWJETXNVQ1VRejR6WXdZVzJTclJLMVVrbGw4WnJta0M3d0JZZ0wzby1sVV9UelpKUmpFWXN4ZDVBZzBCQWhnVGxLVF9WTWUtQlBYcE1VTnh1WVhfQjVyV0JLbEFTSWN2b21tQTdRSUZ3MmdPMktUMzZVYXgtNFc2dDZfSVNWVl9pQ3lGaTRucQ?oc=5",
-            "published": "Thu, 11 Aug 2022 07:00:00 GMT",
-            "text": "New York Red Bulls II Sign English Midfielder Henry Wise Red Bull New York",
+            "title": "Championship 2026/2027 Stats : Goals, Assists, Cards, Tackles + More - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9neU15X2l2MlV5TF82YWgxOGkwRHd2dmhIdERINi0xTm5BS0hOdng5Y3NPcFU4Qlo2Wmw2NG9OUXFQVTZaNVA4QndWNUpsNFNCZFpHSm02NFVqanhTQUlCb3RrbXBMVm1fcWFENlp5bXpqT01HbXJIdQ?oc=5",
+            "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+            "text": "Championship 2026/2027 Stats : Goals, Assists, Cards, Tackles + More Squawka",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Championship 2026/2027 Stats : Goals, Assists, Cards, Tackles + More - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9neU15X2l2MlV5TF82YWgxOGkwRHd2dmhIdERINi0xTm5BS0hOdng5Y3NPcFU4Qlo2Wmw2NG9OUXFQVTZaNVA4QndWNUpsNFNCZFpHSm02NFVqanhTQUlCb3RrbXBMVm1fcWFENlp5bXpqT01HbXJIdQ?oc=5",
-            "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-            "text": "Championship 2026/2027 Stats : Goals, Assists, Cards, Tackles + More Squawka",
+            "title": "Pre-match Queens Park Rangers vs Derby County, Championship Round 10 - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX3JDSlg2dk9GZEE5XzVnWHg0YnFaUXNHY1k2NEtjYTB2MG9CSlBUYldVQmhzdEpXUzl0Z1U0MVk2akpKa0ZGWHF3TUNSSVZSeDFCblVTWnF3TG0yZFJUMk9SU0EyanhuOFBzQzJfeVNGdi1GSTNTR3lObjRudWNqN2VKR1Fudw?oc=5",
+            "published": "Sat, 29 Aug 2026 14:27:11 GMT",
+            "text": "Pre-match Queens Park Rangers vs Derby County, Championship Round 10 BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "New York Red Bulls II Sign English Midfielder Henry Wise - Red Bull New York",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONG9URG1YRjRreWJETXNVQ1VRejR6WXdZVzJTclJLMVVrbGw4WnJta0M3d0JZZ0wzby1sVV9UelpKUmpFWXN4ZDVBZzBCQWhnVGxLVF9WTWUtQlBYcE1VTnh1WVhfQjVyV0JLbEFTSWN2b21tQTdRSUZ3MmdPMktUMzZVYXgtNFc2dDZfSVNWVl9pQ3lGaTRucQ?oc=5",
+            "published": "Thu, 11 Aug 2022 07:00:00 GMT",
+            "text": "New York Red Bulls II Sign English Midfielder Henry Wise Red Bull New York",
             "language": "en",
             "sentiment": 0.0
           },
@@ -114,19 +123,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "EFL Championship fixtures 2020-21 in full: Key dates and match schedule for every team - The Mirror",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkE0RVZhUlJnUmdTSFBGRTlYTGJqejJhZThvOFpSUi11eFBTQnFybHJrc2pFUGNGWHFLc2hVampZcVdrYnRkRjhYR1Vua2tOSzhNa1BueUI2RnJhUkVIdWNpZHUtOUJZZ2UwOF9yeTJ5OWVEVDV2SHpBSUtYY3VPY3VsZk1jckwyZEY5OWdqbnTSAZYBQVVfeXFMTjE1ekJDREZ0TnBnX3Z6SGFYc21PejJZaWFPUldRODNneEdSWjItcEZDbmF3RG1xcHJEeUpuU3NlR0tqLXJGYjI3N2xZc3ZOZlQteWR1X2l2Nmt5VUN3SUZOZEM4MzRXUHp0LVl0SkJqc3p6dGRxdy1JcXVfTnM1b1paVEtNME1mNTI2T2k5UVIyRF9SNnVB?oc=5",
-            "published": "Fri, 21 Aug 2020 07:00:00 GMT",
-            "text": "EFL Championship fixtures 2020-21 in full: Key dates and match schedule for every team The Mirror",
+            "title": "Morrison signing ‘breath of fresh air’ for Derby — Rooney - PressReader",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN3lJUFRWeGpnMUxJeUt6ckwwU1YyZlZ5SVJnYl85MlJEUldGMzFVaG15cnE2Q3JjRk5RWXJkNG9Qc2VVWGVsZjRLdGQ3bzRiZnltblNHOXdEQS1qdmluRTJxTmttNXZiOWRtSGY5aWdxVmExZk9WbGlScTdhbFU3a0JtTVZub3ZXYkNB?oc=5",
+            "published": "Tue, 10 Aug 2021 07:00:00 GMT",
+            "text": "Morrison signing ‘breath of fresh air’ for Derby — Rooney PressReader",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Morrison signing ‘breath of fresh air’ for Derby — Rooney - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN3lJUFRWeGpnMUxJeUt6ckwwU1YyZlZ5SVJnYl85MlJEUldGMzFVaG15cnE2Q3JjRk5RWXJkNG9Qc2VVWGVsZjRLdGQ3bzRiZnltblNHOXdEQS1qdmluRTJxTmttNXZiOWRtSGY5aWdxVmExZk9WbGlScTdhbFU3a0JtTVZub3ZXYkNB?oc=5",
-            "published": "Tue, 10 Aug 2021 07:00:00 GMT",
-            "text": "Morrison signing ‘breath of fresh air’ for Derby — Rooney PressReader",
+            "title": "Jenkinson and Nobbs part of 'Next 20' - Arsenal.com",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFdVdmxYWmJRYWxkNEFCVFZWRFVIY0p3WTl3aW5pMkJpcnh6ZXh5cWo1cURpVGVXWjJLRmhYc1VBRkRSNTNDMjVYZEtuZGMzMUpXQlprdEFKSFVPTXkxTzRkVGY1Wk5RUWJOZlJUUXR3YWJtQW9JemppdXppUDBfdHcycw?oc=5",
+            "published": "Wed, 30 Oct 2013 07:00:00 GMT",
+            "text": "Jenkinson and Nobbs part of 'Next 20' Arsenal.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -141,10 +150,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury - derbycounty.news",
+            "title": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury - www.derbycounty.news",
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTN4ZElaT3BmRW03enhza1Nvb0hWbnZaUHdiUFB0akN5cFpvMmFLY3VVU0dINThCc1JOSlVQVEtNbU40eW5LS1VRUENFaVFiWk9RbE0tbGVRNmxPbnA5TmFrbkZxS25tNEZjRmxrSkZGdkFmZkVaTXlOUGNFWXEtTFlZWktURTh3ZHRjaDA4aUQtTmdqdGtsd2MzNEh0RGhHanFmNnNTTW1JVHFtS2ZvSWRzYw?oc=5",
             "published": "Fri, 25 Oct 2024 07:00:00 GMT",
-            "text": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury derbycounty.news",
+            "text": "Derby County man sets target as he discusses ‘amazing’ teammate’s ‘horrible’ injury www.derbycounty.news",
             "language": "en",
             "sentiment": -1.0
           },
@@ -177,6 +186,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "League Tables 2026/2027 Burnley - Clarets Mad - Clarets - Clarets Mad",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81NXNDbjBhek1tNTdkV25OVURfVjNDbVpfdWRYOFI2RVZQcXJJcEs5UlRGU0ItaDU1R01MM2tsaVEyb044ZzhjeXRRVzRUTlRuN0hoU1dWTQ?oc=5",
+            "published": "Mon, 17 Feb 2020 08:10:14 GMT",
+            "text": "League Tables 2026/2027 Burnley - Clarets Mad - Clarets Clarets Mad",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "FA charges - April 2022 - TheFA.com",
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vb051UEthUkhjdi1qYVFfN3Z2MTg2QnpHbm1rTFVBUTFqMzgtaHNJUERoeno2VVFBNDd0TjF6M0d6b2RmSF9SZ1pLUlVSWG9tMlZaYjFYZC1pMi1BNEZjNklyb2tzVTFJTXctdDBoajYtNG9zYlFTMA?oc=5",
             "published": "Thu, 05 May 2022 07:00:00 GMT",
@@ -186,28 +204,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City - www.derbycounty.news",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcExxSW1vLWFDVVdTN3VheFFOTkFhTVVRcGZsc01OVDdUTlNWS0lON2Fsa0cxLUFZVDl1OG5zM3liWWMyV0xxajVLcE8xNmxsT1RWQVI5RmdWZjVZSkFwNkRTNEhEVnRIR0xLNEN3ZGpiMWVNRDByT2szRGVacmR1QXU1RE9vSUxKZkhqY0VJYlJfZ3VwZDFwcmNqX2prOFNMbzZSVDEzRjF0QXRFT2ZfeFpaaGl6c2V3TzgzRi1mMUxiZFAyRFpsR3o2QzM?oc=5",
-            "published": "Fri, 25 Oct 2024 07:00:00 GMT",
-            "text": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City www.derbycounty.news",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Reggae Boy defender Moore joins Stoke from Reading - PressReader",
             "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdHY2QldJeVlqM0QtVkxFcGF1RTExSW5aVWljejllS1ZhTC1oZDMybXVyX1FpS09tb29mU01feDkyM0Q5eFZDNkY4RUxMWld1UmZRdHRHWUFNaEtiNVpZSEh1UmI1cUpIWlJISk53ZTdfamotTTBScFZvTm01eWdacF9xWXMxWkZWZ3lJ?oc=5",
             "published": "Thu, 03 Feb 2022 08:00:00 GMT",
             "text": "Reggae Boy defender Moore joins Stoke from Reading PressReader",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Derby County player ratings so far in 2024/25 as two stars standout and several impress in the Championship - derbycounty.news",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaEVUUERadnBHN3hrNWdwRm82c3lRMHFTUlRPMGpXWElvbzhlQUlQNXRkQ3ZMc1ZWTko1QktkeUJoY1l4RGMzM3ZFLU1DRUEtSlhvRWo5RTMzQTRzNjdaS0lrU1I5aC1pZVd1eldjYTlzeHFkdHp6NGpmS0dBOWNyN3dhVlpGY1Eyem04TFdwZWRFOTY0ZUlfRjNvYWc0QWJUNk1kVW9pRWdncG1iYXAxemdxOGh3OU9faGRjT3A2bkY4czlYRTZXVXp4dGZIdWVSeTBTWDhOTVZjMmEzNUE?oc=5",
-            "published": "Tue, 15 Oct 2024 07:00:00 GMT",
-            "text": "Derby County player ratings so far in 2024/25 as two stars standout and several impress in the Championship derbycounty.news",
             "language": "en",
             "sentiment": 0.0
           },
@@ -330,21 +330,21 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City - www.derbycounty.news",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcExxSW1vLWFDVVdTN3VheFFOTkFhTVVRcGZsc01OVDdUTlNWS0lON2Fsa0cxLUFZVDl1OG5zM3liWWMyV0xxajVLcE8xNmxsT1RWQVI5RmdWZjVZSkFwNkRTNEhEVnRIR0xLNEN3ZGpiMWVNRDByT2szRGVacmR1QXU1RE9vSUxKZkhqY0VJYlJfZ3VwZDFwcmNqX2prOFNMbzZSVDEzRjF0QXRFT2ZfeFpaaGl6c2V3TzgzRi1mMUxiZFAyRFpsR3o2QzM?oc=5",
+            "published": "Fri, 25 Oct 2024 07:00:00 GMT",
+            "text": "Derby County predicted lineup, team and injury news as ‘terrific’ player axed vs Hull City www.derbycounty.news",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions - The72",
             "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KQlBOU1lYYWtHTWJnV2l3NnQ0bXVMUklnUlVzbklsN3FoWFZJRGRUdnVHSlljM25lNXQtMEFZNTNXWVltR0pmSlpuUThQZUU3dWhaSzZ1LXFWWG8wdjJaMkZKVE5objZfTGJUYjZ2VEtlOEJncGlB?oc=5",
             "published": "Wed, 05 Aug 2026 07:00:00 GMT",
             "text": "“Weakened sides”: QPR vs Millwall Carabao Cup predictions The72",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“Does not make for good reading”: Portsmouth vs Derby County predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5X0k0SjY1SVJJemVUSGhtWUFxWE1Nd1BnZndORUliQzlMVTRaWG5oek1QSkpWM185VHhhay0tb25TamczY1Y0SndyOTM3RTgyQTFrYUZiNmFMd1B6eE5aVzBSMTRURVlJWTNpWjBLcnhmR0hITzlWcGtB?oc=5",
-            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-            "text": "“Does not make for good reading”: Portsmouth vs Derby County predictions The72",
-            "language": "en",
-            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -628,15 +628,15 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "first_half_away",
-          "odds": 4.74,
+          "odds": 4.87,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 32.4,
-          "implied_probability_pct": 21.1,
-          "market_probability_pct": 17.9,
+          "implied_probability_pct": 20.5,
+          "market_probability_pct": 17.4,
           "fair_odds": 3.09,
-          "value_edge_pct": 14.5,
-          "ev_pct": 53.61,
-          "calibration_gap_pct": 14.5,
+          "value_edge_pct": 14.97,
+          "ev_pct": 57.82,
+          "calibration_gap_pct": 14.97,
           "consensus": "0/3",
           "confidence_10": 4.78,
           "decision": "NO BET",
@@ -648,21 +648,21 @@
             "statistical_pct": 33.0,
             "prediction_pct": 32.2,
             "intelligence_pct": 31.4,
-            "market_benchmark_pct": 17.9
+            "market_benchmark_pct": 17.4
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "away_win",
-          "odds": 4.36,
+          "odds": 4.5,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 30.9,
-          "implied_probability_pct": 22.9,
-          "market_probability_pct": 19.5,
+          "implied_probability_pct": 22.2,
+          "market_probability_pct": 18.9,
           "fair_odds": 3.24,
-          "value_edge_pct": 11.39,
-          "ev_pct": 34.7,
-          "calibration_gap_pct": 11.39,
+          "value_edge_pct": 12.02,
+          "ev_pct": 39.03,
+          "calibration_gap_pct": 12.02,
           "consensus": "0/3",
           "confidence_10": 4.7,
           "decision": "NO BET",
@@ -674,7 +674,7 @@
             "statistical_pct": 27.1,
             "prediction_pct": 24.8,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 19.5
+            "market_benchmark_pct": 18.9
           }
         },
         {
@@ -706,17 +706,17 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "draw",
-          "odds": 3.52,
+          "odds": 3.58,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 31.6,
-          "implied_probability_pct": 28.4,
-          "market_probability_pct": 24.2,
+          "implied_probability_pct": 27.9,
+          "market_probability_pct": 23.7,
           "fair_odds": 3.16,
-          "value_edge_pct": 7.47,
-          "ev_pct": 11.34,
-          "calibration_gap_pct": 7.47,
+          "value_edge_pct": 7.9,
+          "ev_pct": 13.24,
+          "calibration_gap_pct": 7.9,
           "consensus": "0/3",
-          "confidence_10": 3.25,
+          "confidence_10": 3.4,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -726,7 +726,7 @@
             "statistical_pct": 27.0,
             "prediction_pct": 27.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 24.2
+            "market_benchmark_pct": 23.7
           }
         },
         {
@@ -759,44 +759,16 @@
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "cards_under_4_5",
-          "odds": 1.74,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 50.0,
-          "implied_probability_pct": 57.5,
-          "market_probability_pct": 48.8,
-          "fair_odds": 2.0,
-          "value_edge_pct": 1.18,
-          "ev_pct": -13.0,
-          "calibration_gap_pct": 1.18,
-          "consensus": "0/3",
-          "confidence_10": 3.35,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 50.0,
-            "prediction_pct": 50.0,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.8
-          }
-        },
-        {
-          "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "btts_over_2_5",
-          "odds": 2.01,
+          "odds": 2.03,
           "odds_zone": "IDEAL",
           "model_probability_pct": 42.9,
-          "implied_probability_pct": 49.8,
-          "market_probability_pct": 49.8,
+          "implied_probability_pct": 49.3,
+          "market_probability_pct": 49.3,
           "fair_odds": 2.33,
-          "value_edge_pct": -6.82,
-          "ev_pct": -13.7,
-          "calibration_gap_pct": -6.82,
+          "value_edge_pct": -6.33,
+          "ev_pct": -12.84,
+          "calibration_gap_pct": -6.33,
           "consensus": "0/3",
           "confidence_10": 2.96,
           "decision": "NO BET",
@@ -816,15 +788,15 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "btts_yes",
-          "odds": 1.62,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 53.1,
-          "implied_probability_pct": 61.7,
-          "market_probability_pct": 52.5,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.9,
           "fair_odds": 1.88,
-          "value_edge_pct": 0.61,
-          "ev_pct": -13.97,
-          "calibration_gap_pct": 0.61,
+          "value_edge_pct": 1.2,
+          "ev_pct": -12.91,
+          "calibration_gap_pct": 1.2,
           "consensus": "0/3",
           "confidence_10": 3.52,
           "decision": "NO BET",
@@ -838,49 +810,21 @@
             "statistical_pct": 53.3,
             "prediction_pct": 54.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 52.5
+            "market_benchmark_pct": 51.9
           }
         },
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "btts_no",
-          "odds": 1.79,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 46.9,
-          "implied_probability_pct": 55.9,
-          "market_probability_pct": 47.5,
-          "fair_odds": 2.13,
-          "value_edge_pct": -0.61,
-          "ev_pct": -16.06,
-          "calibration_gap_pct": -0.61,
-          "consensus": "0/3",
-          "confidence_10": 3.18,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 46.7,
-            "prediction_pct": 45.4,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 47.5
-          }
-        },
-        {
-          "match": "Queens Park Rangers FC vs Derby County FC",
-          "market": "cards_over_4_5",
-          "odds": 1.66,
+          "market": "cards_under_4_5",
+          "odds": 1.73,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 60.2,
-          "market_probability_pct": 51.2,
+          "implied_probability_pct": 57.8,
+          "market_probability_pct": 49.0,
           "fair_odds": 2.0,
-          "value_edge_pct": -1.18,
-          "ev_pct": -17.0,
-          "calibration_gap_pct": -1.18,
+          "value_edge_pct": 1.03,
+          "ev_pct": -13.5,
+          "calibration_gap_pct": 1.03,
           "consensus": "0/3",
           "confidence_10": 3.35,
           "decision": "NO BET",
@@ -894,7 +838,63 @@
             "statistical_pct": 50.0,
             "prediction_pct": 50.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.2
+            "market_benchmark_pct": 49.0
+          }
+        },
+        {
+          "match": "Queens Park Rangers FC vs Derby County FC",
+          "market": "btts_no",
+          "odds": 1.77,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 46.9,
+          "implied_probability_pct": 56.5,
+          "market_probability_pct": 48.1,
+          "fair_odds": 2.13,
+          "value_edge_pct": -1.2,
+          "ev_pct": -16.99,
+          "calibration_gap_pct": -1.2,
+          "consensus": "0/3",
+          "confidence_10": 3.18,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 46.7,
+            "prediction_pct": 45.4,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 48.1
+          }
+        },
+        {
+          "match": "Queens Park Rangers FC vs Derby County FC",
+          "market": "cards_over_4_5",
+          "odds": 1.66,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 50.0,
+          "implied_probability_pct": 60.2,
+          "market_probability_pct": 51.0,
+          "fair_odds": 2.0,
+          "value_edge_pct": -1.03,
+          "ev_pct": -17.0,
+          "calibration_gap_pct": -1.03,
+          "consensus": "0/3",
+          "confidence_10": 3.35,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 50.0,
+            "prediction_pct": 50.0,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 51.0
           }
         },
         {
@@ -928,15 +928,15 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "home_win",
-          "odds": 1.51,
+          "odds": 1.48,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 52.1,
-          "implied_probability_pct": 66.2,
-          "market_probability_pct": 56.3,
+          "implied_probability_pct": 67.6,
+          "market_probability_pct": 57.4,
           "fair_odds": 1.92,
-          "value_edge_pct": -4.27,
-          "ev_pct": -21.4,
-          "calibration_gap_pct": -4.27,
+          "value_edge_pct": -5.34,
+          "ev_pct": -22.96,
+          "calibration_gap_pct": -5.34,
           "consensus": "0/3",
           "confidence_10": 3.46,
           "decision": "NO BET",
@@ -951,7 +951,7 @@
             "statistical_pct": 52.8,
             "prediction_pct": 52.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 56.3
+            "market_benchmark_pct": 57.4
           }
         },
         {
@@ -963,9 +963,9 @@
           "implied_probability_pct": 46.7,
           "market_probability_pct": 39.7,
           "fair_odds": 2.97,
-          "value_edge_pct": -6.04,
+          "value_edge_pct": -6.06,
           "ev_pct": -28.05,
-          "calibration_gap_pct": -6.04,
+          "calibration_gap_pct": -6.06,
           "consensus": "0/3",
           "confidence_10": 2.45,
           "decision": "NO BET",
@@ -985,15 +985,15 @@
         {
           "match": "Queens Park Rangers FC vs Derby County FC",
           "market": "first_half_home",
-          "odds": 2.0,
+          "odds": 1.98,
           "odds_zone": "IDEAL",
           "model_probability_pct": 34.0,
-          "implied_probability_pct": 50.0,
-          "market_probability_pct": 42.4,
+          "implied_probability_pct": 50.5,
+          "market_probability_pct": 42.9,
           "fair_odds": 2.94,
-          "value_edge_pct": -8.46,
-          "ev_pct": -32.06,
-          "calibration_gap_pct": -8.46,
+          "value_edge_pct": -8.91,
+          "ev_pct": -32.74,
+          "calibration_gap_pct": -8.91,
           "consensus": "0/3",
           "confidence_10": 2.47,
           "decision": "NO BET",
@@ -1007,7 +1007,7 @@
             "statistical_pct": 33.0,
             "prediction_pct": 33.9,
             "intelligence_pct": 36.3,
-            "market_benchmark_pct": 42.4
+            "market_benchmark_pct": 42.9
           }
         },
         {
@@ -1089,13 +1089,15 @@
         }
       },
       "intelligence": {
-        "mentions": 33,
+        "mentions": 34,
         "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
         ],
-        "risk_flags": [],
+        "risk_flags": [
+          "multiple_injury_or_suspension_mentions"
+        ],
         "items": [
           {
             "source": "Google News RSS",
@@ -1103,15 +1105,6 @@
             "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUc5cnZpZ1NoMm45YVE4c2tjaHhUVEZJcW9kemdMNG9NY1lseW1pRFZqemlqVy1FcDJUNHZRN1h3WGxVRnVwU0FreW1xeTdyalJzWGRZbXpSWC1jc0lrbl9SUDkyNGx1bTdtYXpoeUVZRTVvTnU5cFBFbmRLOFFnNlVhdm00dmRRczdZRGg1ajNHd19VcjFpOWlDQXN1VnRLZzU3LWZNUjBiZC01UFUxUjZDWkJoWER6LUU1VUZ6bw?oc=5",
             "published": "Fri, 01 Jun 2018 07:00:00 GMT",
             "text": "Portsmouth: Seven Steps To Return To the English Premier League Bleacher Report",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Robinson officially calls it a playing career - www.whitecapsfc.com",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjIycGwwOHRFT1RPRmxMYzVUQnBsRGpiOTZySEhmSDktOXNGMmR1M2hTZkJxd01ud3pyU0VnQUszT0hIS1hwYkloLXBmak1iS3hVTlo0aXhGOEpWV0hSSzZ6VnBwdEhKWWJDOWppQ0FWWXQ3SWI4ZkxSNjA1RXd0TFVB?oc=5",
-            "published": "Tue, 31 Jul 2012 07:00:00 GMT",
-            "text": "Robinson officially calls it a playing career www.whitecapsfc.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1126,6 +1119,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Robinson officially calls it a playing career - www.whitecapsfc.com",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjIycGwwOHRFT1RPRmxMYzVUQnBsRGpiOTZySEhmSDktOXNGMmR1M2hTZkJxd01ud3pyU0VnQUszT0hIS1hwYkloLXBmak1iS3hVTlo0aXhGOEpWV0hSSzZ6VnBwdEhKWWJDOWppQ0FWWXQ3SWI4ZkxSNjA1RXd0TFVB?oc=5",
+            "published": "Tue, 31 Jul 2012 07:00:00 GMT",
+            "text": "Robinson officially calls it a playing career www.whitecapsfc.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "FA charges - October 2024 - TheFA.com",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ja3VyemRLa2RMZ2JIVHpGRHdGYlNEaUdQSlM5NjRkb04xQ0NISUdtTGxFU0thbFVrR1pTZHFLWmR2NlRfRkMzY2pHUmN1Mi1vTm9lQ2pGQjlKc01VOFRoQkpWRXQ5YUNvU3BMcmZpVEdpbnA0aFpaMnN1WQ?oc=5",
             "published": "Wed, 06 Nov 2024 08:00:00 GMT",
@@ -1135,10 +1137,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Famous Portsmouth fan gets ban after entering ladies toilets and 'identifying' as woman - The Mirror",
+            "title": "Famous Portsmouth fan gets ban after entering ladies toilets and 'identifying' as woman - Daily Mirror",
             "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcG13MnNtRHY0Um1JNWxMRjVBN3FxOFZWQVJqVzhmeER5SHVHNFc2U3VKampyMGZONHVWakJ2NDlVRkNETFlXRUJxR09PSVo5b2R2V0dZZmllTUpzT3FsOFgxNTFOcFV5V1FrT1VxU2NaaWZmRXY4X3RwajluNTd2eHBFYWNoRFAwamE5ZllaZ2jSAZYBQVVfeXFMUGVub3RUWmpjWWJ5a0hvdkQxNWxPajk3S3YxQ2N6Qjl5MUNiVlpRa0duUWhTNjV1WjlTU1N3dG9OT1laRk9yOWdEVDRFc3hNbGRNMUJKUDhBc01uRTVKN0gyZFVNaGpRXzdkUVZNMUZKb3pmM3l1UWdxM3U4NTlFczM5WTFzZXFhS2Y3UmVhWWtqODY1cm5B?oc=5",
             "published": "Tue, 14 Mar 2023 07:00:00 GMT",
-            "text": "Famous Portsmouth fan gets ban after entering ladies toilets and 'identifying' as woman The Mirror",
+            "text": "Famous Portsmouth fan gets ban after entering ladies toilets and 'identifying' as woman Daily Mirror",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1243,6 +1245,33 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Sheffield United vs Birmingham City predictions and betting tips: Back the Visitors at Bramall Lane - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFFkTDRwekNCenhxRkx2Z0xsMGhzdzFMb1lXaU5XRU5HVE5SRTR5QTA0cFdjUnlxSDAxLUthcEphS3BCOU15Zko4ajdrLWZCczRBV1ViQVNoUjFjWnF0ckFDN2ZCRnRTdDZ1Tmx6TlRacmtKRjFmRXEtRVNfUmp6cF9BV1djMGtheTB3b0MwbFBuX0tWWTJ3MkNiUVNPeFhNRDEteA?oc=5",
+            "published": "Sat, 10 Oct 2026 07:00:00 GMT",
+            "text": "Sheffield United vs Birmingham City predictions and betting tips: Back the Visitors at Bramall Lane Squawka",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2JiZ016SDlON2x3TE1OZ1oyY0M2NWRNdTk1VnQtVGVQbUt3S2FfWVp5MG9RZ2RXMkFqc24zUTBpRGk5ZzZFTDNiMmdXVWpCa2FxQ2R3ZW1Vb19UajFPS202WGtFakVxaEM2VDJPamlVazd2YWFyeWVPQzZFVUg4bV9vcndvTmxkUHhDVmFQRnljem5Pa2VaNXRiQlM?oc=5",
+            "published": "Tue, 13 Oct 2026 21:41:57 GMT",
+            "text": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "EFL Championship – Gameweek 43 preview with potential for more drama - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0RJV0Vqb1NiaEVkSXU5Sm8wSHpQMWttVEpxb2ZfbnJYSjJrVlhxX0pVZGFfNDJzM01RWTZ0ZjJkTW9IWmxtbnZrSXdWUmMzckp4WEFxdDVHaXQtMkJwM3lBdFlzc3FCTTVLcnZR?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "text": "EFL Championship – Gameweek 43 preview with potential for more drama Squawka",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Burnley FC - Wolverhampton Wanderers FC ai prediction 16.10.2026 Championship - Livetipsportal.com",
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYVpYVndMS0xKSnNpUUxKbnVtUFN1VWNBMkJ5U2I0QVppdWphdmJKQlNpMDlmLXRqZDZfNG45TFN2TmZWVzZ3UVJBakFCT0dTcVFGbzVmam9iLTNScndhamFvalZLVmpiMUNTck9VREoyN1k2OW9SazhqRDllNjBKREx2WnFuSVBINlBfcWpvZlBWSHZGQVpmVjdjWUxIUW5rNEhjOFNVbkVTQVRCUXE2TXJ4UQ?oc=5",
             "published": "Tue, 13 Oct 2026 09:31:12 GMT",
@@ -1261,21 +1290,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie - The72",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZnBvZkdlQ2NhejFwdmNSckpvY0dKNm4tNGoyWThaU2ZWbUw3Tkx3MnI3YVUxLW9UWWhhSnk4VmV3QmZzdG13ZmNNeC01Rm8zRmRhSDFBRnRlZ1pQUWtnMXFHV21GS3I1YlBzSUR5MUZVVGJtZkhhRHlaRERFaEZYS21GX180eEo4dkJ0aQ?oc=5",
-            "published": "Wed, 07 Oct 2026 11:18:31 GMT",
-            "text": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "January signings start: Portsmouth team news and predicted XI to face Sheffield United - The72",
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52cVVPNC1HQWlSSU9MWjlqa2duOFRCVENEdG1ibFpBTnRKb1I0cDZrV0VQc0daUWdEaFFKYnB1Z1ZJQS1weHpMQ3JsZmJwQnhwVDIzRmJ3ejJoNGZLUVk3MkVjRm45dlZDTHVPMXhEM2NGaUNSSEpJLQ?oc=5",
             "published": "Fri, 13 Feb 2026 08:00:00 GMT",
             "text": "January signings start: Portsmouth team news and predicted XI to face Sheffield United The72",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie - The72",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZnBvZkdlQ2NhejFwdmNSckpvY0dKNm4tNGoyWThaU2ZWbUw3Tkx3MnI3YVUxLW9UWWhhSnk4VmV3QmZzdG13ZmNNeC01Rm8zRmRhSDFBRnRlZ1pQUWtnMXFHV21GS3I1YlBzSUR5MUZVVGJtZkhhRHlaRERFaEZYS21GX180eEo4dkJ0aQ?oc=5",
+            "published": "Wed, 07 Oct 2026 11:18:31 GMT",
+            "text": "Wycombe Wanderers sweat over early injury blow as ex-Sheffield United striker limps out of EFL Trophy tie The72",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -1306,48 +1335,30 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sheffield United transfer update on Gus Hamer amid Coventry City pursuit - The72",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUGI1TWJMTHN6TC1tY3VBWlhCemRyanVJREZXQ0ZESHVpeTFUVU5tTVFicVpfM2RLOV9QX0JPQUFDS05UZFVoamd5OExIcmZjY19VcTdEWWthaEtxSDZKcElTbDQ2bEVmaXltNUdoRFNQd2hqRUN0SllheVhMY2ZuZVpQTmFCMEJicThBUnBqa09KQQ?oc=5",
-            "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "text": "Sheffield United transfer update on Gus Hamer amid Coventry City pursuit The72",
+            "title": "Sheffield United star closing in on Premier League transfer - The72",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa29ybWNNU0dVbXdibi1JQUhHZzdmV2p5SFFBa05aU3padHR4NU1BSld4T0R6VmFRWko3REdibzVMWUxGNUxWdHpzcDJTMHBNTUpUUmxZb0IyUjRwU2x4OXRacTlBN053MFp1S091R2dRTjlNOWdGTGVOOE1XMXRiS3BmSkw2S0owYTlublNKNERzNU0?oc=5",
+            "published": "Fri, 31 Jul 2026 07:00:00 GMT",
+            "text": "Sheffield United star closing in on Premier League transfer The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Sheffield United eye free agent after Premier League exit - The72",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcEtTcmVCY1NIODY3eFdBMjFHblY3dThtc1prM0R2TktmeHJDOEwyMTUxczhqVnR2TDNnV01OeGtRbHE3R3daX2p0Y25SaXlvU1dtdElnZ2IyMDd5dFlKWDBIZXZwUzVVZFVFaGFobWFIbHpFR2RwZFY0TGNXMHA5Q2J5ZmZOQQ?oc=5",
-            "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-            "text": "Sheffield United eye free agent after Premier League exit The72",
+            "title": "Sheffield United transfer update on Kalvin Phillips and Harry Souttar shared by reporter - The72",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN3R5WHhQT3BFWnk3UE9nQlFLN19NRjRRX2JwaXduMm02SXV2Y21PQjJyakNqSXRQQjBvU2hfSkhtRmtVUjI5WkU3SHlRZXpNWFJ1WVB2R3c5TWlYY2Z2WHFscTBzVS1VRjQzaEIzQXc2YnRDa2JyZDJ4dWxQSFFqU2VyYnRRUk9TcWRaLTJEWWNJdlh0VncwR013?oc=5",
+            "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+            "text": "Sheffield United transfer update on Kalvin Phillips and Harry Souttar shared by reporter The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Stoke City poised to sign Sheffield United loan man - The72",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd09od2d1UUUwdHZIT0s0NjZXMnp4UTZleEJCNURVaVQ2LUdyR0ZSdmZJczlzcWI0clF6RUEzWFRGcG84SXB5T1JkNXV3LVBNcWgyNWpjekQxd0tMNjNhUmIzb0ltUVh2UFZkUkxZNUJvaWh6TUpNSDBsQ3FzRnZuS3FQeG4yakJqY29ZOUM3YUcwQQ?oc=5",
-            "published": "Wed, 10 Jun 2026 07:00:00 GMT",
-            "text": "Stoke City poised to sign Sheffield United loan man The72",
+            "title": "Derby County land significant injury boost amid fresh update over star player - The72",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjA5VGVncjNXdlN3bnRDV0dmZFFMRkdCNHBpMjY2VVJidDFpb1VZaXdFcGhid1VNYmVPU3lrWFo0WlpXOVIzMWM4S3JoVGxiRFB6VXZjUml6eUxHWmtuaGZUNTNlYjJfdENtdjYyYk84cThRdzh5V25tZTYwcDdqYjhjNEY3ZzA1WWJ3Sklab0U?oc=5",
+            "published": "Fri, 30 Jan 2026 08:00:00 GMT",
+            "text": "Derby County land significant injury boost amid fresh update over star player The72",
             "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Sheffield United in talks with 22-year-old over new contract - The72",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMXdxYV9IbDc2YUZUTkpVMGlBM28zcWRkUWpPOTZFZC1tdFhsQko0QmVRZDBPQXZyMnRuV29wNUxwLTdKbFB6d29pN1JNd2RTWVBmbU5NSG5nWnJCVmt0cm5FcF9jTVhNYWpOZW5VbUxJckpYcExRS0x2d0JzOVo5YmJXTnlVMjVkOHhPWDJ3?oc=5",
-            "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-            "text": "Sheffield United in talks with 22-year-old over new contract The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Two late Sheffield United signings show long-term ambitions amid solid winter transfer window: Opinion - The72",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5saFluakpZOTJ5eXVFV2tVZWNPdnA3VGFsbEEtU0ZGSFh2REFjOWNOQzlVNHgycWlZaGJnLVQxVWxxRkdjS3NDSy00T01TV2ctbFlVdnRNSjN3VnBWd2JSb3RhZkdsUUpsQ21zeHZJdWRxbVh3OHA4Q2RfbWNtdw?oc=5",
-            "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-            "text": "Two late Sheffield United signings show long-term ambitions amid solid winter transfer window: Opinion The72",
-            "language": "en",
-            "sentiment": 0.0
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -1750,12 +1761,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "\"Have to put in a much better performance\": Lincoln City vs West Ham predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2Z2FaZ0o3US1vVnd6NUtudlNlQ1RoYzd5TExGY1l5ODYzLVNtMmQ5SEk0aDBUS1FqYzRMRWVMcVkzZ24xWXdDRW9IUUQxd25EQnFmRDlGdzVWdnZNSUprLTZtU2Q2c055M1lOclNrN2ZWXzUxZ01R?oc=5",
-            "published": "Tue, 13 Oct 2026 06:14:51 GMT",
-            "text": "\"Have to put in a much better performance\": Lincoln City vs West Ham predictions The72",
+            "title": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2YyY2RIZlk5QVY2b092V0lWYUtmc21JNzJ5Vl9pNEZKNWk5bGlGNXlTZ2t5enlSU09kekNqMTM2bVNnanU0R2hCRnd4RnJOVVZBM0tHRUFuSkotaThVT2JILXFHZzV3NXdzOGNIUEgtcENOWmtQd3VwaHhEVGRWMndNZnpBb2NfRTZHVkgxTmJSZldRMDNCdWcwLXJPMEJkemJDZzQ2NGRybzQ?oc=5",
+            "published": "Tue, 13 Oct 2026 01:41:57 GMT",
+            "text": "Lincoln vs West Ham Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026 Sportsgambler",
             "language": "en",
-            "sentiment": 1.0
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -1768,12 +1779,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Lincoln City cast eyes over former Wigan Athletic and Arsenal midfielder - The72",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOW12dlJuQ3QzanNybkhWRXhBNWkybU1JUlpCMjN6QThIYVZJakZvS0hrTmFOLTY3MkQ3Tl96SWhHZ0g0T2FOSWpKRlYyazVuWTNqQldXRzlURlhvX1VDV1pGcHhZZkY3WEVNRHo0QzhFX2t4dk85aXNFUEY4RGdrZGVn?oc=5",
-            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-            "text": "Lincoln City cast eyes over former Wigan Athletic and Arsenal midfielder The72",
+            "title": "\"Have to put in a much better performance\": Lincoln City vs West Ham predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2Z2FaZ0o3US1vVnd6NUtudlNlQ1RoYzd5TExGY1l5ODYzLVNtMmQ5SEk0aDBUS1FqYzRMRWVMcVkzZ24xWXdDRW9IUUQxd25EQnFmRDlGdzVWdnZNSUprLTZtU2Q2c055M1lOclNrN2ZWXzUxZ01R?oc=5",
+            "published": "Tue, 13 Oct 2026 06:14:51 GMT",
+            "text": "\"Have to put in a much better performance\": Lincoln City vs West Ham predictions The72",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -1822,15 +1833,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Bolton vs Lincoln predictions and betting tips: Trotters fancied at home - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ2ZUNnVHWUFfaE10S0R1WDFMYUVjV01TV0ZScE95TnlSaUhzLTh5MmswY0VmeGJCWlhIUFZmaHIyemVFN05SRXRJZXpyUkJ6TWpvZS1Ibk9xSGp3RWtYYllEREhfRzh2VWZQRzlVR2JKbTZ5bFlOTTJhZTZCd3ZpcWhXVV9SOG1XenBZZg?oc=5",
-            "published": "Sat, 29 Aug 2026 07:00:00 GMT",
-            "text": "Bolton vs Lincoln predictions and betting tips: Trotters fancied at home Squawka",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Watford vs West Ham United predictions and betting tips: Hammers fancied on the road - Squawka",
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUNUSE1ISEFYWlJKLUVGV2ZoLXdYVU5xdExzandIMEtOM0FuUzVYZm1oeG5ISTVvaDBOWUt3Qkpoajd4WkpuZVNpeG8yYzhuSGJFNzlvZDJRSi1Oc1Q0S1BHdlhYZllBNXBkT0hzVTdfbFV2YkJuYjdIZTBXT3ZVOV8yQm0yckljUnZDcGo1SQ?oc=5",
             "published": "Wed, 26 Aug 2026 14:36:34 GMT",
@@ -1858,12 +1860,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“Have to put in a much better performance”: Lincoln City vs West Ham predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWU5GVnNScTdKVjh4QUJIZ0Rqb1RqOFZUM2tIRlhQbmhqd0JBTGV4d3FDR29kcWdZOXktMEU5cGR0T3RYSVh5TzVkOFNXUld3NEdsWHVqV2R3ck5FblhOa0F0WHEweFA2bEozQ2ZrMk15cXh0YkQ2VnVGRmdaNUxMTlAxNWdFVURIYnBwcVFiUTJpY1NmRHNvcFVvTHFkUG5rR3VObTNURTVFeE85U0NxcXFlR2ZGbkdYNUJxOUJPa0U4SHIyVU5ITFUyWHRhc2Z5bERIckV4ejhCaVBRaUtXT0xn?oc=5",
-            "published": "Tue, 13 Oct 2026 06:14:51 GMT",
-            "text": "“Have to put in a much better performance”: Lincoln City vs West Ham predictions The72",
+            "title": "Bolton vs Lincoln predictions and betting tips: Trotters fancied at home - Squawka",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ2ZUNnVHWUFfaE10S0R1WDFMYUVjV01TV0ZScE95TnlSaUhzLTh5MmswY0VmeGJCWlhIUFZmaHIyemVFN05SRXRJZXpyUkJ6TWpvZS1Ibk9xSGp3RWtYYllEREhfRzh2VWZQRzlVR2JKbTZ5bFlOTTJhZTZCd3ZpcWhXVV9SOG1XenBZZg?oc=5",
+            "published": "Sat, 29 Aug 2026 07:00:00 GMT",
+            "text": "Bolton vs Lincoln predictions and betting tips: Trotters fancied at home Squawka",
             "language": "en",
-            "sentiment": 1.0
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -1885,28 +1887,37 @@
           },
           {
             "source": "Google News RSS",
-            "title": "EFL Championship - Matches, Stats & Standings - APWin",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwWVJVTEFJaDhtck5UajNvWjZlQUZoMXR6RDZQMXk1Rmg5LUsyOW1jbE9YbXpYa3JNTXY3eUd1SEdSNWtHTGprT1Z5cmEtQldkYUliNzExRFo2S21KSlQ2UkU3YUI?oc=5",
-            "published": "Mon, 16 Mar 2026 20:11:03 GMT",
-            "text": "EFL Championship - Matches, Stats & Standings APWin",
+            "title": "Lincoln City cast eyes over former Wigan Athletic and Arsenal midfielder - The72",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOW12dlJuQ3QzanNybkhWRXhBNWkybU1JUlpCMjN6QThIYVZJakZvS0hrTmFOLTY3MkQ3Tl96SWhHZ0g0T2FOSWpKRlYyazVuWTNqQldXRzlURlhvX1VDV1pGcHhZZkY3WEVNRHo0QzhFX2t4dk85aXNFUEY4RGdrZGVn?oc=5",
+            "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+            "text": "Lincoln City cast eyes over former Wigan Athletic and Arsenal midfielder The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "West Ham face cut-price star player exit threat in 2027 after new agreement - The72",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORFNtdV9EMWRhcmxYM3hndjFIc09DZFp3dEg3Y3M4VVRGQkQwT0NhUnU2am9MVGtGWUY0c2FTQm9rODVWOVdZLWdKeU1yZGI3Zi1YbUE2NEJteUlGTmNRZDVnOEplWktQYW5MaGdudkU0Z09NdmhELXBpSE5JTHFfemQ5UQ?oc=5",
+            "title": "West Ham offered Danish centre-back amid summer transfer desire - The72",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yRkZHVjZHdjgxb1ZVd1JxWlJmMjJzc3pOMFBhRFh2VEEzVkRhX2pzc2xfektQOTYwbFdOZ3hnTUFPNG1YaDh3NmpTSjJqaWYtUl9aNHVWWllMSUJFLUVVTkZlMVR6WkVpdEU0U3BkdkI?oc=5",
+            "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+            "text": "West Ham offered Danish centre-back amid summer transfer desire The72",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "West Ham and Wolves eyeing swoop for International midfielder - The72",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fdW1DS0N4b0Z6b2V4SHhHbXoyQ21hQkwzREItREl5RXFzMVRqamc5dWRNWU9MRkM5aUpvY1ZlWVBoamlQSU1HdUh5TVdXX1E4eEp4cUpBTFJ0aGp3Z3cxd2IwUGVlY2o2cGh4VVl5SF9lRkVteFRUdg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "text": "West Ham face cut-price star player exit threat in 2027 after new agreement The72",
+            "text": "West Ham and Wolves eyeing swoop for International midfielder The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season - The72",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiemlXMDMzRDlmVUt0RjJwQ21CVzF3MTFsZDRZb1pzbXZiWVBFUkpIM1VvczBzeFl5Q25mY1FCaEF4ak93cVc5M0g1WFFFeUt3TmJ0OGtudFFFdVJQTUo3ZnUxSGYtWjUyWUlvVGVKRWYyVDRkbnlkRElmTXAyUWc?oc=5",
+            "title": "West Ham agree statement £22m deal for Celtic's Arne Engels - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtbnY5QXdGR3VMMDBCbUpFbVh0T01yMTlrUHFXN2dSSnpEWXlSYi1HbnNPUzJJMlhpLXVScTFDN0dWT2tkZ21JX19kbGZva0trQmI2VDhwV3VuYTdFeUw1YzVJanBhUGtGczZUaElLTWVma3llMzdaajhn?oc=5",
             "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "“Could be their time”: Jeff Stelling predicts QPR’s final league position for 2026/27 season The72",
+            "text": "West Ham agree statement £22m deal for Celtic's Arne Engels The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2660,15 +2671,6 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Norwich City FC - Southampton FC betting tip & best odds | 14.10.2026 - Futbol24",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmV4bXpNcUg5N1FKN0lLOC1CVkVSQWRkTV8yOXVfZU9nNzU2am9QTFBPMFI3R3NEV1o4M2xaV3J5UEhSdGdjTkFZS2dhTUpxZDNHWjVRN0pnZjQ5b1Q0TFlvZl9ibk1XZFVvSE4wQjhhTTBuZmpkcTZvbHltYU9kMmlfb2lfaFV4YXJtT3hYbFlaRzFqNXhPZXN3YkVWRjVqdEE?oc=5",
-            "published": "Sun, 11 Oct 2026 01:17:12 GMT",
-            "text": "Norwich City FC - Southampton FC betting tip & best odds | 14.10.2026 Futbol24",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Ex-City loanee Dobbin lands permanent Saints move - The Pink Un",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNWotZm44UHpEMHNNb3pqWkQ5eDlYTkpzaUZzLTlJMGRrRDNRSGJsQmN1aGNsX3oyOWpPRTZjODNrXzFyak94ZzNnSUdPODRzeU1qMDNLdlZURXZ4aHdnbXlxZmswb2JDR3lCaFY1UHZaX1ZubzNpa3l0ZHd4aFpGcXVwQzBqeWUwV1JsU3BrRmFZdWlSc3UxNDlqb09FelV3U25QNTMxdzM3VjhQbDJhYw?oc=5",
             "published": "Wed, 15 Jul 2026 07:00:00 GMT",
@@ -2750,10 +2752,28 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Norwich vs Southampton: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFJGNXZkb19HejNKTXJfaUdtWFlUZHZ0TEE2M0FEMUpCMjUxZkJNYWtuNE9NTHNKY0xDTkVLOEd4X0k5RnA1Zk83dUIwSThCUkxQUHRMZ3B4ajdMc2E3ZkRGYjE3bnNWVUlFU3lLdTAxRC02OHJRMzFsU1RidG5uS0FEdmZ6VmgtQ3h3TUNNUV9FdlE?oc=5",
+            "published": "Sun, 11 Feb 2024 11:02:12 GMT",
+            "text": "Norwich vs Southampton: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Andre Brooks (Norwich) - Bio, stats and news - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZYm5BalpHNlNsUW5CaHJUWUlkeVlfcTlGa251TkM4VWJIbzRISG85MmhOR3k2WVJkTk9jeGhUMkNIY3ZLMFN1d0l5NXplSlB4WTJZQ0xTOVRiMlQzc3NYY3FmdWlGbUpMU1dXREEyV2ItYkF5WFE?oc=5",
             "published": "Sat, 11 Mar 2023 16:42:46 GMT",
             "text": "Andre Brooks (Norwich) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Welington (Southampton) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRZVlRWjQ5OUkwZ01wVFRIWW9XM3A5bUZtRzk5U1pDamRGR185UWxHdUsxYXByeEh6aHZ5RFRoYU1WeS1ZLS1xOU44UEM5eWtkckxXQ2RDdGdmWkJxdVBCTk4zU2xWRGZXcHlvRGtldzg?oc=5",
+            "published": "Sun, 26 Mar 2023 21:38:35 GMT",
+            "text": "Welington (Southampton) - Bio, stats and news 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2781,15 +2801,6 @@
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTGZxWEVUSUdUNEZUZ29VV1dnb01wcV9PVEx4RmFJX3hfMzM1QWxqcV96WnNqRGZPVVY0Qno2Y3FvRUdCUFBXNHByRGhKM0g4X2VvQnl4Mzdkck1hX0RMWlBNTGVMLXlqRlYydUV0My1NN3h4UW16OTJtdGdlcGlYOWl1dFRrQ3ZKV0RuREgyVHMxZG41cjRPM1FVcUVvWWRDdlBERjlLaGs5UzF3YUpJ?oc=5",
             "published": "Thu, 08 Jan 2026 08:00:00 GMT",
             "text": "Martin Chivers, footballer whose prolific goalscoring helped bring silverware to Tottenham – obituary The Telegraph",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Birmingham VS Norwich: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzJJem5JMlZpVThiZjNhZW9fWDhibk56enZsdEFpc0JMb3g2NmtQMDVpRy1Dd1NPSGRibjl2bXoyZmlDOWJNRUFocW9rUjhtMjRRbHNsYkNTUWVlUl9aaU15bDN1TlhqcVZJWWVVVGlIQThMX29qd3g2TXFUODdMME8yWGpqQlA5?oc=5",
-            "published": "Mon, 11 Mar 2024 23:05:36 GMT",
-            "text": "Birmingham VS Norwich: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2871,6 +2882,15 @@
             "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS1VOanhhdndibmNUV2dTRU5vT2l3YmVhaEZyQzEtRjIyVEpGTjZJajN2amZIWlV0bklEcHM5bE9WNzlKdXNHOVlwdXN2YXVoa25RWnEwR2R6VHV3Z3E0TU1QNnc2d1ZoU0xYMVkwQnZQNFNzTFQxTGdMdVN0LXlBYnRJSU4yMXpUODRUdWJXbGh5WE5vekE?oc=5",
             "published": "Tue, 05 Mar 2024 23:58:29 GMT",
             "text": "Southampton vs Watford FC: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2JiZ016SDlON2x3TE1OZ1oyY0M2NWRNdTk1VnQtVGVQbUt3S2FfWVp5MG9RZ2RXMkFqc24zUTBpRGk5ZzZFTDNiMmdXVWpCa2FxQ2R3ZW1Vb19UajFPS202WGtFakVxaEM2VDJPamlVazd2YWFyeWVPQzZFVUg4bV9vcndvTmxkUHhDVmFQRnljem5Pa2VaNXRiQlM?oc=5",
+            "published": "Tue, 13 Oct 2026 21:41:57 GMT",
+            "text": "Cardiff City FC - Watford FC betting tip & best odds | 13.10.2026 Futbol24",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2979,15 +2999,6 @@
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDFMMjNpWmdPY19rVEZFM0lGRUlCb21GdDUzUmJWSUlWMkhmS0FCUW9yVUszOFJuVDVGUXRtOG45Y08xVFdOY25vUE9fbjQ4emw1R1ZESDdFclFPTWVzZFpmSXV6a2hCTjRNQndBaUcyNVhCaTZISUx0NGFPQXhCb3hrLTU2QQ?oc=5",
             "published": "Sun, 14 Apr 2024 05:29:05 GMT",
             "text": "Swansea VS Norwich: Live Scores, Lineups, H2H & Odds 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Watford FC VS Swansea: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNS1XMElOeFY2STRySnVaaXJieC1ad1BvM245Q1BqMF9OSEcwejZ5b3gxZk51MUZyQl9qNkdhUl9tY2dhM0ZESElIdkk5blBxWDdvWjI3Sl9walZqM3h1WVJCNTFRWnBvYXpDUUFGVFk1ZGtEREFkMkVMcVkyWkppMl9Wd210U2FJ?oc=5",
-            "published": "Mon, 12 Feb 2024 18:06:41 GMT",
-            "text": "Watford FC VS Swansea: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3289,17 +3300,17 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_home",
-          "odds": 2.63,
+          "odds": 2.65,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 49.1,
-          "implied_probability_pct": 38.0,
-          "market_probability_pct": 32.3,
+          "implied_probability_pct": 37.7,
+          "market_probability_pct": 32.0,
           "fair_odds": 2.04,
-          "value_edge_pct": 16.79,
-          "ev_pct": 29.15,
-          "calibration_gap_pct": 16.79,
+          "value_edge_pct": 17.08,
+          "ev_pct": 30.13,
+          "calibration_gap_pct": 17.08,
           "consensus": "1/3",
-          "confidence_10": 6.23,
+          "confidence_10": 6.3,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -3309,7 +3320,7 @@
             "statistical_pct": 56.5,
             "prediction_pct": 49.1,
             "intelligence_pct": 32.5,
-            "market_benchmark_pct": 32.3
+            "market_benchmark_pct": 32.0
           }
         },
         {
@@ -3394,20 +3405,19 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_over_2_5",
-          "odds": 1.53,
+          "odds": 1.57,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 58.5,
-          "implied_probability_pct": 65.4,
-          "market_probability_pct": 65.4,
+          "implied_probability_pct": 63.7,
+          "market_probability_pct": 63.7,
           "fair_odds": 1.71,
-          "value_edge_pct": -6.91,
-          "ev_pct": -10.57,
-          "calibration_gap_pct": -6.91,
+          "value_edge_pct": -5.24,
+          "ev_pct": -8.23,
+          "calibration_gap_pct": -5.24,
           "consensus": "2/3",
           "confidence_10": 4.81,
           "decision": "NO BET",
           "reasons": [
-            "Çok düşük oran (< 1.55)",
             "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında"
           ],
@@ -3421,15 +3431,15 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "over_2_5",
-          "odds": 1.35,
+          "odds": 1.37,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 65.6,
-          "implied_probability_pct": 74.1,
-          "market_probability_pct": 63.0,
+          "implied_probability_pct": 73.0,
+          "market_probability_pct": 61.8,
           "fair_odds": 1.52,
-          "value_edge_pct": 2.57,
-          "ev_pct": -11.46,
-          "calibration_gap_pct": 2.57,
+          "value_edge_pct": 3.75,
+          "ev_pct": -10.15,
+          "calibration_gap_pct": 3.75,
           "consensus": "2/3",
           "confidence_10": 5.21,
           "decision": "NO BET",
@@ -3441,48 +3451,47 @@
             "statistical_pct": 69.5,
             "prediction_pct": 69.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 63.0
+            "market_benchmark_pct": 61.8
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_yes",
-          "odds": 1.3,
+          "odds": 1.32,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 66.8,
-          "implied_probability_pct": 76.9,
-          "market_probability_pct": 65.3,
+          "implied_probability_pct": 75.8,
+          "market_probability_pct": 64.2,
           "fair_odds": 1.5,
-          "value_edge_pct": 1.47,
-          "ev_pct": -13.16,
-          "calibration_gap_pct": 1.47,
+          "value_edge_pct": 2.57,
+          "ev_pct": -11.82,
+          "calibration_gap_pct": 2.57,
           "consensus": "2/3",
           "confidence_10": 5.27,
           "decision": "NO BET",
           "reasons": [
             "Çok düşük oran (< 1.55)",
-            "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında"
           ],
           "engines": {
             "statistical_pct": 70.2,
             "prediction_pct": 72.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 65.3
+            "market_benchmark_pct": 64.2
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_away",
-          "odds": 2.84,
+          "odds": 2.87,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 28.9,
-          "implied_probability_pct": 35.2,
-          "market_probability_pct": 29.9,
+          "implied_probability_pct": 34.8,
+          "market_probability_pct": 29.6,
           "fair_odds": 3.46,
-          "value_edge_pct": -1.03,
-          "ev_pct": -17.94,
-          "calibration_gap_pct": -1.03,
+          "value_edge_pct": -0.68,
+          "ev_pct": -17.07,
+          "calibration_gap_pct": -0.68,
           "consensus": "0/3",
           "confidence_10": 2.39,
           "decision": "NO BET",
@@ -3496,7 +3505,7 @@
             "statistical_pct": 26.5,
             "prediction_pct": 28.8,
             "intelligence_pct": 34.5,
-            "market_benchmark_pct": 29.9
+            "market_benchmark_pct": 29.6
           }
         },
         {
@@ -3530,15 +3539,15 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "btts_no",
-          "odds": 2.45,
+          "odds": 2.37,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 33.2,
-          "implied_probability_pct": 40.8,
-          "market_probability_pct": 34.7,
+          "implied_probability_pct": 42.2,
+          "market_probability_pct": 35.8,
           "fair_odds": 3.01,
-          "value_edge_pct": -1.47,
-          "ev_pct": -18.66,
-          "calibration_gap_pct": -1.47,
+          "value_edge_pct": -2.57,
+          "ev_pct": -21.32,
+          "calibration_gap_pct": -2.57,
           "consensus": "0/3",
           "confidence_10": 2.63,
           "decision": "NO BET",
@@ -3552,21 +3561,21 @@
             "statistical_pct": 29.8,
             "prediction_pct": 28.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 34.7
+            "market_benchmark_pct": 35.8
           }
         },
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "under_2_5",
-          "odds": 2.3,
+          "odds": 2.22,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 34.4,
-          "implied_probability_pct": 43.5,
-          "market_probability_pct": 37.0,
+          "implied_probability_pct": 45.0,
+          "market_probability_pct": 38.2,
           "fair_odds": 2.91,
-          "value_edge_pct": -2.57,
-          "ev_pct": -20.85,
-          "calibration_gap_pct": -2.57,
+          "value_edge_pct": -3.75,
+          "ev_pct": -23.6,
+          "calibration_gap_pct": -3.75,
           "consensus": "0/3",
           "confidence_10": 2.69,
           "decision": "NO BET",
@@ -3580,7 +3589,7 @@
             "statistical_pct": 30.5,
             "prediction_pct": 30.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 37.0
+            "market_benchmark_pct": 38.2
           }
         },
         {
@@ -3643,15 +3652,15 @@
         {
           "match": "Norwich City FC vs Southampton FC",
           "market": "first_half_draw",
-          "odds": 2.25,
+          "odds": 2.21,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 22.0,
-          "implied_probability_pct": 44.4,
-          "market_probability_pct": 37.8,
+          "implied_probability_pct": 45.2,
+          "market_probability_pct": 38.4,
           "fair_odds": 4.55,
-          "value_edge_pct": -15.77,
-          "ev_pct": -50.5,
-          "calibration_gap_pct": -15.77,
+          "value_edge_pct": -16.4,
+          "ev_pct": -51.38,
+          "calibration_gap_pct": -16.4,
           "consensus": "0/3",
           "confidence_10": 2.01,
           "decision": "NO BET",
@@ -3665,7 +3674,7 @@
             "statistical_pct": 17.0,
             "prediction_pct": 22.1,
             "intelligence_pct": 33.0,
-            "market_benchmark_pct": 37.8
+            "market_benchmark_pct": 38.4
           }
         }
       ]
