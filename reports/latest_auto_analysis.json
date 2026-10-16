@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:26:36.427866+03:00",
+  "generated_at": "2026-10-16T14:17:59.028952+03:00",
   "run_status": "OK",
   "decision_status": "BET_CANDIDATES",
   "data_sources": [
@@ -65,8 +65,8 @@
         }
       },
       "intelligence": {
-        "mentions": 46,
-        "web_score": 0.0,
+        "mentions": 45,
+        "web_score": 0.0222,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -75,10 +75,46 @@
         "items": [
           {
             "source": "Google News RSS",
+            "title": "Le Mans FC vs Toulouse FC - Where to Watch, Stream Info, TV Channel, and Live Updates (October 16, 2026) - Fubo",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeF96MVgxeGFaTTdGTUdIRDNjTEJqM1ppOF9SYkVzZ2dvR3VqejFKUzk1RlJHQkhLR2xCdVkxdXprOHdHQ29YbXhyQmV4UnBfZHFqb1VIQk50bHgxUmdCRkd6NmlEeXZ6TFdnVENVWkQxaEpHNjF6NFpULUVIaUk2dWt2R2Z5SllkOUxWUEdzbDVkeEcxeE5sRkFVbEYteU45Mm9EdmI1UTNrMVd4UDFZWEdoR0x3TkMtY0JEXzFTNGFqSlZpM1FfZA?oc=5",
+            "published": "Fri, 16 Oct 2026 06:05:50 GMT",
+            "text": "Le Mans FC vs Toulouse FC - Where to Watch, Stream Info, TV Channel, and Live Updates (October 16, 2026) Fubo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Le Mans predicted XI v Toulouse: Adil Bouarabaa out, Djibril Sidibé to face former side - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5c1ZzbVI0ME1FdXFfRUpkRkJpT2dITjAzZnhoLWJZVzBwLXJmVHNKdEFnOVZ3TGVRaEtHbUdfNkppcGYzWnctOG0tV09zNV8tS0gySUp4UEIweEdSZG5LYU05SS1RTzUySTMxUmRqSEdmZ3ZJVms5TVM0QQ?oc=5",
+            "published": "Fri, 16 Oct 2026 09:03:34 GMT",
+            "text": "Le Mans predicted XI v Toulouse: Adil Bouarabaa out, Djibril Sidibé to face former side Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTXhHcWcxZVE3VlJuSFQ2SVlwVDlaeUlZY1RrLXk5Vk1seUQxZFJGRm5JbndKaklqQTZHaWlFR2VBU0o2X19RSWpORFE4Q0NfYlIwMlFUU1RvVmNDcEV6Y0JWMEx3QnBaNDlmMV9LVXFRSzhkQ0JOazhkeEJpOURsZEhyR0NUb2ZKX0Q2NWtDSm9WUXQtSHNjZVFEZXVqV1dpYUpTUmFNb0I1X01tNlJVbzY5RkRiMWYt?oc=5",
+            "published": "Fri, 16 Oct 2026 09:47:23 GMT",
+            "text": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength Get French Football News",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Le Mans FC vs Toulouse FC: Ligue 1 Football Tickets - KarloBag.eu",
             "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3lMR2ROaEVKeEVYNEk0SXBFdS1Tc3lxWWlQbFhLVmFVU2ZOVEdPZHJkZ1FpTmVpT2JiQU5uMVRPeTFrMm4tYXlzVTFUYXh5ZnlKQW5LX3BKNFZFbTVaenR1TXlKeGd5VEg5X1dOMXBoWWk0VXBhTkdScGNpd1FoU2hmeDlWWk5EZHA2R3A3UG1LV0NEYVFR?oc=5",
             "published": "Sun, 11 Oct 2026 23:58:45 GMT",
             "text": "Le Mans FC vs Toulouse FC: Ligue 1 Football Tickets KarloBag.eu",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Le Mans vs Toulouse Prediction and Betting Tips - 16 October 2026 - Betfred Insights",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU03RzNWbEZydmlBdXdsYmtOMVlsX2tydElJMEt3RFhaTm5UdXIzdlNxNjdtX1FiUXlGQllJMTA3b0lRTWZSczdqeEZhMHNFU1U2Q1BySkYwVjRVR041dHpmUzlkdkFidGREQUNQZTVzTW0wVzlsb3lOenBTeWhpNkY2Ukxtc1I2QUlnMTdQSFYxemhodWo2WFNEVlhXSUZXemNOc1FDbWJycHVpY1VReUJPVQ?oc=5",
+            "published": "Fri, 16 Oct 2026 05:00:34 GMT",
+            "text": "Le Mans vs Toulouse Prediction and Betting Tips - 16 October 2026 Betfred Insights",
             "language": "en",
             "sentiment": 0.0
           },
@@ -102,19 +138,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Official | Djibril Sidibé joins Le Mans - Get French Football News",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkw1MXdMVEt6Z2J5dEpaZE1qWmZQaHR4ZXB4eVdlMGpaTmRKVGxGZHloV1FISjNFSkIycG9WMUQ4Rkt3QVN0SUFocElQaFhNQUFjRTlMY0xDcW4wXzFUSFB6aU1QQmg2ZW5WRmktZXc3QmwxNGhOUndQazAyVmUyZElwSHlOem45?oc=5",
-            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-            "text": "Official | Djibril Sidibé joins Le Mans Get French Football News",
+            "title": "Le Mans FC - ligue1.com",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xWFFrVTJuLWkxbVlka3ExMkhKNWRYMDQ4MzFhMHJyOHAwX25UOXB1Yjh1TGNkYnZITDdMZVpzOVY1QnA0YkpEUEsxUVRiMVMtU3JqWjRkR2VlSFdUb2Nhd1J5ZUZoQ1RYem13X1Q5Y1ZtYXU2?oc=5",
+            "published": "Thu, 02 Jul 2026 07:36:48 GMT",
+            "text": "Le Mans FC ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xWFFrVTJuLWkxbVlka3ExMkhKNWRYMDQ4MzFhMHJyOHAwX25UOXB1Yjh1TGNkYnZITDdMZVpzOVY1QnA0YkpEUEsxUVRiMVMtU3JqWjRkR2VlSFdUb2Nhd1J5ZUZoQ1RYem13X1Q5Y1ZtYXU2?oc=5",
-            "published": "Thu, 02 Jul 2026 07:36:48 GMT",
-            "text": "Le Mans FC ligue1.com",
+            "title": "Official | Djibril Sidibé joins Le Mans - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkw1MXdMVEt6Z2J5dEpaZE1qWmZQaHR4ZXB4eVdlMGpaTmRKVGxGZHloV1FISjNFSkIycG9WMUQ4Rkt3QVN0SUFocElQaFhNQUFjRTlMY0xDcW4wXzFUSFB6aU1QQmg2ZW5WRmktZXc3QmwxNGhOUndQazAyVmUyZElwSHlOem45?oc=5",
+            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+            "text": "Official | Djibril Sidibé joins Le Mans Get French Football News",
             "language": "en",
             "sentiment": 0.0
           },
@@ -156,28 +192,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Villarreal CF sign Logan Costa - Villarreal CF",
-            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOTVBxdE51Mkt5WUU0QUJpOHVzZi1LemZ6OVdYeVFwZ29uRmcwYVM1OU5BdDU4VDk1eVllMERBM2t3Mnl3cEZTUW5IMHFBaUJUMGZETi1NZ21FVXh2Tzk2ZFQ4a3ZwVE53ZVE?oc=5",
-            "published": "Thu, 22 Aug 2024 07:00:00 GMT",
-            "text": "Villarreal CF sign Logan Costa Villarreal CF",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Preseason Friendlies: How has each Ligue 1 club performed? - ligue1.com",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQjR4bTdRdjNpeXI4aGItR08xZnJNcDBSQkV2aUsyamJzOWJaVHRVaDhnck1zR1k2MFBUM1hwTXZ1ckFLdHFSUWI3S0Q0clN4anR0ZGMxY21YNGVMZEsyVmQ0MWVaS1VvaTN5bVdPMUMwQ0RvUmpaQkd1REdQNXhaVm4yeHM1NVRzSDBnTWNnWTA3M080NHFyRWNROE9NbjVaUEdiSmh3?oc=5",
             "published": "Wed, 15 Jul 2026 07:00:00 GMT",
             "text": "Preseason Friendlies: How has each Ligue 1 club performed? ligue1.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Le Mans FC - Stade Brestois 29 - (2 - 2) - Highlights / 2026-2027 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IT2k4T2h2TXNiWm1wZkNVWDlLVlJJemo0MkNlQmVpUUQzRDBKa0pFZU51TUJWelplbjVjTFhMeTRPNHZvV295dGJrVlJZRG9xX1VRamZINVVhRWxFbk9WclpjZjJtZw?oc=5",
-            "published": "Mon, 24 Aug 2026 18:52:58 GMT",
-            "text": "Le Mans FC - Stade Brestois 29 - (2 - 2) - Highlights / 2026-2027 ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -192,19 +210,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match sheet (LE Mans FC - Angers SCO) - GW 17 - SEASON 26/27 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93Z1dmRHJ3VmtkdEhiVXBGbHJPc1ZoZGJ3b2ZYbUtJMHExTU5VRXRVUVpyWkpWYUNEZUJLXzdaWWZBSjVGdlVIaU04ZEtLVDBGQ21lM1J6Y0w3QmxuZ3VDVGtnWmtUTWZRUDlIOVZ1T3pKOVdJMktLNg?oc=5",
-            "published": "Sat, 19 Sep 2026 08:53:08 GMT",
-            "text": "Match sheet (LE Mans FC - Angers SCO) - GW 17 - SEASON 26/27 ligue1.com",
+            "title": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQk96UDVMb1l3b2R1NHc5Yk0wRUNpbEVuN3FvMWN1d0ZPY0w3bldqTDAzT2d2djdXSXlqeGVrXzdndmxvVDhmOG1rMkR3WFM2WnphdWg4X3pMTDNpUTJiYlRvbkZwTkpxWUUyWEI4eUlMS0tPV2lPaWtNT0dHbjlHaA?oc=5",
+            "published": "Fri, 16 Oct 2026 09:47:00 GMT",
+            "text": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Match sheet (FC Lorient - LE Mans FC) - GW 19 - SEASON 26/27 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15VWFqYTM2SFowSXpDeW1lMVRvUkt3ZDFMSmQ2d2FOVVgtRWZOZEd6SnNWVE1wcnhaOGdaYkc4MmI1b1BidHE2RXZkMkVZX3RvYmxFQ25FbTI1NW5sMmlSSzVQZGZVUmxkYmJ0dWxlZzZKaTZtOVA0UQ?oc=5",
-            "published": "Sat, 19 Sep 2026 04:23:45 GMT",
-            "text": "Match sheet (FC Lorient - LE Mans FC) - GW 19 - SEASON 26/27 ligue1.com",
+            "title": "Le Mans vs Toulouse: Lineups, Prediction, Odds & Bet Builder Tip - WhoScored.com",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOUJxQzZ6SWdWSEJBVHFfamdZeU1CUnRJSUFZNVZTY0J3eWpEWnB0dUJta0l3ODU0U05DT0pJYW5pdVZHY2ptQlBBMDNkWUw0VDh0aVhOYUJKNFNYMDJwcFlXejJzNzRkNTZiZFhzTGFDak41aW9xRFBLSlBELWEzc2hMMmR4d3BfeGI4azNBUmN3cUNmek0zZkRxakJTSndxa0t0MmlWb0d4eV9zV0twRk52NkxWMUExWmZZbw?oc=5",
+            "published": "Fri, 16 Oct 2026 09:51:00 GMT",
+            "text": "Le Mans vs Toulouse: Lineups, Prediction, Odds & Bet Builder Tip WhoScored.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -212,17 +230,8 @@
             "source": "Google News RSS",
             "title": "RC Strasbourg Alsace - Paris Saint-Germain FC prediction & tips 17.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbGl4a2dTLVJzWXR3cmhvSDZHbjcwVUJKYVYzWXYwOUNQQUNybXJKOG5pc0lyRWMwMjVMYXhFbkMzV0hpZmZJOE12cktIN2FGUUktMjFlWnZwR2lick9QQVZIZ3NMZWl6dzQtVC03VkZHb2gxNi1lMGtQWUZUUEVxeDVGSTdlNzQ5MDNPQTFlN1ZsOGk1OEVlMnJzZ1hqMlB5UGxlYw?oc=5",
-            "published": "Thu, 15 Oct 2026 20:08:56 GMT",
+            "published": "Fri, 16 Oct 2026 09:51:45 GMT",
             "text": "RC Strasbourg Alsace - Paris Saint-Germain FC prediction & tips 17.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "26/27 Preview #3: Le Mans FC - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2c0Y5LWdzT21YNWwwUDRuSktVdEk3YnVHZnI1VUFkZmtydnFuYnFQVVIwUjNnaVBFTXNmWE5Ydmxhb1dwRjBYaWJFZFZQNWxNWC1pMmJ4c3JDb1RMY1VzUW5wRVI4dTU3YVhCZkZfU3pMZU9FNGtwR0RpQWMzdw?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "26/27 Preview #3: Le Mans FC ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -237,12 +246,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "World Cup Preview: Group G - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nT3dGSklQTEFLT0ZGcEFrbFpmOGExWHg5eXBQZHVaZGpsTm1kRmpVdWF4MTRzZ1A0YWx6SzNwd21BbUkyb19DaG9hUGdkbFpHUVVMNEhyRXgxQkxsNlN4VVVZSWJna0o1UVA4NlYtaS1LT3BPWkdURExwX1E?oc=5",
-            "published": "Thu, 11 Jun 2026 16:12:23 GMT",
-            "text": "World Cup Preview: Group G ligue1.com",
+            "title": "LIGUE 1 PREDICTIONS | Round 7: PSG look to extend winning run in Strasbourg, Paris FC host Rennes - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUNSTGJ6QkVqRktUVC1TcGtJS1cta0ZHVkRlWi1mYkFVT3RzelltaXJBSmpiZUx6Y0x3UEtYaHg4X1RHa1Njc2tmaG44MmNNNGVQM3VIR3AzUUtEV01RbllTNTQtemxwak1kMDdteTdLT0pJNDIzRHVWeFQxUnNZaFA5cWRvU3doLUJKck5xNjhUYWJ5Y2d0eG1rWS1qM2szVTQyTmI3dHhBYmZqSzVBcFZHYkVzU0ZaTHFaMXpPaHJDUHMwZDZaX1YyZ2RDT0ViUkZN?oc=5",
+            "published": "Fri, 16 Oct 2026 09:12:57 GMT",
+            "text": "LIGUE 1 PREDICTIONS | Round 7: PSG look to extend winning run in Strasbourg, Paris FC host Rennes Get French Football News",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -250,6 +259,24 @@
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQk52LTVrT3VsckVOOTN5RDA3VnUzTDhEUEdDanI3NllGRWc4d1RtLWFnOWsycnZsMERvM3ZzbTdGVXRhQ1laS2lnT3g5SFdWRVpsYzE0cDlJdWVKbkxLd0R3dmM1Z011Ti1Jek9mT2lUd0ZBTDZDU3FlNUxsck5RUWN6cVZCTFhEY0VxV2FQcDNkMURR?oc=5",
             "published": "Thu, 08 Oct 2026 12:36:13 GMT",
             "text": "AS Monaco FC – Toulouse FC prediction 10.10.2026 – Betting Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "26/27 Preview #3: Le Mans FC - ligue1.com",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2c0Y5LWdzT21YNWwwUDRuSktVdEk3YnVHZnI1VUFkZmtydnFuYnFQVVIwUjNnaVBFTXNmWE5Ydmxhb1dwRjBYaWJFZFZQNWxNWC1pMmJ4c3JDb1RMY1VzUW5wRVI4dTU3YVhCZkZfU3pMZU9FNGtwR0RpQWMzdw?oc=5",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "text": "26/27 Preview #3: Le Mans FC ligue1.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | PSG vs Le Mans: team news, lineups, predictions (Ligue 1 10/10) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTVGlRbGtBVFF5V1d5S1dEWHBZOG0zZGZ5Q0JNWWtZNFV5bzN0a1paNWt4SzNjZG9HYkk1VU1vcmo0OUlPcmp6M0I5bVFzYllZUGJsbVRUdllRZVE3cG84OHJaU1Fmc25kb1l1RDVISGhFYnRwMDJpN0ItVQ?oc=5",
+            "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+            "text": "PREVIEW | PSG vs Le Mans: team news, lineups, predictions (Ligue 1 10/10) Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -264,55 +291,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ligue 1 Predictions | Round 1: OM get underway against Strasbourg, Rennes host PSG - Get French Football News",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdFRZY1VaZWpQVFdTQ0FNMjh4b2dQWkdlMkN1WkozcGtqbWhVQ2lMNDJnUlVwWlZ3ejVvbkd6MndhTDZGcWJ6ZkJETHcxb0VmTXdOZ0xyU2dHWXhXY2Y0RTNrNlZCaWNPNTR4eU0tblItNE5HRHJuaTMxbmhjYTJmYW1Ma3ktR3Z4VEZ1ZG42WGhMRElLRW9xZ2xMa0l6eU5oSkMxLTNlZWpDbnpPc2tPS0ltUi1mZDBFUmRmdktEZw?oc=5",
-            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-            "text": "Ligue 1 Predictions | Round 1: OM get underway against Strasbourg, Rennes host PSG Get French Football News",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ligue 1 clubs' full list of pre-season friendlies - OneFootball",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaHQwQUI4eEpSUzVZWlBCWE1ucjNXRTZUVkdpT0lTUmhjdnI1NkhVVlBSWGNxQjVacDdWc3dCN1p5NGZhSnhZYjMwSEJNdWJpcXFzNnVidFRwREctMHd6OEVDVFJwRkNtbEs1RlVFRExtZndmN0RBTXFGWmRHSDIzbEFEcS14SjFIUWM4UENzNjNyYzQ?oc=5",
-            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
-            "text": "Ligue 1 clubs' full list of pre-season friendlies OneFootball",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "FC Lorient - Paris FC prediction & tips 10.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOanhIclJ2aTVEcGxuRmM0NmV0NU9DN00yNXdFOTN3N2ZhSWdEVmoxbVJSdGJKU0M5VEd1dlRRR1JtT25MNGJpZ3B2cno4YzJJY1A2RW1Dd1FJc0o0OVYzZUMya00xSGRqc1NlSWhjMllsenp4TnlhaXFHNjRQQndacHJYaWhvSlQ1ZTRXWWE4UWt6QQ?oc=5",
             "published": "Thu, 08 Oct 2026 04:53:54 GMT",
             "text": "FC Lorient - Paris FC prediction & tips 10.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Lorient vs AS Monaco: tickets for Ligue 1 at the Stade du Moustoir and a full matchday guide to Lorient - KarloBag.eu",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNnk3NnFYd3lEOVkySjZlcDFhUjA4U3JiZElJUS10ZTl2U2x2NnpIM1dwNy1oZmdndGh5MHlXUU1fRy1ROXEzWTAzcUlObGpIVkpxT0RMYlA2LXgxZFNpWkVweDFzVVY2VXRoVUlXcE1ydUs2bXNLcnJQRkh0M2g3dV82dl9mQ0xHYlF5bVNJOWJKb3M4eV9pcUNGdkppYkk?oc=5",
-            "published": "Sun, 11 Oct 2026 23:39:56 GMT",
-            "text": "FC Lorient vs AS Monaco: tickets for Ligue 1 at the Stade du Moustoir and a full matchday guide to Lorient KarloBag.eu",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "OGC Nice – RC Strasbourg Alsace prediction 11.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMFVlTDRqcjBGYWIzMmt3WUNtZnBTelJUSHdtU1ZWeVFBRkF3TVRrZHF1S0xIbG5qbFNzY2cyQWNMQ3N0eHpLZGJxekw5NnAtbXJPNkVVWGFvNGFrVUtxYTBNMFBnSWVVOW1jOEVsbzhLUDNKQ1hCX0QzbXk3MVAweFlaX2pqWE5pOFBZR3RRaGJzNTBhZFE?oc=5",
-            "published": "Thu, 08 Oct 2026 12:43:57 GMT",
-            "text": "OGC Nice – RC Strasbourg Alsace prediction 11.10.2026 – Betting Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "ESTAC Troyes - RC Lens prediction & tips 17.10.2026 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmczVWk0UWluZ3Voc3RldkZJVF9SM1U0TkMxY2ttRDlsbHNzblJNNUFYQVpNbTV3S3ZxZXg4Snc2d25rZVRjdUNMclRDTkJTcDVJTVlZR2hkY0QxWWdJN0JmRWJCNVNXSDJqamx2MlRZYzlUSTgxdXU3R0hkODV0N3FVTjFOTXRFMktNMEhiRVkxNjg?oc=5",
-            "published": "Thu, 15 Oct 2026 08:45:39 GMT",
-            "text": "ESTAC Troyes - RC Lens prediction & tips 17.10.2026 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -336,6 +318,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Ligue 1 clubs' full list of pre-season friendlies - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM21TalhiMG9ROTRacEEzTHkzU2NwNjJrakNMU09rcHoxeVlCVjNQUFNqUFN2TF84eENleVY5STktZ0tQLTNoTXhCbjdrZkNEUGFPaEhSRFBVYXRZWkxBbXFuN0lkLXNja1JnZ1hoR0pUWkpKYkdjWU9PZHdDZV9Sc2lmbw?oc=5",
+            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+            "text": "Ligue 1 clubs' full list of pre-season friendlies Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Toulouse predicted XI v Marseille: Aron Donnum returns for Coupe de France clash - Yahoo Sports",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHpFUGRnakVVdmNnODlZMVRJTDlwNm9aYS1WbXhIQlNuYWdwbUpNbTNTbExxeHJoWGJtQm5KR1h6MXVhNlptb2NKbTZmNEVuLUdHSlFrcFZoVmluUkFBdkk2WHdLZG9SWS1xdE50dGVON3dDV3BwNnUxaHdDQkFjQW44OU04NGxoa0E?oc=5",
             "published": "Wed, 04 Mar 2026 08:00:00 GMT",
@@ -354,19 +345,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVW1SRy1zNmNBaTgwZHFZYnJTalhhZDZ3NnZld2NwenpfNnd4ck1JdFNEbHNSRXNsUlo1TWtrcXpSeDM4dUdIWGh3MU1sd2JQSllDbVJhVndfX013ZXgySkh4TTZaVzZ4azd0NFFSMFJWUVhwM2dMQUFyVW1UWnFvVFl5c2VMMm1GV1Y2cVp2ckkwc21YOVY5NkFVSkQzYk1TYXBUNlkyNFlNOGV4UkZINTdxZTQ0cWVBbC16RHFLOS11QlJwZ0hYeEhJVG1tNWpXS185eFhUNF83RUJUdHhLbEVkREFENEJsczQ3a2pCbU1udnBkeVZZMG53X1lIVEw1dUE3NXF3UkJNaUxKYjNwZl9n?oc=5",
-            "published": "Fri, 09 Oct 2026 12:04:58 GMT",
-            "text": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
+            "title": "Stade Rennes - RC Strasbourg Alsace, 25 Eki 2026 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDZVVJNURRRlJTdEJJblJiMldtYVpKSWR6Q1Jub0dhV1NMVkhlZEtHaWZwWFZiWFMzRkktaXVxNVlEY0NJOTNRTWxmWUYzSWZHVFRoeHYxYV83N25NeWRDTUkyazZLWGtRcGlQU3NJcDVFak9CNnRpemFVa2U?oc=5",
+            "published": "Wed, 14 Oct 2026 09:21:26 GMT",
+            "text": "Stade Rennes - RC Strasbourg Alsace, 25 Eki 2026 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2VrblUzU1lSZkw2TUxCUV9ucF9Hd2ZJS1BtUnk1Wm0tUC03QlljXzZITUtvbEdhVnk5UFdvaVlrOERha1ZGRFFUNVp5QjBCYnR6cmFCdjl1Q0IzVkRBajNjaW1vNHBySldLdlNIVlhkMXpIT0NQTUJfRjJnZVJidEIyRHJXNEZJ?oc=5",
-            "published": "Fri, 09 Oct 2026 13:47:25 GMT",
-            "text": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "title": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVW1SRy1zNmNBaTgwZHFZYnJTalhhZDZ3NnZld2NwenpfNnd4ck1JdFNEbHNSRXNsUlo1TWtrcXpSeDM4dUdIWGh3MU1sd2JQSllDbVJhVndfX013ZXgySkh4TTZaVzZ4azd0NFFSMFJWUVhwM2dMQUFyVW1UWnFvVFl5c2VMMm1GV1Y2cVp2ckkwc21YOVY5NkFVSkQzYk1TYXBUNlkyNFlNOGV4UkZINTdxZTQ0cWVBbC16RHFLOS11QlJwZ0hYeEhJVG1tNWpXS185eFhUNF83RUJUdHhLbEVkREFENEJsczQ3a2pCbU1udnBkeVZZMG53X1lIVEw1dUE3NXF3UkJNaUxKYjNwZl9n?oc=5",
+            "published": "Fri, 09 Oct 2026 12:04:58 GMT",
+            "text": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -381,6 +372,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2VrblUzU1lSZkw2TUxCUV9ucF9Hd2ZJS1BtUnk1Wm0tUC03QlljXzZITUtvbEdhVnk5UFdvaVlrOERha1ZGRFFUNVp5QjBCYnR6cmFCdjl1Q0IzVkRBajNjaW1vNHBySldLdlNIVlhkMXpIT0NQTUJfRjJnZVJidEIyRHJXNEZJ?oc=5",
+            "published": "Fri, 09 Oct 2026 13:47:25 GMT",
+            "text": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Le Mans FC - OGC Nice, 30 Oca 2027 - Ligue 1 - Maç raporu - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaFg4QTJxc0pJUzJLcGlKeGFINkdNY0lPUHFadkdDbUs2RmVndEFBalVBNUIzM1U5MzJhcFd2cldsWkpJR1lvSWdJWkFEdE1oalZvU1R6d0xLUGdHZndSX3lKTHIwdGphTldONkl1cnM2aDNKQkpjSy00U1BSMnZ3bWxNTUZFdw?oc=5",
             "published": "Thu, 08 Oct 2026 01:39:10 GMT",
@@ -390,19 +390,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11c1JZWU95MGViYjhzTmRtcXRDOWdNZ1hFMkdWUzBfVGc5Ti16TDF1aldaRGp4bEhsbnQ0dzRuV0FZVE5CaFRRWnJFRzU2ejJGQjhHU2RkRFBDOFZrMGhtbVRVMkViT1hZVXVzcWxjcXN5bzRkaFZGNVpiM3o?oc=5",
-            "published": "Thu, 08 Oct 2026 07:25:10 GMT",
-            "text": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "title": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVVWZWtrVFpwWDZxVGM4WGdnd0c1SWhJLXhjajNDZUN2QWNLdmNIM2s1Y3BSSWhfX3FWdHQ4aGpVVmpPV0llU1VoZzRiTTVldUlOSXhnYWN2SU9pZy0wTXA1NXVoRTJ3a0h6U0hHUWlFS3ViWFk3YjJWdVllaVd4LS1sMlM0aHQwcXNMMDlpVDRSWmFHUVFib2pmcGlFQWxVWHBlcXRuMzJaT25oaHBEbnJzX3RkUGtfNGZnbFFwWUs?oc=5",
+            "published": "Sun, 11 Oct 2026 08:23:50 GMT",
+            "text": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVVWZWtrVFpwWDZxVGM4WGdnd0c1SWhJLXhjajNDZUN2QWNLdmNIM2s1Y3BSSWhfX3FWdHQ4aGpVVmpPV0llU1VoZzRiTTVldUlOSXhnYWN2SU9pZy0wTXA1NXVoRTJ3a0h6U0hHUWlFS3ViWFk3YjJWdVllaVd4LS1sMlM0aHQwcXNMMDlpVDRSWmFHUVFib2pmcGlFQWxVWHBlcXRuMzJaT25oaHBEbnJzX3RkUGtfNGZnbFFwWUs?oc=5",
-            "published": "Sun, 11 Oct 2026 08:23:50 GMT",
-            "text": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
+            "title": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11c1JZWU95MGViYjhzTmRtcXRDOWdNZ1hFMkdWUzBfVGc5Ti16TDF1aldaRGp4bEhsbnQ0dzRuV0FZVE5CaFRRWnJFRzU2ejJGQjhHU2RkRFBDOFZrMGhtbVRVMkViT1hZVXVzcWxjcXN5bzRkaFZGNVpiM3o?oc=5",
+            "published": "Thu, 08 Oct 2026 07:25:10 GMT",
+            "text": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -421,6 +421,15 @@
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMY011cVpwaXBRQmd0aUtyakZBZENRU29DbWtPSVpoemFHOC04NWNmSVVibzdfQW9kdkl0eUl0S3JldzhwY0FhYjFSbU5kUkJETmE0dHk3em9OdGpneGV1M2lFdVB4RkxNa2FvSTg5MWZ5S0hZNFZ0SjQ2U0Q?oc=5",
             "published": "Tue, 04 Aug 2026 05:37:33 GMT",
             "text": "RC Strasbourg Alsace - Paris FC, 6 Şub 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmJsNUZDSm1DRmJHY0k3cFg3YTNzUHJYWHMwSVQtTUNtSjNrdlE5RkVzM2N3b2daV2FsVUpZU1ZtS2kxaXlNNnhLQ2hMQUd4WHdVQkwzSlhEbU5GVXBGSm1QbV9ydGpELVNrcUFKM0xqcnZ6MGYzcEhETEpfdFdjU0k2QjRaeno1bmJhNXRnblE5Zl9fbjZV?oc=5",
+            "published": "Mon, 17 Aug 2026 22:29:11 GMT",
+            "text": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -453,15 +462,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - OGC Nice takımına karşı Bilanço - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGttUzFfdVhQT3N6cWgyS21GU2lKb29mLUNxSEVmcW1pSHh3OUEzdEViTTZaVDdMcHhPR1JqVGg4NE1uTEVGMmktOWdIY2oyVER4aV9COFRnaS1VV2N6ZUlYX2VVdWZfTjAyNmFVR1p0aV90NktDc0pMdkpXdmROWF9rdHhLYUxVR0VZYWxNdzdRMWsySFYyT1hNWlozMXZYRG82cTR3?oc=5",
-            "published": "Sun, 04 Oct 2026 02:34:48 GMT",
-            "text": "Le Mans FC - OGC Nice takımına karşı Bilanço Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Le Mans FC - Stade Brest 29 takımına karşı Bilanço - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR05JT244NnphWGlFX1pVTmJYTFVNbFFsMVpIekFncUdseERXcFI2LS1kZ3lhaWZTZTBrVTdPcVZqdnN0bmhBX1NmRFFXd09rNHBXZkh5WC1fUzRiS2pwaldhU0pERHNJZzRlaHVnSUFMTEdCTTNYM3dxSDRVdGZiN3IyTUN2V2hXWFE?oc=5",
             "published": "Sat, 05 Sep 2026 22:40:27 GMT",
@@ -475,15 +475,6 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPblloWjNDODhYTVh6cW51Ym85bG96QlBLUkM3cXJTSFNxMTZOSTVLa2JTNWZLRU1DMWdjS0tQcTV2TmJxTXUxMVppclVBTktSTzRXOGx1cWFKTDBZT1dqeDZiQ2h5OHZHX0RWXzVyUXJLNklFTFU2dlM3dG5qZGNDcTQwSzBkM0wyM1E?oc=5",
             "published": "Wed, 14 Oct 2026 06:43:33 GMT",
             "text": "Olympique Lyon Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmJsNUZDSm1DRmJHY0k3cFg3YTNzUHJYWHMwSVQtTUNtSjNrdlE5RkVzM2N3b2daV2FsVUpZU1ZtS2kxaXlNNnhLQ2hMQUd4WHdVQkwzSlhEbU5GVXBGSm1QbV9ydGpELVNrcUFKM0xqcnZ6MGYzcEhETEpfdFdjU0k2QjRaeno1bmJhNXRnblE5Zl9fbjZV?oc=5",
-            "published": "Mon, 17 Aug 2026 22:29:11 GMT",
-            "text": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -715,40 +706,40 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "corners_under_8_5",
-          "odds": 1.91,
+          "odds": 1.92,
           "odds_zone": "IDEAL",
           "model_probability_pct": 58.0,
-          "implied_probability_pct": 52.4,
-          "market_probability_pct": 43.2,
+          "implied_probability_pct": 52.1,
+          "market_probability_pct": 42.5,
           "fair_odds": 1.72,
-          "value_edge_pct": 14.85,
-          "ev_pct": 10.78,
-          "calibration_gap_pct": 14.85,
+          "value_edge_pct": 15.49,
+          "ev_pct": 11.36,
+          "calibration_gap_pct": 15.49,
           "consensus": "2/3",
-          "confidence_10": 5.65,
+          "confidence_10": 5.7,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 60.0,
             "prediction_pct": 60.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 43.2
+            "market_benchmark_pct": 42.5
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "home_win",
-          "odds": 2.63,
+          "odds": 2.65,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 45.0,
-          "implied_probability_pct": 38.0,
-          "market_probability_pct": 32.3,
+          "implied_probability_pct": 37.7,
+          "market_probability_pct": 31.8,
           "fair_odds": 2.22,
-          "value_edge_pct": 12.72,
-          "ev_pct": 18.38,
-          "calibration_gap_pct": 12.72,
+          "value_edge_pct": 13.18,
+          "ev_pct": 19.28,
+          "calibration_gap_pct": 13.18,
           "consensus": "0/3",
-          "confidence_10": 4.75,
+          "confidence_10": 4.82,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -758,23 +749,23 @@
             "statistical_pct": 44.0,
             "prediction_pct": 43.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 32.3
+            "market_benchmark_pct": 31.8
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "draw",
-          "odds": 3.16,
+          "odds": 3.17,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 31.7,
-          "implied_probability_pct": 31.6,
-          "market_probability_pct": 26.9,
+          "implied_probability_pct": 31.5,
+          "market_probability_pct": 26.6,
           "fair_odds": 3.16,
-          "value_edge_pct": 4.79,
-          "ev_pct": 0.06,
-          "calibration_gap_pct": 4.79,
+          "value_edge_pct": 5.05,
+          "ev_pct": 0.38,
+          "calibration_gap_pct": 5.05,
           "consensus": "0/3",
-          "confidence_10": 2.55,
+          "confidence_10": 2.57,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -785,21 +776,21 @@
             "statistical_pct": 27.0,
             "prediction_pct": 27.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 26.9
+            "market_benchmark_pct": 26.6
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_away",
-          "odds": 2.59,
+          "odds": 2.52,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 38.2,
-          "implied_probability_pct": 38.6,
-          "market_probability_pct": 32.9,
+          "implied_probability_pct": 39.7,
+          "market_probability_pct": 33.4,
           "fair_odds": 2.62,
-          "value_edge_pct": 5.3,
-          "ev_pct": -1.08,
-          "calibration_gap_pct": 5.3,
+          "value_edge_pct": 4.79,
+          "ev_pct": -3.75,
+          "calibration_gap_pct": 4.79,
           "consensus": "0/3",
           "confidence_10": 2.9,
           "decision": "NO BET",
@@ -812,21 +803,77 @@
             "statistical_pct": 40.0,
             "prediction_pct": 38.2,
             "intelligence_pct": 34.2,
-            "market_benchmark_pct": 32.9
+            "market_benchmark_pct": 33.4
+          }
+        },
+        {
+          "match": "Le Mans FC vs Toulouse FC",
+          "market": "btts_no",
+          "odds": 2.19,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.6,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 38.7,
+          "fair_odds": 2.46,
+          "value_edge_pct": 1.95,
+          "ev_pct": -11.08,
+          "calibration_gap_pct": 1.95,
+          "consensus": "0/3",
+          "confidence_10": 3.03,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.4,
+            "prediction_pct": 36.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 38.7
+          }
+        },
+        {
+          "match": "Le Mans FC vs Toulouse FC",
+          "market": "under_2_5",
+          "odds": 2.0,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.0,
+          "implied_probability_pct": 50.0,
+          "market_probability_pct": 42.0,
+          "fair_odds": 2.27,
+          "value_edge_pct": 2.01,
+          "ev_pct": -11.93,
+          "calibration_gap_pct": 2.01,
+          "consensus": "0/3",
+          "confidence_10": 3.22,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 43.3,
+            "prediction_pct": 41.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 42.0
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "cards_under_4_5",
-          "odds": 1.77,
+          "odds": 1.75,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 56.5,
+          "implied_probability_pct": 57.1,
           "market_probability_pct": 48.1,
           "fair_odds": 2.0,
-          "value_edge_pct": 1.91,
-          "ev_pct": -11.5,
-          "calibration_gap_pct": 1.91,
+          "value_edge_pct": 1.93,
+          "ev_pct": -12.5,
+          "calibration_gap_pct": 1.93,
           "consensus": "0/3",
           "confidence_10": 3.55,
           "decision": "NO BET",
@@ -845,72 +892,43 @@
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
-          "market": "btts_no",
-          "odds": 2.17,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 40.6,
-          "implied_probability_pct": 46.1,
-          "market_probability_pct": 39.2,
-          "fair_odds": 2.46,
-          "value_edge_pct": 1.39,
-          "ev_pct": -11.9,
-          "calibration_gap_pct": 1.39,
-          "consensus": "0/3",
-          "confidence_10": 3.03,
+          "market": "btts_yes",
+          "odds": 1.38,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 59.4,
+          "implied_probability_pct": 72.5,
+          "market_probability_pct": 61.3,
+          "fair_odds": 1.68,
+          "value_edge_pct": -1.95,
+          "ev_pct": -18.03,
+          "calibration_gap_pct": -1.95,
+          "consensus": "2/3",
+          "confidence_10": 4.87,
           "decision": "NO BET",
           "reasons": [
-            "Model olasılığı %55 altında",
+            "Çok düşük oran (< 1.55)",
             "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
+            "Beklenen değer (EV) %3 altında"
           ],
           "engines": {
-            "statistical_pct": 39.4,
-            "prediction_pct": 36.7,
+            "statistical_pct": 60.6,
+            "prediction_pct": 63.3,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 39.2
-          }
-        },
-        {
-          "match": "Le Mans FC vs Toulouse FC",
-          "market": "under_2_5",
-          "odds": 1.98,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 44.0,
-          "implied_probability_pct": 50.5,
-          "market_probability_pct": 42.9,
-          "fair_odds": 2.27,
-          "value_edge_pct": 1.1,
-          "ev_pct": -12.81,
-          "calibration_gap_pct": 1.1,
-          "consensus": "0/3",
-          "confidence_10": 3.22,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 43.3,
-            "prediction_pct": 41.5,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.9
+            "market_benchmark_pct": 61.3
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "btts_over_2_5",
-          "odds": 1.72,
+          "odds": 1.67,
           "odds_zone": "IDEAL",
           "model_probability_pct": 49.0,
-          "implied_probability_pct": 58.1,
-          "market_probability_pct": 58.1,
+          "implied_probability_pct": 59.9,
+          "market_probability_pct": 59.9,
           "fair_odds": 2.04,
-          "value_edge_pct": -9.11,
-          "ev_pct": -15.67,
-          "calibration_gap_pct": -9.11,
+          "value_edge_pct": -10.85,
+          "ev_pct": -18.12,
+          "calibration_gap_pct": -10.85,
           "consensus": "0/3",
           "confidence_10": 3.5,
           "decision": "NO BET",
@@ -930,15 +948,15 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "over_2_5",
-          "odds": 1.49,
+          "odds": 1.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 56.0,
-          "implied_probability_pct": 67.1,
-          "market_probability_pct": 57.1,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.0,
           "fair_odds": 1.79,
-          "value_edge_pct": -1.1,
-          "ev_pct": -16.62,
-          "calibration_gap_pct": -1.1,
+          "value_edge_pct": -2.01,
+          "ev_pct": -18.85,
+          "calibration_gap_pct": -2.01,
           "consensus": "2/3",
           "confidence_10": 4.68,
           "decision": "NO BET",
@@ -951,48 +969,21 @@
             "statistical_pct": 56.7,
             "prediction_pct": 58.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.1
-          }
-        },
-        {
-          "match": "Le Mans FC vs Toulouse FC",
-          "market": "btts_yes",
-          "odds": 1.4,
-          "odds_zone": "ACCEPTABLE",
-          "model_probability_pct": 59.4,
-          "implied_probability_pct": 71.4,
-          "market_probability_pct": 60.8,
-          "fair_odds": 1.68,
-          "value_edge_pct": -1.39,
-          "ev_pct": -16.84,
-          "calibration_gap_pct": -1.39,
-          "consensus": "2/3",
-          "confidence_10": 4.87,
-          "decision": "NO BET",
-          "reasons": [
-            "Çok düşük oran (< 1.55)",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında"
-          ],
-          "engines": {
-            "statistical_pct": 60.6,
-            "prediction_pct": 63.3,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 60.8
+            "market_benchmark_pct": 58.0
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "cards_over_4_5",
-          "odds": 1.64,
+          "odds": 1.62,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 61.0,
+          "implied_probability_pct": 61.7,
           "market_probability_pct": 51.9,
           "fair_odds": 2.0,
-          "value_edge_pct": -1.91,
-          "ev_pct": -18.0,
-          "calibration_gap_pct": -1.91,
+          "value_edge_pct": -1.93,
+          "ev_pct": -19.0,
+          "calibration_gap_pct": -1.93,
           "consensus": "0/3",
           "confidence_10": 3.55,
           "decision": "NO BET",
@@ -1012,15 +1003,15 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_draw",
-          "odds": 2.14,
+          "odds": 2.13,
           "odds_zone": "IDEAL",
           "model_probability_pct": 38.0,
-          "implied_probability_pct": 46.7,
-          "market_probability_pct": 39.8,
+          "implied_probability_pct": 46.9,
+          "market_probability_pct": 39.5,
           "fair_odds": 2.63,
-          "value_edge_pct": -1.8,
-          "ev_pct": -18.68,
-          "calibration_gap_pct": -1.8,
+          "value_edge_pct": -1.52,
+          "ev_pct": -19.06,
+          "calibration_gap_pct": -1.52,
           "consensus": "0/3",
           "confidence_10": 2.89,
           "decision": "NO BET",
@@ -1034,21 +1025,21 @@
             "statistical_pct": 40.0,
             "prediction_pct": 38.2,
             "intelligence_pct": 33.1,
-            "market_benchmark_pct": 39.8
+            "market_benchmark_pct": 39.5
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "away_win",
-          "odds": 2.08,
+          "odds": 2.03,
           "odds_zone": "IDEAL",
           "model_probability_pct": 37.7,
-          "implied_probability_pct": 48.1,
-          "market_probability_pct": 40.8,
+          "implied_probability_pct": 49.3,
+          "market_probability_pct": 41.6,
           "fair_odds": 2.65,
-          "value_edge_pct": -3.16,
-          "ev_pct": -21.64,
-          "calibration_gap_pct": -3.16,
+          "value_edge_pct": -3.88,
+          "ev_pct": -23.53,
+          "calibration_gap_pct": -3.88,
           "consensus": "0/3",
           "confidence_10": 2.87,
           "decision": "NO BET",
@@ -1062,21 +1053,21 @@
             "statistical_pct": 35.5,
             "prediction_pct": 33.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 40.8
+            "market_benchmark_pct": 41.6
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_home",
-          "odds": 3.12,
+          "odds": 3.11,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 23.8,
-          "implied_probability_pct": 32.1,
-          "market_probability_pct": 27.3,
+          "implied_probability_pct": 32.2,
+          "market_probability_pct": 27.1,
           "fair_odds": 4.2,
-          "value_edge_pct": -3.5,
-          "ev_pct": -25.73,
-          "calibration_gap_pct": -3.5,
+          "value_edge_pct": -3.26,
+          "ev_pct": -25.97,
+          "calibration_gap_pct": -3.26,
           "consensus": "0/3",
           "confidence_10": 2.11,
           "decision": "NO BET",
@@ -1090,21 +1081,21 @@
             "statistical_pct": 20.0,
             "prediction_pct": 23.6,
             "intelligence_pct": 32.7,
-            "market_benchmark_pct": 27.3
+            "market_benchmark_pct": 27.1
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "corners_over_8_5",
-          "odds": 1.45,
+          "odds": 1.42,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 42.0,
-          "implied_probability_pct": 69.0,
-          "market_probability_pct": 56.8,
+          "implied_probability_pct": 70.4,
+          "market_probability_pct": 57.5,
           "fair_odds": 2.38,
-          "value_edge_pct": -14.85,
-          "ev_pct": -39.1,
-          "calibration_gap_pct": -14.85,
+          "value_edge_pct": -15.49,
+          "ev_pct": -40.36,
+          "calibration_gap_pct": -15.49,
           "consensus": "0/3",
           "confidence_10": 3.11,
           "decision": "NO BET",
@@ -1119,7 +1110,7 @@
             "statistical_pct": 40.0,
             "prediction_pct": 40.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 56.8
+            "market_benchmark_pct": 57.5
           }
         }
       ]
@@ -1229,6 +1220,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Simone Cinquegrano (Sassuolo) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zYjhOb3hwemRtdGxxNXlUMVB1aDlxb0szTHUzQ2xUbm1ZVEFZZkV5OFhGTUp1NWhzdGtxdVZ6NDd6bmR1ZTNYRGJaS0IyMzlVUjBTNlJudmlvcFJoX2NrY2tiSHU2NTQ0OERPZVpBa2h4NTl6SVE?oc=5",
+            "published": "Sat, 25 Oct 2025 09:31:02 GMT",
+            "text": "Simone Cinquegrano (Sassuolo) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Frosinone VS Sassuolo: Live Scores, Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcE56TzROWEhhRTMzcXJBS2x5WllCMkJmYjZTOFN2YXJjUHpUMjRKcm5pRl9hc3FEdm4zRURVMW5WNVVyZk1RdXYtb0ZvZWFvNXpMNWRrSjFHMkdFXzVpTW55alhxcDJzVHlRQzlYNVUyMnVnbE43VnhnQk5GbjJpak5DMWtPVHZN?oc=5",
             "published": "Thu, 29 Feb 2024 06:56:22 GMT",
@@ -1274,6 +1274,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Gabriele Bracaglia (Frosinone) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qY1RXXzA1THpnUU1XQ25yTHZfb2NUUkNZZTk2TEZzdW5KUDJJTVBQelhmVGtoTWlKeGVUR2w2NHB0RXhRUGpwdS1uYmU0NVhUR0lJNjdVUjA2SjNRU2hCdDNURUE5YllEZ3lvdE93SnlFbmZuMFE?oc=5",
+            "published": "Mon, 10 Apr 2023 23:27:09 GMT",
+            "text": "Gabriele Bracaglia (Frosinone) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Armand Lauriente (Sassuolo) - Bio, stats and news - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HM1F1bXFBT2U2MXVGeXdIMmRReHZHZUlwOGtyWHptVFhMaXhyR0tUNE45dVl3V1BqUWJybW9MUjVBT1pNWHhDZ2RqNEVscUdZNG5oRllCWFBMZnJ3NVh0R1dDRjJXWkR6UUQ5clFNa3hNUQ?oc=5",
             "published": "Thu, 23 Feb 2023 18:01:25 GMT",
@@ -1292,28 +1301,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Enzo Tchato (Frosinone) - Bio, stats and news - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBURGtZcXpub1Q0cVVWOFh1ZkwtZjRwSU9mTG1fMjNWWlJOY0ZEN0RjSl8zNnFodGRBOU52R2dEdGRwQW01WmZxOXdqYUtsOXMzR1VLZ3ZER1YyYWdWMFlYZVNidXJEY0NJWnZnZw?oc=5",
-            "published": "Fri, 18 Nov 2022 12:48:20 GMT",
-            "text": "Enzo Tchato (Frosinone) - Bio, stats and news 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Sassuolo 1 - 1 AC Milan (10/11) - Match Report - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUU1SS1hxRDJsNDJZYTJsUk1tUE0tcUw2REhvVVNFYzdRVnN0R3J1NUpaSzdxb3pneE84ckdCcXZnN05JQm8tRFB4OWdJR0dRLXpYR2xESTBpcXVYNktleVlYd01zNU9QU3h1ZzBWNzBVb29HVjRWVk5Zc3ZqLTAtcUhqV3ZXSzA?oc=5",
             "published": "Sat, 23 Mar 2024 09:08:13 GMT",
             "text": "Sassuolo 1 - 1 AC Milan (10/11) - Match Report 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Antonio Raimondo (Frosinone) - Bio, stats and news - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14MWNCVF9sc2FlQ1YxUDhmTUFUc3VEb28ydzRVLUQ2NkFITVNIV3dBb0NCQ0tFajFvMW5ZRnBEeTlwWkFubThUbUlrRG1SUENEdFhOaEE5UHU3SkRFeUUxMTU4MmVhZVVmbkdOckRieUcwVzg?oc=5",
-            "published": "Sat, 18 Mar 2023 17:03:12 GMT",
-            "text": "Antonio Raimondo (Frosinone) - Bio, stats and news 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1346,18 +1337,9 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sassuolo 0 - 0 Folgore Caratese (07/31) - Game Report - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNU5LS3hWeUZRYWpabHdaTVI4NmVFMDVEa3hpbUtKRE45V2dyTnhQS2NhQjhqMElvbDJOWkVtdk1YczZuSmswelBGR3JRbnlTeVpJbkxqN2pTWkF1eF9JSXEtdnRZV3NoWVBCVEt3c3lTZUVhbFViRzN0MWpfQ3JBQi1TS0wzRjQ3SXlxSkxkSThoV1FNbTgzQUpDWGRnZTZMOGlKWjNUWHdhQQ?oc=5",
-            "published": "Sat, 11 Jul 2026 06:41:39 GMT",
-            "text": "Sassuolo 0 - 0 Folgore Caratese (07/31) - Game Report 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Frosinone vs Sassuolo Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 - Sportsgambler",
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRTgwdmtEV3FqMEdTczhxV2J3d1J2MVA5dVk3WENyU1FKdmJZbFNQRmlhQlNuc2I1bjZ2VWNpa2IyMGk0WXgtUXdaZXdwTFRxLWtPMkIzREFMTGI3UGVNZmdHdE1fN1lDQ2hEeEZNbS0tbWlfTml1OURMMFVQbFY4UnRnWHhZMUJYM0J5czBmOTVZR2FMMDNXZ0M4clhZNnB0RFFWSDVBSlhEN0VSSWc?oc=5",
-            "published": "Fri, 16 Oct 2026 03:54:06 GMT",
+            "published": "Fri, 16 Oct 2026 09:55:52 GMT",
             "text": "Frosinone vs Sassuolo Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
@@ -1404,6 +1386,15 @@
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFJhSHV6MGk4SEJHYXpValdMbUhpSE9tcmpXa0tUS2tGS3UyT20wUmdYUUtyY1lOWnk5V2VsSGxDek1UWTVJX2FjSWZScjBHTklPUzZtem45eHdJT2lNY01wV1VWdHZmUGYyU2F4Sjk2MUdwN1I2NUp5cUhWZHc2Z3BIbjU?oc=5",
             "published": "Mon, 12 Feb 2024 04:32:48 GMT",
             "text": "Sassuolo VS Napoli: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AS Roma vs Sassuolo: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYmVzem5kSzEyb3NiUmJfVVo1UFNfU1Q5VmJYaXR0VUF6OUFaYUhRMFMwUy10VXVjN3BKZEtfR1JVM01rb2x2YkNFeFdlZE1TdjVyY01DRFN3YzBpZ2k2N1pyOGJYbzJVVExDTm5nVkdBSVB1LUpLd0dSLXU4aVB5SHhHVEVsdm5ybHkxTzRn?oc=5",
+            "published": "Tue, 05 Mar 2024 15:24:20 GMT",
+            "text": "AS Roma vs Sassuolo: Scores, Results Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1690,8 +1681,8 @@
         }
       },
       "intelligence": {
-        "mentions": 18,
-        "web_score": 0.1667,
+        "mentions": 17,
+        "web_score": 0.1176,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -1700,10 +1691,28 @@
         "items": [
           {
             "source": "Google News RSS",
+            "title": "Sports Betting Online | Odds & Markets Across All Sports - Coral",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZVlBFM3A2M3RqUkNaMWstRGNsOWRuY0JyX3VmZV9XUDR2bmdrbmEtQWlQMERwNjZWUzJJdTA2aWJlS05pcHZmMDhBOW44ZHFkQ01KVA?oc=5",
+            "published": "Tue, 10 Mar 2026 01:33:33 GMT",
+            "text": "Sports Betting Online | Odds & Markets Across All Sports Coral",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "The I LaLiga Promises National Women’s Tournament makes history - Málaga CF",
             "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeS1xU1Z2SUVuM2VPT05DSGx2R3Ntd1NMa0lYTzlBcWNYNW9aY2VGSFh6RWlKNkxYaTJuOXE1TmwzODl1UFpZT1h6UmN2a0c0bzJhTkdPejkzV2pzV2lTQTJ2bkR1R0ROS29ldk9BZ2dxUUZBaTE0TmFpWU5TUjZEdUxOS0hFNnFvaGZPOC1vTTJCaXk2ZUpkYkt5Zw?oc=5",
             "published": "Mon, 24 Jun 2019 07:00:00 GMT",
             "text": "The I LaLiga Promises National Women’s Tournament makes history Málaga CF",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Helsingborg out to stifle Levante - UEFA.com",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQemJJdmhwVjRmU1lydUVKWmFQOWZjTUZJd2VpXzRZS1Y0V0lxQV85Yk5HOG5RZ1J6WXdqOER5N21EQUxSRDlTdVRxWmI3dXVqbVR5NW1MU0Vsb2gtdFhNcWtPNjViOFViMTBkT2I2REt0R1RNcXptYmNCdDFWYWRkODY5QVpZOTNaeDF5eVRRUERMTnlZLXNPY2NwbUJ1Sm11TEdWeUswRHlnOVZqNTJtYWRuTmE?oc=5",
+            "published": "Wed, 14 Nov 2012 08:00:00 GMT",
+            "text": "Helsingborg out to stifle Levante UEFA.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1718,15 +1727,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Milestone for Xavi as Barcelona edge Levante - UEFA.com",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU2VUaXdHekowanNZcnJmejg2MU1UUjVnVDIyc1QwaVpDNDRxVWFqSXMyWE9GSkFBbzNmNno1OFhxeTQtb25pblc4VzBySG42Rk1UNkQzY01ER1A2NGw0T0YySGZVRVNUTE9oSVRocHhkY015a1RaZkxVRmZlR0Q5S3ZhM3NGSzRpVzJZZmc5cjNZZ29iMlI1RnlOR1dIVU8zMlRTWHp4VGtETkhEU2tNVkFMNzd4RXVOOC1v?oc=5",
-            "published": "Sun, 02 Jan 2011 08:00:00 GMT",
-            "text": "Milestone for Xavi as Barcelona edge Levante UEFA.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Copa Del Rey - DAZN",
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDNjRW9UQXlZZUdMbUw4cjVrMkh2YWV0MHRsWFV6WUhjblp6T2JJRXBKaWF6R3ozSWJTVUhCZ3VmbVhISDVFWlpjeUtqbjliMXdsU0czaHU3MGhTMDhqUV9vOXhqOU1qVU0yV0ZUWi16TzJOZHNCWWg3SW1yc1d1dlJBUXRtWmx0aVgtTw?oc=5",
             "published": "Tue, 08 Apr 2025 18:53:45 GMT",
@@ -1736,10 +1736,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ronaldo treble powers Madrid to victory - UEFA.com",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQndiZzNsZEZmR3ZxQUFjc20yOU9rYmhuSmJUNTBILVBEY2JuLS1FNFZ0UGxLVUt5T1pBSGxhT0hTSVNwajNjZnZjYVh1TTJRSkFoWEVROWFER0dMU0pYbUdmY2V4OXZjWWpKRUVaMW0xX1RKZzRoWDZySlo5SGZ6T3hYRWFEeDhFa3ZkMDhjdmYycWh2ODR2dDkyc2F3U0o2b3JPS0dDZWhwUXJyYTczOENzcFo?oc=5",
-            "published": "Sun, 30 Sep 2012 07:00:00 GMT",
-            "text": "Ronaldo treble powers Madrid to victory UEFA.com",
+            "title": "Milestone for Xavi as Barcelona edge Levante - UEFA.com",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU2VUaXdHekowanNZcnJmejg2MU1UUjVnVDIyc1QwaVpDNDRxVWFqSXMyWE9GSkFBbzNmNno1OFhxeTQtb25pblc4VzBySG42Rk1UNkQzY01ER1A2NGw0T0YySGZVRVNUTE9oSVRocHhkY015a1RaZkxVRmZlR0Q5S3ZhM3NGSzRpVzJZZmc5cjNZZ29iMlI1RnlOR1dIVU8zMlRTWHp4VGtETkhEU2tNVkFMNzd4RXVOOC1v?oc=5",
+            "published": "Sun, 02 Jan 2011 08:00:00 GMT",
+            "text": "Milestone for Xavi as Barcelona edge Levante UEFA.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1754,19 +1754,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sports Betting Online | Odds & Markets Across All Sports - Coral",
-            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ydkRKVGRXenVKY3RpYU5rajdlWnpVWlZuYU9yNUlNZnN6UnA5RzVJQk1nRzVjeGtyNTN5MkFJVnQ0ejdOeHBhSU9NWkl0RmFvV0JBQg?oc=5",
-            "published": "Tue, 08 Jul 2025 08:17:12 GMT",
-            "text": "Sports Betting Online | Odds & Markets Across All Sports Coral",
+            "title": "Barcelona remain 4 points clear - Fijivillage",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RRmQxZGhXcngwZDlzZ0JvQlRXVk54Ty1mVTFMN2xvWnNNMWdYQjUwTEdqTmRSaVVhVjd3cHBIRlYyS2dZcEJfZnlOb3RkSjhXODZtYVJNZUdZeUpMSXdmSEx3MmtWZ0h4akFRUDU1NjYtSk9LS0FFU0J5SjVLdw?oc=5",
+            "published": "Sun, 29 Nov 2015 08:00:00 GMT",
+            "text": "Barcelona remain 4 points clear Fijivillage",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Barcelona remain 4 points clear - Fijivillage",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RRmQxZGhXcngwZDlzZ0JvQlRXVk54Ty1mVTFMN2xvWnNNMWdYQjUwTEdqTmRSaVVhVjd3cHBIRlYyS2dZcEJfZnlOb3RkSjhXODZtYVJNZUdZeUpMSXdmSEx3MmtWZ0h4akFRUDU1NjYtSk9LS0FFU0J5SjVLdw?oc=5",
-            "published": "Sun, 29 Nov 2015 08:00:00 GMT",
-            "text": "Barcelona remain 4 points clear Fijivillage",
+            "title": "Ronaldo treble powers Madrid to victory - UEFA.com",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQndiZzNsZEZmR3ZxQUFjc20yOU9rYmhuSmJUNTBILVBEY2JuLS1FNFZ0UGxLVUt5T1pBSGxhT0hTSVNwajNjZnZjYVh1TTJRSkFoWEVROWFER0dMU0pYbUdmY2V4OXZjWWpKRUVaMW0xX1RKZzRoWDZySlo5SGZ6T3hYRWFEeDhFa3ZkMDhjdmYycWh2ODR2dDkyc2F3U0o2b3JPS0dDZWhwUXJyYTczOENzcFo?oc=5",
+            "published": "Sun, 30 Sep 2012 07:00:00 GMT",
+            "text": "Ronaldo treble powers Madrid to victory UEFA.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Deportivo La Coruña vs Levante Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTmh6RWZuenpUdS1pS0doenh2MjV2TlIwVU91SGIxNTZXMWNvUUZCWmI5cDN5Y2NtYjhSMHhoYzdhZ1ZHazlPc2Y5c0hfa3dDLUVjVFNkNXFXQkdUUmZ0akVRT3NXeURyQTRrczl4WkR5WEV2U25MVFpjN1pZcUJwaWgzM1VkSEI5bFczVFlQNFMyVGRmdHlvZmR4emxRUFBFUGtleUxDM2NsMzR4UHNIMy1mX2hzLUw3UEE?oc=5",
+            "published": "Fri, 16 Oct 2026 10:57:28 GMT",
+            "text": "Deportivo La Coruña vs Levante Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1778,33 +1787,6 @@
             "text": "Madrid breeze past Levante UEFA.com",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Deportivo La Coruña vs Levante Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTmh6RWZuenpUdS1pS0doenh2MjV2TlIwVU91SGIxNTZXMWNvUUZCWmI5cDN5Y2NtYjhSMHhoYzdhZ1ZHazlPc2Y5c0hfa3dDLUVjVFNkNXFXQkdUUmZ0akVRT3NXeURyQTRrczl4WkR5WEV2U25MVFpjN1pZcUJwaWgzM1VkSEI5bFczVFlQNFMyVGRmdHlvZmR4emxRUFBFUGtleUxDM2NsMzR4UHNIMy1mX2hzLUw3UEE?oc=5",
-            "published": "Fri, 16 Oct 2026 01:54:31 GMT",
-            "text": "Deportivo La Coruña vs Levante Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ronaldo hat-trick helps Madrid close on second - UEFA.com",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY2ZJOUo1bTBWME1ZYmRkM2Q0emhGQjJyMGZOanBXQThDekduNHh4N2pCMmlCTmdESnJJYWpQdEVzdjdHSWF2VURJaWRLUjE1UGlpYXp4bDByc3VxREp4dlpVY25WSmpWNGQ3Ykp0MllJQ0JvMnRoZzdUelZtbnByT2NEb2hUUnE4N2NOcWc0c19iMlJTbTNLUFRGdkQ3WEVjd09hT2dUUU1UcHJSVDZJOG1IOXpMZlB6aDVLbHp3?oc=5",
-            "published": "Sat, 09 Feb 2013 08:00:00 GMT",
-            "text": "Ronaldo hat-trick helps Madrid close on second UEFA.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ramos earns Madrid another win against Barça - UEFA.com",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzhFcjk2ek9CZDAxck1MZlNGQ1NkbWJfOG5TbGd5aXRaYWNUaUVseWVUN0dWRjl4MzByZldCYkJVZmdhNHZDOGpsT1c3Q0hheTZ5MG04TmZlZHNZcUowVkREQ2gwcFNWUlJhWVBDX1dpeWcwbVpQQTFxVGFvdkNKcGNCVUpqbTFwNUxHVG8wX1JURXB0RmZnUTlQTjRuWUN5TmxDSkFVa2NiTkhza25GaTB2aXhhTi1wNXg4?oc=5",
-            "published": "Sat, 02 Mar 2013 08:00:00 GMT",
-            "text": "Ramos earns Madrid another win against Barça UEFA.com",
-            "language": "en",
-            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -1835,6 +1817,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "La Liga Betting Tips, Predictions & Match Previews - Free winning tips for the 2026-27 Spanish La Liga season. - Bets.com.au",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxUE8xLUFjcHBMdkFaRjNBZkN1SFhZQVY3SDhkNXJEeF9raHBtZEsxOUc5YUF6YzNoTWxueG9RQlFObDRIenFHUDJKcUJPRTgz?oc=5",
+            "published": "Fri, 12 Jun 2020 10:45:58 GMT",
+            "text": "La Liga Betting Tips, Predictions & Match Previews - Free winning tips for the 2026-27 Spanish La Liga season. Bets.com.au",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "October 16, 2026: Deportivo De La Coruna vs Levante Soccer Prediction Market - Robinhood",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMWxMQTZ6elVLczhpMldTMHl3ZTdHdUFtcUxPQjUzMDJOODE0TkJQYmJJSS0yMExObjRHYlBidEFvMnRIbTU0aUhxanJ5T1g1Q1dkMHRZUVVPcVNQdnpIZnY2dHBDd2o2M2E5UjhjVXFucE9TM0pKUEU3T2pFVnBkU3E2VVlqSWtPUThFQlhBbUNUdlhMMy1TUVlQTnNNNXNCZkVZd2k1NEhPVVU?oc=5",
             "published": "Thu, 15 Oct 2026 08:50:22 GMT",
@@ -1850,15 +1841,6 @@
             "text": "October 16, 2026: Deportivo De La Coruna vs Levante: First Half Winner Soccer Prediction Market Robinhood",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "La Liga Betting Tips, Predictions & Match Previews - Free winning tips for the 2026-27 Spanish La Liga season. - Bets.com.au",
-            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxUE8xLUFjcHBMdkFaRjNBZkN1SFhZQVY3SDhkNXJEeF9raHBtZEsxOUc5YUF6YzNoTWxueG9RQlFObDRIenFHUDJKcUJPRTgz?oc=5",
-            "published": "Fri, 12 Jun 2020 10:45:58 GMT",
-            "text": "La Liga Betting Tips, Predictions & Match Previews - Free winning tips for the 2026-27 Spanish La Liga season. Bets.com.au",
-            "language": "en",
-            "sentiment": 1.0
           }
         ],
         "home": "RC Deportivo La Coruña",
@@ -2134,8 +2116,8 @@
         }
       },
       "intelligence": {
-        "mentions": 58,
-        "web_score": -0.0345,
+        "mentions": 57,
+        "web_score": -0.0175,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -2144,6 +2126,15 @@
           "multiple_injury_or_suspension_mentions"
         ],
         "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Eintracht Frankfurt vs. 1. FC Köln: Live game updates, stats, play-by-play - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLVF6eG1KVU5GM2tObTEzOHpYdF93X3FzN2RhQVA3cHdRVTdmV2ZiMFdtSTVneU9hTGlMOHo3UDFMazkzcDhkMWFyczFhelBjRmdkOWd6dzNqX214S3F4a19UZnNYZVhLMV84dWVtMFhKZmtoVnhSMkFwTnd2VXdrdG40OEM3SDdqNDA4bm5mV016clNza25n?oc=5",
+            "published": "Fri, 16 Oct 2026 07:00:16 GMT",
+            "text": "Eintracht Frankfurt vs. 1. FC Köln: Live game updates, stats, play-by-play Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
           {
             "source": "Google News RSS",
             "title": "Eintracht Frankfurt vs. 1. FC Köln preview: Hütter seeks first home win against Rhine derby winners - Bulinews",
@@ -2164,6 +2155,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Eintracht Frankfurt vs Koln Prediction and Betting Tips - 16 October 2026 - Betfred Insights",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWVU4RTNmcG5mcG1GSzRRRV95bzhMVXlqYTNvUy1qQkkxR0JBQ09DSENuVktXMExSSURRUDRjWTZ0dW9lUGhPZ1V6cDl1R1Y1TDFVTWZDaXNNRjk5QUtqNm56U0ZULXR1d1I5ZzBZeXFvTHhqR2E4ajBKUk1wbEhoYk5GTG5uSUZ3RF9kSzl6RU9wRFk2VlFSWUMyaXpnZ25hODRNSFUyWDRvcjVwZW5aOU1TUjh5bFpKcUVwNTEyVm1QQQ?oc=5",
+            "published": "Fri, 16 Oct 2026 04:00:03 GMT",
+            "text": "Eintracht Frankfurt vs Koln Prediction and Betting Tips - 16 October 2026 Betfred Insights",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Eintracht Frankfurt - 1. FC Köln Stats: Football Scores & Results - TNT Sports",
             "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1ZQSmowT3lub1dkOEJGcDVlZC14TU9rYjdLZ28tQUhnSEdIVm5EOW5SbHVacDdGVnZJY1pXTFlIeXp5SHZLOGRJM0JSUTFFV1hWS2VaUVd4VzB2SF9MT0U4aldWdGFrdUFCSW91VzZ1RWtORENzd1BzM2tYbktmQWxEU3ZOczBIeVM1bVFkVFhNdkxnUzZaelVQQVBkSXE3UjhsZnlWbXE5VTU5aWVxYVo5UXpjNXd3OEE?oc=5",
             "published": "Sun, 11 Oct 2026 22:33:33 GMT",
@@ -2173,10 +2173,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ellyes Skhiri moves on - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1lVXZHQU8tVEhYZDFhaWRrZ1l0WC1sNENyZ0w5Y2RGeG9HNE9NTEJ5V2pxV2JUMTJPSTFFcGdjRFY0bWEyeWxtdXQxWHphcWs4b2Z0bGpfcS1EZk9hRGR0N2lRUGJnRnFPeFJUdkZ1RHNqYWp5SHVR?oc=5",
-            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-            "text": "Ellyes Skhiri moves on Yahoo Sports",
+            "title": "Eintracht Frankfurt - Flashscore.co.za",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2xiTEc3NUlROTN2SWtnYnVkWGR6S2VFSDc3TEhwWUdJV2RPX2Fmekd1ZF8yVFpIYW4wVlZkcXl3RFhJT2FjOEROb3VhVUgxdy1TVGd6ekRFOWFJX2RoclZBWld5WW51Y0tuZGlISkNqbzZtNkJUZXRpWlJWRWVMQXAtaVBGNnl3M2ZEd1dwQVBNTHE4VVd1UFpELWM5ZUZINTdjRVdvRHpIblU?oc=5",
+            "published": "Thu, 15 Oct 2026 15:21:19 GMT",
+            "text": "Eintracht Frankfurt Flashscore.co.za",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2227,6 +2227,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Ellyes Skhiri moves on - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1lVXZHQU8tVEhYZDFhaWRrZ1l0WC1sNENyZ0w5Y2RGeG9HNE9NTEJ5V2pxV2JUMTJPSTFFcGdjRFY0bWEyeWxtdXQxWHphcWs4b2Z0bGpfcS1EZk9hRGR0N2lRUGJnRnFPeFJUdkZ1RHNqYWp5SHVR?oc=5",
+            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+            "text": "Ellyes Skhiri moves on Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Tragedy in the stands… Fan dies of a heart attack - Goal.com",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRmdwOGdXQVdLS3EtRTRXek1qWjJYckVKU2xmLWEwMGVBYjdvUVplOUFjTnNLYUZ6SXRuMlRQN1VFQVhUWjI0TUlVcUItVjB5Ti1EUEJ2OXRacTRoUTJwSkJzbFhKUU9lbHoybmZpWEZwcTBDNThBdzF2MFdYZ2JCbUVLOWZadXlLX0lvcmNPanl1VVp3VjFKT0xIOGM0QQ?oc=5",
             "published": "Wed, 08 Apr 2026 07:00:00 GMT",
@@ -2236,19 +2245,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Eintracht Frankfurt vs 1. FC Köln live score, H2H and lineups - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSlJwOGgxUVJCZjBieURZTVNPRU95QVRKOURVTE1IbmszZ1AwX3JGOEJncWY2TGx3bTNXWWZxMGthalZGSkZySEo1NXJFZkZvLXZ6YkRFN2o5VTg4N0kzWFRXTWxwNGkzLWZJYTdwV2t0TVU2Vzc0bDJtY2dRc1NOU2NnT2F4dw?oc=5",
-            "published": "Sat, 22 Aug 2026 07:00:00 GMT",
-            "text": "Eintracht Frankfurt vs 1. FC Köln live score, H2H and lineups Sofascore",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bundesliga and Bundesliga 2 fixture times confirmed up until end of November - Bundesliga | official website",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSy1vVE94MDNrMXNsUnIwV1ZiamRuYUxQUVlyR3JjSGhsZE02cFRsYUJPb21RVVlBSHZFTFhweW03bmVCaFBlZmxUM1J1amdwc1VKOUdKR3RtZ2ZmVFcyOWRQVnJZSGVqYy10TXhYckFpaU5oWXpiQ3c4VjM4dHVHN2NWMTNjd2l0TTJsZ2xCTnZwQ3JYQmI5TnZBUXJDVlN0?oc=5",
-            "published": "Thu, 10 Sep 2026 07:00:00 GMT",
-            "text": "Bundesliga and Bundesliga 2 fixture times confirmed up until end of November Bundesliga | official website",
+            "title": "VfB Stuttgart secure UEFA Champions League football despite letting lead slip against Eintracht Frankfurt - Bundesliga | official website",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZzU4UVJpT05QU3htSjkzQ1ZFTEE0Mmg3ZTB6c2V1Vno1Y194V2MxRzJRR3Y1S2x1NWF2VHdVWHFpdi1lbDEycGYyc19SVmhLYUlsdGl0RVBBVFZEb1VmZ3pXWURGdjNuM3JvLW5xZXNvREFxRFV2TWVMYmRxUVJWNWI3Uzg2MFRsM3JCNllTTS1MU0NDVHJ2bXFqZndEX2hHTWxNcmZxQUJTR21JTF8yZDdGM0Q0N3M5U08tQnN3?oc=5",
+            "published": "Sat, 16 May 2026 07:00:00 GMT",
+            "text": "VfB Stuttgart secure UEFA Champions League football despite letting lead slip against Eintracht Frankfurt Bundesliga | official website",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2263,37 +2263,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "1. FC Köln vs. Eintracht Frankfurt: Live game updates, stats, play-by-play - Yahoo",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNHgwRk0wRHFzcEM1N2lJaXMzcFVlS2lic0FBaGxjSko0cjJfWXp6dHViQ2o1TVVXTmVEMU9pR0R0X0s3SDlNVERFVmxNNDB2T2c1WTB2cjg0b2RndFJfU3EtRVp6Z1l6dF90S0xBREpPN3N5SVZ0RUYtamF5b292MFJmUDZ0UTg2TWRCNklUTmVFcm9JNHRR?oc=5",
-            "published": "Tue, 22 Sep 2026 03:29:07 GMT",
-            "text": "1. FC Köln vs. Eintracht Frankfurt: Live game updates, stats, play-by-play Yahoo",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Frankfurt place price tag on Skhiri amid interest from 1.FC Köln - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rX2NjNHNJQ3N1WkNRYTJ3WnRkZy15WWVvYTZTWFlwNjhxU09EalZrdW44SHE3Ym44MXNtSEdzNGtsQ25PMmdIVVFfOHVmYlowV3FnYmo4eDh5TXhGSVpBMThHODJyTDMxUXBFSjAxanhudTF2YWFOLUZWMlZJZUk?oc=5",
-            "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-            "text": "Frankfurt place price tag on Skhiri amid interest from 1.FC Köln Bulinews",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "October 16, 2026: Frankfurt vs FC Köln Prediction Market - Robinhood",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMFNnY3p4azZWWEE1MktST1hJeU5CaFpXNUxRdzEyYkhlR25vMGVRZVdQTXBTVzQtSktySjl5dTRQb0ExWFNmRmozZGxORlRnOFdabmdiWW5WMTRzNHR5TXJmVTZGUkRWdlh6bUx0U3hMU1J1b0JjWHpJM3R1ZlVwUUNnVEk4cTNLd21EdjFwRmU1Q3pVNldrZg?oc=5",
             "published": "Thu, 15 Oct 2026 08:25:24 GMT",
             "text": "October 16, 2026: Frankfurt vs FC Köln Prediction Market Robinhood",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Eintracht Frankfurt vs Koln Prediction and Betting Tips - 16 October 2026 - Betfred Insights",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWVU4RTNmcG5mcG1GSzRRRV95bzhMVXlqYTNvUy1qQkkxR0JBQ09DSENuVktXMExSSURRUDRjWTZ0dW9lUGhPZ1V6cDl1R1Y1TDFVTWZDaXNNRjk5QUtqNm56U0ZULXR1d1I5ZzBZeXFvTHhqR2E4ajBKUk1wbEhoYk5GTG5uSUZ3RF9kSzl6RU9wRFk2VlFSWUMyaXpnZ25hODRNSFUyWDRvcjVwZW5aOU1TUjh5bFpKcUVwNTEyVm1QQQ?oc=5",
-            "published": "Fri, 16 Oct 2026 04:00:03 GMT",
-            "text": "Eintracht Frankfurt vs Koln Prediction and Betting Tips - 16 October 2026 Betfred Insights",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2344,6 +2317,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Frankfurt vs Köln - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tUkVqM0YteDdHZ21HMjdRcXNzRlRyZmdPOG91aEI4V2NPSzlHN29XUUVkbWZMWDhabWVUZ1JNU010ejVZOXZLdXlrNzhXLVlYYXV4aDFUd1FpaUw0cG5mV0dEY3Nfd1AxUEgzMzl3bV9Ld1ZOVEp1bmhB?oc=5",
+            "published": "Fri, 20 Oct 2023 07:04:18 GMT",
+            "text": "Frankfurt vs Köln - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Bayer 04 Leverkusen vs FC Köln: Predictions, Betting odds, Lineups, Preview - Bwin",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV2FYc3Fkc292cHBoQ1ZEWjNvdVVJZFFITEZCSXBvMGtZME9jRlFWMFItQzNKekswVy1QbzNETXNYc0t1dEJUU2VjTWhQXzJWSTBhNlNiR0wtaGR2a3g2SDRzOGd1OVF4ZGEzRHpNNXlmWGEyR2Jqak1hRG0zOEVLbDZlZGYyM0ZUSG1FcGpfUjNQV2NmVTZ2aXVn?oc=5",
             "published": "Thu, 11 Dec 2025 08:00:00 GMT",
@@ -2353,19 +2335,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "All 9 Bundesliga predictions – Week 24 - LiveScore",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa0Q0NU9ZZDFaaGJxdFFlZUxoNVBjSlpCQXN1a3l1RWJGZ0hZMEdsNXB2Tzc5djQzTEd1V3BsM0VOaXdUNmI0cE8tZFlaQlVSSWlGWEp5cEVlcWUtenpGbjc4S1g0SlBOdjcwNEViU1NoWl9vSUUwUmwxMlROeFJxLUtKSk14YV96ekJISDI5MkdBOWRrd3VnWUFsR0QwT0lYUGRGN2l3?oc=5",
-            "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-            "text": "All 9 Bundesliga predictions – Week 24 LiveScore",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Frankfurt vs Köln - live score, predicted lineups and H2H stats - FotMob",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tUkVqM0YteDdHZ21HMjdRcXNzRlRyZmdPOG91aEI4V2NPSzlHN29XUUVkbWZMWDhabWVUZ1JNU010ejVZOXZLdXlrNzhXLVlYYXV4aDFUd1FpaUw0cG5mV0dEY3Nfd1AxUEgzMzl3bV9Ld1ZOVEp1bmhB?oc=5",
-            "published": "Fri, 20 Oct 2023 07:04:18 GMT",
-            "text": "Frankfurt vs Köln - live score, predicted lineups and H2H stats FotMob",
+            "title": "1. FC Köln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXdTdWJNS0xFT2hLSkNGVjVxMV92a0ZvZHFIamxzNzNYOVY3OHctNWVhaFZOYnZEU3VUUElqR016TG9zeEdubFVwdUFuNGpmUURCb2pMYXVVUEtIeDlTSFNZX3k5dDNZSjNLTnlVeVZoLW1BemRtVXhGb09IUXI5M1BUVHotUWNuUllYUFY1NFMtTUJCOUdvaE1sT1M4Tk04OUxneVB1MA?oc=5",
+            "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+            "text": "1. FC Köln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions Bulinews",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2380,19 +2353,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "1.FC Koln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyNjhteEdkMFd1b0dmdzJ5WTlYUjZnLVV2OUlLSjFSX2EzMjFmZzQ4VDVfVkJhQWJIWWlRcXBLTkZkUUZhdVNROTRabmhuU245TmkxUTFJMGZoMWllODNEMW1LZnFtMFVheDVfSFVONmZMeXBS?oc=5",
-            "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-            "text": "1.FC Koln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "1. FC Nürnberg 2026/27 season preview: Transfers, pre-season, predicted lineup & predictions - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGg1bWVTSWNxbXZLWFgyUXlxRl9EdWN5STMtaGJtSnI4VG1pSU1Ia0traFpEWGNGdFBZMDFCa216VHJLaU1IY2tHbldWTzZaZVB0WTBqOXhVbUZqVWNXVjBGRzUwZ3NBelNaeERNSS0xNGd1QnBYZEZEXzFlaWJWVUhoSDRxNm9oTXJQRno0MmlscXpsUzdKN04wUVVNS0x2U185UGZqNA?oc=5",
-            "published": "Sun, 09 Aug 2026 07:00:00 GMT",
-            "text": "1. FC Nürnberg 2026/27 season preview: Transfers, pre-season, predicted lineup & predictions Bulinews",
+            "title": "Predicted Bundesliga lineups: Matchday 4 starting XIs - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV290WFk0V01UNTltNWlONGh3N1p5a2Z5M2pnZzJFczJodHIzVjAzUm9mcEJYNzFlNUU5OHpGUGZCeWZnVlIwYXZ0LXYwejhhOURuNHVBUWc0WjJsanlxMXBNbmVkd0tnaWFIWVl1cGppOVdrYk83N1Q2d091eGR3WF9yNEJVVkJ5cEpFQ3ZkcDQyZw?oc=5",
+            "published": "Wed, 16 Sep 2026 07:00:00 GMT",
+            "text": "Predicted Bundesliga lineups: Matchday 4 starting XIs Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2402,6 +2366,15 @@
             "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSFNVeUJDNGQ5dGZLRWlKYjViMnJuSm83RkZsZmI1ZDJIaFRkOHJLc3pYVUxpMzNMdnd5Vm85Njh5cXEybUktS0NmdUJ0Z25sM1g4SGF0b0JqN3ROdVdzRG9TV05aUUpkX3UtUDVxaWhaZGNNY1VGQUU1VVZyTmJzN244YjFPcTFod21B?oc=5",
             "published": "Wed, 03 Dec 2025 08:00:00 GMT",
             "text": "FC Köln vs St. Pauli: Predictions, Betting odds, Lineups, Preview Bwin",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "All 9 Bundesliga predictions – Week 26 - LiveScore",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUUo2bEI4NUJabHhQc2VfbWE5OWVSRVlkSVE0cFhNbnBmdTBud09lRDc4QlRTeGpOZXhoQkM1ZkFRcW9pMy1vZzZwcUJCQnlEaEZpOG5sRTRRckNqbE4xX2lIbVJQb1dFdmRYU01FYi01YU9hSVBvYUkyVUVRUWVFaGZRZXV2X2trNUxn?oc=5",
+            "published": "Wed, 11 Mar 2026 07:00:00 GMT",
+            "text": "All 9 Bundesliga predictions – Week 26 LiveScore",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2434,28 +2407,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Nkunku hat-trick powers Leipzig to thumping win over Eintracht Frankfurt - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlSnFYMkZWdjhfenRiakJWaG01ckhDNTNoVFhHZndIZDdhV0NEcGEyYzlDcVd1YzViZ2VLSkZTdWtZcHNlYjlZTjdwZmstZ0VLLUlEQWxCZTM1b0pDTEJ4dGg2Z3FNZVZsTFBaNHpEbFNKX29DMko0Z1Zn?oc=5",
-            "published": "Sat, 10 Oct 2026 18:22:00 GMT",
-            "text": "Nkunku hat-trick powers Leipzig to thumping win over Eintracht Frankfurt Bulinews",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Confirmed lineups: 1.FC Union Berlin vs. Eintracht Frankfurt - Bulinews",
             "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT3ItT0o5aEUyT3RzZktCMHhkRC1nOGNLSnhXMHljTVlBUXI0Y0xEQnZ1ZVhFMmVmZl9xeHloU0RvcGR6S0ZKMndwaTFqTWNwU1d5cmxORWlNTUlFaFdxRnNqMU5kZlhVamhBY1h2eGNlS2w2ZWc5dW1GME5zQWI5dQ?oc=5",
             "published": "Sat, 29 Aug 2026 07:00:00 GMT",
             "text": "Confirmed lineups: 1.FC Union Berlin vs. Eintracht Frankfurt Bulinews",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Union Berlin vs 1. FC Köln preview: Both sides creeping into Bundesliga safety - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHZaNkp1YnQ3UEloT01KQVVsRENDYm1MV3ZqVm1xRENTbVZDZ243d3ZfYW5UaDBrTC15QTFTR0JOZTNBbFMzWVMwRVFfeXNPUFFsMWZGUmxtSVJZVmhaMEgzWmIwMTl2VXd3YlM2T2Q0cnZqcWw4ME1yMEFic0kyekpjR045ZTBaNkFkSzExWjZrS3ZHNlE?oc=5",
-            "published": "Fri, 01 May 2026 07:00:00 GMT",
-            "text": "Union Berlin vs 1. FC Köln preview: Both sides creeping into Bundesliga safety Bulinews",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2470,55 +2425,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Manzambi set to miss Switzerland’s World Cup clash with Colombia due to injury - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUxOT3NNVWlqRUNoU1BnNk53eXJoajdTN1JtVzY1anJhSXUtMk9NYTljVVlFLXlUemxNbUZOMUQ0OVl1cUFjVUhhUjFXdkloYThuU2VtTmQzR3FEdHBKaThaNkUzQmFhMTc1SnZjam1KVGNnRXluV3VOa1ItUEo5VkdUMkdNaXozRlNEcUlWZw?oc=5",
-            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
-            "text": "Manzambi set to miss Switzerland’s World Cup clash with Colombia due to injury Bulinews",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Serge Gnabry confirms 2026 World Cup dream is over through injury - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSnlfbUZNNE1kX0F3YTl6Vkx4TnhSMG9jeklnRG40SklHWFl3UW95Q0FEeU5ER3Q4b3ZreUZQYUVWaFg0c0FZc01YcmlGejFvTGM4R1g2amFaSHlFVnZpYnNnMzJseHduM2lFT0M5eWdHUDdYNnA3WW5FWjFiejNJM2NGRTJCRTRNYUxN?oc=5",
-            "published": "Wed, 22 Apr 2026 07:00:00 GMT",
-            "text": "Serge Gnabry confirms 2026 World Cup dream is over through injury Bulinews",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Confirmed 2. Bundesliga lineups: 1. FC Kaiserslautern vs. Eintracht Braunschweig - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVjZ1bXlVSGxTZjhqR1FUYmdXNHBvUEg1YlJmN2pJd3BGWkhrZGNjSEMtVmZlRXJweUgtZFJ0RnV5dGYzMVdwQ0l6QjFhaDVmUmsxMGtIYXg4bjVvWEFLWUlSNlBfR0FLS2hyZHZxZFhZeVlZLVFLZFVjZTV5eVlHeHJpQXRCS2xYTENkdFpQLUZsbzNEd3c?oc=5",
-            "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-            "text": "Confirmed 2. Bundesliga lineups: 1. FC Kaiserslautern vs. Eintracht Braunschweig Bulinews",
+            "title": "Union Berlin vs 1. FC Köln preview: Both sides creeping into Bundesliga safety - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHZaNkp1YnQ3UEloT01KQVVsRENDYm1MV3ZqVm1xRENTbVZDZ243d3ZfYW5UaDBrTC15QTFTR0JOZTNBbFMzWVMwRVFfeXNPUFFsMWZGUmxtSVJZVmhaMEgzWmIwMTl2VXd3YlM2T2Q0cnZqcWw4ME1yMEFic0kyekpjR045ZTBaNkFkSzExWjZrS3ZHNlE?oc=5",
+            "published": "Fri, 01 May 2026 07:00:00 GMT",
+            "text": "Union Berlin vs 1. FC Köln preview: Both sides creeping into Bundesliga safety Bulinews",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Bayern confirm midfielder suffers untimely calf muscle tear - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUE5lQTVnUFpQdTJoN21oNkJpdlNCSXhzbDdWSU5oMkRqQmQxUHZ5V1psaktXT2hBVnlfX2Q2WUxZTDdBbVYzX3ZFcWtYd0JmMVpSX1RCWHQzUGtpQ0szUVd6U0NDSndiMnc5STZjU090NFFtNWNrdG9SV29tVjJkaVdzM1dPVmM?oc=5",
-            "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-            "text": "Bayern confirm midfielder suffers untimely calf muscle tear Bulinews",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Fresh injury update on Harry Kane and Serge Gnabry ahead of Bayern’s second-leg clash with Real Madrid - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUlpPbnZoV2k4N01FQ0VhY2I2bXhxai0xYkppQ19NN3JwU19ZNjlHREhUeXNzMjhRd09vTUVFVGZ1emwwN3RwV3NVLXhRUVVQX2FOSkFLMVJSdVk5dlVETXAxQW9pNlh0Q0xXbE5YaFJRdGdfUGlYMkdzZDhNRUJtMWVySVlqelMtT0k5VDUyRU5zQ2tiRjJMMlRoOHpRRlVReFlfdUYtUXNjUDZUUnJJ?oc=5",
-            "published": "Sun, 12 Apr 2026 07:00:00 GMT",
-            "text": "Fresh injury update on Harry Kane and Serge Gnabry ahead of Bayern’s second-leg clash with Real Madrid Bulinews",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bayern newcomer Saibari suffers worrying injury in Morocco's Round of 16 match - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNjAzTm9aTEVQeEdhVlpyZktrS2NhaVJiZ3lMNlJtTV9Ta0lUYXFWeVh2OEtRcExQRXhGYk5oeGhlbmVhYUtsMGNMTC12Y2I2RDNMQXo4Rzc3OE1FMWJHVUpYSWlWWkZqOW9heDEyVUp6WUVkSXQxQTA2MWpzeXU1RE1ueGZjTmJRd1dlbTRHSnk2bU9qckE?oc=5",
-            "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-            "text": "Bayern newcomer Saibari suffers worrying injury in Morocco's Round of 16 match Bulinews",
+            "title": "Jamal Musiala's injury comeback timeline revealed after surgery - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0LV85VG5rZUltazZTTVZXMmVGcmZaWnowRzdxUGZLcEZTY0gtd0JNY0hpQTR1cDZQY2tDWVJ1RkxLOHJQSGN5TjQ4bk82eU4xYzVIYXlyRC1RRERyNFVaM0tjTTczT0lzZ3J5UGNpa3o0a3ZIdC13TQ?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "text": "Jamal Musiala's injury comeback timeline revealed after surgery Bulinews",
             "language": "en",
             "sentiment": -1.0
           },
@@ -2528,6 +2447,60 @@
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNamctWm9VUzJXMC16RWFDVDVOUm5MMDZnb09YY3Y1dlRJeWtfMFI4cThhTjd2OV9teFlOSmhtSmNaTUNwNnFpV2FYbFpIcVBKM1dKTlVlVm8zakpoSVUtalFuTHFWT2JicUE1bFVGUUM4M3ZaanBORXJ1alY5N0FsNWs3MmdCS00?oc=5",
             "published": "Tue, 21 Oct 2025 07:00:00 GMT",
             "text": "Eintracht Frankfurt reveal injury setback for Oscar Højlund Bulinews",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Official: 1. FC Köln agree one-year contract extension with Timo Hübers - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3ZBUHVGVi0xWlgzRFdxRWNVQ3VKOE9MOHd0TmxUV0E3VjkwX1lpRjN0d1FOek9ZekVjWDI0VngxdWI4ckQzYVluOU9FMjFFWFVCeGNOcnVkRUZWSTJTS0lJSElicjU1bWc2R2VNVm1laGExbFRrMk56TS1HZXhvaFlyMTVtS0loYnc?oc=5",
+            "published": "Thu, 14 May 2026 07:00:00 GMT",
+            "text": "Official: 1. FC Köln agree one-year contract extension with Timo Hübers Bulinews",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Eintracht Frankfurt bosses back Kaua Santos after blunder - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nVUh1NDRzOTNWUFhwb2ZSWVg0WWhNQ25sMUF5eWpHcWx6MUprN3BfSGhKSFhaSWhleWhsN05uUm90dTJJdkFCRDlOOFM3UTM1SzllZnVkTUJkZlN0cVVZYldhNjh1LUFXZ3dWZHpB?oc=5",
+            "published": "Mon, 20 Oct 2025 07:00:00 GMT",
+            "text": "Eintracht Frankfurt bosses back Kaua Santos after blunder Bulinews",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Schalke rule out key striker indefinitely with leg injury - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93RmFON0x5SWlIZ283RkZFLXZBMW1rQ01hTi16cFpjMnhMNElMUzVwODBRLXJJY3JuVEZETTJ4ZnJIaElfQ2xuN0hxOVB1NkhjTnlIODREOUlxTmhzaEtRUTZiQ0dyNlZSS3J0X1pGWGRXZ0l3dVZTYnRLcVZyUQ?oc=5",
+            "published": "Thu, 15 Oct 2026 09:58:00 GMT",
+            "text": "Schalke rule out key striker indefinitely with leg injury Bulinews",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Köln fear El Mala absence after injury blow - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YMzMwXzdaQjhDMTZ0MEszVVU5czBjeDc3SVhtVUV6cG5UdjJzaEdOWElqZzVpVENMcU0yUDAxZnlxcTZRbzVveElLaC1TU3dseGdxOGUwQlhTRkROck40a1NfVTdsYmJ1YTV4elNn?oc=5",
+            "published": "Wed, 05 Nov 2025 08:00:00 GMT",
+            "text": "Köln fear El Mala absence after injury blow Bulinews",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How will Germany line up at the FIFA World Cup 2026? - Bundesliga | official website",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM0g0YVhzNmduZ093emQ2RnJGeGJUb3QxYUptWHd4NU9XbTZ5TDJTX2c3SENNdXVpNXdBVnNrSzFUN1JaMmtqOFNYTXVPM3c0NldWMWxjd0tXOC1Oajc2dHVUOXk3MjItM09ZYWpsbXBYRXdLZVJXN3ROeDcyYzZ0ei05VUowNDFRZWVzYlpaRjdrZzlMYnRnUGZGRnZQR3lzMWhtRHRUdnlDZkNZVjl5V1JGSmZGMFNUX1VuRU4tM09Edw?oc=5",
+            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+            "text": "How will Germany line up at the FIFA World Cup 2026? Bundesliga | official website",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Stuttgart handed injury blow ahead of Köln clash - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16bUZnX2VCRGlyYm5TRW1sT2R5RkNWYUxueXo3LW1CVjNNQUx6VmEtaF9YR0NhSGoxa2JqU2VaRlJ0U0Fka1o5WkU4R25XYXltQm5qMXF3al9la2ZDbzdLVHU1QlVaVDMzWTUxaXhZYU1rdVcw?oc=5",
+            "published": "Thu, 03 Sep 2026 07:00:00 GMT",
+            "text": "Stuttgart handed injury blow ahead of Köln clash Bulinews",
             "language": "en",
             "sentiment": -1.0
           },
@@ -2596,6 +2569,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "1. FC Nürnberg - Eintracht Frankfurt Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYmV6d2RQenZpYzdKVHlrZGhWUG5VX3lpWHhHb2tsaHdrYnhXSF9uWnNiYllBNzBHdWxham5tN1BBWUZNTHd6Q0dZX1NWb2xQNE9ud255WWhURjN4bF9QZm9ZOU1nSTlrbzZzS2FoTmdKc0wtR2s4czU2aUxMTmlLbG83QkxuNkNuV3UtbWprUm1IQzZlSmtyamtOc3JFXzRaczIyOF9YLWVPdE00ZHlfdENKMmx1MEllY29Zc2Rn?oc=5",
+            "published": "Mon, 28 Sep 2026 06:14:54 GMT",
+            "text": "1. FC Nürnberg - Eintracht Frankfurt Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Eintracht Frankfurt - FC Augsburg Tahmini: İyi formda olan iki takım arasında bir karşılaşma. - Vietnam.vn",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ3pLeUV4MUl2VmNkblViNC01elZ2WVc1V1dzaHd0Qzc4RzlHTWlUU0J2OGljVDJmUW5yV01vMk8zYlkwNVJpb3pqdm9zNUFiNlY1dHhKMkkxeUJLMUFXMTdMUkpwUW9MSkN4T1dwbHA3b1JqX1ZvSXNVOWRyVVNqblZsd09KTHFBS25zeFFjVE5tRVAwajZnVmtKZXl2V0JrYUpYRw?oc=5",
             "published": "Sun, 06 Sep 2026 07:00:00 GMT",
@@ -2614,28 +2596,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Tahminler - Almanya Kupası (Almanya) - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5STE5hUE1xR0VjSndOMG9XZDlrQTBidnh2WVMtU0ZrOVUtWVg0c3RkTVNkenpGMVFnWllUQlZYX2RJOVNsRW5rQ185OTlZaEFQcFZOM1lRZUpuSF9QODZVWXk4My1ZQQ?oc=5",
-            "published": "Mon, 01 Jun 2020 02:46:43 GMT",
-            "text": "Tahminler - Almanya Kupası (Almanya) FootyStats",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Tribünlerde yaşanan trajedi... Bir taraftar kalp krizi sonucu hayatını kaybetti - Goal.com",
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEx5cjJZcWpjUENNUWdFTjZBVFRKcmhqSS0tZmhQbVRtZHUyV0xzX0V1bkRDZEZSN1k5eXhqbGhnZktidS00NkF0V3VncFhzeEpUWUtNRkJjdHEzd0RLSWpXak1tOFhQU0ZpMWRlZmRDWm9YYUtHWmFvQXkybVZFT1BFWEtZUzFNdU9IUHczWXBZdngtTDhPcWxraHNHdVlSU3J0OFF3NF9FLUkydlY2S2JvS1dEaUZhX3FtUXFiYmlETjRP?oc=5",
             "published": "Wed, 08 Apr 2026 07:00:00 GMT",
             "text": "Tribünlerde yaşanan trajedi... Bir taraftar kalp krizi sonucu hayatını kaybetti Goal.com",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "1.FC Köln - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVHhWY1FOeTJoYzhNbWpKUV8tQUVsU2hOWFBkbVFwYkU0WWJJSFZzdGloVWE3Sm00QnF5QV9oREoyZFR3TEpydnlQU3lJaXRBMGFiTFd1RDE1M29iU2tTakx3SzQ3Y1lXek4wSWlEUzNqU2I3X2g3WGJyUDU1QjUwS2xnbw?oc=5",
-            "published": "Tue, 03 Feb 2026 14:19:51 GMT",
-            "text": "1.FC Köln Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -2650,12 +2614,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ragnar Ache - Sakatlık geçmişi - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04SjZZR0l4eEEwSkhCUm92ZXFidk8xZ3B3aDBnTm80UmgzcU8xeDFPZkwwY1Z5cktUazBwTHMwUXl5X0F1Tm5LT0lqOXcycGFSVi12blRtbGU0MUpIN0JEbl8yWHlPUUpQTHhQTGRQNVRyZ2dwS0JtczBTQTc?oc=5",
-            "published": "Wed, 27 May 2026 07:00:00 GMT",
-            "text": "Ragnar Ache - Sakatlık geçmişi Transfermarkt",
+            "title": "1.FC Köln - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVHhWY1FOeTJoYzhNbWpKUV8tQUVsU2hOWFBkbVFwYkU0WWJJSFZzdGloVWE3Sm00QnF5QV9oREoyZFR3TEpydnlQU3lJaXRBMGFiTFd1RDE1M29iU2tTakx3SzQ3Y1lXek4wSWlEUzNqU2I3X2g3WGJyUDU1QjUwS2xnbw?oc=5",
+            "published": "Tue, 03 Feb 2026 14:19:51 GMT",
+            "text": "1.FC Köln Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Form Tablosu - Bundesliga (Almanya) - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uc2dMQ01OQWNuZVFMZGZKakg0QnVra1BIZnJGSXFIZldpcEpOc09vVVJ4RFZxTWk4SFYzNlJHRjdScDZqNE51OUpxT1NZZzJoUjNfZFZjcmJzQTYtY3Y1dldlN0Fhdw?oc=5",
+            "published": "Sun, 31 May 2020 03:11:36 GMT",
+            "text": "Form Tablosu - Bundesliga (Almanya) FootyStats",
+            "language": "tr",
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -2940,8 +2913,8 @@
         }
       },
       "intelligence": {
-        "mentions": 46,
-        "web_score": 0.0,
+        "mentions": 45,
+        "web_score": 0.0222,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -2950,10 +2923,46 @@
         "items": [
           {
             "source": "Google News RSS",
+            "title": "Le Mans FC vs Toulouse FC - Where to Watch, Stream Info, TV Channel, and Live Updates (October 16, 2026) - Fubo",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeF96MVgxeGFaTTdGTUdIRDNjTEJqM1ppOF9SYkVzZ2dvR3VqejFKUzk1RlJHQkhLR2xCdVkxdXprOHdHQ29YbXhyQmV4UnBfZHFqb1VIQk50bHgxUmdCRkd6NmlEeXZ6TFdnVENVWkQxaEpHNjF6NFpULUVIaUk2dWt2R2Z5SllkOUxWUEdzbDVkeEcxeE5sRkFVbEYteU45Mm9EdmI1UTNrMVd4UDFZWEdoR0x3TkMtY0JEXzFTNGFqSlZpM1FfZA?oc=5",
+            "published": "Fri, 16 Oct 2026 06:05:50 GMT",
+            "text": "Le Mans FC vs Toulouse FC - Where to Watch, Stream Info, TV Channel, and Live Updates (October 16, 2026) Fubo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Le Mans predicted XI v Toulouse: Adil Bouarabaa out, Djibril Sidibé to face former side - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5c1ZzbVI0ME1FdXFfRUpkRkJpT2dITjAzZnhoLWJZVzBwLXJmVHNKdEFnOVZ3TGVRaEtHbUdfNkppcGYzWnctOG0tV09zNV8tS0gySUp4UEIweEdSZG5LYU05SS1RTzUySTMxUmRqSEdmZ3ZJVms5TVM0QQ?oc=5",
+            "published": "Fri, 16 Oct 2026 09:03:34 GMT",
+            "text": "Le Mans predicted XI v Toulouse: Adil Bouarabaa out, Djibril Sidibé to face former side Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTXhHcWcxZVE3VlJuSFQ2SVlwVDlaeUlZY1RrLXk5Vk1seUQxZFJGRm5JbndKaklqQTZHaWlFR2VBU0o2X19RSWpORFE4Q0NfYlIwMlFUU1RvVmNDcEV6Y0JWMEx3QnBaNDlmMV9LVXFRSzhkQ0JOazhkeEJpOURsZEhyR0NUb2ZKX0Q2NWtDSm9WUXQtSHNjZVFEZXVqV1dpYUpTUmFNb0I1X01tNlJVbzY5RkRiMWYt?oc=5",
+            "published": "Fri, 16 Oct 2026 09:47:23 GMT",
+            "text": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength Get French Football News",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Le Mans FC vs Toulouse FC: Ligue 1 Football Tickets - KarloBag.eu",
             "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3lMR2ROaEVKeEVYNEk0SXBFdS1Tc3lxWWlQbFhLVmFVU2ZOVEdPZHJkZ1FpTmVpT2JiQU5uMVRPeTFrMm4tYXlzVTFUYXh5ZnlKQW5LX3BKNFZFbTVaenR1TXlKeGd5VEg5X1dOMXBoWWk0VXBhTkdScGNpd1FoU2hmeDlWWk5EZHA2R3A3UG1LV0NEYVFR?oc=5",
             "published": "Sun, 11 Oct 2026 23:58:45 GMT",
             "text": "Le Mans FC vs Toulouse FC: Ligue 1 Football Tickets KarloBag.eu",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Le Mans vs Toulouse Prediction and Betting Tips - 16 October 2026 - Betfred Insights",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU03RzNWbEZydmlBdXdsYmtOMVlsX2tydElJMEt3RFhaTm5UdXIzdlNxNjdtX1FiUXlGQllJMTA3b0lRTWZSczdqeEZhMHNFU1U2Q1BySkYwVjRVR041dHpmUzlkdkFidGREQUNQZTVzTW0wVzlsb3lOenBTeWhpNkY2Ukxtc1I2QUlnMTdQSFYxemhodWo2WFNEVlhXSUZXemNOc1FDbWJycHVpY1VReUJPVQ?oc=5",
+            "published": "Fri, 16 Oct 2026 05:00:34 GMT",
+            "text": "Le Mans vs Toulouse Prediction and Betting Tips - 16 October 2026 Betfred Insights",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2977,19 +2986,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Official | Djibril Sidibé joins Le Mans - Get French Football News",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkw1MXdMVEt6Z2J5dEpaZE1qWmZQaHR4ZXB4eVdlMGpaTmRKVGxGZHloV1FISjNFSkIycG9WMUQ4Rkt3QVN0SUFocElQaFhNQUFjRTlMY0xDcW4wXzFUSFB6aU1QQmg2ZW5WRmktZXc3QmwxNGhOUndQazAyVmUyZElwSHlOem45?oc=5",
-            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-            "text": "Official | Djibril Sidibé joins Le Mans Get French Football News",
+            "title": "Le Mans FC - ligue1.com",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xWFFrVTJuLWkxbVlka3ExMkhKNWRYMDQ4MzFhMHJyOHAwX25UOXB1Yjh1TGNkYnZITDdMZVpzOVY1QnA0YkpEUEsxUVRiMVMtU3JqWjRkR2VlSFdUb2Nhd1J5ZUZoQ1RYem13X1Q5Y1ZtYXU2?oc=5",
+            "published": "Thu, 02 Jul 2026 07:36:48 GMT",
+            "text": "Le Mans FC ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xWFFrVTJuLWkxbVlka3ExMkhKNWRYMDQ4MzFhMHJyOHAwX25UOXB1Yjh1TGNkYnZITDdMZVpzOVY1QnA0YkpEUEsxUVRiMVMtU3JqWjRkR2VlSFdUb2Nhd1J5ZUZoQ1RYem13X1Q5Y1ZtYXU2?oc=5",
-            "published": "Thu, 02 Jul 2026 07:36:48 GMT",
-            "text": "Le Mans FC ligue1.com",
+            "title": "Official | Djibril Sidibé joins Le Mans - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkw1MXdMVEt6Z2J5dEpaZE1qWmZQaHR4ZXB4eVdlMGpaTmRKVGxGZHloV1FISjNFSkIycG9WMUQ4Rkt3QVN0SUFocElQaFhNQUFjRTlMY0xDcW4wXzFUSFB6aU1QQmg2ZW5WRmktZXc3QmwxNGhOUndQazAyVmUyZElwSHlOem45?oc=5",
+            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+            "text": "Official | Djibril Sidibé joins Le Mans Get French Football News",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3031,28 +3040,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Villarreal CF sign Logan Costa - Villarreal CF",
-            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOTVBxdE51Mkt5WUU0QUJpOHVzZi1LemZ6OVdYeVFwZ29uRmcwYVM1OU5BdDU4VDk1eVllMERBM2t3Mnl3cEZTUW5IMHFBaUJUMGZETi1NZ21FVXh2Tzk2ZFQ4a3ZwVE53ZVE?oc=5",
-            "published": "Thu, 22 Aug 2024 07:00:00 GMT",
-            "text": "Villarreal CF sign Logan Costa Villarreal CF",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Preseason Friendlies: How has each Ligue 1 club performed? - ligue1.com",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQjR4bTdRdjNpeXI4aGItR08xZnJNcDBSQkV2aUsyamJzOWJaVHRVaDhnck1zR1k2MFBUM1hwTXZ1ckFLdHFSUWI3S0Q0clN4anR0ZGMxY21YNGVMZEsyVmQ0MWVaS1VvaTN5bVdPMUMwQ0RvUmpaQkd1REdQNXhaVm4yeHM1NVRzSDBnTWNnWTA3M080NHFyRWNROE9NbjVaUEdiSmh3?oc=5",
             "published": "Wed, 15 Jul 2026 07:00:00 GMT",
             "text": "Preseason Friendlies: How has each Ligue 1 club performed? ligue1.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Le Mans FC - Stade Brestois 29 - (2 - 2) - Highlights / 2026-2027 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IT2k4T2h2TXNiWm1wZkNVWDlLVlJJemo0MkNlQmVpUUQzRDBKa0pFZU51TUJWelplbjVjTFhMeTRPNHZvV295dGJrVlJZRG9xX1VRamZINVVhRWxFbk9WclpjZjJtZw?oc=5",
-            "published": "Mon, 24 Aug 2026 18:52:58 GMT",
-            "text": "Le Mans FC - Stade Brestois 29 - (2 - 2) - Highlights / 2026-2027 ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3067,19 +3058,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Match sheet (LE Mans FC - Angers SCO) - GW 17 - SEASON 26/27 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93Z1dmRHJ3VmtkdEhiVXBGbHJPc1ZoZGJ3b2ZYbUtJMHExTU5VRXRVUVpyWkpWYUNEZUJLXzdaWWZBSjVGdlVIaU04ZEtLVDBGQ21lM1J6Y0w3QmxuZ3VDVGtnWmtUTWZRUDlIOVZ1T3pKOVdJMktLNg?oc=5",
-            "published": "Sat, 19 Sep 2026 08:53:08 GMT",
-            "text": "Match sheet (LE Mans FC - Angers SCO) - GW 17 - SEASON 26/27 ligue1.com",
+            "title": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQk96UDVMb1l3b2R1NHc5Yk0wRUNpbEVuN3FvMWN1d0ZPY0w3bldqTDAzT2d2djdXSXlqeGVrXzdndmxvVDhmOG1rMkR3WFM2WnphdWg4X3pMTDNpUTJiYlRvbkZwTkpxWUUyWEI4eUlMS0tPV2lPaWtNT0dHbjlHaA?oc=5",
+            "published": "Fri, 16 Oct 2026 09:47:00 GMT",
+            "text": "Toulouse predicted XI v Le Mans: Jens Berthel Askou’s side at full strength Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Match sheet (FC Lorient - LE Mans FC) - GW 19 - SEASON 26/27 - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15VWFqYTM2SFowSXpDeW1lMVRvUkt3ZDFMSmQ2d2FOVVgtRWZOZEd6SnNWVE1wcnhaOGdaYkc4MmI1b1BidHE2RXZkMkVZX3RvYmxFQ25FbTI1NW5sMmlSSzVQZGZVUmxkYmJ0dWxlZzZKaTZtOVA0UQ?oc=5",
-            "published": "Sat, 19 Sep 2026 04:23:45 GMT",
-            "text": "Match sheet (FC Lorient - LE Mans FC) - GW 19 - SEASON 26/27 ligue1.com",
+            "title": "Le Mans vs Toulouse: Lineups, Prediction, Odds & Bet Builder Tip - WhoScored.com",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOUJxQzZ6SWdWSEJBVHFfamdZeU1CUnRJSUFZNVZTY0J3eWpEWnB0dUJta0l3ODU0U05DT0pJYW5pdVZHY2ptQlBBMDNkWUw0VDh0aVhOYUJKNFNYMDJwcFlXejJzNzRkNTZiZFhzTGFDak41aW9xRFBLSlBELWEzc2hMMmR4d3BfeGI4azNBUmN3cUNmek0zZkRxakJTSndxa0t0MmlWb0d4eV9zV0twRk52NkxWMUExWmZZbw?oc=5",
+            "published": "Fri, 16 Oct 2026 09:51:00 GMT",
+            "text": "Le Mans vs Toulouse: Lineups, Prediction, Odds & Bet Builder Tip WhoScored.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3087,17 +3078,8 @@
             "source": "Google News RSS",
             "title": "RC Strasbourg Alsace - Paris Saint-Germain FC prediction & tips 17.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbGl4a2dTLVJzWXR3cmhvSDZHbjcwVUJKYVYzWXYwOUNQQUNybXJKOG5pc0lyRWMwMjVMYXhFbkMzV0hpZmZJOE12cktIN2FGUUktMjFlWnZwR2lick9QQVZIZ3NMZWl6dzQtVC03VkZHb2gxNi1lMGtQWUZUUEVxeDVGSTdlNzQ5MDNPQTFlN1ZsOGk1OEVlMnJzZ1hqMlB5UGxlYw?oc=5",
-            "published": "Thu, 15 Oct 2026 20:08:56 GMT",
+            "published": "Fri, 16 Oct 2026 09:51:45 GMT",
             "text": "RC Strasbourg Alsace - Paris Saint-Germain FC prediction & tips 17.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "26/27 Preview #3: Le Mans FC - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2c0Y5LWdzT21YNWwwUDRuSktVdEk3YnVHZnI1VUFkZmtydnFuYnFQVVIwUjNnaVBFTXNmWE5Ydmxhb1dwRjBYaWJFZFZQNWxNWC1pMmJ4c3JDb1RMY1VzUW5wRVI4dTU3YVhCZkZfU3pMZU9FNGtwR0RpQWMzdw?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "text": "26/27 Preview #3: Le Mans FC ligue1.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3112,12 +3094,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "World Cup Preview: Group G - ligue1.com",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nT3dGSklQTEFLT0ZGcEFrbFpmOGExWHg5eXBQZHVaZGpsTm1kRmpVdWF4MTRzZ1A0YWx6SzNwd21BbUkyb19DaG9hUGdkbFpHUVVMNEhyRXgxQkxsNlN4VVVZSWJna0o1UVA4NlYtaS1LT3BPWkdURExwX1E?oc=5",
-            "published": "Thu, 11 Jun 2026 16:12:23 GMT",
-            "text": "World Cup Preview: Group G ligue1.com",
+            "title": "LIGUE 1 PREDICTIONS | Round 7: PSG look to extend winning run in Strasbourg, Paris FC host Rennes - Get French Football News",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUNSTGJ6QkVqRktUVC1TcGtJS1cta0ZHVkRlWi1mYkFVT3RzelltaXJBSmpiZUx6Y0x3UEtYaHg4X1RHa1Njc2tmaG44MmNNNGVQM3VIR3AzUUtEV01RbllTNTQtemxwak1kMDdteTdLT0pJNDIzRHVWeFQxUnNZaFA5cWRvU3doLUJKck5xNjhUYWJ5Y2d0eG1rWS1qM2szVTQyTmI3dHhBYmZqSzVBcFZHYkVzU0ZaTHFaMXpPaHJDUHMwZDZaX1YyZ2RDT0ViUkZN?oc=5",
+            "published": "Fri, 16 Oct 2026 09:12:57 GMT",
+            "text": "LIGUE 1 PREDICTIONS | Round 7: PSG look to extend winning run in Strasbourg, Paris FC host Rennes Get French Football News",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
@@ -3125,6 +3107,24 @@
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQk52LTVrT3VsckVOOTN5RDA3VnUzTDhEUEdDanI3NllGRWc4d1RtLWFnOWsycnZsMERvM3ZzbTdGVXRhQ1laS2lnT3g5SFdWRVpsYzE0cDlJdWVKbkxLd0R3dmM1Z011Ti1Jek9mT2lUd0ZBTDZDU3FlNUxsck5RUWN6cVZCTFhEY0VxV2FQcDNkMURR?oc=5",
             "published": "Thu, 08 Oct 2026 12:36:13 GMT",
             "text": "AS Monaco FC – Toulouse FC prediction 10.10.2026 – Betting Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "26/27 Preview #3: Le Mans FC - ligue1.com",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2c0Y5LWdzT21YNWwwUDRuSktVdEk3YnVHZnI1VUFkZmtydnFuYnFQVVIwUjNnaVBFTXNmWE5Ydmxhb1dwRjBYaWJFZFZQNWxNWC1pMmJ4c3JDb1RMY1VzUW5wRVI4dTU3YVhCZkZfU3pMZU9FNGtwR0RpQWMzdw?oc=5",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "text": "26/27 Preview #3: Le Mans FC ligue1.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | PSG vs Le Mans: team news, lineups, predictions (Ligue 1 10/10) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTVGlRbGtBVFF5V1d5S1dEWHBZOG0zZGZ5Q0JNWWtZNFV5bzN0a1paNWt4SzNjZG9HYkk1VU1vcmo0OUlPcmp6M0I5bVFzYllZUGJsbVRUdllRZVE3cG84OHJaU1Fmc25kb1l1RDVISGhFYnRwMDJpN0ItVQ?oc=5",
+            "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+            "text": "PREVIEW | PSG vs Le Mans: team news, lineups, predictions (Ligue 1 10/10) Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3139,55 +3139,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Ligue 1 Predictions | Round 1: OM get underway against Strasbourg, Rennes host PSG - Get French Football News",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdFRZY1VaZWpQVFdTQ0FNMjh4b2dQWkdlMkN1WkozcGtqbWhVQ2lMNDJnUlVwWlZ3ejVvbkd6MndhTDZGcWJ6ZkJETHcxb0VmTXdOZ0xyU2dHWXhXY2Y0RTNrNlZCaWNPNTR4eU0tblItNE5HRHJuaTMxbmhjYTJmYW1Ma3ktR3Z4VEZ1ZG42WGhMRElLRW9xZ2xMa0l6eU5oSkMxLTNlZWpDbnpPc2tPS0ltUi1mZDBFUmRmdktEZw?oc=5",
-            "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-            "text": "Ligue 1 Predictions | Round 1: OM get underway against Strasbourg, Rennes host PSG Get French Football News",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Ligue 1 clubs' full list of pre-season friendlies - OneFootball",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaHQwQUI4eEpSUzVZWlBCWE1ucjNXRTZUVkdpT0lTUmhjdnI1NkhVVlBSWGNxQjVacDdWc3dCN1p5NGZhSnhZYjMwSEJNdWJpcXFzNnVidFRwREctMHd6OEVDVFJwRkNtbEs1RlVFRExtZndmN0RBTXFGWmRHSDIzbEFEcS14SjFIUWM4UENzNjNyYzQ?oc=5",
-            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
-            "text": "Ligue 1 clubs' full list of pre-season friendlies OneFootball",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "FC Lorient - Paris FC prediction & tips 10.10.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOanhIclJ2aTVEcGxuRmM0NmV0NU9DN00yNXdFOTN3N2ZhSWdEVmoxbVJSdGJKU0M5VEd1dlRRR1JtT25MNGJpZ3B2cno4YzJJY1A2RW1Dd1FJc0o0OVYzZUMya00xSGRqc1NlSWhjMllsenp4TnlhaXFHNjRQQndacHJYaWhvSlQ1ZTRXWWE4UWt6QQ?oc=5",
             "published": "Thu, 08 Oct 2026 04:53:54 GMT",
             "text": "FC Lorient - Paris FC prediction & tips 10.10.2026 Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Lorient vs AS Monaco: tickets for Ligue 1 at the Stade du Moustoir and a full matchday guide to Lorient - KarloBag.eu",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNnk3NnFYd3lEOVkySjZlcDFhUjA4U3JiZElJUS10ZTl2U2x2NnpIM1dwNy1oZmdndGh5MHlXUU1fRy1ROXEzWTAzcUlObGpIVkpxT0RMYlA2LXgxZFNpWkVweDFzVVY2VXRoVUlXcE1ydUs2bXNLcnJQRkh0M2g3dV82dl9mQ0xHYlF5bVNJOWJKb3M4eV9pcUNGdkppYkk?oc=5",
-            "published": "Sun, 11 Oct 2026 23:39:56 GMT",
-            "text": "FC Lorient vs AS Monaco: tickets for Ligue 1 at the Stade du Moustoir and a full matchday guide to Lorient KarloBag.eu",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "OGC Nice – RC Strasbourg Alsace prediction 11.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMFVlTDRqcjBGYWIzMmt3WUNtZnBTelJUSHdtU1ZWeVFBRkF3TVRrZHF1S0xIbG5qbFNzY2cyQWNMQ3N0eHpLZGJxekw5NnAtbXJPNkVVWGFvNGFrVUtxYTBNMFBnSWVVOW1jOEVsbzhLUDNKQ1hCX0QzbXk3MVAweFlaX2pqWE5pOFBZR3RRaGJzNTBhZFE?oc=5",
-            "published": "Thu, 08 Oct 2026 12:43:57 GMT",
-            "text": "OGC Nice – RC Strasbourg Alsace prediction 11.10.2026 – Betting Transfermarkt",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "ESTAC Troyes - RC Lens prediction & tips 17.10.2026 - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmczVWk0UWluZ3Voc3RldkZJVF9SM1U0TkMxY2ttRDlsbHNzblJNNUFYQVpNbTV3S3ZxZXg4Snc2d25rZVRjdUNMclRDTkJTcDVJTVlZR2hkY0QxWWdJN0JmRWJCNVNXSDJqamx2MlRZYzlUSTgxdXU3R0hkODV0N3FVTjFOTXRFMktNMEhiRVkxNjg?oc=5",
-            "published": "Thu, 15 Oct 2026 08:45:39 GMT",
-            "text": "ESTAC Troyes - RC Lens prediction & tips 17.10.2026 Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3211,6 +3166,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Ligue 1 clubs' full list of pre-season friendlies - Yahoo",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM21TalhiMG9ROTRacEEzTHkzU2NwNjJrakNMU09rcHoxeVlCVjNQUFNqUFN2TF84eENleVY5STktZ0tQLTNoTXhCbjdrZkNEUGFPaEhSRFBVYXRZWkxBbXFuN0lkLXNja1JnZ1hoR0pUWkpKYkdjWU9PZHdDZV9Sc2lmbw?oc=5",
+            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+            "text": "Ligue 1 clubs' full list of pre-season friendlies Yahoo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Toulouse predicted XI v Marseille: Aron Donnum returns for Coupe de France clash - Yahoo Sports",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHpFUGRnakVVdmNnODlZMVRJTDlwNm9aYS1WbXhIQlNuYWdwbUpNbTNTbExxeHJoWGJtQm5KR1h6MXVhNlptb2NKbTZmNEVuLUdHSlFrcFZoVmluUkFBdkk2WHdLZG9SWS1xdE50dGVON3dDV3BwNnUxaHdDQkFjQW44OU04NGxoa0E?oc=5",
             "published": "Wed, 04 Mar 2026 08:00:00 GMT",
@@ -3229,19 +3193,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVW1SRy1zNmNBaTgwZHFZYnJTalhhZDZ3NnZld2NwenpfNnd4ck1JdFNEbHNSRXNsUlo1TWtrcXpSeDM4dUdIWGh3MU1sd2JQSllDbVJhVndfX013ZXgySkh4TTZaVzZ4azd0NFFSMFJWUVhwM2dMQUFyVW1UWnFvVFl5c2VMMm1GV1Y2cVp2ckkwc21YOVY5NkFVSkQzYk1TYXBUNlkyNFlNOGV4UkZINTdxZTQ0cWVBbC16RHFLOS11QlJwZ0hYeEhJVG1tNWpXS185eFhUNF83RUJUdHhLbEVkREFENEJsczQ3a2pCbU1udnBkeVZZMG53X1lIVEw1dUE3NXF3UkJNaUxKYjNwZl9n?oc=5",
-            "published": "Fri, 09 Oct 2026 12:04:58 GMT",
-            "text": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
+            "title": "Stade Rennes - RC Strasbourg Alsace, 25 Eki 2026 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDZVVJNURRRlJTdEJJblJiMldtYVpKSWR6Q1Jub0dhV1NMVkhlZEtHaWZwWFZiWFMzRkktaXVxNVlEY0NJOTNRTWxmWUYzSWZHVFRoeHYxYV83N25NeWRDTUkyazZLWGtRcGlQU3NJcDVFak9CNnRpemFVa2U?oc=5",
+            "published": "Wed, 14 Oct 2026 09:21:26 GMT",
+            "text": "Stade Rennes - RC Strasbourg Alsace, 25 Eki 2026 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2VrblUzU1lSZkw2TUxCUV9ucF9Hd2ZJS1BtUnk1Wm0tUC03QlljXzZITUtvbEdhVnk5UFdvaVlrOERha1ZGRFFUNVp5QjBCYnR6cmFCdjl1Q0IzVkRBajNjaW1vNHBySldLdlNIVlhkMXpIT0NQTUJfRjJnZVJidEIyRHJXNEZJ?oc=5",
-            "published": "Fri, 09 Oct 2026 13:47:25 GMT",
-            "text": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "title": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVW1SRy1zNmNBaTgwZHFZYnJTalhhZDZ3NnZld2NwenpfNnd4ck1JdFNEbHNSRXNsUlo1TWtrcXpSeDM4dUdIWGh3MU1sd2JQSllDbVJhVndfX013ZXgySkh4TTZaVzZ4azd0NFFSMFJWUVhwM2dMQUFyVW1UWnFvVFl5c2VMMm1GV1Y2cVp2ckkwc21YOVY5NkFVSkQzYk1TYXBUNlkyNFlNOGV4UkZINTdxZTQ0cWVBbC16RHFLOS11QlJwZ0hYeEhJVG1tNWpXS185eFhUNF83RUJUdHhLbEVkREFENEJsczQ3a2pCbU1udnBkeVZZMG53X1lIVEw1dUE3NXF3UkJNaUxKYjNwZl9n?oc=5",
+            "published": "Fri, 09 Oct 2026 12:04:58 GMT",
+            "text": "Le Mans - Toulouse biletleri nasıl alınır: Ligue 1 fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3256,6 +3220,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2VrblUzU1lSZkw2TUxCUV9ucF9Hd2ZJS1BtUnk1Wm0tUC03QlljXzZITUtvbEdhVnk5UFdvaVlrOERha1ZGRFFUNVp5QjBCYnR6cmFCdjl1Q0IzVkRBajNjaW1vNHBySldLdlNIVlhkMXpIT0NQTUJfRjJnZVJidEIyRHJXNEZJ?oc=5",
+            "published": "Fri, 09 Oct 2026 13:47:25 GMT",
+            "text": "LOSC Lille - Le Mans FC, 29 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Le Mans FC - OGC Nice, 30 Oca 2027 - Ligue 1 - Maç raporu - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaFg4QTJxc0pJUzJLcGlKeGFINkdNY0lPUHFadkdDbUs2RmVndEFBalVBNUIzM1U5MzJhcFd2cldsWkpJR1lvSWdJWkFEdE1oalZvU1R6d0xLUGdHZndSX3lKTHIwdGphTldONkl1cnM2aDNKQkpjSy00U1BSMnZ3bWxNTUZFdw?oc=5",
             "published": "Thu, 08 Oct 2026 01:39:10 GMT",
@@ -3265,19 +3238,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11c1JZWU95MGViYjhzTmRtcXRDOWdNZ1hFMkdWUzBfVGc5Ti16TDF1aldaRGp4bEhsbnQ0dzRuV0FZVE5CaFRRWnJFRzU2ejJGQjhHU2RkRFBDOFZrMGhtbVRVMkViT1hZVXVzcWxjcXN5bzRkaFZGNVpiM3o?oc=5",
-            "published": "Thu, 08 Oct 2026 07:25:10 GMT",
-            "text": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "title": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVVWZWtrVFpwWDZxVGM4WGdnd0c1SWhJLXhjajNDZUN2QWNLdmNIM2s1Y3BSSWhfX3FWdHQ4aGpVVmpPV0llU1VoZzRiTTVldUlOSXhnYWN2SU9pZy0wTXA1NXVoRTJ3a0h6U0hHUWlFS3ViWFk3YjJWdVllaVd4LS1sMlM0aHQwcXNMMDlpVDRSWmFHUVFib2pmcGlFQWxVWHBlcXRuMzJaT25oaHBEbnJzX3RkUGtfNGZnbFFwWUs?oc=5",
+            "published": "Sun, 11 Oct 2026 08:23:50 GMT",
+            "text": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar - eurosport.com.tr",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVVWZWtrVFpwWDZxVGM4WGdnd0c1SWhJLXhjajNDZUN2QWNLdmNIM2s1Y3BSSWhfX3FWdHQ4aGpVVmpPV0llU1VoZzRiTTVldUlOSXhnYWN2SU9pZy0wTXA1NXVoRTJ3a0h6U0hHUWlFS3ViWFk3YjJWdVllaVd4LS1sMlM0aHQwcXNMMDlpVDRSWmFHUVFib2pmcGlFQWxVWHBlcXRuMzJaT25oaHBEbnJzX3RkUGtfNGZnbFFwWUs?oc=5",
-            "published": "Sun, 11 Oct 2026 08:23:50 GMT",
-            "text": "Paris Saint-Germain - Le Mans FC Özet: Futbol Skorlar & Önemli Anlar eurosport.com.tr",
+            "title": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11c1JZWU95MGViYjhzTmRtcXRDOWdNZ1hFMkdWUzBfVGc5Ti16TDF1aldaRGp4bEhsbnQ0dzRuV0FZVE5CaFRRWnJFRzU2ejJGQjhHU2RkRFBDOFZrMGhtbVRVMkViT1hZVXVzcWxjcXN5bzRkaFZGNVpiM3o?oc=5",
+            "published": "Thu, 08 Oct 2026 07:25:10 GMT",
+            "text": "Le Mans FC - AJ Auxerre, 10 Nis 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3296,6 +3269,15 @@
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMY011cVpwaXBRQmd0aUtyakZBZENRU29DbWtPSVpoemFHOC04NWNmSVVibzdfQW9kdkl0eUl0S3JldzhwY0FhYjFSbU5kUkJETmE0dHk3em9OdGpneGV1M2lFdVB4RkxNa2FvSTg5MWZ5S0hZNFZ0SjQ2U0Q?oc=5",
             "published": "Tue, 04 Aug 2026 05:37:33 GMT",
             "text": "RC Strasbourg Alsace - Paris FC, 6 Şub 2027 - Ligue 1 - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmJsNUZDSm1DRmJHY0k3cFg3YTNzUHJYWHMwSVQtTUNtSjNrdlE5RkVzM2N3b2daV2FsVUpZU1ZtS2kxaXlNNnhLQ2hMQUd4WHdVQkwzSlhEbU5GVXBGSm1QbV9ydGpELVNrcUFKM0xqcnZ6MGYzcEhETEpfdFdjU0k2QjRaeno1bmJhNXRnblE5Zl9fbjZV?oc=5",
+            "published": "Mon, 17 Aug 2026 22:29:11 GMT",
+            "text": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3328,15 +3310,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Le Mans FC - OGC Nice takımına karşı Bilanço - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGttUzFfdVhQT3N6cWgyS21GU2lKb29mLUNxSEVmcW1pSHh3OUEzdEViTTZaVDdMcHhPR1JqVGg4NE1uTEVGMmktOWdIY2oyVER4aV9COFRnaS1VV2N6ZUlYX2VVdWZfTjAyNmFVR1p0aV90NktDc0pMdkpXdmROWF9rdHhLYUxVR0VZYWxNdzdRMWsySFYyT1hNWlozMXZYRG82cTR3?oc=5",
-            "published": "Sun, 04 Oct 2026 02:34:48 GMT",
-            "text": "Le Mans FC - OGC Nice takımına karşı Bilanço Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Le Mans FC - Stade Brest 29 takımına karşı Bilanço - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR05JT244NnphWGlFX1pVTmJYTFVNbFFsMVpIekFncUdseERXcFI2LS1kZ3lhaWZTZTBrVTdPcVZqdnN0bmhBX1NmRFFXd09rNHBXZkh5WC1fUzRiS2pwaldhU0pERHNJZzRlaHVnSUFMTEdCTTNYM3dxSDRVdGZiN3IyTUN2V2hXWFE?oc=5",
             "published": "Sat, 05 Sep 2026 22:40:27 GMT",
@@ -3350,15 +3323,6 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPblloWjNDODhYTVh6cW51Ym85bG96QlBLUkM3cXJTSFNxMTZOSTVLa2JTNWZLRU1DMWdjS0tQcTV2TmJxTXUxMVppclVBTktSTzRXOGx1cWFKTDBZT1dqeDZiQ2h5OHZHX0RWXzVyUXJLNklFTFU2dlM3dG5qZGNDcTQwSzBkM0wyM1E?oc=5",
             "published": "Wed, 14 Oct 2026 06:43:33 GMT",
             "text": "Olympique Lyon Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmJsNUZDSm1DRmJHY0k3cFg3YTNzUHJYWHMwSVQtTUNtSjNrdlE5RkVzM2N3b2daV2FsVUpZU1ZtS2kxaXlNNnhLQ2hMQUd4WHdVQkwzSlhEbU5GVXBGSm1QbV9ydGpELVNrcUFKM0xqcnZ6MGYzcEhETEpfdFdjU0k2QjRaeno1bmJhNXRnblE5Zl9fbjZV?oc=5",
-            "published": "Mon, 17 Aug 2026 22:29:11 GMT",
-            "text": "Paris Saint-Germain - OGC Nice, 16 May 2027 - Ligue 1 - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -3590,40 +3554,40 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "corners_under_8_5",
-          "odds": 1.91,
+          "odds": 1.92,
           "odds_zone": "IDEAL",
           "model_probability_pct": 58.0,
-          "implied_probability_pct": 52.4,
-          "market_probability_pct": 43.2,
+          "implied_probability_pct": 52.1,
+          "market_probability_pct": 42.5,
           "fair_odds": 1.72,
-          "value_edge_pct": 14.85,
-          "ev_pct": 10.78,
-          "calibration_gap_pct": 14.85,
+          "value_edge_pct": 15.49,
+          "ev_pct": 11.36,
+          "calibration_gap_pct": 15.49,
           "consensus": "2/3",
-          "confidence_10": 5.65,
+          "confidence_10": 5.7,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 60.0,
             "prediction_pct": 60.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 43.2
+            "market_benchmark_pct": 42.5
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "home_win",
-          "odds": 2.63,
+          "odds": 2.65,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 45.0,
-          "implied_probability_pct": 38.0,
-          "market_probability_pct": 32.3,
+          "implied_probability_pct": 37.7,
+          "market_probability_pct": 31.8,
           "fair_odds": 2.22,
-          "value_edge_pct": 12.72,
-          "ev_pct": 18.38,
-          "calibration_gap_pct": 12.72,
+          "value_edge_pct": 13.18,
+          "ev_pct": 19.28,
+          "calibration_gap_pct": 13.18,
           "consensus": "0/3",
-          "confidence_10": 4.75,
+          "confidence_10": 4.82,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -3633,23 +3597,23 @@
             "statistical_pct": 44.0,
             "prediction_pct": 43.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 32.3
+            "market_benchmark_pct": 31.8
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "draw",
-          "odds": 3.16,
+          "odds": 3.17,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 31.7,
-          "implied_probability_pct": 31.6,
-          "market_probability_pct": 26.9,
+          "implied_probability_pct": 31.5,
+          "market_probability_pct": 26.6,
           "fair_odds": 3.16,
-          "value_edge_pct": 4.79,
-          "ev_pct": 0.06,
-          "calibration_gap_pct": 4.79,
+          "value_edge_pct": 5.05,
+          "ev_pct": 0.38,
+          "calibration_gap_pct": 5.05,
           "consensus": "0/3",
-          "confidence_10": 2.55,
+          "confidence_10": 2.57,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -3660,21 +3624,21 @@
             "statistical_pct": 27.0,
             "prediction_pct": 27.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 26.9
+            "market_benchmark_pct": 26.6
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_away",
-          "odds": 2.59,
+          "odds": 2.52,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 38.2,
-          "implied_probability_pct": 38.6,
-          "market_probability_pct": 32.9,
+          "implied_probability_pct": 39.7,
+          "market_probability_pct": 33.4,
           "fair_odds": 2.62,
-          "value_edge_pct": 5.3,
-          "ev_pct": -1.08,
-          "calibration_gap_pct": 5.3,
+          "value_edge_pct": 4.79,
+          "ev_pct": -3.75,
+          "calibration_gap_pct": 4.79,
           "consensus": "0/3",
           "confidence_10": 2.9,
           "decision": "NO BET",
@@ -3687,21 +3651,77 @@
             "statistical_pct": 40.0,
             "prediction_pct": 38.2,
             "intelligence_pct": 34.2,
-            "market_benchmark_pct": 32.9
+            "market_benchmark_pct": 33.4
+          }
+        },
+        {
+          "match": "Le Mans FC vs Toulouse FC",
+          "market": "btts_no",
+          "odds": 2.19,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 40.6,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 38.7,
+          "fair_odds": 2.46,
+          "value_edge_pct": 1.95,
+          "ev_pct": -11.08,
+          "calibration_gap_pct": 1.95,
+          "consensus": "0/3",
+          "confidence_10": 3.03,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 39.4,
+            "prediction_pct": 36.7,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 38.7
+          }
+        },
+        {
+          "match": "Le Mans FC vs Toulouse FC",
+          "market": "under_2_5",
+          "odds": 2.0,
+          "odds_zone": "IDEAL",
+          "model_probability_pct": 44.0,
+          "implied_probability_pct": 50.0,
+          "market_probability_pct": 42.0,
+          "fair_odds": 2.27,
+          "value_edge_pct": 2.01,
+          "ev_pct": -11.93,
+          "calibration_gap_pct": 2.01,
+          "consensus": "0/3",
+          "confidence_10": 3.22,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 43.3,
+            "prediction_pct": 41.5,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 42.0
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "cards_under_4_5",
-          "odds": 1.77,
+          "odds": 1.75,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 56.5,
+          "implied_probability_pct": 57.1,
           "market_probability_pct": 48.1,
           "fair_odds": 2.0,
-          "value_edge_pct": 1.91,
-          "ev_pct": -11.5,
-          "calibration_gap_pct": 1.91,
+          "value_edge_pct": 1.93,
+          "ev_pct": -12.5,
+          "calibration_gap_pct": 1.93,
           "consensus": "0/3",
           "confidence_10": 3.55,
           "decision": "NO BET",
@@ -3720,72 +3740,43 @@
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
-          "market": "btts_no",
-          "odds": 2.17,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 40.6,
-          "implied_probability_pct": 46.1,
-          "market_probability_pct": 39.2,
-          "fair_odds": 2.46,
-          "value_edge_pct": 1.39,
-          "ev_pct": -11.9,
-          "calibration_gap_pct": 1.39,
-          "consensus": "0/3",
-          "confidence_10": 3.03,
+          "market": "btts_yes",
+          "odds": 1.38,
+          "odds_zone": "ACCEPTABLE",
+          "model_probability_pct": 59.4,
+          "implied_probability_pct": 72.5,
+          "market_probability_pct": 61.3,
+          "fair_odds": 1.68,
+          "value_edge_pct": -1.95,
+          "ev_pct": -18.03,
+          "calibration_gap_pct": -1.95,
+          "consensus": "2/3",
+          "confidence_10": 4.87,
           "decision": "NO BET",
           "reasons": [
-            "Model olasılığı %55 altında",
+            "Çok düşük oran (< 1.55)",
             "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
+            "Beklenen değer (EV) %3 altında"
           ],
           "engines": {
-            "statistical_pct": 39.4,
-            "prediction_pct": 36.7,
+            "statistical_pct": 60.6,
+            "prediction_pct": 63.3,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 39.2
-          }
-        },
-        {
-          "match": "Le Mans FC vs Toulouse FC",
-          "market": "under_2_5",
-          "odds": 1.98,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 44.0,
-          "implied_probability_pct": 50.5,
-          "market_probability_pct": 42.9,
-          "fair_odds": 2.27,
-          "value_edge_pct": 1.1,
-          "ev_pct": -12.81,
-          "calibration_gap_pct": 1.1,
-          "consensus": "0/3",
-          "confidence_10": 3.22,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 43.3,
-            "prediction_pct": 41.5,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 42.9
+            "market_benchmark_pct": 61.3
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "btts_over_2_5",
-          "odds": 1.72,
+          "odds": 1.67,
           "odds_zone": "IDEAL",
           "model_probability_pct": 49.0,
-          "implied_probability_pct": 58.1,
-          "market_probability_pct": 58.1,
+          "implied_probability_pct": 59.9,
+          "market_probability_pct": 59.9,
           "fair_odds": 2.04,
-          "value_edge_pct": -9.11,
-          "ev_pct": -15.67,
-          "calibration_gap_pct": -9.11,
+          "value_edge_pct": -10.85,
+          "ev_pct": -18.12,
+          "calibration_gap_pct": -10.85,
           "consensus": "0/3",
           "confidence_10": 3.5,
           "decision": "NO BET",
@@ -3805,15 +3796,15 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "over_2_5",
-          "odds": 1.49,
+          "odds": 1.45,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 56.0,
-          "implied_probability_pct": 67.1,
-          "market_probability_pct": 57.1,
+          "implied_probability_pct": 69.0,
+          "market_probability_pct": 58.0,
           "fair_odds": 1.79,
-          "value_edge_pct": -1.1,
-          "ev_pct": -16.62,
-          "calibration_gap_pct": -1.1,
+          "value_edge_pct": -2.01,
+          "ev_pct": -18.85,
+          "calibration_gap_pct": -2.01,
           "consensus": "2/3",
           "confidence_10": 4.68,
           "decision": "NO BET",
@@ -3826,48 +3817,21 @@
             "statistical_pct": 56.7,
             "prediction_pct": 58.5,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 57.1
-          }
-        },
-        {
-          "match": "Le Mans FC vs Toulouse FC",
-          "market": "btts_yes",
-          "odds": 1.4,
-          "odds_zone": "ACCEPTABLE",
-          "model_probability_pct": 59.4,
-          "implied_probability_pct": 71.4,
-          "market_probability_pct": 60.8,
-          "fair_odds": 1.68,
-          "value_edge_pct": -1.39,
-          "ev_pct": -16.84,
-          "calibration_gap_pct": -1.39,
-          "consensus": "2/3",
-          "confidence_10": 4.87,
-          "decision": "NO BET",
-          "reasons": [
-            "Çok düşük oran (< 1.55)",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında"
-          ],
-          "engines": {
-            "statistical_pct": 60.6,
-            "prediction_pct": 63.3,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 60.8
+            "market_benchmark_pct": 58.0
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "cards_over_4_5",
-          "odds": 1.64,
+          "odds": 1.62,
           "odds_zone": "IDEAL",
           "model_probability_pct": 50.0,
-          "implied_probability_pct": 61.0,
+          "implied_probability_pct": 61.7,
           "market_probability_pct": 51.9,
           "fair_odds": 2.0,
-          "value_edge_pct": -1.91,
-          "ev_pct": -18.0,
-          "calibration_gap_pct": -1.91,
+          "value_edge_pct": -1.93,
+          "ev_pct": -19.0,
+          "calibration_gap_pct": -1.93,
           "consensus": "0/3",
           "confidence_10": 3.55,
           "decision": "NO BET",
@@ -3887,15 +3851,15 @@
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_draw",
-          "odds": 2.14,
+          "odds": 2.13,
           "odds_zone": "IDEAL",
           "model_probability_pct": 38.0,
-          "implied_probability_pct": 46.7,
-          "market_probability_pct": 39.8,
+          "implied_probability_pct": 46.9,
+          "market_probability_pct": 39.5,
           "fair_odds": 2.63,
-          "value_edge_pct": -1.8,
-          "ev_pct": -18.68,
-          "calibration_gap_pct": -1.8,
+          "value_edge_pct": -1.52,
+          "ev_pct": -19.06,
+          "calibration_gap_pct": -1.52,
           "consensus": "0/3",
           "confidence_10": 2.89,
           "decision": "NO BET",
@@ -3909,21 +3873,21 @@
             "statistical_pct": 40.0,
             "prediction_pct": 38.2,
             "intelligence_pct": 33.1,
-            "market_benchmark_pct": 39.8
+            "market_benchmark_pct": 39.5
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "away_win",
-          "odds": 2.08,
+          "odds": 2.03,
           "odds_zone": "IDEAL",
           "model_probability_pct": 37.7,
-          "implied_probability_pct": 48.1,
-          "market_probability_pct": 40.8,
+          "implied_probability_pct": 49.3,
+          "market_probability_pct": 41.6,
           "fair_odds": 2.65,
-          "value_edge_pct": -3.16,
-          "ev_pct": -21.64,
-          "calibration_gap_pct": -3.16,
+          "value_edge_pct": -3.88,
+          "ev_pct": -23.53,
+          "calibration_gap_pct": -3.88,
           "consensus": "0/3",
           "confidence_10": 2.87,
           "decision": "NO BET",
@@ -3937,21 +3901,21 @@
             "statistical_pct": 35.5,
             "prediction_pct": 33.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 40.8
+            "market_benchmark_pct": 41.6
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "first_half_home",
-          "odds": 3.12,
+          "odds": 3.11,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 23.8,
-          "implied_probability_pct": 32.1,
-          "market_probability_pct": 27.3,
+          "implied_probability_pct": 32.2,
+          "market_probability_pct": 27.1,
           "fair_odds": 4.2,
-          "value_edge_pct": -3.5,
-          "ev_pct": -25.73,
-          "calibration_gap_pct": -3.5,
+          "value_edge_pct": -3.26,
+          "ev_pct": -25.97,
+          "calibration_gap_pct": -3.26,
           "consensus": "0/3",
           "confidence_10": 2.11,
           "decision": "NO BET",
@@ -3965,21 +3929,21 @@
             "statistical_pct": 20.0,
             "prediction_pct": 23.6,
             "intelligence_pct": 32.7,
-            "market_benchmark_pct": 27.3
+            "market_benchmark_pct": 27.1
           }
         },
         {
           "match": "Le Mans FC vs Toulouse FC",
           "market": "corners_over_8_5",
-          "odds": 1.45,
+          "odds": 1.42,
           "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 42.0,
-          "implied_probability_pct": 69.0,
-          "market_probability_pct": 56.8,
+          "implied_probability_pct": 70.4,
+          "market_probability_pct": 57.5,
           "fair_odds": 2.38,
-          "value_edge_pct": -14.85,
-          "ev_pct": -39.1,
-          "calibration_gap_pct": -14.85,
+          "value_edge_pct": -15.49,
+          "ev_pct": -40.36,
+          "calibration_gap_pct": -15.49,
           "consensus": "0/3",
           "confidence_10": 3.11,
           "decision": "NO BET",
@@ -3994,7 +3958,7 @@
             "statistical_pct": 40.0,
             "prediction_pct": 40.0,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 56.8
+            "market_benchmark_pct": 57.5
           }
         }
       ]
@@ -4047,7 +4011,7 @@
         }
       },
       "intelligence": {
-        "mentions": 35,
+        "mentions": 37,
         "web_score": 0.0,
         "confidence": 1.0,
         "sources": [
@@ -4057,19 +4021,19 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Rob Edwards: 'I want us to look forward' after Wolves draw - VAVEL.com",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN1JfUnh2R3dTYzQxcXF3SXFwTlFRYmtFUXRHUk9maXpqckRzSUdYdHVHc0dCUmg3OTFpNmRIekUxck1rUkgwLWpkZnI4ZkZsaktXTk5MbDU5dnpRVXBWZUJRN0JTMmVXUUY3Vi1TUkgwUUpXWV95ODRmRThfanVueHR1OXlOTV9wczdFVlJ1el92MmJfZTVRMzhPNFlJdmQtVGoxSnRHaHBfb1NXUHNRaW9XQUhMbGFlcFR3?oc=5",
-            "published": "Sun, 24 May 2026 07:00:00 GMT",
-            "text": "Rob Edwards: 'I want us to look forward' after Wolves draw VAVEL.com",
+            "title": "Women's Preview | Burnley | Women's First-Team | Latest News - Wolverhampton Wanderers FC",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS2laNU5nVF9kYUlmc2Y2cWNQRVNPQm5UbGVkbXlvNHJqNERWaklHd3hFUE02MmszMzdacHptVEtybzJFWnlQbmd3bGEyUUpHVmpORTNaQmlfN21rWGRZZ2tJMGwwTXd4a1A5UFpvUllJX0pIaDhVMUVHUEJOYkdMY0lUTmNDVk9ZV2c?oc=5",
+            "published": "Thu, 17 Sep 2026 07:00:00 GMT",
+            "text": "Women's Preview | Burnley | Women's First-Team | Latest News Wolverhampton Wanderers FC",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Women's Preview | Burnley | Women's First-Team | Latest News - Wolverhampton Wanderers FC",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS2laNU5nVF9kYUlmc2Y2cWNQRVNPQm5UbGVkbXlvNHJqNERWaklHd3hFUE02MmszMzdacHptVEtybzJFWnlQbmd3bGEyUUpHVmpORTNaQmlfN21rWGRZZ2tJMGwwTXd4a1A5UFpvUllJX0pIaDhVMUVHUEJOYkdMY0lUTmNDVk9ZV2c?oc=5",
-            "published": "Thu, 17 Sep 2026 07:00:00 GMT",
-            "text": "Women's Preview | Burnley | Women's First-Team | Latest News Wolverhampton Wanderers FC",
+            "title": "Edwards: ‘There’s going to be a lot of change going forward’ - VAVEL.com",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeW1XWlg2TWtvVC1LeDlpWlIzcF9SZVhxakhGYmN1dzNVT19tbmVYaUNmWk5rTElTYXJmWlhjZE9RcXFHVG56bnBFM0NkRXZrUVpuRTkzN0lRMklzMktZUWVXVC1YQnhGcmI0Y0twVGh3c2tEalVSNzBncmlVbkJtUXJLTnpDV2tXaXVmbDU2aEdBdzJydVdtc0lxQVZPRlVUREcwbG11b3BXZ2xETHItRVpFVDVPSThqWV9nSGlpMXFHdFAxYlVTbjFjWkFkN3JlLWVxNnRB?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "text": "Edwards: ‘There’s going to be a lot of change going forward’ VAVEL.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4097,15 +4061,6 @@
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSmZpMWRMOThJcUNRR0ZibVkwVUNDcVZhbHJXc3FTU2J0bG12N0pLQ2g4NUgya2ZNaWVqTm9CeU1DUFdxLVVoZVhSN0hMTXpyNmQzQmh2YzFiTnBNWVdrdV9sNFBaMDBwb2k4WFRQWm1HZDVKWkEtR0NfaVA1YV9FWklFRi1XaUtZcFo1TmQ2T1p0eDJiSWRWTFoxMmpkb0swS2hWR0FBQ3c4X01FUWY0emZyb29JdWpyYTA5enowQVdZX1E3d1JxZzVYNA?oc=5",
             "published": "Fri, 26 Jun 2026 07:00:00 GMT",
             "text": "Ex-Leeds United and Middlesbrough men among favourites for Burnley job Yorkshire Post",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Edwards: ‘There’s going to be a lot of change going forward’ - VAVEL.com",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeW1XWlg2TWtvVC1LeDlpWlIzcF9SZVhxakhGYmN1dzNVT19tbmVYaUNmWk5rTElTYXJmWlhjZE9RcXFHVG56bnBFM0NkRXZrUVpuRTkzN0lRMklzMktZUWVXVC1YQnhGcmI0Y0twVGh3c2tEalVSNzBncmlVbkJtUXJLTnpDV2tXaXVmbDU2aEdBdzJydVdtc0lxQVZPRlVUREcwbG11b3BXZ2xETHItRVpFVDVPSThqWV9nSGlpMXFHdFAxYlVTbjFjWkFkN3JlLWVxNnRB?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "text": "Edwards: ‘There’s going to be a lot of change going forward’ VAVEL.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4174,6 +4129,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Wolves relegated from Premier League - Blueprint Newspapers",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GYm5IR3ktZ1IwR2ZiczJqUEM0OFh5emVCcDlCemUzcVJfVmpXU2tRUkdLQXVVWnQ0STMtUWZjMVhUZlJKbWk5bFNEUnc2aDBvSm9oMzdTRzIxZXgycWVTTUxxR1Y4MnRlN3c?oc=5",
+            "published": "Tue, 21 Apr 2026 08:33:28 GMT",
+            "text": "Wolves relegated from Premier League Blueprint Newspapers",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Years after skull fracture, Mexico's Jiménez has his long-awaited World Cup star moment - PressReader",
             "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaFotczhsdHI2VXRzNG9wdmpnR2ZSLXF0ZXdwelVXakZlTUE2U1FFZ0JYWVVSWVlkNlVPazBMakNkX3pia0NzeWtuZjFHVGo3QlBDMm84dHlJM01yMWNGb0EtVF9MWS1JNDZOZHBuVVQ1OWxYYWlMWUhOM3lBalFxWlhR?oc=5",
             "published": "Fri, 12 Jun 2026 07:00:00 GMT",
@@ -4183,12 +4147,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Raul Jiminez delivers Wolves first Premier League home win since 2011 - The Telegraph",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkcxSmxmdENFOHZxdGx1ZmNtcURlRHBSeHlDMDF6VEpfNzFybkFOMTZmLW5RbDZ3N2FNQU9ZTDVLeFlKMUpTUGhnWlhWQmd0ZzNBb2hKSVpkQi1FNFZWY1BJVnlmWXdUc3hQbEJIcHZrRTlsNWRyOUpieWhBbUZsYWp5Q0d3TTJQMFFxWWNTakRrQTV4S19lSVplRjd4OEVQSHJVTA?oc=5",
-            "published": "Sun, 16 Sep 2018 07:00:00 GMT",
-            "text": "Raul Jiminez delivers Wolves first Premier League home win since 2011 The Telegraph",
+            "title": "Wolves goalkeeper Jose Sa is doing very well says Bruno Lage - VAVEL.com",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQM3gzbUNoREsyalByRUZOWGp5dFhFd1lKb2ZsVkZNY21GTkVBMERLMmRIUHU0cGY3YjN4Z2VjTXJNd2RGdXNtbWo1bHBVT0pRQndGci1UNGZhbFJFV1ljcmVVZUV1WnBlQjdUaGJOS0NCdnRuWGJiUUx2cjc3X3hQcVdoWE4ybzh6bEoxam9MYXphN3FKVUEyQVhPYjhrempHXzlRS2FNVEw4LUQtR3BvU0RMSnVYOTVRNVZjbkF1WmYwYVNhdF9leDRiMUFwSjMxaW45SERkcnVnQQ?oc=5",
+            "published": "Wed, 08 Jun 2022 07:00:00 GMT",
+            "text": "Wolves goalkeeper Jose Sa is doing very well says Bruno Lage VAVEL.com",
             "language": "en",
-            "sentiment": 1.0
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -4237,10 +4201,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Tottenham given relegation verdict after Nottingham Forest thrashing as Spurs' fate debated - Daily Mirror",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTmJkbFlncVRTemQxaTRpMXliSUNyVFRvYzB0NmNvUk1PSms1cjZDOWJfTmZJcHVPZExTRk1pUDg3ckZIS0ZjdC1UaTBRTHp4SG1DaDY1TXdpZWpETllaMzVCMWZ1RU9pNUZZbHRFLTdqbGFWZEQzQkszMHpYY1NrRWNtLTdqT244QjZ5YTg3aGhpWWNHU2pSd3h3cnTSAaIBQVVfeXFMTVdwLXJqVjQtVS1ZQ1J4bVR3bGViZ0toQ3JBN3pIQS1YZnVtYjZSZ3VzN1h4SVI2MzBYdE1JbWJPdTFFTGJORklWeGFNb1J1WTd2WEtleENBUXduTDUxMG1mQnRFcmZiRThKWTlqX3prUXZ5ZmVVY25KSXBldXBPTng2akhocS1TTS1yTmdtdWltb0UtUlhuTWFCQ1pYdVoxNll3?oc=5",
-            "published": "Mon, 23 Mar 2026 07:00:00 GMT",
-            "text": "Tottenham given relegation verdict after Nottingham Forest thrashing as Spurs' fate debated Daily Mirror",
+            "title": "Burnley vs Wolves Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkdFQzVQODMyc25RWFFBOEdMRElkb1M2YmVHb2NxZEdFUlUteHkyZzVFeUNiVko0enlKZ3JEZ0ZzMG9OdU9Yd0ZmUUVZUTNqRWNnbExuaHplQ0JVbVVxdGZRM19seTZTTTVXcm1lbkVyWklhZTdEVHhUazN2YkRHcXlZc1RpSGViTUJOU1YzLXpsenJOaHdjMGZHYm5nS0thMmpVZGtzY0s?oc=5",
+            "published": "Fri, 16 Oct 2026 11:07:32 GMT",
+            "text": "Burnley vs Wolves Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4255,6 +4219,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Raul Jiminez delivers Wolves first Premier League home win since 2011 - The Telegraph",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkcxSmxmdENFOHZxdGx1ZmNtcURlRHBSeHlDMDF6VEpfNzFybkFOMTZmLW5RbDZ3N2FNQU9ZTDVLeFlKMUpTUGhnWlhWQmd0ZzNBb2hKSVpkQi1FNFZWY1BJVnlmWXdUc3hQbEJIcHZrRTlsNWRyOUpieWhBbUZsYWp5Q0d3TTJQMFFxWWNTakRrQTV4S19lSVplRjd4OEVQSHJVTA?oc=5",
+            "published": "Sun, 16 Sep 2018 07:00:00 GMT",
+            "text": "Raul Jiminez delivers Wolves first Premier League home win since 2011 The Telegraph",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Burnley vs Bristol City predictions and betting tips: Clarets fancied at home - Squawka",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMVdLZEV0WjlRSTNPbU5VUmc5UGd0T1B6NmNDQktkaGRTRkRxdVY2ZDBPX0FEdzhudm00dnJCV1UtN1FTaXVFeU1tM1pGQXN2M0xKU1VGT1FpMXdXUlczdHdqQ0FYNEpMSFlXMzlvRTNycnNfRXY5bEdJU25BRUZLR2VZdXVMYWhDTThqVmJidlNmWXBY?oc=5",
             "published": "Sat, 05 Sep 2026 07:00:00 GMT",
@@ -4264,19 +4237,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Burnley vs Wolves Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkdFQzVQODMyc25RWFFBOEdMRElkb1M2YmVHb2NxZEdFUlUteHkyZzVFeUNiVko0enlKZ3JEZ0ZzMG9OdU9Yd0ZmUUVZUTNqRWNnbExuaHplQ0JVbVVxdGZRM19seTZTTTVXcm1lbkVyWklhZTdEVHhUazN2YkRHcXlZc1RpSGViTUJOU1YzLXpsenJOaHdjMGZHYm5nS0thMmpVZGtzY0s?oc=5",
-            "published": "Thu, 15 Oct 2026 01:31:22 GMT",
-            "text": "Burnley vs Wolves Prediction, Betting Tips, Lineups & Odds | 16 Oct 2026 Sportsgambler",
+            "title": "Derby County - Birmingham City FC betting tip & best odds | 12.09.2026 - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbXl2WjdmVzVfOUo2TERXVXByVnJCOXJoT2VVbko1bGRHdGYtdUR0VDJEXy0tXzM5Ym5qWkVYMUJrQl9DV0tBM2pCQkliWWZRMktxSlVIdzdWODUxZ0tYeTBrUFFMalVibFZwLTZUck02Y2JfRmRyaGxZd0NfYnBwNTRUX0dfWllUVm14cXJzLXp1bjhXakRVVldvUVJ3bENadFNJ?oc=5",
+            "published": "Sat, 12 Sep 2026 13:30:25 GMT",
+            "text": "Derby County - Birmingham City FC betting tip & best odds | 12.09.2026 Futbol24",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FA Cup fourth-round draw in FULL as Arsenal, Liverpool and Chelsea learn fate - Daily Mirror",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSk1OMnBDVjVTazZKMUdRdFRaOE1fZ3FMWFZQZlhCbW0zZDVpNk9yUU84WEJYNVVsS29ScU9YakNsem9lUFVvVWg5MVJQQkJVVGVmbWJFT0Q3VTUzejluM0tGYVZUY2diR1Z2VVBOcFk1QTVXc0FXMkZQZkh2SDYwMWVITlZZbzJ50gGOAUFVX3lxTFAxVHpHM1JMbHFqYS10UXZ6ZFlEbmswNm1FTTluOHRQXzRIWlU1T1ZuR01Fb3FFY2V4M1NTcGRRUHFXb00xUFpXSVRxWGVaWTFsR2RuMHpDLUw3MkNSUnA5dVdvNzRRUTFIN2ZmWWNaWEo3QmtFWi0yMUpxS0pZSS1qVjQtUE5RVFROUmRzYkE?oc=5",
-            "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-            "text": "FA Cup fourth-round draw in FULL as Arsenal, Liverpool and Chelsea learn fate Daily Mirror",
+            "title": "Burnley v Wolves Prediction: Relegated rivals set for 5/2 stalemate - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTJweWJMRkZCS0xJRUg0VGJkMXMxM3dBTkpUbmRDY2c1TkZ2bWdXT0prdm1sdmh0SE1BSzJoLTR3YUNIOHg3WXR4UnFoc3phUzhuWnRQU28zRUFCWUN6eGRaTjJPcnZSdDBqYURHM1Nyb0piQ09Cb2YwV09uWHNWVGFNaUM3TTJlTUE4VFlaU2oyR0VZMDkwQWdwbUpzbjRfckpB?oc=5",
+            "published": "Fri, 16 Oct 2026 07:54:15 GMT",
+            "text": "Burnley v Wolves Prediction: Relegated rivals set for 5/2 stalemate news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4358,6 +4331,15 @@
             "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VNnhjVUZwUHRLMGRuWldOWEM1Ri05YTV6MGdDaXNLWmY1TnVRWmU1cm9ZMFQxVHJRZG0xM0RzZlVFbFBkMGtydzU0cHhWVXczd2ZydjN6RGR5Zw?oc=5",
             "published": "Fri, 04 Dec 2020 13:29:24 GMT",
             "text": "Burnley FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Wrexham FC (Galler) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ELTBvTUttOE5IUlhJeEtOajBmbXdxWWNhZWhlNC1JcWVyUERVVVEtRi1SRDFiS2E2QzlvMHZ2bWdfSW53LWdMcWNaUzdpOEJfRUljSndxbktRWWM?oc=5",
+            "published": "Wed, 09 Dec 2020 12:57:52 GMT",
+            "text": "Wrexham FC (Galler) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -4644,8 +4626,8 @@
         }
       },
       "intelligence": {
-        "mentions": 35,
-        "web_score": -0.0286,
+        "mentions": 37,
+        "web_score": -0.027,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -4825,19 +4807,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "FC Utrecht – Willem II prediction 11.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd3R5QjZ1REt0SnJ5VlhRTm5tWTJveEJwYmxxQ2EwRl9OV2ozTjA4cXlSaVVMVExYR2xWMUF2b1d0ellZSy1EZUdxUVFLbWdNcXRheGs1TVpGUVdJcmY2aUwzRUx6N3BFMk0zQTZCRzZmcWR1dnhReUp4a2JZWlEzUlZTSkZaVDJ1SmNfOGVNMjZEbDA?oc=5",
-            "published": "Thu, 08 Oct 2026 12:06:46 GMT",
-            "text": "FC Utrecht – Willem II prediction 11.10.2026 – Betting Transfermarkt",
+            "title": "Telstar – ADO Den Haag prediction 11.10.2026 – Betting - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT2tFOWNYRVFjTmNlcEhTemQ0Z3hoUzgtR3Y3am9mLXpSWnVBbWpsX2U1M2NzLW5iYnBfQnVDMEloVkZVb3F3Q0htWEx4MDJQcGJCeDhjNlpRTkNSaVVCSDg5ekJSeUthNFRVRUR2QXVEekR0M2U5bVYtb0ZOWlplRXVqaTFEUEVwbFh4cE9fZDdTX28?oc=5",
+            "published": "Thu, 08 Oct 2026 12:17:45 GMT",
+            "text": "Telstar – ADO Den Haag prediction 11.10.2026 – Betting Transfermarkt",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal - Bleacher Report",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmFyN084UU9aa1dLaHlYY2Rtdm1Ra3pfUTUtSmkxQ2h4NWRZTDg2MHZua1hTdE5JTE8xS1JVNGs3bGhwWFNsbkpKMTFzb040eUVMMzV1TnkxQmxJd1Z3X1JlQy1DN0IxUUk3bkpURXpTWExaVWFSeUUtWFk0T1oxSVppZTRFTXRmRFc4TzRIdzJjTk5PUzczZElRdmFEMUsyRWR4c3Zha2ZVMkU?oc=5",
-            "published": "Wed, 06 May 2026 07:00:00 GMT",
-            "text": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal Bleacher Report",
+            "title": "Wemby, Giannis, Lewis Hamilton, More Sports Stars Make UCL Final Predictions for PSG vs. Arsenal - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHliVGJuaDczYVVUaUhCSnQ4UlJkUnl2YU1YZG5LNWpzWDlMZ2NaUmZWYUFVZ1p6b2xWYllKc1lkamNqcmcyS0IwZWp0MDA4MTd2SWxKTGpZUU02TG5NTGJBTm9UWHVPc0tveDE3QmxJeWQ4WlpJMzJJWW1nbUxPTFJEOHk2d01pUnZQN2RrX3EtZXNTU0tBUlFQVGI0RTh4QUR1TVd5Ymk5NmhpUDJmYndoUWV3bEc0M0JiaEJhaUI4c1Nqbm1zb05oY19qZw?oc=5",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "text": "Wemby, Giannis, Lewis Hamilton, More Sports Stars Make UCL Final Predictions for PSG vs. Arsenal Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4852,19 +4834,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage - Bleacher Report",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUFNTWlh0dERjcE5FUDRZRFdkSi1QVmZWN3JIMXMtVzJaNDk3TW5CX1ZQVkJ0NzMtTTR3S21neU93SnFKUndDcWNZZG9kaTNmYzl1X2M2OTdkZV9LbVk2RUg5QjVkZG9OV2NYTWtUdUJzc2h3dGQxQ0wtUzZXMVZyQWljRlE3b1owTkw4ZEhSekRMNEJPUVlxLURJajU1UWxYSGxOVlJBUWE5WHdETlVDU0l6OFdnMXczX1VCVXBLRWlIZw?oc=5",
-            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
-            "text": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage Bleacher Report",
+            "title": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmFyN084UU9aa1dLaHlYY2Rtdm1Ra3pfUTUtSmkxQ2h4NWRZTDg2MHZua1hTdE5JTE8xS1JVNGs3bGhwWFNsbkpKMTFzb040eUVMMzV1TnkxQmxJd1Z3X1JlQy1DN0IxUUk3bkpURXpTWExaVWFSeUUtWFk0T1oxSVppZTRFTXRmRFc4TzRIdzJjTk5PUzczZElRdmFEMUsyRWR4c3Zha2ZVMkU?oc=5",
+            "published": "Wed, 06 May 2026 07:00:00 GMT",
+            "text": "Champions League Bracket Final 2026 Predictions for PSG vs. Arsenal Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Telstar – ADO Den Haag prediction 11.10.2026 – Betting - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT2tFOWNYRVFjTmNlcEhTemQ0Z3hoUzgtR3Y3am9mLXpSWnVBbWpsX2U1M2NzLW5iYnBfQnVDMEloVkZVb3F3Q0htWEx4MDJQcGJCeDhjNlpRTkNSaVVCSDg5ekJSeUthNFRVRUR2QXVEekR0M2U5bVYtb0ZOWlplRXVqaTFEUEVwbFh4cE9fZDdTX28?oc=5",
-            "published": "Thu, 08 Oct 2026 12:17:45 GMT",
-            "text": "Telstar – ADO Den Haag prediction 11.10.2026 – Betting Transfermarkt",
+            "title": "Fortuna Sittard - Twente Enschede prediction & tips 10.10.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRTRzNkxycm56aHU3TmVRZWxIYmlIallOMXczSVV2cF9hSm54bnJHcjRmZjZmUzlEQnlhNjgyWXFXT2tSZ1hjckdRdkF3Q1BjSzFHenhyNzJQZEtRQ3d0eWJ3a1RHMWJaakZjdEVFOHFsNG1DM2dlNmpMcHBDNEoyazlmSUgyOFBxdG9YMzF5M0JXeGNKSWZ5cExxc2ZMM3J4OVE?oc=5",
+            "published": "Thu, 08 Oct 2026 04:58:49 GMT",
+            "text": "Fortuna Sittard - Twente Enschede prediction & tips 10.10.2026 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage - Bleacher Report",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUFNTWlh0dERjcE5FUDRZRFdkSi1QVmZWN3JIMXMtVzJaNDk3TW5CX1ZQVkJ0NzMtTTR3S21neU93SnFKUndDcWNZZG9kaTNmYzl1X2M2OTdkZV9LbVk2RUg5QjVkZG9OV2NYTWtUdUJzc2h3dGQxQ0wtUzZXMVZyQWljRlE3b1owTkw4ZEhSekRMNEJPUVlxLURJajU1UWxYSGxOVlJBUWE5WHdETlVDU0l6OFdnMXczX1VCVXBLRWlIZw?oc=5",
+            "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+            "text": "World Cup 2026 Knockout Bracket, Schedule, Odds and Predictions After Group Stage Bleacher Report",
             "language": "en",
             "sentiment": 0.0
           },
@@ -4924,19 +4915,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Sam Larsson - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNU1pZeHF4alkyT3RyMkNXWlFYcUlZVDFVWkFXU3REdWhiVmVSQ1V2MGd0MnMzZVF4LU4tNXFJeklieGRPNUVJSk1idWo4YmxtM0dVaUJQakxlemExemtqODdnbXRYbUhaYWFqWERtX0RLbWhtdDBB?oc=5",
-            "published": "Thu, 21 May 2026 07:00:00 GMT",
-            "text": "Sam Larsson Transfermarkt",
+            "title": "Go Ahead Eagles - Excelsior Rotterdam, 6 Mar 2027 - Eredivisie - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sYThEbXFvTnNPQlFvVW1mNGR5TGlmM1JoRHFsdjd3bEJBWDdmRkY3TGtHSjJYOUFqSEhWaDFtZFlKY3JCNFllbjBhTWRacWFCVTYxR01GYzBsWkNzdUtqLTdWcHRMc1Fqdk5yaFlsVFdFbW94a1NHNk5ReDk?oc=5",
+            "published": "Sat, 05 Sep 2026 23:34:12 GMT",
+            "text": "Go Ahead Eagles - Excelsior Rotterdam, 6 Mar 2027 - Eredivisie - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "PSV Eindhoven - Excelsior Rotterdam, 8 May 2027 - Eredivisie - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5KWHBnRWd5V2NCMWFyQ0dSVmlFQ2xYTFNEMV9YNmI4Z3lWNUU5MUUyV3NVUHNPRGk2RmYxOG40RmU1RWN0VkdfV21jenM0cHJRU050aHd6WVBrWUlUQnI2dzlpMUgtSjlOQTk2STJZS2FqNVE3QzZrMUVCZGw?oc=5",
-            "published": "Sun, 20 Sep 2026 11:21:42 GMT",
-            "text": "PSV Eindhoven - Excelsior Rotterdam, 8 May 2027 - Eredivisie - Maç raporu Transfermarkt",
+            "title": "Sam Larsson - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNU1pZeHF4alkyT3RyMkNXWlFYcUlZVDFVWkFXU3REdWhiVmVSQ1V2MGd0MnMzZVF4LU4tNXFJeklieGRPNUVJSk1idWo4YmxtM0dVaUJQakxlemExemtqODdnbXRYbUhaYWFqWERtX0RLbWhtdDBB?oc=5",
+            "published": "Thu, 21 May 2026 07:00:00 GMT",
+            "text": "Sam Larsson Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -4951,10 +4942,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Go Ahead Eagles - Excelsior Rotterdam, 6 Mar 2027 - Eredivisie - Maç raporu - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sYThEbXFvTnNPQlFvVW1mNGR5TGlmM1JoRHFsdjd3bEJBWDdmRkY3TGtHSjJYOUFqSEhWaDFtZFlKY3JCNFllbjBhTWRacWFCVTYxR01GYzBsWkNzdUtqLTdWcHRMc1Fqdk5yaFlsVFdFbW94a1NHNk5ReDk?oc=5",
-            "published": "Sat, 05 Sep 2026 23:34:12 GMT",
-            "text": "Go Ahead Eagles - Excelsior Rotterdam, 6 Mar 2027 - Eredivisie - Maç raporu Transfermarkt",
+            "title": "PSV Eindhoven - Excelsior Rotterdam, 8 May 2027 - Eredivisie - Maç raporu - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5KWHBnRWd5V2NCMWFyQ0dSVmlFQ2xYTFNEMV9YNmI4Z3lWNUU5MUUyV3NVUHNPRGk2RmYxOG40RmU1RWN0VkdfV21jenM0cHJRU050aHd6WVBrWUlUQnI2dzlpMUgtSjlOQTk2STJZS2FqNVE3QzZrMUVCZGw?oc=5",
+            "published": "Sun, 20 Sep 2026 11:21:42 GMT",
+            "text": "PSV Eindhoven - Excelsior Rotterdam, 8 May 2027 - Eredivisie - Maç raporu Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -4964,6 +4955,15 @@
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iTjVhdTd4ZkFYeFZpVlpMVGFVc3RlNmZ0QU9IcTlrUHZDeGFHQ2ljX2RZYTNEcHg1NVdyMFJ3amdUTjU5dTA2VVRnT3NNcHhBWHg2VWc5SVUzVU85X2NzWGNGUjlsZ3pHaHlEM3J1cmtqOEtsa05mUzY5Z0k?oc=5",
             "published": "Sat, 05 Sep 2026 23:34:17 GMT",
             "text": "Excelsior Rotterdam - AZ Alkmaar, 19 Ara 2026 - Eredivisie - Maç raporu Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Marten de Roon - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01dkZYVDFiYnNOZUtjdlBVUXdpb3NGMnRIMTZOSWZQQ1VxaWJyVXhxZFQwQXd5b19SSk54QTR0VDJnck42Q3Rua0ZyRGM5Tk81dWxrU3VacFJxaTUyN0huaFF5a0N5Y3N6VTdNdVllUUt0VE1jb3Z4dmxtaw?oc=5",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "text": "Marten de Roon Transfermarkt",
             "language": "tr",
             "sentiment": 0.0
           }
