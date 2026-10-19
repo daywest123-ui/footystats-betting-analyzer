@@ -52,7 +52,7 @@ def _team_tokens(name: str) -> list[str]:
     const stripped = n.replace(/fc|afc|cf|sc|club|women|united|city|town/g, "");
     const words = n.match(/[a-z0-9]+/g) || [];
     const useful = words.filter(w => !["fc","afc","cf","sc","club","women","united","city","town","hotspur"].includes(w));
-    return [...new Set([n, stripped, n.replace("fc", ""), useful.slice(-2).join(""), useful.slice(-1).join("")])].filter(Boolean)
+    return [...new Set([n, stripped, n.replace("fc", ""), useful.join(""), useful.slice(-2).join(""), ...useful])].filter(Boolean)
 
 
 def _contains_match(text: str, home: str, away: str) -> bool:
@@ -132,10 +132,18 @@ def _match_window(text: str, home: str, away: str) -> str:
     positions: list[int] = []
     for token in (home, away):
         raw = str(token or "").strip()
-        if len(raw) >= 5:
-            pos = lowered.find(raw.casefold())
-            if pos >= 0:
-                positions.append(pos)
+        candidates = [raw]
+        candidates.extend(
+            word for word in re.findall(r"[A-Za-z0-9]+", raw)
+            if len(word) >= 5 and word.lower() not in {
+                "united", "city", "town", "hotspur", "athletic", "football", "club"
+            }
+        )
+        for candidate in candidates:
+            if len(candidate) >= 5:
+                pos = lowered.find(candidate.casefold())
+                if pos >= 0:
+                    positions.append(pos)
 
     if not positions:
         # Fallback to a normalized-text containment check; use the page prefix
