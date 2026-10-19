@@ -7,7 +7,7 @@ class ExternalPredictionSourceTests(unittest.TestCase):
     def test_all_requested_sources_are_registered(self):
         self.assertEqual(
             {s.key for s in SOURCES},
-            {"statsbet", "pitchdeep", "xgaura", "predictionsfooty", "kingsodds"},
+            {"forebet", "footystats", "predictz", "windrawwin", "statarea"},
         )
 
     def test_match_detection_requires_both_teams(self):
