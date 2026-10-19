@@ -24,11 +24,11 @@ class Source:
 
 
 SOURCES = (
-    Source("statsbet", "StatsBet", "https://statsbet.org/football/predictions"),
-    Source("pitchdeep", "PitchDeep", "https://www.pitchdeep.com/"),
-    Source("xgaura", "xGaura", "https://www.xgaura.com/today-predictions"),
-    Source("predictionsfooty", "Predictions Footy", "https://predictionsfooty.com/"),
-    Source("kingsodds", "Kings Odds", "https://www.kingsodds.com/predictions/today"),
+    Source("forebet", "Forebet", "https://www.forebet.com/en/football-predictions"),
+    Source("footystats", "FootyStats", "https://footystats.org/"),
+    Source("predictz", "PredictZ", "https://www.predictz.com/"),
+    Source("windrawwin", "WinDrawWin", "https://www.windrawwin.com/predictions/"),
+    Source("statarea", "Statarea", "https://www.statarea.com/predictions/"),
 )
 
 # These pages are daily prediction indexes. Do not download the same page once
@@ -49,7 +49,10 @@ def _strip_html(html: str) -> str:
 
 def _team_tokens(name: str) -> list[str]:
     n = _norm(name)
-    return [n, n.replace("fc", ""), n.replace("women", ""), n.replace("united", "")]
+    const stripped = n.replace(/fc|afc|cf|sc|club|women|united|city|town/g, "");
+    const words = n.match(/[a-z0-9]+/g) || [];
+    const useful = words.filter(w => !["fc","afc","cf","sc","club","women","united","city","town","hotspur"].includes(w));
+    return [...new Set([n, stripped, n.replace("fc", ""), useful.slice(-2).join(""), useful.slice(-1).join("")])].filter(Boolean)
 
 
 def _contains_match(text: str, home: str, away: str) -> bool:
