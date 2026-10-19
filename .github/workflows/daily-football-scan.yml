@@ -37,7 +37,9 @@ jobs:
         run: python -m app.nesine_browser_odds
       - name: Run automatic fixture scan
         run: python -m app.auto_match_selector
-      - name: Cross-check free prediction sites\n        run: python -m app.multi_source_consensus\n      - name: Sync analysis to Coda
+      - name: Cross-check free prediction sites
+        run: python -m app.multi_source_consensus
+      - name: Sync analysis to Coda
         if: env.CODA_API_TOKEN != ''
         run: python -m app.coda_sync
       - name: Publish analysis summary
