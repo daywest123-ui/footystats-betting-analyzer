@@ -48,12 +48,25 @@ def _strip_html(html: str) -> str:
 
 
 def _team_tokens(name: str) -> list[str]:
-    n = _norm(name)
-    const stripped = n.replace(/fc|afc|cf|sc|club|women|united|city|town/g, "");
-    const words = n.match(/[a-z0-9]+/g) || [];
-    const useful = words.filter(w => !["fc","afc","cf","sc","club","women","united","city","town","hotspur"].includes(w));
-    return [...new Set([n, stripped, n.replace("fc", ""), useful.join(""), useful.slice(-2).join(""), ...useful])].filter(Boolean)
-
+    """Return conservative aliases for a football team name."""
+    normalized = _norm(name)
+    words = re.findall(r"[a-z0-9]+", str(name).lower())
+    ignored = {
+        "fc", "afc", "cf", "sc", "club", "women", "woman",
+        "united", "city", "town", "hotspur",
+    }
+    useful = [word for word in words if word not in ignored]
+    aliases = {
+        normalized,
+        "".join(useful),
+        "".join(useful[-2:]),
+    }
+    aliases.update(useful)
+    # Common club suffixes may appear or disappear between data providers.
+    for suffix in ("fc", "afc", "cf", "sc"):
+        if normalized.endswith(suffix) and len(normalized) > len(suffix) + 2:
+            aliases.add(normalized[:-len(suffix)])
+    return sorted((x for x in aliases if len(x) >= 3), key=len, reverse=True)
 
 def _contains_match(text: str, home: str, away: str) -> bool:
     n = _norm(text)
