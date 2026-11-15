@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:18:44.107592+03:00",
+  "generated_at": "2026-11-15T09:20:21.136830+03:00",
   "run_status": "INSUFFICIENT_OPEN_DATA",
   "decision_status": "NO_BET_DATA_UNAVAILABLE",
   "data_sources": [
@@ -19,13 +19,13 @@
   "top_matches": [],
   "all_scanned": [
     {
-      "home": "Paysandu",
-      "away": "Uruguay Mont.",
+      "home": "Ryukyu",
+      "away": "Kochi Utd SC",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Paysandu||Uruguay Mont.||2026-11-15",
+      "fixture_id": "Ryukyu||Kochi Utd SC||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "01:30",
+      "kickoff": "10:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -60,8 +60,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Paysandu",
-        "away": "Uruguay Mont."
+        "home": "Ryukyu",
+        "away": "Kochi Utd SC"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -286,13 +286,13 @@
       "market_analysis": []
     },
     {
-      "home": "Charleston",
-      "away": "Louisville",
+      "home": "Hoi King",
+      "away": "Supreme",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Charleston||Louisville||2026-11-15",
+      "fixture_id": "Hoi King||Supreme||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
+      "kickoff": "10:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -320,15 +320,107 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 10,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.75,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Charleston",
-        "away": "Louisville"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wX0NHd2FCbzVJTEJYTWJJOWNrYzl4bzloeGluX2tkWWxyNldkYVhuTWRVZmd2SEZ4cEltTU1IN09SdmNEQ3RkTkYzYjVrOXdaVU1LLUh1NlVvR1FWSHk0VzBZRlhybWZzbW5OenJB?oc=5",
+            "published": "Wed, 04 Nov 2026 16:25:21 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Hoi King vs Supreme FC live score, result & stats - Football.com",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDNHYTlYM3JHZWlqVDFFQ3RESU5pMlByOEdvYmtPOGdBTFBNNzJhY1FjZmFhVWxLSEYwRUlmbEFSeEdyZHFxRWxDYlJoeGFiTDVXMWdBQnFyb1hEUlpzSnVfT2Rka2xoTkhXMUZsS1FTRDA2ajVSS2tVTFR1cUF6alNZeGlRUXBLc0dBag?oc=5",
+            "published": "Thu, 25 Dec 2025 05:38:50 GMT",
+            "text": "Hoi King vs Supreme FC live score, result & stats Football.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Supreme FC vs Hoi King live score, result & stats - Football.com",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWnFFRlkxaWJ2SzFMMEpEM0lZOFdha3JmVV9EQ0Y3V3pDODhmU3kxOGFoVHJYUEU4dlk4TThwMWJqZnRrNER0aGpRTEpaRDJRU25rT3g4SFNGVzB4VW96WU1oNFU1OThFSmsxemNTVmlwcmRFY3FYWWhCTXpxSVVtT1FjTHI3WTRQTzkzMA?oc=5",
+            "published": "Tue, 09 Sep 2025 01:42:42 GMT",
+            "text": "Supreme FC vs Hoi King live score, result & stats Football.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DZVg2QTNzc0FmOFNJNndoRVJZZmFIVUNFQUgwRm1LM040MmUwbDlTV0dvOG1XTlBCbjVUWWx2Y3Nfb29odGxEWWlyQm52NVc0Tm5IX3hkYndXSlNQclhHUmpybE9YV1ZaWVRKckFKN0VpQQ?oc=5",
+            "published": "Tue, 20 Oct 2026 15:19:13 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzdXlYa0ZHekpJUWxOM2ZuMnVmOUFpd3RCUFhZckNyaExrdGZLU3o3N1hYOEQ0My11N2dUbE9VclFTb0puOFpERzF4V2pMRmdBVC1CdEhRSHljQlhvcUtPTW5DUlY5UHNrVFlvdGJnZnFLdw?oc=5",
+            "published": "Thu, 05 Nov 2026 06:08:45 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDT2FqR3dqT3FicF83NGpwVER3WVVHbDc3TVl3OHRnZjN0bElqTlU5a0NGdkxXYWI0MnpZeW43bHFGMTBjb1dyaHlHQzVVcXdfOEkxekR4c0l6bWZ1MFRPUHVBblplNkFqLU1rV0ZhRE5ydw?oc=5",
+            "published": "Tue, 20 Oct 2026 00:13:07 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtWHNsTGYybV9oYzI1ZVEtU1duNjVSY2pYMUFoTDJjeW1ia2doVkEyLThtZFJPRTVHUkFBQkxrLUdLLWIzTHF5c0NfTWdnbkRmc05KbVBZQkFpSHFLNXZ5czVPZmwtR2ducHFEWUJiV0Nndw?oc=5",
+            "published": "Wed, 28 May 2025 10:53:55 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ocnZ4ZFBnTHJrcTlUWmhDOGdRSEhudDB3M2tTRXBDLWJ5bTZkS2lrTUFVbUM4WWFpYzJnbXZicGJLOUExQWNmZ2hHSzlFYnBoT0NwRTM2QktEbHZ3T2hPWHhaNlJXOW50SFNvTHl0cEtySUR3Ymc?oc=5",
+            "published": "Wed, 01 Oct 2025 21:51:21 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wSnpxODF3T2xvOGduMGJIZm1sekxvQ0ZicTg2QUNEVWl3M05QWG1IeThiUUduWXZfSFBISFIzR1gxbXZOMFZ1MmFScmdWZU41QmFSUWlNNGhjYjdJdHNlSl9zUHZfR0pnU1FJS2FUN3c0WThpUUNR?oc=5",
+            "published": "Fri, 19 Sep 2025 18:11:55 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Hoi King - Supreme FC canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZNXoxTm1TRkhucEJuaGc2bEtPbmFWZmtSTml1UFFYUnM2S0Fjc0dCZDZvODI4YXpVUExHbkxPZDBRcGd1S09NSFp2TjNRWm1mTlpMaVpBT3NwX0Uxd0JNMTNvcVkxOEZZTWtaQlFhcFpLRzg1NGlSOXl5SU5pQQ?oc=5",
+            "published": "Tue, 02 Sep 2025 03:03:07 GMT",
+            "text": "Hoi King - Supreme FC canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Hoi King",
+        "away": "Supreme"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -553,13 +645,13 @@
       "market_analysis": []
     },
     {
-      "home": "Comunicacion",
-      "away": "CSD Imperial",
+      "home": "South China",
+      "away": "Bright Cerulean",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Comunicacion||CSD Imperial||2026-11-15",
+      "fixture_id": "South China||Bright Cerulean||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
+      "kickoff": "10:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -587,15 +679,71 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 6,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.55,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Comunicacion",
-        "away": "CSD Imperial"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Bright Cerulean - Club profile - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXZG1Jd1F1RzY0SjBmd2JiVUlGbk5GQkFwWTU4eVB5TGVrZmhDWkVJUDNaeF90eTlCSC0xNDJOYkpBZ2JWUVIxNFRITHNEQ2ZJOUhFUFNRVlp0Sk5xZjc2dE9KX0ROMU1SVnVFUkFuV0FDamE4c2Jn?oc=5",
+            "published": "Sat, 16 Aug 2025 17:19:35 GMT",
+            "text": "Bright Cerulean - Club profile transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DZVg2QTNzc0FmOFNJNndoRVJZZmFIVUNFQUgwRm1LM040MmUwbDlTV0dvOG1XTlBCbjVUWWx2Y3Nfb29odGxEWWlyQm52NVc0Tm5IX3hkYndXSlNQclhHUmpybE9YV1ZaWVRKckFKN0VpQQ?oc=5",
+            "published": "Tue, 20 Oct 2026 15:19:13 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The Football Association of Hong Kong, China Limited - 中國香港足球總會",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wX0NHd2FCbzVJTEJYTWJJOWNrYzl4bzloeGluX2tkWWxyNldkYVhuTWRVZmd2SEZ4cEltTU1IN09SdmNEQ3RkTkYzYjVrOXdaVU1LLUh1NlVvR1FWSHk0VzBZRlhybWZzbW5OenJB?oc=5",
+            "published": "Wed, 04 Nov 2026 16:25:21 GMT",
+            "text": "The Football Association of Hong Kong, China Limited 中國香港足球總會",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Hong Kong First Division 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUjJqWTFqVHVVTkhpQlc3TG5wZzIzTUx5YVBGMXNDNnIxbzVZZkVpNXlWVXZDX2I1TVFnejdiTkJGWHQ2WTFDT0hQRGlxVm5HVDd0MHExT2RtUWd5NzV1TVBpbzU5WlBtcTZIdjRScW43WGdwYmtyRW1ET000OVpJeGR1U2t5YlJS?oc=5",
+            "published": "Thu, 19 Nov 2020 11:05:15 GMT",
+            "text": "Hong Kong First Division 26/27 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bright Cerulean FC Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvajdma0c2ZDE4TDY1ay1Fb0dDSHJ1VTVVSS05ck5lU3pmd3Zkd0k3bkRHUlFuOGJLN3QzZTJqenBWWEpRdFdGckR4anNQVzA4blhFdEFGYzEzQnpTSmJoNXBPVnhLeV9VNlE?oc=5",
+            "published": "Tue, 21 Apr 2026 14:32:02 GMT",
+            "text": "Bright Cerulean FC Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "South China - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GTzEyS0JtQU1wSHY1RjlkUjVyU1dLX3VCdXFnS2NTTnlwMmdsckJGOWctQThRQ0tJT2h5bnU5QVlxZ1gzRHp1YW9Qd2tfVkNDeUJaRjVKVno5ZzNUV1R1MnNrVkpBLXFUaW94ZHpEZFctUVgxUEt3?oc=5",
+            "published": "Sat, 23 Nov 2019 17:41:06 GMT",
+            "text": "South China Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "South China",
+        "away": "Bright Cerulean"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -820,13 +968,13 @@
       "market_analysis": []
     },
     {
-      "home": "Gimnasia Jujuy",
-      "away": "Almirante Brown",
+      "home": "Yuen Long",
+      "away": "Wofoo SE",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Gimnasia Jujuy||Almirante Brown||2026-11-15",
+      "fixture_id": "Yuen Long||Wofoo SE||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
+      "kickoff": "10:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -854,15 +1002,26 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 1,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.3,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Gimnasia Jujuy",
-        "away": "Almirante Brown"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Sky Leader FC Results - All Match Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mMzFYVjIzWXU4cXNVTnkyNUZzZ09IOVNlRlN5M0dRNmxTNFlwSmh5NmpBSklMWktaNm5UMFdwNENXTlNDakpJVUxSM1pZTTJHOE1OWmZ3YklJbi1XdUdJRjNReFZURUJNUDFBNTlR?oc=5",
+            "published": "Fri, 04 Sep 2026 15:01:52 GMT",
+            "text": "Sky Leader FC Results - All Match Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Yuen Long",
+        "away": "Wofoo SE"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -1087,287 +1246,13 @@
       "market_analysis": []
     },
     {
-      "home": "Nacional",
-      "away": "Albion",
+      "home": "INAC Kobe L. (K)",
+      "away": "Cerezo Osaka S. (K)",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Nacional||Albion||2026-11-15",
+      "fixture_id": "INAC Kobe L. (K)||Cerezo Osaka S. (K)||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
-      "data_quality": {
-        "min_recent_matches": 0,
-        "status": "INSUFFICIENT_DATA"
-      },
-      "form": {
-        "home": {
-          "matches": 8,
-          "points_per_game": 0.75,
-          "goal_diff_per_game": -1.125,
-          "goals_for_per_game": 0.875,
-          "goals_against_per_game": 2.0,
-          "over25_rate": 0.5,
-          "btts_rate": 0.375,
-          "ht_home_rate": 0.125,
-          "ht_draw_rate": 0.5,
-          "ht_away_rate": 0.375,
-          "corners_over8_5_rate": 0.75,
-          "cards_over4_5_rate": 0.25,
-          "corner_samples": 8,
-          "card_samples": 8,
-          "source": "openfootball+football-data.co.uk"
-        },
-        "away": {
-          "matches": 0,
-          "points_per_game": 0.5,
-          "goal_diff_per_game": 0.0,
-          "goals_for_per_game": 1.25,
-          "goals_against_per_game": 1.25,
-          "over25_rate": 0.5,
-          "btts_rate": 0.5,
-          "source": "openfootball"
-        }
-      },
-      "intelligence": {
-        "mentions": 0,
-        "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
-        ],
-        "home": "Nacional",
-        "away": "Albion"
-      },
-      "dixon_coles": {
-        "home_win": 0.29847839578675206,
-        "draw": 0.2978407335260511,
-        "away_win": 0.4036808706871968,
-        "btts_yes": 0.5316426571951879,
-        "btts_no": 0.4683573428048121,
-        "over_2_5": 0.46833939139843644,
-        "under_2_5": 0.5316606086015636,
-        "lambda_home": 1.1623057136228516,
-        "lambda_away": 1.3853404920917225,
-        "elo_home": 1446.552049870228,
-        "elo_away": 1500.0,
-        "rho": -0.13
-      },
-      "signal": {
-        "stat_probability": 0.2828,
-        "dixon_coles_probability": 0.2985,
-        "final_probability": 0.5,
-        "category": "WATCH"
-      },
-      "model_markets": [
-        {
-          "market_key": "corners_over_8_5",
-          "market": "Korner ÜST 8.5",
-          "model_probability": 0.666667,
-          "model_probability_pct": 66.67,
-          "fair_odds": 1.5,
-          "odds_required_for_value": 1.54
-        },
-        {
-          "market_key": "cards_under_4_5",
-          "market": "Kart ALT 4.5",
-          "model_probability": 0.666667,
-          "model_probability_pct": 66.67,
-          "fair_odds": 1.5,
-          "odds_required_for_value": 1.54
-        },
-        {
-          "market_key": "under_2_5",
-          "market": "ALT 2.5",
-          "model_probability": 0.520052,
-          "model_probability_pct": 52.01,
-          "fair_odds": 1.92,
-          "odds_required_for_value": 1.98
-        },
-        {
-          "market_key": "btts_yes",
-          "market": "KG VAR",
-          "model_probability": 0.517957,
-          "model_probability_pct": 51.8,
-          "fair_odds": 1.93,
-          "odds_required_for_value": 1.99
-        },
-        {
-          "market_key": "btts_no",
-          "market": "KG YOK",
-          "model_probability": 0.482043,
-          "model_probability_pct": 48.2,
-          "fair_odds": 2.07,
-          "odds_required_for_value": 2.14
-        },
-        {
-          "market_key": "over_2_5",
-          "market": "ÜST 2.5",
-          "model_probability": 0.479948,
-          "model_probability_pct": 47.99,
-          "fair_odds": 2.08,
-          "odds_required_for_value": 2.15
-        },
-        {
-          "market_key": "away_win",
-          "market": "MS 2",
-          "model_probability": 0.44738,
-          "model_probability_pct": 44.74,
-          "fair_odds": 2.24,
-          "odds_required_for_value": 2.3
-        },
-        {
-          "market_key": "first_half_draw",
-          "market": "İY X",
-          "model_probability": 0.427627,
-          "model_probability_pct": 42.76,
-          "fair_odds": 2.34,
-          "odds_required_for_value": 2.41
-        },
-        {
-          "market_key": "btts_over_2_5",
-          "market": "KG VAR + ÜST 2.5",
-          "model_probability": 0.427443,
-          "model_probability_pct": 42.74,
-          "fair_odds": 2.34,
-          "odds_required_for_value": 2.41
-        },
-        {
-          "market_key": "home_win",
-          "market": "MS 1",
-          "model_probability": 0.394063,
-          "model_probability_pct": 39.41,
-          "fair_odds": 2.54,
-          "odds_required_for_value": 2.61
-        },
-        {
-          "market_key": "draw",
-          "market": "MS X",
-          "model_probability": 0.363335,
-          "model_probability_pct": 36.33,
-          "fair_odds": 2.75,
-          "odds_required_for_value": 2.83
-        },
-        {
-          "market_key": "first_half_away",
-          "market": "İY 2",
-          "model_probability": 0.354753,
-          "model_probability_pct": 35.48,
-          "fair_odds": 2.82,
-          "odds_required_for_value": 2.9
-        },
-        {
-          "market_key": "corners_under_8_5",
-          "market": "Korner ALT 8.5",
-          "model_probability": 0.333333,
-          "model_probability_pct": 33.33,
-          "fair_odds": 3.0,
-          "odds_required_for_value": 3.09
-        },
-        {
-          "market_key": "cards_over_4_5",
-          "market": "Kart ÜST 4.5",
-          "model_probability": 0.333333,
-          "model_probability_pct": 33.33,
-          "fair_odds": 3.0,
-          "odds_required_for_value": 3.09
-        },
-        {
-          "market_key": "first_half_home",
-          "market": "İY 1",
-          "model_probability": 0.21762,
-          "model_probability_pct": 21.76,
-          "fair_odds": 4.6,
-          "odds_required_for_value": 4.73
-        }
-      ],
-      "market_probability_engines": {
-        "home_win": [
-          0.35198379684006403,
-          0.33020663641873926,
-          0.5
-        ],
-        "draw": [
-          0.2921646234971434,
-          0.2978407335260511,
-          0.5
-        ],
-        "away_win": [
-          0.4252606530153976,
-          0.4168787400841173,
-          0.5
-        ],
-        "btts_yes": [
-          0.5316426571951879,
-          0.5222283914756691,
-          0.5
-        ],
-        "btts_no": [
-          0.4683573428048121,
-          0.47777160852433087,
-          0.5
-        ],
-        "over_2_5": [
-          0.46833939139843644,
-          0.4715054522585928,
-          0.5
-        ],
-        "under_2_5": [
-          0.5316606086015636,
-          0.5284945477414071,
-          0.5
-        ],
-        "btts_over_2_5": [
-          0.38923451791451436,
-          0.3930957564813532,
-          0.5
-        ],
-        "corners_over_8_5": [
-          0.75,
-          0.75,
-          0.5
-        ],
-        "corners_under_8_5": [
-          0.25,
-          0.25,
-          0.5
-        ],
-        "cards_over_4_5": [
-          0.25,
-          0.25,
-          0.5
-        ],
-        "cards_under_4_5": [
-          0.75,
-          0.75,
-          0.5
-        ],
-        "first_half_home": [
-          0.125,
-          0.18840579710144928,
-          0.3394546466332777
-        ],
-        "first_half_draw": [
-          0.5,
-          0.4517741129435282,
-          0.33110740122426263
-        ],
-        "first_half_away": [
-          0.375,
-          0.3598200899550225,
-          0.32943795214245963
-        ]
-      },
-      "htft_matrix": [],
-      "market_analysis": []
-    },
-    {
-      "home": "Queretaro",
-      "away": "Monterrey",
-      "league": "Nesine public bulletin",
-      "fixture_date": "2026-11-15",
-      "fixture_id": "Queretaro||Monterrey||2026-11-15",
-      "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
+      "kickoff": "11:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -1402,8 +1287,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Queretaro",
-        "away": "Monterrey"
+        "home": "INAC Kobe L. (K)",
+        "away": "Cerezo Osaka S. (K)"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -1628,13 +1513,13 @@
       "market_analysis": []
     },
     {
-      "home": "Tigres UANL (K)",
-      "away": "Pumas Unam (K)",
+      "home": "Kashiwa",
+      "away": "Kawasaki Frontale",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Tigres UANL (K)||Pumas Unam (K)||2026-11-15",
+      "fixture_id": "Kashiwa||Kawasaki Frontale||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:00",
+      "kickoff": "11:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -1662,15 +1547,224 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 23,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Tigres UANL (K)",
-        "away": "Pumas Unam (K)"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale: Japanese J1 League stats & head-to-head - BBC",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBteU91SkxOZWxnc05DZVlIVm9wd0IybUE5OWtQQndKdU44Vmk3YnZPU0w4SFBUYXlSMEtPZ2xJd3FMMXhPRERLd1F1bUI1VEVCT0FnRk01djR3MmlVbExKdExNTQ?oc=5",
+            "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale: Japanese J1 League stats & head-to-head BBC",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale vs Kashiwa Reysol Preview and Tips - Football.com",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00bmxZbm55QjlSS1ZCMy0yVlN3Mzk5MUdSS3hPeXBhdThlNFR3RE5nalZjNEdjU3hlN2JrUEpJVllZR2FtWm5tUjJWekxJWVAw?oc=5",
+            "published": "Wed, 11 Nov 2026 03:17:54 GMT",
+            "text": "Kawasaki Frontale vs Kashiwa Reysol Preview and Tips Football.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "kashiwa reysol - Football.com",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3amxnTXc3UXJROTdXbVFRN1B0MGVjLTY2cG02ZFZDNGlSeGwyV2R5bnhVbUJCZENKSjFLWVFIMGYtQjVDVU9OZjBKd2FrV1VZei03VDh2enVhN3Y0b1pEYnZJQQ?oc=5",
+            "published": "Wed, 11 Nov 2026 08:49:24 GMT",
+            "text": "kashiwa reysol Football.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xT08tVnZXSmpUMzdrejd3eVhtbHczY1QzYkNUSXRGV3dBUVQ4emRQSDVpVUJ4bGVuYUdBSXhjdmE1eUFNbFJmRTZ2dmlzUktlSWRpNkNGQUdja3BWZ2I4dnBCVWUxQVc1QVBLQXZObVVDVEMtRmZlbkFnbmNyZw?oc=5",
+            "published": "Sat, 04 Nov 2023 18:20:20 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol VS Kawasaki Frontale: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWpzMFZGSFZmZC1IR3ZWRklNWTZfam9UNjZMU0tneGRROEdFNHFVTWN0M08zd0xjVWs3amVKUGpVUzJxcllrVjNraHFMMnZfLVl2ZkI1dXp3OEFyMUVSN0wyQUlQam5jVUNOWE9oOWpLLXJSZEtMYWVZZkZfMlFDbXFTUnlvdmx0UWFreGszaHFjQlh6ZkNpQ2lsVjVRZ3FMLW84?oc=5",
+            "published": "Tue, 26 Mar 2024 11:49:51 GMT",
+            "text": "Kashiwa Reysol VS Kawasaki Frontale: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVU5YzNZUXhTNXcxXzlRY3BYZEo2RmlHUXlrUFQzbXlkd1BWeDNGdi1GZTN4NEd6QnF2UnExWnlScndhTV9heExsY1A2Yi1sX1BUTFJTREdoTWM4QURVZjFDR0NVbEM3bWJ0OE5JemtPbS1QQnVTNkFWRUZFMzZqWk1JWDYtODJT?oc=5",
+            "published": "Tue, 16 Jul 2024 14:41:25 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale loses at home and Kashiwa Reysol faces come back loss in 1st Sec. of ACL group stage - JFA",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50ZS1NakRwQ0RXcFVFakxmbGRGMmE1UDhSVHpJTmgyZ0J0MFpCbzRRQ3lnX3FpQnNIbkRLbEtxZlMxYUlabU11RGNUTFIwZw?oc=5",
+            "published": "Wed, 14 Feb 2018 08:00:00 GMT",
+            "text": "Kawasaki Frontale loses at home and Kashiwa Reysol faces come back loss in 1st Sec. of ACL group stage JFA",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale and Kashiwa Reysol both drop match in Final Sec. of ACL group stage｜Japan Football Association - JFA",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uaVh5Ry1FeDdzT29Nb1hUME1NVVV3SDBBSk5lNjFDMERiZDdnS1ZOVEJXM0J0R3NUT1ROZUtQLXNOSzFDMndlSUoyWVRWdw?oc=5",
+            "published": "Thu, 19 Apr 2018 07:00:00 GMT",
+            "text": "Kawasaki Frontale and Kashiwa Reysol both drop match in Final Sec. of ACL group stage｜Japan Football Association JFA",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale Prediction, Betting Tips, Lineups & Odds | 06 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1FRbzZhUTQ4dUdwSE1RTVJ2Q1ZUSEJweFU5NDZGV21iZVE2cHI1MExPc29Zb1Atckt4MDNUM0FzMXlXREVQUGVzZWFGck5Rbzg2UVE0aFRONFVKSUxXQ1k5Ql9yRi1VZ3VwMGhzQkxlaUJDN1ZQTm16bTd5M2p4dlFnNFg2aFFCS0FmRVV5dWN2WXBjdkxTWXk5TG1NVkp0THpsWGVPR0o5TTg0SEFCSDNST2JycVRnXzNBdXdta2I?oc=5",
+            "published": "Thu, 05 Nov 2026 14:39:34 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale Prediction, Betting Tips, Lineups & Odds | 06 Nov 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "▶️ Watch Kashiwa Reysol vs Kawasaki Frontale Live Stream | Predictions & Tips - 15 Nov - FootballPredictions.NET",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWDR4VnBXaUlkbDM2OWhmNERqWU8yeTgyQ29vTlBaU3JWU2RYNXlXd0lMRWN4Vm9YR09tdVpQdkpnVUd0TklzTV81c1YzM3NqSVViOEpNbDVGNkQtNnRPQ08zMzg1eXE5ekxqeWlWUmJTN3dIdVBkNGF1c1djTkNxcFdzRUtHaXliRXdLcHd6dVF1bkdtMEhnMw?oc=5",
+            "published": "Wed, 08 Oct 2025 23:47:55 GMT",
+            "text": "▶️ Watch Kashiwa Reysol vs Kawasaki Frontale Live Stream | Predictions & Tips - 15 Nov FootballPredictions.NET",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale: match statistics and data - BetMines",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdTFEX29oWW9GN2VKcEktdHU2aXBxQ0F0YWFONHJ2bHBZLXhEeDBOMXlLZnREN3h3eWU3VzJrNmFma0QzX2U5ODJaM3hxX1hQam9yYXNNY1ZhSnVrVzd5X18zR0lTN1dKMWtsdlJzTldvcE5FRGZZdGk4U3BmakVUeWlJRmU5MmR2Wmc?oc=5",
+            "published": "Wed, 11 Nov 2026 08:00:00 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale: match statistics and data BetMines",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: Tokyo Verdy vs Kawasaki Frontale - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdTB5U2doSEJWREtUdHZIcV9nX1gtbnZxSWhMaFhyMDJ0NWN5UFBucFdqekVCZlFoRVlyRVNnTnlVMTYyRGRyLThhcTlMTlZsVzhObV9GSDdhdXFreDZwYUxlTllWeGtBSmdoUk9RZWpyR1ROUGVmNDJTLW9qXzJHeHdsSXJVZUlwd3lVY21zLW9kWmlfSjY5YXNNTUQ5dmtGTmhydUt6UVZwVlY2cmpVZUYzckEyV05lU3IxVzJ5WQ?oc=5",
+            "published": "Fri, 27 Jun 2025 07:00:00 GMT",
+            "text": "Preview: Tokyo Verdy vs Kawasaki Frontale - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale vs Nagoya Grampus Prediction, Betting Tips, Lineups & Odds | 11 Oct 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR2FSajBURGtjelczZWlocFNIbE9JMFY5Wl84RVhmNGdkcnZqeDJULVZRbVZnU0wtLWJuM2prcXlBd2lVZVF4c29wYVZodG5aNXI5eGN2cFVYLTdrRGNRUkVtS3hNZHRDWWFsbkFZcE9wcDFwcjBvR1JjZU5pNERZS3Uta0F5SWRfR3dZRW5PNTYzQXVBU0RFSUNvV3RMdlFpY2xmWjJqSU05WE5tNWYzM2pjYkxUUE1EaGFrLTFOVkg?oc=5",
+            "published": "Sun, 11 Oct 2026 07:00:00 GMT",
+            "text": "Kawasaki Frontale vs Nagoya Grampus Prediction, Betting Tips, Lineups & Odds | 11 Oct 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale vs Shimizu S-Pulse Prediction, Betting Tips, Lineups & Odds | 06 Sep 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdHhwZF9JMzFGWkE1eW1mYXhDdUV6NFNzT1JteGttNDkybjJyN1U0ZWtvVHFzV0lzWlk1akpaOG45OExmM25Obk5KS1RqaFBaM1Ywb0hHUEc5XzdtVVVOS21KQlk4TFNhb2VzT1hGLUxTRDdwZTZ0cjBWRURQdU5Cbl9veFRQc3kxNXQ3LVp3bmNVZlFOb05nMmlfcEh3VlJJTDN6b0RDT2hOenc1ZU0tUVpYd0hySTJLNzlRMTJsTFB2dw?oc=5",
+            "published": "Sun, 06 Sep 2026 07:00:00 GMT",
+            "text": "Kawasaki Frontale vs Shimizu S-Pulse Prediction, Betting Tips, Lineups & Odds | 06 Sep 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale Profile, Results, Players, Stats, Stadium | Official Website of J.LEAGUE - Ｊリーグ公式サイト",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTaEpRQkI1Z1FiRGlhbzI3eXY3NVcxN0tpd3ZZX2NqNnBMZXFwWmxuVkJ5eWcyaHV4WU9WYkhlQ08xWFF2MXNSRExXUTJoVE5LMG4w?oc=5",
+            "published": "Sun, 30 Apr 2017 10:37:56 GMT",
+            "text": "Kawasaki Frontale Profile, Results, Players, Stats, Stadium | Official Website of J.LEAGUE Ｊリーグ公式サイト",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Mito Hollyhock VS Kashiwa Reysol: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXV4NzBKZXNNRkxWZUt0cEplbWpQamxCMzJpeEZlMV93THRCQ2NPTjVtdFdVQjZ2RTd4SjNSX1VhZERqUWVJU2diN2VDd2lhQ29GaUZqbFM4VnpBb0NuTndrUjNqSG9VZVB1U01mUG85NDlJUHJ2T2I0eVh0Smxqa1VlU2FuTDViMnFoY29feThVZmpWREdLcURtNU1CUFk?oc=5",
+            "published": "Thu, 15 Jan 2026 10:53:35 GMT",
+            "text": "Mito Hollyhock VS Kashiwa Reysol: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Tokyo Verdy: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ05sT2k0ZmFOUldjRWdqUFRLQWhHaXA4VXg0VVlQZnBVTjA0d0hNNkQ2TXd1UUZGRWJBNl9US0hBSHpZdGc5NmhyNy1LQi1BOXc5OFRidUpPRVZJOE1sNldITEdjZXpBeHJSWVFrU0JIaFNjZzlVLXNUQVd5amEyVVJKZERwczZRdVlnMnJQWnByTEpwMGdTdnRYcGtBLXlCdlhV?oc=5",
+            "published": "Wed, 27 Mar 2024 11:39:26 GMT",
+            "text": "Kashiwa Reysol vs Tokyo Verdy: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: Urawa Red Diamonds vs. Kashiwa Reysol - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSUd6dFp4TnNudnN5WlNPSV9RUkQydmRickVBcGNaUUZYU21weldMQ2JQRzFIS0M3MU80cXVMa0NFc1dnVzFoNHk4TUVwSnMyZlhReVl0UFU5TG9xeVlrNzEwSzR2ZUh3SmZzQWdYOTZRMUp0d2hYUHhKdnkxS2pOeXd3S2lVcmxKemc4NFhsOHR3WUpSdGRYdkwyWkFMVTdXWFplZnU3R29kYTIzX1dkZVk0M3JlbzF4SkRTb0R3?oc=5",
+            "published": "Mon, 05 Aug 2024 07:00:00 GMT",
+            "text": "Preview: Urawa Red Diamonds vs. Kashiwa Reysol - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol - Son maçlar, skorlar ve yaklaşan maçlar - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FS2ZTcnI1cUhUYWMxc1R2ZlZMQlhQc2VUU1RXbUNEYlJkemNhWV84NGJ2UEllNkVrNXE4c0VXZmpLZ0tpT09GRkpnQkZOb0RfUjFSYUtJUjVhcGhrZkQxMUc3YlFkZC1vN3NtNg?oc=5",
+            "published": "Tue, 31 Oct 2023 20:06:58 GMT",
+            "text": "Kashiwa Reysol - Son maçlar, skorlar ve yaklaşan maçlar FotMob",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oMHgzbG9FS01fVkxhcXZHazU4WjRSQllQN2I2enhDVjE5TFRoQ2hnMnVJRTcta0htU052RlVUWWx6Wmx3RzNYUE9SWmMtbG9PbTRjaDhsNUZ0N1NoXzBqa3laQ1VBNkNUM0laeGktM0dfLUlQaXc?oc=5",
+            "published": "Sat, 08 Jun 2019 00:10:01 GMT",
+            "text": "Kashiwa Reysol Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bugünkü futbol programı, 11 Kasım 2026: Vietnam milli takımı sahada. - Vietnam.vn",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVy15b0lXZEt5dTE3TUFsaEszSlZScUtBSWFTemhyLXl5cWVVdDBpWEFGVnZFWEVJaFV6eGZDdlFTRFpXNldLZnJxaDQ2VkphUmVYLUVfbHNzaVhOZ2RsSTJqQkVKSTU1ajV2ZEpVcUhzQ2JmSWgyQUdxSHFmYnNGOU5MNWRRQ3hBVnRNNm9TQXJSb3FB?oc=5",
+            "published": "Wed, 11 Nov 2026 01:09:22 GMT",
+            "text": "Bugünkü futbol programı, 11 Kasım 2026: Vietnam milli takımı sahada. Vietnam.vn",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kashiwa Reysol vs Kawasaki Frontale maçı Hangi Kanalda Saat Kaçta Yayınlanacak? | 15 Kasım 2026 - Spor Ekranı",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQktPWXNWUVF1RnY0WXFkTXc3M2drUDQ4MzVUWHlzMWJnVjFGTzdjLUJ6Q0xKZm84UGtoN3J0SHI4SUhzNEtiNUlkNlk1MlFDbE5fUkJ6cjNoMzYyenhwVjNzdzNHdEdLQTdZYjhpQ29NbHRFeFlfZ1p5dzB6a2Z1NnR0VVZLSFJPTVp6Q0lBLUxZd1hlbGl2eWI0YjdSSkxqZWowejhEVkJZMlB5OHdvT2U5RU5jOE14SGh3cUoxUWRKZw?oc=5",
+            "published": "Thu, 12 Nov 2026 16:27:14 GMT",
+            "text": "Kashiwa Reysol vs Kawasaki Frontale maçı Hangi Kanalda Saat Kaçta Yayınlanacak? | 15 Kasım 2026 Spor Ekranı",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kawasaki Frontale vs Kashiwa Reysol maçı Hangi Kanalda Saat Kaçta Yayınlanacak? | 11 Kasım 2026 - Spor Ekranı",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVXpFQ09LVGlzWjhfcmhaU2tTSldXYlhPZTN4U0NEbk5hQ05yMGM4SXlUa3VPazlDS1BwM3ZfUndjb3NFcWRhTndVTnpWM191OTdPdjZzeE92VFRBQlJ5aWxQMTdlR2JfdC05RG1pTEpGcnhmSXV0a3BJemRJU0ZXVk1pZE5DdC1meTBlRmtkQmpEV2NHZi1WZXlPdGszVEtIQW4yVDZfa1k5dWRCb01ibV9FS1FySGswSGNjYVVnX0t3dw?oc=5",
+            "published": "Wed, 11 Nov 2026 12:26:03 GMT",
+            "text": "Kawasaki Frontale vs Kashiwa Reysol maçı Hangi Kanalda Saat Kaçta Yayınlanacak? | 11 Kasım 2026 Spor Ekranı",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Kashiwa",
+        "away": "Kawasaki Frontale"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -1895,13 +1989,13 @@
       "market_analysis": []
     },
     {
-      "home": "Cashmere Technical",
-      "away": "Wellington Oly.",
+      "home": "MIO Biwako Shiga",
+      "away": "Osaka",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Cashmere Technical||Wellington Oly.||2026-11-15",
+      "fixture_id": "MIO Biwako Shiga||Osaka||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:30",
+      "kickoff": "12:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -1929,15 +2023,53 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 4,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.45,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Cashmere Technical",
-        "away": "Wellington Oly."
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Tochigi UVA FC - MIO Biwako Shiga, 05/07/2015 - Japan Football League - Match sheet - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVnVXdVJIdUxmZkg4MWxCSlhZX0hVYnBhb0JZTi1oN011S0RsTHltUHdsWDNDMkh1OFphYm5PUXF4dTBXbENTZU5MMlo3OXg3ZVRPN3lwRWhwVmZiZGtyM3hzN1RUamthUVMxaFhIYmR6N0ZtV3JJeTBfeWowVXppUXZ1bEJ0cnY0T19yTzBTenF5ZzdmWFdz?oc=5",
+            "published": "Sat, 31 Oct 2026 13:45:46 GMT",
+            "text": "Tochigi UVA FC - MIO Biwako Shiga, 05/07/2015 - Japan Football League - Match sheet Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "KUBO Rikuto | FC Osaka | Official Website of J.LEAGUE - Ｊリーグ公式サイト",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hLWUzNDNJZXcxbEFwVmlpNDY4N0FSU2M2R2ZWNXlDbnNqcnp0S1NnT1FqR3BNdkQ3RVZmVjRGaUZmTHc5RnMzNml6aHNpS2xGdG1R?oc=5",
+            "published": "Mon, 20 Jul 2026 01:06:00 GMT",
+            "text": "KUBO Rikuto | FC Osaka | Official Website of J.LEAGUE Ｊリーグ公式サイト",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Takashi Usami (Gamba Osaka) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fRDZndElPVXBORVNNMHNVbFJxUFFMUFA4clVtNjR1a29TSXQza24wa0lqRml5bGZiTFgyZXR1SU12T0ZzRHh0VUJXZUdJWXNic1Nfcm9OYVBYeHZUYlp4aGdxcG5MZ3JGa3d3TnJn?oc=5",
+            "published": "Thu, 16 Feb 2023 07:17:01 GMT",
+            "text": "Takashi Usami (Gamba Osaka) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Nagano Parceiro - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjdpWEJFNHhQZWtPMlFXWmJtSGxQVERGQ2Y3OGY5SlBZenpVTXRlTkZxN25yc2dFVXFEc3JVRFN0OVNZLTk1TTA4ZVZ6T1l5SExYN01FTS1aMHg0N1BMQ1FPYmZuRzdqYk1tY194VmdNY0s3YnVqZVN2ZENCUkRMSmdOY0dHU0FN?oc=5",
+            "published": "Fri, 16 Oct 2026 01:47:35 GMT",
+            "text": "Nagano Parceiro Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "MIO Biwako Shiga",
+        "away": "Osaka"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -2162,13 +2294,13 @@
       "market_analysis": []
     },
     {
-      "home": "Chapecoense",
-      "away": "Vasco Da G.",
+      "home": "Central Western",
+      "away": "Tung Sing",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Chapecoense||Vasco Da G.||2026-11-15",
+      "fixture_id": "Central Western||Tung Sing||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "02:30",
+      "kickoff": "12:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -2196,15 +2328,116 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 11,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.8,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Chapecoense",
-        "away": "Vasco Da G."
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Tung Sing - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5dFh0YVNkcW1zNUc1TkFVa3lNUTdQZDFYbHBSWGkwZjljcFdFOHdhVFcwWUxsZkExV3dzQW5WazdrWWl0X1pfd2dJZ3VPNzE4NVlyMlUtemhNTU5ZVVJmbV9TLWU4SnVFODZvQ2kxU1o?oc=5",
+            "published": "Mon, 29 Mar 2021 00:47:26 GMT",
+            "text": "Tung Sing - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Hong Kong First Division 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUjJqWTFqVHVVTkhpQlc3TG5wZzIzTUx5YVBGMXNDNnIxbzVZZkVpNXlWVXZDX2I1TVFnejdiTkJGWHQ2WTFDT0hQRGlxVm5HVDd0MHExT2RtUWd5NzV1TVBpbzU5WlBtcTZIdjRScW43WGdwYmtyRW1ET000OVpJeGR1U2t5YlJS?oc=5",
+            "published": "Thu, 19 Nov 2020 11:05:15 GMT",
+            "text": "Hong Kong First Division 26/27 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Central & Western District - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaUx0eFI3Nk5BWUdaVU1LYVdrbm81VzQ3SGpCZm1iRUtvdV8zaDhKaDJrcnM4REY4NE5fc3lUVkNmQTJ4cWY5TzlqT1ZNcW05a1pCZjRhR1pOUU5OVy1ud3hCcnRtRDBvTUVPUDBkRXY1LUIyLVNLS3YtNlFYYWlUVHFHbk0yTGtVNTVwVTRFeng1cUFwMHo3aktYSF9WUQ?oc=5",
+            "published": "Sun, 20 Jul 2025 06:41:33 GMT",
+            "text": "Central & Western District Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Citizen - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BWXFDUm1tR3dVN3RKR21ISlBJYVpvSEdsNERiMnNqcFdGNzR4UkFiWlBaUlZrYVBDWkRZTnhBekJHSHpieHJFRUo3aXZyMDAtcl9xeC1uOW5xLWZaTGVhYUxVWkNVempVbFRreFkzN3pFdw?oc=5",
+            "published": "Sun, 07 May 2017 09:50:53 GMT",
+            "text": "Citizen - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Wellingsson - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95TmJmUXJMZFRGRFQ3VXpMOUtBejV2bXFnbldZSEJudm9jeG45eFRlTWUwNmxyQlEwODQzaDR0MF9EekktMVU2aHlKZ3B2SXhkMFhCS3E2Qmdrd1dZem1WVXdzWDhJUHRZMHdxRXk5OFE?oc=5",
+            "published": "Sun, 07 May 2017 03:13:37 GMT",
+            "text": "Wellingsson Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Central & Western District - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanp0anpRREloamszX2JRTmxxblpUbm53Uzg5bDFVb1lGS0ZDR2FQampJUXE0SWpyWUFrN3FMeEM2ZWhqZC1SZmFmVmEzN3NKYmNVVkc3cmhoMlJWZ3hGd2Z4LU14d0hhQlN1NWRxMm5jRFFfNDlIaTdPdEhFcENRUHoyc0tEQkNnVnc?oc=5",
+            "published": "Sun, 05 Aug 2018 14:17:45 GMT",
+            "text": "Central & Western District - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Lucky Mile - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LSzJZNkt6M1NsRnU2MlVMcjRYOW5VNEhhU1Z6VXFOenpma094aXE4RmF3ZjJHd2NWY3RFYTFBMy12Z01hV3VoZjdVYWxOckFzY2V5dEVwaElYamMtZG9DVERTV1pYMHJJeHZlcEpQZjg4Zw?oc=5",
+            "published": "Tue, 04 Jul 2017 08:24:14 GMT",
+            "text": "Lucky Mile - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Resources Capital - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tZ01HNmgyVXRUY2hxQU9kUDJ0N0plaUZtYlRxME9rakVZSUhvcjI0STZVN1cxc1M0QkpnUDhXcU5nTFBjX0pGNEM2QWtWZXg5WU1yamtQdDV1bllrQ2ZjRnNuRFhDV1M3SEoxc1gxN2djLTBEbmFxUE9icw?oc=5",
+            "published": "Sun, 28 Mar 2021 15:47:16 GMT",
+            "text": "Resources Capital - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "South China - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yYk5hOUNqc0ZyMzVmdUVhWFJORkd4bmFhX2JINVBBLUtYUk95eExMVVhoU3pWTEF4OHdvS3A4M1JMd01SVlBkRGw2R3lENERodjFYeFRiUVRpUHFKck81ZHVmcmlaQWR0dWlBSmtVdWx5TE0?oc=5",
+            "published": "Fri, 05 May 2017 20:27:46 GMT",
+            "text": "South China - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Tung Sing - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDNzVzaFVNaVlGZGFDLUFiMndfelYtUGFBMkgwTWZzdG1qTEg1cFhRMnZqdWZveWxvVkVwVmNmYUVMUmFGZFNkUHJsTUN3QVdtdWhGQ3dPQm5MaVJkd2M1QnBRdjFwdXpQaFlUYVhjYVlFVU1n?oc=5",
+            "published": "Mon, 12 Apr 2021 16:59:32 GMT",
+            "text": "Tung Sing Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Central & Western District - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYy1YX3Z4N2JlMDVDbGZYMnlJc3pEbzVuN3FtSWhQVWFCN1ZUb2lMV3lYVUtzbW1ndnp2R08tOHp1Q1J0WWJUbzhKYjFHT2RSaHlDTHJuZFdyQ01aUkdURVg4cHJXMGpCRUhBNTlJb0xpUW5TVnl2eVRrU1JzbjVtdE1KdzQ3cU51NjBKREhB?oc=5",
+            "published": "Tue, 30 Apr 2019 11:56:01 GMT",
+            "text": "Central & Western District Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Central Western",
+        "away": "Tung Sing"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -2429,13 +2662,13 @@
       "market_analysis": []
     },
     {
-      "home": "Fundacion F. Un Atleta",
-      "away": "C.D. Cacahuatique",
+      "home": "MSK Zilina B",
+      "away": "Inter Bratislava",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Fundacion F. Un Atleta||C.D. Cacahuatique||2026-11-15",
+      "fixture_id": "MSK Zilina B||Inter Bratislava||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "03:00",
+      "kickoff": "12:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -2463,15 +2696,116 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 11,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.8,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Fundacion F. Un Atleta",
-        "away": "C.D. Cacahuatique"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "MSK Zilina Africa FC - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CSGFTVEtJWnc5QUxUbW5MN2lOeGFnM2pKbU9fd3hobTNvSFRic3BUVDR1RnhzYndQVkVuTnItel83Ym9fSXRXTWpVeE9QSEhjajRORmNaT0tpRlVLTzVMeXFKUGhkQmJJdVJMTkpXRm9rZkxDTklxNDlYOXBhUQ?oc=5",
+            "published": "Fri, 03 Apr 2020 02:45:46 GMT",
+            "text": "MSK Zilina Africa FC transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Inter Bratislava - Schedule 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13QllfLUU2NjMwNWpxN2pEdVlVWmV3VS1zOV96UXEwRHJxcldnWVFDajVPaHRfS1Y3MXBBdWRWTW1Na2tVUkFueFktTGNuelVkMkFHZWxsd2xiZkZKalFpaU9GMFBhSTgxanl2NDdQRXVJblpLczVZTg?oc=5",
+            "published": "Fri, 20 Oct 2017 11:20:25 GMT",
+            "text": "Inter Bratislava - Schedule 26/27 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "MSK Zilina Africa FC - Transfers 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xUzZrUDZCbGFPcHhzSXVHRHFPaFJBWkd3SEhwVXhxOHFhLVZOUjU2cFNEN3BuMGdqODFUdHpqd0ZkbEg4M1FhU0lpcHNkVEgyV2RocTZJZHlkSzVtcHBlTW5mTjNQX2syZkViWks3RUFkMlFQYzVzU2tnQWFKdw?oc=5",
+            "published": "Mon, 19 Apr 2021 08:44:31 GMT",
+            "text": "MSK Zilina Africa FC - Transfers 26/27 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Inter Bratislava - Record vs FK Zeleziarne Podbrezova B - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeEotMDVhYWstOVNINW1IVHdPcktqaDRVZlZKM3BSdDhUNlYyWnAyM0JDcU9qQ0JnWnhGMjZkczJWclVoLTlpUEdQY2lYRkhMaDZXMl9mM3JkT2VEZ3dKUTl1UUZXMkUtVkhKTXpaRW5jZWg2bXFZWjhzeV9NZ2lQZE5qRnp6Zw?oc=5",
+            "published": "Wed, 08 Apr 2026 22:29:06 GMT",
+            "text": "Inter Bratislava - Record vs FK Zeleziarne Podbrezova B Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Inter Bratislava - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1naXJtQ28tQmRhSDJIQ0lZR1o1d1k3dlh3X3k3Z3hTLWVRYV93eXNDWWU2N24zYlFoNS1WNGhLNDFpVWdpcHpFOXBCVXg1dGRBbHZ0YkJVY3JfTkdKNllMRlc3ZDVDcXZmdFlMVEM3S3hGanV4ZWNV?oc=5",
+            "published": "Sat, 29 Apr 2017 15:23:33 GMT",
+            "text": "Inter Bratislava - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "MSK Zilina B - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmVkE0T3hWdTEzMGplOUM2dFNNZGFjekZyMHcwSTdQUWRfSzhkVDNrcE5PbDhDR3dwR1dwNFdNaU1vQXVyM1NUdlliMXZCUldRUFQtckt6WEN2NWlnZGxJT1ZsZmwzRmJ5ZUlJSEVadmVyM2NF?oc=5",
+            "published": "Fri, 05 May 2017 21:14:29 GMT",
+            "text": "MSK Zilina B Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "MSK Povazska Bystrica vs MFk Bytca prediction – Odds & stats – 26 September 2026 - Wincomparator",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaFVtTUJKQ09sa1JHaUZuaXgyQ29ZR3EwYVllVUkxbnVxalFWc3JqSU9kX2tLalNFeXN0TWJxVXpVSzI1RkpiSXZ4Y29uUGtSSjR5Wmt4YkNqNUxpaDg5d0hQamtvYTU3RTNnOFo4Nm9tX3pjVFRETjE3c2FWOG9qb19tME8?oc=5",
+            "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+            "text": "MSK Povazska Bystrica vs MFk Bytca prediction – Odds & stats – 26 September 2026 Wincomparator",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Inter Bratislava - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9id0ZVenM2STFxTm1oY2pyelo0VnpOV0dvR1dETEo1azVmX19KcU41Y3dRNUZIUVlyY2tndGV5V2c3S3gyVHhCcDhUOU1rQUtpVWU0c240Q3VCSEF2eWliemMxcGpCY1pEQm9SdjM5NDRxZ01yWHdDQnFaQQ?oc=5",
+            "published": "Thu, 08 Jun 2017 05:37:56 GMT",
+            "text": "Inter Bratislava Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Slovakya 2. Lig 2026/27 Puan Durumu, İstatistik, Fikstür - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MeHVwUFNLSHY2LTVoMGd3SE16aktqd1RhaDlFT3FGQ2VWM1lIek42cVlrMW4zeFZxNURWZTNtREo0UHVYdFp0RDhvSkVFY2k3Y3U0?oc=5",
+            "published": "Tue, 09 Jun 2020 00:29:25 GMT",
+            "text": "Slovakya 2. Lig 2026/27 Puan Durumu, İstatistik, Fikstür FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "MSK Žilina B - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04VHFGdWNtQTBHbW01Q2VjOThRMUZpaHFYczM0QnpKTXlTZFNuUkdrdnM0Y09MMHAxWFpvM2ktMHUwXzBxMmtLXzVDNGRYYzhTSTlhOFUzRXBTU1k3QWVjVUN0NnVhQkVKYVRzRTliMUR4UkVYTENaSg?oc=5",
+            "published": "Sun, 04 Jun 2017 23:33:08 GMT",
+            "text": "MSK Žilina B Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Petrzalka - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mck5GOUI3R01wczFIQXpGeVFvaVlKVGpVUWtPc0c5ZUhvOTk3UWVOdVd5QzlmTWQ4R0V1Q2MwaHRyRDlXeWpBNnBrNTVTVEtJZlZ0akFSOU5SMFVvWlhUOTF2a0ljZGU3RUtJX0lrSXhxZmc?oc=5",
+            "published": "Sat, 18 May 2019 03:25:39 GMT",
+            "text": "FC Petrzalka Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "MSK Zilina B",
+        "away": "Inter Bratislava"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -2696,13 +3030,13 @@
       "market_analysis": []
     },
     {
-      "home": "Napier City R.",
-      "away": "Ferrymead Bays",
+      "home": "S. Bratislava B",
+      "away": "OFK Malzenice",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Napier City R.||Ferrymead Bays||2026-11-15",
+      "fixture_id": "S. Bratislava B||OFK Malzenice||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "03:00",
+      "kickoff": "12:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -2737,8 +3071,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Napier City R.",
-        "away": "Ferrymead Bays"
+        "home": "S. Bratislava B",
+        "away": "OFK Malzenice"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -2963,13 +3297,13 @@
       "market_analysis": []
     },
     {
-      "home": "Saint Vincent ve G.",
-      "away": "Belize",
+      "home": "AS Saint Etienne U19",
+      "away": "US Cap D Ail U19",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Saint Vincent ve G.||Belize||2026-11-15",
+      "fixture_id": "AS Saint Etienne U19||US Cap D Ail U19||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "03:00",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -2997,15 +3331,44 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 3,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.4,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Saint Vincent ve G.",
-        "away": "Belize"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "AS Saint-Étienne U19 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0bjZ1M3o4dTI3QmhFQkhKbm01aGRjdGtFalJKXzdJOVpBOGoyRWZrcGRrOVJRek1KbXFWcEkzcjBmTlhjRVlhWVc3NGswMXRRaW1ac0xUZG4tbGhMbVZZNnF5X1ZYMmlxZ2VKVENzamt5dVVfWmVkWS1zRjJSNkE?oc=5",
+            "published": "Fri, 05 May 2017 18:52:49 GMT",
+            "text": "AS Saint-Étienne U19 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AS Saint-Étienne U19 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRGVsVFJHSGcxVVFnV0p1eElhVXVZMV90UlNGZVZZNEtzdE10anhlZ2p1akVBVW5FWThwMTM3M3k2WWVVbm4zbXFEZ3lUSGFXUGlUZzkwdFlhczJrM2JfTHhzcmVDV0dad1hJTUVXeEZtWlE2STEwWUZYSHFFWTUxbUJvZw?oc=5",
+            "published": "Tue, 06 Jun 2017 14:54:02 GMT",
+            "text": "AS Saint-Étienne U19 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Cavigal Nice Football U19 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOXBLVHk1UUpaT0p3QzNGdXFKYzljQUk2WU9ITjBieDBEOHZicXh5THhVUF84NVY2UzY3ZzB0X2ptaThuY3duT0tDdnVqUTdweFZIYzg5SDNfbXdpSWZLVlN2TDZoaTc4R21aQWF3QlZLV3lKMUxZc2hSWjhleEtobUlVSHdQM3ZfTnNV?oc=5",
+            "published": "Fri, 23 Feb 2024 03:10:04 GMT",
+            "text": "Cavigal Nice Football U19 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "AS Saint Etienne U19",
+        "away": "US Cap D Ail U19"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -3230,13 +3593,13 @@
       "market_analysis": []
     },
     {
-      "home": "Charlotte Ind.",
-      "away": "AC Boise",
+      "home": "Chelyabinsk",
+      "away": "Veles Mos.",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Charlotte Ind.||AC Boise||2026-11-15",
+      "fixture_id": "Chelyabinsk||Veles Mos.||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "03:30",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -3271,8 +3634,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Charlotte Ind.",
-        "away": "AC Boise"
+        "home": "Chelyabinsk",
+        "away": "Veles Mos."
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -3497,13 +3860,13 @@
       "market_analysis": []
     },
     {
-      "home": "NY Red Bulls",
-      "away": "America",
+      "home": "Diosgyori Vtk II",
+      "away": "Nyiregyhaza Spartacus II",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "NY Red Bulls||America||2026-11-15",
+      "fixture_id": "Diosgyori Vtk II||Nyiregyhaza Spartacus II||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "03:30",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -3538,8 +3901,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "NY Red Bulls",
-        "away": "America"
+        "home": "Diosgyori Vtk II",
+        "away": "Nyiregyhaza Spartacus II"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -3764,13 +4127,13 @@
       "market_analysis": []
     },
     {
-      "home": "Jamaika",
-      "away": "Meksika",
+      "home": "Merignac Sa U19",
+      "away": "Lorient U19",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Jamaika||Meksika||2026-11-15",
+      "fixture_id": "Merignac Sa U19||Lorient U19||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "04:00",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -3798,15 +4161,44 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 3,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.4,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Jamaika",
-        "away": "Meksika"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Stade Briochin U19 vs Merignac SA U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd19tLXhET21FSmZhSjByZ2hFSjhpYnNWNG1iU0ZXRHF4Wi1wWlFuTkdObnJ3UTFWY04wbUlBYnlWU0VvXzRWdzQ3X3ZRdUo4eUF4d1c3OHJTbFRMblJGSGpxeFhEdzh5YUNoUVRkRmVaZ2VFVEZ4WVE0UExreE05VVhocUxTTzBudDNpb0JB?oc=5",
+            "published": "Sun, 26 Jul 2026 03:10:52 GMT",
+            "text": "Stade Briochin U19 vs Merignac SA U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Avranches U19 vs Merignac SA U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaWVFVFVGNkRQYmc0bHU4OGNNemM2bUpwdG5KX1dOTXdPdDZQYWljelc0VjAzVnJOQndwQzBsd0VSczdyYXBWLUxoRmRWUDlBVl9xcUctSTNNYnNVWDJ5SXpWZ1lrMEFrdUNxR3pjbUNRSkRzTFhGTXQ4cGhESWpTcFVKRlBWd1k?oc=5",
+            "published": "Sun, 16 Mar 2025 07:00:00 GMT",
+            "text": "Avranches U19 vs Merignac SA U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Merignac SA U19 vs Guingamp U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQWR6ZXM4dThKenpObjlBTml0OWJ1VjNfMXFjRVcycGVGMHA4aXgyYzdnM21ZQ1NYcjRtNHhKQlhXeGtIZTZiRTM0ZkFqUFd1TjZkTFI1MmZhWnhzbDlrYWZHdC16WHBxM2RpaThleTlJYW9aajVMTnB0aGNqLVE1ZDlxVndmZw?oc=5",
+            "published": "Wed, 17 Jul 2024 13:14:44 GMT",
+            "text": "Merignac SA U19 vs Guingamp U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Merignac Sa U19",
+        "away": "Lorient U19"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -4031,13 +4423,13 @@
       "market_analysis": []
     },
     {
-      "home": "Malacateco",
-      "away": "Municipal",
+      "home": "Paksi II",
+      "away": "Majosi SE",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Malacateco||Municipal||2026-11-15",
+      "fixture_id": "Paksi II||Majosi SE||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "04:00",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -4072,8 +4464,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Malacateco",
-        "away": "Municipal"
+        "home": "Paksi II",
+        "away": "Majosi SE"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -4298,13 +4690,13 @@
       "market_analysis": []
     },
     {
-      "home": "Wellington P. (K)",
-      "away": "Sydney (K)",
+      "home": "Puskas Akademia II",
+      "away": "Bicskei TC",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Wellington P. (K)||Sydney (K)||2026-11-15",
+      "fixture_id": "Puskas Akademia II||Bicskei TC||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "04:00",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -4339,8 +4731,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Wellington P. (K)",
-        "away": "Sydney (K)"
+        "home": "Puskas Akademia II",
+        "away": "Bicskei TC"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -4565,13 +4957,13 @@
       "market_analysis": []
     },
     {
-      "home": "Alianza",
-      "away": "CD Fas",
+      "home": "Stade Reims U19",
+      "away": "Clermont Foot U19",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Alianza||CD Fas||2026-11-15",
+      "fixture_id": "Stade Reims U19||Clermont Foot U19||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "05:00",
+      "kickoff": "13:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -4606,8 +4998,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Alianza",
-        "away": "CD Fas"
+        "home": "Stade Reims U19",
+        "away": "Clermont Foot U19"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -4832,13 +5224,13 @@
       "market_analysis": []
     },
     {
-      "home": "Auckland Utd",
-      "away": "Miramar Rangers",
+      "home": "AD Torrejon",
+      "away": "Rayo Vallecano B",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Auckland Utd||Miramar Rangers||2026-11-15",
+      "fixture_id": "AD Torrejon||Rayo Vallecano B||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "05:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -4866,15 +5258,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Auckland Utd",
-        "away": "Miramar Rangers"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "RC Alcobendas - Las Rozas - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObEk3UTZwQ1hPdy02MHd4MzlobktpRkpVSHd0MHMxR2VnQWp2T0RNVXZ0cHFDNjcyaWFYbVZwWjRGT3ppR0YzNGhUdmdkd0V5cFpwTnZYWkdhMnRudjE5ZVdma0YtRjVjX3VwTkJEd3FzNzFERXVXYm50dzNRYVB1NXdjaER6R20xelotZmliRHI?oc=5",
+            "published": "Thu, 23 Jul 2026 05:28:00 GMT",
+            "text": "RC Alcobendas - Las Rozas Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Torrejón vs UD Sanse B live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WXy03SDY0S09QV3diSm9lOU9xMThIYmxFWnZpU1F3bkZhSWVYTUc3aTZreHNUY3lBTjhIY1NTVWljWGRpaVRzeGVFVnJBaWJDN2VZaVYyajlKczNDU3FyN2F3amF1NFNfSFcyZWtXZVFGa0pXcVhqVDlpSQ?oc=5",
+            "published": "Sat, 23 Aug 2025 08:31:01 GMT",
+            "text": "AD Torrejón vs UD Sanse B live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "AD Torrejon",
+        "away": "Rayo Vallecano B"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -5099,13 +5511,13 @@
       "market_analysis": []
     },
     {
-      "home": "Metapan",
-      "away": "Angel Firpo",
+      "home": "C. Dep. Minera",
+      "away": "UD Poblense",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Metapan||Angel Firpo||2026-11-15",
+      "fixture_id": "C. Dep. Minera||UD Poblense||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "05:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -5140,8 +5552,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Metapan",
-        "away": "Angel Firpo"
+        "home": "C. Dep. Minera",
+        "away": "UD Poblense"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -5366,13 +5778,13 @@
       "market_analysis": []
     },
     {
-      "home": "Atletico La Paz",
-      "away": "Piratas Veracruz",
+      "home": "CD Cieza",
+      "away": "Pena Deportiva",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Atletico La Paz||Piratas Veracruz||2026-11-15",
+      "fixture_id": "CD Cieza||Pena Deportiva||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "06:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -5400,15 +5812,62 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 5,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.5,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Atletico La Paz",
-        "away": "Piratas Veracruz"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Valencia Mestalla: Live Scores, Matches and Fixtures - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vX0lrUlRPdlA3bEdQSU9pNUdfVUhmaHdzSUVIR2lnbC10Z1NhWGpIS3ZWSWdkc09SMGZjdG1rZldUbkNCZy1OQUhENGZoMkxrSFpFN3c3UkltWUhLSzNSNk8zUlNVaWRtSEExYWNQTQ?oc=5",
+            "published": "Tue, 25 Apr 2023 02:34:48 GMT",
+            "text": "Valencia Mestalla: Live Scores, Matches and Fixtures 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Penya Deportiva Santa Eulalia - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYXhXcUlTWHlJTXJIT3BaZjJsVWstakUyZnJXYjViS0MtcWJocmlkVEdSZUw0WVhmYUdLOWExRzZZb0tGemttLXl2amxqeGkzM2xHR29DR1E2ajJpMXU1MkhpZ0hYUktBWlVHeXJoNHRWc3N0eFBmMXZPSTZFTjZ5OU56d0RVQkM0RWZV?oc=5",
+            "published": "Mon, 17 Jul 2017 19:22:43 GMT",
+            "text": "Penya Deportiva Santa Eulalia - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Elche Ilicitano VS Lorca Deportiva: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2Q1anQ1RUpsVlJBQmtBQlh3dEZPLWtucGoyUWU2SlhlRWtnX3JKWElxcTV4b2tkWWp1Ull2ZUExb0I1OEk4OTRWQlEyRWNaSU9EdWpnUGIwbmMzaEgwU1hxRUtzbk5QR044NjZXX1BQaGdQQjY5Mjl1allockdhS21keGE1endvMVkxc0FQTGxfVERNSUhLbmRfVmF2b3NxOXUyWFZ4VzFrTVE?oc=5",
+            "published": "Wed, 01 Jul 2026 09:54:46 GMT",
+            "text": "Elche Ilicitano VS Lorca Deportiva: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Alcoyano VS Elche Ilicitano: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOXzBYLVk5YmtwTVV1XzJmcUhTaExOdTY5dExuVmRneXY4ZTRpaDNvYURPODJZRnlnMU1EMWFhSnM2UGllU3A4bXVEemYzY010Ym1fUk1mTDFYbHRmaF9WbE9KSzJNMEhCV1owOEFWbVVrQmotdG1iSEw4MkFIRzFJcGdNMktlblVmTmhzaTRxd0lzUVNDNVdXZU03cldWY0U?oc=5",
+            "published": "Sat, 25 Jul 2026 12:06:48 GMT",
+            "text": "Alcoyano VS Elche Ilicitano: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "SCR Penya Deportiva - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVTNuZHRQeWVoVF9HbXhPZTVJWHRRUk8zd2dZWXhrRS1KaWFvQjZtWFVzb25ybG5VeG1rQTBOb0RXRHY4aUdtZllfektvU1N0WGwyV1JLNTZFOEhfZlRhZzU5OEVOY2U0XzF4a0VndklBZ1MwdVc4NGdkak12Q1d4U2tB?oc=5",
+            "published": "Tue, 25 Jul 2017 06:15:28 GMT",
+            "text": "SCR Penya Deportiva Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "CD Cieza",
+        "away": "Pena Deportiva"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -5633,13 +6092,13 @@
       "market_analysis": []
     },
     {
-      "home": "Birkenhead Utd AFC",
-      "away": "Eastern Suburbs",
+      "home": "Casalarreina",
+      "away": "Vianes",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Birkenhead Utd AFC||Eastern Suburbs||2026-11-15",
+      "fixture_id": "Casalarreina||Vianes||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "06:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -5667,15 +6126,44 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 3,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.4,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Birkenhead Utd AFC",
-        "away": "Eastern Suburbs"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Casalarreina vs Atletico Vianes Odds - 888Sport",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQU5kYXNabUp4NDRpRHpIb0k3MnMtdnF6VVJZUkh2V0VuSnZFMEI2ZFJ1MjZON0Q3SzNvMzRMc05vTk9jZVgxdWlYZVVXcW9HOEwxT1BKRjFhaFY0ZVJfdG9TaGRIZzRXOS0yNUhjcnRUOE05WDE4Vi1PSGpRZ2FKMi1xYjBxTkdJRUwxMnNSWVJraENQakFXc1d3eTM4Zk1GZWhkMi0tMGtzUXNQbktEejZR?oc=5",
+            "published": "Sun, 15 Nov 2026 06:17:14 GMT",
+            "text": "Casalarreina vs Atletico Vianes Odds 888Sport",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Casalarreina CF vs CA Vianes live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVlVSaThUSGdXNktRa0JyanBwYkZrUy10NkdJVVU3alAySzhjeW5LcEZXSHNjNU5RZERkbzlvOHBMbXc4T0dveWdIYzBEbkRrYTN0QWJiazg0TzF4M3dYal8wOFRveGQ5elkyZ2UzMGxNTEdnMVczVVRSRjJIek84c2hn?oc=5",
+            "published": "Wed, 17 Jul 2024 16:45:33 GMT",
+            "text": "Casalarreina CF vs CA Vianes live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Casalarreina - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUHZFOENQeF92N0hvZUNSeElLTkpQTWV2eEVnWDRRXzNxUFRHNmpPUXpNYVpRNkxCY3hDQklNR3FLMXU5ejl6NVVIYmp0VkpSS0VvbzM3a29ZWk1SZ0xibV9oQVAzSVNIclRraFo1OXhwR2pjRHNrOGRxaHlVbHRoTmppNTZZcUlUNU1rX2N3?oc=5",
+            "published": "Fri, 03 Oct 2025 07:52:15 GMT",
+            "text": "Casalarreina Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Casalarreina",
+        "away": "Vianes"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -5900,13 +6388,13 @@
       "market_analysis": []
     },
     {
-      "home": "Guadalajara (K)",
-      "away": "Juarez (K)",
+      "home": "Cdb Siello",
+      "away": "Real Aranjuez",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Guadalajara (K)||Juarez (K)||2026-11-15",
+      "fixture_id": "Cdb Siello||Real Aranjuez||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "06:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -5934,15 +6422,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Guadalajara (K)",
-        "away": "Juarez (K)"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Cdb Siello FC vs Real Aranjuez CF live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDRld1lueUN2UTlYMUxwSGpqQmZwbno2U0RwWkFoOVhwcThKdmN2U1RYb0ZNNjNrd3RTNENfQUc2eHNEa2VaMm1mZ2drRXBDR3ZjVFBIcGM5RF8xY241bWNzMlRhSVh4SWxuZGhmWmFZRnRVQnI1Y19sTTRreHBuZ1R1TVZqUTZZ?oc=5",
+            "published": "Fri, 30 Oct 2026 19:34:25 GMT",
+            "text": "Cdb Siello FC vs Real Aranjuez CF live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Cdb Siello FC vs Real Aranjuez live score, result & stats - Football.com",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEFiYzdSdmVhNDl2V1RWOWg5YUpSM2Y5MTI4dlktcV9VdzJLRGNpZFdYNjk4Z3F6X0hTU3BTczVDQ2dfNFhuSHRMTTJsMVBoYU55elpIT0N6RVVFbms3bmtkM2F5V3cxeUhRZ3JtTTN1NG84Ung1ZTZjU2VrbUZIcXNQQW9neERSUUo5NGdOT21HenhaaDhQQk9lWFRUS3NaVUZobmotbmY4dw?oc=5",
+            "published": "Mon, 09 Nov 2026 10:28:52 GMT",
+            "text": "Cdb Siello FC vs Real Aranjuez live score, result & stats Football.com",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Cdb Siello",
+        "away": "Real Aranjuez"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -6167,13 +6675,13 @@
       "market_analysis": []
     },
     {
-      "home": "Yeni Zelanda",
-      "away": "Hindistan",
+      "home": "Cp Parla Escuela",
+      "away": "Pozuelo De Alarcon",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Yeni Zelanda||Hindistan||2026-11-15",
+      "fixture_id": "Cp Parla Escuela||Pozuelo De Alarcon||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "06:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -6201,15 +6709,98 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 9,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.7,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Yeni Zelanda",
-        "away": "Hindistan"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Colonia M. - CP Parla - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb2VkN0tlS3IyQlRTNE1tU053eGFaUWNSbWJGWTJodmRLVlF6Z3diaWw1MFdKWVBtQk13RU53Ml9NOHhHTzlWdWpDc2g4ZXhzaG9KS2YwYzRibTFqQTV0Tllocnk2ZVIyYkVXMjRDWi1EeVpSVHBsbTgtbFljenpWenBVVlNBSU9FUUF5VDI5R0M1QURQUGNGd293?oc=5",
+            "published": "Sun, 27 Sep 2026 09:17:45 GMT",
+            "text": "Colonia M. - CP Parla Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pozuelo de Alarcón Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1M0ZMMi1KZ293eVpaUG9Ud1F2aWI5bmY3OTVBckZmOWxUbEtUNTloTEh6MGt0MUhvMl9YQTZJdFp6Q19VZVVRVEhXczhEOGVLVHlXa2hHTlRnQm8tSXZENUNlVVM?oc=5",
+            "published": "Sun, 03 May 2026 13:52:31 GMT",
+            "text": "Pozuelo de Alarcón Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CF Pozuelo De Alarcón vs UD Sanse B live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHhIcWpvSHlSR3FlcnlqSDVPQnV3Qk13WVdXQ2J5MUlRWjJQQ3VfS2RSeFBHdllua2FsLWZVS0hqbnozQ0hmVUE3Z3YzUTJoSFFKdV9aeWtLS1NyVlRGUk95dGVabWJ4bi0tcXcwaUxERkxPWWdMdEJnc21oVlRoaGVWVHNfVDN1?oc=5",
+            "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+            "text": "CF Pozuelo De Alarcón vs UD Sanse B live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CP Parla Escuela Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkNGk3S2xJMFd3MHBqZDZYVVB1OGtWWG5qU0xNZGp3alR6Y0FqZ25nM0k5czJLUzFJMkcwVXBxWVBtem1DTlFEWHhub1lIY2Z0OFNPRk9MdGUxNktXUkhpRFl3?oc=5",
+            "published": "Tue, 02 Jun 2026 23:44:36 GMT",
+            "text": "CP Parla Escuela Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CF Fuenlabrada Fixtures and Upcoming Games - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pWDJ2SHA2UDMyaTNnUDB1dGowQkhoRUJmS1pQMUk5NkdKaGJwdkN0T2VMOFdST3N2WDBMcndkcFhrY1ZxWHd3MTlDRVRzUDRUME1XWWVMdGtKMmEtY1pGQS1kTUtDMU5pS3Vv?oc=5",
+            "published": "Wed, 20 May 2026 17:12:07 GMT",
+            "text": "CF Fuenlabrada Fixtures and Upcoming Games Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Móstoles URJC Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4MXBHVmJEYXdLWlpvMFNwV3otc1hyaWR4Zml2enV4RnM4TmMtQk9HOTVqdm56WTdmbFZZeHJOMjdPdzh2OFZEVUl5ZkhOb1RhYkFZSldoN1BFbTc2aEI0a2tn?oc=5",
+            "published": "Sun, 03 May 2026 19:43:53 GMT",
+            "text": "CD Móstoles URJC Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Leganés B Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SMW9qMUNKcnBXZ09tU3VOc01IZjc3bmJCY1lGLTRXTEdxY3d2MEpFdXFpWnJvZnl4RGJPVENWYVROM2lGdHZvb1MyVFhGVmhnMU1WaE84cDNUdWdB?oc=5",
+            "published": "Sun, 03 May 2026 13:10:26 GMT",
+            "text": "CD Leganés B Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Colonia Moscardó vs CF Pozuelo De Alarcón live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMko3VDJJZGxfLXBGVmo2SWVhNGRIVDBZMDJuUV9nbE9OSEZHWkZkTUo1emE3Ti1sQUw2NGxHeFpRWUY4SlRzTkI4RVZSSkxneWk3U1ozdzhSWmJEZXpBT3dIeExudEg3bkJlUF9iblhzM1Fack1uVWJ3Z3MtdkZHOXluWV9vWTFBb0xNX1NqaFdXWEk?oc=5",
+            "published": "Fri, 10 Apr 2026 07:00:00 GMT",
+            "text": "Colonia Moscardó vs CF Pozuelo De Alarcón live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Unión Adarve vs CF Pozuelo De Alarcón live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZkpsVzhIdllJRGhwMldSakxfQXh5aTZTdUhOZlduNHhSZHRvNmtOclR6US1lT0dhUWdZcUxrWm15UHFZd0p0dEVBbWl2Yy1PRmVac3JfbndEa2s4RHpsZEFFeDVoME90Tng4b1FILVpqM2JjM252aHFwNk5hSGp4V0hpTm9YcF9HTGpIZl8yTHVEQQ?oc=5",
+            "published": "Wed, 17 Jul 2024 15:14:53 GMT",
+            "text": "AD Unión Adarve vs CF Pozuelo De Alarcón live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Cp Parla Escuela",
+        "away": "Pozuelo De Alarcon"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -6434,13 +7025,13 @@
       "market_analysis": []
     },
     {
-      "home": "Broadmeadow Mag",
-      "away": "Avondale",
+      "home": "Elche B",
+      "away": "CD A. Baleares",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Broadmeadow Mag||Avondale||2026-11-15",
+      "fixture_id": "Elche B||CD A. Baleares||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -6475,8 +7066,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Broadmeadow Mag",
-        "away": "Avondale"
+        "home": "Elche B",
+        "away": "CD A. Baleares"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -6701,13 +7292,13 @@
       "market_analysis": []
     },
     {
-      "home": "Canberra Utd (K)",
-      "away": "Brisbane R. (K)",
+      "home": "Levante B",
+      "away": "CD Eldense B",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Canberra Utd (K)||Brisbane R. (K)||2026-11-15",
+      "fixture_id": "Levante B||CD Eldense B||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -6742,8 +7333,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Canberra Utd (K)",
-        "away": "Brisbane R. (K)"
+        "home": "Levante B",
+        "away": "CD Eldense B"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -6968,13 +7559,13 @@
       "market_analysis": []
     },
     {
-      "home": "Kagoshima Utd",
-      "away": "Gainare Tottori",
+      "home": "Lorca Deportiva",
+      "away": "RCD Mallorca B",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Kagoshima Utd||Gainare Tottori||2026-11-15",
+      "fixture_id": "Lorca Deportiva||RCD Mallorca B||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -7002,15 +7593,89 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 8,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.65,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Kagoshima Utd",
-        "away": "Gainare Tottori"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Iliesse Salhi - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LWE5DSC1NdlRUYWJUWGNNY1VWNHhHT2VDM2hvWGx3ODA1N3R6OVltQ2pyanpSRGpzbHVqQWhjWFVsdHZaNHJ0aFFyeWxKTWRPS2RZWXRhbk5SZ25vNTlGTXNqWmRBV0hyX1BEdi1oRkhqWVU?oc=5",
+            "published": "Tue, 30 Jan 2024 16:51:37 GMT",
+            "text": "Iliesse Salhi transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "RCD Mallorca B - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZZUhaVk5ZQ3FfeDZ5TzVnaFQ5N1JaNHdMVUV6a0I2enZlbjNnS0tkemZDM0ZoX0ZuVjJwWHpQQk1uSUdDNlpPTjViZXhGdkM3dW1Gckp1T2wyU3g1V3FoU0Ewbk44dG1yVzR2ZVZYMGt0SVA2R0E?oc=5",
+            "published": "Fri, 05 May 2017 23:45:42 GMT",
+            "text": "RCD Mallorca B - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CF Lorca Deportiva - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yelRPVERBczNzdFAwOXN4OE1TRzZ5cUlkdlMzLTBlWXI0b3p1UWVvNWFsRVNQV2RIem1pRUFsUEI1dU0wZ0VtWU4waEZiMnY4b0FONkRDajBDbU41eGR4Tzd0R3pKLU5Fd1ZtRUN1cnVfdThDclBSMmw1QmY?oc=5",
+            "published": "Sat, 06 May 2017 16:07:57 GMT",
+            "text": "CF Lorca Deportiva Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Carlos Cristeto: Stats, Goals and Transfers | Yalla Shoot - YSscores",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IMFpPc2pxX245RVcyU3U4andta3YyZW5lSzhHZUNYS21tb1F6Q251ellhaTU2eGx3emZGY1ZKOHhMYkRsNnZDMjg5MEJaNnpGUE8yLXZxY1dJbEhIOEVmZk9LN2xzdW9KYjkyNXRn?oc=5",
+            "published": "Fri, 13 Nov 2026 20:31:41 GMT",
+            "text": "Carlos Cristeto: Stats, Goals and Transfers | Yalla Shoot YSscores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Alcoyano VS Elche Ilicitano: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOXzBYLVk5YmtwTVV1XzJmcUhTaExOdTY5dExuVmRneXY4ZTRpaDNvYURPODJZRnlnMU1EMWFhSnM2UGllU3A4bXVEemYzY010Ym1fUk1mTDFYbHRmaF9WbE9KSzJNMEhCV1owOEFWbVVrQmotdG1iSEw4MkFIRzFJcGdNMktlblVmTmhzaTRxd0lzUVNDNVdXZU03cldWY0U?oc=5",
+            "published": "Sat, 25 Jul 2026 12:06:48 GMT",
+            "text": "Alcoyano VS Elche Ilicitano: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "RCD Mallorca B - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HenNKQ0tTZGlQaXVCNDBvdDFqQWJJMzNzcW1QWkQ1MEhLSEdBWDd5RE84VWZidVdIX0JZSzhScHZHajRZVHhVYVI1N3RkdEJYcnBFWnY3dzZtYUtBMm1Ga3ZxX250Rm9qQU1GWHRiWTlhQVMxeHRtUW5B?oc=5",
+            "published": "Mon, 05 Jun 2017 05:53:18 GMT",
+            "text": "RCD Mallorca B Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Alcoyano - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JVGxXaUJZY1IyeExxc29FWjRsNkRRbk9VRTVTa0pVbkt3OW5NckhkaVJVLXg1OENHMmY2aE9fc3NaMnBqTzRmalJlWUYwemRSOU1MSVJhaExwSl9CaDZfT2VkQk0yM2xlQzFhRUlYUTZsTFU?oc=5",
+            "published": "Tue, 14 May 2019 04:23:24 GMT",
+            "text": "CD Alcoyano Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UCAM Murcia CF - Fikstür 26/27 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xNmozT2xHQ0NhSkhmbzY3cmZmLUtPUnhTUVNDcUppYl9GQ1hZbWw0WkJ4M1VWUUM4N01uT2FjTXNjeFBCQlBzTXl6a25rdHpNWUNoNGN6WEt6R1JYUVhzOGVLWEFnVzNWTGdMeFVxQkF1cDg?oc=5",
+            "published": "Sat, 27 Mar 2021 11:14:19 GMT",
+            "text": "UCAM Murcia CF - Fikstür 26/27 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Lorca Deportiva",
+        "away": "RCD Mallorca B"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -7235,13 +7900,13 @@
       "market_analysis": []
     },
     {
-      "home": "Omiya (K)",
-      "away": "Mynavi S. (K)",
+      "home": "Lucky Mile",
+      "away": "Metro Gallery",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Omiya (K)||Mynavi S. (K)||2026-11-15",
+      "fixture_id": "Lucky Mile||Metro Gallery||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:30",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -7269,15 +7934,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Omiya (K)",
-        "away": "Mynavi S. (K)"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Leaper - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FWGJENHBCdk1IVkRTS2RLSHNpWWt0QlJSc01xdkdqM0FBUEo5VzZOelNMdUpKSm9ma3lONm10NDF4RDVtWmpPMkNwVFNFU0ZSN1Y3eHNUR0FGMXR3YmNXbE44czNQVjdmRFBj?oc=5",
+            "published": "Sat, 05 Oct 2024 20:37:27 GMT",
+            "text": "Leaper transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Chi-Wai Lau - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16YkM0MXVvQ2ZhR2oyN1V0QmllNmwwYlZlZkFsSFFwNnUwdzF6TFJ4eWZ4TXRIcFBoZXJZOEpYZHBVWWtWb2ZYYTJFdTJ0NFVoSXlSeTlXNGNvc2Z5cUdTRjBzb2lSZ092cVBsY2V0eDJZSEM1Nmdn?oc=5",
+            "published": "Tue, 10 Nov 2026 08:21:43 GMT",
+            "text": "Chi-Wai Lau Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Lucky Mile",
+        "away": "Metro Gallery"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -7502,13 +8187,13 @@
       "market_analysis": []
     },
     {
-      "home": "Sapporo",
-      "away": "Sagan Tosu",
+      "home": "Administration Police",
+      "away": "Posta Ranger",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Sapporo||Sagan Tosu||2026-11-15",
+      "fixture_id": "Administration Police||Posta Ranger||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:45",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -7543,8 +8228,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Sapporo",
-        "away": "Sagan Tosu"
+        "home": "Administration Police",
+        "away": "Posta Ranger"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -7769,13 +8454,13 @@
       "market_analysis": []
     },
     {
-      "home": "Sutherland S.",
-      "away": "Canberra",
+      "home": "Mostoles Urjc",
+      "away": "T. Valderas Alcorcon",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Sutherland S.||Canberra||2026-11-15",
+      "fixture_id": "Mostoles Urjc||T. Valderas Alcorcon||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:45",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -7810,8 +8495,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Sutherland S.",
-        "away": "Canberra"
+        "home": "Mostoles Urjc",
+        "away": "T. Valderas Alcorcon"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -8036,13 +8721,13 @@
       "market_analysis": []
     },
     {
-      "home": "Tiamo Hirakata",
-      "away": "Honda",
+      "home": "UE Tona",
+      "away": "UE Vilassar de Mar",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Tiamo Hirakata||Honda||2026-11-15",
+      "fixture_id": "UE Tona||UE Vilassar de Mar||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "13:45",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -8070,15 +8755,116 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 11,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.8,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Tiamo Hirakata",
-        "away": "Honda"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "UE Vilassar De Mar vs CF Badalona live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZUxlMUw3bXZmbVowRkl0UTdmYzg4X2dZSE1nZ2hCbmlzaGluN1p6ZDNjbTlSaGYwTlQwOU9pQ1BGWHZHNVVGckNOeWtVaFlTZEVJd1RDa2J0VW1xa3JjS29JQ0t3MHl6Y09MME90UUE2THVxS2wxLVRGU0ZKQWMxVm1iamQyRXc?oc=5",
+            "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+            "text": "UE Vilassar De Mar vs CF Badalona live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UE San Juan Atletico de Montcada vs UE Vilassar De Mar live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEk5djhLSGFYa3pKRVpldnBIOVVoSGZrcS1EUlhNNEtIZ3g3V2hZNlBWWHRHbXh0QTU0c082T1l2VEdIRWpYNmRTVHpXWE9BTklkd3I3YXlfUVJGNU55MThJS01kMFF3ZVhkUW5hQV94MjNSX2JBclpMaUVPWUJHbEFuU3J4Y3QtRTIwWU9GaU5NOHRtOTF3ZXZZc2l4cmNENm5uMA?oc=5",
+            "published": "Thu, 03 Sep 2026 22:06:10 GMT",
+            "text": "UE San Juan Atletico de Montcada vs UE Vilassar De Mar live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Profile D. Saez today, UE Tona: Info, news, matches and statistics - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KYm1ndGFITFNkMEZrSC11MWNYdzdTZUN6RG1VVVE4WTdEb1dSMmFmVUkyWTBkR19QdTNwbzlwOVRCaVRDSWpSTVpuMWdtTE9VenhYS2RxRDBiUQ?oc=5",
+            "published": "Wed, 15 May 2024 04:37:52 GMT",
+            "text": "Profile D. Saez today, UE Tona: Info, news, matches and statistics BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Profile Daniel Peña today, FE Grama: Info, news, matches and statistics - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TTEZDdExoNWxwaHY3dGxkSnBaNmtIX0g0RzVLR0tjYTJaaElnNmwtU0RBRDhBa3F2T0wwUVBaSWRHUHUwMnpzY0lvMVhBdlJhMU9ITGxwZm5VOEpHTXdz?oc=5",
+            "published": "Sun, 21 Jun 2020 03:17:23 GMT",
+            "text": "Profile Daniel Peña today, FE Grama: Info, news, matches and statistics BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Profile Eric today, UE Tona: Info, news, matches and statistics - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TMUxMakVrSkZkZmRtdmxzY1c1cDNpR1NITzVlXy1NUjZRYWJ2ZEVuc1BHMUljVzMyOEZkODY1Y0Y4VlFvbWRKOS1qWFdTQ2NBSTZmVUFn?oc=5",
+            "published": "Fri, 30 Mar 2018 09:04:57 GMT",
+            "text": "Profile Eric today, UE Tona: Info, news, matches and statistics BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Fundació Esportiva Grama vs UE Vilassar De Mar live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWFU5QjhSLVZvajlWMXdUd3pWdkdnV0s5b3ZWQ2wwVm11TkkwNWdRMElXMDBndm5SWnBtZDZkeGlSU2laY1FDdWg4WUtkQXZIQmpkVXhQWXROU21lVzNtMEl6WDFkX3NwbW9QclVZdENfbEZTbl9zdEhwcWNpR3ZWb1k4bm1PM2l5YlNFUlZHcWozN0wwb1pKUnJn?oc=5",
+            "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+            "text": "Fundació Esportiva Grama vs UE Vilassar De Mar live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UE Tona vs Barcelona Atlètic live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3ljT2NYVkFBa2FwekZUX2JTY28wYmpPMjVDcFhyUElESmpLNWhyTWpHeU9qU3RrSnkzREdWcnU4X0hqR0FVWXdld2RMbTFad0ZfY3c1OHZhYU8tYlU1dUdTVE5XUzlPaHV1QV84dm5PbklNS1oxNUpLWFkyQ1RNdw?oc=5",
+            "published": "Sun, 08 Feb 2026 08:00:00 GMT",
+            "text": "UE Tona vs Barcelona Atlètic live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Profile G. Pereira today, UE Cornellà: Info, news, matches and statistics - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mUnhoZVQ2YXJHelJOdG9nMk5XdjB2OGVBSHRINmJsamIyUG44NW82YkZMZkZEaHRWenlRRmR5MFpyYThMdHFKUFVIUkc0S01fUEJtRU13VkV2M1E?oc=5",
+            "published": "Sun, 19 Nov 2017 19:42:23 GMT",
+            "text": "Profile G. Pereira today, UE Cornellà: Info, news, matches and statistics BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UE Vilassar De Mar - CF Badalona canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTmNKVzd5M1d3SldSZnJ3WVVhdzVST1lJUGhBWjZXd2Z2dlB5UDZLd1BrZXlzWGpUdENUQ3RzSGNHZFA5VmVyN0lIUU96MUxISlEwU2hCekRzYUdxMWFhZXNOTG10SXMwYmxYdHEyeUdQMTJqVUxoXzZPaVVINEpQOUlVNGp6dVFLd1I4?oc=5",
+            "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+            "text": "UE Vilassar De Mar - CF Badalona canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Fundació Esportiva Grama - UE Vilassar De Mar canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT0hrU0NkVlBnbjFBY2hHTDhBbnNVakZWMndqbVVzZVVJSi1uc095QWJLdXNuWDl2dFdZVkV4czFTQ2NTNGVyY0UtX0g3VUNFSThnVTRWNWMwVGtLZXRDLU5tWVljOWF1T3JHczZ1WU9ZQ3dBNXVmLUUxSzZ2XzlkTVpUOUo0bXNWYlNnenI2LXoyN2ZSZlBzSE9oUG1xZw?oc=5",
+            "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+            "text": "Fundació Esportiva Grama - UE Vilassar De Mar canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UE Vilassar de Mar - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT244cGUyWE05QkFNSDhYUEowRjRYZmdwRGJkYTh3U2s1S2kzb0dtN3hNOHJ5dHN0YmtFc2hTX3dhdWw3RjNuZ3RRSWZ3c0d3R2NxZ25waks5cF81b0dWaXUzVWlTdi1LYjVTaEd4b2dTSmQ5RDFOWk5kSk5iRmpRYQ?oc=5",
+            "published": "Wed, 01 Aug 2018 08:52:36 GMT",
+            "text": "UE Vilassar de Mar Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "UE Tona",
+        "away": "UE Vilassar de Mar"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -8303,13 +9089,13 @@
       "market_analysis": []
     },
     {
-      "home": "Van. Hachinohe",
-      "away": "Iwaki",
+      "home": "AD Union Adarve",
+      "away": "LAS Rozas",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Van. Hachinohe||Iwaki||2026-11-15",
+      "fixture_id": "AD Union Adarve||LAS Rozas||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -8337,15 +9123,80 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 7,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.6,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Van. Hachinohe",
-        "away": "Iwaki"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "AD Union Adarve U19 vs Las Rozas CF U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWDlhTU1nTmkyZWk4Z2toOFM0MGhEM3B3ZHVMTVFKTjMteTdINkY3MVZCamFZTW1MbV9MQzkxb3UtLTFsV2E2MDlfaG92azVDejRQemJQYWxob2RjeHZycTU1TzhmZDBKWmlBb0RUdzdRWUdxalcyd2R3RzZLYTdwM2ExMXJ0cmpkQ3ROVUZsRG4?oc=5",
+            "published": "Sun, 11 Aug 2024 19:20:21 GMT",
+            "text": "AD Union Adarve U19 vs Las Rozas CF U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Unión Adarve vs CDA Navalcarnero live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOU1Fank4c1ZSZ21XQk5jblFET2FhaWpUaWotZmlqWEpQd3BGaC1uZ0c5TGFJSjZId1ZvR2hOcmdRMTMzZWNjYWZacFRMNnJxUnprWkZnR045cGoyb0MtUThtNjNnekZnbl9WTG5GdWY1SHk5QUdNN25wX3lzV0gyb2tkTHdzOHI3TXc?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "text": "AD Unión Adarve vs CDA Navalcarnero live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Union Adarve U19 vs Gimnastica Segoviana U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZDZmUVU1b29SUTNjT1Z4TkF4QnY1TERKSFZacDdyRnNneFZxNWZPV1VpOFdNM1VuSVBQSjFZbVZXZ1FxQ0M0eEtra080Y0lPNFRTUVpVSGItY19PY1Ywbk1Ea0ZWTmtGMkI1cl9DSFgxdFI1b2N5ZWJ2QlpkN2c5Z0w1OHlTX2tTeHhVUmNhaGdIdmFrVVRaWHJ3?oc=5",
+            "published": "Wed, 17 Jul 2024 13:54:41 GMT",
+            "text": "AD Union Adarve U19 vs Gimnastica Segoviana U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Union Adarve U19 vs AD Alcorcon U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTdzc0FBdnBZME1XcG9zQ25vdEw2NjlNNE9SdXBobUY3YWVSbmRKYzdmbE1Ia2xiZk51d3dnLVhVSnE2Q3RrTjFKekxQU0JMeHpSc3Y0QklZeXhhTTZHOGNhN0d3SnRQU21rU2ZFU2tZS0pyUVVLdG9ZckZTbzZ5dXo3LUFVMzd3R09tRWdNOA?oc=5",
+            "published": "Fri, 19 Jul 2024 03:14:56 GMT",
+            "text": "AD Union Adarve U19 vs AD Alcorcon U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CF Fuenlabrada U19 vs AD Union Adarve U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZXUyWXBiQ2pFNFdsSlZvUzk2Xy01N1d5UFU2eTMzbWpqUVY1TFRZbGVQZl85SUx3bGxRdE1WVzJTQjJkQ2hyY1J1TERrR1dKQUxMQUxjNzVHSjhZY3JoR1dmQWFXLXFSbUVLLWpnSVFuMzYyaEZHMkhZQUFoSUx3YURMWF9PcW9PczJ4YnEycmJnX3c?oc=5",
+            "published": "Sun, 27 Apr 2025 07:00:00 GMT",
+            "text": "CF Fuenlabrada U19 vs AD Union Adarve U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Union Adarve U19 vs Getafe U19 live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2RMYlotWjQtUE9YRVhfbEZUejdIVVVMLURmd2xCV20wN3d6Zmd6c29JRGY3andTT29kbGRlSVFQMkNVX0tObXFNY0toYnl5WjFVcTJFMGZlQmRabE52MW5xdkdmalplVk82MEZ5VTB2bTVlUjFNOWhDZkctV2xCRVJYaGVnLWNi?oc=5",
+            "published": "Wed, 17 Jul 2024 16:28:52 GMT",
+            "text": "AD Union Adarve U19 vs Getafe U19 live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "AD Unión Adarve - CDA Navalcarnero canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYVh5VW9CSnNvWkd5OWd6ZVNXanlSTUh3RHNweTE4N2tvaGg3anRVZ3RJbTItSG5VZGl4eUtrZUlOd2VkR3hSZmRzRnpzcmRMWmh6VmpGd19mRkhuWlFTQWtLdTFaN3ZGd1dHUVRzSUdqZzY1bXlUSXIySlpZTDNaTmNTdDRlZUVDcU0ya2lB?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "text": "AD Unión Adarve - CDA Navalcarnero canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "AD Union Adarve",
+        "away": "LAS Rozas"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -8570,13 +9421,13 @@
       "market_analysis": []
     },
     {
-      "home": "Veertien Mie",
-      "away": "Grulla Morioka",
+      "home": "Amarante",
+      "away": "Felgueiras 1932",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Veertien Mie||Grulla Morioka||2026-11-15",
+      "fixture_id": "Amarante||Felgueiras 1932||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -8604,15 +9455,152 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 15,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Veertien Mie",
-        "away": "Grulla Morioka"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Benfica B vs Amarante FC: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORXM4cjhyMy1wY3dnV2ktV2FQQTlaUE5OMjJRUFhUZG5uazVxMVVGTHlvZ3hmbGdGSF9nMWZ4T0l0LUtfRzFQcE5KR0lXeWZ4TlFRdVJHMTR6VXN2bHlZS1RhQ0IwU0hCeTA0aVB3U2FUUWZJMTZWWk1HQlB0VVpGWm5TY003aDMwd3MzUnpHRHNLWHdzT082Vzk4SlFpanQyZTFr?oc=5",
+            "published": "Sat, 11 Jul 2026 03:25:52 GMT",
+            "text": "Benfica B vs Amarante FC: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante Table - Standings, Points, League Position - Forza Football",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xaUNrTXc4cnRIODJJT28xOFpST3A0QTkzZ0d6NkY5MlFLTXJoSndQTGJrUnhBcVA3V1d1ZGV3RENRWW5QZ1dpYXRDbk40TXdPWEUxcUlHMkdPUFRqVzNsSQ?oc=5",
+            "published": "Fri, 01 May 2026 07:15:34 GMT",
+            "text": "Amarante Table - Standings, Points, League Position Forza Football",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYR0l1Nlc5anRJb0JPYzlJNnZEX0J1MzEzU05HakZoMDB3RU02QVM3OWhCeWFDUzRlZDNWbjJkMHoxdFBtZTlocmtkSlNQUzA3Y0NhQmNTZ3lZeVVfbXg3LTJVZ2ZpN3hqZUd3YzFnQkp0dw?oc=5",
+            "published": "Fri, 05 May 2017 17:09:29 GMT",
+            "text": "Amarante FC - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante vs Felgueiras 1932 » Best Odds and Stats - Odds Scanner",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FMkNGYWxLQUl6V2hyZDMybDRqaExVZGpsMHJoYW5KWkxScEJEM29pN2plQ2RUamVPcEFzZE9tbk9qTkFtaDNNNjNFYXMybFZ4QXJmaW5tbU1SNXdENTA2OGM0cTdkOGxqbTJ0Ymp3?oc=5",
+            "published": "Mon, 09 Nov 2026 22:39:41 GMT",
+            "text": "Amarante vs Felgueiras 1932 » Best Odds and Stats Odds Scanner",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante vs Felgueiras 1932 » Best Odds and Stats - Odds Scanner",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wYWh4LTFGMUpBWWVsOUxySHdKY0p0TnZzZDI4aGJWRHF5YTAxWVJvTW9iX2hEZ0hpTmJHNW9kSUR6MEtQNTZYSGt6TjhqenB3bGRBNnA5Z252M0w2dXgtamlVYk8xbVBod0xtNg?oc=5",
+            "published": "Mon, 09 Nov 2026 10:25:43 GMT",
+            "text": "Amarante vs Felgueiras 1932 » Best Odds and Stats Odds Scanner",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC - FC Felgueiras 1932 betting tip & best odds | 15.11.2026 - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRG9CNFJKYlZzWnJiMjJ1WDlxY1hYRWF1OTZncEV3eU9OTWdmS1Y0MGtTQTNZV0Z1WUtJeEh5QnBTa0I3S1QyRmdPTlNRZ3A2QmU4M0ZlV1hfNFcyVHJiVW0wTEpxSUlVdnJ1REdQcVZJOWpvU0hWZ2N3Yzh3Zkp5S3VWd0Q2bGtVWXczM3JCemxWZ0N3WlZUY0NFcHZaTFZ6Z1E?oc=5",
+            "published": "Sun, 15 Nov 2026 00:22:06 GMT",
+            "text": "Amarante FC - FC Felgueiras 1932 betting tip & best odds | 15.11.2026 Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC vs FC Porto B - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ERU9FdTdoRHkxdVF5eVFuMUlJbVA1WHVxaEJYazJ2WmpJODJmeE85S2JROXZtcFhIeUE1WEJiZktFNVY4UGtnUjRYUFFEVDNPQnc4Y1RsNkhxUG1ZN3RWLUVrV3YwWkwyNGlBUzRnTzVLZWM?oc=5",
+            "published": "Sat, 31 Oct 2026 07:00:00 GMT",
+            "text": "Amarante FC vs FC Porto B - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC vs União de Leiria - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90dlc4Zzc4TVJZbnpKbW1oeXc5LUhYd2NkNnVSTkM3QV82Z1lPa1hPVGplSklJUGtweFBIVC0tUkxkQWMxTzl3RUVFcnh3ck1PcVBCcVpZOXc5ZFhFSzFGTUNfZGNtRWdFTVNpdVctSHltbGFtM3Nxaw?oc=5",
+            "published": "Sun, 13 Sep 2026 07:00:00 GMT",
+            "text": "Amarante FC vs União de Leiria - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Felgueiras 1932 VS Vizela: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWV9rOFVoVFpCYjJCQmxZNmlMdV9VcmRLdTgzYUtXdV9PZEIzUV81T3N4QVdjeXdjcU9GX2pFNVFGTUcwSHBIaUpaOUhDV0dfRG5vNUhsamJjMmFYWTAtY1FDck9NTUtNcm00REpEbUZrVlludGVKd05sS2VTZXVQSEI2dGk3czFIRkhiY204bElqczkxelZOa0VTTQ?oc=5",
+            "published": "Wed, 10 Jul 2024 15:21:27 GMT",
+            "text": "Felgueiras 1932 VS Vizela: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Benfica B vs Felgueiras 1932 - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aaE9RVkRJT2FRNG85SDN4c09fbXQtelhDRlhzQ2E5bFg5OHJ6YW1kdEY0R1Q3YS1TRDBndU9SYVhWVHR1MUhrRWtsLTh3WmlCWXNNSzR6YmVlOHIyMTZkSmZ1ajUyZTFyS0RuZ3VOQ1N2RTl6Z1Rz?oc=5",
+            "published": "Mon, 08 Jul 2024 13:33:34 GMT",
+            "text": "Benfica B vs Felgueiras 1932 - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Vizela vs Felgueiras 1932 - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDLTdXRVNFZ0Q5Z0JnZ3hyMEIyZUxZa3V5dWplX19ieWpFdF95YWN3aVp2U2FfbWwtUzdRY0M1T045dWRlLXRHU3lxLVdXU3lPRXVQcW9NY2pHelNfUFk5U0hzU2hQT1JPT0xpbzMxX3l2azA?oc=5",
+            "published": "Mon, 08 Jul 2024 08:17:18 GMT",
+            "text": "Vizela vs Felgueiras 1932 - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC vs UD Leiria prediction – Odds & stats – 13 September 2026 - Wincomparator",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGQ5dkcyZGdBSDROWmtUMlVmazhqbmR1SUlIc1NSRnRRNXJvdkJYT3pGUjN3RXRWUWhVRi1Zb1lnMUtJOWFIemQwQlBBUlAzSFBZYWdVaW91RENwMDVMb2hlN0VZemhVaXpoRVd5RHBSdzBhMjBPSHRMVjFrSTBCa3BHS2Q?oc=5",
+            "published": "Mon, 07 Sep 2026 11:31:43 GMT",
+            "text": "Amarante FC vs UD Leiria prediction – Odds & stats – 13 September 2026 Wincomparator",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "17 Games Free Sportpesa Mega Jackpot Predictions this weekend,14/11/2026: Make Ksh 139,141,433 - Venas News",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHFzdThBN0dqcGxJekhpY2RUR1B0TnhpbmEwVHBzc3dZWUV5aXg1OTV1RDBCbW5uNk5QWGFkdklHQ0VHTnJoWU96ekVRNU4ybnFtdTRIOTlJQkJVM2RGNmZGM0o5YTdYYVk4UmRQTW96YU9mbURiQndqSVZNd0FuRThyYUxleXgxNWlwSlFOa3ZQbzRmZDZwcC1hRUN1TnIwTGtVcWk4UlhQTlNQdXNNRF9JdXE2YkJDMFpTSVFlamhXdno1?oc=5",
+            "published": "Tue, 10 Nov 2026 09:03:11 GMT",
+            "text": "17 Games Free Sportpesa Mega Jackpot Predictions this weekend,14/11/2026: Make Ksh 139,141,433 Venas News",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Benfica B VS Amarante FC: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONlZxcTRlRk5DVmZDczE5R3NueGt3Qzd4MVVEYlcwajlHTDJXTnhoWHJGUC1ndGtwZEZuVmZPUFRHbnJZcmxpVFZWdjBjU3NfOFpZYTB3Z1RxNHMyUVFERFctaUdMTnl4VEVma09QWFRSU0dJTGQ4c1kzaWg2ZWpzUlp0ellVS0J0aEJVWWN3bGpXZk5qZ01DR3JRaw?oc=5",
+            "published": "Fri, 03 Jul 2026 06:59:19 GMT",
+            "text": "Benfica B VS Amarante FC: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Amarante FC - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9udVlIemZJX3V4RGhBaFo0bmkwWjhkUmlMWWZPYVlQdmFvYS1vcWplRXhzN3FyQ2NaM3lvYzRwSDQ3Q1lPZ1g2eXpZSlo5TUNiMGtKM1BITUdoQ0dlYXJvY1BGZUxIajV3VGhtQjByNjJJTXkxRGc?oc=5",
+            "published": "Fri, 09 Jun 2017 02:09:06 GMT",
+            "text": "Amarante FC Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Amarante",
+        "away": "Felgueiras 1932"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -8837,13 +9825,13 @@
       "market_analysis": []
     },
     {
-      "home": "Yscc Yokohama",
-      "away": "Verspah Oita",
+      "home": "Arenteiro",
+      "away": "Racing Club Villalbes",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Yscc Yokohama||Verspah Oita||2026-11-15",
+      "fixture_id": "Arenteiro||Racing Club Villalbes||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -8878,8 +9866,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Yscc Yokohama",
-        "away": "Verspah Oita"
+        "home": "Arenteiro",
+        "away": "Racing Club Villalbes"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -9104,13 +10092,13 @@
       "market_analysis": []
     },
     {
-      "home": "Sendai",
-      "away": "B. Akita",
+      "home": "Atl Madrid B",
+      "away": "CD Teruel",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Sendai||B. Akita||2026-11-15",
+      "fixture_id": "Atl Madrid B||CD Teruel||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "07:05",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -9145,8 +10133,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Sendai",
-        "away": "B. Akita"
+        "home": "Atl Madrid B",
+        "away": "CD Teruel"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -9371,13 +10359,13 @@
       "market_analysis": []
     },
     {
-      "home": "AC N. Parceiro",
-      "away": "Ehime",
+      "home": "Aviles Stadium",
+      "away": "El San Martin Ra",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "AC N. Parceiro||Ehime||2026-11-15",
+      "fixture_id": "Aviles Stadium||El San Martin Ra||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -9405,15 +10393,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "AC N. Parceiro",
-        "away": "Ehime"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Navarro CF vs El San Martin Ra prediction – Odds & stats – 6 August 2026 - Wincomparator",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdU02MnhmLTJ5MDF6el9uaGpZQ2c1T3FRWGgxY3FjSGgyaEV4ZDVhYmpOeWx0V1ZaM3EzT0o1YjlPOGkxbVBCM2g4TmxORW5YUmZHSS1aQTFXcmJJOURfcW5TY3NOeHBiWVdlUUw5OW5wWE9oREpFMW0zem51c3RfM29FZ0s?oc=5",
+            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "text": "Navarro CF vs El San Martin Ra prediction – Odds & stats – 6 August 2026 Wincomparator",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Sporting Atletico vs UD Llanera prediction – Odds & stats – 18 August 2026 - Wincomparator",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMS1tTGdxeGlqRXlUaHo2RDRkMXd4VTV6LVhMTFB3cnBVUWNoOElsdFEyV05HM0NjcWlGZWpzMkJfS0hUeWFkbUZrV0kwVERwbWhPdmdOS2tBQXBpT0VVbG5HWWo5cWhRUUU1bnVpSGdfRlNqMEtIeUF4MWo2NlhDZ2FwdVo?oc=5",
+            "published": "Tue, 18 Aug 2026 10:26:12 GMT",
+            "text": "Sporting Atletico vs UD Llanera prediction – Odds & stats – 18 August 2026 Wincomparator",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Aviles Stadium",
+        "away": "El San Martin Ra"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -9638,13 +10646,13 @@
       "market_analysis": []
     },
     {
-      "home": "Imabari",
-      "away": "Iwata Jubilo",
+      "home": "Barbastro UD",
+      "away": "CD Arnedo",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Imabari||Iwata Jubilo||2026-11-15",
+      "fixture_id": "Barbastro UD||CD Arnedo||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -9672,15 +10680,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Imabari",
-        "away": "Iwata Jubilo"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Orian Goren (FC Barcelona Atlètic) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TSDUwaW9yeE1GTTctZHdsTTVGWV9fNXZqT2EwS2Z4OEZrX0NJbmhYZVpNMUUzdFhCS2l1aGJIQTBUcTRUSzZiZ0lhVm84Uk1kMFQ2TWRfQnROcGFkV0VwS0pEelpBbkNyQ0RnNEJQLU5KSUFH?oc=5",
+            "published": "Wed, 22 Oct 2025 06:34:01 GMT",
+            "text": "Orian Goren (FC Barcelona Atlètic) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peña Sport FC Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LYkxhS0t0eVVtQW0zRTdsWTVEcTV1MUVKWkxFa2FMRE1KcjZyVTRKUWwyR210ckMtbHp4NXhyRWo4OWZiaGxmTW5nN2Vnb1lleXFWWGtITHlkUXpJOVE?oc=5",
+            "published": "Tue, 21 Apr 2026 16:12:32 GMT",
+            "text": "Peña Sport FC Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Barbastro UD",
+        "away": "CD Arnedo"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -9905,13 +10933,13 @@
       "market_analysis": []
     },
     {
-      "home": "Kamatamare S",
-      "away": "R. Yamaguchi",
+      "home": "CD Aurrera de Vitoria",
+      "away": "SD Beasain",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Kamatamare S||R. Yamaguchi||2026-11-15",
+      "fixture_id": "CD Aurrera de Vitoria||SD Beasain||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -9939,15 +10967,26 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 1,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.3,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Kamatamare S",
-        "away": "R. Yamaguchi"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "UP Langreo - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQckctMy1WY0w3c1ZGVVJRZjBzYmdoZ2QxM3NlOU11X01VLXpTNGF0V1k3TFNSZi1BbjRWRndLcFBjM2JaTGhHYktFbTh2Smp5eUR0SENCRG8wS1N0andlakdReHhDalVoTVlZOFppaHhRVlBwb282REZZT2ptcGxfU1JlWUJLZw?oc=5",
+            "published": "Mon, 03 Feb 2020 12:14:48 GMT",
+            "text": "UP Langreo Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "CD Aurrera de Vitoria",
+        "away": "SD Beasain"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -10172,13 +11211,13 @@
       "market_analysis": []
     },
     {
-      "home": "Kat Toyama",
-      "away": "T. Vortis",
+      "home": "CD Cantoria 2017",
+      "away": "Atl Mancha Real",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Kat Toyama||T. Vortis||2026-11-15",
+      "fixture_id": "CD Cantoria 2017||Atl Mancha Real||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -10213,8 +11252,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Kat Toyama",
-        "away": "T. Vortis"
+        "home": "CD Cantoria 2017",
+        "away": "Atl Mancha Real"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -10439,13 +11478,13 @@
       "market_analysis": []
     },
     {
-      "home": "Machida Zelvia",
-      "away": "Vissel Kobe",
+      "home": "CD Extremadura",
+      "away": "Pontevedra",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Machida Zelvia||Vissel Kobe||2026-11-15",
+      "fixture_id": "CD Extremadura||Pontevedra||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -10473,15 +11512,215 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 22,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Machida Zelvia",
-        "away": "Vissel Kobe"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Álvaro Pérez - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1obDZGZDJ6UFMtbi1VMklKREh0YkpYZ0JRM0J5S1V2TTZ0bE9PYUdZb00wdFNlUTB4YlJ1VHF4YmNXU0xhRVptSnhLSkoxdlNqejE3MGJ1TzRWMFF2SW82TU5DdUNubXpPeUZZNncyNmI?oc=5",
+            "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+            "text": "Álvaro Pérez transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Extremadura - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uNDdYQnRZQUN4eUFJVElwaS1JQ000X2hMVkFtXzY0S0d1Rm00d3BtQjljVDFHRW1DQjVWME1IRVg2NFA2UHh6VVd6blpWTzA1UE93V0ZaNUp4X2p6VHRYUm1DWDg0OExLZTNmRQ?oc=5",
+            "published": "Thu, 31 Oct 2024 15:50:25 GMT",
+            "text": "CD Extremadura FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Extremadura 1924 - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yZ3FrTmo2QS1wNzM3ZUlzWHlJcXhfLTloU19NMGZySGtGdHVESjNKUkZsbFYyMkc5eUhfN1R3eklKME10VGlVTm80R2J1UDVpLWJlT2dXZ1hZMFpmSTl5VGNfWENqaHRKaGU1M2tTRWhnSjhBbEx2aVhzOEhJNkk?oc=5",
+            "published": "Mon, 21 Nov 2022 06:09:33 GMT",
+            "text": "CD Extremadura 1924 - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Yael Ballesteros stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnTFdobXFISjIyMUQ2MDh3bzZPNFJ2NnI4aTAyUEE0dWNYWkJUbGlzaE5uaUlxelBwd29oM1hKdFd1a0JwTVRsNC1Rd3JDS2dZazFYY3pWNHUwOHBHRHVXWVUzNTVBODc2YW1GODdiNHFpeFE?oc=5",
+            "published": "Wed, 18 Jun 2025 15:05:25 GMT",
+            "text": "Yael Ballesteros stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Extremadura - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5U3hPR254MWRfNGxvUDcycG5JU2xMQ3RMdTk5eHNreHVZbUUtSkpRY2o3a2dMdnFZTjVNSzhSQzdsWnBoT2YxUWxxYk1XZHhKZE53YU9yRkU3SjJpRzVKZVNqYnN2YzdoUUtKUlFubDdlMElFbklJ?oc=5",
+            "published": "Mon, 04 Nov 2024 12:49:17 GMT",
+            "text": "CD Extremadura Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Coria - Unionistas 4-2 - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcVNMYkV4SE45aF9zNFVoX1NHbGdUWWVxVTdBdDNtdWJ4VS1vNVl6QmtCVUNxT3JMRmxaNEV3SXRfZHhSLU9SZVA3aFU1dHdVbnJUQjlEMXMwY3dsX3l4bGVCWW1vb0pZSWlRcjd5RTkya2JCVTZDQVQ0MUFxN05HQXZjcy1yaTR3Q0NxSmtycEZWVzlzcVlVaw?oc=5",
+            "published": "Sat, 14 Nov 2026 21:25:22 GMT",
+            "text": "CD Coria - Unionistas 4-2 Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Diego Espejo stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iQWFValdMdDBNMGpORW1xNEhqRkl1Z3NUeUR2SkVlM0FyYU5meTZvRmxZOWoyUjF0WTNpNDZUQm9idGZsZGVvYlpUZVQ0YTh5MTNra0h6a04zS2NYdWRuOC1QYzhUZ3p4c21DZDNUOA?oc=5",
+            "published": "Mon, 30 Jun 2025 10:21:26 GMT",
+            "text": "Diego Espejo stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pontevedra CF - Club profile - transfermarkt.us",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHWk9yUDJ3WVJfQ1BkeEc5VksyN2tCb3gtd1BhRXJxcjhjeDQtQkl1TkV4TlpGRDRzSEFWWHd1SnFkUEtIeGp6NHE5Y2NYRVJwYmwycUM4MjNDWW1OaEVocW8tMXR3UThSb1g3MVhQMmVMbW8?oc=5",
+            "published": "Sat, 27 Apr 2019 00:03:37 GMT",
+            "text": "Pontevedra CF - Club profile transfermarkt.us",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Alberto Gil stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yb1VYWmtPaC13d3pvc3FMVndCdW5ZYlVuZTBHTVdvbE1qRmZ1c2NsNjlyNXctcEFDbXY4VW1YMHVOUkx1QUJrRHVCYVBVUlF6Rmp6R2JaQkRGMjgyTHpnM2xGWTRQd3dFZW5INQ?oc=5",
+            "published": "Fri, 20 Jun 2025 14:04:59 GMT",
+            "text": "Alberto Gil stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Diego Diaz stats and ratings - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3T3Z5bkI4dko4TkNHYm5pRy1kY2RDRGJMNHpCNzRuZVN6akFpamVpckJlSDVxeW1tTlMzTXk4VU5NZVExaWNETGNxS3R2d1M0WEEteWtnVVYzZHM2LWs0VVBKSDdFeHVaQlFV?oc=5",
+            "published": "Wed, 18 Jun 2025 10:36:57 GMT",
+            "text": "Diego Diaz stats and ratings Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Extremadura vs Unionistas de Salamanca - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXlLZkdNeWNjTTcyV2N5TWxWLTNpRHlHVVMwV25WLWxoTFphNUREMFJQSjA1SDNVazI4NWt2dTFrTVN3SVdINEV3bS16RmEyMXFFa2kyLURUUjM1by1fYVJyMUhDU0IyZ1VkcE5DSl9KN2FSRWdFdWx4bl9SbFFfVXJsMXduSF8zQkE?oc=5",
+            "published": "Sun, 01 Nov 2026 07:00:00 GMT",
+            "text": "CD Extremadura vs Unionistas de Salamanca - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Athletic Club B vs CD Extremadura - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qcWhIZkpLWWNMS2pwZDZfSUJZRmxBVE5Vek9ZNEI1SGJHSzFqMWMtbmRZYkcxUi1RZGxOTXd1UjQyb0pXSDRKcGNfcmE5dHh6clV5LUROcHRZWkllZ3V0TGp3LWNIZnU2b1QzcW1OOG1laFl0U0VBUnBWSjcwZw?oc=5",
+            "published": "Sun, 04 Oct 2026 07:00:00 GMT",
+            "text": "Athletic Club B vs CD Extremadura - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Real Avilés CF vs Pontevedra - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tUGd4Vm9RSzVmMDRyYUloODRROV9DSktsdWJpbHhqdm9JdmFoMGJqQnBfTzZja1BjVXdUUlo4cVdza1BTaExPQkZuclJnYUMxZ0dlR2lpREtjSXFEUVlhOGRScmdoT1lIYkxtd0c0Q1BMNDdSRnc?oc=5",
+            "published": "Wed, 01 Nov 2023 02:11:29 GMT",
+            "text": "Real Avilés CF vs Pontevedra - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Racing de Ferrol vs Pontevedra - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5SlEydWQzakhqSk1iMGJvcGFSalBpMkctQXRqTW0tWGVGblVNNjU3LTJrdVlPZ3p5ZXZZRWM1ZUhrQXhHR212V3RmS2xEUVBBdGEwVWlrYk80N19JX1JMMGZIMnRfNDFhUDN6WXFFcHZkOEx1Wlln?oc=5",
+            "published": "Fri, 20 Oct 2023 07:32:58 GMT",
+            "text": "Racing de Ferrol vs Pontevedra - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Logroñés vs Pontevedra - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hdG9maUJFSVEzTU9aZGpSem5Kc1pocGNuNm1BZGZNVXhOdVYwOURqWXk4S1M0MlBYR1JhSF9uQkc2T1psc3RHRUVBZEtwTzJzN05YT05OX1d1NEl6TWcxUURETEVyX1F2ekJBMjZoWVMyd0o5?oc=5",
+            "published": "Tue, 28 Nov 2023 22:50:04 GMT",
+            "text": "Logroñés vs Pontevedra - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pontevedra vs Getafe - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YazRuanJKQ2NGOHRSUXZadlQ4Y3hZaUEzZjMwVjRUbm9FendsTm1RMndwVHJ0UjZEUUY0c0dUV2VISjhXTUxyRFNXc0l0WE9nQXg5c1gxUmNidk40c0dUMVR1TllWTmFQZGc?oc=5",
+            "published": "Wed, 15 Jan 2025 08:00:00 GMT",
+            "text": "Pontevedra vs Getafe - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Arosa SC vs Pontevedra - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xR29YZWFSbThEaFBfVWU2QUFBQk1OSUp2NlVlV19rTjZVaGlGZjdraFhGWU9rQVlvbHk1WkZyMFp2SUNvQlIxR0dEQ3RhTExWOWtrZjVWUjlFeTg3M0lOODZaT3liSERxa19DWVBuNA?oc=5",
+            "published": "Thu, 02 Nov 2023 14:56:31 GMT",
+            "text": "Arosa SC vs Pontevedra - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Cultural Leonesa vs Pontevedra - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ZnRXaHhJNk16N3c1czlLTk9aanQ5a01mSE41R0dCR1poOVFqay0xQklHRFJlQm42RDVFTUNESm1oY09rTGYyZ2x6WWF1Mmx0TmZtbXhWaUVab1J6eXowUEFxOHAzcklvY0R2Q3FtQTh4REdISXc?oc=5",
+            "published": "Fri, 20 Oct 2023 07:29:14 GMT",
+            "text": "Cultural Leonesa vs Pontevedra - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pontevedra vs Ponferradina - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tQS1WLXIyZ1NrdHB0VTZ2VWYyd0VmT3gzNTB5a1NVYlR4TDBNTXVOd3BjQ25jZTRZeDh6UzI4VUNndUxGd0pfTkM0NWkwbkxPYnpEaUJrbFBXMlRJeVFFTTdsZ3JRU05XdUV5VUktVENoQQ?oc=5",
+            "published": "Sun, 10 Dec 2023 01:15:29 GMT",
+            "text": "Pontevedra vs Ponferradina - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "RC Deportivo Fabril vs CD Extremadura - live score, predicted lineups and H2H stats - FotMob",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjZ1RWZGeEM4TFU0Qm5OckM2T2sxd1ZkcDlmeUdGVzBXUkhsb0JVT1RMYjR2dUNWQW5ISXRxYURVNmVuS2N6ZU1mVHFiWmdxUjY0Z0ZBbm5JLV9nT1MtNkNZZUFVazBBSndUWGNvdFA2Y0RoZGdBTnpTWkh0c3VaU1F0bw?oc=5",
+            "published": "Sat, 24 Oct 2026 07:00:00 GMT",
+            "text": "RC Deportivo Fabril vs CD Extremadura - live score, predicted lineups and H2H stats FotMob",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Extremadura 1924 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUDZWRnJiNTVpVEQyaGhSb1FjUkFPZW11N1gxZTBrODFqLU9QUnN6cFRPUExmNng0clc0d0VIZnZSZVY3VUV5M0g4YTBQNzRITVM0WTNzR25FcnNHdi1NNHJJckQyY1h4TllMZUFyWEhOQ2FZem5qUEFsUG5paTA3ODI5NA?oc=5",
+            "published": "Mon, 21 Nov 2022 06:08:24 GMT",
+            "text": "CD Extremadura 1924 Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Mirandés (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EV2VjckRxd2I2WWNHSmw5eTJxLWEwRm5aQy1qcHRhTEtaaFVzWWNBeDA1QUF1ZGN2akRwSy1lbnhldXNSWndFeW5UUGY0VEJXWENWelNXNmFONms?oc=5",
+            "published": "Fri, 04 Dec 2020 23:36:07 GMT",
+            "text": "CD Mirandés (İspanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "CD Extremadura",
+        "away": "Pontevedra"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -10706,13 +11945,13 @@
       "market_analysis": []
     },
     {
-      "home": "SKA Khabaro.",
-      "away": "Leningradets",
+      "home": "CD Lealtad De Villaviciosa",
+      "away": "CD Mosconia",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "SKA Khabaro.||Leningradets||2026-11-15",
+      "fixture_id": "CD Lealtad De Villaviciosa||CD Mosconia||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -10747,8 +11986,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "SKA Khabaro.",
-        "away": "Leningradets"
+        "home": "CD Lealtad De Villaviciosa",
+        "away": "CD Mosconia"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -10973,13 +12212,13 @@
       "market_analysis": []
     },
     {
-      "home": "Tochigi",
-      "away": "Nara Club",
+      "home": "CD Utrera",
+      "away": "Bollullos",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Tochigi||Nara Club||2026-11-15",
+      "fixture_id": "CD Utrera||Bollullos||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -11007,15 +12246,26 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 1,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.3,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Tochigi",
-        "away": "Nara Club"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Linense Fixtures - Schedule, Upcoming Matches, Dates - Forza Football",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBod2N0alZiTExEdF9NWUZuY3ZIVXNGcUtaOF8xTmNPZFh0ZE84allkakE0VVhjWHRDOHlVQU5kY056LTh3MGt0UFc2ODVucUVuRTBGd2E1ZVNsUTN3dU1vTndlVQ?oc=5",
+            "published": "Tue, 07 Apr 2026 21:35:44 GMT",
+            "text": "Linense Fixtures - Schedule, Upcoming Matches, Dates Forza Football",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "CD Utrera",
+        "away": "Bollullos"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -11240,13 +12490,13 @@
       "market_analysis": []
     },
     {
-      "home": "Z. Kanazawa",
-      "away": "R. Kumamoto",
+      "home": "Cerdanyola Del Valles",
+      "away": "San Cristobal Cp",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Z. Kanazawa||R. Kumamoto||2026-11-15",
+      "fixture_id": "Cerdanyola Del Valles||San Cristobal Cp||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -11274,15 +12524,26 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 1,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.3,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Z. Kanazawa",
-        "away": "R. Kumamoto"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "FC L'escala - Cerdanyola - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMC1hWjF5ZmhFU3NLM1VMaFNJamRfazF4ZDB1VlRiX0hvTHQ1Z0pURmcwODB0WjJLLTR3bS1QWlF6bnV5MEk1dmRjVW9BRDlZSHZUdFhiOF8wMWhxYUpVVGhUXy1waEpBdmg2MUJ0R2JuclExTXp5VHBKbm9faHFXY0ZXQkg5X1g0cFZmUjJQM1VzME1mQXVEVg?oc=5",
+            "published": "Sat, 04 Oct 2025 03:44:29 GMT",
+            "text": "FC L'escala - Cerdanyola Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Cerdanyola Del Valles",
+        "away": "San Cristobal Cp"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -11507,13 +12768,13 @@
       "market_analysis": []
     },
     {
-      "home": "Citizen AA",
-      "away": "Kui Tan SC",
+      "home": "Colonia Moscardo",
+      "away": "Galapagar",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Citizen AA||Kui Tan SC||2026-11-15",
+      "fixture_id": "Colonia Moscardo||Galapagar||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:30",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -11541,15 +12802,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
-        "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "mentions": 2,
+        "web_score": 0.5,
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Citizen AA",
-        "away": "Kui Tan SC"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Colonia M. - Union Adarve - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc1MyRHdOZUs2VjMwTlpOaXNHajhFR3FyamN1bzNra2ZYZ2Y3RTAtZllGVjM2VjFoUlUzajVsM0I4MkJTX1lBc295Zm54Z09hX25yNDBQY08yV29VVlY1UVIxUDFMMUlZSENVZ2tkS3JnTUNyc1dFN2hmbWRqdlJSb1ZETVE1RDRCcTVqRVo0OTZLWmRR?oc=5",
+            "published": "Sun, 05 Oct 2025 04:33:45 GMT",
+            "text": "Colonia M. - Union Adarve Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Colonia Moscardó Stats, Form & xG - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YbVFqZno5czI1R0tncjQxTlozcXZlMHZzcENSeE4xWVFHZnJhRUE3NXRFTURSb1pjUkxTcE1UVEZFQjdQbExJaFBlN09ia0pHVC1iWjlMUkFSR0hkVnhZd1RMalNxZw?oc=5",
+            "published": "Thu, 26 Aug 2021 23:45:18 GMT",
+            "text": "CD Colonia Moscardó Stats, Form & xG FootyStats",
+            "language": "en",
+            "sentiment": 1.0
+          }
+        ],
+        "home": "Colonia Moscardo",
+        "away": "Galapagar"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -11774,13 +13055,13 @@
       "market_analysis": []
     },
     {
-      "home": "Sham Shui Po SA",
-      "away": "Resources Capital",
+      "home": "Covadonga",
+      "away": "Astur",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Sham Shui Po SA||Resources Capital||2026-11-15",
+      "fixture_id": "Covadonga||Astur||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "08:30",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -11808,15 +13089,44 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 3,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.4,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Sham Shui Po SA",
-        "away": "Resources Capital"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Astur - Gijon Industrial - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY2g0ZUdJTjlKai1PUXRyNFpCYkd1RXdxbWdwLU5wa1FIa0UxZjFwWHBEWnoyTUpTTEZCMl9BQklXX0pQN25sLTBCcXdQV21XdUMzUWFsVUJET3RFd0JJc201STgxV2VNaFFJdDdXN1dKc0U3c3pUaGdoTlU1cjVrVXNNMmZTZmZhRktF?oc=5",
+            "published": "Fri, 15 May 2026 03:16:44 GMT",
+            "text": "Astur - Gijon Industrial Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Miguel González, new player of Real Oviedo Vetusta - Real Oviedo",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVVsakFNR3dVRXg3bzUzbExKMVEtTU9JN2FKcy1SRDdLeTBvV3lLXzl0SEF6WEpwVFphWVdTRmYwbWpCN1k5Ui03d1pJTF82WVZMeFRZOG1HNnFULXRCY3dYU0lqcVUxOWd5R1Fua2NhR2FrMHRhRHhZMmVCNkxJU1IteHBnM2lKN0hz?oc=5",
+            "published": "Sat, 13 Jun 2026 04:53:14 GMT",
+            "text": "Miguel González, new player of Real Oviedo Vetusta Real Oviedo",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Real Valladolid - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CZ21ieGw4bmM0Y2ZWWFFsajBJdmRTRmVZUnRrcHVGbVZCRHg0YmhkR1ZrUUxFZDRxYUNOZnN4RFI4LUs2d2p6VzZMVWM1WUZ1VmRSRWRmVzkyZ3lzUGVxSHI1SkI?oc=5",
+            "published": "Thu, 18 Jul 2013 03:25:06 GMT",
+            "text": "Real Valladolid Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Covadonga",
+        "away": "Astur"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -12041,13 +13351,13 @@
       "market_analysis": []
     },
     {
-      "home": "Cerezo Osaka",
-      "away": "Urawa Red",
+      "home": "Deportivo Aragon",
+      "away": "Cuarte",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Cerezo Osaka||Urawa Red||2026-11-15",
+      "fixture_id": "Deportivo Aragon||Cuarte||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "09:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -12082,8 +13392,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Cerezo Osaka",
-        "away": "Urawa Red"
+        "home": "Deportivo Aragon",
+        "away": "Cuarte"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -12308,13 +13618,13 @@
       "market_analysis": []
     },
     {
-      "home": "Kashima",
-      "away": "Yokohama M.",
+      "home": "Dos Hermanas 1971",
+      "away": "San Roque",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Kashima||Yokohama M.||2026-11-15",
+      "fixture_id": "Dos Hermanas 1971||San Roque||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "09:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -12342,15 +13652,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Kashima",
-        "away": "Yokohama M."
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Linense Fixtures - Schedule, Upcoming Matches, Dates - Forza Football",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBod2N0alZiTExEdF9NWUZuY3ZIVXNGcUtaOF8xTmNPZFh0ZE84allkakE0VVhjWHRDOHlVQU5kY056LTh3MGt0UFc2ODVucUVuRTBGd2E1ZVNsUTN3dU1vTndlVQ?oc=5",
+            "published": "Tue, 07 Apr 2026 21:35:44 GMT",
+            "text": "Linense Fixtures - Schedule, Upcoming Matches, Dates Forza Football",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Profile Lago Junior today, San Roque de Lepe: Info, news, matches and statistics - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMbFpiM0x0cVE5aksyeW5GazRnanF5STc4NWFESkVhUWc2SnVvWThlYWtlZkU5WVI1MmNLRU1PaWpOb2dLUTZPeE9UTFpXcGppMld0LVBWY2MwSjJPN1E?oc=5",
+            "published": "Sat, 06 Jan 2018 18:41:18 GMT",
+            "text": "Profile Lago Junior today, San Roque de Lepe: Info, news, matches and statistics BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Dos Hermanas 1971",
+        "away": "San Roque"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -12575,13 +13905,13 @@
       "market_analysis": []
     },
     {
-      "home": "Liaoning (K)",
-      "away": "Beijing BG P. (K)",
+      "home": "Gran Pena",
+      "away": "Viveiro",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Liaoning (K)||Beijing BG P. (K)||2026-11-15",
+      "fixture_id": "Gran Pena||Viveiro||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "09:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -12609,15 +13939,35 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Liaoning (K)",
-        "away": "Beijing BG P. (K)"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Atlético Coruña Montañeros vs Gran Peña FC live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUVLUkE5Z1VzTHBRMFFpWXVBRURkQVdNcUtzbFBpUlhMOXlBRGpqM1J4bW1PSnhKeXJReDV2VHJSR0xxcjUtTkJRVVZqNkpJVWdaMjBWVnVCaXlaclRSWWx4dDNYa19CU2ZBTXlZR3R1UjljeG1BNUM1R1BQOGJILWpHX3gxZXNNQkdkUzFPdGl1a0RH?oc=5",
+            "published": "Sun, 11 Oct 2026 07:00:00 GMT",
+            "text": "Atlético Coruña Montañeros vs Gran Peña FC live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Viveiro - Sarriana - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdlpXZzBJa3FtZTc3R3pnanVEUHMwUUVQWWYxdUpXNmRYekQxZUZqZDRORFNFUXRDQ0s5OFBzSjBOclZmNnhjdGcxVWxBUklOWkxiVE11dXpET214SzE5eGJFUHZpbkEyaGhRX2tGc2MtZ1B6c2JBZjMxeUx0b1JkX3NFdw?oc=5",
+            "published": "Sun, 28 Sep 2025 14:07:14 GMT",
+            "text": "Viveiro - Sarriana Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Gran Pena",
+        "away": "Viveiro"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -12842,13 +14192,13 @@
       "market_analysis": []
     },
     {
-      "home": "Wuhan J. Uni. (K)",
-      "away": "Shanghai Shengli (K)",
+      "home": "I. Eivissa",
+      "away": "Cartagena",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Wuhan J. Uni. (K)||Shanghai Shengli (K)||2026-11-15",
+      "fixture_id": "I. Eivissa||Cartagena||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "09:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -12883,8 +14233,8 @@
         "risk_flags": [
           "web_data_unavailable"
         ],
-        "home": "Wuhan J. Uni. (K)",
-        "away": "Shanghai Shengli (K)"
+        "home": "I. Eivissa",
+        "away": "Cartagena"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
@@ -13109,13 +14459,13 @@
       "market_analysis": []
     },
     {
-      "home": "Zhejiang H. (K)",
-      "away": "Jiangsu LFC (K)",
+      "home": "Ibiza Islas Pitiusas",
+      "away": "CE Mercadal",
       "league": "Nesine public bulletin",
       "fixture_date": "2026-11-15",
-      "fixture_id": "Zhejiang H. (K)||Jiangsu LFC (K)||2026-11-15",
+      "fixture_id": "Ibiza Islas Pitiusas||CE Mercadal||2026-11-15",
       "source": "nesine.com public bulletin",
-      "kickoff": "09:00",
+      "kickoff": "14:00",
       "data_quality": {
         "min_recent_matches": 0,
         "status": "INSUFFICIENT_DATA"
@@ -13143,15 +14493,358 @@
         }
       },
       "intelligence": {
-        "mentions": 0,
+        "mentions": 2,
         "web_score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "risk_flags": [
-          "web_data_unavailable"
+        "confidence": 0.35,
+        "sources": [
+          "Google News RSS"
         ],
-        "home": "Zhejiang H. (K)",
-        "away": "Jiangsu LFC (K)"
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "CE Constancia Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGV0Y3WWFPQmk2cmRDbFlwMWhDYjV1MmtSMDU0OEY5bmh2d01TRFl4NTdXam1GQVFmNWVvenhpXy1jRnEycXR4bFU3dUw4dXJ4YnVBcnZKNXlFRm5LOUE?oc=5",
+            "published": "Sun, 03 May 2026 13:12:44 GMT",
+            "text": "CE Constancia Standings, Matches and Scores Futbol24",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CD Ibiza Islas Pitiusas News, Fixtures & Results, Table, Players - Tribuna.com",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HLUhOZmd5SURDc3VTbHFpVTJqSFVtYU1xOFVIOVhpcGI0cXdQZU82RTdjNExUU2RiYjdieWVBZmZJWFYwSnVRMU9MeVJMSVYtc2RBNjhPM2pDTm40cnpj?oc=5",
+            "published": "Tue, 02 Feb 2021 01:19:39 GMT",
+            "text": "CD Ibiza Islas Pitiusas News, Fixtures & Results, Table, Players Tribuna.com",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "Ibiza Islas Pitiusas",
+        "away": "CE Mercadal"
+      },
+      "dixon_coles": {
+        "home_win": 0.39305619734347264,
+        "draw": 0.2965162791238395,
+        "away_win": 0.31042752353268793,
+        "btts_yes": 0.5394121683149716,
+        "btts_no": 0.46058783168502837,
+        "over_2_5": 0.47652790847988746,
+        "under_2_5": 0.5234720915201125,
+        "lambda_home": 1.3780000000000001,
+        "lambda_away": 1.202,
+        "elo_home": 1500.0,
+        "elo_away": 1500.0,
+        "rho": -0.13
+      },
+      "signal": {
+        "stat_probability": 0.4023,
+        "dixon_coles_probability": 0.3931,
+        "final_probability": 0.5,
+        "category": "WATCH"
+      },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.524961,
+          "model_probability_pct": 52.5,
+          "fair_odds": 1.9,
+          "odds_required_for_value": 1.96
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.514866,
+          "model_probability_pct": 51.49,
+          "fair_odds": 1.94,
+          "odds_required_for_value": 2.0
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.485134,
+          "model_probability_pct": 48.51,
+          "fair_odds": 2.06,
+          "odds_required_for_value": 2.12
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.475039,
+          "model_probability_pct": 47.5,
+          "fair_odds": 2.11,
+          "odds_required_for_value": 2.17
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.442963,
+          "model_probability_pct": 44.3,
+          "fair_odds": 2.26,
+          "odds_required_for_value": 2.33
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.434454,
+          "model_probability_pct": 43.45,
+          "fair_odds": 2.3,
+          "odds_required_for_value": 2.37
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.398895,
+          "model_probability_pct": 39.89,
+          "fair_odds": 2.51,
+          "odds_required_for_value": 2.58
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.362518,
+          "model_probability_pct": 36.25,
+          "fair_odds": 2.76,
+          "odds_required_for_value": 2.84
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.337778,
+          "model_probability_pct": 33.78,
+          "fair_odds": 2.96,
+          "odds_required_for_value": 3.05
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.331111,
+          "model_probability_pct": 33.11,
+          "fair_odds": 3.02,
+          "odds_required_for_value": 3.11
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.331111,
+          "model_probability_pct": 33.11,
+          "fair_odds": 3.02,
+          "odds_required_for_value": 3.11
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.41979214800760445,
+          0.4090977677419517,
+          0.5
+        ],
+        "draw": [
+          0.2910388372552635,
+          0.2965162791238395,
+          0.5
+        ],
+        "away_win": [
+          0.35782064264951596,
+          0.33886339500278473,
+          0.5
+        ],
+        "btts_yes": [
+          0.5394121683149716,
+          0.5354709514834745,
+          0.5
+        ],
+        "btts_no": [
+          0.46058783168502837,
+          0.46452904851652554,
+          0.5
+        ],
+        "over_2_5": [
+          0.47652790847988746,
+          0.4788751176318987,
+          0.5
+        ],
+        "under_2_5": [
+          0.5234720915201125,
+          0.5211248823681013,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.3975845666571254,
+          0.4057778013245553,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.33,
+          0.3333333333333333
+        ],
+        "first_half_draw": [
+          0.34,
+          0.34,
+          0.3333333333333333
+        ],
+        "first_half_away": [
+          0.33,
+          0.33,
+          0.3333333333333333
+        ]
+      },
+      "htft_matrix": [],
+      "market_analysis": []
+    },
+    {
+      "home": "L. Hospitalet",
+      "away": "CE Europa B",
+      "league": "Nesine public bulletin",
+      "fixture_date": "2026-11-15",
+      "fixture_id": "L. Hospitalet||CE Europa B||2026-11-15",
+      "source": "nesine.com public bulletin",
+      "kickoff": "14:00",
+      "data_quality": {
+        "min_recent_matches": 0,
+        "status": "INSUFFICIENT_DATA"
+      },
+      "form": {
+        "home": {
+          "matches": 0,
+          "points_per_game": 0.5,
+          "goal_diff_per_game": 0.0,
+          "goals_for_per_game": 1.25,
+          "goals_against_per_game": 1.25,
+          "over25_rate": 0.5,
+          "btts_rate": 0.5,
+          "source": "openfootball"
+        },
+        "away": {
+          "matches": 0,
+          "points_per_game": 0.5,
+          "goal_diff_per_game": 0.0,
+          "goals_for_per_game": 1.25,
+          "goals_against_per_game": 1.25,
+          "over25_rate": 0.5,
+          "btts_rate": 0.5,
+          "source": "openfootball"
+        }
+      },
+      "intelligence": {
+        "mentions": 6,
+        "web_score": 0.0,
+        "confidence": 0.55,
+        "sources": [
+          "Google News RSS"
+        ],
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "CE Europa B - CF Badalona - Flashscore.com",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjU0aVdQZWE2TUxoZ1ZRcmdIX2swUE1BazJFMU9DelVuek9YNksxZU9lQzhzNzlad1h1ZGRiYVViUlh3ZzRHeU9lNXcyOW0xakowb0t5VHhjN3dwZUVVTmhFYXZhYV91NXF4VHBUM3oxaWE4ajRQN200ekVhM205R2dnOUtlRDl3S2c?oc=5",
+            "published": "Thu, 25 Sep 2025 04:33:34 GMT",
+            "text": "CE Europa B - CF Badalona Flashscore.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "UE San Juan At.Moncada vs CE Europa B live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdDlKNlQ1aGJOTjE3TDI3cDRvT0M5Q2JsdHJFcW5vT0lzRUtBMzQ2N0Vib2JpWEdUcVdCd0d4OU1ycjJTTUN2cWlpWkEyVmkwcGFmQmZjQ2ZtS1NBZGxFTjVfSXNWZGgtekp6MEhzZTVDMUg2Y1BLUlJGU2xmdkFTcER6bVZWcXdxSlE?oc=5",
+            "published": "Wed, 11 Nov 2026 11:56:54 GMT",
+            "text": "UE San Juan At.Moncada vs CE Europa B live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CE Europa B - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SSzlHRXBXZ2h1TE9sTTRWWU1vYVRKZy1LTnNhZHVnZ0xxSldnQjQ0eEJRN0E0ekRHX2xxUS1QcUJFdE5XeVE0T0pyZHFUbk03Tnc4b2s3V1hfM21SR21iampXT2hfWHR3eUtGR2hqa3VXNEk?oc=5",
+            "published": "Fri, 01 Jan 2021 03:13:02 GMT",
+            "text": "CE Europa B - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CE Europa B vs Reus FC Reddis live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUmVxQndNVklOVUtKSjB2ZU9lNjNFZjdFMTJSV0k4d2JNbE1GSkNGR2o2a3VSbFlyWWxQeExvb0dOa1BCY3pEODUyQ3JOR2dlOE42RU1yTzZOWmh5THNROTRIQXBQbHpzNGdXcmN6cUY0QXZoaFp5bkZqTTBETEtrYg?oc=5",
+            "published": "Sun, 23 Feb 2025 08:00:00 GMT",
+            "text": "CE Europa B vs Reus FC Reddis live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "CE Europa B vs CF Badalona live score, H2H and lineups - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3dmx1ZnlweV9wM1NndEVNaDNwd2JIWUhQX0xiRGhhYXZhQ2lBVF9HTFZIZlFydWFaNG5WMmVXMGdmdDdIZlpub21oVkxCYkJUdkRhd1VTTERtQTNZd3F5X1lkSGNLQ3JBdmhuc05NQVBiX2owTV84TW01RQ?oc=5",
+            "published": "Tue, 22 Oct 2024 17:56:23 GMT",
+            "text": "CE Europa B vs CF Badalona live score, H2H and lineups Sofascore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Peralada - CF Badalona - Soccerway",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfcW1MN1E4S1VVNnZXUmE3SG9pdWhiT0ZiRUdKaERLdWNIaU5ZaFU0R3dJaUUtOGM3bjNISDB1azdxbG4xTGt4MDhNdGxvdEliekJlNUZjSHVLb1ZtRk1MOE1BQ0RYUG5vcTVLSFJoSnMxa3VVUlNqUFRIQQ?oc=5",
+            "published": "Fri, 10 Apr 2026 01:05:47 GMT",
+            "text": "Peralada - CF Badalona Soccerway",
+            "language": "en",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "L. Hospitalet",
+        "away": "CE Europa B"
       },
       "dixon_coles": {
         "home_win": 0.39305619734347264,
