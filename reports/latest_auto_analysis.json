@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:05:21.107345+03:00",
+  "generated_at": "2026-11-20T23:06:37.945354+03:00",
   "run_status": "INSUFFICIENT_OPEN_DATA",
   "decision_status": "NO_BET_DATA_UNAVAILABLE",
   "data_sources": [
@@ -66,31 +66,83 @@
         }
       },
       "intelligence": {
-        "mentions": 47,
-        "web_score": -0.0213,
+        "mentions": 46,
+        "web_score": 0.0217,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
         ],
-        "risk_flags": [
-          "multiple_injury_or_suspension_mentions"
-        ],
+        "risk_flags": [],
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Live blog: Bayern’s press conference before Bundesliga game at home to Köln - FC Bayern",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdDFQVDRMQzFHd01lMEZVc0xvWnRsYmVQRXh5R2Jpb0c2R1RvQXdwa1lGQ0Exc3ZFZzNHLTdlX3JIZkN4QlF5Z2pjWXV0VmdzWS1Sd2NKN1RhMEJ3ZEdDeFdYdDlldVJ4aTN6VnJjR0l1VnFaQmdEWVB6a1BuX3NuZkIzVnIzTllrMHhtYjk5XzNpOXJUYkxPTEN5UkdxTG4xNkVjTGJlenNnelp0Z3c?oc=5",
-            "published": "Wed, 18 Nov 2026 13:00:00 GMT",
-            "text": "Live blog: Bayern’s press conference before Bundesliga game at home to Köln FC Bayern",
+            "title": "Line-ups: FC Bayern vs. Köln - Bundesliga 26/27 - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjNSZlJzam1ZSWZRT0tXdE5ya1RDUnlTTGhnMHl0akpoaWNNeFR2NFp3ZTNkZjhkQk5ueHU1RWw0SnlCMWhkWnBYLUFpdVNLaUw2bUEtVTVlZ1ZZd3lVQXZnazFHT0IzaHBrblg0RjRrM2ZVb0JvcEF1Ykc2emZRWWRDdndGOGJiM3RhNUhzdzloVTZxb01NY2hncEZVUXdneVVkWlZVY1IyMWM?oc=5",
+            "published": "Fri, 20 Nov 2026 18:50:01 GMT",
+            "text": "Line-ups: FC Bayern vs. Köln - Bundesliga 26/27 FC Bayern",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFTUdKNUJsUnltOUFXRnQwb3ZpTVpsajNqSFAwWUgzU3BOeUM5Vk8yR0ZndWU2a01MbDhzZ2NScjBMZFFqY1puZE5KeTdDWC1PVzhuTC1zSWc4N29GZWlSbXFGbVF5bnNSZjRIR3ZYT2xTZDUyNEZ0WERR?oc=5",
+            "title": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGFfUkRDR040QnBISUtZck9nRm8tZTZicFhyVnNvSWVkX1RwYmxqVmU1dXdMbkZGS3lJNjhXTVJfdkFLaTVNVlYyS0YtdGNLcjlNcGxFbjZXc1RPd183VE1FdV9GZGFxTFI4VzJZM0hLYU85NG1YNnpSY2NMM3g0NnpFZXB0TGx6U0txVmt4YnkxbTJOTmY1eHExRQ?oc=5",
+            "published": "Thu, 19 Nov 2026 17:16:00 GMT",
+            "text": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga FC Bayern Confirmed Lineups: FC Bayern vs. 1. FC Köln Yahoo Sports How to watch FC Cologne vs. Bayern Munich in the U.S.: TV channel and streaming options for November 20 The New York Times",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Highly unusual reason: 1. FC Köln ultras boycott match against Bayern Munich - LiveScore",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUHBPR0VMUGRpelNtQ2U3UUlxcnNYMTR1LUJTUzMyQk1sN3MxamN2cUF0Ym5EVmZ2bVRFZ3hmOXhZeVZGREliUUFXcGw2LThpUmg4TV9YUzV0LTdqdUhtQmJ3YWhyVjdIY1A4NklTZnVWWTlSQVJ2Z2JNQWdXeGRrak9JeG5SWWJDYUliY0laTTI4aFZodjZLNjVHa20tSURjRnZueDFmU091OU1jbHZIWV9JREd1Q1JFbXpTdXRVSU02REMzbUFWMnBsa0FGUQ?oc=5",
+            "published": "Fri, 20 Nov 2026 20:02:09 GMT",
+            "text": "Highly unusual reason: 1. FC Köln ultras boycott match against Bayern Munich LiveScore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcWFJbWxLbjA1MjM3dU15X3phNC01TG9vUU9HdWI3MHVSV1hCX2pMRl9iaXhSakt1cUJkeEU1SHhzdGxIMmhtblNwaFFDTEdmS2gxcDJZZFFiWjBLOG9KZVBPZWdXbEluLWNHV3RSMGZUNDI4SDVrR3paMjFDMFJ1b0tpTlV4NXo3WS1qeFRBT0xOSG8yMjM2Y1p0VWZxOFVkOEhJQTVoM0RoeF9STXFJeUU0R2ZSMWwzeTh0RkVKNW1rc2JtY0lfWG1Jb1RNTFJ0?oc=5",
+            "published": "Fri, 20 Nov 2026 18:00:00 GMT",
+            "text": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObC0tZFlzT2xlOHRld2NfM3NndWRiZVRLcGdCck1VUzFLT29fZi16dmh0b0pmWmNpYnNHemZWMjNOQkJiWEhLUEtGZVZZTFNmazl1dzRrRTBPZWFOeGpmZ3gta3VVakJiU2tPV2xjRWhsR2lIbVFGS214UDZ4cjY1RVhsRmxhR2tYWnpZZVhvY2s1SlFQbGJVZllCeF9yLXJlOG5IaTZZazdlbmpKaVN6UmxPRzB3QQ?oc=5",
             "published": "Thu, 19 Nov 2026 18:41:00 GMT",
-            "text": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions Yahoo Sports",
+            "text": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions Bulinews",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) - ESPN",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcVo3eDYzMzctbDFQaDFXbl9SRDM2eVFqMzJibHJMVWJQWE9hc0w0bmZ5eU5yaUlBOWZ3NjR5a3BETnNuUU51aWZSRUMyMFNsSkkxcExHRnFUUjN4cUFZNVJvVkRWOHFkdDlTbUduc2U5NjhDeDRjODR2OGFOeDV1U0lYQWxKYXdQSGwySnpxTnRXLS1Cb1JYUlVGWXp6SnVnZWxnZ296YW52SkRqbDFMZ3UzSDRHZ3NjNl9uajRVU2NTSzQwTk9pdzcwcEpCdEhhVXZkWGdkVktGZ2U0M0FLTVN2QmFlWUdiSVZr?oc=5",
+            "published": "Wed, 18 Nov 2026 12:28:00 GMT",
+            "text": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) ESPN",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs Koln – prediction, preview & betting tips – 20/11/2026 - Football Whispers",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTU9oMmQyVDdqVHR0WGh1RmlscHhLUEphS3ZuNTctOUpha1NZSThPNG9XOTk0eEtNYkl0cHh5MWZPVWpNUE55dXFMbV9DLVFPVFNQdGFxTGFIUE1pRmRuTEdtNmh5Nks5S281bnQ4dFVXZi13Y1h2VmhCZ2wyUlpLS1h0VGtWTGR5R3k5azgwQQ?oc=5",
+            "published": "Fri, 20 Nov 2026 17:16:49 GMT",
+            "text": "Bayern Munich vs Koln – prediction, preview & betting tips – 20/11/2026 Football Whispers",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How to watch Bayern Munich vs Köln match in the USA: Live stream and TV for 2026-27 Bundesliga - World Soccer Talk",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZThqTi05c1c0NWcyU3hCenBuQkVreDBEQWFZc3lvMlh5SUxmc3FHck0wUnFIUHltX0ZraWx1QnhlajFReUg5NHFLTkdGSzJ6YTUxUENITnZ4d3NsdUNYSDFUWGdSLUdVMkp2T3ZlNG9DdGZIWUhud1VFc1lWeWRzdVNvQ0xOSEZmMHh1bTdkR0swMjh0SE1NZkx4X3Z1TGZ5VDU3NXBvTFF2VzMxaFJyQVR3bWUtLUNOeWl2aUotcjJoZ3VjTnE0S0tEVXpfLWNoQ3pj0gHXAUFVX3lxTE1EVVZ0eEx3WEQxZFRlZmpWYjBZVE1lUVFjZjBkREhCdmliWnRMMzhKcEFFZHl3eVdubEJEWllDWWM4OW5felNSbTA3UmtQdUdza0JKcWNyLTYtRmUwVnZic3lvTXlUZVdnWWZtRzhKWDFkUHdzODVTcHJwbk1yeE5fZHFEM1pfck0yN0o3aWxqXzRzM0RhUHNtU0daUklWMmY1Um12cUxoQVpRN2U4YmVRMjJ3aDlwU21NSTctWmR6eGEta2h2V1VLdGlYb0YtVV9kN0VYNDFN?oc=5",
+            "published": "Fri, 20 Nov 2026 11:46:16 GMT",
+            "text": "How to watch Bayern Munich vs Köln match in the USA: Live stream and TV for 2026-27 Bundesliga World Soccer Talk",
             "language": "en",
             "sentiment": 0.0
           },
@@ -105,82 +157,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Jamal Musiala could start vs. FC Köln - Bavarian Football Works",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVkFnSUVYRldoemdKTXJDejU3OEU2c0RsWEZKOENvWWRkUFI4OHBvbFU2bGRpbmp4LU03SHVKbnpVQ0ZWOS1tOUNEajFrWjZXeHFvbzdXZ29ONWVoZkxGX3UyVFkwdk9ObVppNXZidE53UnBfWjRIMVluRVpSTlpoQ3RYY1BkbEd5ajhCQXNRaFhURVljaGE1Q3BYdjNRUFczY2dvbXNxVEZRX3VaM0ljcDFwNmVtSXViYVVFLVY3R1VCNDg?oc=5",
-            "published": "Wed, 18 Nov 2026 05:15:00 GMT",
-            "text": "Jamal Musiala could start vs. FC Köln Bavarian Football Works",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga - FC Bayern",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGFfUkRDR040QnBISUtZck9nRm8tZTZicFhyVnNvSWVkX1RwYmxqVmU1dXdMbkZGS3lJNjhXTVJfdkFLaTVNVlYyS0YtdGNLcjlNcGxFbjZXc1RPd183VE1FdV9GZGFxTFI4VzJZM0hLYU85NG1YNnpSY2NMM3g0NnpFZXB0TGx6U0txVmt4YnkxbTJOTmY1eHExRQ?oc=5",
-            "published": "Thu, 19 Nov 2026 17:16:45 GMT",
-            "text": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga FC Bayern",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "'We are not ruling anything out': Bayern Munich bosses send warning to Musiala - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdXUxSlZVUTVaWGhEN01qYWJyUkI1Z3preWtSVmxpTFNxMFkwYi0tMGlwN2hOZU9CNWlsc1Y1T2NmVHpqZHg4M1hjVGZKVW1KeWNwV3BPdmdsMmgxTVZGNUYtQ2RHdDNiQnhOX0ZtSG9lVXl5aGJSRk45RWpTXzIxUDhZUWRFQUF4Qjh0R3g0Y09jWVRuSzdZOTg0eGFtMVYwenRXMXB1QzBRNGtWNWM4M1hPWE56V1lFejVLeTRFLVFRZw?oc=5",
-            "published": "Thu, 19 Nov 2026 20:48:54 GMT",
-            "text": "'We are not ruling anything out': Bayern Munich bosses send warning to Musiala Goal.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Kompany provides positive injury updates on Musiala and Diaz ahead of Bayern’s Köln clash - Bulinews",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOclloMFpCZEVWY0NpYk1NV3d2NGw0ejh5Mjd5QlE0bVJtdVJtbGdVZkNzOFRlOEc5SVVFV3RPRDlTYmNOX2FKR3FXYXpZTFYzMmI0RnZ5UHJFNHFleWllamdERmVhdktpZE15WUYxODlvX1ZZNURiZFlqaERUMVVldnVsQnBWN3YxM05DOFB3bFJkRmZOSklfYjN3LTVsUk9KVy1Jbg?oc=5",
-            "published": "Thu, 19 Nov 2026 10:05:00 GMT",
-            "text": "Kompany provides positive injury updates on Musiala and Diaz ahead of Bayern’s Köln clash Bulinews",
+            "title": "Max Eberl confirms 2-3 week injury enforced absence for Alphonso Davies - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laGJCY21wNUE1cVN0QkZRTFlqZkpjM2FLYkF3RlQtejhVa2ZFNHhIX1hTRXFjTWZtVFJzelNtczFOeXBSaW9iQWtRUU1GUlF2dzlFeFpOeXhncGh1NVBISnJSdjY0OHlleXF4ZjNWMWVURG5ZSG9EU3VBRQ?oc=5",
+            "published": "Fri, 20 Nov 2026 15:30:00 GMT",
+            "text": "Max Eberl confirms 2-3 week injury enforced absence for Alphonso Davies Yahoo Sports",
             "language": "en",
             "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
-            "title": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) - ESPN",
-            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcVo3eDYzMzctbDFQaDFXbl9SRDM2eVFqMzJibHJMVWJQWE9hc0w0bmZ5eU5yaUlBOWZ3NjR5a3BETnNuUU51aWZSRUMyMFNsSkkxcExHRnFUUjN4cUFZNVJvVkRWOHFkdDlTbUduc2U5NjhDeDRjODR2OGFOeDV1U0lYQWxKYXdQSGwySnpxTnRXLS1Cb1JYUlVGWXp6SnVnZWxnZ296YW52SkRqbDFMZ3UzSDRHZ3NjNl9uajRVU2NTSzQwTk9pdzcwcEpCdEhhVXZkWGdkVktGZ2U0M0FLTVN2QmFlWUdiSVZr?oc=5",
-            "published": "Wed, 18 Nov 2026 12:28:00 GMT",
-            "text": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) ESPN",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt - Bavarian Football Works",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcWFJbWxLbjA1MjM3dU15X3phNC01TG9vUU9HdWI3MHVSV1hCX2pMRl9iaXhSakt1cUJkeEU1SHhzdGxIMmhtblNwaFFDTEdmS2gxcDJZZFFiWjBLOG9KZVBPZWdXbEluLWNHV3RSMGZUNDI4SDVrR3paMjFDMFJ1b0tpTlV4NXo3WS1qeFRBT0xOSG8yMjM2Y1p0VWZxOFVkOEhJQTVoM0RoeF9STXFJeUU0R2ZSMWwzeTh0RkVKNW1rc2JtY0lfWG1Jb1RNTFJ0?oc=5",
-            "published": "Fri, 20 Nov 2026 01:00:00 GMT",
-            "text": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt Bavarian Football Works",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bayern Munich coach Vincent Kompany expected to return against FC Köln this weekend - Bavarian Football Works",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSk5WVVRDckZzbUQ3amU2bnNlMGpjSUFZSVRRanluNjN3ek9tSGVDZGc2QUtZek5LczNQbjR5bVMtNmFnZTFFQjlGRWZ0SVZ3U2tmTHBqYUVMMHNiNFdyM2o4V0Y0T2F4S09tQlZEUmF4Z0x2YS05M2NkQWtNM3BlZVZlRUNxbmUycEx5V3ZKbGtuTUliNWdEdnRjWU9SRG9uaDdkZXR1cF80Q25fczlkQzFuSXRuTHJnclBDOXJMVGpMYnJnbFV0YzRieHRJaUZvUmgyTmFVYVRyM1NGMkU0V0JUNGg?oc=5",
-            "published": "Wed, 18 Nov 2026 07:37:00 GMT",
-            "text": "Bayern Munich coach Vincent Kompany expected to return against FC Köln this weekend Bavarian Football Works",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1RQU3UzbXJXLWQ0NENtUnE3UDVIaUlFVUtwWG5zelRLQnR4ZEJ5VEw1akZBcXVzQUFwMDQ1SXNsRUpSY1llU2ZCSjlSRi1QS1U4eGI2WlJNelIyODN1ZWZieXFzSS13UkF2eWxmbF9YTkltbXdMT18tR3Bybk0ySlZrZXpPQm5LN0kyMTJablo5Y29DREphZFNDSDNialI4cDlpbk85RlpXSXdyNTRHOTRR?oc=5",
-            "published": "Fri, 20 Nov 2026 05:01:38 GMT",
-            "text": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups - Sports Mole",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOakwwVF9ienN3NTBZdllwbHhsQWdhbFJoTThLMzJQVjJRcFJZclJFQ1kxSU15NE1ZQXQxRlNEeURield2bHVlR1VsTE5QY3kycUlQNFpyTExyaC1yVEhueEpCWnREMDZxZjhYeXlwaDd3aEpncW5NZXZmUnl6RXdZVTZBek9ZQ1NhWWtSMExlNVkwS0laTjVfdWJNNDlwaGtoeW9tNGh4eUU3NTFMb0pPd2ZTTVNqVUZaTmhNLURVN0VzV1ZoS2xEYWRtMnNKeWItTlNhRmJzZw?oc=5",
-            "published": "Wed, 18 Nov 2026 13:05:41 GMT",
-            "text": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups Sports Mole",
+            "title": "Bayern Munich vs Köln – Predicted lineup and team news - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xS05sVUlyT2ZyR1VnblRwNk1OMjhMTEliaFZxalRGWFdDamNISFlPTjBnZ0pSRDVsRUF5YXpBY29xOFNrTThfeTJMa0tpcUFKMWhzX1VwX1Y5eUwxdTZsc1pwQmJoYjdhQ1A3S3hET0RGRFRlejJmeGFn?oc=5",
+            "published": "Fri, 20 Nov 2026 06:00:00 GMT",
+            "text": "Bayern Munich vs Köln – Predicted lineup and team news Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -188,7 +177,7 @@
             "source": "Google News RSS",
             "title": "Bayern Munich vs. FC Köln: 2026/27 Bundesliga full coverage - Bavarian Football Works",
             "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaExqQkxMN3hVVnNDLWl5VWNrNVlUZjJzTzRlYXZTNVlOdDNuUXl0WEFNVlhNLTZlNGlfa1JOeUE1NE8yOGZlM1pJRVhna0JfX1JObXdtMnVmcVBaZi1YSnZxODVSMVNfcmFCMTlKNEVkSzJrM2dUT3Y1M0xLczBxSFVsazk1aXpFc2xveUtTdmpidVl3ZC1pMnhIWW9fRWh4dUlscGlLNG9oWWZxYXZjcWtnWU9RRG95aG50Qm5zZ1hISTBiTWc?oc=5",
-            "published": "Thu, 19 Nov 2026 18:45:00 GMT",
+            "published": "Mon, 16 Nov 2026 14:27:31 GMT",
             "text": "Bayern Munich vs. FC Köln: 2026/27 Bundesliga full coverage Bavarian Football Works",
             "language": "en",
             "sentiment": 0.0
@@ -213,10 +202,64 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Bayern Munich vs Koln Prediction, Betting Tips, Team News - 20 November 2026 - Betfred Insights",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc2FqOWIwNUs0QXNPY2FOWTU5ZDRXYU5SNXo4QUdsdXdLaHVkclRDcEVvZlhJRVFmcmhvMENZMTBNZ2R0NkFXcG00VUN2QmNUUHRwV19yQm9WYWNVX3hWZUh5YldVZXBnbk5fajZqUFpfZENYLU5yd2ZvM0ZrWm1MTlZmbmxMRWFVM1pDUWc1R1hWam8xUkliRUhlUURya05EOVA3X29QVkR3OWhackFMTnNoSlhQemNWUEc0?oc=5",
+            "published": "Fri, 20 Nov 2026 07:07:12 GMT",
+            "text": "Bayern Munich vs Koln Prediction, Betting Tips, Team News - 20 November 2026 Betfred Insights",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1RQU3UzbXJXLWQ0NENtUnE3UDVIaUlFVUtwWG5zelRLQnR4ZEJ5VEw1akZBcXVzQUFwMDQ1SXNsRUpSY1llU2ZCSjlSRi1QS1U4eGI2WlJNelIyODN1ZWZieXFzSS13UkF2eWxmbF9YTkltbXdMT18tR3Bybk0ySlZrZXpPQm5LN0kyMTJablo5Y29DREphZFNDSDNialI4cDlpbk85RlpXSXdyNTRHOTRR?oc=5",
+            "published": "Fri, 20 Nov 2026 17:42:35 GMT",
+            "text": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOakwwVF9ienN3NTBZdllwbHhsQWdhbFJoTThLMzJQVjJRcFJZclJFQ1kxSU15NE1ZQXQxRlNEeURield2bHVlR1VsTE5QY3kycUlQNFpyTExyaC1yVEhueEpCWnREMDZxZjhYeXlwaDd3aEpncW5NZXZmUnl6RXdZVTZBek9ZQ1NhWWtSMExlNVkwS0laTjVfdWJNNDlwaGtoeW9tNGh4eUU3NTFMb0pPd2ZTTVNqVUZaTmhNLURVN0VzV1ZoS2xEYWRtMnNKeWItTlNhRmJzZw?oc=5",
+            "published": "Wed, 18 Nov 2026 13:05:00 GMT",
+            "text": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. FC Köln: Match discussion, game time thread, odds, prediction, how to watch - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQT2ZhTzJKUzFkOTdsckZ4emE0RmcyZlFoQ3JpRVB5SFhGS25NcGlnMDB0QjB4c0hvNjBUUXpmWVVXMUlQMjEzY21xd1ZCMGhMV3JZR3M2OWFITlUtNXZDTEFiaDJQalM5RG16eHk2d2s3VGc4ZS1Db3RxRnlsWlBHODRFcFFnQkJpeFBSZWNFRkpNWVFsc0Jjai04TkhnUjVuLWxnR2Vabi1lNEFQeTk4LWpWOVdyM2dMNVQ5S3FKZHZiU3RhTHVSRHVtT0pqZmtza0F2eFZZMUtNWGtqdXV4TkMwbFhhM2ZXX2pIaDdmZkpab1ExV0k1UmZfQ3F6UQ?oc=5",
+            "published": "Fri, 20 Nov 2026 16:30:00 GMT",
+            "text": "Bayern Munich vs. FC Köln: Match discussion, game time thread, odds, prediction, how to watch Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "FC Bayern München - 1. FC Köln prediction & tips 20.11.2026 - Transfermarkt",
             "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWGlDZGFka1dRam11OGZ2U0VrWU9GOXJXU0k1WlhiY2dZRm8zdXl6NzFMdDdMMS1PVmliTEw0eDVHNDVmV0xXenNaSldEUW5oNXVlT21FQnllMkNvWGdXemJZdndTQmd5U0dhQjNHcTBLUzl4SW4tU0RRblZUVGNfUHFwWUFWTW9kZEh6WWxXRnljeFRuWnpF?oc=5",
             "published": "Tue, 17 Nov 2026 13:53:17 GMT",
             "text": "FC Bayern München - 1. FC Köln prediction & tips 20.11.2026 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFTUdKNUJsUnltOUFXRnQwb3ZpTVpsajNqSFAwWUgzU3BOeUM5Vk8yR0ZndWU2a01MbDhzZ2NScjBMZFFqY1puZE5KeTdDWC1PVzhuTC1zSWc4N29GZWlSbXFGbVF5bnNSZjRIR3ZYT2xTZDUyNEZ0WERR?oc=5",
+            "published": "Thu, 19 Nov 2026 18:41:00 GMT",
+            "text": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "1.FC Koln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyNjhteEdkMFd1b0dmdzJ5WTlYUjZnLVV2OUlLSjFSX2EzMjFmZzQ4VDVfVkJhQWJIWWlRcXBLTkZkUUZhdVNROTRabmhuU245TmkxUTFJMGZoMWllODNEMW1LZnFtMFVheDVfSFVONmZMeXBS?oc=5",
+            "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+            "text": "1.FC Koln 2026/27 season preview: Transfers, pre-season, predicted lineup and predictions Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
@@ -231,15 +274,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5keklzdXV1VnAzcklvNWJoOFF2ei1KS2l4T01QOERsem5sWXE0QjJJZm9vSkpVX1B0dGl5MWZCLUVxckwycGpyLTdnekFjaWYzaG9nTXBPNnNtZmpvb3FYLURaTDhtT2hLLWNBSHJEWFRxTm5ZT1ZVY1Jta3loVXc?oc=5",
-            "published": "Thu, 14 May 2026 07:00:00 GMT",
-            "text": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Eintracht Frankfurt vs. 1. FC Köln preview: Hütter seeks first home win against Rhine derby winners - Yahoo Sports",
             "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMW9DOXEyTmw1MlNvdFI2U0dWN1owTlhxdXJsdnBmaGo4UFpBbDNhUFRKWmhsb3JGNjVqNGFvTVBUQ0ZUaTM2aWFQRUlqOFhoTm41bm8wM0Joclg0ZlBMMUVoaGdxMnZLVUFDMWl6NmhHWTIxVnZ3YW1hV19WTUFkdC1B?oc=5",
             "published": "Thu, 15 Oct 2026 07:00:00 GMT",
@@ -249,19 +283,91 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga - FC Bayern",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbUpvd3NWaGtjaDRwM1dRRTZZVk8xNlU3eGFYNlBMT1pBRGhaVWZmLVE2bGh6MFdPQm5lVDNselVaMTkzLVMtZTcycWVvRnc1R01UTnpFQVRSZXVOMy1LQ21hclFjVDZNOXQ5X3FYX2JXTmNKeHR3T0Q1QTJ4dUppT2NaeGNtNGZ2R3I5SWttQlBFMHJYNi1DaGhpeVdJWmhRZVNF?oc=5",
-            "published": "Fri, 15 May 2026 07:00:00 GMT",
-            "text": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga FC Bayern",
+            "title": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5keklzdXV1VnAzcklvNWJoOFF2ei1KS2l4T01QOERsem5sWXE0QjJJZm9vSkpVX1B0dGl5MWZCLUVxckwycGpyLTdnekFjaWYzaG9nTXBPNnNtZmpvb3FYLURaTDhtT2hLLWNBSHJEWFRxTm5ZT1ZVY1Jta3loVXc?oc=5",
+            "published": "Thu, 14 May 2026 07:00:00 GMT",
+            "text": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) Yahoo Sports",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "PREVIEW | FC Köln vs 1. FC Heidenheim 1846: team news, lineups, predictions (Bundesliga 10/05) - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpdndtQ3VPLWt2cjZhVTU4ekY3TTd2NWJLa1dkVVMtSXc1TmdjZDBNQWNzckNZanNZbktGV3lELVpkaUE1VlZqXzRJMmFLOXY3YmhlVE0ySldxaDdWdkRsNlU5aF95R2V2aW9UeUcwQW5ZRkhvMUE?oc=5",
-            "published": "Fri, 08 May 2026 07:00:00 GMT",
-            "text": "PREVIEW | FC Köln vs 1. FC Heidenheim 1846: team news, lineups, predictions (Bundesliga 10/05) Yahoo Sports",
+            "title": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmtXTURTNG00SjJEUkduWEUtUkFWVEJjZnM3MkFheTZLMVpkbzVPSk9EcjlGSmJxcm1WTlVjMUdKZG1ZQmIwbHNNWW9aUW1pM01wT01EczQtYy1MLXZSTDZDYjBhTWptUGJOOFkzdDBoX3RjOFFvZVRyTWZLWEhpR3J1V2dJeGM?oc=5",
+            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+            "text": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs FC Heidenheim Lineups & Confirmed Team News for Pre-Season Friendly - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMkMyckNZY3NNNVd0TTZKNUVvc2lJRWpaMWlrbUY3TEd0WTRJa1FleDRCeDJwM3NqbHdaVFpEZVBSaF8taTg5dVgteTNOdjJ2XzY5d1ItNGZWd2lIdno4OHE3Q0lHZGdMU2JLM3ZuZXczZWxrV0U4VDlqZzFKb2taVWUyUEx6UQ?oc=5",
+            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+            "text": "Bayern Munich vs FC Heidenheim Lineups & Confirmed Team News for Pre-Season Friendly Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. Mainz: Lineups, team news, injuries, and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYk85eWhCMUZIV3JlWUVETnF5ZlFZZ1hWTS1UaXBsVEtuS2JYN0czSk5KQ3NUeDg5YW1nSUotZWphOXo5NXN3bXpkN2psei1zVURFb0J6WkpGUW5CUHh6RWF2THZuWk1lMkkyY1B5bXMyVUl0STZlWmRTRUZzRjF3VU1WZE1fWFJXdG1BV1c5NS1RaTF6N1BxMHdGbHlmaHo2UzZwRkVkVTlXeUlXTjdQSTFsVnBTY3Q3cXU1WEx5LXpsMUd0eVllN29PVXJfWTdPUHc?oc=5",
+            "published": "Sat, 13 Dec 2025 08:00:00 GMT",
+            "text": "Bayern Munich vs. Mainz: Lineups, team news, injuries, and more! Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQlBaNmxyeTlkMWJMQkhndENYcnF2UjU1T3RmT3p3clZaaDdLNXlyMklGaDMxM0Q3dnhTeE1HVkFmSTVNd3NPQVQwclppYjRsYktpbUg1OWlWcEo0M3QwNnBpbXB0QjJ2V20zeVlRVEt0R2VRTW80aWQtN2lCaThVTzA4aXlwY0taWERfTzQ4VlowMWtrYWlBQjNIc3oteWc5T090QXg0Mzhiakp0cGJtd211TlI4YmlQVkpaeGdFbWtRaFl5MGdfNEtTUUk2NEJ0cjhlNjhn?oc=5",
+            "published": "Sat, 01 Nov 2025 07:00:00 GMT",
+            "text": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Real Madrid vs. Bayern Munich Lineups, Injuries, Predictions, Stats & Results - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFlJeVpFd2FpX3RWWExxX0JKOWw0dTU2Nm0xbXBacllRM3VwSGNJaXY1R0lzcXEzQzZfa3VMR241OEVJU0xXcUlRYk96d3NzcE1LR0tGSEtSUkRSUkFvekE4TEhZLWl6MzBjSDZ6NVhEd3dGZGNuaDRHUmFsRFJmXzVIdw?oc=5",
+            "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+            "text": "Real Madrid vs. Bayern Munich Lineups, Injuries, Predictions, Stats & Results Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. Club Brugge: Lineups, team news, injuries, how to watch and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUVM3LWV3VGlkTXU3OU56Rm44ZlAxUGxDTDlPQzJVRi1hOWg0MUdHWF80aFBvWllJMFNVZ3Z3ZFpER3RJX0hlZjBaZ3J0V2JBYzRvUmlBaDFlUHNfRUR5T1psVXpRRnZjeTJsYTFxV2JVQUNQaDJFZk1HdkpBMkQ5MTZhcWhHVDZmMXpBOHNJcWNpaW83ZDJ1M0d5TXMxcTJ5RGhEVHF0OUJJZGF0VU10eUxpZ1pSVUhIUzZoUGVfa2x5a0VCRlhSWmVSUk11bnZJYUR6REl3?oc=5",
+            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+            "text": "Bayern Munich vs. Club Brugge: Lineups, team news, injuries, how to watch and more! Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0dQOXNfZnpTc19MdF9tSVJDdDF1ZTJSTEZwZ29HcnpQdTlfcnZvM0hEaGxaOFowQXBISnExcU15UmhjeV9DUjVXZkNjMlZhWUhBcGxNc29scDJua29WcGcxNVpmZnBLV0t1TVlkejRYT1QyZjBjRm4zbHk4djVGcVJlUlhrd1hzaTdiWXVXc0kzQWpQU0dSUHMycjRVRzUzVm5CaQ?oc=5",
+            "published": "Wed, 14 Jan 2026 08:00:00 GMT",
+            "text": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Munich vs. 1. FC Magdeburg DFB-Pokal preview: Team news and predicted lineups - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXMEdjMmNvVlZnRnV3RnhONThZcEk5bjUtdS12TE9NVGRDN2RnRXAwOWN0OVMzLUxmalhxM0dNZXFJRzhPUEVKRXEzd0Jpb1gxQzJid0NBZkY4X2tZTlgxVVVzanA5ejgzaEVWUm84YU5LUmFJQUhPdl93?oc=5",
+            "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+            "text": "FC Bayern Munich vs. 1. FC Magdeburg DFB-Pokal preview: Team news and predicted lineups Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. St. Pauli: Lineups, team news, injuries, and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2pzdFY4U25rOFliRF92VzlRSzRQNXVBVDRIS1MydmpDNWc3aUUxWVVoUVJMcE5MOFp2cHZIR0QyeWJDSF9WcVRfcGxQU24tVnJPOXhrSXc3LTN3dXlodnFRcXpGbFBKaEFVTzc3cFFCVVN2VEVCQ0RIZ3hsTjNENWQwQlptTml4MUx4c0RvaGFjci1zb18yTF9tamdXZFdJOHNjUEctQUpqNVJwem1Mck9qRVktaURiVmhqdEVBazBPcXRjX3ZDcGZUbw?oc=5",
+            "published": "Fri, 28 Nov 2025 08:00:00 GMT",
+            "text": "Bayern Munich vs. St. Pauli: Lineups, team news, injuries, and more! Bavarian Football Works",
             "language": "en",
             "sentiment": 0.0
           },
@@ -276,10 +382,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmtXTURTNG00SjJEUkduWEUtUkFWVEJjZnM3MkFheTZLMVpkbzVPSk9EcjlGSmJxcm1WTlVjMUdKZG1ZQmIwbHNNWW9aUW1pM01wT01EczQtYy1MLXZSTDZDYjBhTWptUGJOOFkzdDBoX3RjOFFvZVRyTWZLWEhpR3J1V2dJeGM?oc=5",
-            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
-            "text": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich Yahoo Sports",
+            "title": "Paris Saint-Germain vs. Bayern Munich: Lineups, team news, injuries, how to watch and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMTctYkJ3OWVJclhVY180MUUwajVUUlYtT2pSUXpPSHRVQ2VKay00TlRzUTgxdVd4d2l3TExETzdaTHRPckJfZUdnX3RRNHZQNGJ4X3JEa0oySG5pRmRZMGszbVRTa2pfNGZyOGlZU2kwU2hZQjBCR3RqVHBwRUxLQnlxYkZOMXJxRXVaQjFNTlNza1J3cFBBNGJQcXNOaldpbHVRYjZMOWw2RlUtci1ZNFQtWFlrQi03TGlzT3UxbUVPbGZfS3p3Q1RNdnp4cS1HbXZZTTc5TDRFcXZVZ0I2aQ?oc=5",
+            "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+            "text": "Paris Saint-Germain vs. Bayern Munich: Lineups, team news, injuries, how to watch and more! Bavarian Football Works",
             "language": "en",
             "sentiment": 0.0
           },
@@ -303,73 +409,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! - Bavarian Football Works",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQlBaNmxyeTlkMWJMQkhndENYcnF2UjU1T3RmT3p3clZaaDdLNXlyMklGaDMxM0Q3dnhTeE1HVkFmSTVNd3NPQVQwclppYjRsYktpbUg1OWlWcEo0M3QwNnBpbXB0QjJ2V20zeVlRVEt0R2VRTW80aWQtN2lCaThVTzA4aXlwY0taWERfTzQ4VlowMWtrYWlBQjNIc3oteWc5T090QXg0Mzhiakp0cGJtd211TlI4YmlQVkpaeGdFbWtRaFl5MGdfNEtTUUk2NEJ0cjhlNjhn?oc=5",
-            "published": "Sat, 01 Nov 2025 07:00:00 GMT",
-            "text": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! Bavarian Football Works",
+            "title": "Bayern Munich vs FC Koln LIVE streaming, TV channel, kick-off time & where to watch Bundesliga 2026-27 - Khel Now",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWFBxVlhqamRUak1uVUtqZTdyVGxubEtvem5URmdldGFoRXZZcDRhNEFUSE5CckNDaDdXUDFTbVJpdXBRZXNGV3F4Z2VtdVhfa1c1QTdHcDkzdktqY2dNTzhFT1hxR2p6ZHJwSjR3WXZESktRbnpvWV9OQzhUZ1JuX05BUkFodTdIWVhQNUdSQQ?oc=5",
+            "published": "Fri, 20 Nov 2026 18:30:00 GMT",
+            "text": "Bayern Munich vs FC Koln LIVE streaming, TV channel, kick-off time & where to watch Bundesliga 2026-27 Khel Now",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "1. FC Köln vs. 1. FC Union Berlin DFB-Pokal preview: Team news and predicted lineups - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Ukw2ZTF0Mmw2aHVCUlNTWFZ5enEwakpZQXZ0VDFtaTJRTXUxcG5kN0U0aWZtR2JPMDdRUm83VjNvQVhHZjl3US11U2pLUlZGOWRzdVBCT0NCNFBPdmlXc1I0ZUJFVkw0MzFmb3hR?oc=5",
-            "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-            "text": "1. FC Köln vs. 1. FC Union Berlin DFB-Pokal preview: Team news and predicted lineups Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich - Bavarian Football Works",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0dQOXNfZnpTc19MdF9tSVJDdDF1ZTJSTEZwZ29HcnpQdTlfcnZvM0hEaGxaOFowQXBISnExcU15UmhjeV9DUjVXZkNjMlZhWUhBcGxNc29scDJua29WcGcxNVpmZnBLV0t1TVlkejRYT1QyZjBjRm4zbHk4djVGcVJlUlhrd1hzaTdiWXVXc0kzQWpQU0dSUHMycjRVRzUzVm5CaQ?oc=5",
-            "published": "Wed, 14 Jan 2026 08:00:00 GMT",
-            "text": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich Bavarian Football Works",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Confirmed UCL lineups: FC Bayern vs. Arsenal FC - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM2N1M0dXQ1NYV19ES2hIWWJjLThlTmxUc0dDRVdSYVdnaFpsemxaNUJzbWZNdGo2c3lXMXhpT05aUEJ6ZEtrYXROeTVQU28xVjVfczBfWUFlNjFKVmZzNzRUZUNoS3Y5bW5TNTY0b1BjTlhzVUtBNE1IOHp4OGtLb1Uwa19xdzA?oc=5",
-            "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-            "text": "Confirmed UCL lineups: FC Bayern vs. Arsenal FC Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bayern Munich vs Magdeburg – Predicted lineup and team news - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0tERTRUcVcwajB6YkxMVDJkVVgtb1NJM2NRczhZcXZoYktReE8yVGpOYmxEcEV1aDJiQkpzWjVKRWJ3c2gxVGZZeWY4cTdTZjFkYjQ2RThPX1djNmxvaU5QaTltYXhzY3NNeThUMWxUSmlZa29TNnhKbEZWZHlvODlxZGZPWU9yUktwc1BR?oc=5",
-            "published": "Wed, 28 Oct 2026 07:00:00 GMT",
-            "text": "Bayern Munich vs Magdeburg – Predicted lineup and team news Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Real Madrid vs Bayern lineups: Starting XIs, confirmed team news, injury latest for Champions League - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUnhfMzdOS21MMk04SEFqeThnNDYteldzQUUtamlQUk5DZ19TZ0FlUFAtalJNN29naXNTeWJHc0tQSGJ5T1NPR1lLc2FtOEt0OVpnNUVuNmxERWhJM0dKYlZXc0pZeFpMcE5oWDhHQTh4VmtXWW5ydTFoUnpKTzBTeTFKVQ?oc=5",
-            "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-            "text": "Real Madrid vs Bayern lineups: Starting XIs, confirmed team news, injury latest for Champions League Yahoo Sports",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "PREVIEW | Bayern München vs 1. FC Union Berlin - team news, lineups, predictions - Yahoo Sports",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QR0czNUVZLTJuTl9veGdoS3JXYWxWZFh2YnpmR0RUZWFVMC1SSDZhTjRVa0pMMEc5dk1rUWtKclJmeWdoeExhYlh3ZXNkZllpTUVyX2JUT1ZTdldWUXdYdlNYSm9PUFVEMWxTNTQzbzJ0MFJPbnBHNUhneE1OQXc?oc=5",
-            "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-            "text": "PREVIEW | Bayern München vs 1. FC Union Berlin - team news, lineups, predictions Yahoo Sports",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Kane, Bayern'deki veda maçında attığı hat-trickle Bundesliga sezonunu muhteşem bir şekilde tamamladı - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQlptZFpQM0RuNW1mcG1qR3gyckFvekFpdTUwTjJ4WFM3MWprWVJWdE9fV0hOTFJVWVAtLWdnM2VMaXZmYWk4WVJ0Q1BNLVpmOWpYOU5taWpZdElQY1BoUDlQZ3NLeFVtZW5KMklmVEQxRnliOWN5YXFLTDkxdnFEbUxTcDB2VXM0Z1k1RlBoLVJtSFlEVUxabTQzWVV1aE1BTlpBUFZkUk9XY0tUS2tNanpCOFVMYW1vS1FLaFJrMUtTdnUyTEUzazFsTS0tSHBiZjZUTHFHV0YtaHcxY0J6bG9zWQ?oc=5",
-            "published": "Sun, 17 May 2026 07:00:00 GMT",
-            "text": "Kane, Bayern'deki veda maçında attığı hat-trickle Bundesliga sezonunu muhteşem bir şekilde tamamladı Goal.com",
+            "title": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZFFQOF9oWk40aFQ2YzgwMk03RUZaZmRlYW1QVTVZYmJjSmJFb1lwQTIycjdBOUkzMjEtcW9oVWxPUWowb1hmSXg5QjZfNGczajJWdHZBM1Bxb25LUGUzSlkxTnZwTUdrZWZvSzE5VmhXUHRfOWxIeEtFaXNRaUkydXFSWQ?oc=5",
+            "published": "Sun, 10 May 2026 07:00:00 GMT",
+            "text": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar Sofascore",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -384,42 +436,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Tahminler - Almanya Kupası (Almanya) - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5STE5hUE1xR0VjSndOMG9XZDlrQTBidnh2WVMtU0ZrOVUtWVg0c3RkTVNkenpGMVFnWllUQlZYX2RJOVNsRW5rQ185OTlZaEFQcFZOM1lRZUpuSF9QODZVWXk4My1ZQQ?oc=5",
-            "published": "Mon, 01 Jun 2020 02:46:43 GMT",
-            "text": "Tahminler - Almanya Kupası (Almanya) FootyStats",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Bayern Münih - Transfermarkt",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wcDk0eF9Ibl9aZkhIX003ME9BM3hQT215aHBTX2FRSGdGTlkxQkFrQV9zTkFadXpJUVdaS1ktRDJWTUdjYjZ6bEIybzl1WXF5eHNoQ3ktNUQzelFORmdHQ09qVFBrVHZLX0NncFYzS2Vha0pKemhiTA?oc=5",
-            "published": "Sat, 22 Jun 2024 20:45:33 GMT",
-            "text": "FC Bayern Münih Transfermarkt",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Bayern München - 1. FC Köln canlı skor, H2H ve kadrolar - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR0RBUWNjUXM1MDVLeEoxdDkyN0ZMRV9qbDFHdVcxWXJxeUNyc1VubU5iN3VIMUdVdGF2NjJ1dHpxcHVIdnhDVV9aem5GenhPaXVNX0lSMzVmd1c1TUtwcU1kNkpzdjhpSVdIYVBVa3RrMEplTVFhdGFfdDk3OWFxWDZUaDlYUQ?oc=5",
-            "published": "Tue, 16 Jul 2024 21:23:25 GMT",
-            "text": "FC Bayern München - 1. FC Köln canlı skor, H2H ve kadrolar Sofascore",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Bayern Münih, Haberler ve Söylentiler - \"Dilini dışarı çıkarmış gibi savunma yaptılar\": Bu, Bayern'in PSG karşısında belirleyici avantajı olacak mı? - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbHJ6eHFmY1VyLTk1ZUlPRGpKNmV3SHkwXy1TM2Fna1EwU3pMdjZtTU56RkVMcUlYYVlnSEtncFNyR1FIY2xBbG5ySXFkMjZIdkxUM2hEa0NaU0xYX01TemctakNhZXlEY3E4b2hqcVROTG5tNVRaX3ExRGVZcXRpeFpTVWtYX3VyLTlGcjhVUXdkR1lHRDM3amI5X3VhaDg5M0RNOHNRdGtvOVZfeE5XZzQyNUhCNzRBWG9PUU9DcjM4S0poM2lyREMwQ24xOS11Mm5jeTZYQTF3VHZSLXNDVjJtM0pfd21Femc4Y3JEb0NIUHlJNG05MG16ZTQ0WUk1V1Y3SmpSMDBMVi1tVEZMRHpldVk4NGl6X3JKY1N0Y25INExJVE82R0Zn?oc=5",
-            "published": "Mon, 04 May 2026 07:00:00 GMT",
-            "text": "FC Bayern Münih, Haberler ve Söylentiler - \"Dilini dışarı çıkarmış gibi savunma yaptılar\": Bu, Bayern'in PSG karşısında belirleyici avantajı olacak mı? Goal.com",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "1. FC Köln (Almanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
             "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90YkJiaXpyaWpNOEYwT2Nvc1kwRVZ3YWh2SkdiWG93Q0lRTkx2RlJIQjdjaXVXbDVQZmIxNDdzaXFyLUswTkdhQkgxbGl6eWFBZTFvYnZUUQ?oc=5",
             "published": "Sat, 05 Dec 2020 11:57:45 GMT",
@@ -429,46 +445,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Bayern Münih-FC Köln: Yayın kanalı, canlı yayın ve maç saati - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOEhWRV9zeFFUWkoxdGRmQXdpd3lLdUlRU3pSd3A3a0ZVUGVaMmtLd0JxOFgtS2NucnhrWUIyRWVnR05yVmVwRlcxNlV0YzMwVDJqbGlTWk1abk0xUW1lVkVFT21CcUg3WlZKbVY2Q3RuRFlKMmZDVDRnbWdDYzRBcU9XcVUxR2h5UlBMSGtKTHdvUC1OZE01cHludFU2NEphRjFDOGNob2QycWtqeE83MXk4LUZISk9kNVBjZGVaRTVSTzc1UnU0?oc=5",
-            "published": "Tue, 17 Nov 2026 09:21:04 GMT",
-            "text": "Bayern Münih-FC Köln: Yayın kanalı, canlı yayın ve maç saati Goal.com",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZFFQOF9oWk40aFQ2YzgwMk03RUZaZmRlYW1QVTVZYmJjSmJFb1lwQTIycjdBOUkzMjEtcW9oVWxPUWowb1hmSXg5QjZfNGczajJWdHZBM1Bxb25LUGUzSlkxTnZwTUdrZWZvSzE5VmhXUHRfOWxIeEtFaXNRaUkydXFSWQ?oc=5",
-            "published": "Sun, 10 May 2026 07:00:00 GMT",
-            "text": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar Sofascore",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bayern Münih-FC Köln maçına bilet nasıl alınır: Bundesliga bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQZFU5Z3A0ZjNOV2Z3NmJPVE9JZlJKSEZyMXZmS282ZzBtcVBpdko5Qy1Zcm5BbmFMRU9WQTJVSFhGVnR6UWwyMGlza0pTSTRaYkJPbDdoXzlNYmhMOElYVEt1dm1nTzA0bjRwdGtyMVluVWpkRExSMkxzREk0R056a05JU0pURTl4YkFyTmNLRjhvdXVreUdMSF9FUDBNeTB0eUFxMklxeUhJRFZDcVZaOWlYanlWVVJDeGl4dUEzXy02cUNFYzRHUVdMNzlELXlLVzJidnlEWDFaSDM4LUtoRXVDczRQbFZvSnpyT0Nkb3B4VjgzN2hza01JcXp1MVlDM21DRThIRkxQb1U4c19GMk1DcjlxN2FIZ3dycDdqN21QYXZ3T25B?oc=5",
-            "published": "Mon, 02 Nov 2026 08:00:00 GMT",
-            "text": "Bayern Münih-FC Köln maçına bilet nasıl alınır: Bundesliga bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Bayern München - Manchester City canlı skor, H2H ve kadrolar - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODJTWUltbGd1eTM0aHlaNC1TcnBlLURwaXlkel9pRW4ydW9pc0NrQzc1SzlGXzcyRDY4bmV4Ym9LUm9oY2I2MEZ5V2FTclJKT01fRWFGSFh3WURHb1VYV2E3V2J6V2Q2QnFtaDlpTHQ0dkVSYUc4UTROLUIwMWpFMHZfWm40c1plNEc4ZTlEVQ?oc=5",
-            "published": "Tue, 22 Sep 2026 07:00:00 GMT",
-            "text": "FC Bayern München - Manchester City canlı skor, H2H ve kadrolar Sofascore",
-            "language": "tr",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "FC Bayern Münih, Haberler ve Söylentiler: 90 milyon avroya mal oldu! FCB, eski bir Bundesliga yıldızının peşinde mi? - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOLXMxN2FQNXlWa0dyQ0gwWllzc0VxZ3Q5Qm15S29LMVI3X29qUVpkMDkycmlsQkVyWWo2aG1HVEhha1hyZVRsQVRHZTFUQ2NBSkdBcDdPUTdfLXZVc0JSNnp4a2F6UUF1SF9zczlMRDJkMDdDYTE5elJTc1Y1Tjd5cUJhV3hmZEVvaHppcVEzdHNIZTBkSTNCMjhKX0hoSURxOXV6d1RwRmlYMDlnZm5KZktZOFdCc295UkVmcWR5TklmYnZIMTNqSVRaTUxNZF9YS1lxSWp5cDV3OXBmTWJWOFE4Y3BCdmpzSTE4ZW1YNl9vMVVSaGZNLWpQc0xFaFZvNEgyZXR4R2txUjVfeWIxUTdzNlNQWnNxT242VmdBdUZoVEFieklsa2c4QXFsTzVHcEE?oc=5",
-            "published": "Sun, 17 May 2026 07:00:00 GMT",
-            "text": "FC Bayern Münih, Haberler ve Söylentiler: 90 milyon avroya mal oldu! FCB, eski bir Bundesliga yıldızının peşinde mi? Goal.com",
+            "title": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFdKSFZfd3ctQnRlS25MR0NUQm5lSURDUV85SWY4RGhqWVZFV2VWQTE1aElhSUNkMXI2MjZoWlg0a2JzdmdFTWF5V0UxV0c0SG1jRzQzWVhPR0ktX04tcnRIOUM1M0w5SzZtb2JlYUtiWkZET3JkLTJmN0c0VmpZa0hqUQ?oc=5",
+            "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+            "text": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar Sofascore",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -483,19 +463,28 @@
           },
           {
             "source": "Google News RSS",
-            "title": "FC Bayern Münih, Haberler ve Söylentiler - \"Bu onu hiç ilgilendirmiyor\": Michael Olise milyonları kaçırıyor - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRUZ2NkZjVEpKa0JvS1BYUUs5dnhPUGFlTTQ3NlI0cWxvWGN0Sm1KaFAxVzFRS1B1cGY0LXRLdTFWNkJGN2s1T1hhNzgtcU5DdVI5TzZ5VUcyQkRPV2pTN1oyeGFqV0pIbDhJV0x0QmI2eVY0U0Etb0VKZXNxLWFKc3dzeWdBZzNXMW8xTzkxNnFlb3ppcndnZUp3dWFVc3g5UW04ZTc1clluWm9hWUxnakhUc0stcFNDUHFaeVJ4aXVfZW9aRXdwS250VlVKUHlKLW1rU0pCWmxjRnZzUmV4QzlyaFdfV1IxSFp3OEpqclowUQ?oc=5",
-            "published": "Sun, 24 May 2026 07:00:00 GMT",
-            "text": "FC Bayern Münih, Haberler ve Söylentiler - \"Bu onu hiç ilgilendirmiyor\": Michael Olise milyonları kaçırıyor Goal.com",
+            "title": "FC Bayern München - FC Köln Maçında Gol: Mikey Moore (12. dakika) - https://www.ensondakika.com.tr/",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONXVHRG5HamRzMmNIRmVxWllOdDN6alBZTzNHSTg3OGVWeVM5NXgtZm92eXhXZW9QR19WbzFJaEdlbXctUkZzb0hPbUFSdnhkR0tLNkRmWUUzWUV4Zi1UUXdVN1pOSFk5UkhfaGtCWkt6Q0RnX0gteTZxVGJRUEtlWjdNRW5oZDFnTFNSYnRLcHcyOXFXYnp6NUNhUlJsUE0?oc=5",
+            "published": "Fri, 20 Nov 2026 19:45:02 GMT",
+            "text": "FC Bayern München - FC Köln Maçında Gol: Mikey Moore (12. dakika) https://www.ensondakika.com.tr/",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar - Sofascore",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFdKSFZfd3ctQnRlS25MR0NUQm5lSURDUV85SWY4RGhqWVZFV2VWQTE1aElhSUNkMXI2MjZoWlg0a2JzdmdFTWF5V0UxV0c0SG1jRzQzWVhPR0ktX04tcnRIOUM1M0w5SzZtb2JlYUtiWkZET3JkLTJmN0c0VmpZa0hqUQ?oc=5",
-            "published": "Wed, 12 Nov 2025 08:00:00 GMT",
-            "text": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar Sofascore",
+            "title": "FC Bayern München - 1. FC Köln Maç Bilgisi ve Form Durumu, 20 Kasım 2026 - Son Dakika",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQXJ2UDFvQkNORkFES3FEdGZCT2Y5TXl2Q0NuQWdQcm1uS2lUUXhEcmhZSmxxWFVuOHk4LXAyQVJNcUZrTGpaUXBPWFJEc2hFc09NdnhHWkdjNGxNWGxtTG9qclZhdGlUc0VsVFpKVDFBelF0VFNMcjJGeklxX2ZkRWo5Z05BbzRBY1FmbGs1LXA3QjhqekpSYQ?oc=5",
+            "published": "Fri, 20 Nov 2026 04:43:58 GMT",
+            "text": "FC Bayern München - 1. FC Köln Maç Bilgisi ve Form Durumu, 20 Kasım 2026 Son Dakika",
+            "language": "tr",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - FC Köln Maçı Muhtemel 11’leri ve Detayları - https://www.ensondakika.com.tr/",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMEFPSkF0cGV0SmtNbndFVGZEdHl5R0llNWNSSW1ISFl4U21tbXFoY1dOWkt6Y2FJc28yZGU1dkhzMzZpYTljekdiaEpBMG1OekVMZzE1V0l0N0lTc1U3aE5HTWZYbVpWSGhZbm1PazVyRFZ6TWhlWU5PY2E3WllFOE5mcWdXdWx5bHA1WEctaFB3aDFWS0V2MEc4YkxhSTNN?oc=5",
+            "published": "Fri, 20 Nov 2026 13:30:02 GMT",
+            "text": "FC Bayern München - FC Köln Maçı Muhtemel 11’leri ve Detayları https://www.ensondakika.com.tr/",
             "language": "tr",
             "sentiment": 0.0
           }
@@ -773,9 +762,9 @@
         }
       },
       "intelligence": {
-        "mentions": 9,
-        "web_score": 0.0,
-        "confidence": 0.7,
+        "mentions": 10,
+        "web_score": 0.1,
+        "confidence": 0.75,
         "sources": [
           "Google News RSS"
         ],
@@ -793,8 +782,8 @@
           {
             "source": "Google News RSS",
             "title": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more - Goal.com",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0tBWHNEVHRwTFBGbEUtT2Q5TkhLTFBEUlhOYmdLT0dIVDdZSWlJdC1QM1BBQ3gyV3hEbFFLTEd6MUhYYm9nSzRwb2xvcmc1Sm9wU0h3VFZoM2tXVnBGX1p2WVhnME00YWZyU00ybjFKT0YxQXhKb0JHMUVaYlhVZmJnOS01ZHNqbk1mYjNFNWVUV0hYWGd6Sg?oc=5",
-            "published": "Mon, 02 Nov 2026 11:02:20 GMT",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ19kckpoSE5ZRHRQMUlzQ2FGWVdyRGUzWDY3c0VtRGlUeE12ZlNyaDF1NmVWcGVhcDVUOVE5N0JLb0NUU0pXekphTDk2ajc0MmdHU19fT0l0MzlCc2xnVWZQT25OeU5Vb3JSU2JtYklYa1VHM3RRM0R6WVVyUHV6VlN3bkdjWGw5ZVRvbFRBeFpBWE9VOVVLSA?oc=5",
+            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
             "text": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more Goal.com",
             "language": "en",
             "sentiment": 0.0
@@ -810,19 +799,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHY0blp3QWVrb3NqSldESzVicFAxbEs4cnNneDhjcV9CZWdSemNxaG1fejc3NHI2UlhjQ1VVVkthTzRFZTFQWXhTbVk2NG9GUkVmcnJFcU43dzlvM0kyLTNKSGp3ODRuTUNyTUdQSzJJLXNJR2NxQkY2NG55UUhVYkNfdG45WnRpWjlLWFEtRjc5a2p2ZWZ3bmRaUk5XRE00bmRCdTNRYjFvQQ?oc=5",
-            "published": "Fri, 20 Nov 2026 05:33:42 GMT",
-            "text": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
+            "title": "ES Troyes AC vs Le Havre AC LIVE Score: - | Ligue 1 26/27 - myKhel",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWTVNckNUSDNnQ25aWEZpZllMaTg1VFNmd09sSFZrYlAtSm9fMkdreFR5VWJZZ2Q4WFQxTHZIR3dpWjl0Um52Y1JuLWFTZ2dRdUtGbkhnYXIxckpRdkVxTmpJdzF2bW9VTUFnZzBpUzF6Nkc2RC1SLV9XVmdpb3dyRWY2cm1DWXVucE5FaTlsS0piZw?oc=5",
+            "published": "Fri, 20 Nov 2026 16:03:07 GMT",
+            "text": "ES Troyes AC vs Le Havre AC LIVE Score: - | Ligue 1 26/27 myKhel",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "November 20, 2026: Troyes vs Le Havre Prediction Market - Robinhood",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazBfSXRwdTlPeUhrMi1FT0R3Y0tES3BkQUozT0JqdU9EVXREaU80ZWxpalBWQW5SbnpIT2ctU0xodTEwcDRXQ2VGMWJ5ZDd5QURKaVh3QXROZFhKQklneE15MEpvdmRYU0NfWmcxWHJkaUJONk9LSE5fSzNicUVIc3VrMkV0MFpMNUhoTFp2TGx2SnhZSFVj?oc=5",
-            "published": "Fri, 06 Nov 2026 01:02:14 GMT",
-            "text": "November 20, 2026: Troyes vs Le Havre Prediction Market Robinhood",
+            "title": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHY0blp3QWVrb3NqSldESzVicFAxbEs4cnNneDhjcV9CZWdSemNxaG1fejc3NHI2UlhjQ1VVVkthTzRFZTFQWXhTbVk2NG9GUkVmcnJFcU43dzlvM0kyLTNKSGp3ODRuTUNyTUdQSzJJLXNJR2NxQkY2NG55UUhVYkNfdG45WnRpWjlLWFEtRjc5a2p2ZWZ3bmRaUk5XRE00bmRCdTNRYjFvQQ?oc=5",
+            "published": "Fri, 20 Nov 2026 14:53:56 GMT",
+            "text": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
           },
@@ -834,6 +823,15 @@
             "text": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more Goal.com",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Athletic Bilbao vs Espanyol Prediction: 50% Home Win - publika.id",
+            "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxQQW5uQ3hKWUFsM0tFYndacEEtQ2NZNlV5UWc3TlJOY1dZVTcwN0tUa2F0R0pPdHYta0JXdVA1NEM0RjBxNTZ4M012ZFpvMTJFV25rYndpa1lsUFlONldPRmtlR25qbXV4ckhPU1JGdFhOZ24zSFo4UFNnTlh6ckhoTG4tLWlDWjZlMVhfai1QbU9OOWN4R0RwTUYxdV9fYS1SVXdPZnJOYlR4NEJETm5kYk5Na3dwVFN0U0JYM2oyeFJxS2NmQXptM2pxNnRudGhsZVppU3RuaGVIbUFEOVJ0UkllWUs5UjBxdEJUaFlrVFlZcy1UbGpIaTh5aFRfc3RZVV9KSUNFYWwtN181RGFrMXZXWDQwZWlvdXVqV2JJbjU2cW42NWs1enM4bENZdHJheHNya2R5bkJjZ09BN2o1OGxGTzdjZ282YTJsYTM5MXcxclRjQS0yR0d6MUpwUWF1QnoycFFFTi0wYWpxcE03Z2diZnl1TFlVSHo5TU85TW91YldySW5qemlaaWJSaU9PZEZoNHhWLUhBcENRdnlvd192MVJDVnlhdHdUR19IWDZwbU04Zld2Mg?oc=5",
+            "published": "Fri, 20 Nov 2026 06:35:55 GMT",
+            "text": "Athletic Bilbao vs Espanyol Prediction: 50% Home Win publika.id",
+            "language": "en",
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
