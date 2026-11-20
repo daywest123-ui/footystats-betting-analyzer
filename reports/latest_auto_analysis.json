@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T23:30:05.789017+03:00",
-  "run_status": "DEGRADED_DATA_SOURCE",
+  "generated_at": "2026-11-20T10:05:21.107345+03:00",
+  "run_status": "INSUFFICIENT_OPEN_DATA",
   "decision_status": "NO_BET_DATA_UNAVAILABLE",
   "data_sources": [
     "openfootball/football.json",
@@ -12,10 +12,1081 @@
     "Elo + Dixon-Coles",
     "bounded web intelligence"
   ],
-  "fixtures_scanned": 0,
+  "fixtures_scanned": 2,
   "matches_with_odds": 0,
   "eligible_matches": 0,
   "model_notes": "Dixon-Coles adds Elo strength, time-decayed form and low-score correction. Full market layer covers MS 1/X/2, İY 1/X/2, KG VAR/YOK, ÜST/ALT 2.5, KG VAR+ÜST 2.5, Korner ÜST/ALT 8.5 and Kart ÜST/ALT 4.5. Probabilities are estimates, fair odds are 1/p, and value decisions require concrete bookmaker odds.",
   "top_matches": [],
-  "all_scanned": []
+  "all_scanned": [
+    {
+      "home": "FC Bayern München",
+      "away": "1. FC Köln",
+      "league": "Germany Bundesliga",
+      "fixture_date": "2026-11-20",
+      "fixture_id": "FC Bayern München||1. FC Köln||2026-11-20",
+      "source": "openfootball/football.json",
+      "data_quality": {
+        "min_recent_matches": 3,
+        "status": "LOW_SAMPLE"
+      },
+      "form": {
+        "home": {
+          "matches": 3,
+          "points_per_game": 3.0,
+          "goal_diff_per_game": 4.0,
+          "goals_for_per_game": 4.666666666666667,
+          "goals_against_per_game": 0.6666666666666666,
+          "over25_rate": 1.0,
+          "btts_rate": 0.6666666666666666,
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
+        },
+        "away": {
+          "matches": 4,
+          "points_per_game": 1.0,
+          "goal_diff_per_game": -0.75,
+          "goals_for_per_game": 1.5,
+          "goals_against_per_game": 2.25,
+          "over25_rate": 0.75,
+          "btts_rate": 1.0,
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
+        }
+      },
+      "intelligence": {
+        "mentions": 47,
+        "web_score": -0.0213,
+        "confidence": 1.0,
+        "sources": [
+          "Google News RSS"
+        ],
+        "risk_flags": [
+          "multiple_injury_or_suspension_mentions"
+        ],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "Live blog: Bayern’s press conference before Bundesliga game at home to Köln - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdDFQVDRMQzFHd01lMEZVc0xvWnRsYmVQRXh5R2Jpb0c2R1RvQXdwa1lGQ0Exc3ZFZzNHLTdlX3JIZkN4QlF5Z2pjWXV0VmdzWS1Sd2NKN1RhMEJ3ZEdDeFdYdDlldVJ4aTN6VnJjR0l1VnFaQmdEWVB6a1BuX3NuZkIzVnIzTllrMHhtYjk5XzNpOXJUYkxPTEN5UkdxTG4xNkVjTGJlenNnelp0Z3c?oc=5",
+            "published": "Wed, 18 Nov 2026 13:00:00 GMT",
+            "text": "Live blog: Bayern’s press conference before Bundesliga game at home to Köln FC Bayern",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFTUdKNUJsUnltOUFXRnQwb3ZpTVpsajNqSFAwWUgzU3BOeUM5Vk8yR0ZndWU2a01MbDhzZ2NScjBMZFFqY1puZE5KeTdDWC1PVzhuTC1zSWc4N29GZWlSbXFGbVF5bnNSZjRIR3ZYT2xTZDUyNEZ0WERR?oc=5",
+            "published": "Thu, 19 Nov 2026 18:41:00 GMT",
+            "text": "FC Bayern Munich vs. 1. FC Köln preview: Kompany returns as Rekordmeister meet inaugural Bundesliga champions Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern to pay homage to its members - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLVF1RUM0NjJPNEd1cnFDV0oxSHlZVEY1c2Y2LVFKMGI5eVg1MVRjTm0xS0dBemlTcjdQbkZ1RE9wcDF0SEd4N2ROSVNsbDEwdjRqbHdLNEZlekN2MzFyY29QZ01nSWd6eE5jaU5qajMtdFJBY2hLWmhnWkp3OE1HNA?oc=5",
+            "published": "Thu, 19 Nov 2026 14:39:35 GMT",
+            "text": "FC Bayern to pay homage to its members FC Bayern",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Jamal Musiala could start vs. FC Köln - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVkFnSUVYRldoemdKTXJDejU3OEU2c0RsWEZKOENvWWRkUFI4OHBvbFU2bGRpbmp4LU03SHVKbnpVQ0ZWOS1tOUNEajFrWjZXeHFvbzdXZ29ONWVoZkxGX3UyVFkwdk9ObVppNXZidE53UnBfWjRIMVluRVpSTlpoQ3RYY1BkbEd5ajhCQXNRaFhURVljaGE1Q3BYdjNRUFczY2dvbXNxVEZRX3VaM0ljcDFwNmVtSXViYVVFLVY3R1VCNDg?oc=5",
+            "published": "Wed, 18 Nov 2026 05:15:00 GMT",
+            "text": "Jamal Musiala could start vs. FC Köln Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGFfUkRDR040QnBISUtZck9nRm8tZTZicFhyVnNvSWVkX1RwYmxqVmU1dXdMbkZGS3lJNjhXTVJfdkFLaTVNVlYyS0YtdGNLcjlNcGxFbjZXc1RPd183VE1FdV9GZGFxTFI4VzJZM0hLYU85NG1YNnpSY2NMM3g0NnpFZXB0TGx6U0txVmt4YnkxbTJOTmY1eHExRQ?oc=5",
+            "published": "Thu, 19 Nov 2026 17:16:45 GMT",
+            "text": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga FC Bayern",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "'We are not ruling anything out': Bayern Munich bosses send warning to Musiala - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdXUxSlZVUTVaWGhEN01qYWJyUkI1Z3preWtSVmxpTFNxMFkwYi0tMGlwN2hOZU9CNWlsc1Y1T2NmVHpqZHg4M1hjVGZKVW1KeWNwV3BPdmdsMmgxTVZGNUYtQ2RHdDNiQnhOX0ZtSG9lVXl5aGJSRk45RWpTXzIxUDhZUWRFQUF4Qjh0R3g0Y09jWVRuSzdZOTg0eGFtMVYwenRXMXB1QzBRNGtWNWM4M1hPWE56V1lFejVLeTRFLVFRZw?oc=5",
+            "published": "Thu, 19 Nov 2026 20:48:54 GMT",
+            "text": "'We are not ruling anything out': Bayern Munich bosses send warning to Musiala Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kompany provides positive injury updates on Musiala and Diaz ahead of Bayern’s Köln clash - Bulinews",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOclloMFpCZEVWY0NpYk1NV3d2NGw0ejh5Mjd5QlE0bVJtdVJtbGdVZkNzOFRlOEc5SVVFV3RPRDlTYmNOX2FKR3FXYXpZTFYzMmI0RnZ5UHJFNHFleWllamdERmVhdktpZE15WUYxODlvX1ZZNURiZFlqaERUMVVldnVsQnBWN3YxM05DOFB3bFJkRmZOSklfYjN3LTVsUk9KVy1Jbg?oc=5",
+            "published": "Thu, 19 Nov 2026 10:05:00 GMT",
+            "text": "Kompany provides positive injury updates on Musiala and Diaz ahead of Bayern’s Köln clash Bulinews",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) - ESPN",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcVo3eDYzMzctbDFQaDFXbl9SRDM2eVFqMzJibHJMVWJQWE9hc0w0bmZ5eU5yaUlBOWZ3NjR5a3BETnNuUU51aWZSRUMyMFNsSkkxcExHRnFUUjN4cUFZNVJvVkRWOHFkdDlTbUduc2U5NjhDeDRjODR2OGFOeDV1U0lYQWxKYXdQSGwySnpxTnRXLS1Cb1JYUlVGWXp6SnVnZWxnZ296YW52SkRqbDFMZ3UzSDRHZ3NjNl9uajRVU2NTSzQwTk9pdzcwcEpCdEhhVXZkWGdkVktGZ2U0M0FLTVN2QmFlWUdiSVZr?oc=5",
+            "published": "Wed, 18 Nov 2026 12:28:00 GMT",
+            "text": "Bayern Munich vs FC Cologne: TV channel, kick-off time (Fri Nov 20) ESPN",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcWFJbWxLbjA1MjM3dU15X3phNC01TG9vUU9HdWI3MHVSV1hCX2pMRl9iaXhSakt1cUJkeEU1SHhzdGxIMmhtblNwaFFDTEdmS2gxcDJZZFFiWjBLOG9KZVBPZWdXbEluLWNHV3RSMGZUNDI4SDVrR3paMjFDMFJ1b0tpTlV4NXo3WS1qeFRBT0xOSG8yMjM2Y1p0VWZxOFVkOEhJQTVoM0RoeF9STXFJeUU0R2ZSMWwzeTh0RkVKNW1rc2JtY0lfWG1Jb1RNTFJ0?oc=5",
+            "published": "Fri, 20 Nov 2026 01:00:00 GMT",
+            "text": "Vincent Kompany gives key personnel updates ahead of FC Köln tilt Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich coach Vincent Kompany expected to return against FC Köln this weekend - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSk5WVVRDckZzbUQ3amU2bnNlMGpjSUFZSVRRanluNjN3ek9tSGVDZGc2QUtZek5LczNQbjR5bVMtNmFnZTFFQjlGRWZ0SVZ3U2tmTHBqYUVMMHNiNFdyM2o4V0Y0T2F4S09tQlZEUmF4Z0x2YS05M2NkQWtNM3BlZVZlRUNxbmUycEx5V3ZKbGtuTUliNWdEdnRjWU9SRG9uaDdkZXR1cF80Q25fczlkQzFuSXRuTHJnclBDOXJMVGpMYnJnbFV0YzRieHRJaUZvUmgyTmFVYVRyM1NGMkU0V0JUNGg?oc=5",
+            "published": "Wed, 18 Nov 2026 07:37:00 GMT",
+            "text": "Bayern Munich coach Vincent Kompany expected to return against FC Köln this weekend Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1RQU3UzbXJXLWQ0NENtUnE3UDVIaUlFVUtwWG5zelRLQnR4ZEJ5VEw1akZBcXVzQUFwMDQ1SXNsRUpSY1llU2ZCSjlSRi1QS1U4eGI2WlJNelIyODN1ZWZieXFzSS13UkF2eWxmbF9YTkltbXdMT18tR3Bybk0ySlZrZXpPQm5LN0kyMTJablo5Y29DREphZFNDSDNialI4cDlpbk85RlpXSXdyNTRHOTRR?oc=5",
+            "published": "Fri, 20 Nov 2026 05:01:38 GMT",
+            "text": "Bayern Munich vs FC Koln Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups - Sports Mole",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOakwwVF9ienN3NTBZdllwbHhsQWdhbFJoTThLMzJQVjJRcFJZclJFQ1kxSU15NE1ZQXQxRlNEeURield2bHVlR1VsTE5QY3kycUlQNFpyTExyaC1yVEhueEpCWnREMDZxZjhYeXlwaDd3aEpncW5NZXZmUnl6RXdZVTZBek9ZQ1NhWWtSMExlNVkwS0laTjVfdWJNNDlwaGtoeW9tNGh4eUU3NTFMb0pPd2ZTTVNqVUZaTmhNLURVN0VzV1ZoS2xEYWRtMnNKeWItTlNhRmJzZw?oc=5",
+            "published": "Wed, 18 Nov 2026 13:05:41 GMT",
+            "text": "Preview: Bayern Munich vs FC Koln - prediction, team news, lineups Sports Mole",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. FC Köln: 2026/27 Bundesliga full coverage - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaExqQkxMN3hVVnNDLWl5VWNrNVlUZjJzTzRlYXZTNVlOdDNuUXl0WEFNVlhNLTZlNGlfa1JOeUE1NE8yOGZlM1pJRVhna0JfX1JObXdtMnVmcVBaZi1YSnZxODVSMVNfcmFCMTlKNEVkSzJrM2dUT3Y1M0xLczBxSFVsazk1aXpFc2xveUtTdmpidVl3ZC1pMnhIWW9fRWh4dUlscGlLNG9oWWZxYXZjcWtnWU9RRG95aG50Qm5zZ1hISTBiTWc?oc=5",
+            "published": "Thu, 19 Nov 2026 18:45:00 GMT",
+            "text": "Bayern Munich vs. FC Köln: 2026/27 Bundesliga full coverage Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - 1. FC Köln | Matchday 10 | Bundesliga | 2026/27 Season - Bundesliga | official website",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdklRVXVudkZIdFRDdnA0c2JjdmkxczhvcE1Ic0p6SjFwMS1XUTFORmw2akRtejRlSjhNZnJqU1VlTUJpVG1iVy1FUGNxLVV3dlZnUlVJeWN2VnlRdG8xNFVGZ2ExVXlzZ1c5M2lnMUhZSFVwbEQycFdweGNYVERISE9TLTlMMjg3ZWhSQUxqRUs4dVlqUjJiYnlmSGZmWjFSMzNWLXJqcDBDdw?oc=5",
+            "published": "Thu, 02 Jul 2026 13:59:55 GMT",
+            "text": "FC Bayern München - 1. FC Köln | Matchday 10 | Bundesliga | 2026/27 Season Bundesliga | official website",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Match report: 1. FC Köln vs. FC Bayern Women - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzhKVzBhd0EwVnlVSFZiZWZyeVZTdjV2YVpoSkRLYkpZNldBTEotNmJPcGRrTVNra01YYXllLS1DZWxoUng1aVFHOHJ2RTlrWjFCSGtHR1dCQ0ZmY0V2QVVEMTZmU3hvWGZfNW5VbHlfUXZiblM3RFJWUlphZ2VOSUNlTTlPWGZvSFFQTmU2WVVHdzhRU0RRMFNBVVlWV0hsVlJ5Sw?oc=5",
+            "published": "Tue, 21 Jul 2026 21:29:52 GMT",
+            "text": "Match report: 1. FC Köln vs. FC Bayern Women FC Bayern",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - 1. FC Köln prediction & tips 20.11.2026 - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWGlDZGFka1dRam11OGZ2U0VrWU9GOXJXU0k1WlhiY2dZRm8zdXl6NzFMdDdMMS1PVmliTEw0eDVHNDVmV0xXenNaSldEUW5oNXVlT21FQnllMkNvWGdXemJZdndTQmd5U0dhQjNHcTBLUzl4SW4tU0RRblZUVGNfUHFwWUFWTW9kZEh6WWxXRnljeFRuWnpF?oc=5",
+            "published": "Tue, 17 Nov 2026 13:53:17 GMT",
+            "text": "FC Bayern München - 1. FC Köln prediction & tips 20.11.2026 Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Hamburger SV vs. 1. FC Köln Preview: Polzin keen to repay trust - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sSTdzTVNhVUJIUjAzOEg1aVJIU3lsb3c0OWdRbVA2d2pSdEx0b0JCOGZmN2haLUVoLVRWQVRSOF9TR2QzT3dzV2lOMFNJcEJiRWFvYU0xaU1CR2hjNzdVTHdkOHQzMEUyUTRNeUJ3RWRpd2RVZXhpRw?oc=5",
+            "published": "Fri, 18 Sep 2026 07:00:00 GMT",
+            "text": "Hamburger SV vs. 1. FC Köln Preview: Polzin keen to repay trust Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5keklzdXV1VnAzcklvNWJoOFF2ei1KS2l4T01QOERsem5sWXE0QjJJZm9vSkpVX1B0dGl5MWZCLUVxckwycGpyLTdnekFjaWYzaG9nTXBPNnNtZmpvb3FYLURaTDhtT2hLLWNBSHJEWFRxTm5ZT1ZVY1Jta3loVXc?oc=5",
+            "published": "Thu, 14 May 2026 07:00:00 GMT",
+            "text": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 16/05) Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Eintracht Frankfurt vs. 1. FC Köln preview: Hütter seeks first home win against Rhine derby winners - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMW9DOXEyTmw1MlNvdFI2U0dWN1owTlhxdXJsdnBmaGo4UFpBbDNhUFRKWmhsb3JGNjVqNGFvTVBUQ0ZUaTM2aWFQRUlqOFhoTm41bm8wM0Joclg0ZlBMMUVoaGdxMnZLVUFDMWl6NmhHWTIxVnZ3YW1hV19WTUFkdC1B?oc=5",
+            "published": "Thu, 15 Oct 2026 07:00:00 GMT",
+            "text": "Eintracht Frankfurt vs. 1. FC Köln preview: Hütter seeks first home win against Rhine derby winners Yahoo Sports",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga - FC Bayern",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbUpvd3NWaGtjaDRwM1dRRTZZVk8xNlU3eGFYNlBMT1pBRGhaVWZmLVE2bGh6MFdPQm5lVDNselVaMTkzLVMtZTcycWVvRnc1R01UTnpFQVRSZXVOMy1LQ21hclFjVDZNOXQ5X3FYX2JXTmNKeHR3T0Q1QTJ4dUppT2NaeGNtNGZ2R3I5SWttQlBFMHJYNi1DaGhpeVdJWmhRZVNF?oc=5",
+            "published": "Fri, 15 May 2026 07:00:00 GMT",
+            "text": "Preview: FC Bayern vs. 1. FC Köln, Bundesliga FC Bayern",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | FC Köln vs 1. FC Heidenheim 1846: team news, lineups, predictions (Bundesliga 10/05) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpdndtQ3VPLWt2cjZhVTU4ekY3TTd2NWJLa1dkVVMtSXc1TmdjZDBNQWNzckNZanNZbktGV3lELVpkaUE1VlZqXzRJMmFLOXY3YmhlVE0ySldxaDdWdkRsNlU5aF95R2V2aW9UeUcwQW5ZRkhvMUE?oc=5",
+            "published": "Fri, 08 May 2026 07:00:00 GMT",
+            "text": "PREVIEW | FC Köln vs 1. FC Heidenheim 1846: team news, lineups, predictions (Bundesliga 10/05) Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 20/11) - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WUGF1V3M3UlBCNU96ejNVcF9lMUp5RDF2Z2xCc1ZLSVZ4VzB4dWZBZjFwaTlTWjg3T01kZU9FTUxHZXpIeGU3allQanVpMERzX2RicWoyUlRfTS1EbmhOR0dCTDBzeDRNaDJINUtFZmI5VkluQ2VOaUt5LWk4UTQ?oc=5",
+            "published": "Wed, 18 Nov 2026 18:30:00 GMT",
+            "text": "PREVIEW | Bayern München vs FC Köln: team news, lineups, predictions (Bundesliga 20/11) Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmtXTURTNG00SjJEUkduWEUtUkFWVEJjZnM3MkFheTZLMVpkbzVPSk9EcjlGSmJxcm1WTlVjMUdKZG1ZQmIwbHNNWW9aUW1pM01wT01EczQtYy1MLXZSTDZDYjBhTWptUGJOOFkzdDBoX3RjOFFvZVRyTWZLWEhpR3J1V2dJeGM?oc=5",
+            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+            "text": "Confirmed DFB-Pokal lineups: VfL Osnabrück vs. FC Bayern Munich Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "The last time Bayern Munich visited Atlético Madrid the lineup was a dumpster fire - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0ZlTXdtQk5CMHIwVXRubnhUWmQ5UEFkbFVlc0RUQlVDVWhQSmxOdU9LcWg3N0NnZndPOHA4dF95TGFnYTZIQlpjWjZDNVI5WDFjdDFZZzlxOGJsSGhjR0MtajFMWVdrT0VLQnZYRkFCTmV2djdCRHhmX25VQktvR3gyMUF5NU0?oc=5",
+            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+            "text": "The last time Bayern Munich visited Atlético Madrid the lineup was a dumpster fire Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Confirmed lineups: Mainz 05 vs. FC Bayern - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQTc0VGtja3ZEUkp6VG5YbzNCV2JOSFBtVmdGWWk2RlplMVNyMEZwR1lMVWV2b2ZvaEhja2phaHZQUHhwa3g4S2wzMW5XbkZQRlVOVTltdGxHTjZsaGFYUnlQT2FqUzZ4XzdpMkZrSm1NeWM0YnZjLVd0VWx1VHF5c2tjVGU?oc=5",
+            "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+            "text": "Confirmed lineups: Mainz 05 vs. FC Bayern Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQlBaNmxyeTlkMWJMQkhndENYcnF2UjU1T3RmT3p3clZaaDdLNXlyMklGaDMxM0Q3dnhTeE1HVkFmSTVNd3NPQVQwclppYjRsYktpbUg1OWlWcEo0M3QwNnBpbXB0QjJ2V20zeVlRVEt0R2VRTW80aWQtN2lCaThVTzA4aXlwY0taWERfTzQ4VlowMWtrYWlBQjNIc3oteWc5T090QXg0Mzhiakp0cGJtd211TlI4YmlQVkpaeGdFbWtRaFl5MGdfNEtTUUk2NEJ0cjhlNjhn?oc=5",
+            "published": "Sat, 01 Nov 2025 07:00:00 GMT",
+            "text": "Bayern Munich vs. Bayer Leverkusen: Lineups, team news, injuries, and more! Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "1. FC Köln vs. 1. FC Union Berlin DFB-Pokal preview: Team news and predicted lineups - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12Ukw2ZTF0Mmw2aHVCUlNTWFZ5enEwakpZQXZ0VDFtaTJRTXUxcG5kN0U0aWZtR2JPMDdRUm83VjNvQVhHZjl3US11U2pLUlZGOWRzdVBCT0NCNFBPdmlXc1I0ZUJFVkw0MzFmb3hR?oc=5",
+            "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+            "text": "1. FC Köln vs. 1. FC Union Berlin DFB-Pokal preview: Team news and predicted lineups Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich - Bavarian Football Works",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0dQOXNfZnpTc19MdF9tSVJDdDF1ZTJSTEZwZ29HcnpQdTlfcnZvM0hEaGxaOFowQXBISnExcU15UmhjeV9DUjVXZkNjMlZhWUhBcGxNc29scDJua29WcGcxNVpmZnBLV0t1TVlkejRYT1QyZjBjRm4zbHk4djVGcVJlUlhrd1hzaTdiWXVXc0kzQWpQU0dSUHMycjRVRzUzVm5CaQ?oc=5",
+            "published": "Wed, 14 Jan 2026 08:00:00 GMT",
+            "text": "Bundesliga Matchday Preview: FC Köln vs. Bayern Munich Bavarian Football Works",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Confirmed UCL lineups: FC Bayern vs. Arsenal FC - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM2N1M0dXQ1NYV19ES2hIWWJjLThlTmxUc0dDRVdSYVdnaFpsemxaNUJzbWZNdGo2c3lXMXhpT05aUEJ6ZEtrYXROeTVQU28xVjVfczBfWUFlNjFKVmZzNzRUZUNoS3Y5bW5TNTY0b1BjTlhzVUtBNE1IOHp4OGtLb1Uwa19xdzA?oc=5",
+            "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+            "text": "Confirmed UCL lineups: FC Bayern vs. Arsenal FC Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Munich vs Magdeburg – Predicted lineup and team news - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0tERTRUcVcwajB6YkxMVDJkVVgtb1NJM2NRczhZcXZoYktReE8yVGpOYmxEcEV1aDJiQkpzWjVKRWJ3c2gxVGZZeWY4cTdTZjFkYjQ2RThPX1djNmxvaU5QaTltYXhzY3NNeThUMWxUSmlZa29TNnhKbEZWZHlvODlxZGZPWU9yUktwc1BR?oc=5",
+            "published": "Wed, 28 Oct 2026 07:00:00 GMT",
+            "text": "Bayern Munich vs Magdeburg – Predicted lineup and team news Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Real Madrid vs Bayern lineups: Starting XIs, confirmed team news, injury latest for Champions League - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUnhfMzdOS21MMk04SEFqeThnNDYteldzQUUtamlQUk5DZ19TZ0FlUFAtalJNN29naXNTeWJHc0tQSGJ5T1NPR1lLc2FtOEt0OVpnNUVuNmxERWhJM0dKYlZXc0pZeFpMcE5oWDhHQTh4VmtXWW5ydTFoUnpKTzBTeTFKVQ?oc=5",
+            "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+            "text": "Real Madrid vs Bayern lineups: Starting XIs, confirmed team news, injury latest for Champions League Yahoo Sports",
+            "language": "en",
+            "sentiment": -1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "PREVIEW | Bayern München vs 1. FC Union Berlin - team news, lineups, predictions - Yahoo Sports",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QR0czNUVZLTJuTl9veGdoS3JXYWxWZFh2YnpmR0RUZWFVMC1SSDZhTjRVa0pMMEc5dk1rUWtKclJmeWdoeExhYlh3ZXNkZllpTUVyX2JUT1ZTdldWUXdYdlNYSm9PUFVEMWxTNTQzbzJ0MFJPbnBHNUhneE1OQXc?oc=5",
+            "published": "Thu, 19 Mar 2026 07:00:00 GMT",
+            "text": "PREVIEW | Bayern München vs 1. FC Union Berlin - team news, lineups, predictions Yahoo Sports",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Kane, Bayern'deki veda maçında attığı hat-trickle Bundesliga sezonunu muhteşem bir şekilde tamamladı - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQlptZFpQM0RuNW1mcG1qR3gyckFvekFpdTUwTjJ4WFM3MWprWVJWdE9fV0hOTFJVWVAtLWdnM2VMaXZmYWk4WVJ0Q1BNLVpmOWpYOU5taWpZdElQY1BoUDlQZ3NLeFVtZW5KMklmVEQxRnliOWN5YXFLTDkxdnFEbUxTcDB2VXM0Z1k1RlBoLVJtSFlEVUxabTQzWVV1aE1BTlpBUFZkUk9XY0tUS2tNanpCOFVMYW1vS1FLaFJrMUtTdnUyTEUzazFsTS0tSHBiZjZUTHFHV0YtaHcxY0J6bG9zWQ?oc=5",
+            "published": "Sun, 17 May 2026 07:00:00 GMT",
+            "text": "Kane, Bayern'deki veda maçında attığı hat-trickle Bundesliga sezonunu muhteşem bir şekilde tamamladı Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "1. FC Köln - VfL Wolfsburg canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbFlkUFY1SE5ZZ0ZUX3F0MjV0WkVxamhpT0hsYUl6WkdUdXIwem9mcVlKWXdaTlVqNDdCMFV5aGtlenpkY1ByTzFFMVRDdmtlYU5veV9RNzg3azVfTVh1V3ZSYXJBRzdCNGxudXBiY1d6VkVnaFAxaEt5bTZITXRqcw?oc=5",
+            "published": "Fri, 30 Jan 2026 08:00:00 GMT",
+            "text": "1. FC Köln - VfL Wolfsburg canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Tahminler - Almanya Kupası (Almanya) - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5STE5hUE1xR0VjSndOMG9XZDlrQTBidnh2WVMtU0ZrOVUtWVg0c3RkTVNkenpGMVFnWllUQlZYX2RJOVNsRW5rQ185OTlZaEFQcFZOM1lRZUpuSF9QODZVWXk4My1ZQQ?oc=5",
+            "published": "Mon, 01 Jun 2020 02:46:43 GMT",
+            "text": "Tahminler - Almanya Kupası (Almanya) FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Münih - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wcDk0eF9Ibl9aZkhIX003ME9BM3hQT215aHBTX2FRSGdGTlkxQkFrQV9zTkFadXpJUVdaS1ktRDJWTUdjYjZ6bEIybzl1WXF5eHNoQ3ktNUQzelFORmdHQ09qVFBrVHZLX0NncFYzS2Vha0pKemhiTA?oc=5",
+            "published": "Sat, 22 Jun 2024 20:45:33 GMT",
+            "text": "FC Bayern Münih Transfermarkt",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - 1. FC Köln canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR0RBUWNjUXM1MDVLeEoxdDkyN0ZMRV9qbDFHdVcxWXJxeUNyc1VubU5iN3VIMUdVdGF2NjJ1dHpxcHVIdnhDVV9aem5GenhPaXVNX0lSMzVmd1c1TUtwcU1kNkpzdjhpSVdIYVBVa3RrMEplTVFhdGFfdDk3OWFxWDZUaDlYUQ?oc=5",
+            "published": "Tue, 16 Jul 2024 21:23:25 GMT",
+            "text": "FC Bayern München - 1. FC Köln canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Münih, Haberler ve Söylentiler - \"Dilini dışarı çıkarmış gibi savunma yaptılar\": Bu, Bayern'in PSG karşısında belirleyici avantajı olacak mı? - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbHJ6eHFmY1VyLTk1ZUlPRGpKNmV3SHkwXy1TM2Fna1EwU3pMdjZtTU56RkVMcUlYYVlnSEtncFNyR1FIY2xBbG5ySXFkMjZIdkxUM2hEa0NaU0xYX01TemctakNhZXlEY3E4b2hqcVROTG5tNVRaX3ExRGVZcXRpeFpTVWtYX3VyLTlGcjhVUXdkR1lHRDM3amI5X3VhaDg5M0RNOHNRdGtvOVZfeE5XZzQyNUhCNzRBWG9PUU9DcjM4S0poM2lyREMwQ24xOS11Mm5jeTZYQTF3VHZSLXNDVjJtM0pfd21Femc4Y3JEb0NIUHlJNG05MG16ZTQ0WUk1V1Y3SmpSMDBMVi1tVEZMRHpldVk4NGl6X3JKY1N0Y25INExJVE82R0Zn?oc=5",
+            "published": "Mon, 04 May 2026 07:00:00 GMT",
+            "text": "FC Bayern Münih, Haberler ve Söylentiler - \"Dilini dışarı çıkarmış gibi savunma yaptılar\": Bu, Bayern'in PSG karşısında belirleyici avantajı olacak mı? Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "1. FC Köln (Almanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90YkJiaXpyaWpNOEYwT2Nvc1kwRVZ3YWh2SkdiWG93Q0lRTkx2RlJIQjdjaXVXbDVQZmIxNDdzaXFyLUswTkdhQkgxbGl6eWFBZTFvYnZUUQ?oc=5",
+            "published": "Sat, 05 Dec 2020 11:57:45 GMT",
+            "text": "1. FC Köln (Almanya) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Münih-FC Köln: Yayın kanalı, canlı yayın ve maç saati - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOEhWRV9zeFFUWkoxdGRmQXdpd3lLdUlRU3pSd3A3a0ZVUGVaMmtLd0JxOFgtS2NucnhrWUIyRWVnR05yVmVwRlcxNlV0YzMwVDJqbGlTWk1abk0xUW1lVkVFT21CcUg3WlZKbVY2Q3RuRFlKMmZDVDRnbWdDYzRBcU9XcVUxR2h5UlBMSGtKTHdvUC1OZE01cHludFU2NEphRjFDOGNob2QycWtqeE83MXk4LUZISk9kNVBjZGVaRTVSTzc1UnU0?oc=5",
+            "published": "Tue, 17 Nov 2026 09:21:04 GMT",
+            "text": "Bayern Münih-FC Köln: Yayın kanalı, canlı yayın ve maç saati Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZFFQOF9oWk40aFQ2YzgwMk03RUZaZmRlYW1QVTVZYmJjSmJFb1lwQTIycjdBOUkzMjEtcW9oVWxPUWowb1hmSXg5QjZfNGczajJWdHZBM1Bxb25LUGUzSlkxTnZwTUdrZWZvSzE5VmhXUHRfOWxIeEtFaXNRaUkydXFSWQ?oc=5",
+            "published": "Sun, 10 May 2026 07:00:00 GMT",
+            "text": "1. FC Köln - 1. FC Heidenheim canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bayern Münih-FC Köln maçına bilet nasıl alınır: Bundesliga bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQZFU5Z3A0ZjNOV2Z3NmJPVE9JZlJKSEZyMXZmS282ZzBtcVBpdko5Qy1Zcm5BbmFMRU9WQTJVSFhGVnR6UWwyMGlza0pTSTRaYkJPbDdoXzlNYmhMOElYVEt1dm1nTzA0bjRwdGtyMVluVWpkRExSMkxzREk0R056a05JU0pURTl4YkFyTmNLRjhvdXVreUdMSF9FUDBNeTB0eUFxMklxeUhJRFZDcVZaOWlYanlWVVJDeGl4dUEzXy02cUNFYzRHUVdMNzlELXlLVzJidnlEWDFaSDM4LUtoRXVDczRQbFZvSnpyT0Nkb3B4VjgzN2hza01JcXp1MVlDM21DRThIRkxQb1U4c19GMk1DcjlxN2FIZ3dycDdqN21QYXZ3T25B?oc=5",
+            "published": "Mon, 02 Nov 2026 08:00:00 GMT",
+            "text": "Bayern Münih-FC Köln maçına bilet nasıl alınır: Bundesliga bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - Manchester City canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODJTWUltbGd1eTM0aHlaNC1TcnBlLURwaXlkel9pRW4ydW9pc0NrQzc1SzlGXzcyRDY4bmV4Ym9LUm9oY2I2MEZ5V2FTclJKT01fRWFGSFh3WURHb1VYV2E3V2J6V2Q2QnFtaDlpTHQ0dkVSYUc4UTROLUIwMWpFMHZfWm40c1plNEc4ZTlEVQ?oc=5",
+            "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+            "text": "FC Bayern München - Manchester City canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Münih, Haberler ve Söylentiler: 90 milyon avroya mal oldu! FCB, eski bir Bundesliga yıldızının peşinde mi? - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOLXMxN2FQNXlWa0dyQ0gwWllzc0VxZ3Q5Qm15S29LMVI3X29qUVpkMDkycmlsQkVyWWo2aG1HVEhha1hyZVRsQVRHZTFUQ2NBSkdBcDdPUTdfLXZVc0JSNnp4a2F6UUF1SF9zczlMRDJkMDdDYTE5elJTc1Y1Tjd5cUJhV3hmZEVvaHppcVEzdHNIZTBkSTNCMjhKX0hoSURxOXV6d1RwRmlYMDlnZm5KZktZOFdCc295UkVmcWR5TklmYnZIMTNqSVRaTUxNZF9YS1lxSWp5cDV3OXBmTWJWOFE4Y3BCdmpzSTE4ZW1YNl9vMVVSaGZNLWpQc0xFaFZvNEgyZXR4R2txUjVfeWIxUTdzNlNQWnNxT242VmdBdUZoVEFieklsa2c4QXFsTzVHcEE?oc=5",
+            "published": "Sun, 17 May 2026 07:00:00 GMT",
+            "text": "FC Bayern Münih, Haberler ve Söylentiler: 90 milyon avroya mal oldu! FCB, eski bir Bundesliga yıldızının peşinde mi? Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Konrad Laimer istatistikleri, reytingleri ve golleri - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbWRQaUhXV3JPUTR2VnlRbXhRZTFWNzBRdVRaTlVLeVBPTV9HMEhiOWFPVV9vNmNfYWVDLXJ2YV9KYjgxMFVoZWFMU0JzcWlfSzlXdW4wbGp1bWtnM0MtcGF2RVFTcV81RmpZbThIZGF3TE0?oc=5",
+            "published": "Fri, 20 Jun 2025 07:58:36 GMT",
+            "text": "Konrad Laimer istatistikleri, reytingleri ve golleri Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern Münih, Haberler ve Söylentiler - \"Bu onu hiç ilgilendirmiyor\": Michael Olise milyonları kaçırıyor - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRUZ2NkZjVEpKa0JvS1BYUUs5dnhPUGFlTTQ3NlI0cWxvWGN0Sm1KaFAxVzFRS1B1cGY0LXRLdTFWNkJGN2s1T1hhNzgtcU5DdVI5TzZ5VUcyQkRPV2pTN1oyeGFqV0pIbDhJV0x0QmI2eVY0U0Etb0VKZXNxLWFKc3dzeWdBZzNXMW8xTzkxNnFlb3ppcndnZUp3dWFVc3g5UW04ZTc1clluWm9hWUxnakhUc0stcFNDUHFaeVJ4aXVfZW9aRXdwS250VlVKUHlKLW1rU0pCWmxjRnZzUmV4QzlyaFdfV1IxSFp3OEpqclowUQ?oc=5",
+            "published": "Sun, 24 May 2026 07:00:00 GMT",
+            "text": "FC Bayern Münih, Haberler ve Söylentiler - \"Bu onu hiç ilgilendirmiyor\": Michael Olise milyonları kaçırıyor Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar - Sofascore",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFdKSFZfd3ctQnRlS25MR0NUQm5lSURDUV85SWY4RGhqWVZFV2VWQTE1aElhSUNkMXI2MjZoWlg0a2JzdmdFTWF5V0UxV0c0SG1jRzQzWVhPR0ktX04tcnRIOUM1M0w5SzZtb2JlYUtiWkZET3JkLTJmN0c0VmpZa0hqUQ?oc=5",
+            "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+            "text": "FC Bayern München - Arsenal canlı skor, H2H ve kadrolar Sofascore",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "FC Bayern München",
+        "away": "1. FC Köln"
+      },
+      "dixon_coles": {
+        "home_win": 0.5774064815130671,
+        "draw": 0.23196665871642497,
+        "away_win": 0.190626859770508,
+        "btts_yes": 0.6108981811197594,
+        "btts_no": 0.38910181888024065,
+        "over_2_5": 0.6281973462964107,
+        "under_2_5": 0.37180265370358934,
+        "lambda_home": 2.0903613378699815,
+        "lambda_away": 1.1493387495232268,
+        "elo_home": 1547.1744206883616,
+        "elo_away": 1480.086243545176,
+        "rho": -0.13
+      },
+      "signal": {
+        "stat_probability": 0.6205,
+        "dixon_coles_probability": 0.5774,
+        "final_probability": 0.55,
+        "category": "WATCH"
+      },
+      "model_markets": [
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.593692,
+          "model_probability_pct": 59.37,
+          "fair_odds": 1.68,
+          "odds_required_for_value": 1.73
+        },
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.581347,
+          "model_probability_pct": 58.13,
+          "fair_odds": 1.72,
+          "odds_required_for_value": 1.77
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.553617,
+          "model_probability_pct": 55.36,
+          "fair_odds": 1.81,
+          "odds_required_for_value": 1.86
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.511773,
+          "model_probability_pct": 51.18,
+          "fair_odds": 1.95,
+          "odds_required_for_value": 2.01
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.418653,
+          "model_probability_pct": 41.87,
+          "fair_odds": 2.39,
+          "odds_required_for_value": 2.46
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.406308,
+          "model_probability_pct": 40.63,
+          "fair_odds": 2.46,
+          "odds_required_for_value": 2.54
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.352501,
+          "model_probability_pct": 35.25,
+          "fair_odds": 2.84,
+          "odds_required_for_value": 2.92
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.33132,
+          "model_probability_pct": 33.13,
+          "fair_odds": 3.02,
+          "odds_required_for_value": 3.11
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.325001,
+          "model_probability_pct": 32.5,
+          "fair_odds": 3.08,
+          "odds_required_for_value": 3.17
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.322713,
+          "model_probability_pct": 32.27,
+          "fair_odds": 3.1,
+          "odds_required_for_value": 3.19
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.316178,
+          "model_probability_pct": 31.62,
+          "fair_odds": 3.16,
+          "odds_required_for_value": 3.26
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.5830548611348003,
+          0.577795509286107,
+          0.5
+        ],
+        "draw": [
+          0.23617165990896122,
+          0.23196665871642497,
+          0.5
+        ],
+        "away_win": [
+          0.24797014482788102,
+          0.2270328308049318,
+          0.5
+        ],
+        "btts_yes": [
+          0.6108981811197594,
+          0.6331416963411168,
+          0.5
+        ],
+        "btts_no": [
+          0.38910181888024065,
+          0.36685830365888317,
+          0.5
+        ],
+        "over_2_5": [
+          0.6281973462964107,
+          0.6528776116667696,
+          0.5
+        ],
+        "under_2_5": [
+          0.37180265370358934,
+          0.3471223883332304,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.5045066026323887,
+          0.5308127410884643,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3446215139442231,
+          0.38288288288288286
+        ],
+        "first_half_draw": [
+          0.34,
+          0.3386454183266932,
+          0.3153153153153153
+        ],
+        "first_half_away": [
+          0.33,
+          0.31673306772908366,
+          0.3018018018018018
+        ]
+      },
+      "htft_matrix": [],
+      "market_analysis": []
+    },
+    {
+      "home": "ES Troyes AC",
+      "away": "Le Havre AC",
+      "league": "France Ligue 1",
+      "fixture_date": "2026-11-20",
+      "fixture_id": "ES Troyes AC||Le Havre AC||2026-11-20",
+      "source": "openfootball/football.json",
+      "data_quality": {
+        "min_recent_matches": 4,
+        "status": "LOW_SAMPLE"
+      },
+      "form": {
+        "home": {
+          "matches": 4,
+          "points_per_game": 0.75,
+          "goal_diff_per_game": -1.75,
+          "goals_for_per_game": 1.0,
+          "goals_against_per_game": 2.75,
+          "over25_rate": 0.5,
+          "btts_rate": 0.5,
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
+        },
+        "away": {
+          "matches": 4,
+          "points_per_game": 0.25,
+          "goal_diff_per_game": -0.75,
+          "goals_for_per_game": 1.0,
+          "goals_against_per_game": 1.75,
+          "over25_rate": 0.5,
+          "btts_rate": 0.75,
+          "ht_home_rate": 0.33,
+          "ht_draw_rate": 0.34,
+          "ht_away_rate": 0.33,
+          "corners_over8_5_rate": 0.5,
+          "cards_over4_5_rate": 0.5,
+          "corner_samples": 0,
+          "card_samples": 0,
+          "source": "openfootball+football-data.co.uk"
+        }
+      },
+      "intelligence": {
+        "mentions": 9,
+        "web_score": 0.0,
+        "confidence": 0.7,
+        "sources": [
+          "Google News RSS"
+        ],
+        "risk_flags": [],
+        "items": [
+          {
+            "source": "Google News RSS",
+            "title": "ES Troyes AC vs Le Havre AC Prediction & Odds - Ligue 1 - OG.com - OG Prediction Markets",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VRzZGbGFkMVJSckszQ3Zsc2ZlSGp0OWlidnhtQnRvc1NTRzdueTN0T2MxbFlMYkZXQkkxS05iREl5QmdKMEdXMTgzU2p2M3lNUFhoUktSaGlxQTNCNklSV3BVdFlyTHFiVTdHM2JlTGN1SVVCYUFV?oc=5",
+            "published": "Sat, 07 Nov 2026 12:59:37 GMT",
+            "text": "ES Troyes AC vs Le Havre AC Prediction & Odds - Ligue 1 - OG.com OG Prediction Markets",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0tBWHNEVHRwTFBGbEUtT2Q5TkhLTFBEUlhOYmdLT0dIVDdZSWlJdC1QM1BBQ3gyV3hEbFFLTEd6MUhYYm9nSzRwb2xvcmc1Sm9wU0h3VFZoM2tXVnBGX1p2WVhnME00YWZyU00ybjFKT0YxQXhKb0JHMUVaYlhVZmJnOS01ZHNqbk1mYjNFNWVUV0hYWGd6Sg?oc=5",
+            "published": "Mon, 02 Nov 2026 11:02:20 GMT",
+            "text": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "ESTAC Troyes - Club profile - Transfermarkt",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GZUh4YzVvM28ydndvcmYwQ0V1UV9BWnRpWGd1RWhacTQ3QTNPaXpCeE5KV3ZYYzBXTU85ZGF0blZtak1aQUJTVThoYkxIWW10OW5YMnJLTzFuU2dSd1ltLW9VOWtkTlVpOUtTa2RiUTNHc2s?oc=5",
+            "published": "Sat, 18 Sep 2021 02:49:52 GMT",
+            "text": "ESTAC Troyes - Club profile Transfermarkt",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHY0blp3QWVrb3NqSldESzVicFAxbEs4cnNneDhjcV9CZWdSemNxaG1fejc3NHI2UlhjQ1VVVkthTzRFZTFQWXhTbVk2NG9GUkVmcnJFcU43dzlvM0kyLTNKSGp3ODRuTUNyTUdQSzJJLXNJR2NxQkY2NG55UUhVYkNfdG45WnRpWjlLWFEtRjc5a2p2ZWZ3bmRaUk5XRE00bmRCdTNRYjFvQQ?oc=5",
+            "published": "Fri, 20 Nov 2026 05:33:42 GMT",
+            "text": "Troyes vs Le Havre Prediction, Betting Tips, Lineups & Odds | 20 Nov 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "November 20, 2026: Troyes vs Le Havre Prediction Market - Robinhood",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazBfSXRwdTlPeUhrMi1FT0R3Y0tES3BkQUozT0JqdU9EVXREaU80ZWxpalBWQW5SbnpIT2ctU0xodTEwcDRXQ2VGMWJ5ZDd5QURKaVh3QXROZFhKQklneE15MEpvdmRYU0NfWmcxWHJkaUJONk9LSE5fSzNicUVIc3VrMkV0MFpMNUhoTFp2TGx2SnhZSFVj?oc=5",
+            "published": "Fri, 06 Nov 2026 01:02:14 GMT",
+            "text": "November 20, 2026: Troyes vs Le Havre Prediction Market Robinhood",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2MxQ1owOHdKM3p5NExJRWRJRS1pcDc1V0FRVnR1WE53bDJZX2JzSWF2ZTNsNmpzeWpvNEl5a1RsNU5CeDdoMFAtWHZYcVlqbV9NT28zV3FaRWY0N3NzRWJVVzJYbEpNeEZiUGlPTnd6dFhIeHA5VV9YSzdFNWNZNFlvTXcwUjVIQy1wZFhoOXdnYl83ZHpNVA?oc=5",
+            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+            "text": "How to get Troyes vs Le Havre tickets: Ligue 1 prices, fixture information, last-minute sales & more Goal.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Prediction Paris vs Olympique Lyonnais: analysis, odds and betting tips - BetMines",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemlaVXRWV253OUMxQVZfUzU3cGxpWTI3RHlBMGVmVnV1dzBrNzZjcVdGTHlnbWdIVU9yWUNKZVRXRDdKRTJGMmRJTUo1UnNyd1Y1NHdRb18zb3lVaTBtTWxhVTBUS0xfdS1GRXRmOVllT191dzZGRDhKZ1VHLWNOSFItOW1uWmRXamJJT3lodEx0RFdHUlFMNVVBWURPamJhUFcwYXkxeEdxd09BLXBqQXdFcVljUEFpajNZ?oc=5",
+            "published": "Sat, 12 Sep 2026 07:00:00 GMT",
+            "text": "Prediction Paris vs Olympique Lyonnais: analysis, odds and betting tips BetMines",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Troyes-Le Havre maçına bilet nasıl alınır? Ligue 1 bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNd1NGTGR2QUdHV3Q1VU1sM2VBWERKT0w0RFlteTQwd0VzYWNWU3pqamNRc0hvc21DSWF0Q0daM1R3dDdNdF82cWptU1Mta20zRmtEcTY1aVJFa2hlMkE3bzNDVGtYa3pVcU5laTBxMDBCamlpRk5RSHJoNG9VRW9oUmJQaHJ5aGtLa3MxWEhGSzROa3Qyd3NZN2p2cFdCTmdlaTVUT0NsQ1RuYktheHllanR3RW40Tk9VTHppSEZmSkdVakFwUXpDUm51U2tENWcyYVRGSHdiZzdfWElrX2hwTWZDRzZKMHAzWndxaUlRUllGdmFNZU14Z1EzcEZqbGsyNDNGbGNmZUdXMXRZWGhUbmVZUHVWSFRqU2JwNg?oc=5",
+            "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+            "text": "Troyes-Le Havre maçına bilet nasıl alınır? Ligue 1 bilet fiyatları, maç bilgileri, son dakika satışları ve daha fazlası Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Ligue 1'de 2. hafta özeti: Monaco, Marsilya'yı geçti, Marquinhos PSG'yi kurtardı ve Paris FC, Nice'i şaşırttı - Goal.com",
+            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZnFpOE40azNsZFN0OEwwMDdMM0habU45UjFPN0Z6YUdxRkVHV0Fzell1dE9kVzdUM0NNLUVrTnhLdHQ5N1NzSjdMWDhGNkRYdHFBbUxQWXl4bFprTTFUZWZyM0NOVEhUdFUwY1VsT1VSUjVwUXFZcHliS2l0MHUyOGRaSFNaNF9FdDV3dHZQUElULVB2cDlXZ2ZYNWliZ1BxWjJZWGJ1SFJCaXphbXlMODc0WXBUS09sZnE3eWFxRUJmTUdVbGRRQUNWQTlhOVB4QUxRZ2dVRVlMV09hcnZWcDJhMDlYRnJ5TnZLMktwUmpuNTVBb1k2WGlISQ?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "text": "Ligue 1'de 2. hafta özeti: Monaco, Marsilya'yı geçti, Marquinhos PSG'yi kurtardı ve Paris FC, Nice'i şaşırttı Goal.com",
+            "language": "tr",
+            "sentiment": 0.0
+          }
+        ],
+        "home": "ES Troyes AC",
+        "away": "Le Havre AC"
+      },
+      "dixon_coles": {
+        "home_win": 0.3620492608834486,
+        "draw": 0.2858867747339217,
+        "away_win": 0.3520639643826298,
+        "btts_yes": 0.5768221977161333,
+        "btts_no": 0.4231778022838667,
+        "over_2_5": 0.522325077226397,
+        "under_2_5": 0.477674922773603,
+        "lambda_home": 1.3938188967808303,
+        "lambda_away": 1.3719184310427017,
+        "elo_home": 1464.1557587557675,
+        "elo_away": 1464.1965135436037,
+        "rho": -0.13
+      },
+      "signal": {
+        "stat_probability": 0.3583,
+        "dixon_coles_probability": 0.362,
+        "final_probability": 0.45,
+        "category": "WATCH"
+      },
+      "model_markets": [
+        {
+          "market_key": "btts_yes",
+          "market": "KG VAR",
+          "model_probability": 0.552821,
+          "model_probability_pct": 55.28,
+          "fair_odds": 1.81,
+          "odds_required_for_value": 1.86
+        },
+        {
+          "market_key": "over_2_5",
+          "market": "ÜST 2.5",
+          "model_probability": 0.514139,
+          "model_probability_pct": 51.41,
+          "fair_odds": 1.94,
+          "odds_required_for_value": 2.0
+        },
+        {
+          "market_key": "corners_over_8_5",
+          "market": "Korner ÜST 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "corners_under_8_5",
+          "market": "Korner ALT 8.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_over_4_5",
+          "market": "Kart ÜST 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "cards_under_4_5",
+          "market": "Kart ALT 4.5",
+          "model_probability": 0.5,
+          "model_probability_pct": 50.0,
+          "fair_odds": 2.0,
+          "odds_required_for_value": 2.06
+        },
+        {
+          "market_key": "under_2_5",
+          "market": "ALT 2.5",
+          "model_probability": 0.485861,
+          "model_probability_pct": 48.59,
+          "fair_odds": 2.06,
+          "odds_required_for_value": 2.12
+        },
+        {
+          "market_key": "btts_over_2_5",
+          "market": "KG VAR + ÜST 2.5",
+          "model_probability": 0.462138,
+          "model_probability_pct": 46.21,
+          "fair_odds": 2.16,
+          "odds_required_for_value": 2.23
+        },
+        {
+          "market_key": "btts_no",
+          "market": "KG YOK",
+          "model_probability": 0.447179,
+          "model_probability_pct": 44.72,
+          "fair_odds": 2.24,
+          "odds_required_for_value": 2.3
+        },
+        {
+          "market_key": "home_win",
+          "market": "MS 1",
+          "model_probability": 0.42951,
+          "model_probability_pct": 42.95,
+          "fair_odds": 2.33,
+          "odds_required_for_value": 2.4
+        },
+        {
+          "market_key": "away_win",
+          "market": "MS 2",
+          "model_probability": 0.418601,
+          "model_probability_pct": 41.86,
+          "fair_odds": 2.39,
+          "odds_required_for_value": 2.46
+        },
+        {
+          "market_key": "draw",
+          "market": "MS X",
+          "model_probability": 0.355964,
+          "model_probability_pct": 35.6,
+          "fair_odds": 2.81,
+          "odds_required_for_value": 2.89
+        },
+        {
+          "market_key": "first_half_home",
+          "market": "İY 1",
+          "model_probability": 0.336421,
+          "model_probability_pct": 33.64,
+          "fair_odds": 2.97,
+          "odds_required_for_value": 3.06
+        },
+        {
+          "market_key": "first_half_draw",
+          "market": "İY X",
+          "model_probability": 0.336178,
+          "model_probability_pct": 33.62,
+          "fair_odds": 2.97,
+          "odds_required_for_value": 3.06
+        },
+        {
+          "market_key": "first_half_away",
+          "market": "İY 2",
+          "model_probability": 0.327401,
+          "model_probability_pct": 32.74,
+          "fair_odds": 3.05,
+          "odds_required_for_value": 3.15
+        }
+      ],
+      "market_probability_engines": {
+        "home_win": [
+          0.40278694566258644,
+          0.3857418717509313,
+          0.5
+        ],
+        "draw": [
+          0.2820037585238334,
+          0.2858867747339217,
+          0.5
+        ],
+        "away_win": [
+          0.3840479732869724,
+          0.37175436972523535,
+          0.5
+        ],
+        "btts_yes": [
+          0.5768221977161333,
+          0.5816399779445199,
+          0.5
+        ],
+        "btts_no": [
+          0.4231778022838667,
+          0.41836002205548006,
+          0.5
+        ],
+        "over_2_5": [
+          0.522325077226397,
+          0.5200925695037573,
+          0.5
+        ],
+        "under_2_5": [
+          0.477674922773603,
+          0.47990743049624274,
+          0.5
+        ],
+        "btts_over_2_5": [
+          0.44084017355119826,
+          0.4455729596671024,
+          0.5
+        ],
+        "corners_over_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "corners_under_8_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_over_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cards_under_4_5": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "first_half_home": [
+          0.33,
+          0.3336663336663337,
+          0.3455964325529543
+        ],
+        "first_half_draw": [
+          0.34,
+          0.33966033966033965,
+          0.3288740245261984
+        ],
+        "first_half_away": [
+          0.33,
+          0.32667332667332666,
+          0.32552954292084724
+        ]
+      },
+      "htft_matrix": [],
+      "market_analysis": []
+    }
+  ]
 }
