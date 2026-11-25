@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:21:14.328227+03:00",
+  "generated_at": "2026-11-25T11:22:56.181677+03:00",
   "run_status": "OK",
   "decision_status": "BET_CANDIDATES",
   "data_sources": [
@@ -65,8 +65,8 @@
         }
       },
       "intelligence": {
-        "mentions": 37,
-        "web_score": -0.1081,
+        "mentions": 36,
+        "web_score": -0.0833,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -77,37 +77,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "FA charges - December 2025 - TheFA.com",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Xa2JQU1RYeGRWUURlVERYLVY3bHhLNUpXbUdiSE10OWltaW9wSnRKb1hZYkh2ZjBkbW83UkZIblN0OE1aSHhVNGR0dzdtMXhNMWNOUE5vUm44dHlBZGc4Z1BJZ1FoakxhOEJDY2lhVnQ5TDhoNjlpQW5XZ0w?oc=5",
-            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-            "text": "FA charges - December 2025 TheFA.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bet365 Reworks Multimillion-Dollar Debt of Stoke City FC Soccer Team - Casino.org",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOFdjM29kUWhCcl9pWUxCVUltc1VIOHRxbTlHLU5fdHBZNW45eFJzT1pFSTM5STFEMG80clBKTHpfbzhGUmNGRnZ0TlBrUGRKbFkwcGdLVW9HSGZ6N09EdzBhaGk5b1Q1ejJ0cU9ieE43Ty1IWWVYdHdIOExJdE93a3k0Z2FrTVJvX3NyYlRDSWI2UTFnUENQRnZ1T3RwQQ?oc=5",
-            "published": "Fri, 25 Mar 2022 07:00:00 GMT",
-            "text": "Bet365 Reworks Multimillion-Dollar Debt of Stoke City FC Soccer Team Casino.org",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "12 transfers you might have missed this week – including ex-Man Utd stalwart - Daily Star",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0l4V2Fxcmk1bUYtTTBYcFpKamtvNVdRTS01M3BMd2xjcEh3MDN5WS1jRHpsN1BZX3BRa3FJVmdhMzViQ1ZwS19MV3RFYUU1bnNOUEtzeDZzTkZoYUkwSXFza2xzeDR1dmhxbDItaDFUNmEyRGFYdWpIUlJ5bVo0RTJ4OXRfbWUxdGV6SkYtZUc2Ylk?oc=5",
-            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "text": "12 transfers you might have missed this week – including ex-Man Utd stalwart Daily Star",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Mikel Obi’s Twins Are Blooming - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80bk4zX3pObEZDTXAxVUtKX20wUTJMRnE4T1lvblU3cWpLdHllTEM0cEtLWU1fZER4MnNBZkVuSEZOOE5hcnlpUDlZXzRKUm92U3lVSEJlbzZ4U2xudzVDZ1k0Tkh4LXlPMGMyU0taWGllYlNOWUdJ?oc=5",
-            "published": "Sat, 19 Sep 2020 07:00:00 GMT",
-            "text": "Mikel Obi’s Twins Are Blooming PressReader",
+            "title": "How to watch Stoke City v Millwall: Live stream, TV channel, kick-off time and head-to-head stats - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdGNickNoeDV3YXlLRHVsTE8wenRPTWF3REh5Rzk5Y3JiUGFDcnB5MXdubEVtY0pQa2huQ3FLWlh0YTVkaWlnVmVJOXlXaGxfbTFkdjBFY21yV3VkOUUzdkxFeGhvUXluSmttU1hRVWI0c25FaHhjZFZSd1RoRFBoT1R2emF0MjJQWXpUMGt4N3pYSUU5R083RzZCOVhtZTRoRG9sX04zYXNKdUJMT3MwN0h2LXpJeVVsSkozX3JScWJsN0JQNS02M2ZHX3hDQm81T3pOSTdUc2xGTUpVclVDbTkyODFsbE0?oc=5",
+            "published": "Wed, 25 Nov 2026 07:33:21 GMT",
+            "text": "How to watch Stoke City v Millwall: Live stream, TV channel, kick-off time and head-to-head stats news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -124,7 +97,7 @@
             "source": "Google News RSS",
             "title": "Stoke vs Millwall Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 - Sportsgambler",
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY2t3NjVqT1h5bkZWdFdXc3UxZ2hRQTNFR2RlUk94bmVIOHNxMEdIVGwyWVA2YnBoeGlzc0VnMXRrM1N2cXpzN3M3RzJRZHlGSTFEMHNOM2FNR1ExRHdKTG9sajJPZDRTUUNFQ3pqdTZGTWRLN19wb1NUOGwxeUlIRXo4ajFIN2ZjUFRIM0pHZGYyWW5kQ3J1aWVqNzM0cXl6LXpXZUxfS1g?oc=5",
-            "published": "Tue, 24 Nov 2026 02:31:34 GMT",
+            "published": "Tue, 24 Nov 2026 03:52:14 GMT",
             "text": "Stoke vs Millwall Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
@@ -140,10 +113,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Crystal Palace transfer news: Two departures to Championship clubs confirmed including three-time trophy winner - Sports Mole",
-            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRkhMc3JmRFVxVW5aX3F0U05xUWxaczNNOTYzSWJWYW8yeTQ3NUx0eG93Ul9XWnNVQ2dPVi1JeENkRzIxRXJKRnl1X2FWd2FkU1pPV3V1ek4zMTBQT3NzUkRKSmNFZU9jTElpcVp5anJaRHh1TzB0REpzR0Vlc3hhWGZDWUt3MHF0WkNXekl1OEQ4Nm5aU3NZcmFNN1ZPVDg5YnVjaTJjV3N1RUZRZzFHRGhHNDhWRDFQUDJvQXNGd3lNOGJjR3ZrQXVjTVRMSFk4cEZJQ0xXb19ESlJuNnNDaVFOYTVDZlhzZkZNN19xdUtSdklFRUd3dw?oc=5",
-            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
-            "text": "Crystal Palace transfer news: Two departures to Championship clubs confirmed including three-time trophy winner Sports Mole",
+            "title": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlhfNzRqTWRPTmpnMVp6MW1FSEdrdzYwWHJJeGJrZHVRSjM3UWdsbzhkaE1yT0pXVXE1Wml6UTExOHBrX2tFc0ktRFFCem5talJZYWFNMkttelBnVUhBTDVvZkd3ZEhYWk1pdVZpc0QxMzZKcnNOTE5ZRENmX0J2QmNIaG9FSWNleWlDUXZNWGVEd0JGRGxVbG1LbTJpdTlKM1A2bjFETdIBrAFBVV95cUxPSmVUQTdZQUNxNXVNMk9QZ2ZuM3dKQmpCd3kxLWsta2Rnckh3ekVRSGtQWnFDcDBCSlE5UWRmamw0SVB5VWlVN2xya2ZydEpTenRsQ3JOMzdZdnJzNU5PTUNUdTZiVE1xSm52NmlqamdQR3hibno2b2NwMFVybW5Vd0NRMGZ3RHhXUF9xNWdIcWN2MWdjSWgtUTR1aFZBUGRRZ2t4SkRDT1NKMTNs?oc=5",
+            "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+            "text": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story The Sentinel",
             "language": "en",
             "sentiment": 0.0
           },
@@ -158,12 +131,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlhfNzRqTWRPTmpnMVp6MW1FSEdrdzYwWHJJeGJrZHVRSjM3UWdsbzhkaE1yT0pXVXE1Wml6UTExOHBrX2tFc0ktRFFCem5talJZYWFNMkttelBnVUhBTDVvZkd3ZEhYWk1pdVZpc0QxMzZKcnNOTE5ZRENmX0J2QmNIaG9FSWNleWlDUXZNWGVEd0JGRGxVbG1LbTJpdTlKM1A2bjFETdIBrAFBVV95cUxPSmVUQTdZQUNxNXVNMk9QZ2ZuM3dKQmpCd3kxLWsta2Rnckh3ekVRSGtQWnFDcDBCSlE5UWRmamw0SVB5VWlVN2xya2ZydEpTenRsQ3JOMzdZdnJzNU5PTUNUdTZiVE1xSm52NmlqamdQR3hibno2b2NwMFVybW5Vd0NRMGZ3RHhXUF9xNWdIcWN2MWdjSWgtUTR1aFZBUGRRZ2t4SkRDT1NKMTNs?oc=5",
-            "published": "Tue, 21 Apr 2026 07:00:00 GMT",
-            "text": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story The Sentinel",
+            "title": "Stoke City Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CRnFCZ3psVEttYUNkZUtrS3lmWHFScUhjbXAyN2VsZTk1ZG1sTjYzQkRLMVVDd3ZuZ2Z0SFJYY05zWjE5bVJIUkZkZ0tUM3ZNaEg2WHJhTXV4VkdV?oc=5",
+            "published": "Tue, 21 Apr 2026 07:59:32 GMT",
+            "text": "Stoke City Standings, Matches and Scores Futbol24",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Stoke City injury news vs Millwall as two more bite the dust - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS19OX2lMczZJNDZCbURuVFRIbGhDd0xjeTNDS3ZpcFNTM2o3WmtnTjlGNTRxc3VqN2pwMWpES2dVbTU0bjRtekJwZjA2RUxRN3ppd3QtNXlyZDZnc09EaElKbXRJdVR5VkpMN1NVelJKMjhvbjJkZzNTdzBWZTZTc3EtY1NkUlJ2QlQwWXFmVHBaRUMxbEV0cWhEeElIVzEwMFpj0gGoAUFVX3lxTFAzMmh0V1lLX0Qxb196M0diUFh4a0RhVkE1dW1peVNzNGVxUHo1a3VUMkwwekZ1T0l6cmNKQ2F5bW5nZ3dCYWVtSE1Yd2RUV1VfTzU5SGc5VXRLaGhSWFBBNU01ckw0cVVZRXpVbEp2TjVDb3E3VnlRWmhqUGF2MUUzN2ZxZDNBZUh1dm9nU2c2bDQ0YjNudl9RWVowcTg3OHRJdVVBRGtfWQ?oc=5",
+            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
+            "text": "Stoke City injury news vs Millwall as two more bite the dust The Sentinel",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -185,28 +167,46 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stoke City injury news vs Millwall as two more bite the dust - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS19OX2lMczZJNDZCbURuVFRIbGhDd0xjeTNDS3ZpcFNTM2o3WmtnTjlGNTRxc3VqN2pwMWpES2dVbTU0bjRtekJwZjA2RUxRN3ppd3QtNXlyZDZnc09EaElKbXRJdVR5VkpMN1NVelJKMjhvbjJkZzNTdzBWZTZTc3EtY1NkUlJ2QlQwWXFmVHBaRUMxbEV0cWhEeElIVzEwMFpj0gGoAUFVX3lxTFAzMmh0V1lLX0Qxb196M0diUFh4a0RhVkE1dW1peVNzNGVxUHo1a3VUMkwwekZ1T0l6cmNKQ2F5bW5nZ3dCYWVtSE1Yd2RUV1VfTzU5SGc5VXRLaGhSWFBBNU01ckw0cVVZRXpVbEp2TjVDb3E3VnlRWmhqUGF2MUUzN2ZxZDNBZUh1dm9nU2c2bDQ0YjNudl9RWVowcTg3OHRJdVVBRGtfWQ?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "text": "Stoke City injury news vs Millwall as two more bite the dust The Sentinel",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"From bad to worse\": Stoke City vs Norwich City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PNS14TkhsYUdOWTVGb29nQ0R4aGlVMkdORzB5TFhMYXRyLXRPQ1hPNy1Qc3NkRkNmMnFhcVVGS0tjV3B0WWVXcEQ0bmdYRGhYTF81dW5jNW1GSk5QV2xTVGIyRVFDaUFFS081WEdvaFJFWVFESS1zSnFB?oc=5",
-            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-            "text": "\"From bad to worse\": Stoke City vs Norwich City predictions The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Preston North End make first move in race for Millwall and Stoke City target - The72",
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XbWN6ZWNTOWdmcG9PQWJZTHQ4ODhOY2tYRUloSmZSWG9nUm53aTRaY1dFckQ0MkpKcDdsZHJGdTlJcklsdkk5ckxTalpjdzV2ejFUMjdSMDJ2SGtGZVBRellNdnF0UnJRV1hneThnLXRCSUVlNWdoWkV3?oc=5",
             "published": "Thu, 13 Aug 2026 07:00:00 GMT",
             "text": "Preston North End make first move in race for Millwall and Stoke City target The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Spurs, Leicester, Millwall - The games that will decide who is in Championship next season - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVBFS2RaTGhCdHJTNEZoSERJTTEwVnZyLXk0cmg1S0RXa3FWd3k2ZFgtV09oLXZnYVdWT0hnTmtDeUJ1cG9adHk2NlFlV1J2TFNTU2dXeUM2RV9pbTA0UjBuUkM5M0k2bU5DM2pScnpXLW4xVTZNWnU1YTNEQjNaVER5V0VRbnFFSGFCVVpqdFd5OVZsY0prdUZDcHNsdWk1ZWJ0Rm9Ub213MFQyb0FoeWdaVThjc28y0gG-AUFVX3lxTFBGN2R2Y2lRQU9oMlBRY210U2d2Z2ppWVB4ajEzcUk2OG81dUJCUFNFSi01NVUyd2dOM1RUQkoxdGoyLTd3VGMxZVhtanZjQkZjemg4ZEhxQVFaTXFLclJQbGkyWm9GYnd3OFJFWnpxTlJ1UlYwZ2E1VjgtZ1hSR1FtYURFMW1EdXBBcmIzOEF3ZnJEdGtmejhlZkRwWWpJa0ZlWjVWTlFnUGtpa1N3SWlfbm5IMWZtLU9KVWEtY0E?oc=5",
+            "published": "Wed, 15 Apr 2026 07:00:00 GMT",
+            "text": "Spurs, Leicester, Millwall - The games that will decide who is in Championship next season The Sentinel",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Reyes Cleary hands in deadline day transfer request: Who will make their move? - The72",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQalI1cjRla2tkYlFaU3lGeUg5c3htaEd1bFhZd0NLa1NVcjl6QTZjU0o1QXlLWmM0VDh5ZUtmSUZ1LWh1QURENmZsMTRLelprdWNxMHlHd2MtbTh1SF90c3FBTGlDaWc2S2pRYkM3YS1TSDlKS0tDRDhLVy1Fb1h1cEItX1FKNGdFY3c?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "text": "Reyes Cleary hands in deadline day transfer request: Who will make their move? The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Mark Robins' certainty about Stoke City as old boss throws punch to the chin - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS0lqM1dWZXVJQlFHX2FvVzc3OTZLZ0UyWUtoYXFsVEhvdmhTUWdVM2R2ZTZkZGVTTFIybzNqd2RaTjFVV1RCdEt0MWREVWR2UEs3a0d6MXVYUkxoNTVQX2JQNU9jamRITE9aMEdaUU5xSkVWejQySUdrclg5VWt1eEVHSzJXMEpMSl9LRy1PNUlHWEJ5NGdrMkVtOW81dUhqaGpF0gGoAUFVX3lxTE9LQ3o4UnJ4aERhQy1zNXlLT0hqWkNoTDlTdnZGUHBMMmVKRFpFWlZVczhuV0NkR3N5VXcyNVZxa3hrQzJlcXFvS0JtYzNRR1dsNVF0WlBfV3NpQi0zVFRxU0M3Z3Z0dExmQm1mV0VFN3VPZDloZUxTRV9uVGRUN0lGMGllbUpKTnVIZ1MzdGoxWG9jLUp3eXhjc1JkZmlaakhEMllhZjF3MA?oc=5",
+            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+            "text": "Mark Robins' certainty about Stoke City as old boss throws punch to the chin The Sentinel",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Why Stoke City boss delayed Eric Bocat substitution at Millwall - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHIyRXB4WHhpT0UwcFJwVFBsTWZsSGtBTmViaVV0bUlOT3IxTmJ1cmY1TnBRYl9FMXN1OUJ4RXhiNmtrNndVMTJ3b2ZxeFByM2dSMVJ2OU05NUg2YmFteHBhZHNoNXdKT3BhaGdRRWxiOHZzRERZUGExZVE1eWlEUU5uVnZINHhCTG1jLXpIMFBNbk5rUC1zYlpNaWNZQjBRekHSAacBQVVfeXFMTTNmWkRxcFVPUFk0Qk11NVNYdEJ0VDkxRUJBSTZVQ0ItX1RNZDZpVjhHV3E3dmZ0amo1RVlwWG52WXFGb1JmdUo5OWNGMUtNWE5VZ1N2MzZTRUlPaGlBRVRzWi0yZ1Y3c1NvanNZc2o5YTktQTJ2MHVhRld5WmM3bVVQOEJJeDVRNFFBQzIwaUxaV3NIZFRQQzJfR0hzbFNpUkxVNmtsLVE?oc=5",
+            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+            "text": "Why Stoke City boss delayed Eric Bocat substitution at Millwall The Sentinel",
             "language": "en",
             "sentiment": 0.0
           },
@@ -257,19 +257,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“Become stagnant”: Stoke City vs Swansea City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QYjUxWWFqQ2lmSkxHZ0RLdTVYQmt0S184TnduN2ktODRNdks3VG9WMW1SODB3bXNpWm5JaVR2cS12TGQ5RjBYTG1EbUEtMFhGLTloUzR0d3B0Y1VWNXFoYWQtWFFqUUJ0Y1pOcEpvRGtXM3dTNFlIZmlB?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“Become stagnant”: Stoke City vs Swansea City predictions The72",
+            "title": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40RnVfOEtrT3NseW1aVXM2RTFveno3WlVnS0FMc0FpX1pjMGNweG9sWGxpRWxaT2oxNHRZeUNuZVFhRDBvV0kwZ1BEdjVrOUJZRVFUQUI0UjItY3JrQzdUcmdMQi1rMEs2dnZ3Wi1nUy1uRUdneUNJbFlB?oc=5",
+            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+            "text": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40RnVfOEtrT3NseW1aVXM2RTFveno3WlVnS0FMc0FpX1pjMGNweG9sWGxpRWxaT2oxNHRZeUNuZVFhRDBvV0kwZ1BEdjVrOUJZRVFUQUI0UjItY3JrQzdUcmdMQi1rMEs2dnZ3Wi1nUy1uRUdneUNJbFlB?oc=5",
-            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-            "text": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions The72",
+            "title": "“Make sure the mood doesn’t turn”: Southampton vs Stoke City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tR2w5a0U3elFnWG43WkdLRDEyLWxaaU9LVmUzemVSdkdWeUNpVkhKMlVYazVtNFlyZkRUMzlkVDhGczVxaEFZVTRHcFY4Tl91VDBRcm5YMmhHelJWYzhobnNqSGIyVGMweTNMRWtWT1dMMTVQY3hZMw?oc=5",
+            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+            "text": "“Make sure the mood doesn’t turn”: Southampton vs Stoke City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -293,10 +293,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "\"Hit and miss\": Birmingham City vs Wolves predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaUlEeVhpQzZobWZzSWtad2VlNW1xNEZiU3M0ZGozQXNKWU1NRXVZeEdOeUdaZV9mZWw2d1FhUlJHRDFyZV84aHpYV1FuajhjWkZROS1EWldiaGxCN2FoSnkxcjc0b2d6eEhfTThYc0l5cnBqek9heTJfZWNCUmFVVEdOcVFJM19hYnc?oc=5",
-            "published": "Fri, 04 Sep 2026 07:00:00 GMT",
-            "text": "\"Hit and miss\": Birmingham City vs Wolves predictions The72",
+            "title": "\"They could struggle\": Birmingham City vs Bristol City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEgyWFYzNDBRVmtpUnUyVmF1NlR5OHZPaHBFZk5PRmhfSVhfNnpwVWhMeDhNZjJPOUg1d1ljMmlfcl95TlZWaEhyMDVEbnVKdDV5LVZOOHIyeFNJSjZaVUhzWXgyWWtHbnpsTHZOWUxxOE5Lb1RDRU9TSlhKVFNNeQ?oc=5",
+            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+            "text": "\"They could struggle\": Birmingham City vs Bristol City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -320,15 +320,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Why Stoke City boss delayed Eric Bocat substitution at Millwall - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHIyRXB4WHhpT0UwcFJwVFBsTWZsSGtBTmViaVV0bUlOT3IxTmJ1cmY1TnBRYl9FMXN1OUJ4RXhiNmtrNndVMTJ3b2ZxeFByM2dSMVJ2OU05NUg2YmFteHBhZHNoNXdKT3BhaGdRRWxiOHZzRERZUGExZVE1eWlEUU5uVnZINHhCTG1jLXpIMFBNbk5rUC1zYlpNaWNZQjBRekHSAacBQVVfeXFMTTNmWkRxcFVPUFk0Qk11NVNYdEJ0VDkxRUJBSTZVQ0ItX1RNZDZpVjhHV3E3dmZ0amo1RVlwWG52WXFGb1JmdUo5OWNGMUtNWE5VZ1N2MzZTRUlPaGlBRVRzWi0yZ1Y3c1NvanNZc2o5YTktQTJ2MHVhRld5WmM3bVVQOEJJeDVRNFFBQzIwaUxaV3NIZFRQQzJfR0hzbFNpUkxVNmtsLVE?oc=5",
-            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
-            "text": "Why Stoke City boss delayed Eric Bocat substitution at Millwall The Sentinel",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion - The72",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVFMSHM5bEQtbzU1azRwYWM0S3BsNHdkSDkwbXdTcUR2QWY2ZnRlNUxqQ1RPajQwQUtfRF92T1YtODQtMjlwMU4wLUl1bmY0VG9sRmNOYnJxcUE3cVhWY3JQUzIwODFyempSa294T1QtZnE2YzNYXy1ob1gwZ0V0Tktya1AyOEQ1?oc=5",
             "published": "Sun, 15 Nov 2026 08:00:00 GMT",
@@ -338,10 +329,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Millwall should consider letting 32-year-old leave in the summer: Opinion - The72",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5STXh5VzlNN3RQcnpOMVNtTmdnaVRZN2U2RjZ6cHhtM0JfY3ZFbFZWNlF0dmd4MjZuM3ZWd3JWNXFUZHFhcXpVMWVGLTZLQlNKTTkzZzdmbWdpVXNqbnFjVUdsRGppczVSM3lEekd0cy0zSDctZ1BpNEZXMnU?oc=5",
-            "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-            "text": "Millwall should consider letting 32-year-old leave in the summer: Opinion The72",
+            "title": "23-year-old has earned start for Millwall next weekend after impressive cameos: Opinion - The72",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVV1VTRweVViMmhsNFQydF9feVYzT09lM1BPdVo0WFMwSTlhM2lGWl9xOE55V1dKOTJMZEdRSkVuS3k1c09mSDRBdFpfSlJKTVdBRHduRTJBZnJJNWNNU0Z6R0U0MWtpUEVfWkNRcWt6aUNVVlhiQlJmU2QxS3JQSkw2UEQ1MzVZWUx5SUtn?oc=5",
+            "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+            "text": "23-year-old has earned start for Millwall next weekend after impressive cameos: Opinion The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled - The72",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQm1hNmNUVGJla3ZVSGNVVFAyQk1uUVBLZWJ3SldGektneXZlZkJmU3g5Ui1mNXJSbEFyMnNSbUFZNldDX296b2FnUU5yQlFGNk1UcmhyTmVTanZ6akZFMnAxb2tweU9EaHhTMkFya0Nlb05vVmdKSURRY1k2dHl6ZzI5Q3BKbnk3T3BDMm1QZTFRQWlLMGwyMm9hakpncGk5bm15RlAxcTlNdDBLanBkWXZOV1ladW5SZzNabm5rbm9FQ1prckxUNGNrTEx4Zw?oc=5",
+            "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+            "text": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -353,24 +353,6 @@
             "text": "Southampton must bring 28-year-old in from the cold to start vs Portsmouth amid big injury worry: Opinion The72",
             "language": "en",
             "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ1hQTXk2Q19WU3c1YTJURGlDdVFWT1RBU0RQT043NmlKNGREUFZ3MzJPTl9pWGIxY21yZDh6YjYyQVZWTWp2dUtZZnI2NWJFcTJ1bWZpY0hsdEM3QklKb1RRTHpzOG5IN2JnNjAxLVl3OEdkSWViVWlodWN6VVdadlFDOA?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Birmingham City FC News - The72",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qcEFUYXZxbHVuaWJ2M2Z0OVdZRTI3MHFuaFdxWW5NLXg1ZkctN25kVDczOXJGRkcyVFJXXzRaYTBJT1JEUVRtaDkwY2RpRlY1RjREZWNQTWNQd3pCczkxYlFTWW1ELXN3VFJQSjdn?oc=5",
-            "published": "Wed, 18 Jun 2025 18:51:35 GMT",
-            "text": "Birmingham City FC News The72",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -387,6 +369,15 @@
             "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKY0FMd01KeDJBU2ZmWDhza21pZ0NVYUgyaC1tUG44QkJXMGJNZDJMa1lHdlZkeTZ3eWREYUYyWUlHYXZSUXVRVFR1N1lpNk9xY25paXpRNnViTUFDRnZXa1ZmUEN0ZnR6NVAxUVJRaw?oc=5",
             "published": "Sun, 06 Dec 2020 18:57:31 GMT",
             "text": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rTHdnTGIzVkJpNm9FTmJuTW9JV1JZRFRJa2VMLTJ3Q2RoLWtDS3pUS3hvX0xtT1Bfc3NTM3dTU1BVYXFObU9LU1dHRjVHNWt0OEdla3JrMkc2X2s2aF8w?oc=5",
+            "published": "Fri, 04 Dec 2020 14:56:09 GMT",
+            "text": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -636,40 +627,40 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "over_2_5",
-          "odds": 1.75,
+          "odds": 1.86,
           "odds_zone": "IDEAL",
           "model_probability_pct": 60.2,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.1,
+          "implied_probability_pct": 53.8,
+          "market_probability_pct": 45.3,
           "fair_odds": 1.66,
-          "value_edge_pct": 12.15,
-          "ev_pct": 5.39,
-          "calibration_gap_pct": 12.15,
+          "value_edge_pct": 14.93,
+          "ev_pct": 12.01,
+          "calibration_gap_pct": 14.93,
           "consensus": "2/3",
-          "confidence_10": 5.34,
+          "confidence_10": 5.87,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 62.5,
             "prediction_pct": 63.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.1
+            "market_benchmark_pct": 45.3
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "first_half_away",
-          "odds": 3.45,
+          "odds": 3.52,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 36.1,
-          "implied_probability_pct": 29.0,
-          "market_probability_pct": 24.4,
+          "implied_probability_pct": 28.4,
+          "market_probability_pct": 23.9,
           "fair_odds": 2.77,
-          "value_edge_pct": 11.79,
-          "ev_pct": 24.72,
-          "calibration_gap_pct": 11.79,
+          "value_edge_pct": 12.26,
+          "ev_pct": 27.25,
+          "calibration_gap_pct": 12.26,
           "consensus": "0/3",
-          "confidence_10": 4.77,
+          "confidence_10": 4.97,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -679,7 +670,7 @@
             "statistical_pct": 37.9,
             "prediction_pct": 36.0,
             "intelligence_pct": 32.4,
-            "market_benchmark_pct": 24.4
+            "market_benchmark_pct": 23.9
           }
         },
         {
@@ -711,17 +702,17 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "btts_over_2_5",
-          "odds": 2.06,
+          "odds": 2.19,
           "odds_zone": "IDEAL",
           "model_probability_pct": 52.9,
-          "implied_probability_pct": 48.5,
-          "market_probability_pct": 48.5,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 45.7,
           "fair_odds": 1.89,
-          "value_edge_pct": 4.31,
-          "ev_pct": 8.88,
-          "calibration_gap_pct": 4.31,
+          "value_edge_pct": 7.19,
+          "ev_pct": 15.75,
+          "calibration_gap_pct": 7.19,
           "consensus": "0/3",
-          "confidence_10": 4.42,
+          "confidence_10": 4.97,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -763,17 +754,17 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "btts_yes",
-          "odds": 1.58,
-          "odds_zone": "ACCEPTABLE",
+          "odds": 1.66,
+          "odds_zone": "IDEAL",
           "model_probability_pct": 61.8,
-          "implied_probability_pct": 63.3,
-          "market_probability_pct": 53.3,
+          "implied_probability_pct": 60.2,
+          "market_probability_pct": 50.9,
           "fair_odds": 1.62,
-          "value_edge_pct": 8.5,
-          "ev_pct": -2.42,
-          "calibration_gap_pct": 8.5,
+          "value_edge_pct": 10.87,
+          "ev_pct": 2.52,
+          "calibration_gap_pct": 10.87,
           "consensus": "2/3",
-          "confidence_10": 5.0,
+          "confidence_10": 5.2,
           "decision": "NO BET",
           "reasons": [
             "Beklenen değer (EV) %3 altında"
@@ -782,7 +773,7 @@
             "statistical_pct": 65.1,
             "prediction_pct": 64.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 53.3
+            "market_benchmark_pct": 50.9
           }
         },
         {
@@ -843,15 +834,15 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "cards_over_4_5",
-          "odds": 1.62,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 52.9,
-          "implied_probability_pct": 61.7,
-          "market_probability_pct": 51.9,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.5,
           "fair_odds": 1.89,
-          "value_edge_pct": 0.93,
-          "ev_pct": -14.37,
-          "calibration_gap_pct": 0.93,
+          "value_edge_pct": 1.38,
+          "ev_pct": -13.31,
+          "calibration_gap_pct": 1.38,
           "consensus": "0/3",
           "confidence_10": 3.71,
           "decision": "NO BET",
@@ -865,21 +856,21 @@
             "statistical_pct": 53.6,
             "prediction_pct": 53.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.9
+            "market_benchmark_pct": 51.5
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "cards_under_4_5",
-          "odds": 1.75,
+          "odds": 1.74,
           "odds_zone": "IDEAL",
           "model_probability_pct": 47.1,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.1,
+          "implied_probability_pct": 57.5,
+          "market_probability_pct": 48.5,
           "fair_odds": 2.12,
-          "value_edge_pct": -0.93,
-          "ev_pct": -17.5,
-          "calibration_gap_pct": -0.93,
+          "value_edge_pct": -1.38,
+          "ev_pct": -17.97,
+          "calibration_gap_pct": -1.38,
           "consensus": "0/3",
           "confidence_10": 3.39,
           "decision": "NO BET",
@@ -893,49 +884,21 @@
             "statistical_pct": 46.4,
             "prediction_pct": 46.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.1
-          }
-        },
-        {
-          "match": "Stoke City FC vs Millwall FC",
-          "market": "first_half_draw",
-          "odds": 1.94,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 36.8,
-          "implied_probability_pct": 51.5,
-          "market_probability_pct": 43.3,
-          "fair_odds": 2.72,
-          "value_edge_pct": -6.5,
-          "ev_pct": -28.58,
-          "calibration_gap_pct": -6.5,
-          "consensus": "0/3",
-          "confidence_10": 2.82,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 38.4,
-            "prediction_pct": 37.1,
-            "intelligence_pct": 32.8,
-            "market_benchmark_pct": 43.3
+            "market_benchmark_pct": 48.5
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "first_half_home",
-          "odds": 2.6,
+          "odds": 2.66,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 27.0,
-          "implied_probability_pct": 38.5,
-          "market_probability_pct": 32.3,
+          "implied_probability_pct": 37.6,
+          "market_probability_pct": 31.6,
           "fair_odds": 3.7,
-          "value_edge_pct": -5.29,
-          "ev_pct": -29.71,
-          "calibration_gap_pct": -5.29,
+          "value_edge_pct": -4.58,
+          "ev_pct": -28.09,
+          "calibration_gap_pct": -4.58,
           "consensus": "0/3",
           "confidence_10": 2.29,
           "decision": "NO BET",
@@ -949,23 +912,23 @@
             "statistical_pct": 23.6,
             "prediction_pct": 26.9,
             "intelligence_pct": 34.9,
-            "market_benchmark_pct": 32.3
+            "market_benchmark_pct": 31.6
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
-          "market": "btts_no",
-          "odds": 1.8,
+          "market": "first_half_draw",
+          "odds": 1.89,
           "odds_zone": "IDEAL",
-          "model_probability_pct": 38.2,
-          "implied_probability_pct": 55.6,
-          "market_probability_pct": 46.7,
-          "fair_odds": 2.61,
-          "value_edge_pct": -8.5,
-          "ev_pct": -31.16,
-          "calibration_gap_pct": -8.5,
+          "model_probability_pct": 36.8,
+          "implied_probability_pct": 52.9,
+          "market_probability_pct": 44.5,
+          "fair_odds": 2.72,
+          "value_edge_pct": -7.68,
+          "ev_pct": -30.42,
+          "calibration_gap_pct": -7.68,
           "consensus": "0/3",
-          "confidence_10": 2.9,
+          "confidence_10": 2.82,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -974,10 +937,10 @@
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
-            "statistical_pct": 34.9,
-            "prediction_pct": 35.8,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 46.7
+            "statistical_pct": 38.4,
+            "prediction_pct": 37.1,
+            "intelligence_pct": 32.8,
+            "market_benchmark_pct": 44.5
           }
         },
         {
@@ -1009,20 +972,49 @@
         },
         {
           "match": "Stoke City FC vs Millwall FC",
-          "market": "under_2_5",
-          "odds": 1.62,
+          "market": "btts_no",
+          "odds": 1.72,
           "odds_zone": "IDEAL",
+          "model_probability_pct": 38.2,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.1,
+          "fair_odds": 2.61,
+          "value_edge_pct": -10.87,
+          "ev_pct": -34.22,
+          "calibration_gap_pct": -10.87,
+          "consensus": "0/3",
+          "confidence_10": 2.9,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 34.9,
+            "prediction_pct": 35.8,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.1
+          }
+        },
+        {
+          "match": "Stoke City FC vs Millwall FC",
+          "market": "under_2_5",
+          "odds": 1.54,
+          "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 39.8,
-          "implied_probability_pct": 61.7,
-          "market_probability_pct": 51.9,
+          "implied_probability_pct": 64.9,
+          "market_probability_pct": 54.7,
           "fair_odds": 2.51,
-          "value_edge_pct": -12.15,
-          "ev_pct": -35.56,
-          "calibration_gap_pct": -12.15,
+          "value_edge_pct": -14.93,
+          "ev_pct": -38.74,
+          "calibration_gap_pct": -14.93,
           "consensus": "0/3",
           "confidence_10": 2.99,
           "decision": "NO BET",
           "reasons": [
+            "Çok düşük oran (< 1.55)",
             "Model olasılığı %55 altında",
             "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında",
@@ -1032,7 +1024,7 @@
             "statistical_pct": 37.5,
             "prediction_pct": 36.9,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.9
+            "market_benchmark_pct": 54.7
           }
         }
       ]
@@ -1087,8 +1079,8 @@
         }
       },
       "intelligence": {
-        "mentions": 37,
-        "web_score": -0.1081,
+        "mentions": 36,
+        "web_score": -0.0833,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -1099,37 +1091,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "FA charges - December 2025 - TheFA.com",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Xa2JQU1RYeGRWUURlVERYLVY3bHhLNUpXbUdiSE10OWltaW9wSnRKb1hZYkh2ZjBkbW83UkZIblN0OE1aSHhVNGR0dzdtMXhNMWNOUE5vUm44dHlBZGc4Z1BJZ1FoakxhOEJDY2lhVnQ5TDhoNjlpQW5XZ0w?oc=5",
-            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-            "text": "FA charges - December 2025 TheFA.com",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Bet365 Reworks Multimillion-Dollar Debt of Stoke City FC Soccer Team - Casino.org",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOFdjM29kUWhCcl9pWUxCVUltc1VIOHRxbTlHLU5fdHBZNW45eFJzT1pFSTM5STFEMG80clBKTHpfbzhGUmNGRnZ0TlBrUGRKbFkwcGdLVW9HSGZ6N09EdzBhaGk5b1Q1ejJ0cU9ieE43Ty1IWWVYdHdIOExJdE93a3k0Z2FrTVJvX3NyYlRDSWI2UTFnUENQRnZ1T3RwQQ?oc=5",
-            "published": "Fri, 25 Mar 2022 07:00:00 GMT",
-            "text": "Bet365 Reworks Multimillion-Dollar Debt of Stoke City FC Soccer Team Casino.org",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "12 transfers you might have missed this week – including ex-Man Utd stalwart - Daily Star",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0l4V2Fxcmk1bUYtTTBYcFpKamtvNVdRTS01M3BMd2xjcEh3MDN5WS1jRHpsN1BZX3BRa3FJVmdhMzViQ1ZwS19MV3RFYUU1bnNOUEtzeDZzTkZoYUkwSXFza2xzeDR1dmhxbDItaDFUNmEyRGFYdWpIUlJ5bVo0RTJ4OXRfbWUxdGV6SkYtZUc2Ylk?oc=5",
-            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "text": "12 transfers you might have missed this week – including ex-Man Utd stalwart Daily Star",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Mikel Obi’s Twins Are Blooming - PressReader",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80bk4zX3pObEZDTXAxVUtKX20wUTJMRnE4T1lvblU3cWpLdHllTEM0cEtLWU1fZER4MnNBZkVuSEZOOE5hcnlpUDlZXzRKUm92U3lVSEJlbzZ4U2xudzVDZ1k0Tkh4LXlPMGMyU0taWGllYlNOWUdJ?oc=5",
-            "published": "Sat, 19 Sep 2020 07:00:00 GMT",
-            "text": "Mikel Obi’s Twins Are Blooming PressReader",
+            "title": "How to watch Stoke City v Millwall: Live stream, TV channel, kick-off time and head-to-head stats - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdGNickNoeDV3YXlLRHVsTE8wenRPTWF3REh5Rzk5Y3JiUGFDcnB5MXdubEVtY0pQa2huQ3FLWlh0YTVkaWlnVmVJOXlXaGxfbTFkdjBFY21yV3VkOUUzdkxFeGhvUXluSmttU1hRVWI0c25FaHhjZFZSd1RoRFBoT1R2emF0MjJQWXpUMGt4N3pYSUU5R083RzZCOVhtZTRoRG9sX04zYXNKdUJMT3MwN0h2LXpJeVVsSkozX3JScWJsN0JQNS02M2ZHX3hDQm81T3pOSTdUc2xGTUpVclVDbTkyODFsbE0?oc=5",
+            "published": "Wed, 25 Nov 2026 07:33:21 GMT",
+            "text": "How to watch Stoke City v Millwall: Live stream, TV channel, kick-off time and head-to-head stats news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1146,7 +1111,7 @@
             "source": "Google News RSS",
             "title": "Stoke vs Millwall Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 - Sportsgambler",
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY2t3NjVqT1h5bkZWdFdXc3UxZ2hRQTNFR2RlUk94bmVIOHNxMEdIVGwyWVA2YnBoeGlzc0VnMXRrM1N2cXpzN3M3RzJRZHlGSTFEMHNOM2FNR1ExRHdKTG9sajJPZDRTUUNFQ3pqdTZGTWRLN19wb1NUOGwxeUlIRXo4ajFIN2ZjUFRIM0pHZGYyWW5kQ3J1aWVqNzM0cXl6LXpXZUxfS1g?oc=5",
-            "published": "Tue, 24 Nov 2026 02:31:34 GMT",
+            "published": "Tue, 24 Nov 2026 03:52:14 GMT",
             "text": "Stoke vs Millwall Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 Sportsgambler",
             "language": "en",
             "sentiment": 0.0
@@ -1162,10 +1127,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Crystal Palace transfer news: Two departures to Championship clubs confirmed including three-time trophy winner - Sports Mole",
-            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRkhMc3JmRFVxVW5aX3F0U05xUWxaczNNOTYzSWJWYW8yeTQ3NUx0eG93Ul9XWnNVQ2dPVi1JeENkRzIxRXJKRnl1X2FWd2FkU1pPV3V1ek4zMTBQT3NzUkRKSmNFZU9jTElpcVp5anJaRHh1TzB0REpzR0Vlc3hhWGZDWUt3MHF0WkNXekl1OEQ4Nm5aU3NZcmFNN1ZPVDg5YnVjaTJjV3N1RUZRZzFHRGhHNDhWRDFQUDJvQXNGd3lNOGJjR3ZrQXVjTVRMSFk4cEZJQ0xXb19ESlJuNnNDaVFOYTVDZlhzZkZNN19xdUtSdklFRUd3dw?oc=5",
-            "published": "Wed, 02 Sep 2026 07:00:00 GMT",
-            "text": "Crystal Palace transfer news: Two departures to Championship clubs confirmed including three-time trophy winner Sports Mole",
+            "title": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlhfNzRqTWRPTmpnMVp6MW1FSEdrdzYwWHJJeGJrZHVRSjM3UWdsbzhkaE1yT0pXVXE1Wml6UTExOHBrX2tFc0ktRFFCem5talJZYWFNMkttelBnVUhBTDVvZkd3ZEhYWk1pdVZpc0QxMzZKcnNOTE5ZRENmX0J2QmNIaG9FSWNleWlDUXZNWGVEd0JGRGxVbG1LbTJpdTlKM1A2bjFETdIBrAFBVV95cUxPSmVUQTdZQUNxNXVNMk9QZ2ZuM3dKQmpCd3kxLWsta2Rnckh3ekVRSGtQWnFDcDBCSlE5UWRmamw0SVB5VWlVN2xya2ZydEpTenRsQ3JOMzdZdnJzNU5PTUNUdTZiVE1xSm52NmlqamdQR3hibno2b2NwMFVybW5Vd0NRMGZ3RHhXUF9xNWdIcWN2MWdjSWgtUTR1aFZBUGRRZ2t4SkRDT1NKMTNs?oc=5",
+            "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+            "text": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story The Sentinel",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1180,12 +1145,21 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlhfNzRqTWRPTmpnMVp6MW1FSEdrdzYwWHJJeGJrZHVRSjM3UWdsbzhkaE1yT0pXVXE1Wml6UTExOHBrX2tFc0ktRFFCem5talJZYWFNMkttelBnVUhBTDVvZkd3ZEhYWk1pdVZpc0QxMzZKcnNOTE5ZRENmX0J2QmNIaG9FSWNleWlDUXZNWGVEd0JGRGxVbG1LbTJpdTlKM1A2bjFETdIBrAFBVV95cUxPSmVUQTdZQUNxNXVNMk9QZ2ZuM3dKQmpCd3kxLWsta2Rnckh3ekVRSGtQWnFDcDBCSlE5UWRmamw0SVB5VWlVN2xya2ZydEpTenRsQ3JOMzdZdnJzNU5PTUNUdTZiVE1xSm52NmlqamdQR3hibno2b2NwMFVybW5Vd0NRMGZ3RHhXUF9xNWdIcWN2MWdjSWgtUTR1aFZBUGRRZ2t4SkRDT1NKMTNs?oc=5",
-            "published": "Tue, 21 Apr 2026 07:00:00 GMT",
-            "text": "Stoke City player ratings vs Millwall as half-empty stadium tells its own story The Sentinel",
+            "title": "Stoke City Standings, Matches and Scores - Futbol24",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CRnFCZ3psVEttYUNkZUtrS3lmWHFScUhjbXAyN2VsZTk1ZG1sTjYzQkRLMVVDd3ZuZ2Z0SFJYY05zWjE5bVJIUkZkZ0tUM3ZNaEg2WHJhTXV4VkdV?oc=5",
+            "published": "Tue, 21 Apr 2026 07:59:32 GMT",
+            "text": "Stoke City Standings, Matches and Scores Futbol24",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Stoke City injury news vs Millwall as two more bite the dust - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS19OX2lMczZJNDZCbURuVFRIbGhDd0xjeTNDS3ZpcFNTM2o3WmtnTjlGNTRxc3VqN2pwMWpES2dVbTU0bjRtekJwZjA2RUxRN3ppd3QtNXlyZDZnc09EaElKbXRJdVR5VkpMN1NVelJKMjhvbjJkZzNTdzBWZTZTc3EtY1NkUlJ2QlQwWXFmVHBaRUMxbEV0cWhEeElIVzEwMFpj0gGoAUFVX3lxTFAzMmh0V1lLX0Qxb196M0diUFh4a0RhVkE1dW1peVNzNGVxUHo1a3VUMkwwekZ1T0l6cmNKQ2F5bW5nZ3dCYWVtSE1Yd2RUV1VfTzU5SGc5VXRLaGhSWFBBNU01ckw0cVVZRXpVbEp2TjVDb3E3VnlRWmhqUGF2MUUzN2ZxZDNBZUh1dm9nU2c2bDQ0YjNudl9RWVowcTg3OHRJdVVBRGtfWQ?oc=5",
+            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
+            "text": "Stoke City injury news vs Millwall as two more bite the dust The Sentinel",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -1207,28 +1181,46 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Stoke City injury news vs Millwall as two more bite the dust - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS19OX2lMczZJNDZCbURuVFRIbGhDd0xjeTNDS3ZpcFNTM2o3WmtnTjlGNTRxc3VqN2pwMWpES2dVbTU0bjRtekJwZjA2RUxRN3ppd3QtNXlyZDZnc09EaElKbXRJdVR5VkpMN1NVelJKMjhvbjJkZzNTdzBWZTZTc3EtY1NkUlJ2QlQwWXFmVHBaRUMxbEV0cWhEeElIVzEwMFpj0gGoAUFVX3lxTFAzMmh0V1lLX0Qxb196M0diUFh4a0RhVkE1dW1peVNzNGVxUHo1a3VUMkwwekZ1T0l6cmNKQ2F5bW5nZ3dCYWVtSE1Yd2RUV1VfTzU5SGc5VXRLaGhSWFBBNU01ckw0cVVZRXpVbEp2TjVDb3E3VnlRWmhqUGF2MUUzN2ZxZDNBZUh1dm9nU2c2bDQ0YjNudl9RWVowcTg3OHRJdVVBRGtfWQ?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "text": "Stoke City injury news vs Millwall as two more bite the dust The Sentinel",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"From bad to worse\": Stoke City vs Norwich City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PNS14TkhsYUdOWTVGb29nQ0R4aGlVMkdORzB5TFhMYXRyLXRPQ1hPNy1Qc3NkRkNmMnFhcVVGS0tjV3B0WWVXcEQ0bmdYRGhYTF81dW5jNW1GSk5QV2xTVGIyRVFDaUFFS081WEdvaFJFWVFESS1zSnFB?oc=5",
-            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-            "text": "\"From bad to worse\": Stoke City vs Norwich City predictions The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "Preston North End make first move in race for Millwall and Stoke City target - The72",
             "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XbWN6ZWNTOWdmcG9PQWJZTHQ4ODhOY2tYRUloSmZSWG9nUm53aTRaY1dFckQ0MkpKcDdsZHJGdTlJcklsdkk5ckxTalpjdzV2ejFUMjdSMDJ2SGtGZVBRellNdnF0UnJRV1hneThnLXRCSUVlNWdoWkV3?oc=5",
             "published": "Thu, 13 Aug 2026 07:00:00 GMT",
             "text": "Preston North End make first move in race for Millwall and Stoke City target The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Spurs, Leicester, Millwall - The games that will decide who is in Championship next season - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVBFS2RaTGhCdHJTNEZoSERJTTEwVnZyLXk0cmg1S0RXa3FWd3k2ZFgtV09oLXZnYVdWT0hnTmtDeUJ1cG9adHk2NlFlV1J2TFNTU2dXeUM2RV9pbTA0UjBuUkM5M0k2bU5DM2pScnpXLW4xVTZNWnU1YTNEQjNaVER5V0VRbnFFSGFCVVpqdFd5OVZsY0prdUZDcHNsdWk1ZWJ0Rm9Ub213MFQyb0FoeWdaVThjc28y0gG-AUFVX3lxTFBGN2R2Y2lRQU9oMlBRY210U2d2Z2ppWVB4ajEzcUk2OG81dUJCUFNFSi01NVUyd2dOM1RUQkoxdGoyLTd3VGMxZVhtanZjQkZjemg4ZEhxQVFaTXFLclJQbGkyWm9GYnd3OFJFWnpxTlJ1UlYwZ2E1VjgtZ1hSR1FtYURFMW1EdXBBcmIzOEF3ZnJEdGtmejhlZkRwWWpJa0ZlWjVWTlFnUGtpa1N3SWlfbm5IMWZtLU9KVWEtY0E?oc=5",
+            "published": "Wed, 15 Apr 2026 07:00:00 GMT",
+            "text": "Spurs, Leicester, Millwall - The games that will decide who is in Championship next season The Sentinel",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Reyes Cleary hands in deadline day transfer request: Who will make their move? - The72",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQalI1cjRla2tkYlFaU3lGeUg5c3htaEd1bFhZd0NLa1NVcjl6QTZjU0o1QXlLWmM0VDh5ZUtmSUZ1LWh1QURENmZsMTRLelprdWNxMHlHd2MtbTh1SF90c3FBTGlDaWc2S2pRYkM3YS1TSDlKS0tDRDhLVy1Fb1h1cEItX1FKNGdFY3c?oc=5",
+            "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+            "text": "Reyes Cleary hands in deadline day transfer request: Who will make their move? The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Mark Robins' certainty about Stoke City as old boss throws punch to the chin - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS0lqM1dWZXVJQlFHX2FvVzc3OTZLZ0UyWUtoYXFsVEhvdmhTUWdVM2R2ZTZkZGVTTFIybzNqd2RaTjFVV1RCdEt0MWREVWR2UEs3a0d6MXVYUkxoNTVQX2JQNU9jamRITE9aMEdaUU5xSkVWejQySUdrclg5VWt1eEVHSzJXMEpMSl9LRy1PNUlHWEJ5NGdrMkVtOW81dUhqaGpF0gGoAUFVX3lxTE9LQ3o4UnJ4aERhQy1zNXlLT0hqWkNoTDlTdnZGUHBMMmVKRFpFWlZVczhuV0NkR3N5VXcyNVZxa3hrQzJlcXFvS0JtYzNRR1dsNVF0WlBfV3NpQi0zVFRxU0M3Z3Z0dExmQm1mV0VFN3VPZDloZUxTRV9uVGRUN0lGMGllbUpKTnVIZ1MzdGoxWG9jLUp3eXhjc1JkZmlaakhEMllhZjF3MA?oc=5",
+            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+            "text": "Mark Robins' certainty about Stoke City as old boss throws punch to the chin The Sentinel",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Why Stoke City boss delayed Eric Bocat substitution at Millwall - The Sentinel",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHIyRXB4WHhpT0UwcFJwVFBsTWZsSGtBTmViaVV0bUlOT3IxTmJ1cmY1TnBRYl9FMXN1OUJ4RXhiNmtrNndVMTJ3b2ZxeFByM2dSMVJ2OU05NUg2YmFteHBhZHNoNXdKT3BhaGdRRWxiOHZzRERZUGExZVE1eWlEUU5uVnZINHhCTG1jLXpIMFBNbk5rUC1zYlpNaWNZQjBRekHSAacBQVVfeXFMTTNmWkRxcFVPUFk0Qk11NVNYdEJ0VDkxRUJBSTZVQ0ItX1RNZDZpVjhHV3E3dmZ0amo1RVlwWG52WXFGb1JmdUo5OWNGMUtNWE5VZ1N2MzZTRUlPaGlBRVRzWi0yZ1Y3c1NvanNZc2o5YTktQTJ2MHVhRld5WmM3bVVQOEJJeDVRNFFBQzIwaUxaV3NIZFRQQzJfR0hzbFNpUkxVNmtsLVE?oc=5",
+            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+            "text": "Why Stoke City boss delayed Eric Bocat substitution at Millwall The Sentinel",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1279,19 +1271,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "“Become stagnant”: Stoke City vs Swansea City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QYjUxWWFqQ2lmSkxHZ0RLdTVYQmt0S184TnduN2ktODRNdks3VG9WMW1SODB3bXNpWm5JaVR2cS12TGQ5RjBYTG1EbUEtMFhGLTloUzR0d3B0Y1VWNXFoYWQtWFFqUUJ0Y1pOcEpvRGtXM3dTNFlIZmlB?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“Become stagnant”: Stoke City vs Swansea City predictions The72",
+            "title": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40RnVfOEtrT3NseW1aVXM2RTFveno3WlVnS0FMc0FpX1pjMGNweG9sWGxpRWxaT2oxNHRZeUNuZVFhRDBvV0kwZ1BEdjVrOUJZRVFUQUI0UjItY3JrQzdUcmdMQi1rMEs2dnZ3Wi1nUy1uRUdneUNJbFlB?oc=5",
+            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+            "text": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40RnVfOEtrT3NseW1aVXM2RTFveno3WlVnS0FMc0FpX1pjMGNweG9sWGxpRWxaT2oxNHRZeUNuZVFhRDBvV0kwZ1BEdjVrOUJZRVFUQUI0UjItY3JrQzdUcmdMQi1rMEs2dnZ3Wi1nUy1uRUdneUNJbFlB?oc=5",
-            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-            "text": "‘Anticipating a drop off’: Stoke City vs Bristol City predictions The72",
+            "title": "“Make sure the mood doesn’t turn”: Southampton vs Stoke City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tR2w5a0U3elFnWG43WkdLRDEyLWxaaU9LVmUzemVSdkdWeUNpVkhKMlVYazVtNFlyZkRUMzlkVDhGczVxaEFZVTRHcFY4Tl91VDBRcm5YMmhHelJWYzhobnNqSGIyVGMweTNMRWtWT1dMMTVQY3hZMw?oc=5",
+            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+            "text": "“Make sure the mood doesn’t turn”: Southampton vs Stoke City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1315,10 +1307,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "\"Hit and miss\": Birmingham City vs Wolves predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaUlEeVhpQzZobWZzSWtad2VlNW1xNEZiU3M0ZGozQXNKWU1NRXVZeEdOeUdaZV9mZWw2d1FhUlJHRDFyZV84aHpYV1FuajhjWkZROS1EWldiaGxCN2FoSnkxcjc0b2d6eEhfTThYc0l5cnBqek9heTJfZWNCUmFVVEdOcVFJM19hYnc?oc=5",
-            "published": "Fri, 04 Sep 2026 07:00:00 GMT",
-            "text": "\"Hit and miss\": Birmingham City vs Wolves predictions The72",
+            "title": "\"They could struggle\": Birmingham City vs Bristol City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEgyWFYzNDBRVmtpUnUyVmF1NlR5OHZPaHBFZk5PRmhfSVhfNnpwVWhMeDhNZjJPOUg1d1ljMmlfcl95TlZWaEhyMDVEbnVKdDV5LVZOOHIyeFNJSjZaVUhzWXgyWWtHbnpsTHZOWUxxOE5Lb1RDRU9TSlhKVFNNeQ?oc=5",
+            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+            "text": "\"They could struggle\": Birmingham City vs Bristol City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1342,15 +1334,6 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Why Stoke City boss delayed Eric Bocat substitution at Millwall - The Sentinel",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHIyRXB4WHhpT0UwcFJwVFBsTWZsSGtBTmViaVV0bUlOT3IxTmJ1cmY1TnBRYl9FMXN1OUJ4RXhiNmtrNndVMTJ3b2ZxeFByM2dSMVJ2OU05NUg2YmFteHBhZHNoNXdKT3BhaGdRRWxiOHZzRERZUGExZVE1eWlEUU5uVnZINHhCTG1jLXpIMFBNbk5rUC1zYlpNaWNZQjBRekHSAacBQVVfeXFMTTNmWkRxcFVPUFk0Qk11NVNYdEJ0VDkxRUJBSTZVQ0ItX1RNZDZpVjhHV3E3dmZ0amo1RVlwWG52WXFGb1JmdUo5OWNGMUtNWE5VZ1N2MzZTRUlPaGlBRVRzWi0yZ1Y3c1NvanNZc2o5YTktQTJ2MHVhRld5WmM3bVVQOEJJeDVRNFFBQzIwaUxaV3NIZFRQQzJfR0hzbFNpUkxVNmtsLVE?oc=5",
-            "published": "Wed, 22 Oct 2025 07:00:00 GMT",
-            "text": "Why Stoke City boss delayed Eric Bocat substitution at Millwall The Sentinel",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
             "title": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion - The72",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVFMSHM5bEQtbzU1azRwYWM0S3BsNHdkSDkwbXdTcUR2QWY2ZnRlNUxqQ1RPajQwQUtfRF92T1YtODQtMjlwMU4wLUl1bmY0VG9sRmNOYnJxcUE3cVhWY3JQUzIwODFyempSa294T1QtZnE2YzNYXy1ob1gwZ0V0Tktya1AyOEQ1?oc=5",
             "published": "Sun, 15 Nov 2026 08:00:00 GMT",
@@ -1360,10 +1343,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Millwall should consider letting 32-year-old leave in the summer: Opinion - The72",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5STXh5VzlNN3RQcnpOMVNtTmdnaVRZN2U2RjZ6cHhtM0JfY3ZFbFZWNlF0dmd4MjZuM3ZWd3JWNXFUZHFhcXpVMWVGLTZLQlNKTTkzZzdmbWdpVXNqbnFjVUdsRGppczVSM3lEekd0cy0zSDctZ1BpNEZXMnU?oc=5",
-            "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-            "text": "Millwall should consider letting 32-year-old leave in the summer: Opinion The72",
+            "title": "23-year-old has earned start for Millwall next weekend after impressive cameos: Opinion - The72",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVV1VTRweVViMmhsNFQydF9feVYzT09lM1BPdVo0WFMwSTlhM2lGWl9xOE55V1dKOTJMZEdRSkVuS3k1c09mSDRBdFpfSlJKTVdBRHduRTJBZnJJNWNNU0Z6R0U0MWtpUEVfWkNRcWt6aUNVVlhiQlJmU2QxS3JQSkw2UEQ1MzVZWUx5SUtn?oc=5",
+            "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+            "text": "23-year-old has earned start for Millwall next weekend after impressive cameos: Opinion The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled - The72",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQm1hNmNUVGJla3ZVSGNVVFAyQk1uUVBLZWJ3SldGektneXZlZkJmU3g5Ui1mNXJSbEFyMnNSbUFZNldDX296b2FnUU5yQlFGNk1UcmhyTmVTanZ6akZFMnAxb2tweU9EaHhTMkFya0Nlb05vVmdKSURRY1k2dHl6ZzI5Q3BKbnk3T3BDMm1QZTFRQWlLMGwyMm9hakpncGk5bm15RlAxcTlNdDBLanBkWXZOV1ladW5SZzNabm5rbm9FQ1prckxUNGNrTEx4Zw?oc=5",
+            "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+            "text": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -1375,24 +1367,6 @@
             "text": "Southampton must bring 28-year-old in from the cold to start vs Portsmouth amid big injury worry: Opinion The72",
             "language": "en",
             "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ1hQTXk2Q19WU3c1YTJURGlDdVFWT1RBU0RQT043NmlKNGREUFZ3MzJPTl9pWGIxY21yZDh6YjYyQVZWTWp2dUtZZnI2NWJFcTJ1bWZpY0hsdEM3QklKb1RRTHpzOG5IN2JnNjAxLVl3OEdkSWViVWlodWN6VVdadlFDOA?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Birmingham City FC News - The72",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qcEFUYXZxbHVuaWJ2M2Z0OVdZRTI3MHFuaFdxWW5NLXg1ZkctN25kVDczOXJGRkcyVFJXXzRaYTBJT1JEUVRtaDkwY2RpRlY1RjREZWNQTWNQd3pCczkxYlFTWW1ELXN3VFJQSjdn?oc=5",
-            "published": "Wed, 18 Jun 2025 18:51:35 GMT",
-            "text": "Birmingham City FC News The72",
-            "language": "en",
-            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -1409,6 +1383,15 @@
             "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKY0FMd01KeDJBU2ZmWDhza21pZ0NVYUgyaC1tUG44QkJXMGJNZDJMa1lHdlZkeTZ3eWREYUYyWUlHYXZSUXVRVFR1N1lpNk9xY25paXpRNnViTUFDRnZXa1ZmUEN0ZnR6NVAxUVJRaw?oc=5",
             "published": "Sun, 06 Dec 2020 18:57:31 GMT",
             "text": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "language": "tr",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rTHdnTGIzVkJpNm9FTmJuTW9JV1JZRFRJa2VMLTJ3Q2RoLWtDS3pUS3hvX0xtT1Bfc3NTM3dTU1BVYXFObU9LU1dHRjVHNWt0OEdla3JrMkc2X2s2aF8w?oc=5",
+            "published": "Fri, 04 Dec 2020 14:56:09 GMT",
+            "text": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -1658,40 +1641,40 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "over_2_5",
-          "odds": 1.75,
+          "odds": 1.86,
           "odds_zone": "IDEAL",
           "model_probability_pct": 60.2,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.1,
+          "implied_probability_pct": 53.8,
+          "market_probability_pct": 45.3,
           "fair_odds": 1.66,
-          "value_edge_pct": 12.15,
-          "ev_pct": 5.39,
-          "calibration_gap_pct": 12.15,
+          "value_edge_pct": 14.93,
+          "ev_pct": 12.01,
+          "calibration_gap_pct": 14.93,
           "consensus": "2/3",
-          "confidence_10": 5.34,
+          "confidence_10": 5.87,
           "decision": "ANALYZE",
           "reasons": [],
           "engines": {
             "statistical_pct": 62.5,
             "prediction_pct": 63.1,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.1
+            "market_benchmark_pct": 45.3
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "first_half_away",
-          "odds": 3.45,
+          "odds": 3.52,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 36.1,
-          "implied_probability_pct": 29.0,
-          "market_probability_pct": 24.4,
+          "implied_probability_pct": 28.4,
+          "market_probability_pct": 23.9,
           "fair_odds": 2.77,
-          "value_edge_pct": 11.79,
-          "ev_pct": 24.72,
-          "calibration_gap_pct": 11.79,
+          "value_edge_pct": 12.26,
+          "ev_pct": 27.25,
+          "calibration_gap_pct": 12.26,
           "consensus": "0/3",
-          "confidence_10": 4.77,
+          "confidence_10": 4.97,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -1701,7 +1684,7 @@
             "statistical_pct": 37.9,
             "prediction_pct": 36.0,
             "intelligence_pct": 32.4,
-            "market_benchmark_pct": 24.4
+            "market_benchmark_pct": 23.9
           }
         },
         {
@@ -1733,17 +1716,17 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "btts_over_2_5",
-          "odds": 2.06,
+          "odds": 2.19,
           "odds_zone": "IDEAL",
           "model_probability_pct": 52.9,
-          "implied_probability_pct": 48.5,
-          "market_probability_pct": 48.5,
+          "implied_probability_pct": 45.7,
+          "market_probability_pct": 45.7,
           "fair_odds": 1.89,
-          "value_edge_pct": 4.31,
-          "ev_pct": 8.88,
-          "calibration_gap_pct": 4.31,
+          "value_edge_pct": 7.19,
+          "ev_pct": 15.75,
+          "calibration_gap_pct": 7.19,
           "consensus": "0/3",
-          "confidence_10": 4.42,
+          "confidence_10": 4.97,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -1785,17 +1768,17 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "btts_yes",
-          "odds": 1.58,
-          "odds_zone": "ACCEPTABLE",
+          "odds": 1.66,
+          "odds_zone": "IDEAL",
           "model_probability_pct": 61.8,
-          "implied_probability_pct": 63.3,
-          "market_probability_pct": 53.3,
+          "implied_probability_pct": 60.2,
+          "market_probability_pct": 50.9,
           "fair_odds": 1.62,
-          "value_edge_pct": 8.5,
-          "ev_pct": -2.42,
-          "calibration_gap_pct": 8.5,
+          "value_edge_pct": 10.87,
+          "ev_pct": 2.52,
+          "calibration_gap_pct": 10.87,
           "consensus": "2/3",
-          "confidence_10": 5.0,
+          "confidence_10": 5.2,
           "decision": "NO BET",
           "reasons": [
             "Beklenen değer (EV) %3 altında"
@@ -1804,7 +1787,7 @@
             "statistical_pct": 65.1,
             "prediction_pct": 64.2,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 53.3
+            "market_benchmark_pct": 50.9
           }
         },
         {
@@ -1865,15 +1848,15 @@
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "cards_over_4_5",
-          "odds": 1.62,
+          "odds": 1.64,
           "odds_zone": "IDEAL",
           "model_probability_pct": 52.9,
-          "implied_probability_pct": 61.7,
-          "market_probability_pct": 51.9,
+          "implied_probability_pct": 61.0,
+          "market_probability_pct": 51.5,
           "fair_odds": 1.89,
-          "value_edge_pct": 0.93,
-          "ev_pct": -14.37,
-          "calibration_gap_pct": 0.93,
+          "value_edge_pct": 1.38,
+          "ev_pct": -13.31,
+          "calibration_gap_pct": 1.38,
           "consensus": "0/3",
           "confidence_10": 3.71,
           "decision": "NO BET",
@@ -1887,21 +1870,21 @@
             "statistical_pct": 53.6,
             "prediction_pct": 53.6,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.9
+            "market_benchmark_pct": 51.5
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "cards_under_4_5",
-          "odds": 1.75,
+          "odds": 1.74,
           "odds_zone": "IDEAL",
           "model_probability_pct": 47.1,
-          "implied_probability_pct": 57.1,
-          "market_probability_pct": 48.1,
+          "implied_probability_pct": 57.5,
+          "market_probability_pct": 48.5,
           "fair_odds": 2.12,
-          "value_edge_pct": -0.93,
-          "ev_pct": -17.5,
-          "calibration_gap_pct": -0.93,
+          "value_edge_pct": -1.38,
+          "ev_pct": -17.97,
+          "calibration_gap_pct": -1.38,
           "consensus": "0/3",
           "confidence_10": 3.39,
           "decision": "NO BET",
@@ -1915,49 +1898,21 @@
             "statistical_pct": 46.4,
             "prediction_pct": 46.4,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 48.1
-          }
-        },
-        {
-          "match": "Stoke City FC vs Millwall FC",
-          "market": "first_half_draw",
-          "odds": 1.94,
-          "odds_zone": "IDEAL",
-          "model_probability_pct": 36.8,
-          "implied_probability_pct": 51.5,
-          "market_probability_pct": 43.3,
-          "fair_odds": 2.72,
-          "value_edge_pct": -6.5,
-          "ev_pct": -28.58,
-          "calibration_gap_pct": -6.5,
-          "consensus": "0/3",
-          "confidence_10": 2.82,
-          "decision": "NO BET",
-          "reasons": [
-            "Model olasılığı %55 altında",
-            "Model-market olasılık farkı %2.5 altında",
-            "Beklenen değer (EV) %3 altında",
-            "En az 2/3 motor consensus sağlamadı"
-          ],
-          "engines": {
-            "statistical_pct": 38.4,
-            "prediction_pct": 37.1,
-            "intelligence_pct": 32.8,
-            "market_benchmark_pct": 43.3
+            "market_benchmark_pct": 48.5
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
           "market": "first_half_home",
-          "odds": 2.6,
+          "odds": 2.66,
           "odds_zone": "HIGH_ODDS",
           "model_probability_pct": 27.0,
-          "implied_probability_pct": 38.5,
-          "market_probability_pct": 32.3,
+          "implied_probability_pct": 37.6,
+          "market_probability_pct": 31.6,
           "fair_odds": 3.7,
-          "value_edge_pct": -5.29,
-          "ev_pct": -29.71,
-          "calibration_gap_pct": -5.29,
+          "value_edge_pct": -4.58,
+          "ev_pct": -28.09,
+          "calibration_gap_pct": -4.58,
           "consensus": "0/3",
           "confidence_10": 2.29,
           "decision": "NO BET",
@@ -1971,23 +1926,23 @@
             "statistical_pct": 23.6,
             "prediction_pct": 26.9,
             "intelligence_pct": 34.9,
-            "market_benchmark_pct": 32.3
+            "market_benchmark_pct": 31.6
           }
         },
         {
           "match": "Stoke City FC vs Millwall FC",
-          "market": "btts_no",
-          "odds": 1.8,
+          "market": "first_half_draw",
+          "odds": 1.89,
           "odds_zone": "IDEAL",
-          "model_probability_pct": 38.2,
-          "implied_probability_pct": 55.6,
-          "market_probability_pct": 46.7,
-          "fair_odds": 2.61,
-          "value_edge_pct": -8.5,
-          "ev_pct": -31.16,
-          "calibration_gap_pct": -8.5,
+          "model_probability_pct": 36.8,
+          "implied_probability_pct": 52.9,
+          "market_probability_pct": 44.5,
+          "fair_odds": 2.72,
+          "value_edge_pct": -7.68,
+          "ev_pct": -30.42,
+          "calibration_gap_pct": -7.68,
           "consensus": "0/3",
-          "confidence_10": 2.9,
+          "confidence_10": 2.82,
           "decision": "NO BET",
           "reasons": [
             "Model olasılığı %55 altında",
@@ -1996,10 +1951,10 @@
             "En az 2/3 motor consensus sağlamadı"
           ],
           "engines": {
-            "statistical_pct": 34.9,
-            "prediction_pct": 35.8,
-            "intelligence_pct": 50.0,
-            "market_benchmark_pct": 46.7
+            "statistical_pct": 38.4,
+            "prediction_pct": 37.1,
+            "intelligence_pct": 32.8,
+            "market_benchmark_pct": 44.5
           }
         },
         {
@@ -2031,20 +1986,49 @@
         },
         {
           "match": "Stoke City FC vs Millwall FC",
-          "market": "under_2_5",
-          "odds": 1.62,
+          "market": "btts_no",
+          "odds": 1.72,
           "odds_zone": "IDEAL",
+          "model_probability_pct": 38.2,
+          "implied_probability_pct": 58.1,
+          "market_probability_pct": 49.1,
+          "fair_odds": 2.61,
+          "value_edge_pct": -10.87,
+          "ev_pct": -34.22,
+          "calibration_gap_pct": -10.87,
+          "consensus": "0/3",
+          "confidence_10": 2.9,
+          "decision": "NO BET",
+          "reasons": [
+            "Model olasılığı %55 altında",
+            "Model-market olasılık farkı %2.5 altında",
+            "Beklenen değer (EV) %3 altında",
+            "En az 2/3 motor consensus sağlamadı"
+          ],
+          "engines": {
+            "statistical_pct": 34.9,
+            "prediction_pct": 35.8,
+            "intelligence_pct": 50.0,
+            "market_benchmark_pct": 49.1
+          }
+        },
+        {
+          "match": "Stoke City FC vs Millwall FC",
+          "market": "under_2_5",
+          "odds": 1.54,
+          "odds_zone": "ACCEPTABLE",
           "model_probability_pct": 39.8,
-          "implied_probability_pct": 61.7,
-          "market_probability_pct": 51.9,
+          "implied_probability_pct": 64.9,
+          "market_probability_pct": 54.7,
           "fair_odds": 2.51,
-          "value_edge_pct": -12.15,
-          "ev_pct": -35.56,
-          "calibration_gap_pct": -12.15,
+          "value_edge_pct": -14.93,
+          "ev_pct": -38.74,
+          "calibration_gap_pct": -14.93,
           "consensus": "0/3",
           "confidence_10": 2.99,
           "decision": "NO BET",
           "reasons": [
+            "Çok düşük oran (< 1.55)",
             "Model olasılığı %55 altında",
             "Model-market olasılık farkı %2.5 altında",
             "Beklenen değer (EV) %3 altında",
@@ -2054,7 +2038,7 @@
             "statistical_pct": 37.5,
             "prediction_pct": 36.9,
             "intelligence_pct": 50.0,
-            "market_benchmark_pct": 51.9
+            "market_benchmark_pct": 54.7
           }
         }
       ]
@@ -2107,9 +2091,9 @@
         }
       },
       "intelligence": {
-        "mentions": 32,
-        "web_score": -0.1562,
-        "confidence": 1.0,
+        "mentions": 14,
+        "web_score": -0.4286,
+        "confidence": 0.95,
         "sources": [
           "Google News RSS"
         ],
@@ -2119,19 +2103,19 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Bolton Wanderers vs West Bromwich Albion predictions and betting tips: Unbeaten West Brom can edge it at the Macron - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZFNBZURYcFNoQmloQTdPNVFtSU5jTFNFMm14Y1J1eHNORDdZSDJwdHIyenhoSmU0Xy1YZklkYjFiQ2I5NGRxZ2U2ZUpQNUJ5QzMwdFQyclFnRU53UUFhMjhRQzJuLWtXQTg4bHJ5bzIxQlpGNkgxcWRVTlVjMFdTNm9kSzBvUlRtNUFLT3JhdlhxeThZZHROdEtBcw?oc=5",
-            "published": "Mon, 23 Nov 2026 14:15:38 GMT",
-            "text": "Bolton Wanderers vs West Bromwich Albion predictions and betting tips: Unbeaten West Brom can edge it at the Macron Squawka",
+            "title": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion - The72",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVFMSHM5bEQtbzU1azRwYWM0S3BsNHdkSDkwbXdTcUR2QWY2ZnRlNUxqQ1RPajQwQUtfRF92T1YtODQtMjlwMU4wLUl1bmY0VG9sRmNOYnJxcUE3cVhWY3JQUzIwODFyempSa294T1QtZnE2YzNYXy1ob1gwZ0V0Tktya1AyOEQ1?oc=5",
+            "published": "Sun, 15 Nov 2026 08:00:00 GMT",
+            "text": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion The72",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
-            "title": "‘Does not bode well’: Bolton Wanderers vs West Brom predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX1plRVF1VDdGXzhKdGdXejlNSmMyTDZmQ1pHRzR4QlFscEdGSWRaV0ZrRlI0T3hBNUJFa0k4ZmFfUUFzZGRfZ0lzMEd6dmE2dGVVek5YbHZDR3FzRGxoTmxKQUhrMW1KaDFScjY0dVRNaVVYdUJVSko4MTBvdVRJQXJza3FJQlFVZERUX3hiU2dGWE9EWFAw?oc=5",
-            "published": "Tue, 24 Nov 2026 08:08:00 GMT",
-            "text": "‘Does not bode well’: Bolton Wanderers vs West Brom predictions The72",
+            "title": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled - The72",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQm1hNmNUVGJla3ZVSGNVVFAyQk1uUVBLZWJ3SldGektneXZlZkJmU3g5Ui1mNXJSbEFyMnNSbUFZNldDX296b2FnUU5yQlFGNk1UcmhyTmVTanZ6akZFMnAxb2tweU9EaHhTMkFya0Nlb05vVmdKSURRY1k2dHl6ZzI5Q3BKbnk3T3BDMm1QZTFRQWlLMGwyMm9hakpncGk5bm15RlAxcTlNdDBLanBkWXZOV1ladW5SZzNabm5rbm9FQ1prckxUNGNrTEx4Zw?oc=5",
+            "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+            "text": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2146,30 +2130,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "West Brom can trust Isaac Price to bounce back from penalty miss - The72",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRW8ya1o1enVGRXptQXFtN2Y5WXJzSmg5MElNUndabzBUbzhJZXc3Q2ktYVRaemJqTTRzU1NfOHZMRUNKd3lCbEswSGF5dEJvT1dhREpmVFp5MElJcFRfVkgtR0NlTFF4R3ZlcGNqblRQMWlPeHd0RkZxdnlQMkZXT3lfUkk?oc=5",
-            "published": "Mon, 23 Nov 2026 12:34:00 GMT",
-            "text": "West Brom can trust Isaac Price to bounce back from penalty miss The72",
+            "title": "West Brom injury latest on George Campbell after Southampton draw - The72",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Rlp4ZUtiZldyeXBaUU05ci1WbXlweEpka2VRTjlibDZYTGpHT3VHaTBDbTlOM3NCenhyVW93MTJrWUowb0toV2xuOG5XOC1VOFBvZ09mdFhJVmYwVy1kYk1GYVJqaFRPMmtqcTR6YzF2ZWxCNENtMVlPQQ?oc=5",
+            "published": "Wed, 04 Nov 2026 08:00:00 GMT",
+            "text": "West Brom injury latest on George Campbell after Southampton draw The72",
             "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Brom agree €5m swoop for La Liga winger - The72",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03dGUtSmtuWVhOTi1wU05TUWRTd0hJYXN6Mk5haThMdDNOczFGNkkwQ0Jpa2J6alFmd0dIWkN2b3l4aVhvUjhwejFpYUt1ZGYxZGozSHBOdEw2S3pDRUVvYXVPdjhzY0VXTi1jVE0zcjNwQmc?oc=5",
-            "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-            "text": "West Brom agree €5m swoop for La Liga winger The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Why Alfie Gilchrist's proposed loan destination could be perfect after West Brom struggles - The72",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmlXYkZNcmRKRld1UlZ6NGFLM2xjT05VQl9sdjdCQjdzNVpTZUNLOHRjQ0NlWEloWFJURF94S2tWaFJ0dks1YXB5QnpyMEdNVjZxVVdSdDlVM1hDQmk2UDZGTWdXVzJDNmdBN0V0YzcxWmxyZVpQbFVOdjR4WnF6Zkh6ajBrNG15cFd1NQ?oc=5",
-            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "text": "Why Alfie Gilchrist's proposed loan destination could be perfect after West Brom struggles The72",
-            "language": "en",
-            "sentiment": 0.0
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -2182,19 +2148,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "West Brom eye permanent swoop for former loanee - The72",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81dEhEVFRJZE5qMzV3dWVVUHlDM0o2N3pWQUhrTVhRdkotNmpqTE9uRnBMMFNUUjc1T1NnaXhINmZlV3JvUTlvTTRXUm9INnBXTDBJR1FFMXpRSGNJTmpGaVpKV2gycnJMMzhoNUZEcDE4UQ?oc=5",
-            "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-            "text": "West Brom eye permanent swoop for former loanee The72",
+            "title": "West Brom receive injury boost as 26-year-old steps up recovery - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EWEMzSWI1WTlPWXpVQVpqSkRWNThSbnhySWN3UWgzbGdfdURDamRhalRQOHZhOEo3cUZ5U2l5YThOcWVPbjJ2VHVXZ0xzdTNRTHdVRDNKdm44RlVYSTFqckhjNGVpQmU5dzRSUXRzdy1scnM4VjNKUXRR?oc=5",
+            "published": "Wed, 18 Nov 2026 08:33:00 GMT",
+            "text": "West Brom receive injury boost as 26-year-old steps up recovery The72",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
-            "title": "Kareem Tunde is starting to show his quality for West Brom - is he going to prove a bargain? - The72",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZDQzWXJLdWhJVXJqdW5yblBNM29UYmpxbmxqZXFrSjJ0WURjcXBZbEVzdHBQT1NMUUVjbVV4SkhLT2ZobkRNa2ZucWRkQnVIdlExNGEyTmdUVW1KRUQtczVBY2lXQ2wwRXVrNHoyZDRRS1JnYm9vc1BQNTlKQkg3WUkzclM4dDVTTFdHX055bXd1aHNOb3F2cGRZVGxpa2Y0aEd3RnR2Rzk?oc=5",
-            "published": "Tue, 24 Nov 2026 08:45:00 GMT",
-            "text": "Kareem Tunde is starting to show his quality for West Brom - is he going to prove a bargain? The72",
+            "title": "“Sobering start”: West Ham vs Portsmouth Carabao Cup predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONm5iWkM0U0t1ZVNwT190TEFfWGNsRkhRLVQxWnhuZXN6bVN0TGdHbEg3SHJ5MUhpcUMzZ2tpMUxEMDBDSTBiek9rVWdBR3VNbWUwOXJUdlBNQzRwRGd2RTJqa2JXLTZmUzFsZkJUa0QyWF9heUJYOGVXUzZBdVo3dg?oc=5",
+            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "text": "“Sobering start”: West Ham vs Portsmouth Carabao Cup predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2206,150 +2172,6 @@
             "text": "Bolton Wanderers interested in KAA Gent midfielder The72",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Brom begin new Isaac Price contract discussions - The72",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWk5iVFI1djc4TWdOU2FTdlQ5VVg4UVE5WmdKLU5ZUUhNOEowOGZoMjhBbWxURVdIY0F3blpxQk5pV0c3Q1phNzFzMkRMUTlaUW1FTEoxOVdKeXBjUTJOZk5zRzdENnlrRE8yMkkzbk9Wd2R4SEhIdzNxOUdUMTV2UFZVX2g?oc=5",
-            "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-            "text": "West Brom begin new Isaac Price contract discussions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Exclusive: Where Amario Cozier-Duberry should move after Bolton Wanderers loan, according to German expert - The72",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR1UtT2MwZTV3UnRGMW1IRlRyaUVTNEs1ZzlFN21qaXBsa3ZlQ1czSWxFWWtKOGJZVDh6bW03dFpMSmdwRERfZ0pjZ0toUU1oay1nc0lOTHlKaGNFeXZSNl9RUlUzMzAyWWhoMExHZHdSamFvdUZhRGVLWkVtckNJZjZwUU5ORk1JNG5r?oc=5",
-            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-            "text": "Exclusive: Where Amario Cozier-Duberry should move after Bolton Wanderers loan, according to German expert The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Who are the five biggest clubs in the EFL? - The72",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MUDNWemlGRUVKdEhMTEpVX1A1QWoyQ0F2MnA4ZWp2QUprOHNOelVkNmg2NE5kUmRPNDZYbjY3N3p1R2F3SGdXbVBmZXp5MUxkbEtaSllpd1hsMTVWSWJ3X09ya1hjNVE?oc=5",
-            "published": "Sat, 16 Aug 2025 07:00:00 GMT",
-            "text": "Who are the five biggest clubs in the EFL? The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Bromwich Albion FC News - The72",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54YlM5YzhWdTRpR3RiaFNCRnFrNld0azRoLTJxLWxSdHlzTUpLRGpKWXFEMlUyaDJiX09OWkpNWjM2b3dWRUVReGNvU2dNVUxOMGZfMHdlSXh3UjRMNEJBZFF5a1Y0UDVaR0g3Y2NuWGQzWld1?oc=5",
-            "published": "Fri, 03 Jan 2025 15:34:58 GMT",
-            "text": "West Bromwich Albion FC News The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Derby County vs Bolton Wanderers predictions as John Eustace enters ‘must-win’ game - The72",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmNrRE44RGJyaENZdHc2ajVBbXN2a3FNWmVJSFJERm5Jb0lvSmJGbGQ0OWtidHdFUXZVZlhSdWc2ME5QQ21yTG53LXNvWThmd2VGeUpZVWstNE5OZjFzNmg2c0NXRkNNTkw2ZnVhdFRjQW1VRUVJRER1V2FGeS0tWm5tMVNjUlhZTmQ1V24zZ2t2ZHFKM2VqMVZhOVBud2FfWV9xUmVNMkFHamlDLTQ1MHpfNA?oc=5",
-            "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-            "text": "Derby County vs Bolton Wanderers predictions as John Eustace enters ‘must-win’ game The72",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Playing with a weight lifted off their shoulders\": Bolton Wanderers vs Stoke City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdl9aTmpzZnd1V043TTF4Zjd4ZERDMGpiRy1VM0Y2U2ZmaXFJNTZIS0EtTmRxQmNheU1fSFFQVGZtSEgtNXVpaEJtSl9keHlhc3I2R3hwWUJIbW0yNGxsZWxOTlNJbEhMWDkxR1ZrY2RJamtxaGFLbld1SHpjalRYNm1JRFJiRVNfRm1sVHRfZ1I5d2dtTUZJeW5id0pfRGstVHJ0UXFldElTc2lsTE8tb1hQbGV2d1hXWTQ3RGpWc0Y?oc=5",
-            "published": "Thu, 08 Oct 2026 07:00:00 GMT",
-            "text": "\"Playing with a weight lifted off their shoulders\": Bolton Wanderers vs Stoke City predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Can be so dangerous\": QPR vs Bolton Wanderers predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tZEN5SEo4NXJvdWRTTE92VzJsS0RvTHRVcS1wNFd1RUNFUjlfYXUzc1ViY0F0S3pmOFdKY096azVkTWdGVnRNWVRkVks2LVZMOXdFOUlseVVEWEJQbUQyc1RpcVRPVzEyb2JfYjNXNTFpLUdjeXc?oc=5",
-            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-            "text": "\"Can be so dangerous\": QPR vs Bolton Wanderers predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Can pose a real threat\": West Brom vs Charlton Athletic prediction - The72",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43QnhkOWpHN1VQZG93NzZWMGtSMDZhUEJEblg3ZFBEaDVsb21zTURoVDJyOENpNThTYmt1eHJTbFhTVzNQNXIxbG13SnRJekVQZ0luYjVUeXZHNlp2OFBoSGdkblRobEd0cnZLNjRfQ0xSNlZrc241NUFkakdMQQ?oc=5",
-            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-            "text": "\"Can pose a real threat\": West Brom vs Charlton Athletic prediction The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "‘Very tough test’: Sheffield United vs Southampton predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY2V6SzY3X1Y2T3lIZ2hmM1BaQ0Jld1FXUHp6djFQR0JaUjB6OVMzbEJkalR5aGtOLW9kSTdfUmplbWVURl9Cd1NkcVBfa052VTZnS0xBaXdvR1BhTThCb1daY3d6UGpZaTgzOXR4S2dEdGxLTjgzRVREcTF6dU96Sw?oc=5",
-            "published": "Mon, 23 Nov 2026 11:18:00 GMT",
-            "text": "‘Very tough test’: Sheffield United vs Southampton predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "‘Another defeat’: Wolves vs Derby County predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DSjJWRWo0LUJNYWNZSXZwb2NLbE1rWTNSaWxndUtNYXFwRERhXzcxUTRNb1dFd0pqWE9mcEx1clpvUlhrbE5QdTRjNXN4a0xMX2xXcWZJSHE5cVFJMDI2Wnc5OHhGNGItUVI2OTlsZzhTYThS?oc=5",
-            "published": "Mon, 23 Nov 2026 11:28:00 GMT",
-            "text": "‘Another defeat’: Wolves vs Derby County predictions The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "\"Chance to send a message\": Derby County vs West Brom predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DNWh6YzBZbVhWc21UZ21PX0dGSkw5SVcwYzFoWUpaTHd2bEQ1LWk2Wm9JdGtKaG9SNUYzRGlYLTFVNjlJSlhwYy12ZlNnSDNJMUJ1UUhnQ2JEQ0k1M3BtM1pqb1haQldYU0s5dDlJWFdwNnJ4VW85eg?oc=5",
-            "published": "Tue, 08 Sep 2026 07:00:00 GMT",
-            "text": "\"Chance to send a message\": Derby County vs West Brom predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking - The72",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ROVRfNmxYMG1aMDltOVpPQ3EtLTV4VF9kcVZBWk00a1Q4amxWbS01Y0UtWHZoN2FSa0J2YkVrYnI2Zm1FZ2V0MUVtZUdlcnhmbElQRVNDSGJZc294bVl6S2J6OVRWd1VuQzZuX1ZpaUhlWm4xMUlvejQycw?oc=5",
-            "published": "Tue, 24 Nov 2026 08:28:00 GMT",
-            "text": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ1hQTXk2Q19WU3c1YTJURGlDdVFWT1RBU0RQT043NmlKNGREUFZ3MzJPTl9pWGIxY21yZDh6YjYyQVZWTWp2dUtZZnI2NWJFcTJ1bWZpY0hsdEM3QklKb1RRTHpzOG5IN2JnNjAxLVl3OEdkSWViVWlodWN6VVdadlFDOA?oc=5",
-            "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-            "text": "“A way to galvanise the squad”: Charlton Athletic vs Derby County predictions The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Brom receive injury boost as 26-year-old steps up recovery - The72",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EWEMzSWI1WTlPWXpVQVpqSkRWNThSbnhySWN3UWgzbGdfdURDamRhalRQOHZhOEo3cUZ5U2l5YThOcWVPbjJ2VHVXZ0xzdTNRTHdVRDNKdm44RlVYSTFqckhjNGVpQmU5dzRSUXRzdy1scnM4VjNKUXRR?oc=5",
-            "published": "Wed, 18 Nov 2026 08:33:00 GMT",
-            "text": "West Brom receive injury boost as 26-year-old steps up recovery The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion - The72",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVFMSHM5bEQtbzU1azRwYWM0S3BsNHdkSDkwbXdTcUR2QWY2ZnRlNUxqQ1RPajQwQUtfRF92T1YtODQtMjlwMU4wLUl1bmY0VG9sRmNOYnJxcUE3cVhWY3JQUzIwODFyempSa294T1QtZnE2YzNYXy1ob1gwZ0V0Tktya1AyOEQ1?oc=5",
-            "published": "Sun, 15 Nov 2026 08:00:00 GMT",
-            "text": "25-year-old must come straight into the Derby County XI amid positive injury update: Opinion The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "West Brom injury latest on George Campbell after Southampton draw - The72",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Rlp4ZUtiZldyeXBaUU05ci1WbXlweEpka2VRTjlibDZYTGpHT3VHaTBDbTlOM3NCenhyVW93MTJrWUowb0toV2xuOG5XOC1VOFBvZ09mdFhJVmYwVy1kYk1GYVJqaFRPMmtqcTR6YzF2ZWxCNENtMVlPQQ?oc=5",
-            "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-            "text": "West Brom injury latest on George Campbell after Southampton draw The72",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -2679,8 +2501,8 @@
         }
       },
       "intelligence": {
-        "mentions": 35,
-        "web_score": 0.0286,
+        "mentions": 36,
+        "web_score": 0.0278,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -2691,37 +2513,10 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Toronto FC acquire defender Kevin Long - Toronto FC",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMSHdjU3hoRF92cjB2NzNQdFd2YnJsM3owTUxmNVZDd3lBckpHbF9fOHdaWXBwTmJxU0FzVmdhd1JMdU1hWUtaaUNEWDFUR3ktalFkYTNJNXFXeldHM0FKemg4c0R5RENrTGRaU010eE5fOTlMQ2tJ?oc=5",
-            "published": "Tue, 20 Feb 2024 08:00:00 GMT",
-            "text": "Toronto FC acquire defender Kevin Long Toronto FC",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Burnley vs Birmingham City predictions and betting tips: Stubborn Burnley can frustrate promotion-chasing Birmingham - Squawka",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWUZPQXo0Q290VjlOc0FuYjB6XzJNcUlVRGg1Z2QtcFR6cEFIc3VSVWI4YVpWc1loNkYxbWhWYnhqbjhaRTNmdDdMZEdteHFBVFN0VlFLMVB4eEJFSGJpWU93RXV4VjFGbUJkMHl3aGwwMk42ZEZLbVRZby1VdjI3V3BaczFVbS1oQ0pOakktU1pIUVdoVFItMVhNRHdmQQ?oc=5",
-            "published": "Mon, 23 Nov 2026 14:15:38 GMT",
-            "text": "Burnley vs Birmingham City predictions and betting tips: Stubborn Burnley can frustrate promotion-chasing Birmingham Squawka",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Beyond the Sport podcast returns with new guests - PodcastingToday",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2hvajBxc3ZOdUk5UHhoWkF2b1FjNW9WWVhlTVQ5R29JcFlvcFpDWjljeDZaQWNFMWdsbndoeXR1VnR4dm03UE1fREcxM3F3OGo2Uy0xeldrSFRCVzYwSzZTOUU2MkpHZjgzVFV1cUUyVFhFWXkzRlpQMlI4bjR5dlVLVl9SQQ?oc=5",
-            "published": "Wed, 18 Nov 2026 10:04:08 GMT",
-            "text": "Beyond the Sport podcast returns with new guests PodcastingToday",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Under 12s football team sports new kit thanks to EFL Trophy partner Vertu - Northamptonshire Telegraph",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMDJrSXdrX3YxMWhhcVg0OFVlZTNra2thSktIU3YxaGxNMjMwc0xLdGFpenRJMkZSVWtTcTR1c3N2aWxRUmdjY194enl1LTJrMzNHUFZIc0VMQ1NZRFJNVHB2cnJQQm5yb1g3NzVER3N3UDRKX21Rc3Nxek9leTcyVktHNm5Jby1zZnVYTllfNDJGYzM0NDFZbXRfVmRIRXRaN2VvTGVWSkdyLU1nbmRVQnFMcVRIQ0xpMXdmU1lOSUR5bThMZm1F?oc=5",
-            "published": "Fri, 26 Sep 2025 07:00:00 GMT",
-            "text": "Under 12s football team sports new kit thanks to EFL Trophy partner Vertu Northamptonshire Telegraph",
+            "title": "How to watch Burnley v Birmingham City: Live stream, TV channel and kick-off time - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcFd1U0VHazdkY1FVQTlfak1PeXRqQ3NEeXIzRmFGVUFtQ0R4dGRFekY2NUQ4YVNqQkZOdFRTNnNyY0hoNkt6eFVuQVZXWG9oM2hpRXd6QWRJYWoyaWFseEJzTm5IU2FlNTN3QkRncUVJajJXcENVTkNsRjN3aDV2YV95THk3aTk4NkZVZGhpbWlySnlDUV9UTzNFQkp0NnAtTVhNTG9KeFdFeHRUNVBUMW9nbXJIanlVNm9TNmtEcHhUVlRxTGI2NURVWnB4QUVacFVj?oc=5",
+            "published": "Wed, 25 Nov 2026 07:29:52 GMT",
+            "text": "How to watch Burnley v Birmingham City: Live stream, TV channel and kick-off time news.bet365.com",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2736,19 +2531,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Toronto Signs Caldwell To New Deal - Toronto FC",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RTVZtNXNHbWtxcW5peHNuNGJHY2RHZWdPNmsxQXhxM3lnZk5aNVdUWWZTdEVCbF9MLTJCRWZMalNoUTVtTl9zdy13TXVQaFl6N3IzUm9vdWZ2dTFHTFYybXd6YzlYS2xVRzk0OWlB?oc=5",
-            "published": "Tue, 02 Jul 2013 07:00:00 GMT",
-            "text": "Toronto Signs Caldwell To New Deal Toronto FC",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Burnley vs Birmingham City predictions with losers set to hit ‘a new low’ - The72",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWko0cW0wM25CRmhKbDJYNHBYSklmd1FrYUQxX2dDUlJsMDdhR3haZ250bk9LWHFUSnpSOFI5Mk5raXloSmtXU1RtdmJOOUZOTk9yTC1pNVBQVlUzSUdXRDA0ZWl6SkdvRi1XZy0zdVhkQkY0aDBwQktjbUl1V01sUGVFMjRUTFZOaTM2TkhrTDQ0d3FNNEx3QWRBNlBhcWFicC1lay13?oc=5",
-            "published": "Tue, 24 Nov 2026 08:23:00 GMT",
-            "text": "Burnley vs Birmingham City predictions with losers set to hit ‘a new low’ The72",
+            "title": "Key Birmingham City man fit to return against Burnley, Chris Davies confirms - The72",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFVxdlpKdGV2Q0xacFFrZ1dmX2pqWkxEb1hjQm5Wd0lWNXAybzBDZGRkX0dHWXVxdURIbHZYQVhzWEpRLTc5RjU0U19EQVAxckF1TDh0WEljanJhajh3MEhTNmp5ZFc2WVdTVm9jQ3pzWjNxN2NEZ21TcEhpWlpBaTIxR3U?oc=5",
+            "published": "Wed, 25 Nov 2026 08:03:00 GMT",
+            "text": "Key Birmingham City man fit to return against Burnley, Chris Davies confirms The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2763,6 +2549,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Burnley vs Birmingham City predictions with losers set to hit ‘a new low’ - The72",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWko0cW0wM25CRmhKbDJYNHBYSklmd1FrYUQxX2dDUlJsMDdhR3haZ250bk9LWHFUSnpSOFI5Mk5raXloSmtXU1RtdmJOOUZOTk9yTC1pNVBQVlUzSUdXRDA0ZWl6SkdvRi1XZy0zdVhkQkY0aDBwQktjbUl1V01sUGVFMjRUTFZOaTM2TkhrTDQ0d3FNNEx3QWRBNlBhcWFicC1lay13?oc=5",
+            "published": "Tue, 24 Nov 2026 08:23:00 GMT",
+            "text": "Burnley vs Birmingham City predictions with losers set to hit ‘a new low’ The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Birmingham City summer signing who has played just two minutes of Championship football will start vs Burnley: Opinion - The72",
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzBoVURuVnJqbnJwOEpWblRqNUlKYVh0dzgxczVWRExFYUgwX1BqTlA1SWtkUDd5dldKMGwzeUNNQ01lLXlJWHBYdmNyelQ1LW9pRWt2Vnp0MXhYTENnRnVOeGJTR0JubHBoT2pFQzBPM3NmcTAzWm9RemtMREJxWHhkejh0ZkN2RURuM2Jn?oc=5",
             "published": "Mon, 23 Nov 2026 12:00:00 GMT",
@@ -2772,64 +2567,91 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Birmingham City fired ‘long way to go’ promotion warning by ex-EFL striker - The72",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14cU5FZ2J3ZjFZa05kRGM4MzhIVXlkTFQzd2djb3EzaFlyTE9LYkxuM0RCazFsOFdBREZ3M3pZVVpjVFl1enQ2ZGlabTFSQW1WV2FYU2otUUlweThMU1pwYnh6elBVNWllX2p5NHZOTXo5QkFDbHc?oc=5",
-            "published": "Fri, 13 Nov 2026 08:00:00 GMT",
-            "text": "Birmingham City fired ‘long way to go’ promotion warning by ex-EFL striker The72",
+            "title": "Ipswich Town promotion-winner draws Birmingham City interest - The72",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZmx4NDZXUVlRbFRFX1JyajUtY2I0d0hsalVURWdobjI1MWZQdXFDT3EtMW5YRUo3N2JtRnEzVG9mWGNCc0FzRlFoWG1kQ01uT2dTUUFDeFR3cms1M0lRcE0wa3dkMzVuMlZTNjNpOUpPY2Jwd2ZPTFpGQTJuMWltSUQtNldXNXFWTm0w?oc=5",
+            "published": "Thu, 30 Jul 2026 07:00:00 GMT",
+            "text": "Ipswich Town promotion-winner draws Birmingham City interest The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Birmingham City agree Premier League winger deal ahead of Championship rivals - The72",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUVEwVmxYdDJWVzNhbTFicFU5RTNxYzdNSU1VUl8yVnRNeHFzbnhBOVF6c29mbFRuZHNuLUwxZHFOajU5T0pvb096RlhGQ3p0S0dqdHpSakc5aEVhUEFHdFZZZmtYR21vNk95SEhabV9odnJlR3p6YXdnT3RrRkFlcGJCRlJrOHM?oc=5",
+            "title": "Birmingham City ace on radar of Premier League new boys - The72",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWU2dU9BVlpkZTU0TjFiWW53UnUxc19NNzRaY1l5WFRaZXVteDFxZFB5U1JUWTVWV0JYM1I1VFNnelFSMmtNeXYyd3RKeUJoeFdwenBsenc3WkVJZG9zc2ZDYmF4eDQzVk5LbmtWUkVFZV94RnV6TktOM3pCbXhvUFNjbVZkNV9U?oc=5",
+            "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+            "text": "Birmingham City ace on radar of Premier League new boys The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Birmingham City man \"looked good\" against Sheffield United last time out, says EFL expert - The72",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPalhNbDBwb01qa194ejBYbFRRMUF4bXhJUHdpdms1VnR4SXJPTkZjaTAxWHdfYlh4WkxUNFpScG13ajhCMGlBdkJQRmhhV3g3RzZuNk94MlRPWVZNbF9LRm95el9UR0FCTmxTQTA0MjRSQ2M0ODNGaU5HVjdvYnVONE9LS2ZRc0dpcHhBc3NqdkpsbmFva0p5aXFHcmRBVVE?oc=5",
+            "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+            "text": "Birmingham City man \"looked good\" against Sheffield United last time out, says EFL expert The72",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Birmingham City's Phil Neumann clarifies stance on future - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XVm1PNDl5bnJQcWZISVVfNm1QSlpvM1l4OFhOQlJHVDA2d1l5MzVkSkZTM1JUc1N1N0xRNmJyZWR3MGozcmJtNmo2YTBvUUdZNDBQVUNqM3FrVng0WmRneG5USTdtN3dfdU5pZVdEV29YcnZDTGxIaTFR?oc=5",
+            "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+            "text": "Birmingham City's Phil Neumann clarifies stance on future The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Birmingham City pull out of deal to sign 24-year-old forward with Hull City man set to join - The72",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX25tQnRiM0FxaWk4SHNRT2NPbkZsOHpEdlp6QmNaZElBN0dRZ25VMFAwNjhHU051dHNRX1NRUWNZQ2tJcmFUQTBLSU1wTjU0c0hNajg2Q01tNEhyY3pvaWJhZjdRMFFSU0ZVZ3FCUGI2YVhJVGtocXdoY0N0cVdpTDZ4VG9FWTY2?oc=5",
             "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-            "text": "Birmingham City agree Premier League winger deal ahead of Championship rivals The72",
+            "text": "Birmingham City pull out of deal to sign 24-year-old forward with Hull City man set to join The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "'Different beast' Birmingham City backed to win again in Swansea City clash predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNblVIZkJZYWhZaTlZbEl1RDMyUjNWeGFITTFwWlFDSVZDeXE3b0ZCaU1DSFd5cVdTbWZ5ZldWZjVaVE9tWDExd05CMEU4dlFLUm91aG9hQlFmaS1Rb2l5OGN5RHhaT2NiNkVxMVlDb0s3SEl4REEwbER2eEFvWktFdA?oc=5",
-            "published": "Thu, 05 Nov 2026 08:00:00 GMT",
-            "text": "'Different beast' Birmingham City backed to win again in Swansea City clash predictions The72",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "'Bigger teams will come good': EFL expert sends Birmingham City promotion warning amid stunning Championship form - The72",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFctdFVUNlNMUWpheFBJVG0zbndCcWI2OTl3SnZNV0s4SEV0djhzeUtJbGhuMnFFYzRWbVM5dnR5dEhWVmlCdEkzNjhCRDFVcHVfSGMxQmxRN1N1aUF5a0RUdlVfSXFkTDNhOXgzQ0dGSEJVUTVaRnN6LTh6aUFFd2pXQjM?oc=5",
-            "published": "Wed, 11 Nov 2026 08:00:00 GMT",
-            "text": "'Bigger teams will come good': EFL expert sends Birmingham City promotion warning amid stunning Championship form The72",
-            "language": "en",
-            "sentiment": 1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Birmingham City man hailed by reporter for his ‘quality’ after eye-catching start to the season - The72",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdUt3Zml5S19qdTh1ZS1PbmxWQ2QxOXVQR3VadENMRFJkTFJjb2lsZ3AtRS13MlZnTmFqeENyTXpUb09jUlY4dTBMVVpwS24zUnNNeFVsamhWWGczbHFNeEVpaGJoNG13NXZWeWt2QTdnbFZZbUVDaWoyLVNOWkVrZmFYTTVsRHc?oc=5",
-            "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-            "text": "Birmingham City man hailed by reporter for his ‘quality’ after eye-catching start to the season The72",
+            "title": "Hull City plot surprise move for Birmingham City star - The72",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak9rcWw3X0VHWHE4U1g4SVBQNTFaaXU1cURydDItVWJOWVRIcGVnMDdXSFNIVEY0MU5KRlJFeVBoNDExdl91cnJkYnVrS3d1ZVRQSVZWTm9wekJQN1luaVVTNUdSbktROURjd25nNDdJQjRHSDJ6c090dnlGcEhtTzhsRQ?oc=5",
+            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+            "text": "Hull City plot surprise move for Birmingham City star The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Birmingham City want Hull City promotion hero from Leeds United - The72",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNVEwcE15YWdfMGZSb1ZrX3JoNmVYM29vVkFLTnBkeURJMzFxYWtYbEstZmhBdWtxWmVYcS1JMEJjTWZDOTg0RDQteDh1TldIdTFZcktpN3YwclNXeExJdjRLLUFibEl6MUgyLXZNV2hIbEszSS1SclF6b3cwaG1IZTJBZEl1dTVGYVV5OW1jNlE?oc=5",
-            "published": "Mon, 03 Aug 2026 07:00:00 GMT",
-            "text": "Birmingham City want Hull City promotion hero from Leeds United The72",
+            "title": "\"They could struggle\": Birmingham City vs Bristol City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEgyWFYzNDBRVmtpUnUyVmF1NlR5OHZPaHBFZk5PRmhfSVhfNnpwVWhMeDhNZjJPOUg1d1ljMmlfcl95TlZWaEhyMDVEbnVKdDV5LVZOOHIyeFNJSjZaVUhzWXgyWWtHbnpsTHZOWUxxOE5Lb1RDRU9TSlhKVFNNeQ?oc=5",
+            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+            "text": "\"They could struggle\": Birmingham City vs Bristol City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "'One of the Championship’s games of the weekend': Stoke City vs Birmingham City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUxucFhNUFgxbFdGOURDazNMVmlhOUpXSldieHRxYTV0Sk9NbmZYbmZQWEtTSHNtX1JzWFVzUHZZeHpfeEcyZFJfRzlqeEU0WkpEZHdlTFZ6d3NDWTBvc0ZfQkd1V0FvZkxXSjB2Z3d1SHVLVWNLYzVpV1RmdWV4b1J4UXZsMjN5cmlEM3ZPUndIcWtaTURqSDVoTXJ5XzlDM252YUlicTc0T3pnYzRqQkJSeVZrTFNtNjVB?oc=5",
-            "published": "Thu, 19 Nov 2026 08:07:00 GMT",
-            "text": "'One of the Championship’s games of the weekend': Stoke City vs Birmingham City predictions The72",
+            "title": "Birmingham City could offload 29-year-old in January, summer exit didn’t materialise - The72",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORld3Vm5vd2stTnlKdmRiVUpVazkwb252RW5BTFc5dHJTMUZnWkFVWmlDU3lpUE41OVk3a004UG9rdndoX2FIcnJGVFNWSUt4VTdpZ1FueUUyc0ZKV28yNlFNR2l4d1QzSTBwRmlCTVB1UzIwalJoN3ZueHpzR1c3bW1n?oc=5",
+            "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+            "text": "Birmingham City could offload 29-year-old in January, summer exit didn’t materialise The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Birmingham City transfer update regarding Joe Gelhardt pursuit from Leeds United - The72",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWThGQmNlZ0RVbHRpSUFiT2s3MDNGcGlQZkYtZzYyUWFhM21HMHJfdnFYSW5tNTBNTE81SnhnWXFqSGxoelE3UDFlZHNUMnNUTHozV1k2NUZ0Z1JURDlKY0xVSnJGdHEwUnNSYTJwNHJmTHpOaWZWTjFkQ1BCa0VIZTBjRGpmY1h1THZDQWdjMzdOUGZiTE54MlFwUGJZUW8?oc=5",
+            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "text": "Birmingham City transfer update regarding Joe Gelhardt pursuit from Leeds United The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "‘Have to toughen up’: Cardiff City vs Birmingham City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSnNQNkE4LXpGYUZ3LVdJQlBKV0g5a0YxTEptRDVxSjdJMk9pdGlEbzlwWFVhaDl5Qk82QXRWZERIa0FrVEt1ay1PaGJuT3g0VEdod2hFcXdQb0xhcVpjbTY3ekdzS2tnUEE1OHUtT0lJX2dZV2xzeUZRb18tUVZRcg?oc=5",
+            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+            "text": "‘Have to toughen up’: Cardiff City vs Birmingham City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2853,10 +2675,10 @@
           },
           {
             "source": "Google News RSS",
-            "title": "\"They could struggle\": Birmingham City vs Bristol City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEgyWFYzNDBRVmtpUnUyVmF1NlR5OHZPaHBFZk5PRmhfSVhfNnpwVWhMeDhNZjJPOUg1d1ljMmlfcl95TlZWaEhyMDVEbnVKdDV5LVZOOHIyeFNJSjZaVUhzWXgyWWtHbnpsTHZOWUxxOE5Lb1RDRU9TSlhKVFNNeQ?oc=5",
-            "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-            "text": "\"They could struggle\": Birmingham City vs Bristol City predictions The72",
+            "title": "'One of the Championship’s games of the weekend': Stoke City vs Birmingham City predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUxucFhNUFgxbFdGOURDazNMVmlhOUpXSldieHRxYTV0Sk9NbmZYbmZQWEtTSHNtX1JzWFVzUHZZeHpfeEcyZFJfRzlqeEU0WkpEZHdlTFZ6d3NDWTBvc0ZfQkd1V0FvZkxXSjB2Z3d1SHVLVWNLYzVpV1RmdWV4b1J4UXZsMjN5cmlEM3ZPUndIcWtaTURqSDVoTXJ5XzlDM252YUlicTc0T3pnYzRqQkJSeVZrTFNtNjVB?oc=5",
+            "published": "Thu, 19 Nov 2026 08:07:00 GMT",
+            "text": "'One of the Championship’s games of the weekend': Stoke City vs Birmingham City predictions The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2871,19 +2693,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "‘Have to toughen up’: Cardiff City vs Birmingham City predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSnNQNkE4LXpGYUZ3LVdJQlBKV0g5a0YxTEptRDVxSjdJMk9pdGlEbzlwWFVhaDl5Qk82QXRWZERIa0FrVEt1ay1PaGJuT3g0VEdod2hFcXdQb0xhcVpjbTY3ekdzS2tnUEE1OHUtT0lJX2dZV2xzeUZRb18tUVZRcg?oc=5",
-            "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-            "text": "‘Have to toughen up’: Cardiff City vs Birmingham City predictions The72",
+            "title": "'Different beast' Birmingham City backed to win again in Swansea City clash predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNblVIZkJZYWhZaTlZbEl1RDMyUjNWeGFITTFwWlFDSVZDeXE3b0ZCaU1DSFd5cVdTbWZ5ZldWZjVaVE9tWDExd05CMEU4dlFLUm91aG9hQlFmaS1Rb2l5OGN5RHhaT2NiNkVxMVlDb0s3SEl4REEwbER2eEFvWktFdA?oc=5",
+            "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+            "text": "'Different beast' Birmingham City backed to win again in Swansea City clash predictions The72",
             "language": "en",
-            "sentiment": 0.0
+            "sentiment": 1.0
           },
           {
             "source": "Google News RSS",
-            "title": "“One to watch”: Swansea City vs Birmingham City Carabao Cup predictions - The72",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdWZ5WjlDNTZFaXBtWWlWWWd2OVhubk1tbWQ1d2tuTXpCRjcxeDdBM2ZwUUlQblFZZGFMbzI2X25zeVdJbm9qbE9pNUN6TUlPOENfZkVZTlljS0NjdXRjWFFFMWtnY1VOZzc4TGtDN3RHQWRFOTJ6QUc4VUtxbmZDUkxWNWgyMHNiM0ZqZA?oc=5",
-            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-            "text": "“One to watch”: Swansea City vs Birmingham City Carabao Cup predictions The72",
+            "title": "‘I think’: Ex-EFL player on Birmingham City’s chances of promotion - The72",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQTVjSV9WblFlenB6bWJIZDlMUUVhbWxqUTNCS3JPN0RCdWYtOHR6OW41WFo5d1h6NmRtZEZpQjJHUW9FNFdSSXJNeUxlOXJnaHVoQWJyb3ZyYWI4ajBLdjJqVnBZN1RyX3ZTa2lIS3E5NXJDbmZWbHZJdUpsY1dXdlRIRFB3emJOdkE?oc=5",
+            "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+            "text": "‘I think’: Ex-EFL player on Birmingham City’s chances of promotion The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2898,6 +2720,15 @@
           },
           {
             "source": "Google News RSS",
+            "title": "“One to watch”: Swansea City vs Birmingham City Carabao Cup predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdWZ5WjlDNTZFaXBtWWlWWWd2OVhubk1tbWQ1d2tuTXpCRjcxeDdBM2ZwUUlQblFZZGFMbzI2X25zeVdJbm9qbE9pNUN6TUlPOENfZkVZTlljS0NjdXRjWFFFMWtnY1VOZzc4TGtDN3RHQWRFOTJ6QUc4VUtxbmZDUkxWNWgyMHNiM0ZqZA?oc=5",
+            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "text": "“One to watch”: Swansea City vs Birmingham City Carabao Cup predictions The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "\"Hit and miss\": Birmingham City vs Wolves predictions - The72",
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaUlEeVhpQzZobWZzSWtad2VlNW1xNEZiU3M0ZGozQXNKWU1NRXVZeEdOeUdaZV9mZWw2d1FhUlJHRDFyZV84aHpYV1FuajhjWkZROS1EWldiaGxCN2FoSnkxcjc0b2d6eEhfTThYc0l5cnBqek9heTJfZWNCUmFVVEdOcVFJM19hYnc?oc=5",
             "published": "Fri, 04 Sep 2026 07:00:00 GMT",
@@ -2907,19 +2738,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Birmingham City FC News - The72",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qcEFUYXZxbHVuaWJ2M2Z0OVdZRTI3MHFuaFdxWW5NLXg1ZkctN25kVDczOXJGRkcyVFJXXzRaYTBJT1JEUVRtaDkwY2RpRlY1RjREZWNQTWNQd3pCczkxYlFTWW1ELXN3VFJQSjdn?oc=5",
-            "published": "Wed, 18 Jun 2025 18:51:35 GMT",
-            "text": "Birmingham City FC News The72",
+            "title": "FA Cup third-round draw recap - Man Utd play Brighton, Spurs host Villa, Macclesfield v Palace - TNT Sports",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWmdDdmY5bU92S0tnUmNKaGxjM2xZdF9MLTZNbXFXZXc0V3haQU44Nms2NkZSUnNvenN6c0psUThYa2RMbWNMRDViNVlTZ2dTdWFLRWItUkloVjl6RU43OXVQOC13U24wei1EaW5JLUtEWEpUYXEwbXp2dmZQT0pXVkgzVWZ5bkhJMWd2aW9XWGRfOTFjQnduV0VPMHMwX0RiUHk2aHdfQ1pkbEx6NnBGd2JWM1ZZdURMczFqZUVUbDRzNEZIYnNBcFEzQUpyNklhU0hFcE5oZGtPb2dVOTljR2t2NGwtd0JaR2EyYjg2RTlldmZM?oc=5",
+            "published": "Thu, 11 Dec 2025 08:00:00 GMT",
+            "text": "FA Cup third-round draw recap - Man Utd play Brighton, Spurs host Villa, Macclesfield v Palace TNT Sports",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "FA Cup third-round draw recap - Man Utd play Brighton, Spurs host Villa, Macclesfield v Palace - TNT Sports",
-            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWmdDdmY5bU92S0tnUmNKaGxjM2xZdF9MLTZNbXFXZXc0V3haQU44Nms2NkZSUnNvenN6c0psUThYa2RMbWNMRDViNVlTZ2dTdWFLRWItUkloVjl6RU43OXVQOC13U24wei1EaW5JLUtEWEpUYXEwbXp2dmZQT0pXVkgzVWZ5bkhJMWd2aW9XWGRfOTFjQnduV0VPMHMwX0RiUHk2aHdfQ1pkbEx6NnBGd2JWM1ZZdURMczFqZUVUbDRzNEZIYnNBcFEzQUpyNklhU0hFcE5oZGtPb2dVOTljR2t2NGwtd0JaR2EyYjg2RTlldmZM?oc=5",
-            "published": "Thu, 11 Dec 2025 08:00:00 GMT",
-            "text": "FA Cup third-round draw recap - Man Utd play Brighton, Spurs host Villa, Macclesfield v Palace TNT Sports",
+            "title": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled - The72",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQm1hNmNUVGJla3ZVSGNVVFAyQk1uUVBLZWJ3SldGektneXZlZkJmU3g5Ui1mNXJSbEFyMnNSbUFZNldDX296b2FnUU5yQlFGNk1UcmhyTmVTanZ6akZFMnAxb2tweU9EaHhTMkFya0Nlb05vVmdKSURRY1k2dHl6ZzI5Q3BKbnk3T3BDMm1QZTFRQWlLMGwyMm9hakpncGk5bm15RlAxcTlNdDBLanBkWXZOV1ladW5SZzNabm5rbm9FQ1prckxUNGNrTEx4Zw?oc=5",
+            "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+            "text": "Bolton Wanderers team news and predicted XI to face Bristol City, with Chris Forino instantly recalled The72",
             "language": "en",
             "sentiment": 0.0
           },
@@ -2979,19 +2810,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rTHdnTGIzVkJpNm9FTmJuTW9JV1JZRFRJa2VMLTJ3Q2RoLWtDS3pUS3hvX0xtT1Bfc3NTM3dTU1BVYXFObU9LU1dHRjVHNWt0OEdla3JrMkc2X2s2aF8w?oc=5",
-            "published": "Fri, 04 Dec 2020 14:56:09 GMT",
-            "text": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "title": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKY0FMd01KeDJBU2ZmWDhza21pZ0NVYUgyaC1tUG44QkJXMGJNZDJMa1lHdlZkeTZ3eWREYUYyWUlHYXZSUXVRVFR1N1lpNk9xY25paXpRNnViTUFDRnZXa1ZmUEN0ZnR6NVAxUVJRaw?oc=5",
+            "published": "Sun, 06 Dec 2020 18:57:31 GMT",
+            "text": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKY0FMd01KeDJBU2ZmWDhza21pZ0NVYUgyaC1tUG44QkJXMGJNZDJMa1lHdlZkeTZ3eWREYUYyWUlHYXZSUXVRVFR1N1lpNk9xY25paXpRNnViTUFDRnZXa1ZmUEN0ZnR6NVAxUVJRaw?oc=5",
-            "published": "Sun, 06 Dec 2020 18:57:31 GMT",
-            "text": "Wolverhampton Wanderers FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
+            "title": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler - FootyStats",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rTHdnTGIzVkJpNm9FTmJuTW9JV1JZRFRJa2VMLTJ3Q2RoLWtDS3pUS3hvX0xtT1Bfc3NTM3dTU1BVYXFObU9LU1dHRjVHNWt0OEdla3JrMkc2X2s2aF8w?oc=5",
+            "published": "Fri, 04 Dec 2020 14:56:09 GMT",
+            "text": "Southampton FC (İngiltere) - Sonuçlar, İstatistikler, Kadro, Fikstürler FootyStats",
             "language": "tr",
             "sentiment": 0.0
           },
@@ -3278,8 +3109,8 @@
         }
       },
       "intelligence": {
-        "mentions": 29,
-        "web_score": -0.1379,
+        "mentions": 35,
+        "web_score": -0.0571,
         "confidence": 1.0,
         "sources": [
           "Google News RSS"
@@ -3290,10 +3121,46 @@
         "items": [
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers VS Stoke City: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWxyQnF5X191NGF4VVFTMG9yVURhTjR1OTNYQmFXcDREUTdudGo5TDRENXB0SG9mYWI0Nm9QUWJ6T0w3M0ZBbTFlRU5CU0VONXZzdmJIZEVxSEgxeTNFdWVLZVlKQzNSbjA2OWlhUGtzNkRCTzdkM01RSkUxM19EZ2dhQUNCMnZvaUg3eS1zc0RVV1RjaUE?oc=5",
-            "published": "Mon, 17 Feb 2025 16:41:27 GMT",
-            "text": "Blackburn Rovers VS Stoke City: Live Scores, Lineups, H2H & Odds 365Scores",
+            "title": "How to watch Watford v Blackburn Rovers: Live stream, TV channel and kick-off time - news.bet365.com",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMFFKcHpIUkJ4RnZabldzdDJUYnNZcFhFbDY3QmRzWmhiUi1xV20zYm5ydk54TGFvbXhMZHhTMC1FLVNqVi12SW1OVzk0RDg4akw5UnJvV2p6LUZWZzdYWklQWVNQN1JJTzFULUpxdGNQSlo5NmdpSnUtdm9vZGw3LWJpQ09UT0tDaUQ1Mnp0NUN6d1ZuMEt1ZFFVY2FzSWl1TFJiNjVUblgwa0ppM2g3RUxyMnUwQllfWlczMjE3WExsX19uTVVMb0ZMRXNidk9DNThzWQ?oc=5",
+            "published": "Wed, 25 Nov 2026 07:40:10 GMT",
+            "text": "How to watch Watford v Blackburn Rovers: Live stream, TV channel and kick-off time news.bet365.com",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Andri Guðjohnsen (Blackburn Rovers) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GSmpuaHotZnVfR2gyVHJaTEJkdm0zY1RXNy1wUTdXczFJaW1QaGdNNGktSjFzZXl6MUN1M2dMSGs5aFFnRUNNWXZ0T3ZKYmxCRG9YeE5hRlpRX0VHWi1CV0lKTTNwZ1c0ZjVTY0VYamV6VW8?oc=5",
+            "published": "Sat, 28 Mar 2026 20:02:17 GMT",
+            "text": "Andri Guðjohnsen (Blackburn Rovers) - Bio, stats and news 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Exclusive: Blackburn Braced for Lewis Travis Departure with Derby Leading the Chase - SportsBoom UK",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdTBleWxkOTdEZXZXRTVCR2VaWGgyS0lzQkF1LXM1cDFNRHFLZFpRenZvVV9mWGx6RmZKVWFMZnlMbTZteUlvdF82RVhWa2Iwc2Vqamc3UndYOU1mc1FGdnZCaUNsbkNBek9jRjlNT1EtN3M1VlNCOEt1YUZOSnp3dDY1M1hXUTJGZWx5Nm8zSXZYTDBQZXBhUm5jcVJzRmxsRURTMGV3WkVFQWxCS0JBdXA2bGd2QS0wTzBseXJGWjY5aEFJN3BVRQ?oc=5",
+            "published": "Mon, 27 Apr 2026 07:00:00 GMT",
+            "text": "Exclusive: Blackburn Braced for Lewis Travis Departure with Derby Leading the Chase SportsBoom UK",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Pre-match Watford vs Blackburn Rovers, Championship Round 17 - BeSoccer Livescore",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkRngwbXJGdmpxWVRZaHlra2JaRTIyWXJYUjhrQU1ic0F4TUtwYk5Rc3p0VERSMzYtQWdwYUlxbUFVS2hsWVBDTWllczFabE56VndqQXVNWDBILXJ5NXFzUWhxeWlhdWpqR09VODlaYm5pdnljejRWQU9LSQ?oc=5",
+            "published": "Sun, 12 Jul 2026 22:59:36 GMT",
+            "text": "Pre-match Watford vs Blackburn Rovers, Championship Round 17 BeSoccer Livescore",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Blackburn Rovers vs Lincoln: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVpBeTA5ZlRoRlR5QXVGTWJXTE5XS0xEX2lEVFV0WWZxUEZubW4wMVU5cWg2Q1otVGFueFEwVmtpbE43WXBWcGdnTVNWWFdDSjZkV0FzY1VLZndVZXZjUEp6QTB3cVVQbXdQdXpaUXNTaFM3VzB6RHJ5WWZpc1NBaThUczBJUjRoR2REelBNTjlvcFM2UUR3bjE5TQ?oc=5",
+            "published": "Thu, 25 Jun 2026 21:04:27 GMT",
+            "text": "Blackburn Rovers vs Lincoln: Scores, Results Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3308,37 +3175,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers VS Preston: Live Scores, Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1Y4aW00QjNqeVlDeTdvOGl0VjZtYk05d1RKX1NmdTRQWUtBLXZJdkY4UWtWVWFJaExwV2RIaHFSUW91c0wyc0RnOEpsOXZ3UTFBMXRxRVBQQ0NGMEVuOVJGa0s2WWxqcWhsLTVBalRoTENaV1RNSWhOUzZPU3pGUmt5MHhSdFlDQTgtaXBqZ2pLdmc?oc=5",
-            "published": "Tue, 23 Apr 2024 20:36:17 GMT",
-            "text": "Blackburn Rovers VS Preston: Live Scores, Lineups, H2H & Odds 365Scores",
+            "title": "Blackburn Rovers VS Stoke City: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWxyQnF5X191NGF4VVFTMG9yVURhTjR1OTNYQmFXcDREUTdudGo5TDRENXB0SG9mYWI0Nm9QUWJ6T0w3M0ZBbTFlRU5CU0VONXZzdmJIZEVxSEgxeTNFdWVLZVlKQzNSbjA2OWlhUGtzNkRCTzdkM01RSkUxM19EZ2dhQUNCMnZvaUg3eS1zc0RVV1RjaUE?oc=5",
+            "published": "Mon, 17 Feb 2025 16:41:27 GMT",
+            "text": "Blackburn Rovers VS Stoke City: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "Burnley 2 - 2 Blackburn Rovers (22/11) - Match Report - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODdKSkYyUmF3ZVRCN2FXdXlYcHh4RnFTOHZWS2dQdlZNZVZ2RWRhSUN4ZG9hRXd4a3lYMkQ2bHUycl9WWVBSa1RhQTVPYTNqQUJDWXYtbC1BSkhvQzBXWlhfQWlibDNCaHZ3WEZpbkFiM0lhOVlzUjd4aDBzOG5wOFJ6Tlo5X2wyazNtM3JSTi1HcWs?oc=5",
-            "published": "Fri, 08 Mar 2024 17:41:40 GMT",
-            "text": "Burnley 2 - 2 Blackburn Rovers (22/11) - Match Report 365Scores",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking - The72",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ROVRfNmxYMG1aMDltOVpPQ3EtLTV4VF9kcVZBWk00a1Q4amxWbS01Y0UtWHZoN2FSa0J2YkVrYnI2Zm1FZ2V0MUVtZUdlcnhmbElQRVNDSGJZc294bVl6S2J6OVRWd1VuQzZuX1ZpaUhlWm4xMUlvejQycw?oc=5",
-            "published": "Tue, 24 Nov 2026 08:28:00 GMT",
-            "text": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Watford vs Blackburn Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 - Sportsgambler",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlZwNElkR0FCdVVsbXdzdTVaODg3TTBBdjNIMVZud25BanNLN0JGMG80MXp5TzJFeFhOaFNtWU5PZVFTR0ZjWmZXaUVJSWdaM0FiUjlRSWNoZFcwWTVBWGlmT2pYRnVjdThhVng3bWNzZHFGU1dkelBYdzZzSHJvUWcwYk5mNzE4a09rYlJDakVHNVY5U1N2OWw1bmd5WjJOalZzS2VsVnpJM2ow?oc=5",
-            "published": "Tue, 24 Nov 2026 03:01:52 GMT",
-            "text": "Watford vs Blackburn Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 Sportsgambler",
+            "title": "Blackburn Rovers 0 - 1 Leicester City (05/02) - Match Report - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUlFEcWVyMTRBYXdJYnZCQXMyTzI4YS1JUkhnbjRMc3h6Y1NJN3RPWHJXTlRQajNfS1VpU2pkZnVQNmdTc1lzSXh5dVMtdktOTGJ1bDdjdFl1eVFQSWhzeks3VUtEU3poNjM4R3o1VEkzNW9HTGs1ZkF4cjRSUWszaFF5MWplaGZ1TW12UDhmOGNTYkM4dVN0N2lsa3Y?oc=5",
+            "published": "Mon, 17 Feb 2025 22:20:00 GMT",
+            "text": "Blackburn Rovers 0 - 1 Leicester City (05/02) - Match Report 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3353,10 +3202,28 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Southampton vs Blackburn Rovers: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXFtNzlTRXpxODJ5LUNXZjRHV1BJTTRGc1kwYzkwS0RLZ0U4akhMR3Rval9UVUc2bGR5YXZwcVRVRXRGQjNfU0FLdldBVXpKdHA4UjNtWFh2YW5sMkFIWnBaTEVjT29jN2VJcVdVelFrQzExalJDYUJ6Z0NCRXd1NzFMVE1FTkl0dFctbmxBcl91eXloTW1aQQ?oc=5",
+            "published": "Mon, 12 Feb 2024 05:39:52 GMT",
+            "text": "Southampton vs Blackburn Rovers: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Blackburn Rovers VS Wrexham: Live Scores, Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXlEQTVXQm92aHotOHltN24zSER6Q016a2RyS2RyZUpSTnI0WkdBMEs0ODJ2Z1VmQ3dwYXpGTThEMW9SZUNIc1drNlhUUFNwdGNYdXBodlpvME1DMFBEOTZMck9VMkxFNmtJMjBob21hOGgxWmR2NkZ6RlpGYTZzVlhIQlVyaVVKY2JIcFRHaXpWc00?oc=5",
             "published": "Thu, 26 Jun 2025 23:23:35 GMT",
             "text": "Blackburn Rovers VS Wrexham: Live Scores, Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Yuki Ohashi (Blackburn Rovers) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53eU05eXlRbWJVek9ITXl5MVVMN09hY2FmN1JYelg0VHJobU9pdEpBUGltb3JrampOOUtxWjR1aFI0SWxfTVAwNkdzUDRTcVNsSTRwclNNa0tNN0o5VDJ6ZTZjT2sxU0owVWhn?oc=5",
+            "published": "Tue, 07 Feb 2023 03:38:04 GMT",
+            "text": "Yuki Ohashi (Blackburn Rovers) - Bio, stats and news 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3371,46 +3238,19 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers set to sign free agent arriving after 15 goal/assist season - The72",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNzdMLTJkbDBKM2xTNjFfbXNjZEk5eEJteW1uLThBLW9oemFUQmxKMHpIOTM4dEVUakFLd1ByR2lKdU1IdVRHX1FtWGlWaElzZlJ5OGdsNEFKbWNya0NJVVplMWlIdFJ4LTdnSzdJeWY2Y0N1UWVBUURTMTBKT2tIeUpmNkZtYXc?oc=5",
-            "published": "Tue, 08 Sep 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers set to sign free agent arriving after 15 goal/assist season The72",
+            "title": "Oladapo Afolayan (Blackburn Rovers) - Bio, stats and news - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xTFNyci13SklBOWJ5Nkl4aEpxSEo0SUlJYVNBMlFBODE3enhhalpGZExHWWFhY3RySnM4Q3k1ZnFsdDlyZUJ2d2VMT3JTLXltNFdubGtERHNvRkQxdjctNmstYUN6NWItOEtEdE1QTUdoX1E?oc=5",
+            "published": "Mon, 01 May 2023 15:26:53 GMT",
+            "text": "Oladapo Afolayan (Blackburn Rovers) - Bio, stats and news 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
-            "title": "How Watford’s managerial situation has affected Blackburn Rovers preparation - Lancashire Telegraph",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmZmNUxORlBPazhSRno2Rl9lSkdWV29OVFM4OEE3NFk2OVc2LVctNS1yUE9kenJEaENmWlo3Sm96MEZnQmlPVWJ2SmREdWZiUUdISkRkd0M1a1RWclV6S2sycWUwT1VhTG5WalZNNzdWdUl0cVo0Q3FNWWFQSElxT2J3LW5wSHRtYVJkSFVPdVRTWVkweTg0OGhvY1A?oc=5",
-            "published": "Tue, 24 Nov 2026 12:49:20 GMT",
-            "text": "How Watford’s managerial situation has affected Blackburn Rovers preparation Lancashire Telegraph",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Blackburn Rovers eye free agent maestro after stunning 2025/26 season - The72",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkI0ZllHMXlEQTlCNkxaRGxYdzZHNXZ5NFFuVnRhcm5SaU5KRW1rZUFuSk40aTNIMm1uSkljaG5CTGJ1MzN3d2p3RjVmNEtHVWJmdy1vTWFmaUdkWDVMVWUyRVB3d0xHR053N01YM0FSTEE4MVhFOHZYMkxZb21IMlNzdzNrdHc?oc=5",
-            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers eye free agent maestro after stunning 2025/26 season The72",
-            "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Blackburn Rovers line up January move for Championship defender after injury scuppers summer swoop - The72",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1o4WGkzYmEtM2VQa1lQRG5DWlUyUEp6UmdmSTdyWjhYRzBwbHJNRDdZS1Z0WUxJNTBoR3UwWS13d3R1MzN4bVpJLV9SR2pjRnk1WDloRnQxT3l0NUVQS2J2LVJIWkJReDRqY2pJZ1dEM0JrZEJSLXBwYW04ajZuN1hXemY?oc=5",
-            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers line up January move for Championship defender after injury scuppers summer swoop The72",
-            "language": "en",
-            "sentiment": -1.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Blackburn Rovers in talks over move for free agent - The72",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUlc2dmJLYWVXVzJKcG9NLV9iSk9OSjcxWFFpbUtnV3JNMWxzYkZJdE5HSFlsMDJrNVdmeGZBemQ1SVF5QnZaMGYxS2ZSX0dkaVpjMUdxOXNGMFlXS05aN2Y4bWV6ajg4YkJiRjVKYWxZMVhIRTRqTmhNV0RlTm9PZks4MWRJOUk?oc=5",
-            "published": "Sun, 09 Aug 2026 07:00:00 GMT",
-            "text": "Blackburn Rovers in talks over move for free agent The72",
+            "title": "Sheffield Utd vs Blackburn Rovers: Live Scores, Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOGh3Y2VINTlUVGNGV0Z5OWZhUGFfVUFxaHR4TzR2UlFRRkY5dkNQNVFpVkJwRnl4cXNXcjdueVZ4ZWI3WFhtZnhQeWpYcVNzeDI0dExTWEtwNTN0NkVjSDdMZ1FnT0pUYTN4anFOWGprYUl5dk91UEwxOEphbnc3alRleWFJYlZ6QjJaR0hicmZycU1Zbk1EQUt3VQ?oc=5",
+            "published": "Sat, 09 Mar 2024 23:05:35 GMT",
+            "text": "Sheffield Utd vs Blackburn Rovers: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
           },
@@ -3434,21 +3274,30 @@
           },
           {
             "source": "Google News RSS",
+            "title": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking - The72",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ROVRfNmxYMG1aMDltOVpPQ3EtLTV4VF9kcVZBWk00a1Q4amxWbS01Y0UtWHZoN2FSa0J2YkVrYnI2Zm1FZ2V0MUVtZUdlcnhmbElQRVNDSGJZc294bVl6S2J6OVRWd1VuQzZuX1ZpaUhlWm4xMUlvejQycw?oc=5",
+            "published": "Tue, 24 Nov 2026 08:28:00 GMT",
+            "text": "Watford vs Blackburn Rovers predictions with 'problems' expected to continue despite Dionisi sacking The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Watford vs Blackburn Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 - Sportsgambler",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlZwNElkR0FCdVVsbXdzdTVaODg3TTBBdjNIMVZud25BanNLN0JGMG80MXp5TzJFeFhOaFNtWU5PZVFTR0ZjWmZXaUVJSWdaM0FiUjlRSWNoZFcwWTVBWGlmT2pYRnVjdThhVng3bWNzZHFGU1dkelBYdzZzSHJvUWcwYk5mNzE4a09rYlJDakVHNVY5U1N2OWw1bmd5WjJOalZzS2VsVnpJM2ow?oc=5",
+            "published": "Tue, 24 Nov 2026 03:01:52 GMT",
+            "text": "Watford vs Blackburn Prediction, Betting Tips, Lineups & Odds | 25 Nov 2026 Sportsgambler",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
             "title": "Middlesbrough VS Blackburn Rovers: Live Scores, Lineups, H2H & Odds - 365Scores",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMkFFSEJIcTk2Mko2VWt3UzZnQ2NLUmg4T19ZUW84ZDZVOVpYWjAtRDRBbmk3NGNTX1hEcGgyelU0MG4tZ2NxTmROWmdfS2pZc0NkOFhJdDRma2NWb1pjdjZKQ2FzSUFQOU84Z28zQ3FEN2hPb1N6VmxRckxtOENjZXNrVWtmdE5NazJxWEVqMmhmOHk3MmJ4a0gxemc?oc=5",
             "published": "Tue, 05 Mar 2024 08:27:08 GMT",
             "text": "Middlesbrough VS Blackburn Rovers: Live Scores, Lineups, H2H & Odds 365Scores",
             "language": "en",
             "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Key midfielder set for assessment as latest Blackburn Rovers injury update emerges for Watford test - The72",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWTlrd1JJbDNCOV9hTkxYd0ROdGlNOWFDUFVhekpwTVV1OEx6dUpEajBpeFlVQ0R6RUJYNUdzUDZzSjlfMDZkSkVZVDlSVC1kVGN6ZlkwNUVVY1BJaUhSOHluZlNDYTJfaVdVZkI4cHJ3RXJYZWxHVXRuSTZid2lkY19CVDQ?oc=5",
-            "published": "Tue, 24 Nov 2026 16:10:00 GMT",
-            "text": "Key midfielder set for assessment as latest Blackburn Rovers injury update emerges for Watford test The72",
-            "language": "en",
-            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -3461,21 +3310,12 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Blackburn Rovers vs Wolves: Scores, Results Lineups, H2H & Odds - 365Scores",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaU5jdGtQdVZndXlKRXc5dDVZdzVFdzRVUHNjcDJTNUFKejQza0VqSjFKUDZVTTBoTEd0bHpibF9nR3VVUnppSUdaZWJaYzZKd0d3V0N3aTlYa1FuUzNRNHQtRWxTVjNZalg2VVBVWDRfRjJMbTlYYVBfdHhpUVlUX2F0YUUxMHctUUlnVURhRkpCLW05VDZnSFVB?oc=5",
-            "published": "Wed, 26 Mar 2025 07:05:04 GMT",
-            "text": "Blackburn Rovers vs Wolves: Scores, Results Lineups, H2H & Odds 365Scores",
+            "title": "Key midfielder set for assessment as latest Blackburn Rovers injury update emerges for Watford test - The72",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWTlrd1JJbDNCOV9hTkxYd0ROdGlNOWFDUFVhekpwTVV1OEx6dUpEajBpeFlVQ0R6RUJYNUdzUDZzSjlfMDZkSkVZVDlSVC1kVGN6ZlkwNUVVY1BJaUhSOHluZlNDYTJfaVdVZkI4cHJ3RXJYZWxHVXRuSTZid2lkY19CVDQ?oc=5",
+            "published": "Tue, 24 Nov 2026 16:10:00 GMT",
+            "text": "Key midfielder set for assessment as latest Blackburn Rovers injury update emerges for Watford test The72",
             "language": "en",
-            "sentiment": 0.0
-          },
-          {
-            "source": "Google News RSS",
-            "title": "Burnley vs Blackburn Rovers predictions with ‘huge’ Tony Mowbray factor expected to play a part - The72",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90RlhVcmRoMHZOYzdEa2VUd0QtbkVFVko3MHdyNG5qSXMxTGZ2UGdvbmZjV3FFam8ycFN0enp4SWpIM3czOTZLYTJ5OHhTMVAzNnJrMkJEdWlEZGY5WlY0Ujh2emszOXJ5TENvRmk1MTNGSEdReTF1anZTOA?oc=5",
-            "published": "Fri, 20 Nov 2026 08:21:00 GMT",
-            "text": "Burnley vs Blackburn Rovers predictions with ‘huge’ Tony Mowbray factor expected to play a part The72",
-            "language": "en",
-            "sentiment": 0.0
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
@@ -3497,12 +3337,39 @@
           },
           {
             "source": "Google News RSS",
-            "title": "Opportunity knocks for £1.2m Blackburn Rovers man after injury blow to key player - The72",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZlpTS2NLTnQ4ZnN6R0lzVXdmUHZwaHl5S3BXRFo0SDNvSE96bkpNamQzQXZaUUFOZEtoMnAwNW90ank2QVdBLVBQNHdNcjFpbUFiX3RZQUVIU0J4dmUySXZtaEdyM21RUVN3QllHQkJmZy1GZkRtU3RwQVNYZkFTcExXaEI0OV85?oc=5",
-            "published": "Sat, 21 Nov 2026 10:05:00 GMT",
-            "text": "Opportunity knocks for £1.2m Blackburn Rovers man after injury blow to key player The72",
+            "title": "\"Another winnable game\": Preston North End vs Watford predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WVkhIcTNva3BucVMxUDFPUzY5VlliMjBZRkhfWHR2eGM0bEU4RjdmdFRNZXpIaDVGZEJINW1ueHJQV0F2MDk1ZW9mUE1mS3VHMjBQX19Fbl9GZUF3ZXh2LW9ZYkR6bzRWZkFaNkprSnh6SnpzTHNnYkk2Vy0?oc=5",
+            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+            "text": "\"Another winnable game\": Preston North End vs Watford predictions The72",
             "language": "en",
-            "sentiment": -1.0
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "“A tough night at the start of a long season”: Wolves vs Blackburn Rovers predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HZzNCUTAwdml1bGZKX21RRndIc1ExS3pwZUZZUUxiUnFrYVcwX0UxWnlGdUF1dEhqVnJtY3FYeVhkY3JXVmFuSnZYMXNITmoxTE04dGtaM0VCbnd4aG5UZkF0VnRSdjd4aUlnT3VFVndPajB5R2RJc1p3?oc=5",
+            "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+            "text": "“A tough night at the start of a long season”: Wolves vs Blackburn Rovers predictions The72",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "\"So far so good\": Swansea City vs Watford predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa19PRDNqMWxUajhoUmx6RlVoVHJuYUNSVmtSM0hsVVhoUlB2c0NkNGdmZUo4SHpjNjRHclVGQmVJWFdZaHh6NzdQYVdIMkg0dnBzZlpkYWNqR3Q1bG9EcEFSZ0cxQ3UwRHNmU3pEWFpseDgwZnF1WS1ScVhhWVpid2t2Q2MyUTFYVXc?oc=5",
+            "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+            "text": "\"So far so good\": Swansea City vs Watford predictions The72",
+            "language": "en",
+            "sentiment": 1.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "\"A much-needed three points\": Watford vs West Ham predictions - The72",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX0NWUmVmQVhRclBISlFDY0dKM2FqSW8zcUVMRmxtTl9vbEZsa2xkdG9qMnBCZGxfNVRfVmMxbnVxUTN4aGhhanM1OTVFcm1IbFNGcE0xT19PUGV0SzJGZ1JidndHX3RfeklyUHE4N1lUZ0Y4dHFiem5zNFlJelpZNUFrMHpxNTJSMWVPNUU4YkpfT2Zq?oc=5",
+            "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+            "text": "\"A much-needed three points\": Watford vs West Ham predictions The72",
+            "language": "en",
+            "sentiment": 0.0
           },
           {
             "source": "Google News RSS",
@@ -3512,6 +3379,24 @@
             "text": "Preview: Watford vs Blackburn Rovers - prediction, team news, lineups Sports Mole",
             "language": "en",
             "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Blackburn Rovers vs Wolves: Scores, Results Lineups, H2H & Odds - 365Scores",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaU5jdGtQdVZndXlKRXc5dDVZdzVFdzRVUHNjcDJTNUFKejQza0VqSjFKUDZVTTBoTEd0bHpibF9nR3VVUnppSUdaZWJaYzZKd0d3V0N3aTlYa1FuUzNRNHQtRWxTVjNZalg2VVBVWDRfRjJMbTlYYVBfdHhpUVlUX2F0YUUxMHctUUlnVURhRkpCLW05VDZnSFVB?oc=5",
+            "published": "Wed, 26 Mar 2025 07:05:04 GMT",
+            "text": "Blackburn Rovers vs Wolves: Scores, Results Lineups, H2H & Odds 365Scores",
+            "language": "en",
+            "sentiment": 0.0
+          },
+          {
+            "source": "Google News RSS",
+            "title": "Blackburn Rovers line up January move for Championship defender after injury scuppers summer swoop - The72",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1o4WGkzYmEtM2VQa1lQRG5DWlUyUEp6UmdmSTdyWjhYRzBwbHJNRDdZS1Z0WUxJNTBoR3UwWS13d3R1MzN4bVpJLV9SR2pjRnk1WDloRnQxT3l0NUVQS2J2LVJIWkJReDRqY2pJZ1dEM0JrZEJSLXBwYW04ajZuN1hXemY?oc=5",
+            "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+            "text": "Blackburn Rovers line up January move for Championship defender after injury scuppers summer swoop The72",
+            "language": "en",
+            "sentiment": -1.0
           },
           {
             "source": "Google News RSS",
